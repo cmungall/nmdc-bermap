@@ -7,7 +7,8 @@
     location, funding_info, badge %}
 {% from 'sections.html.j2' import studies_section, publications_section,
     datasets_section, analyses_section, capabilities_section,
-    field_sites_section, technologies_section %}
+    field_sites_section, technologies_section, isolate_collections_section,
+    phenotype_assays_section %}
 
 {% macro render_program(program, program_type) %}
 <details class="program {{ program_type }}" id="{{ program.id | default('unknown') }}">
@@ -55,6 +56,22 @@
         <div class="field">
             <span class="field-label">Funding:</span>
             <span class="field-value">{{ funding_info(program.funding) }}</span>
+        </div>
+        {% endif %}
+
+        {# OtherProgram-specific fields #}
+        {% if program.initiative_name %}
+        {{ field('Initiative', program.initiative_name) }}
+        {% endif %}
+
+        {% if program.funding_period %}
+        {{ field('Funding period', program.funding_period) }}
+        {% endif %}
+
+        {% if program.participating_offices %}
+        <div class="field">
+            <span class="field-label">DOE offices:</span>
+            <span class="field-value">{{ program.participating_offices | join(', ') }}</span>
         </div>
         {% endif %}
 
@@ -142,6 +159,9 @@
         </div>
         {% endif %}
 
+        {# Phenotype assays #}
+        {{ phenotype_assays_section(program.phenotype_assays) }}
+
         {# Services (for facilities) #}
         {% if program.services %}
         <div class="field">
@@ -158,6 +178,7 @@
 
         {# Collapsible sections #}
         {{ field_sites_section(program.field_sites) }}
+        {{ isolate_collections_section(program.isolate_collections) }}
         {{ studies_section(program.studies) }}
         {{ analyses_section(program.analyses) }}
         {{ publications_section(program.key_publications) }}

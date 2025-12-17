@@ -12,6 +12,8 @@
     --accent-ess-sfa-light: #f3e5f5;
     --accent-facility: #e65100;
     --accent-facility-light: #fff3e0;
+    --accent-other: #00838f;
+    --accent-other-light: #e0f7fa;
     --link-color: #1976d2;
     --chip-bg: #e8eaf6;
     --chip-text: #3f51b5;
@@ -171,6 +173,7 @@ footer {
 .program.gs-sfa > summary { border-left-color: var(--accent-gs-sfa); }
 .program.ess-sfa > summary { border-left-color: var(--accent-ess-sfa); }
 .program.facility > summary { border-left-color: var(--accent-facility); }
+.program.other > summary { border-left-color: var(--accent-other); }
 
 .program-name {
     font-size: 1.05em;
@@ -238,6 +241,17 @@ footer {
 .chip.modality { background: #fce4ec; color: #c2185b; }
 .chip.service { background: #fff3e0; color: #e65100; }
 .chip.institution { background: #f3e5f5; color: #7b1fa2; }
+.chip.phenotype-assay { background: #fff8e1; color: #f57f17; }
+
+.count-badge {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    margin-left: 8px;
+}
 
 /* Links */
 a {

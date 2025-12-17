@@ -70,10 +70,10 @@
         {% if study.brc_dataset_ids %}
         {{ field('BRC Dataset IDs', study.brc_dataset_ids | join(', ')) }}
         {% endif %}
-        {% if study.primary_reference %}
+        {% if study.primary_reference_info %}
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value">{{ doi_link(study.primary_reference) }}</span>
+            <span class="field-value">{{ doi_link(study.primary_reference_info.reference.id) }}{% if study.primary_reference_info.reference.title %} - {{ study.primary_reference_info.reference.title }}{% endif %}</span>
         </div>
         {% endif %}
     </div>
@@ -162,10 +162,10 @@
         {% if ds.size %}
         {{ field('Size', ds.size) }}
         {% endif %}
-        {% if ds.primary_reference %}
+        {% if ds.primary_reference_info %}
         <div class="field">
             <span class="field-label">Reference:</span>
-            <span class="field-value">{{ doi_link(ds.primary_reference) }}</span>
+            <span class="field-value">{{ doi_link(ds.primary_reference_info.reference.id) }}{% if ds.primary_reference_info.reference.title %} - {{ ds.primary_reference_info.reference.title }}{% endif %}</span>
         </div>
         {% endif %}
     </div>
@@ -217,10 +217,10 @@
             <span class="field-value">{{ data_types(analysis.output_data_types) }}</span>
         </div>
         {% endif %}
-        {% if analysis.primary_reference %}
+        {% if analysis.primary_reference_info %}
         <div class="field">
             <span class="field-label">Reference:</span>
-            <span class="field-value">{{ doi_link(analysis.primary_reference) }}</span>
+            <span class="field-value">{{ doi_link(analysis.primary_reference_info.reference.id) }}{% if analysis.primary_reference_info.reference.title %} - {{ analysis.primary_reference_info.reference.title }}{% endif %}</span>
         </div>
         {% endif %}
     </div>
@@ -353,5 +353,99 @@
     {% endfor %}
     </div>
 </details>
+{% endif %}
+{% endmacro %}
+
+{# ---- Isolate Collections Section ---- #}
+{% macro isolate_collections_section(collections) %}
+{% if collections %}
+<details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">{{ collections | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for coll in collections %}
+        {{ isolate_collection_item(coll) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro isolate_collection_item(coll) %}
+<details class="item isolate-collection">
+    <summary>
+        <span class="item-title">{{ coll.name }}</span>
+        {% if coll.isolate_count %}
+        <span class="count-badge">{{ coll.isolate_count }} isolates</span>
+        {% endif %}
+    </summary>
+    <div class="item-content">
+        {% if coll.description %}
+        <p class="description">{{ coll.description }}</p>
+        {% endif %}
+        {% if coll.organism_types %}
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value">{{ chip_list(coll.organism_types, 'keyword') }}</span>
+        </div>
+        {% endif %}
+        {% if coll.genome_count %}
+        {{ field('Genomes sequenced', coll.genome_count) }}
+        {% endif %}
+        {% if coll.source_environments %}
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value">{{ chip_list(coll.source_environments, 'keyword') }}</span>
+        </div>
+        {% endif %}
+        {% if coll.host_organisms %}
+        <div class="field">
+            <span class="field-label">Host organisms:</span>
+            <span class="field-value">{{ coll.host_organisms | join(', ') }}</span>
+        </div>
+        {% endif %}
+        {% if coll.isolation_methods %}
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">{{ coll.isolation_methods | join(', ') }}</span>
+        </div>
+        {% endif %}
+        {% if coll.culture_collection_url %}
+        <div class="field">
+            <span class="field-label">Culture collection:</span>
+            <span class="field-value"><a href="{{ coll.culture_collection_url }}" target="_blank">Browse/Request</a></span>
+        </div>
+        {% endif %}
+        {% if coll.genome_catalog_url %}
+        <div class="field">
+            <span class="field-label">Genome catalog:</span>
+            <span class="field-value"><a href="{{ coll.genome_catalog_url }}" target="_blank">View genomes</a></span>
+        </div>
+        {% endif %}
+        {% if coll.primary_reference_info %}
+        <div class="field">
+            <span class="field-label">Reference:</span>
+            <span class="field-value">{{ doi_link(coll.primary_reference_info.reference.id) }}{% if coll.primary_reference_info.reference.title %} - {{ coll.primary_reference_info.reference.title }}{% endif %}</span>
+        </div>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Phenotype Assays Section ---- #}
+{% macro phenotype_assays_section(assays) %}
+{% if assays %}
+<div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        {% for assay in assays %}
+        <span class="chip phenotype-assay">{{ assay | replace('_', ' ') | title }}</span>
+        {% endfor %}
+        </div>
+    </span>
+</div>
 {% endif %}
 {% endmacro %}

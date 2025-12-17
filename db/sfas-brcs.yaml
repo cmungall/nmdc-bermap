@@ -31,12 +31,11 @@ bioenergy_research_centers:
     doe_page: https://www.genomicscience.energy.gov/glbrc/
     data_portal: https://www.glbrc.org/data-and-tools
     atlas: https://atlas.glbrc.org/
-  description: 'GLBRC is a cross-disciplinary research center developing sustainable biofuels and bioproducts
-    from dedicated energy crops grown on marginal, nonagricultural lands. Research spans three crosscutting
+  description: >
+    GLBRC is a cross-disciplinary research center developing sustainable biofuels and bioproducts from
+    dedicated energy crops grown on marginal, nonagricultural lands. Research spans three crosscutting
     themes: sustainable bioenergy cropping systems, sustainable biomass conversion, and sustainable field-to-product
     optimization.
-
-    '
   scientific_questions:
   - How can we develop sustainable bioenergy cropping systems on marginal lands?
   - What are the mechanisms of lignocellulose deconstruction?
@@ -77,28 +76,38 @@ bioenergy_research_centers:
   - nmdc_study_id: nmdc:sty-11-e4yb9z58
     name: Seasonal activities of the phyllosphere microbiome of perennial crops
     pi: Ashley Shade
-    description: >-
-      Genome-centric approach to identify ecologically important leaf microbiome
-      members on switchgrass and miscanthus, quantifying activities over two growing seasons.
+    description: Genome-centric approach to identify ecologically important leaf microbiome members on
+      switchgrass and miscanthus, quantifying activities over two growing seasons. Classes represented
+      by MAGs (Actinomycetia, Alpha- and Gamma-Proteobacteria, Bacteroidota) are active in late season
+      with stress-associated pathways and biosynthetic pathways for terpenes and non-ribosomal peptides.
+    organism: switchgrass phyllosphere metagenome
+    data_modalities:
+    - METAGENOMICS
+    - METATRANSCRIPTOMICS
+    gold_study_id: gold:Gs0128851
+    jgi_proposal_id: '503249'
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41467-023-36515-y
+        title: Seasonal activities of the phyllosphere microbiome of perennial crops
   - nmdc_study_id: nmdc:sty-11-wbc14h22
     name: Switchgrass cropping systems on marginal lands
     pi: Maren Friesen
-    description: >-
-      Understanding how rhizosphere microbiome influences soil nitrogen transformations
-      under low- and high-N conditions across five locations in the Great Lakes Region.
+    description: Understanding how rhizosphere microbiome influences soil nitrogen transformations under
+      low- and high-N conditions across five locations in the Great Lakes Region.
+    organism: Panicum virgatum
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 2971
     bioproject_ids:
     - PRJNA733109
     - PRJNA733505
     - PRJNA733764
-  # =========================================================================
-  # Studies with data - candidates for NMDC ingest (discovered via BRC API)
-  # =========================================================================
   - name: Sorghum Phyllosphere Microbiome
     pi: Ashley Shade
-    description: >-
-      Functional and genomic diversity of the sorghum phyllosphere microbiome.
-      Collection of 47 bacteria isolated from aerial root mucilage of energy sorghum
-      plus metagenome and metatranscriptome data from phyllosphere communities.
+    description: Functional and genomic diversity of the sorghum phyllosphere microbiome. Collection of
+      47 bacteria isolated from aerial root mucilage of energy sorghum plus metagenome and metatranscriptome
+      data from phyllosphere communities.
     organism: Sorghum bicolor
     keywords:
     - SORGHUM
@@ -113,19 +122,22 @@ bioenergy_research_centers:
     - PRJNA862978
     - PRJNA844896
     brc_dataset_ids:
-    - Gs0157305  # JGI Gold
-    - PRJNA862978  # 16S rRNA sequencing
-    - PRJNA844896  # Epicuticular wax/mucilage metagenomes
-    - "503249"  # JGI Data Portal - seasonal dynamics
-    primary_reference: doi:10.1038/s41467-024-50463-1  # Nature Comms 2024
+    - Gs0157305
+    - PRJNA862978
+    - PRJNA844896
+    - '503249'
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41467-024-50463-1
+        title: Disentangling plant- and environment-mediated drivers of active rhizosphere bacterial community
+          dynamics during short-term drought
   - name: Switchgrass Root and Soil Microbiome
     pi: Lukas P. Bell-Dereske
-    description: >-
-      Variation in root and soil microbiome over space and time in switchgrass.
-      Bacterial and fungal community characterization from GLBRC Marginal Lands
-      Experiment via 16S and ITS amplicon sequencing.
+    description: Variation in root and soil microbiome over space and time in switchgrass. Bacterial and
+      fungal community characterization from GLBRC Marginal Lands Experiment via 16S and ITS amplicon
+      sequencing.
     organism: Panicum virgatum
     keywords:
     - SWITCHGRASS
@@ -140,19 +152,20 @@ bioenergy_research_centers:
     - PRJNA733764
     - PRJNA799201
     brc_dataset_ids:
-    - PRJNA733764  # Bacterial metagenome
-    - PRJNA799201  # Fungal metagenome
-    - zenodo.7307179  # Analysis code
-    - 10.17605/OSF.IO/5VW9C  # Processed data
-    primary_reference: doi:10.1186/s40793-023-00504-x  # Env Microbiome 2023
+    - PRJNA733764
+    - PRJNA799201
+    - zenodo.7307179
+    - 10.17605/OSF.IO/5VW9C
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40793-023-00504-x
+        title: Regional biogeography versus intra-annual dynamics of the root and soil microbiome
   - name: Transgenic Switchgrass Microbiome Effects
     pi: Greg Bonito
-    description: >-
-      Effects of genetic modification of the shikimate pathway (QsuB transgenic)
-      on switchgrass-associated microbiomes in different plant compartments.
-      16S and ITS rDNA sequencing of roots, leaves, and soil.
+    description: Effects of genetic modification of the shikimate pathway (QsuB transgenic) on switchgrass-associated
+      microbiomes in different plant compartments. 16S and ITS rDNA sequencing of roots, leaves, and soil.
     organism: Panicum virgatum
     keywords:
     - SWITCHGRASS
@@ -166,16 +179,19 @@ bioenergy_research_centers:
     - PRJNA1002602
     - PRJNA1002603
     brc_dataset_ids:
-    - PRJNA1002602  # 16S rRNA sequencing
-    - PRJNA1002603  # ITS rDNA sequencing
-    primary_reference: doi:10.1128/spectrum.01546-24  # Microbiol Spectrum 2024
+    - PRJNA1002602
+    - PRJNA1002603
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/spectrum.01546-24
+        title: Genetic modification of the shikimate pathway to reduce lignin content in switchgrass (
+          <i>Panicum virgatum</i> L.) significantly impacts plant microbiomes
   - name: Terpene Effects on Sorghum Microbiome
     pi: Greg Bonito
-    description: >-
-      Examining the effects of terpene addition on the microbial community
-      in Sorghum belowground compartments via amplicon sequencing.
+    description: Examining the effects of terpene addition on the microbial community in Sorghum belowground
+      compartments via amplicon sequencing.
     organism: Sorghum bicolor
     keywords:
     - SORGHUM
@@ -184,19 +200,22 @@ bioenergy_research_centers:
     - TERPENES
     data_modalities:
     - AMPLICON_16S
+    sample_count: 228
     bioproject_ids:
     - PRJNA933671
     brc_dataset_ids:
     - PRJNA933671
-    primary_reference: doi:10.1128/spectrum.01332-23  # Microbiol Spectrum 2023
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/spectrum.01332-23
+        title: Terpenes modulate bacterial and fungal growth and sorghum rhizobiome communities
   - name: KBS MCSE Long-term Cropping Experiment Metagenomes
     pi: Jennifer M. Jones
-    description: >-
-      Metagenomics from Kellogg Biological Station Long Term Ecological Research
-      Main Cropping System Experiment (KBS MCSE). Testing how drought affects
-      microbial allocation to stress tolerance across different cropping systems.
+    description: Metagenomics from Kellogg Biological Station Long Term Ecological Research Main Cropping
+      System Experiment (KBS MCSE). Testing how drought affects microbial allocation to stress tolerance
+      across different cropping systems.
     organism: soil metagenome
     keywords:
     - SOIL_MICROBIOME
@@ -205,20 +224,24 @@ bioenergy_research_centers:
     - LONG_TERM_ECOLOGICAL_RESEARCH
     data_modalities:
     - METAGENOMICS
+    sample_count: 106
     bioproject_ids:
     - PRJNA1156252
     brc_dataset_ids:
-    - PRJNA1156252  # Raw sequence reads
-    - knb-lter-kbs.238.1  # EDI Data Portal field data
-    primary_reference: doi:10.1016/j.soilbio.2025.109787  # Soil Biol Biochem 2025
+    - PRJNA1156252
+    - knb-lter-kbs.238.1
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1016/j.soilbio.2025.109787
+        title: Drought increases microbial allocation to stress tolerance but with few tradeoffs among
+          community-level traits
   - name: Soil Pore Space Decomposition Microbiome
     pi: Gian Maria Niccolò Benucci
-    description: >-
-      Exploring interactions between plant detritus decomposition and micro-scale
-      characteristics of soil physical micro-environments. Soil metagenome sequencing
-      of leaf litter decomposition in soil microcosms.
+    description: Exploring interactions between plant detritus decomposition and micro-scale characteristics
+      of soil physical micro-environments. Soil metagenome sequencing of leaf litter decomposition in
+      soil microcosms.
     organism: soil metagenome
     keywords:
     - SOIL_MICROBIOME
@@ -226,19 +249,23 @@ bioenergy_research_centers:
     - CARBON_CYCLING
     data_modalities:
     - METAGENOMICS
+    sample_count: 872
     bioproject_ids:
     - PRJNA938072
     brc_dataset_ids:
     - PRJNA938072
-    primary_reference: doi:10.3389/fmicb.2023.1172862  # Front Microbiol 2023
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.3389/fmicb.2023.1172862
+        title: The microbiome structure of decomposing plant leaves in soil depends on plant species,
+          soil pore sizes, and soil moisture content
   - name: Bioreactor Fermentation Microbiomes
     pi: Daniel R. Noguera
-    description: >-
-      Metagenome-assembled genomes from anaerobic bioreactor microbial communities
-      fermenting dairy coproducts (UltraFiltered Milk Permeate and Cottage cheese
-      Acid Whey). Characterization of carboxylate platform fermentation systems.
+    description: Metagenome-assembled genomes from anaerobic bioreactor microbial communities fermenting
+      dairy coproducts (UltraFiltered Milk Permeate and Cottage cheese Acid Whey). Characterization of
+      carboxylate platform fermentation systems.
     organism: bioreactor metagenome
     keywords:
     - MICROBIAL_CONVERSION
@@ -250,26 +277,29 @@ bioenergy_research_centers:
     - PRJNA1040840
     - PRJNA768492
     brc_dataset_ids:
-    - PRJNA1159295  # UFMP and CAW bioreactor MAGs
-    - PRJNA1040840  # Temperature/pH effects
-    - PRJNA768492  # Bioreactor sludge metagenome
-    primary_reference: doi:10.3389/fbioe.2023.1173656  # Front Bioeng Biotech 2023
+    - PRJNA1159295
+    - PRJNA1040840
+    - PRJNA768492
     nmdc_ingest_target: true
     nmdc_ingest_priority: LOW
+    primary_reference_info:
+      reference:
+        id: doi:10.3389/fbioe.2023.1173656
+        title: A metagenome-level analysis of a microbial community fermenting ultra-filtered milk permeate
   datasets:
-  # Flagship datasets only - full catalog available via BRC API (api.bioenergy.org)
   - name: Switchgrass Reference Genome
-    description: >-
-      High-quality reference genome assembly for switchgrass (Panicum virgatum), the preeminent
-      American perennial C4 bioenergy crop for cellulosic ethanol. Genome assembly based on 732
-      resequenced genotypes grown across 10 common gardens spanning 1,800 km of latitude.
+    description: High-quality reference genome assembly for switchgrass (Panicum virgatum), the preeminent
+      American perennial C4 bioenergy crop for cellulosic ethanol. Genome assembly based on 732 resequenced
+      genotypes grown across 10 common gardens spanning 1,800 km of latitude.
     repository: JGI Phytozome
     url: https://phytozome.jgi.doe.gov/
     data_type: genomics
-    primary_reference: doi:10.1038/s41586-020-03127-1
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41586-020-03127-1
+        title: Genomic mechanisms of climate adaptation in polyploid bioenergy switchgrass
   - name: KBS Lux Arbor Reserve Switchgrass Flux Data
-    description: >-
-      Eddy covariance flux tower data from switchgrass plots at the Lux Arbor Reserve. Measures
+    description: Eddy covariance flux tower data from switchgrass plots at the Lux Arbor Reserve. Measures
       carbon, water, and energy exchanges between switchgrass ecosystem and atmosphere.
     repository: Ameriflux
     doi: 10.17190/AMF/1644212
@@ -279,68 +309,63 @@ bioenergy_research_centers:
   - id: doi:10.1007/s12155-015-9660-8
     title: 'The DOE Bioenergy Research Centers: History, Operations, and Scientific Output'
     findings:
-      - statement: The four BRCs have produced over 1,800 peer-reviewed publications since 2007
-      - statement: Cross-center collaborations have enabled genome-to-field integration approaches
+    - statement: The four BRCs have produced over 1,800 peer-reviewed publications since 2007
+    - statement: Cross-center collaborations have enabled genome-to-field integration approaches
   - id: doi:10.1038/s41586-020-03127-1
     title: Genomic mechanisms of climate adaptation in polyploid bioenergy switchgrass
     findings:
-      - statement: >-
-          High-quality genome assembly of 732 switchgrass genotypes reveals extensive
-          genomic evidence of climate adaptation across 10 common gardens spanning 1,800 km latitude
-        reference: doi:10.1038/s41586-020-03127-1
-        supporting_text: >-
-          Analysis of biomass and survival among 732 resequenced genotypes, which were grown
-          across 10 common gardens that span 1,800 km of latitude, jointly revealed extensive
-          genomic evidence of climate adaptation.
-      - statement: >-
-          Gene flow accelerated climate adaptation during postglacial colonization
-          through introgression between divergent ecotypes
-        reference: doi:10.1038/s41586-020-03127-1
-        supporting_text: >-
-          gene flow accelerated climate adaptation during the postglacial colonization
-          of northern habitats through introgression of alleles from a pre-adapted northern gene pool
-      - statement: >-
-          Polyploidy enhanced adaptive potential through fractionation of duplicated
-          gene functions between upland and lowland ecotypes
-        reference: doi:10.1038/s41586-020-03127-1
-        supporting_text: >-
-          The polyploid nature of switchgrass also enhanced adaptive potential through
-          the fractionation of gene function
-      - statement: Collaboration across all four DOE Bioenergy Research Centers
+    - statement: High-quality genome assembly of 732 switchgrass genotypes reveals extensive genomic evidence
+        of climate adaptation across 10 common gardens spanning 1,800 km latitude
+      reference: doi:10.1038/s41586-020-03127-1
+      supporting_text: Analysis of biomass and survival among 732 resequenced genotypes, which were grown
+        across 10 common gardens that span 1,800 km of latitude, jointly revealed extensive genomic evidence
+        of climate adaptation.
+    - statement: Gene flow accelerated climate adaptation during postglacial colonization through introgression
+        between divergent ecotypes
+      reference: doi:10.1038/s41586-020-03127-1
+      supporting_text: gene flow accelerated climate adaptation during the postglacial colonization of
+        northern habitats through introgression of alleles from a pre-adapted northern gene pool
+    - statement: Polyploidy enhanced adaptive potential through fractionation of duplicated gene functions
+        between upland and lowland ecotypes
+      reference: doi:10.1038/s41586-020-03127-1
+      supporting_text: The polyploid nature of switchgrass also enhanced adaptive potential through the
+        fractionation of gene function
+    - statement: Collaboration across all four DOE Bioenergy Research Centers
   - id: doi:10.1094/PBIOMES-07-20-0051-R
     title: Seasonal dynamics of core fungi and bacterial networks in the switchgrass phyllosphere
     findings:
-      - statement: Strong temporal patterns in epiphytic microbial composition across growing season
-      - statement: Fungi-bacteria network associations were much more common than bacteria-bacteria associations
-      - statement: Identified core fungal taxa persistent throughout the growing season
+    - statement: Strong temporal patterns in epiphytic microbial composition across growing season
+    - statement: Fungi-bacteria network associations were much more common than bacteria-bacteria associations
+    - statement: Identified core fungal taxa persistent throughout the growing season
   - id: doi:10.3390/agronomy13051294
-    title: Genome-Resolved Metagenomics of Nitrogen Transformations in the Switchgrass Rhizosphere Microbiome on Marginal Lands
+    title: Genome-Resolved Metagenomics of Nitrogen Transformations in the Switchgrass Rhizosphere Microbiome
+      on Marginal Lands
     findings:
-      - statement: Resolved 29 metagenome-assembled genomes from switchgrass rhizosphere on marginal lands
-      - statement: >-
-          Rhizosphere microbiome may provide associative nitrogen fixation via
-          novel diazotroph Janthinobacterium
-      - statement: >-
-          Taxa from Verrucomicrobia, Acidobacteria, and Planctomycetes dominate
-          nitrogen cycling in switchgrass rhizosphere
+    - statement: Resolved 29 metagenome-assembled genomes from switchgrass rhizosphere on marginal lands
+    - statement: Rhizosphere microbiome may provide associative nitrogen fixation via novel diazotroph
+        Janthinobacterium
+    - statement: Taxa from Verrucomicrobia, Acidobacteria, and Planctomycetes dominate nitrogen cycling
+        in switchgrass rhizosphere
   - id: doi:10.1038/s42003-023-05290-3
-    title: Anti-fungal bioactive terpenoids in the bioenergy crop switchgrass may contribute to ecotype-specific microbiome composition
+    title: Anti-fungal bioactive terpenoids in the bioenergy crop switchgrass may contribute to ecotype-specific
+      microbiome composition
     findings:
-      - statement: Switchgrass produces bioactive terpenoids with antifungal properties
-      - statement: Ecotype-specific terpenoid profiles may shape distinct microbiome compositions
+    - statement: Switchgrass produces bioactive terpenoids with antifungal properties
+    - statement: Ecotype-specific terpenoid profiles may shape distinct microbiome compositions
   - id: doi:10.1111/gcbb.13094
     title: A 30% reduction in switchgrass rhizome reserves did not decrease biomass yield
     findings:
-      - statement: Switchgrass can tolerate significant rhizome reserve reduction without yield loss
-      - statement: Findings support potential for late-season harvest management
+    - statement: Switchgrass can tolerate significant rhizome reserve reduction without yield loss
+    - statement: Findings support potential for late-season harvest management
   - id: doi:10.1111/nph.70313
     title: Local adaptation in switchgrass rust pathosystem
     findings:
-      - statement: Evidence for local adaptation in switchgrass-rust pathogen interactions
+    - statement: Evidence for local adaptation in switchgrass-rust pathogen interactions
   - id: doi:10.1111/gcbb.70051
     title: Agricultural management legacy effects on switchgrass growth
     findings:
-      - statement: Prior agricultural management practices have lasting effects on switchgrass establishment and growth
+    - statement: Prior agricultural management practices have lasting effects on switchgrass establishment
+        and growth
   outputs:
     publication_count: '>1800 peer-reviewed papers'
     patent_applications: 286
@@ -383,11 +408,10 @@ bioenergy_research_centers:
     main: https://www.jbei.org
     doe_page: https://www.genomicscience.energy.gov/jbei-joint-bioenergy-institute/
     github: https://github.com/jbei
-  description: 'JBEI is dedicated to developing advanced biofuels—liquid fuels derived from solar energy
-    stored in plant biomass—that can replace gasoline, diesel, and jet fuels. JBEI takes an interdisciplinary
-    approach combining expertise in synthetic biology, plant biology, and chemical engineering.
-
-    '
+  description: >
+    JBEI is dedicated to developing advanced biofuels—liquid fuels derived from solar energy stored in
+    plant biomass—that can replace gasoline, diesel, and jet fuels. JBEI takes an interdisciplinary approach
+    combining expertise in synthetic biology, plant biology, and chemical engineering.
   scientific_questions:
   - How can we engineer plants for improved biomass production?
   - What ionic liquid pretreatments optimize biomass deconstruction?
@@ -422,13 +446,11 @@ bioenergy_research_centers:
   - nmdc_study_id: nmdc:sty-11-n7mtj961
     name: Impact of modulating bioenergy traits on the sorghum microbiome under drought conditions
     pi: Henrik Vibe Scheller
-    description: >-
-      16S amplicon sequences from the rhizosphere of sorghum under well-watered
-      and drought-stressed conditions in Davis, California.
+    description: 16S amplicon sequences from the rhizosphere of sorghum under well-watered and drought-stressed
+      conditions in Davis, California.
     bioproject_ids:
     - PRJNA1205755
   datasets:
-  # Flagship datasets only - full catalog available via BRC API (api.bioenergy.org)
   - name: JBEI ICE (Inventory of Composable Elements)
     description: Registry of standard biological parts for synthetic biology
     url: https://github.com/jbei
@@ -481,11 +503,10 @@ bioenergy_research_centers:
     doe_page: https://www.genomicscience.energy.gov/cabbi/
     github: https://github.com/cabbi-bio
     data_hub: https://cabbi.bio/category/cabbi-data/
-  description: 'CABBI develops fuels and products by integrating feedstock development, conversion science,
-    and sustainability research. Using a "plants as factories" approach, CABBI researchers engineer crops
-    to accumulate lipids and specialty chemicals while developing novel conversion technologies.
-
-    '
+  description: >
+    CABBI develops fuels and products by integrating feedstock development, conversion science, and sustainability
+    research. Using a "plants as factories" approach, CABBI researchers engineer crops to accumulate lipids
+    and specialty chemicals while developing novel conversion technologies.
   scientific_questions:
   - How can we engineer crops to produce oils and specialty chemicals?
   - What are sustainable approaches to bioenergy crop production?
@@ -520,61 +541,77 @@ bioenergy_research_centers:
   - nmdc_study_id: nmdc:sty-11-vh2hty57
     name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus
     pi: Adina Howe
-    description: >-
-      Investigation of effects of stand age and N fertilizer rates on microbial
-      community structure in Miscanthus × giganteus replicated chronosequence trial.
+    description: Investigation of effects of stand age and N fertilizer rates on microbial community structure
+      in Miscanthus × giganteus replicated chronosequence trial.
+    organism: Miscanthus × giganteus
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 648
     bioproject_ids:
     - PRJNA601860
     nmdc_ingest_priority: HIGH
   - name: Native Miscanthus Rhizosphere and Endophytic Microbiome
     pi: Angela Kent
-    description: >-
-      Survey of the native Miscanthus rhizosphere and endophytic microbiome in Taiwan,
-      with particular attention to the diazotrophic community across strong biogeographical
-      and ecological gradients in Miscanthus sinensis and M. floridulus.
+    description: Survey of the native Miscanthus rhizosphere and endophytic microbiome in Taiwan, with
+      particular attention to the diazotrophic community across strong biogeographical and ecological
+      gradients in Miscanthus sinensis and M. floridulus.
+    organism: Miscanthus sinensis, Miscanthus floridulus
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 466
     bioproject_ids:
     - PRJNA561781
     nmdc_ingest_priority: HIGH
   - name: Soil Microbiome of Miscanthus × giganteus at LAMPS Study Site
     pi: Adina Howe
-    description: >-
-      SSU rRNA RNA library of soil microbiome at LAMPS. Complements DNA-based study
-      examining total vs metabolically active microbial communities under nitrogen fertilization.
+    description: SSU rRNA RNA library of soil microbiome at LAMPS. Complements DNA-based study examining
+      total vs metabolically active microbial communities under nitrogen fertilization.
+    organism: Miscanthus × giganteus
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 271
     bioproject_ids:
     - PRJNA745191
     nmdc_ingest_priority: MEDIUM
   - name: Sorghum Rhizosphere Nitrification Study
     pi: Wendy Yang
-    description: >-
-      Intra- and inter-annual variability of nitrification in the rhizosphere of
-      field-grown bioenergy sorghum, examining biological nitrification inhibition (BNI)
-      potential and soil microbial communities across fertilizer treatments.
+    description: Intra- and inter-annual variability of nitrification in the rhizosphere of field-grown
+      bioenergy sorghum, examining biological nitrification inhibition (BNI) potential and soil microbial
+      communities across fertilizer treatments.
+    organism: Sorghum bicolor
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 288
     bioproject_ids:
     - PRJNA741261
     nmdc_ingest_priority: HIGH
   - name: Sugarcane and Oilcane Microbiome Differences
     pi: Adina Howe
-    description: >-
-      Study of bacterial and fungal microbiome structure and potential functions in
-      leaves, stems, roots, rhizospheres, and bulk soils of sugarcane and metabolically
-      engineered oilcane grown in greenhouses.
+    description: Study of bacterial and fungal microbiome structure and potential functions in leaves,
+      stems, roots, rhizospheres, and bulk soils of sugarcane and metabolically engineered oilcane grown
+      in greenhouses.
+    data_modalities:
+    - AMPLICON_16S
+    - AMPLICON_ITS
+    sample_count: 200
     bioproject_ids:
     - PRJNA892137
     nmdc_ingest_priority: HIGH
   - name: Plant-Nitrifier Interactions in Topsoil and Subsoil
     pi: Wendy Yang
-    description: >-
-      Investigation of soil microorganisms along 1 meter soil profiles in Miscanthus × giganteus,
+    description: Investigation of soil microorganisms along 1 meter soil profiles in Miscanthus × giganteus,
       examining distinct mechanisms driving plant-nitrifier interactions at different depths.
+    organism: Miscanthus × giganteus
+    data_modalities:
+    - AMPLICON_16S
+    sample_count: 103
     bioproject_ids:
     - PRJNA1080623
     nmdc_ingest_priority: MEDIUM
   datasets:
-  # Flagship datasets only - full catalog available via BRC API (api.bioenergy.org)
   - name: BEPAM Model Code and CABBI Simulation Results
-    description: >-
-      Biofuel and Environmental Policy Analysis Model for assessing returns to land and
-      greenhouse gas savings from energy crops.
+    description: Biofuel and Environmental Policy Analysis Model for assessing returns to land and greenhouse
+      gas savings from energy crops.
     repository: Illinois Data Bank
     doi: 10.13012/B2IDB-5598609_V1
     data_type: economic modeling
@@ -611,11 +648,10 @@ bioenergy_research_centers:
     doe_page: https://www.genomicscience.energy.gov/cbi/
     publications: https://cbi.ornl.gov/publications
     highlights: https://cbi.ornl.gov/highlights/
-  description: 'CBI focuses on accelerating the domestication of bioenergy-relevant non-model plants and
-    microbes to enable high-impact innovation across the sustainable aviation fuel supply chain. The center
-    develops high-yielding, process-advantaged feedstock plants using advanced genetic technologies.
-
-    '
+  description: >
+    CBI focuses on accelerating the domestication of bioenergy-relevant non-model plants and microbes
+    to enable high-impact innovation across the sustainable aviation fuel supply chain. The center develops
+    high-yielding, process-advantaged feedstock plants using advanced genetic technologies.
   scientific_questions:
   - How do we accelerate domestication of perennial bioenergy crops?
   - What genetic factors control biomass recalcitrance?
@@ -650,32 +686,38 @@ bioenergy_research_centers:
   - nmdc_study_id: nmdc:sty-11-kfvmk798
     name: Chronic drought differentially alters the belowground microbiome of Populus trichocarpa
     pi: Melissa Cregger
-    description: >-
-      Assessment of archaeal/bacterial and fungal communities within root endosphere,
-      rhizosphere, and bulk soil of P. trichocarpa genotypes under drought in Boardman, OR.
+    description: Assessment of archaeal/bacterial and fungal communities within root endosphere, rhizosphere,
+      and bulk soil of P. trichocarpa genotypes under drought in Boardman, OR.
+    organism: Populus trichocarpa
+    data_modalities:
+    - AMPLICON_16S
+    - AMPLICON_ITS
+    sample_count: 384
     bioproject_ids:
     - PRJNA784967
     nmdc_ingest_priority: HIGH
   - name: Poplar Rhizosphere Microbiota Assembly Dynamics
     pi: Aurelie Deveau
-    description: >-
-      Characterization of fungal and bacterial community assembly from root to shoot axis
-      in poplar (P. tremula x tremuloides) over 30 days of growth, tracking changes in
-      rhizosphere, root and shoot by DNA metabarcoding alongside metabolomics.
+    description: Characterization of fungal and bacterial community assembly from root to shoot axis in
+      poplar (P. tremula x tremuloides) over 30 days of growth, tracking changes in rhizosphere, root
+      and shoot by DNA metabarcoding alongside metabolomics.
+    organism: Populus tremula x tremuloides
+    data_modalities:
+    - AMPLICON_16S
+    - AMPLICON_ITS
+    - METABOLOMICS
+    sample_count: 505
     bioproject_ids:
     - PRJNA1017804
     nmdc_ingest_priority: HIGH
   - name: Clostridium thermocellum Strain Collection
     pi: Daniel Olson
-    description: >-
-      Whole genome resequencing data for hundreds of Clostridium thermocellum strains
-      engineered for increased ethanol production and tolerance, with mutation and lineage metadata.
+    description: Whole genome resequencing data for hundreds of Clostridium thermocellum strains engineered
+      for increased ethanol production and tolerance, with mutation and lineage metadata.
     nmdc_ingest_priority: MEDIUM
   datasets:
-  # Flagship datasets only - full catalog available via BRC API (api.bioenergy.org)
   - name: Populus GWAS Dataset
-    description: >-
-      Over 28 million SNPs from approximately 882 resequenced poplar genotypes, linking DNA
+    description: Over 28 million SNPs from approximately 882 resequenced poplar genotypes, linking DNA
       variations to plant characteristics.
     size: ~17 terabytes raw data
     data_type: genomics/GWAS
@@ -706,11 +748,10 @@ genomic_science_sfas:
     main: https://enigma.lbl.gov
     doe_page: https://www.genomicscience.energy.gov/lbnl/
     kbase: https://www.kbase.us/research/adams-sfa/
-  description: 'ENIGMA emphasizes achieving a multiscale, causal, and predictive understanding of microbial
-    biology and the reciprocal impact of microbial communities on their ecosystems. Focus on processes
-    affecting denitrification and metal reduction in contaminated subsurface environments.
-
-    '
+  description: >
+    ENIGMA emphasizes achieving a multiscale, causal, and predictive understanding of microbial biology
+    and the reciprocal impact of microbial communities on their ecosystems. Focus on processes affecting
+    denitrification and metal reduction in contaminated subsurface environments.
   field_sites:
   - name: Oak Ridge Reservation (ORR)
     description: Bear Creek aquifer with complex contaminant gradients
@@ -751,25 +792,26 @@ genomic_science_sfas:
   - id: enigma_kothari_isolates
     name: ENIGMA public isolates from Kothari et al 2020
     analysis_type: KBASE_NARRATIVE
-    kbase_narrative_id: "63776"
+    kbase_narrative_id: '63776'
     kbase_narrative_url: https://kbase.us/n/63776/35/
-    description: >-
-      261 ENIGMA isolate genomes from Oak Ridge subsurface with GTDB taxonomy
-      assignments. Includes sequencing reads, assemblies, and annotations
-      processed via KBase workflows.
+    description: 261 ENIGMA isolate genomes from Oak Ridge subsurface with GTDB taxonomy assignments.
+      Includes sequencing reads, assemblies, and annotations processed via KBase workflows.
     genome_count: 261
     output_data_types:
     - GENOMICS
-    primary_reference: doi:10.1128/mSystems.00645-20
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/msystems.00537-21
+        title: Ecogenomics of Groundwater Phages Suggests Niche Differentiation Linked to Specific Environmental
+          Tolerance
   - id: enigma_kothari_data
     name: Data from Kothari et al 2020
     analysis_type: KBASE_NARRATIVE
-    kbase_narrative_id: "76973"
+    kbase_narrative_id: '76973'
     kbase_narrative_url: https://kbase.us/n/76973/17/
-    description: >-
-      Supporting data narrative for ENIGMA isolate phenotyping study
+    description: Supporting data narrative for ENIGMA isolate phenotyping study
     related_narratives:
-    - "63776"
+    - '63776'
   datasets:
   - name: ENIGMA Environmental Data
     description: Multi-omics data from Oak Ridge Reservation subsurface
@@ -778,35 +820,39 @@ genomic_science_sfas:
   studies:
   - name: Oak Ridge Groundwater 100-Well Survey Metagenomes
     pi: Jizhong Zhou
-    description: >-
-      Comprehensive metagenomic survey of groundwater microbial communities from 100 wells
-      at the Oak Ridge Field Research Center. Examines community assembly processes under
-      environmental stress from contamination gradients.
+    description: Comprehensive metagenomic survey of groundwater microbial communities from 100 wells
+      at the Oak Ridge Field Research Center. Examines community assembly processes under environmental
+      stress from contamination gradients.
     organism: groundwater metagenome
     data_modalities:
     - METAGENOMICS
     bioproject_ids:
     - PRJNA1001011
-    primary_reference: doi:10.1038/s41564-023-01573-x
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41564-023-01573-x
+        title: Environmental stress mediates groundwater microbial community assembly
   - name: Oak Ridge Sediment and Groundwater Metagenomes
     pi: Lauren M. Lui
-    description: >-
-      26 subsurface sediment and 9 groundwater metagenomes from the Oak Ridge Reservation
-      studying subsurface microbiome from centimeter to field scale.
+    description: 26 subsurface sediment and 9 groundwater metagenomes from the Oak Ridge Reservation studying
+      subsurface microbiome from centimeter to field scale.
     organism: groundwater metagenome
     data_modalities:
     - METAGENOMICS
     bioproject_ids:
     - PRJNA1001011
-    primary_reference: doi:10.1128/mra.00014-25
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mra.00014-25
+        title: Sediment and groundwater metagenomes from subsurface microbial communities from the Oak
+          Ridge National Laboratory Oak Ridge Reservation, Oak Ridge, Tennessee, USA
   - name: ENIGMA Groundwater Archaeal Diversity
     pi: Jillian F. Banfield
-    description: >-
-      Genome-resolved metagenomic analysis of archaeal diversity in subsurface environments.
+    description: Genome-resolved metagenomic analysis of archaeal diversity in subsurface environments.
       Identified two new phyla (DPANN superphylum) from aquifer adjacent to Colorado River.
     organism: groundwater metagenome
     data_modalities:
@@ -819,15 +865,49 @@ genomic_science_sfas:
   - id: doi:10.1038/s41564-023-01573-x
     title: Environmental stress mediates groundwater microbial community assembly
     findings:
-    - statement: >-
-        Stochastic assembly processes are critical (>60% on average) in shaping groundwater
-        community structure, but decrease in importance as environmental stress increases.
-    - statement: >-
-        Selection processes leading to dissimilar communities increased with stresses,
-        primarily related to pH, cobalt and molybdenum.
+    - statement: Stochastic assembly processes are critical (>60% on average) in shaping groundwater community
+        structure, but decrease in importance as environmental stress increases.
+    - statement: Selection processes leading to dissimilar communities increased with stresses, primarily
+        related to pH, cobalt and molybdenum.
   - id: doi:10.2172/1963932
     title: 'Ecosystems and Networks Integrated with Genes and Molecular Assemblies: Integrating Metabolomics
       into Environmental Systems Biology'
+  isolate_collections:
+  - name: ENIGMA Subsurface Isolates
+    description: Bacterial and archaeal isolates from Oak Ridge Reservation subsurface environments including
+      contaminated groundwater and sediments. Characterized for stress tolerance and denitrification/metal
+      reduction capabilities.
+    organism_types:
+    - BACTERIA
+    - ARCHAEA
+    isolate_count: 261
+    genome_count: 261
+    source_environments:
+    - Oak Ridge subsurface
+    - Contaminated groundwater
+    - Aquifer sediments
+    isolation_methods:
+    - Aerobic plating
+    - Anaerobic enrichment
+    genome_catalog_url: https://kbase.us/n/63776/35/
+    kbase_narrative_id: '63776'
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/msystems.00537-21
+        title: Ecogenomics of Groundwater Phages Suggests Niche Differentiation Linked to Specific Environmental
+          Tolerance
+        findings:
+        - statement: First study to identify bacteriophage distribution in a groundwater ecosystem
+          reference: doi:10.1128/msystems.00537-21
+          supporting_text: first study to identify the bacteriophage distribution in a groundwater ecosystem
+      relationship_note: Describes the 261 ENIGMA bacterial isolates used for phage host prediction
+  phenotype_assays:
+  - RBTSEQ_FITNESS
+  - STRESS_TOLERANCE
+  - ANAEROBIC_GROWTH
+  - SUBSTRATE_UTILIZATION
+  - GROWTH_CURVES
+  - COCULTURE_INTERACTIONS
 - id: nmdc_sfas_brcs:mcafes
   name: 'm-CAFEs: Microbial Community Analysis and Functional Evaluation in Soils'
   acronym: m-CAFEs
@@ -850,12 +930,11 @@ genomic_science_sfas:
   websites:
     main: https://mcafes.lbl.gov
     doe_page: https://www.genomicscience.energy.gov/lbnlmcafes/
-  description: 'm-CAFEs develops and deploys unique laboratory capabilities to capture key aspects of
-    grass rhizosphere communities and identify causal mechanisms governing microbial interactions within
-    the rhizosphere. Uses advanced fabricated ecosystems with gene editing technologies for interrogating
-    gene and microbial functions in situ.
-
-    '
+  description: >
+    m-CAFEs develops and deploys unique laboratory capabilities to capture key aspects of grass rhizosphere
+    communities and identify causal mechanisms governing microbial interactions within the rhizosphere.
+    Uses advanced fabricated ecosystems with gene editing technologies for interrogating gene and microbial
+    functions in situ.
   scientific_questions:
   - What mechanisms govern microbial interactions in the rhizosphere?
   - How can we predict and manipulate rhizosphere communities?
@@ -883,114 +962,127 @@ genomic_science_sfas:
   - LIVE_CELL_IMAGING
   nmdc_umbrella_study: nmdc:sty-11-abkzcd11
   studies:
-  # Studies already in NMDC
   - nmdc_study_id: nmdc:sty-11-zs2syx06
     name: Meadow Soil Metagenomes from the Angelo Coast Range Reserve
     pi: Jillian F. Banfield
-    description: >-
-      Assembled metagenomes for 60 soil samples across multiple soil plots from
-      a meadow in the Angelo Coastal Range Reserve, CA, part of a climate change experiment.
+    description: Assembled metagenomes for 60 soil samples across multiple soil plots from a meadow in
+      the Angelo Coastal Range Reserve, CA, part of a climate change experiment.
+    gold_study_id: gold:Gs0110119
   - nmdc_study_id: nmdc:sty-11-ev70y104
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     pi: Trent R. Northen
-    description: >-
-      Multi-laboratory ring trial using EcoFAB 2.0 devices with synthetic bacterial
-      communities and Brachypodium distachyon to test reproducibility and standardization.
-  # Studies with data - candidates for NMDC ingest
+    description: Multi-laboratory ring trial using EcoFAB 2.0 devices with synthetic bacterial communities
+      and Brachypodium distachyon to test reproducibility and standardization.
   - name: Brachypodium Core Root Microbiome Metabarcoding
     pi: Trent R. Northen
-    description: >-
-      16S rRNA amplicon sequencing defining core root microbiome of Brachypodium distachyon
+    description: 16S rRNA amplicon sequencing defining core root microbiome of Brachypodium distachyon
       grown in four distinct soils. Identified overlooked taxa via metabarcoding vs culture.
     organism: Brachypodium distachyon
     data_modalities:
     - AMPLICON_16S
+    sample_count: 71
     bioproject_ids:
     - PRJNA1120948
-    primary_reference: doi:10.1007/s10725-024-01221-2
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1007/s10725-024-01221-2
+        title: Bacterial metabarcoding reveals plant growth promoting members of the core Brachypodium
+          distachyon root-associated microbiome overlooked by culture dependent techniques
   - name: Fine Scale Rhizosphere Spatial Heterogeneity
     pi: Trent R. Northen
-    description: >-
-      Fine scale sampling reveals spatial heterogeneity of rhizosphere microbiome in young
-      Brachypodium plant roots using EcoFABs. Strong rhizosphere effect with Actinobacteria,
-      Bacteroidetes, Firmicutes and Proteobacteria enrichment.
+    description: Fine scale sampling reveals spatial heterogeneity of rhizosphere microbiome in young
+      Brachypodium plant roots using EcoFABs. Strong rhizosphere effect with Actinobacteria, Bacteroidetes,
+      Firmicutes and Proteobacteria enrichment.
     organism: Brachypodium distachyon
     data_modalities:
     - AMPLICON_16S
-    primary_reference: doi:10.1038/s43705-023-00265-1
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s43705-023-00265-1
+        title: Fine scale sampling reveals early differentiation of rhizosphere microbiome from bulk soil
+          in young <i>Brachypodium</i> plant roots
   - name: Dynamic Root Exudate Chemistry and Microbial Assembly
     pi: Trent R. Northen
-    description: >-
-      Landmark study showing dynamic root exudate chemistry and microbial substrate preferences
+    description: Landmark study showing dynamic root exudate chemistry and microbial substrate preferences
       drive patterns in rhizosphere microbial community assembly. Avena barbata in natural soil.
     organism: Avena barbata
     data_modalities:
     - AMPLICON_16S
     - METABOLOMICS
     - EXOMETABOLOMICS
-    primary_reference: doi:10.1038/s41564-018-0129-3
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41564-018-0129-3
+        title: Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere
+          microbial community assembly
   - name: Core Metabolome and Root Exudation Dynamics
     pi: Trent R. Northen
-    description: >-
-      Core metabolome and root exudation dynamics of three phylogenetically distinct plant
+    description: Core metabolome and root exudation dynamics of three phylogenetically distinct plant
       species (Brachypodium, Avena, Microbotryum). Multi-omics dataset from EcoFABs.
     organism: Brachypodium distachyon
     data_modalities:
     - METABOLOMICS
     - EXOMETABOLOMICS
-    primary_reference: doi:10.1038/s41467-023-37164-x
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41467-023-37164-x
+        title: The core metabolome and root exudation dynamics of three phylogenetically distinct plant
+          species
   - name: Reduced Complexity Consortia from Brachypodium Rhizosphere
     pi: Trent R. Northen
-    description: >-
-      Systematic framework to generate Reduced Complexity Consortia (RCC) representing
-      Brachypodium rhizosphere microbiome for sustainable agriculture applications.
-      Inoculum from Angelo Coast Range Reserve soil.
+    description: Systematic framework to generate Reduced Complexity Consortia (RCC) representing Brachypodium
+      rhizosphere microbiome for sustainable agriculture applications. Inoculum from Angelo Coast Range
+      Reserve soil.
     organism: Brachypodium distachyon
     data_modalities:
     - AMPLICON_16S
     - METAGENOMICS
-    primary_reference: doi:10.3389/fmicb.2024.1401794
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.3389/fmicb.2024.1401794
+        title: Developing stable, simplified, functional consortia from Brachypodium rhizosphere for microbial
+          application in sustainable agriculture
   - name: Multilab EcoFAB Reproducibility Study
     pi: Trent R. Northen
-    description: >-
-      Multilab study demonstrating highly reproducible plant physiology and soil metabolite
+    description: Multilab study demonstrating highly reproducible plant physiology and soil metabolite
       depletion patterns using EcoFAB standardized fabricated ecosystems across 4 labs.
     organism: Brachypodium distachyon
     data_modalities:
     - METABOLOMICS
     - PHENOTYPIC_DATA
-    primary_reference: doi:10.1111/nph.15662
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1111/nph.15662
+        title: Multilab EcoFAB study shows highly reproducible physiology and depletion of soil metabolites
+          by a model grass
   technologies_developed:
   - name: EcoFAB
-    description: 'Fabricated ecosystem serving as standardized reproducible platform for plant-microbiome
-      research
-
-      '
+    description: >
+      Fabricated ecosystem serving as standardized reproducible platform for plant-microbiome research
   - name: ET-Seq
-    description: 'Environmental Transformation Sequencing for assessing DNA uptake in microbial communities
-
-      '
+    description: >
+      Environmental Transformation Sequencing for assessing DNA uptake in microbial communities
   - name: DART
-    description: 'DNA-editing All-in-one RNA-guided CRISPR-Cas Transposase system for locus-specific DNA
-      insertion
-
-      '
+    description: >
+      DNA-editing All-in-one RNA-guided CRISPR-Cas Transposase system for locus-specific DNA insertion
   - name: EcoPOD
     description: Meter-scale contained controlled ecosystems
   key_publications:
   - id: doi:10.1126/sciadv.adg7888
-    title: Reproducible growth of Brachypodium in EcoFAB 2.0 reveals that nitrogen form and starvation modulate root exudation
+    title: Reproducible growth of Brachypodium in EcoFAB 2.0 reveals that nitrogen form and starvation
+      modulate root exudation
     findings:
     - statement: EcoFAB 2.0 enables highly reproducible plant-microbiome experiments across multiple laboratories
     - statement: Nitrogen form and starvation significantly modulate root exudation patterns
   - id: doi:10.1038/s41564-018-0129-3
-    title: Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere microbial community assembly
+    title: Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere
+      microbial community assembly
     findings:
     - statement: Root exudate chemistry dynamically changes over plant development
     - statement: Microbial substrate preferences drive rhizosphere community assembly patterns
@@ -998,6 +1090,39 @@ genomic_science_sfas:
     title: Core metabolome and root exudation dynamics of three phylogenetically distinct plant species
     findings:
     - statement: Identified core metabolome shared across phylogenetically distinct plant species
+  isolate_collections:
+  - name: m-CAFEs Rhizosphere Bacterial Collection
+    description: Bacterial isolates from Brachypodium and grass rhizospheres used for synthetic community
+      studies in EcoFAB devices. Includes reduced complexity consortia (RCC) strains representing core
+      rhizosphere microbiome.
+    organism_types:
+    - BACTERIA
+    source_environments:
+    - Brachypodium rhizosphere
+    - Grass rhizosphere
+    - Angelo Coast Range Reserve soil
+    host_organisms:
+    - Brachypodium distachyon
+    - Avena barbata
+    isolation_methods:
+    - Aerobic plating
+    - Dilution-to-extinction
+  - name: m-CAFEs Phage Collection
+    description: Bacteriophages isolated from soil for phage-based genome editing and microbial community
+      manipulation studies.
+    organism_types:
+    - PHAGE
+    source_environments:
+    - Soil
+    - Rhizosphere
+  phenotype_assays:
+  - ECOFAB_PHENOTYPING
+  - EXOMETABOLOMICS
+  - SYNTHETIC_COMMUNITY
+  - PLANT_COLONIZATION
+  - SUBSTRATE_UTILIZATION
+  - GROWTH_CURVES
+  - LIVE_CELL_IMAGING
 - id: nmdc_sfas_brcs:microbes_persist
   name: 'Microbes Persist: Systems Biology of the Soil Microbiome'
   acronym: Microbes Persist
@@ -1023,11 +1148,10 @@ genomic_science_sfas:
     doe_page: https://www.genomicscience.energy.gov/llnlsoil/
     llnl_page: https://sc-programs.llnl.gov/biological-and-environmental-research-at-llnl/soil-microbiome
     kbase: https://www.kbase.us/research/pett-ridge-sfa/
-  description: 'The Microbes Persist SFA aims to understand how microbes shape soil carbon persistence.
-    Using stable isotope-informed approaches, the team characterizes the "active" microbiome and virome,
-    scaling from metagenomes to computational models integrating traits at system scale.
-
-    '
+  description: >
+    The Microbes Persist SFA aims to understand how microbes shape soil carbon persistence. Using stable
+    isotope-informed approaches, the team characterizes the "active" microbiome and virome, scaling from
+    metagenomes to computational models integrating traits at system scale.
   scientific_questions:
   - How do microbial cellular chemistry and ecophysiology shape soil C persistence?
   - What role do viruses play in soil carbon cycling?
@@ -1056,56 +1180,66 @@ genomic_science_sfas:
   - MULTI_OMICS
   nmdc_umbrella_study: nmdc:sty-11-msexsy29
   studies:
-  # Studies in NMDC
   - nmdc_study_id: nmdc:sty-11-076c9980
     name: Microbial Carbon Transformations in Wet Tropical Soils
     pi: Jennifer Pett-Ridge
-    description: >-
-      Lab enrichment of tropical soil microbial communities from Luquillo Experimental Forest,
+    description: Lab enrichment of tropical soil microbial communities from Luquillo Experimental Forest,
       Puerto Rico, examining effects of redox fluctuation on microbial ecophysiology.
-  # Studies with data - candidates for NMDC ingest
+    gold_study_id: gold:Gs0128850
   - name: Rhizosphere Microbiome Dynamics with Genome-Informed Energy Budget Model
     pi: Jennifer Pett-Ridge
-    description: >-
-      Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based
+    description: Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based
       energy budget model. Published in Nature Microbiology 2024.
     organism: Avena fatua
     data_modalities:
     - METAGENOMICS
     - METATRANSCRIPTOMICS
-    primary_reference: doi:10.1038/s41564-023-01576-y
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41564-023-01582-w
+        title: Predictions of rhizosphere microbiome dynamics with a genome-informed and trait-based energy
+          budget model
   - name: Radiocarbon Analysis of Soil Microbial Biomass
     pi: Jennifer Pett-Ridge
-    description: >-
-      Novel method for radiocarbon analysis of soil microbial biomass via direct
-      chloroform extraction. Enables measurement of microbial C turnover.
+    description: Novel method for radiocarbon analysis of soil microbial biomass via direct chloroform
+      extraction. Enables measurement of microbial C turnover.
     data_modalities:
     - STABLE_ISOTOPE_DATA
     - RADIOCARBON_DATA
-    primary_reference: doi:10.1017/RDC.2023.59
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1017/RDC.2023.80
+        title: RADIOCARBON ANALYSIS OF SOIL MICROBIAL BIOMASS VIA DIRECT CHLOROFORM EXTRACTION
   - name: MISIP Data Standard for Stable Isotope Probing
     pi: Jennifer Pett-Ridge
-    description: >-
-      Data standard for reuse and reproducibility of stable isotope probing-derived
-      nucleic acid sequences. Published in GigaScience 2024.
-    primary_reference: doi:10.1093/gigascience/giae008
+    description: Data standard for reuse and reproducibility of stable isotope probing-derived nucleic
+      acid sequences. Published in GigaScience 2024.
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1093/gigascience/giae071
+        title: 'MISIP: a data standard for the reuse and reproducibility of any stable isotope probing-derived
+          nucleic acid sequence and experiment'
   - name: California Grassland qSIP Metagenomes
     pi: Jennifer Pett-Ridge
-    description: >-
-      Quantitative stable isotope probing with metagenomics linking microbial physiology
-      and activity to soil moisture in Mediterranean-climate grassland ecosystems.
+    description: Quantitative stable isotope probing with metagenomics linking microbial physiology and
+      activity to soil moisture in Mediterranean-climate grassland ecosystems.
     organism: soil metagenome
     data_modalities:
     - METAGENOMICS
     - STABLE_ISOTOPE_DATA
+    sample_count: 332
     bioproject_ids:
     - PRJNA718849
-    primary_reference: doi:10.1128/msystems.00417-22
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/msystems.00417-22
+        title: Quantitative Stable-Isotope Probing (qSIP) with Metagenomics Links Microbial Physiology
+          and Activity to Soil Moisture in Mediterranean-Climate Grassland Ecosystems
   datasets:
   - name: Microbes Persist qSIP Metagenome Bins
     description: Microbial genome bins and annotations from qSIP metagenomics
@@ -1113,18 +1247,27 @@ genomic_science_sfas:
     url: https://ggkbase.berkeley.edu/wsip-metawrap-drep-bins/organisms
   key_publications:
   - id: doi:10.1128/msystems.00417-22
-    title: Quantitative stable-isotope probing with metagenomics links microbial physiology and activity to soil moisture
+    title: Quantitative stable-isotope probing with metagenomics links microbial physiology and activity
+      to soil moisture
     findings:
     - statement: First application of qSIP to all organisms in soil simultaneously
     - statement: Bacterial growth occurred rapidly after wet-up with ~40% of taxa growing within one week
-  - id: doi:10.1038/s41564-023-01576-y
-    title: Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based energy budget model
+  - id: doi:10.1038/s41564-023-01582-w
+    title: Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based energy
+      budget model
     findings:
     - statement: Genome-informed trait-based models can predict rhizosphere microbiome dynamics
   - id: doi:10.1073/pnas.2413032122
-    title: Codon bias, nucleotide selection, and genome size predict in situ bacterial growth rate and transcription in rewetted soil
+    title: Codon bias, nucleotide selection, and genome size predict in situ bacterial growth rate and
+      transcription in rewetted soil
     findings:
     - statement: Genomic traits including codon bias predict bacterial growth rates in soil
+  phenotype_assays:
+  - QSIP_ACTIVITY
+  - NANOSIMS_ACTIVITY
+  - SOIL_INCUBATION
+  - RESPIRATION
+  - GROWTH_CURVES
   established: 2017
 - id: nmdc_sfas_brcs:pnnl_soil_microbiome
   name: Phenotypic Response of the Soil Microbiome to Environmental Perturbations
@@ -1145,11 +1288,10 @@ genomic_science_sfas:
     doe_page: https://www.genomicscience.energy.gov/pnnl/
     data_hub: https://data.pnnl.gov/Soil_SFA
     kbase: https://www.kbase.us/research/hofmockel-sfa/
-  description: 'PNNL''s Soil Microbiome SFA focuses on understanding how interactions among soil microbial
-    community members lead to emergence of community functions. Research identifies molecular-level metabolic
-    interactions governing decomposition and moisture effects on microbial phenotypes.
-
-    '
+  description: >
+    PNNL's Soil Microbiome SFA focuses on understanding how interactions among soil microbial community
+    members lead to emergence of community functions. Research identifies molecular-level metabolic interactions
+    governing decomposition and moisture effects on microbial phenotypes.
   field_sites:
   - name: Tall Wheatgrass Irrigation Trial
     description: Testing discoveries in bioenergy feedstock system
@@ -1176,45 +1318,53 @@ genomic_science_sfas:
   - METAGENOMICS
   - LABORATORY_EXPERIMENTS
   studies:
-  # Studies with data - candidates for NMDC ingest
   - name: Hi-C Metagenome Sequencing of Soil Moisture Impacts on Phage-Host Interactions
     pi: Kirsten Hofmockel
-    description: >-
-      High-throughput chromosomal conformation capture (Hi-C) metagenome sequencing
-      revealing soil moisture impacts on phage-host interactions. Published in Nature Comm 2023.
+    description: High-throughput chromosomal conformation capture (Hi-C) metagenome sequencing revealing
+      soil moisture impacts on phage-host interactions. Published in Nature Comm 2023.
     data_modalities:
     - METAGENOMICS
-    primary_reference: doi:10.1038/s41467-023-43430-1
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41467-023-42967-z
+        title: Hi-C metagenome sequencing reveals soil phage–host interactions
   - name: Soil Microbiome Response to Depth, Irrigation and Plant Genotype
     pi: Kirsten Hofmockel
-    description: >-
-      Influence of soil depth, irrigation, and plant genotype on the soil microbiome,
-      metaphenome, and carbon chemistry. Multi-omics study published in mBio 2023.
+    description: Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome,
+      and carbon chemistry. Multi-omics study published in mBio 2023.
     data_modalities:
     - METAGENOMICS
     - METABOLOMICS
     - PROTEOMICS
-    primary_reference: doi:10.1128/mbio.01758-23
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mbio.01758-23
+        title: Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome,
+          and carbon chemistry
   - name: Birch Effect Respiratory Response of Soil Microbiome
     pi: Kirsten Hofmockel
-    description: >-
-      Real-time and rapid respiratory response (90 seconds to 90 minutes) of the
-      soil microbiome to moisture shifts. Published in Microorganisms 2023.
+    description: Real-time and rapid respiratory response (90 seconds to 90 minutes) of the soil microbiome
+      to moisture shifts. Published in Microorganisms 2023.
     data_modalities:
     - METABOLOMICS
-    primary_reference: doi:10.3390/microorganisms11112630
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.3390/microorganisms11112630
+        title: Real-Time and Rapid Respiratory Response of the Soil Microbiome to Moisture Shifts
   - name: Viral Contributions to Soil Carbon Dynamics
     pi: Kirsten Hofmockel
-    description: >-
-      Estimating the importance of viral contributions to soil carbon dynamics
-      through metagenomics. Published in Global Change Biology 2024.
+    description: Estimating the importance of viral contributions to soil carbon dynamics through metagenomics.
+      Published in Global Change Biology 2024.
     data_modalities:
     - METAGENOMICS
-    primary_reference: doi:10.1111/gcb.17524
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1111/gcb.17524
+        title: Estimating the Importance of Viral Contributions to Soil Carbon Dynamics
   datasets:
   - name: PNNL Soil Microbiome SFA Data
     repository: PNNL DataHub
@@ -1224,15 +1374,18 @@ genomic_science_sfas:
   - id: doi:10.1038/s41467-023-42967-z
     title: Hi-C Metagenome Sequencing Reveals Soil Moisture Impacts on Phage-Host Interactions
     findings:
-    - statement: High-throughput chromosomal conformation capture reveals soil moisture controls phage-host dynamics
+    - statement: High-throughput chromosomal conformation capture reveals soil moisture controls phage-host
+        dynamics
   - id: doi:10.1128/mbio.01758-23
     title: Influence of soil depth, irrigation, and plant genotype on the soil microbiome and metaphenome
     findings:
     - statement: Soil depth and irrigation interact to shape microbiome composition and metabolic phenotypes
   - id: doi:10.1038/s41564-024-01686-x
-    title: A global atlas of soil viruses reveals unexplored biodiversity and potential biogeochemical impacts
+    title: A global atlas of soil viruses reveals unexplored biodiversity and potential biogeochemical
+      impacts
     findings:
-    - statement: Global soil virome atlas reveals vast unexplored viral diversity with biogeochemical implications
+    - statement: Global soil virome atlas reveals vast unexplored viral diversity with biogeochemical
+        implications
   - id: doi:10.3390/microorganisms11112630
     title: Real-time and rapid respiratory response of the soil microbiome to moisture shifts
     findings:
@@ -1241,6 +1394,53 @@ genomic_science_sfas:
     title: Significant remodeling of the soil lipidome following extreme moisture and temperature shifts
     findings:
     - statement: Extreme weather events cause significant restructuring of soil lipid chemistry
+  phenotype_assays:
+  - SOIL_INCUBATION
+  - RESPIRATION
+  - EXOMETABOLOMICS
+  - SUBSTRATE_UTILIZATION
+- id: nmdc_sfas_brcs:incogentec
+  name: InCoGenTEC
+  acronym: InCoGenTEC
+  program_type: SCIENTIFIC_FOCUS_AREA
+  sfa_type: GENOMIC_SCIENCE_SFA
+  lead_institution: Sandia National Laboratories
+  principal_investigators:
+  - name: Katie Mageeney
+    role: Principal Investigator
+    affiliation: Sandia National Laboratories
+  funding:
+    agency: DOE BER
+    program: Genomic Science Program
+  description: InCoGenTEC SFA at Sandia National Laboratories. Details to be populated.
+  isolate_collections:
+  - name: InCoGenTEC Bacterial Collection
+    description: Bacterial isolates maintained by InCoGenTEC SFA
+    organism_types:
+    - BACTERIA
+  - name: InCoGenTEC Phage Collection
+    description: Bacteriophage isolates for phage-host studies
+    organism_types:
+    - PHAGE
+  phenotype_assays:
+  - PHAGE_HOST_RANGE
+  - GROWTH_CURVES
+- id: nmdc_sfas_brcs:ubiospheres
+  name: µBiospheres SFA
+  acronym: µBiospheres
+  program_type: SCIENTIFIC_FOCUS_AREA
+  sfa_type: GENOMIC_SCIENCE_SFA
+  lead_institution: Lawrence Livermore National Laboratory
+  principal_investigators:
+  - name: Rhona Stuart
+    role: Principal Investigator
+    affiliation: Lawrence Livermore National Laboratory
+  funding:
+    agency: DOE BER
+    program: Genomic Science Program
+  description: µBiospheres SFA at Lawrence Livermore National Laboratory. Details to be populated.
+  phenotype_assays:
+  - GROWTH_CURVES
 - id: nmdc_sfas_brcs:imagine_biosecurity
   name: 'IMAGINE BioSecurity: Integrative Modeling and Genome-Scale Engineering for Biosystems Security'
   acronym: IMAGINE
@@ -1257,11 +1457,10 @@ genomic_science_sfas:
     contract: DE-AC36-08GO28308
   websites:
     doe_page: https://www.genomicscience.energy.gov/nrel-imagine/
-  description: 'IMAGINE develops an integrative biocontainment platform to build, characterize, and predictively
-    design biocontainment in microbial systems. The SFA integrates synthetic biology, computational modeling,
+  description: >
+    IMAGINE develops an integrative biocontainment platform to build, characterize, and predictively design
+    biocontainment in microbial systems. The SFA integrates synthetic biology, computational modeling,
     and plant-soil microbiology for secure biosystems design.
-
-    '
   scientific_questions:
   - How do we achieve predictive control of engineered biosystems?
   - What biocontainment strategies maintain fitness and productivity?
@@ -1319,12 +1518,11 @@ genomic_science_sfas:
     doe_page: https://www.genomicscience.energy.gov/lanlbfi/
     kbase: https://www.kbase.us/research/chain-sfa/
     bfi_portal: https://sfa-bfi.edgebioinformatics.org/search
-  description: 'The BFI SFA discovers fundamental principles underlying bacterial-fungal interactions
-    to harness their biotechnological potential for steering soil ecosystem functions. Research uses novel
-    bioinformatics and multiomics approaches to understand how bacteria and fungi sense, respond to, and
-    co-evolve with one another.
-
-    '
+  description: >
+    The BFI SFA discovers fundamental principles underlying bacterial-fungal interactions to harness their
+    biotechnological potential for steering soil ecosystem functions. Research uses novel bioinformatics
+    and multiomics approaches to understand how bacteria and fungi sense, respond to, and co-evolve with
+    one another.
   scientific_questions:
   - What principles drive bacterial-fungal interactions in soil?
   - How do BFI affect carbon flux and nutrient cycling?
@@ -1365,6 +1563,35 @@ genomic_science_sfas:
     title: Metabolomics of bacterial-fungal pairwise interactions reveal conserved molecular mechanisms
     findings:
     - statement: Conserved metabolic mechanisms underlie diverse bacterial-fungal interactions
+  isolate_collections:
+  - name: BFI Bacterial Collection
+    description: Bacterial isolates used for bacterial-fungal interaction studies. Includes strains selected
+      for their ability to interact with diverse fungal partners.
+    organism_types:
+    - BACTERIA
+    source_environments:
+    - Soil
+    - Rhizosphere
+    isolation_methods:
+    - Aerobic plating
+  - name: BFI Fungal Collection
+    description: Fungal isolates including soil fungi and model organisms used for bacterial-fungal interaction
+      studies.
+    organism_types:
+    - FUNGI
+    source_environments:
+    - Soil
+    - Rhizosphere
+    isolation_methods:
+    - Fungal plating
+    - Hyphal tip isolation
+  phenotype_assays:
+  - BACTERIAL_FUNGAL_INTERACTION_ASSAY
+  - COCULTURE_INTERACTIONS
+  - EXOMETABOLOMICS
+  - LIVE_CELL_IMAGING
+  - GROWTH_CURVES
+  - COMPETITION_ASSAYS
 - id: nmdc_sfas_brcs:pmi
   name: Plant-Microbe Interfaces
   acronym: PMI
@@ -1388,11 +1615,10 @@ genomic_science_sfas:
     doe_page: https://www.genomicscience.energy.gov/ornlpmi/
     kbase: https://www.kbase.us/research/doktycz-sfa/
     bacterial_strains: https://pmiweb.ornl.gov/table-test/
-  description: 'PMI reveals mechanistic bases underpinning selection of symbiotic plant-microbe partnerships
-    and how environment structures the host plant''s microbiome. Various Populus species (eastern cottonwood,
-    black cottonwood, aspen) serve as model hosts for bioenergy research.
-
-    '
+  description: >
+    PMI reveals mechanistic bases underpinning selection of symbiotic plant-microbe partnerships and how
+    environment structures the host plant's microbiome. Various Populus species (eastern cottonwood, black
+    cottonwood, aspen) serve as model hosts for bioenergy research.
   scientific_questions:
   - How do plants select symbiotic microbial partners?
   - What environmental factors structure the plant microbiome?
@@ -1419,101 +1645,116 @@ genomic_science_sfas:
   - IMAGING
   nmdc_umbrella_study: nmdc:sty-11-f1he1955
   studies:
-  # Studies in NMDC
   - nmdc_study_id: nmdc:sty-11-1t150432
     name: Defining the functional diversity of the Populus root microbiome
     pi: Mitchel J. Doktycz
-    description: >-
-      Characterization and interpretation of plant-microbe interfaces using poplar and
-      its microbial community in the context of favorable plant microbe interactions.
-  # Bio-Scales pilot project - in NMDC
+    description: Characterization and interpretation of plant-microbe interfaces using poplar and its
+      microbial community in the context of favorable plant microbe interactions.
+    gold_study_id: gold:Gs0103573
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mSystems.00045-18
+        title: Exploration of the Biosynthetic Potential of the <i>Populus</i> Microbiome
   - nmdc_study_id: nmdc:sty-11-r2h77870
     name: Bio-Scales - Integrated Metagenomic, Metabolomic and Transcriptomic Survey of Populus
     pi: Mitchel J. Doktycz
-    description: >-
-      Bio-Scales pilot project (PIs: Doktycz, Schadt, Mayes, Muchero, Weston) understanding
-      how plant traits modify the microbiome and how the coupled plant-soil-microbial system
-      influences nitrogen transformation. Integrated dataset of 318 metagenomes, 98 transcriptomes,
-      and 314 metabolomic profiles from 27 P. trichocarpa genotypes across Oregon field sites.
-      Largest publicly available metagenomics repository on tree endosphere.
+    description: 'Bio-Scales pilot project (PIs: Doktycz, Schadt, Mayes, Muchero, Weston) understanding
+      how plant traits modify the microbiome and how the coupled plant-soil-microbial system influences
+      nitrogen transformation. Integrated dataset of 318 metagenomes, 98 transcriptomes, and 314 metabolomic
+      profiles from 27 P. trichocarpa genotypes across Oregon field sites. Largest publicly available
+      metagenomics repository on tree endosphere.'
     organism: Populus trichocarpa
     data_modalities:
     - METAGENOMICS
     - TRANSCRIPTOMICS
     - METABOLOMICS
     sample_count: 318
+    gold_study_id: gold:Gs0154044
     bioproject_ids:
     - PRJNA1034652
-    primary_reference: doi:10.1038/s41597-024-03069-7
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41597-024-03069-7
+        title: An integrated metagenomic, metabolomic and transcriptomic survey of Populus across genotypes
+          and environments
   - name: Seasonality and Temporal Dynamics in Populus Microbiome
     pi: Melissa Cregger
-    description: >-
-      Amplicon sequencing characterizing bacterial/archaeal and fungal communities in leaf
+    description: Amplicon sequencing characterizing bacterial/archaeal and fungal communities in leaf
       endosphere, root endosphere, and rhizosphere of two Populus species over time.
     organism: Populus trichocarpa
     data_modalities:
     - AMPLICON_16S
     - AMPLICON_ITS
+    sample_count: 2359
     bioproject_ids:
     - PRJNA993999
-    primary_reference: doi:10.1128/msystems.00991-23
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/msystems.00886-23
+        title: Seasonality and longer-term development generate temporal dynamics in the <i>Populus</i>
+          microbiome
   - name: Populus Holobiont Niche and Genotype Effects
     pi: Melissa Cregger
-    description: >-
-      Dissecting effects of plant niches and genotype on the Populus microbiome using
-      16S and ITS amplicon sequencing across multiple tissue types.
+    description: Dissecting effects of plant niches and genotype on the Populus microbiome using 16S and
+      ITS amplicon sequencing across multiple tissue types.
     organism: Populus deltoides
     data_modalities:
     - AMPLICON_16S
     - AMPLICON_ITS
+    sample_count: 590
     bioproject_ids:
     - PRJNA385484
     - PRJNA384978
-    primary_reference: doi:10.1186/s40168-018-0413-8
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40168-018-0413-8
+        title: 'The Populus holobiont: dissecting the effects of plant niches and genotype on the microbiome'
   - name: Cultivating Bacterial Microbiota of Populus Roots
     pi: Dale Pelletier
-    description: >-
-      Isolation and characterization of culturable bacteria from Populus roots with
-      16S sequencing for community analysis.
+    description: Isolation and characterization of culturable bacteria from Populus roots with 16S sequencing
+      for community analysis.
     organism: Populus trichocarpa
     data_modalities:
     - AMPLICON_16S
     - GENOMICS
+    sample_count: 552
     bioproject_ids:
     - PRJNA666202
-    primary_reference: doi:10.1128/mSystems.00052-21
     nmdc_ingest_target: true
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mSystems.01306-20
+        title: Cultivating the Bacterial Microbiota of <i>Populus</i> Roots
   kbase_genome_collection: PMI
   analyses:
   - id: pmi_populus_microbiome
     name: Populus Microbiome Narrative
     analysis_type: KBASE_NARRATIVE
-    kbase_narrative_id: "56021"
+    kbase_narrative_id: '56021'
     kbase_narrative_url: https://kbase.us/n/56021/26/
-    description: >-
-      Genome collection of Populus-associated microbes showing rhizosphere
-      diversity. Includes isolate genomes and annotations from PMI bacterial
-      collection.
+    description: Genome collection of Populus-associated microbes showing rhizosphere diversity. Includes
+      isolate genomes and annotations from PMI bacterial collection.
     output_data_types:
     - GENOMICS
   - id: pmi_commscores
     name: PMI Synthetic Community Metabolic Modeling
     analysis_type: KBASE_NARRATIVE
-    kbase_narrative_id: "73218"
+    kbase_narrative_id: '73218'
     kbase_narrative_url: https://kbase.us/n/73218/75/
-    description: >-
-      CommScores analysis for predicting pairwise interactions among PMI
-      bacterial isolates. Developed in collaboration with the PMI SFA.
+    description: CommScores analysis for predicting pairwise interactions among PMI bacterial isolates.
+      Developed in collaboration with the PMI SFA.
     output_data_types:
     - GENOMICS
-    primary_reference: doi:10.1016/j.csbj.2021.03.034
+    primary_reference_info:
+      reference:
+        id: doi:10.1016/j.csbj.2021.03.034
+        title: Formation, characterization and modeling of emergent synthetic microbial communities
   datasets:
   - name: PMI Bacterial Collection
-    description: >-
-      Isolates from native, field, and greenhouse grown Populus, identified by 16S rDNA sequencing.
+    description: Isolates from native, field, and greenhouse grown Populus, identified by 16S rDNA sequencing.
     url: https://pmiweb.ornl.gov/table-test/
     reference: Carper et al. 2021
   key_publications:
@@ -1521,7 +1762,7 @@ genomic_science_sfas:
     title: An integrated metagenomic, metabolomic and transcriptomic survey of Populus
     findings:
     - statement: Comprehensive multi-omics dataset of 318 metagenomes from 27 Populus genotypes
-  - id: doi:10.1128/msystems.00991-23
+  - id: doi:10.1128/msystems.00886-23
     title: Seasonality and temporal dynamics in the Populus microbiome
     findings:
     - statement: Strong seasonal patterns drive Populus-associated microbial community structure
@@ -1537,6 +1778,40 @@ genomic_science_sfas:
     title: CRISPR/Cas9-based gene activation and base editing in Populus
     findings:
     - statement: Established CRISPR tools for Populus genetic engineering
+  isolate_collections:
+  - name: PMI Bacterial Collection
+    description: Bacterial isolates from native, field, and greenhouse-grown Populus trees. Includes rhizosphere,
+      endosphere, and phyllosphere isolates characterized by 16S rDNA sequencing with full genome sequences
+      for many strains.
+    organism_types:
+    - BACTERIA
+    isolate_count: 400
+    genome_count: 400
+    source_environments:
+    - Populus rhizosphere
+    - Populus root endosphere
+    - Populus phyllosphere
+    host_organisms:
+    - Populus trichocarpa
+    - Populus deltoides
+    isolation_methods:
+    - Aerobic plating
+    - Root homogenization
+    culture_collection_url: https://pmiweb.ornl.gov/table-test/
+    genome_catalog_url: https://kbase.us/n/56021/26/
+    kbase_narrative_id: '56021'
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mSystems.01306-20
+        title: Cultivating the Bacterial Microbiota of <i>Populus</i> Roots
+  phenotype_assays:
+  - GROWTH_CURVES
+  - BIOLOG_PHENOTYPING
+  - PLANT_COLONIZATION
+  - COCULTURE_INTERACTIONS
+  - SYNTHETIC_COMMUNITY
+  - EXOMETABOLOMICS
+  - LIVE_CELL_IMAGING
   established: 2008
 - id: nmdc_sfas_brcs:seed
   name: 'SEED: Secure Ecosystem Engineering and Design'
@@ -1560,12 +1835,10 @@ genomic_science_sfas:
     ornl_page: https://www.ornl.gov/project/secure-ecosystem-engineering-and-design
     doe_page: https://www.genomicscience.energy.gov/ornlseed/
     team: https://seed-sfa.ornl.gov/team/
-  description: >-
-    SEED develops predictive understanding of how microorganisms establish, spread, and influence
-    ecosystems critical to DOE missions. Combines expertise in microbiology, plant biology, ecology,
-    genetic engineering, and computational sciences. Currently deploying biodesign tools in the
-    plant growth-promoting bacteria Bacillus velezensis to improve Populus resistance to the
-    pathogenic fungus Sphaerulina musiva.
+  description: SEED develops predictive understanding of how microorganisms establish, spread, and influence
+    ecosystems critical to DOE missions. Combines expertise in microbiology, plant biology, ecology, genetic
+    engineering, and computational sciences. Currently deploying biodesign tools in the plant growth-promoting
+    bacteria Bacillus velezensis to improve Populus resistance to the pathogenic fungus Sphaerulina musiva.
   scientific_questions:
   - What factors influence microbial invasion success?
   - How do introduced microbes establish and spread in ecosystems?
@@ -1589,45 +1862,50 @@ genomic_science_sfas:
   studies:
   - name: Bacillus velezensis EB14 Biocontrol Agent Genome
     pi: Paul Abraham
-    description: >-
-      Genome sequencing of Bacillus velezensis EB14, a native endophytic bacterial strain
-      isolated from Populus × jackii with biocontrol potential against Sphaerulina musiva,
-      the causative pathogen of poplar stem canker. Contains gene clusters for antimicrobial
-      compound biosynthesis including iturin A, subtulene A, and fengycin.
+    description: Genome sequencing of Bacillus velezensis EB14, a native endophytic bacterial strain isolated
+      from Populus × jackii with biocontrol potential against Sphaerulina musiva, the causative pathogen
+      of poplar stem canker. Contains gene clusters for antimicrobial compound biosynthesis including
+      iturin A, subtulene A, and fengycin.
     organism: Bacillus velezensis
     bioproject_ids:
     - PRJNA681597
     data_modalities:
     - GENOMICS
-    primary_reference: doi:10.1094/PHYTO-09-20-0433-A
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1094/PHYTO-09-20-0433-A
+        title: Genome Sequence Resource of <i>Bacillus</i> <i>velezensis</i> EB14, a Native Endophytic
+          Bacterial Strain with Biocontrol Potential Against the Poplar Stem Canker Causative Pathogen,
+          <i>Sphaerulina musiva</i>
   - name: Populus-Laccaria Symbiosis Effector Discovery
     pi: Xiaohan Yang
-    description: >-
-      Investigation of plant-derived effector proteins mediating symbiosis between Populus
-      and the ectomycorrhizal fungus Laccaria bicolor. Identifies PtLecRLK1 receptor and
-      small secreted proteins regulating fungal colonization.
+    description: Investigation of plant-derived effector proteins mediating symbiosis between Populus
+      and the ectomycorrhizal fungus Laccaria bicolor. Identifies PtLecRLK1 receptor and small secreted
+      proteins regulating fungal colonization.
     organism: Populus trichocarpa
     data_modalities:
     - GENOMICS
     - TRANSCRIPTOMICS
     - METABOLOMICS
-    primary_reference: doi:10.1093/hr/uhae232
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1093/hr/uhae232
+        title: A small secreted protein serves as a plant-derived effector mediating symbiosis between
+          <i>Populus</i> and <i>Laccaria bicolor</i>
   - name: CRISPRi High-Throughput Screens in Non-Model Bacteria
     pi: Paul Abraham
-    description: >-
-      Development of workflow for rapid enhancement of transformation efficiency and
-      genetic part characterization in non-model bacteria for genome-wide CRISPRi screens.
-      Tools being deployed in Bacillus velezensis for rhizosphere studies.
+    description: Development of workflow for rapid enhancement of transformation efficiency and genetic
+      part characterization in non-model bacteria for genome-wide CRISPRi screens. Tools being deployed
+      in Bacillus velezensis for rhizosphere studies.
     organism: Bacillus velezensis
     data_modalities:
     - GENOMICS
     nmdc_ingest_priority: LOW
   datasets:
   - name: Bacillus velezensis EB14 Complete Genome
-    description: >-
-      Complete genome sequence of B. velezensis EB14 (4.0 Mb) sequenced using PacBio RS II.
+    description: Complete genome sequence of B. velezensis EB14 (4.0 Mb) sequenced using PacBio RS II.
       Contains predicted gene clusters for antimicrobial compound biosynthesis.
     repository: NCBI
     url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA681597
@@ -1635,19 +1913,20 @@ genomic_science_sfas:
   - id: seed_commscores
     name: SEED Microbial Interaction Predictions
     analysis_type: KBASE_NARRATIVE
-    description: >-
-      CommScores analysis for predicting pairwise interactions among SEED bacterial
-      isolates including Bacillus velezensis. Uses same KBase apps as PMI SFA.
+    description: CommScores analysis for predicting pairwise interactions among SEED bacterial isolates
+      including Bacillus velezensis. Uses same KBase apps as PMI SFA.
     output_data_types:
     - GENOMICS
   key_publications:
   - id: doi:10.1094/PHYTO-09-20-0433-A
-    title: Genome Sequence Resource of Bacillus velezensis EB14, a Native Endophytic Bacterial Strain with Biocontrol Potential
+    title: Genome Sequence Resource of Bacillus velezensis EB14, a Native Endophytic Bacterial Strain
+      with Biocontrol Potential
     findings:
     - statement: B. velezensis EB14 contains gene clusters for antimicrobial compound biosynthesis
     - statement: Produces iturin A, subtulene A, and fengycin cyclic lipopeptides
   - id: doi:10.1093/hr/uhae232
-    title: A small secreted protein serves as a plant-derived effector mediating symbiosis between Populus and Laccaria bicolor
+    title: A small secreted protein serves as a plant-derived effector mediating symbiosis between Populus
+      and Laccaria bicolor
     findings:
     - statement: Identified plant-derived effector proteins regulating plant-fungal symbiosis
   - id: doi:10.1093/hr/uhad087
@@ -1663,7 +1942,8 @@ genomic_science_sfas:
     findings:
     - statement: Developed anti-CRISPR tools for tunable genome editing in plants
   - id: doi:10.1094/PHYTOFR-10-20-0023-R
-    title: Isolation and Characterization of Bacillus velezensis EB14 and Its Interactions with the Endophytic Fungal Microbiome
+    title: Isolation and Characterization of Bacillus velezensis EB14 and Its Interactions with the Endophytic
+      Fungal Microbiome
     findings:
     - statement: B. velezensis EB14 shows strong antifungal activity against S. musiva
 - id: nmdc_sfas_brcs:llnl_secure_biosystems
@@ -1704,11 +1984,10 @@ genomic_science_sfas:
     amount: $9 million
   websites:
     llnl_page: https://sc-programs.llnl.gov/biological-and-environmental-research-at-llnl/secure-biosystems-design
-  description: >-
-    This SFA engineers plant-benefiting microbes for safe and effective deployment in the
-    rhizosphere as plant-promoting probiotics. Develops multilayered containment strategies
-    including kill-switches and gene overlap for circuit stability. Leverages LLNL Soil
-    Microbiome SFA expertise to test containment designs in soil and rhizosphere environments.
+  description: This SFA engineers plant-benefiting microbes for safe and effective deployment in the rhizosphere
+    as plant-promoting probiotics. Develops multilayered containment strategies including kill-switches
+    and gene overlap for circuit stability. Leverages LLNL Soil Microbiome SFA expertise to test containment
+    designs in soil and rhizosphere environments.
   scientific_questions:
   - How do we deploy beneficial microbes safely in the rhizosphere?
   - What biocontainment mechanisms are evolutionarily stable?
@@ -1729,9 +2008,8 @@ genomic_science_sfas:
   studies:
   - name: Multilayered Biocontainment for Rhizosphere Deployment
     pi: Yongqin Jiao
-    description: >-
-      Developing and testing multilayered containment strategies for engineered microbes
-      including kill-switches stabilized through gene overlap (sequence entanglement).
+    description: Developing and testing multilayered containment strategies for engineered microbes including
+      kill-switches stabilized through gene overlap (sequence entanglement).
     organism: Shewanella oneidensis
     data_modalities:
     - GENOMICS
@@ -1756,19 +2034,17 @@ environmental_system_science_sfas:
     czen: https://www.czen.org/content/east-river-watershed-function-sfa
   field_sites:
   - name: East River Watershed
-    description: 'Mountainous community testbed in Upper Colorado River Basin, representative of vulnerable
-      headwater systems
-
-      '
+    description: >
+      Mountainous community testbed in Upper Colorado River Basin, representative of vulnerable headwater
+      systems
     location: Colorado
   - name: Taylor River Watershed
     description: Expansion site within Upper Colorado River Basin
     location: Colorado
-  description: 'The Watershed Function SFA develops predictive understanding of how mountainous watersheds
-    retain and release water, nutrients, carbon, and metals. Research focuses on interacting impacts of
-    warming and drought on hydro-biogeochemical functioning.
-
-    '
+  description: >
+    The Watershed Function SFA develops predictive understanding of how mountainous watersheds retain
+    and release water, nutrients, carbon, and metals. Research focuses on interacting impacts of warming
+    and drought on hydro-biogeochemical functioning.
   scientific_questions:
   - How do droughts and early snowmelt impact water availability?
   - What controls biogeochemical cycling in mountain watersheds?
@@ -1798,10 +2074,9 @@ environmental_system_science_sfas:
   studies:
   - name: East River Floodplain Metagenomes
     pi: Eoin Brodie
-    description: >-
-      Metagenome-assembled genomes from floodplain soils in the East River watershed.
-      248 draft quality genomes reconstructed at sub-species level from upper, middle,
-      and lower reaches. Demonstrates floodplains as scaling motifs for watershed models.
+    description: Metagenome-assembled genomes from floodplain soils in the East River watershed. 248 draft
+      quality genomes reconstructed at sub-species level from upper, middle, and lower reaches. Demonstrates
+      floodplains as scaling motifs for watershed models.
     organism: soil metagenome
     data_modalities:
     - METAGENOMICS
@@ -1809,16 +2084,19 @@ environmental_system_science_sfas:
     nmdc_ingest_priority: HIGH
   - name: East River Virome and Microbial Dynamics
     pi: Simon Roux
-    description: >-
-      Virus diversity and activity driven by snowmelt and host dynamics in high-altitude
-      watershed soil ecosystem. Part of the Watershed Function SFA microbiome studies.
+    description: Virus diversity and activity driven by snowmelt and host dynamics in high-altitude watershed
+      soil ecosystem. Part of the Watershed Function SFA microbiome studies.
     organism: soil metagenome
     data_modalities:
     - METAGENOMICS
     - METATRANSCRIPTOMICS
-    primary_reference: doi:10.1186/s40168-023-01533-5
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40168-023-01666-z
+        title: Virus diversity and activity is driven by snowmelt and host dynamics in a high-altitude
+          watershed soil ecosystem
   datasets:
   - name: East River Watershed Data
     repository: DOE Data Explorer
@@ -1831,15 +2109,20 @@ environmental_system_science_sfas:
   - id: doi:10.2136/vzj2018.03.0061
     title: 'The East River, Colorado, Watershed: A Mountainous Community Testbed for Improving Predictive
       Understanding of Multiscale Hydrological-Biogeochemical Dynamics'
-  - id: doi:10.1186/s40168-023-01533-5
-    title: Virus diversity and activity is driven by snowmelt and host dynamics in a high-altitude watershed soil ecosystem
+  - id: doi:10.1186/s40168-023-01666-z
+    title: Virus diversity and activity is driven by snowmelt and host dynamics in a high-altitude watershed
+      soil ecosystem
     findings:
     - statement: Snowmelt drives seasonal pulses in viral activity linked to host population dynamics
   - id: doi:10.1021/acs.est.4c01108
-    title: Seasonal Controls on Microbial Depolymerization and Oxidation of Organic Matter in Floodplain Soils
+    title: Seasonal Controls on Microbial Depolymerization and Oxidation of Organic Matter in Floodplain
+      Soils
     findings:
     - statement: Floodplain microbiomes mediate biogeochemical changes at watershed scale
   collaborators: '>450 individuals from 30+ institutions, 7 countries'
+  phenotype_assays:
+  - SOIL_INCUBATION
+  - RESPIRATION
 - id: nmdc_sfas_brcs:wade
   name: Watershed Dynamics and Evolution (WaDE) Science Focus Area
   acronym: WaDE
@@ -1862,15 +2145,13 @@ environmental_system_science_sfas:
     publications: https://wade.ornl.gov/publications/
   field_sites:
   - name: Tennessee River Basin Watersheds
-    description: >-
-      Three mid-order watersheds broadly representative of the Tennessee River Basin, studied
-      successively over 9-year plan. Most intensively used freshwater resource region in
-      contiguous US, supporting ~4.5 million people with >280,000 gallons/day/sq mi withdrawals.
-  description: >-
-    WaDE advances predictive understanding of how dominant processes controlling watershed
-    hydro-biogeochemical function operate under different hydrologic regimes and vary along
-    stream networks draining heterogeneous land covers. Organized around Dynamic Headwaters,
-    Stream Corridor Processes, Network Function, and Virtual Watershed themes.
+    description: Three mid-order watersheds broadly representative of the Tennessee River Basin, studied
+      successively over 9-year plan. Most intensively used freshwater resource region in contiguous US,
+      supporting ~4.5 million people with >280,000 gallons/day/sq mi withdrawals.
+  description: WaDE advances predictive understanding of how dominant processes controlling watershed
+    hydro-biogeochemical function operate under different hydrologic regimes and vary along stream networks
+    draining heterogeneous land covers. Organized around Dynamic Headwaters, Stream Corridor Processes,
+    Network Function, and Virtual Watershed themes.
   scientific_questions:
   - How do dominant processes vary under different hydrologic regimes?
   - What controls hydro-biogeochemical function along stream networks?
@@ -1917,11 +2198,10 @@ environmental_system_science_sfas:
   - name: Yakima River Basin
     description: Single-basin testbed with varied environmental features
     location: Washington State
-  description: 'The RC-SFA delivers predictive understanding of how perturbations impact watershed hydro-biogeochemistry
+  description: >
+    The RC-SFA delivers predictive understanding of how perturbations impact watershed hydro-biogeochemistry
     across the hillslope-to-stream continuum. Focus on wildfire and stream drying as interacting perturbations
     with uncertain impacts.
-
-    '
   scientific_questions:
   - How do precipitation and temperature control hydrologic connectivity?
   - What are impacts of wildfires on watershed hydro-biogeochemistry?
@@ -1941,79 +2221,75 @@ environmental_system_science_sfas:
   - GEOSPATIAL
   nmdc_umbrella_study: nmdc:sty-11-x4aawf73
   studies:
-  # Studies with data - candidates for NMDC ingest
   - nmdc_study_id: nmdc:sty-11-aygzgv51
     name: Riverbed Sediment Microbial Communities from the Columbia River
     pi: James Stegen
-    description: >-
-      Molecular-scale processes governing biogeochemical function of subsurface
-      groundwater-surface water mixing zones (hyporheic zone). Columbia River samples
-      from areas with varied vegetation density for studying biogeochemical hotspots.
+    description: Molecular-scale processes governing biogeochemical function of subsurface groundwater-surface
+      water mixing zones (hyporheic zone). Columbia River samples from areas with varied vegetation density
+      for studying biogeochemical hotspots.
     data_modalities:
     - METAGENOMICS
     - METABOLOMICS
     - PROTEOMICS
+    gold_study_id: gold:Gs0114663
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1371/journal.pone.0228165
+        title: Distinct temporal diversity profiles for nitrogen cycling genes in a hyporheic microbiome
   - name: Functional Microbiome Catalogue from North American Rivers
     pi: Kelly Wrighton
-    description: >-
-      Catalog of 2,000+ microbial genomes from ~100 rivers across North America.
-      Over 1,000 metagenomes sequenced through JGI from WHONDRS water samples.
-      Landmark study published in Nature 2024.
+    description: Catalog of 2,000+ microbial genomes from ~100 rivers across North America. Over 1,000
+      metagenomes sequenced through JGI from WHONDRS water samples. Landmark study published in Nature
+      2024.
     data_modalities:
     - METAGENOMICS
     - METATRANSCRIPTOMICS
-    primary_reference: doi:10.1038/s41586-024-08240-z
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41586-024-08240-z
+        title: A functional microbiome catalogue crowdsourced from North American rivers
   kbase_genome_collection: GROW
   analyses:
   - id: growdb_samples
     name: GROWdb US River Systems - Samples
     analysis_type: KBASE_NARRATIVE
-    kbase_narrative_id: "109073"
+    kbase_narrative_id: '109073'
     kbase_narrative_url: https://kbase.us/n/109073/63/
-    osti_doi: "10.25982/109073.30/1895615"
+    osti_doi: 10.25982/109073.30/1895615
     is_static: true
     sample_count: 178
-    description: >-
-      Sample metadata and links for GROWdb US river systems. Part of the
-      Genome Resolved Open Watersheds (GROW) database built from WHONDRS
-      worldwide river sampling campaign.
+    description: Sample metadata and links for GROWdb US river systems. Part of the Genome Resolved Open
+      Watersheds (GROW) database built from WHONDRS worldwide river sampling campaign.
     output_data_types:
     - METAGENOMICS
   - id: growdb_mags
     name: GROWdb Metagenome Assembled Genomes (MAGs)
     analysis_type: KBASE_NARRATIVE
-    description: >-
-      Metagenome-assembled genomes from WHONDRS river samples. Includes
-      MAG assemblies, quality metrics, and GTDB taxonomy assignments.
+    description: Metagenome-assembled genomes from WHONDRS river samples. Includes MAG assemblies, quality
+      metrics, and GTDB taxonomy assignments.
     output_data_types:
     - METAGENOMICS
   - id: growdb_metabolic_models
     name: GROWdb Metabolic Models
     analysis_type: KBASE_NARRATIVE
-    description: >-
-      Genome-scale metabolic models built from GROW MAGs using KBase
-      ModelSEED pipeline. Enables prediction of metabolic capabilities
-      and community interactions.
+    description: Genome-scale metabolic models built from GROW MAGs using KBase ModelSEED pipeline. Enables
+      prediction of metabolic capabilities and community interactions.
     output_data_types:
     - METAGENOMICS
   datasets:
-  # Flagship datasets only - full catalog available via ESS-DIVE
   - name: WHONDRS Community Data Packages
-    description: >-
-      Community-contributed data packages from WHONDRS (Worldwide Hydrobiogeochemistry
-      Observation Network for Dynamic River Systems).
+    description: Community-contributed data packages from WHONDRS (Worldwide Hydrobiogeochemistry Observation
+      Network for Dynamic River Systems).
     repository: ESS-DIVE
     count: 58 open datasets (as of 2024)
   key_publications:
   - id: doi:10.1038/s41586-024-08240-z
     title: A functional microbiome catalogue crowdsourced from North American rivers
     findings:
-    - statement: >-
-        Over 2,000 microbial genomes catalogued from ~100 rivers across North America
-    - statement: >-
-        WHONDRS provides globally scalable framework for river microbiome research
+    - statement: Over 2,000 microbial genomes catalogued from ~100 rivers across North America
+    - statement: WHONDRS provides globally scalable framework for river microbiome research
   - id: doi:10.1029/2023WR036023
     title: 'Sinuosity-Driven Hyporheic Exchange: Hydrodynamics and Biogeochemical Potentials'
     findings:
@@ -2023,7 +2299,8 @@ environmental_system_science_sfas:
     findings:
     - statement: Multiple drivers control methane cycling in tidal river floodplains
   - id: doi:10.1029/2023gl106220
-    title: Linkages between mineral element composition of soils and sediments with hyporheic zone dissolved organic matter chemistry
+    title: Linkages between mineral element composition of soils and sediments with hyporheic zone dissolved
+      organic matter chemistry
     findings:
     - statement: Soil mineral composition linked to hyporheic zone DOM chemistry across CONUS
   - id: doi:10.1016/j.soilbio.2024.109364
@@ -2031,7 +2308,8 @@ environmental_system_science_sfas:
     findings:
     - statement: Thermodynamic constraints control organic matter decomposition pathways
   - id: doi:10.1021/acs.est.3c10826
-    title: Experimental open air burning of vegetation enhances organic matter chemical heterogeneity compared to laboratory burns
+    title: Experimental open air burning of vegetation enhances organic matter chemical heterogeneity
+      compared to laboratory burns
     findings:
     - statement: Wildfire-derived organic matter differs significantly from lab-burned material
 - id: nmdc_sfas_brcs:mercury_sfa
@@ -2056,11 +2334,10 @@ environmental_system_science_sfas:
     description: Mercury-contaminated stream system
     location: Oak Ridge, Tennessee
     contamination_source: Historical nuclear material research and production
-  description: 'The Mercury SFA provides foundational insight on exchange and feedback processes at critical
-    interfaces controlling mercury fate and transformation. Research elucidates mechanisms by which inorganic
-    mercury transforms into methylmercury at the sediment-water interface.
-
-    '
+  description: >
+    The Mercury SFA provides foundational insight on exchange and feedback processes at critical interfaces
+    controlling mercury fate and transformation. Research elucidates mechanisms by which inorganic mercury
+    transforms into methylmercury at the sediment-water interface.
   scientific_questions:
   - What mechanisms control mercury transformation to methylmercury?
   - How do sediment-water interfaces mediate mercury cycling?
@@ -2090,46 +2367,55 @@ environmental_system_science_sfas:
     - 10.12769/1489828
     - 10.12769/1489830
   - name: ORNL Compiled Mercury Methylator Database
-    description: 'Custom reference database of hgcA and hgcB genes from mercury-methylating microorganisms
-      (301 hgcA, 239 hgcB sequences)
-
-      '
+    description: >
+      Custom reference database of hgcA and hgcB genes from mercury-methylating microorganisms (301 hgcA,
+      239 hgcB sequences)
     repository: DOE Data Explorer
     doi: dataset/1569274
   - name: Hg-MATE-Db
-    description: 'Hg-cycling Microorganisms in Aquatic and Terrestrial Ecosystems Database for identifying
-      mercury-cycling microbes
-
-      '
+    description: >
+      Hg-cycling Microorganisms in Aquatic and Terrestrial Ecosystems Database for identifying mercury-cycling
+      microbes
     repository: Smithsonian Institution
     doi: 10.25573/serc.13105370.v1
     version: v1.01142021
   studies:
   - name: East Fork Poplar Creek Sediment Metagenomes
     pi: Mircea Podar
-    description: >-
-      Metagenome-assembled genomes of novel prokaryotic species from mercury-contaminated
-      East Fork Poplar Creek sediments. 28 MAGs reconstructed including Hg methylators.
+    description: Metagenome-assembled genomes of novel prokaryotic species from mercury-contaminated East
+      Fork Poplar Creek sediments. 28 MAGs reconstructed including Hg methylators.
     organism: sediment metagenome
     data_modalities:
     - METAGENOMICS
     bioproject_ids:
     - PRJNA670906
-    primary_reference: doi:10.1128/MRA.00100-21
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    preprocessed_data_available:
+    - MAGS
+    - GENOME_ASSEMBLIES
+    preprocessed_data_counts: 28 MAGs, 135 Gbases total, contig-level assemblies
+    ncbi_data_quality_notes: MAGs available as GenBank assemblies under PRJNA670906. Quality assessment
+      needed to determine if they meet NMDC completeness and contamination standards.
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/MRA.00153-21
+        title: Metagenome-Assembled Genome Sequences of Novel Prokaryotic Species from the Mercury-Contaminated
+          East Fork Poplar Creek, Oak Ridge, Tennessee, USA
   - name: Archaeal Mercury Methylators in Freshwater Sediments
     pi: Dwayne Elias
-    description: >-
-      Study demonstrating robust mercury methylation across diverse methanogenic archaea
-      in freshwater sediments from East Fork Poplar Creek.
+    description: Study demonstrating robust mercury methylation across diverse methanogenic archaea in
+      freshwater sediments from East Fork Poplar Creek.
     organism: sediment metagenome
     data_modalities:
     - METAGENOMICS
     - AMPLICON_16S
-    primary_reference: doi:10.1128/mBio.00599-18
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mBio.02403-17
+        title: Robust Mercury Methylation across Diverse Methanogenic Archaea
   key_publications:
   - id: doi:10.1038/s42003-020-1047-5
     title: 'Structure determination of the HgcAB complex using metagenome sequence data: Insight into
@@ -2178,15 +2464,13 @@ environmental_system_science_sfas:
     anl_page: https://www.anl.gov/bio/subsurface-biogeochemical-research
   field_sites:
   - name: Savannah River Site Riparian Wetland
-    description: 'Riparian wetland representative of many in humid regions of the Southeast US
-
-      '
+    description: >
+      Riparian wetland representative of many in humid regions of the Southeast US
     location: Aiken, South Carolina
-  description: 'This SFA investigates wetland hydro-biogeochemistry at a riparian wetland at DOE''s Savannah
-    River Site. Research aims to understand and predict wetland ecosystem function and control on carbon,
-    nutrient, and contaminant transformations and transport.
-
-    '
+  description: >
+    This SFA investigates wetland hydro-biogeochemistry at a riparian wetland at DOE's Savannah River
+    Site. Research aims to understand and predict wetland ecosystem function and control on carbon, nutrient,
+    and contaminant transformations and transport.
   scientific_questions:
   - How do wetlands control elemental transformations and transport?
   - What processes regulate carbon and nutrient cycling in wetlands?
@@ -2218,16 +2502,14 @@ environmental_system_science_sfas:
   - name: Riverton Floodplain
     location: Wyoming
   - name: Crested Butte Floodplain
-    description: 'Alluvial aquifer underlying Slate River with fine-grained soil overlying cobble/gravel
-      alluvium (3600 m² interface)
-
-      '
+    description: >
+      Alluvial aquifer underlying Slate River with fine-grained soil overlying cobble/gravel alluvium
+      (3600 m² interface)
     location: Colorado
-  description: 'The Floodplain Hydro-Biogeochemistry SFA investigates how subsurface interfaces mediate
-    molecular-scale biogeochemical processes and groundwater quality. Research focuses on microbial and
-    geochemical responses to hydrological processes in floodplain systems.
-
-    '
+  description: >
+    The Floodplain Hydro-Biogeochemistry SFA investigates how subsurface interfaces mediate molecular-scale
+    biogeochemical processes and groundwater quality. Research focuses on microbial and geochemical responses
+    to hydrological processes in floodplain systems.
   scientific_questions:
   - How do subsurface interfaces mediate biogeochemical processes?
   - What controls groundwater quality in floodplain systems?
@@ -2280,11 +2562,10 @@ environmental_system_science_sfas:
   - name: Cottonwood Lake Study Area
     description: Depressional wetland complex in the Prairie Pothole Region
     location: North Dakota
-  description: >-
-    Develops mechanistic understanding of how climatic conditions affect terrestrial wetland
-    ecosystem function, particularly carbon dynamics. Organized around three themes: fine-scale
-    hydro-biogeochemical mechanisms controlling C cycling and GHG emissions, above/belowground
-    processes and interactions, and model integration at fine and intermediate scales.
+  description: 'Develops mechanistic understanding of how climatic conditions affect terrestrial wetland
+    ecosystem function, particularly carbon dynamics. Organized around three themes: fine-scale hydro-biogeochemical
+    mechanisms controlling C cycling and GHG emissions, above/belowground processes and interactions,
+    and model integration at fine and intermediate scales.'
   scientific_questions:
   - How do climatic conditions affect wetland ecosystem function?
   - What mechanisms control carbon cycling and GHG emissions in wetland soils?
@@ -2323,11 +2604,10 @@ environmental_system_science_sfas:
   - name: Savannah River Site - Pond B
     description: Field site for actinide biogeochemistry studies
     location: South Carolina
-  description: >-
-    Identifies and quantifies biogeochemical processes and underlying mechanisms controlling
-    actinide mobility to reliably predict and control cycling and migration of actinides in
-    the environment. Focus on plutonium (>2200 metric tons deposited globally) and neptunium
-    behavior, including interactions with lanmodulin and similar compounds.
+  description: Identifies and quantifies biogeochemical processes and underlying mechanisms controlling
+    actinide mobility to reliably predict and control cycling and migration of actinides in the environment.
+    Focus on plutonium (>2200 metric tons deposited globally) and neptunium behavior, including interactions
+    with lanmodulin and similar compounds.
   scientific_questions:
   - What biogeochemical processes control actinide mobility?
   - How do actinides interact with biological systems?
@@ -2356,11 +2636,10 @@ user_facilities:
   websites:
     main: https://jgi.doe.gov
     phytozome: https://phytozome.jgi.doe.gov
-  description: 'JGI provides integrated high-throughput sequencing, DNA design and synthesis, metabolomics,
-    and computational analysis enabling systems-based scientific approaches. JGI sequences and analyzes
-    genomes for DOE-relevant research in bioenergy, carbon cycling, and environmental microbiome science.
-
-    '
+  description: >
+    JGI provides integrated high-throughput sequencing, DNA design and synthesis, metabolomics, and computational
+    analysis enabling systems-based scientific approaches. JGI sequences and analyzes genomes for DOE-relevant
+    research in bioenergy, carbon cycling, and environmental microbiome science.
   services:
   - GENOME_SEQUENCING
   - metagenome sequencing
@@ -2370,8 +2649,7 @@ user_facilities:
   - single-cell genomics
   capabilities:
   - name: High-Throughput Sequencing
-    description: >-
-      Short- and long-read sequencing platforms producing billions of reads for genomic assembly,
+    description: Short- and long-read sequencing platforms producing billions of reads for genomic assembly,
       resequencing, RNAseq annotation, and metagenomics. Total output in 2024 was 870 Tb.
     capability_type: SEQUENCING
     status: OPERATIONAL
@@ -2394,8 +2672,7 @@ user_facilities:
     - Assembled genomes
     - Annotated transcripts
   - name: DNA Synthesis Platform
-    description: >-
-      DNA design and synthesis capabilities supporting researchers exploring conversion of
+    description: DNA design and synthesis capabilities supporting researchers exploring conversion of
       sequence into functional assessments. Minimum request is 100 kb.
     capability_type: DNA_SYNTHESIS
     status: OPERATIONAL
@@ -2408,8 +2685,7 @@ user_facilities:
     - Synthesized DNA constructs
     - Verified plasmids
   - name: Metabolomics Program
-    description: >-
-      Functional annotation of genomes through metabolomics, providing improved understanding
+    description: Functional annotation of genomes through metabolomics, providing improved understanding
       of the role of small molecules in diverse biological systems. Minimum 22 samples required.
     capability_type: METABOLOMICS_MS
     status: OPERATIONAL
@@ -2422,10 +2698,8 @@ user_facilities:
     - Metabolite profiles
     - Mass spectra (submitted to MassIVE)
   - name: AI-Centric Analysis
-    description: >-
-      AI/ML-based computational analysis including protein family discovery, biosynthetic
-      gene cluster prediction, and genome annotation. Doubled known protein families using
-      AI clustering algorithms.
+    description: AI/ML-based computational analysis including protein family discovery, biosynthetic gene
+      cluster prediction, and genome annotation. Doubled known protein families using AI clustering algorithms.
     capability_type: AI_ML_ANALYSIS
     status: OPERATIONAL
     applications:
@@ -2458,10 +2732,9 @@ user_facilities:
     agency: DOE BER
   websites:
     main: https://www.emsl.pnnl.gov
-  description: 'EMSL provides advanced analytical capabilities for environmental and biological research,
-    including mass spectrometry, NMR, electron microscopy, and high-performance computing.
-
-    '
+  description: >
+    EMSL provides advanced analytical capabilities for environmental and biological research, including
+    mass spectrometry, NMR, electron microscopy, and high-performance computing.
   services:
   - MASS_SPECTROMETRY
   - NMR_SPECTROSCOPY
@@ -2471,10 +2744,9 @@ user_facilities:
   - molecular characterization
   capabilities:
   - name: Metabolomics Mass Spectrometry Suite
-    description: >-
-      Comprehensive metabolomics workflow with 24 instruments for unbiased metabolite and lipid
-      measurement including GC-MS, Orbitrap, and FTICR-MS platforms. Includes a 21 Tesla FTICR
-      (one of two in the world).
+    description: Comprehensive metabolomics workflow with 24 instruments for unbiased metabolite and lipid
+      measurement including GC-MS, Orbitrap, and FTICR-MS platforms. Includes a 21 Tesla FTICR (one of
+      two in the world).
     capability_type: METABOLOMICS_MS
     status: OPERATIONAL
     url: https://www.emsl.pnnl.gov/science/instruments-resources/metabolomics
@@ -2509,10 +2781,8 @@ user_facilities:
     - Lipid profiles
     - Metabolite identifications
   - name: NMR Spectroscopy
-    description: >-
-      Robust solid- and liquid-state NMR capabilities for structural biology, metabolomics,
-      natural products, and organic matter characterization. Non-destructive with minimal
-      sample preparation.
+    description: Robust solid- and liquid-state NMR capabilities for structural biology, metabolomics,
+      natural products, and organic matter characterization. Non-destructive with minimal sample preparation.
     capability_type: NMR
     status: OPERATIONAL
     url: https://www.emsl.pnnl.gov/science/instruments-resources/liquid-state-nmr-metabolomics
@@ -2532,10 +2802,9 @@ user_facilities:
     - NMR spectra
     - Molecular structure data
   - name: Cryogenic Electron Microscopy
-    description: >-
-      Cryo-TEM suite including Krios G3i cryogenic TEM and Aquilos 2 cryo-FIB-SEM for
-      de novo structure determination, high-resolution cellular imaging, and tomography.
-      Supports samples from 50 kDa proteins to whole cells.
+    description: Cryo-TEM suite including Krios G3i cryogenic TEM and Aquilos 2 cryo-FIB-SEM for de novo
+      structure determination, high-resolution cellular imaging, and tomography. Supports samples from
+      50 kDa proteins to whole cells.
     capability_type: CRYO_EM
     status: OPERATIONAL
     url: https://www.emsl.pnnl.gov/science/instruments-resources/cryogenic-transmission-electron-microscopy-structural-biology
@@ -2559,21 +2828,19 @@ user_facilities:
     - Tomographic reconstructions
     - Cellular ultrastructure images
   - name: Anaerobic Microbial Phenotyping Platform (AMP2)
-    description: >-
-      World's largest autonomous-capable science system for anaerobic microbial experimentation.
-      Commissioned December 2024 by DOE Secretary Chris Wright. 18 instruments housed in
-      1,800 sq ft across seven anaerobic pods connected by robotic track system. Enables
-      complete design-build-test-learn cycles with minimal operator intervention. Generates
-      AI/ML-ready datasets in publicly available databases hosted on EMSL Science Central.
-      Built in partnership with Ginkgo Bioworks under $4.66M contract.
+    description: World's largest autonomous-capable science system for anaerobic microbial experimentation.
+      Commissioned December 2024 by DOE Secretary Chris Wright. 18 instruments housed in 1,800 sq ft across
+      seven anaerobic pods connected by robotic track system. Enables complete design-build-test-learn
+      cycles with minimal operator intervention. Generates AI/ML-ready datasets in publicly available
+      databases hosted on EMSL Science Central. Built in partnership with Ginkgo Bioworks under $4.66M
+      contract.
     capability_type: ANAEROBIC_PHENOTYPING
     status: OPERATIONAL
     year_established: 2025
-    commissioned_date: "2024-12-04"
+    commissioned_date: '2024-12-04'
     url: https://www.emsl.pnnl.gov/science/instruments-resources/anaerobic-microbial-phenotyping-platform-amp2
     leader: Scott Baker
-    future_expansion: >-
-      AMP2 is a prototype for M2PC (Microbial Molecular Phenotyping Capability), a $47M
+    future_expansion: AMP2 is a prototype for M2PC (Microbial Molecular Phenotyping Capability), a $47M
       32,000 sq ft facility with 100+ instruments expected to open by 2030.
     instruments:
     - name: Anaerobic Chambers
@@ -2611,9 +2878,8 @@ user_facilities:
     - Flow cytometry data
     - AI/ML-ready phenotype datasets
   - name: NanoSIMS Imaging
-    description: >-
-      Nanoscale secondary ion mass spectrometry for subcellular-resolution chemical
-      imaging and isotope ratio analysis in biological samples.
+    description: Nanoscale secondary ion mass spectrometry for subcellular-resolution chemical imaging
+      and isotope ratio analysis in biological samples.
     capability_type: NANOSIMS_IMAGING
     status: OPERATIONAL
     applications:
@@ -2636,17 +2902,14 @@ user_facilities:
     main: https://www.kbase.us
     documentation: https://docs.kbase.us
     doe_page: https://www.genomicscience.energy.gov/kbase/
-  description: 'KBase is an open-source software and data platform enabling data sharing, integration,
-    and analysis of microbes, plants, and their communities. Provides genomic, metabolic modeling, and
-    multi-omics analysis capabilities.
-
-    '
+  description: >
+    KBase is an open-source software and data platform enabling data sharing, integration, and analysis
+    of microbes, plants, and their communities. Provides genomic, metabolic modeling, and multi-omics
+    analysis capabilities.
   capabilities:
   - name: Genome Annotation Services
-    description: >-
-      Functional annotation tools including RAST and KEGG-based annotation, plus DRAM
-      for metabolic profiling. Machine learning classifiers predict growth phenotypes
-      from functional annotations.
+    description: Functional annotation tools including RAST and KEGG-based annotation, plus DRAM for metabolic
+      profiling. Machine learning classifiers predict growth phenotypes from functional annotations.
     capability_type: GENOME_ANNOTATION
     status: OPERATIONAL
     url: https://docs.kbase.us/apps/analysis
@@ -2660,10 +2923,9 @@ user_facilities:
     - Functional summaries
     - KEGG mappings
   - name: Metabolic Modeling Pipeline
-    description: >-
-      Suite of apps for genome-scale metabolic model reconstruction, analysis, and
-      prediction. Uses OMEGGA for omics-enabled global gapfilling. Over 500 media
-      formulations available. Recent improvements achieve 72% model accuracy.
+    description: Suite of apps for genome-scale metabolic model reconstruction, analysis, and prediction.
+      Uses OMEGGA for omics-enabled global gapfilling. Over 500 media formulations available. Recent improvements
+      achieve 72% model accuracy.
     capability_type: METABOLIC_MODELING
     status: OPERATIONAL
     url: https://docs.kbase.us/apps/analysis/metabolic-modeling
@@ -2678,9 +2940,8 @@ user_facilities:
     - FBA solutions
     - Growth predictions
   - name: Metagenome Analysis
-    description: >-
-      Metagenome assembly, binning, and annotation workflows. Applied to build models
-      for over 2,000 MAGs from the GROW (Genome Resolved Open Watersheds) project.
+    description: Metagenome assembly, binning, and annotation workflows. Applied to build models for over
+      2,000 MAGs from the GROW (Genome Resolved Open Watersheds) project.
     capability_type: METAGENOME_ANALYSIS
     status: OPERATIONAL
     applications:
@@ -2716,11 +2977,9 @@ user_facilities:
     program: Environmental System Science
   websites:
     main: https://ess-dive.lbl.gov
-  description: 'ESS-DIVE is DOE''s data archive for Environmental System Science research data. Provides
-    open access to datasets from DOE-funded environmental research including watershed, soil, and ecosystem
-    studies.
-
-    '
+  description: >
+    ESS-DIVE is DOE's data archive for Environmental System Science research data. Provides open access
+    to datasets from DOE-funded environmental research including watershed, soil, and ecosystem studies.
 - id: nmdc_sfas_brcs:nmdc
   name: National Microbiome Data Collaborative
   acronym: NMDC
@@ -2734,10 +2993,70 @@ user_facilities:
     agency: DOE BER
   websites:
     main: https://microbiomedata.org
-  description: 'NMDC is a pilot initiative to advance microbiome science by building community-driven
-    standards and infrastructure for microbiome data sharing, integration, and analysis.
-
-    '
+  description: >
+    NMDC is a pilot initiative to advance microbiome science by building community-driven standards and
+    infrastructure for microbiome data sharing, integration, and analysis.
+other_programs:
+- id: nmdc_sfas_brcs:brave_sorghum_anthracnose
+  name: Sorghum-Anthracnose-Biocontrol Interactions
+  acronym: SABI
+  program_type: BIOPREPAREDNESS_INITIATIVE
+  initiative_name: BRaVE
+  funding_period: 2023-2026
+  participating_offices:
+  - BER
+  - ASCR
+  lead_institution: Lawrence Berkeley National Laboratory
+  principal_investigators:
+  - name: Trent Northen
+    role: Principal Investigator
+    affiliation: Lawrence Berkeley National Laboratory
+  funding:
+    agency: DOE BER
+    program: Biopreparedness Research Virtual Environment (BRaVE)
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/brave-awards23/
+  description: BRaVE project investigating molecular interactions between sorghum (a bioenergy crop),
+    its anthracnose-disease causative fungal pathogen Colletotrichum sublineola (Cs), and antifungal biocontrol
+    bacteria to create disease-resilient bioenergy crops. Uses computational and experimental approaches
+    to study plant-pathosystem interactions.
+  scientific_questions:
+  - What molecular mechanisms underlie sorghum-Colletotrichum pathogenic interactions?
+  - How do biocontrol bacteria protect sorghum from anthracnose disease?
+  - How can we engineer disease-resilient bioenergy crops?
+  keywords:
+  - BIOSECURITY
+  - SORGHUM
+  - FUNGAL_PATHOGENS
+  - BIOENERGY_CROPS
+  - PLANT_MICROBE_INTERACTIONS
+  - BIODEFENSE
+  data_types:
+  - METAGENOMICS
+  - TRANSCRIPTOMICS
+  - METABOLOMICS
+  isolate_collections:
+  - name: Sorghum-Associated Bacterial Collection
+    description: Bacterial isolates with biocontrol activity against Colletotrichum sublineola, collected
+      from sorghum rhizosphere and phyllosphere.
+    organism_types:
+    - BACTERIA
+    source_environments:
+    - Sorghum rhizosphere
+    - Sorghum phyllosphere
+    host_organisms:
+    - Sorghum bicolor
+  - name: Colletotrichum Pathogen Collection
+    description: Colletotrichum sublineola isolates causing anthracnose disease in sorghum.
+    organism_types:
+    - FUNGI
+    source_environments:
+    - Infected sorghum tissue
+  phenotype_assays:
+  - PLANT_COLONIZATION
+  - BACTERIAL_FUNGAL_INTERACTION_ASSAY
+  - GROWTH_CURVES
+  - COMPETITION_ASSAYS
 metadata:
   compiled_date: '2025-12-05'
   sources:
@@ -2747,10 +3066,9 @@ metadata:
   - Individual project websites
   - DOE BER program documentation
   - Peer-reviewed publications
-  notes: 'This compilation focuses on DOE BER-funded Bioenergy Research Centers and Scientific Focus Areas.
+  notes: >
+    This compilation focuses on DOE BER-funded Bioenergy Research Centers and Scientific Focus Areas.
     It includes projects from both the Genomic Science Program (Biological Systems Science Division) and
     the Environmental System Science program. Dataset listings are representative rather than exhaustive.
     For current datasets, consult project-specific data portals and DOE data repositories (ESS-DIVE, KBase,
     JGI, NMDC).
-
-    '

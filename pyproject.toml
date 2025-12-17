@@ -15,6 +15,7 @@ requires-python = ">=3.10,<4.0"
 dynamic = ["version"]
 
 dependencies = [
+  "biopython>=1.84",
   "linkml-reference-validator",
   "linkml-runtime >=1.9.4",
   "linkml-store>=0.2.4",
@@ -38,9 +39,6 @@ dev = [
 
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
-
-[tool.uv.sources]
-linkml-reference-validator = { path = "../linkml-reference-validator", editable = true }
 
 # Ref.: https://github.com/ninoseki/uv-dynamic-versioning/
 [tool.uv-dynamic-versioning]

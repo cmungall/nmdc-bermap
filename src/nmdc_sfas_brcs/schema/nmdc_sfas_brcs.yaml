@@ -24,6 +24,7 @@ prefixes:
   obo: http://purl.obolibrary.org/obo/
   IAO: http://purl.obolibrary.org/obo/IAO_
   OBI: http://purl.obolibrary.org/obo/OBI_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
 
 default_prefix: nmdc_sfas_brcs
 default_range: string
@@ -65,6 +66,14 @@ classes:
       user_facilities:
         description: Collection of DOE BER User Facilities
         range: UserFacility
+        multivalued: true
+        inlined_as_list: true
+      other_programs:
+        description: >-
+          Other DOE research programs and initiatives that don't fit the
+          traditional SFA/BRC/Facility categories (e.g., BRaVE, cross-cutting
+          initiatives, time-limited projects)
+        range: OtherProgram
         multivalued: true
         inlined_as_list: true
       metadata:
@@ -133,6 +142,8 @@ classes:
       - field_sites
       - established
       - collaborators
+      - isolate_collections
+      - phenotype_assays
     slot_usage:
       id:
         description: A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)
@@ -170,6 +181,21 @@ classes:
     slot_usage:
       program_type:
         ifabsent: "string(SCIENTIFIC_FOCUS_AREA)"
+
+  OtherProgram:
+    description: >-
+      Other DOE research programs and initiatives that don't fit the traditional
+      SFA/BRC/Facility categories. Examples include BRaVE (Biopreparedness Research
+      Virtual Environment) projects, cross-cutting initiatives, and time-limited
+      collaborative projects spanning multiple DOE offices.
+    is_a: ResearchProgram
+    slots:
+      - initiative_name
+      - funding_period
+      - participating_offices
+    slot_usage:
+      program_type:
+        ifabsent: "string(OTHER_INITIATIVE)"
 
   UserFacility:
     description: >-
@@ -378,6 +404,13 @@ classes:
       - lter_dataset_id
       - primary_reference
       - additional_references
+    attributes:
+      primary_reference_info:
+        description: >-
+          Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
 
   Reference:
     description: >-
@@ -405,6 +438,24 @@ classes:
         implements:
           - linkml:authoritative_reference
 
+  PrimaryReferenceInfo:
+    description: >-
+      Container for a primary reference with its metadata. Provides a structured
+      way to associate a publication reference with an entity (e.g., IsolateCollection,
+      Dataset) while allowing future annotations about the relationship.
+    attributes:
+      reference:
+        description: The primary publication reference
+        range: Reference
+        inlined: true
+        required: true
+      relationship_note:
+        description: >-
+          Optional note describing the relationship between the reference and the
+          entity it's attached to (e.g., "Describes the isolation methods",
+          "First report of these isolates")
+        range: string
+
   ProgramOutputs:
     description: Summary of research outputs from a program
     attributes:
@@ -426,6 +477,66 @@ classes:
       startups:
         description: Number of startup companies formed
         range: integer
+
+  IsolateCollection:
+    description: >-
+      A collection of cultured microbial isolates maintained by a research program.
+      Provides catalog-level metadata about the collection; detailed isolate records
+      are maintained in external systems (KBase, JGI, culture collections).
+    slots:
+      - name
+      - description
+    attributes:
+      organism_types:
+        description: Types of organisms in this collection
+        range: OrganismType
+        multivalued: true
+      isolate_count:
+        description: Approximate number of isolates in the collection
+        range: integer
+      genome_count:
+        description: Number of isolates with sequenced genomes
+        range: integer
+      source_environments:
+        description: >-
+          Environments from which isolates were obtained (e.g., rhizosphere,
+          subsurface, contaminated groundwater, phyllosphere)
+        range: string
+        multivalued: true
+      isolation_methods:
+        description: >-
+          Brief description of isolation methods used (e.g., aerobic plating,
+          anaerobic enrichment, single-cell sorting)
+        range: string
+        multivalued: true
+      host_organisms:
+        description: >-
+          Host organisms if isolates are host-associated (e.g., Populus,
+          Panicum virgatum)
+        range: string
+        multivalued: true
+      culture_collection_url:
+        description: URL to browse or request live cultures
+        range: uri
+      genome_catalog_url:
+        description: URL to genome data (KBase narrative, JGI, NCBI BioProject)
+        range: uri
+      kbase_narrative_id:
+        description: KBase narrative ID containing isolate genomes if applicable
+        range: string
+      primary_reference:
+        description: >-
+          DOI of primary publication describing the collection.
+          DEPRECATED: Use primary_reference_info for new entries to enable title validation.
+        range: uriorcurie
+        implements:
+          - linkml:authoritative_reference
+      primary_reference_info:
+        description: >-
+          Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
 
   # ---------------------------------------------------------------------------
   # Supporting Classes - Field Sites and Research Focus
@@ -474,6 +585,12 @@ classes:
         description: NCBI BioProject identifiers associated with this study
         range: string
         multivalued: true
+      gold_study_id:
+        description: GOLD study identifier (e.g., gold:Gs0128851)
+        range: string
+      jgi_proposal_id:
+        description: JGI proposal identifier
+        range: string
       brc_dataset_ids:
         description: >-
           Dataset identifiers from the BRC API (api.bioenergy.org) associated
@@ -520,6 +637,12 @@ classes:
           Notes about the quality or completeness of preprocessed data in NCBI.
           Used to track whether external data meets NMDC standards.
         range: string
+      primary_reference_info:
+        description: >-
+          Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
 
   # ---------------------------------------------------------------------------
   # Supporting Classes - Analysis and KBase
@@ -534,6 +657,7 @@ classes:
     abstract: true
     slots:
       - primary_reference
+      - additional_references
     attributes:
       analysis_type:
         description: Type of analysis performed
@@ -545,6 +669,12 @@ classes:
         description: Types of data objects produced
         range: DataType
         multivalued: true
+      primary_reference_info:
+        description: >-
+          Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
 
   KBaseNarrative:
     description: >-
@@ -830,6 +960,24 @@ slots:
     description: The specific type of Scientific Focus Area
     range: SFAType
 
+  initiative_name:
+    description: >-
+      Name of the parent initiative this program belongs to (e.g., BRaVE for
+      Biopreparedness Research Virtual Environment projects)
+    range: string
+
+  funding_period:
+    description: >-
+      The funding period for time-limited initiatives (e.g., "2023-2026" or
+      "FY2023-FY2025")
+    range: string
+
+  participating_offices:
+    description: >-
+      DOE offices participating in funding this initiative (e.g., BER, ASCR, BES)
+    range: string
+    multivalued: true
+
   institution_type:
     description: The type of institution
     range: InstitutionType
@@ -867,6 +1015,21 @@ slots:
   collaborators:
     description: Description of collaborators
     range: string
+
+  isolate_collections:
+    description: >-
+      Microbial isolate collections maintained by this research program.
+      Provides catalog-level information about available cultures and genomes.
+    range: IsolateCollection
+    multivalued: true
+    inlined_as_list: true
+
+  phenotype_assays:
+    description: >-
+      Types of phenotype assays performed by this research program.
+      Catalogs the phenotyping capabilities and data types generated.
+    range: PhenotypeAssayType
+    multivalued: true
 
   # ---------------------------------------------------------------------------
   # Person Slots
@@ -1095,6 +1258,14 @@ enums:
         description: A data repository or archive
       DATA_COLLABORATIVE:
         description: A collaborative data initiative
+      BIOPREPAREDNESS_INITIATIVE:
+        description: >-
+          A biopreparedness research initiative such as BRaVE (Biopreparedness
+          Research Virtual Environment) - typically cross-cutting, time-limited
+          projects spanning multiple DOE offices
+      OTHER_INITIATIVE:
+        description: >-
+          Other research initiatives that don't fit traditional categories
 
   SFAType:
     description: Types of Scientific Focus Areas by program area
@@ -1125,6 +1296,32 @@ enums:
         description: A federal government agency
       PRIVATE_SECTOR:
         description: A private sector organization
+
+  PreprocessedDataType:
+    description: >-
+      Types of preprocessed or derived data products available in public repositories.
+      Used to identify studies with analysis-ready data for NMDC consideration.
+    permissible_values:
+      MAGS:
+        description: >-
+          Metagenome-assembled genomes - draft genomes reconstructed from metagenomic
+          data through binning and assembly
+      GENOME_ASSEMBLIES:
+        description: Assembled genome sequences (contigs, scaffolds, or complete)
+      GENE_ANNOTATIONS:
+        description: Predicted gene calls and functional annotations
+      FUNCTIONAL_ANNOTATIONS:
+        description: Functional annotations (COG, KEGG, Pfam, etc.)
+      TAXONOMIC_CLASSIFICATIONS:
+        description: Taxonomic assignments for sequences or bins
+      READ_QC:
+        description: Quality-controlled sequencing reads
+      ASSEMBLY_QC:
+        description: Assembly quality metrics (CheckM, QUAST, etc.)
+      METABOLIC_MODELS:
+        description: Genome-scale metabolic reconstructions
+      PHYLOGENETIC_TREES:
+        description: Phylogenetic trees or placements
 
   DataType:
     description: Types of scientific data
@@ -2016,3 +2213,113 @@ enums:
         description: >-
           Low priority - dataset has some microbiome relevance but is
           either small, has limited metadata, or is a marginal candidate.
+
+  OrganismType:
+    description: >-
+      Types of organisms in a microbial isolate collection. Used to characterize
+      the taxonomic breadth of culture collections maintained by research programs.
+    permissible_values:
+      BACTERIA:
+        description: Bacterial isolates
+        meaning: NCBITaxon:2
+      ARCHAEA:
+        description: Archaeal isolates
+        meaning: NCBITaxon:2157
+      FUNGI:
+        description: Fungal isolates including yeasts and filamentous fungi
+        meaning: NCBITaxon:4751
+      PHAGE:
+        description: Bacteriophages and archaeal viruses
+      OTHER_VIRUS:
+        description: Other viruses (not phage)
+      PROTIST:
+        description: Protist/microeukaryote isolates
+      MICROALGAE:
+        description: Microalgae isolates
+
+  PhenotypeAssayType:
+    description: >-
+      Types of phenotype assays performed by research programs. Used to catalog
+      what phenotyping capabilities and data types each SFA/BRC generates.
+    permissible_values:
+      # =========================================================================
+      # Growth and fitness assays
+      # =========================================================================
+      GROWTH_CURVES:
+        description: Growth rate measurements in liquid culture
+      BIOLOG_PHENOTYPING:
+        description: Biolog plate carbon/nitrogen source utilization profiling
+      ANAEROBIC_GROWTH:
+        description: Growth characterization under anaerobic conditions
+      STRESS_TOLERANCE:
+        description: Growth under stress conditions (pH, temperature, osmotic, metal)
+      ANTIBIOTIC_RESISTANCE:
+        description: Antibiotic susceptibility/resistance profiling
+
+      # =========================================================================
+      # Genetic/fitness screening
+      # =========================================================================
+      RBTSEQ_FITNESS:
+        description: >-
+          Random barcode transposon sequencing (RB-TnSeq) for genome-wide
+          fitness profiling across conditions
+      TRANSPOSON_MUTAGENESIS:
+        description: Transposon insertion sequencing for gene essentiality/fitness
+      CRISPR_SCREENS:
+        description: CRISPR-based genetic screens (CRISPRi, knockout libraries)
+      TNSEQ:
+        description: Transposon sequencing for fitness profiling
+
+      # =========================================================================
+      # Interaction assays
+      # =========================================================================
+      COCULTURE_INTERACTIONS:
+        description: Pairwise or multi-species co-culture interaction assays
+      BACTERIAL_FUNGAL_INTERACTION_ASSAY:
+        description: Bacterial-fungal co-culture or proximity interaction assays
+      PLANT_COLONIZATION:
+        description: Plant root or leaf colonization assays
+      PHAGE_HOST_RANGE:
+        description: Phage-host infection range and specificity testing
+      SYNTHETIC_COMMUNITY:
+        description: Defined synthetic community assembly and dynamics
+      COMPETITION_ASSAYS:
+        description: Competitive fitness assays between strains
+
+      # =========================================================================
+      # Metabolic/biochemical assays
+      # =========================================================================
+      EXOMETABOLOMICS:
+        description: Extracellular metabolite profiling (spent media analysis)
+      ENZYME_ACTIVITY_ASSAY:
+        description: Enzyme activity measurements
+      SUBSTRATE_UTILIZATION:
+        description: Carbon/nitrogen substrate utilization profiling
+      METABOLIC_FLUX:
+        description: Metabolic flux analysis (13C labeling)
+      RESPIRATION:
+        description: Respiration rate measurements (O2 consumption, CO2 production)
+
+      # =========================================================================
+      # Imaging and single-cell assays
+      # =========================================================================
+      LIVE_CELL_IMAGING:
+        description: Time-lapse microscopy of live cells
+      FLOW_CYTOMETRY_PHENOTYPING:
+        description: Single-cell phenotyping via flow cytometry
+      NANOSIMS_ACTIVITY:
+        description: NanoSIMS stable isotope incorporation for activity measurement
+      CELL_MORPHOLOGY:
+        description: Cell morphology and size measurements
+      BIOFILM_ASSAYS:
+        description: Biofilm formation and structure assays
+
+      # =========================================================================
+      # Environmental/ecological phenotypes
+      # =========================================================================
+      SOIL_INCUBATION:
+        description: Soil microcosm incubation experiments
+      QSIP_ACTIVITY:
+        description: Quantitative stable isotope probing for in-situ activity
+      ECOFAB_PHENOTYPING:
+        description: EcoFAB fabricated ecosystem phenotyping

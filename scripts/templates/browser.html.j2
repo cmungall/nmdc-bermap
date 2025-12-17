@@ -55,4 +55,16 @@
 </details>
 {% endif %}
 
+{# Other Programs (BRaVE, etc.) #}
+{% if other_programs %}
+<details class="category other-programs" open>
+    <summary>Other Initiatives ({{ other_programs | length }})</summary>
+    <div class="category-content">
+    {% for program in other_programs %}
+        {{ render_program(program, 'other') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
 {% endblock %}

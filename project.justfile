@@ -45,3 +45,7 @@ fetch-brc-datasets:
 # Fetch BRC datasets for a specific center (GLBRC, JBEI, CABBI, CBI)
 fetch-brc-datasets-center CENTER:
   uv run python src/nmdc_sfas_brcs/scripts/fetch_brc_datasets.py --center {{CENTER}} --summary
+
+# Generate interactive association chord diagrams (keyword-keyword, datatype-datatype, keyword-datatype)
+gen-associations:
+  uv run python scripts/generate_association_viz.py

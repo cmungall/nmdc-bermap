@@ -1,0 +1,5275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOE BER Research Associations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --text-primary: #e6e6e6;
+            --text-secondary: #a0a0a0;
+            --accent-1: #e94560;
+            --accent-2: #0f4c75;
+            --accent-3: #3282b8;
+            --accent-4: #bbe1fa;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-card) 100%);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-4);
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 1rem;
+            background: var(--bg-secondary);
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 0.75rem 1.5rem;
+            background: var(--bg-card);
+            border: none;
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .tab:hover {
+            background: var(--accent-2);
+        }
+
+        .tab.active {
+            background: var(--accent-1);
+            font-weight: bold;
+        }
+
+        .viz-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .chord-container {
+            position: relative;
+        }
+
+        .chord-container svg {
+            overflow: visible;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--accent-3);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+            max-width: 300px;
+        }
+
+        .tooltip.visible {
+            opacity: 1;
+        }
+
+        .tooltip h4 {
+            margin-bottom: 0.25rem;
+            color: var(--accent-4);
+        }
+
+        .tooltip p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .control {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .control label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .control input[type="range"] {
+            width: 100px;
+        }
+
+        .control select {
+            padding: 0.25rem 0.5rem;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--accent-3);
+            border-radius: 4px;
+        }
+
+        /* Chord diagram styles */
+        .chord path {
+            fill-opacity: 0.67;
+            stroke-width: 0.5px;
+        }
+
+        .chord path:hover {
+            fill-opacity: 1;
+        }
+
+        .chord .group path {
+            fill-opacity: 0.8;
+        }
+
+        .chord .group:hover path {
+            fill-opacity: 1;
+        }
+
+        .chord text {
+            font-size: 10px;
+            fill: var(--text-primary);
+        }
+
+        .fade {
+            opacity: 0.1 !important;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .stats {
+                gap: 1rem;
+            }
+
+            .tab {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOE BER Research Associations</h1>
+        <p>Interactive visualization of keyword and data type relationships across studies</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">54</div>
+                <div class="stat-label">Studies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">22</div>
+                <div class="stat-label">Programs</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">47</div>
+                <div class="stat-label">Keywords</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">12</div>
+                <div class="stat-label">Data Types</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs">
+        <button class="tab active" data-view="keyword-keyword">Keyword ↔ Keyword</button>
+        <button class="tab" data-view="datatype-datatype">DataType ↔ DataType</button>
+        <button class="tab" data-view="keyword-datatype">Keyword → DataType</button>
+        <button class="tab" data-view="program-keywords">Program Keywords</button>
+    </div>
+
+    <div class="viz-container">
+        <div class="controls">
+            <div class="control">
+                <label for="min-value">Min connections:</label>
+                <input type="range" id="min-value" min="1" max="10" value="1">
+                <span id="min-value-display">1</span>
+            </div>
+            <div class="control">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="name">Name</option>
+                    <option value="count">Connection count</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="chord-container">
+            <svg id="chord-diagram"></svg>
+        </div>
+
+        <div class="tooltip" id="tooltip"></div>
+
+        <div class="legend" id="legend"></div>
+    </div>
+
+    <footer>
+        Generated from DOE BER SFAs and BRCs database |
+        <a href="browser.html" style="color: var(--accent-4);">Back to Browser</a>
+    </footer>
+
+    <script>
+        // Visualization data from Python
+        const vizData = {
+  "keyword_keyword": {
+    "nodes": [
+      {
+        "name": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "count": 1
+      },
+      {
+        "name": "BIOCONTAINMENT",
+        "count": 1
+      },
+      {
+        "name": "BIOENERGY",
+        "count": 3
+      },
+      {
+        "name": "BIOFUELS",
+        "count": 4
+      },
+      {
+        "name": "BIOGEOCHEMISTRY",
+        "count": 4
+      },
+      {
+        "name": "BIOSYSTEMS_DESIGN",
+        "count": 3
+      },
+      {
+        "name": "CARBON_CYCLING",
+        "count": 1
+      },
+      {
+        "name": "CARBON_USE_EFFICIENCY",
+        "count": 1
+      },
+      {
+        "name": "DECOMPOSITION",
+        "count": 5
+      },
+      {
+        "name": "DENITRIFICATION",
+        "count": 3
+      },
+      {
+        "name": "DROUGHT",
+        "count": 1
+      },
+      {
+        "name": "ECOSYSTEM_ENGINEERING",
+        "count": 3
+      },
+      {
+        "name": "FABRICATED_ECOSYSTEMS",
+        "count": 8
+      },
+      {
+        "name": "IONIC_LIQUIDS",
+        "count": 1
+      },
+      {
+        "name": "LIGNIN",
+        "count": 1
+      },
+      {
+        "name": "LIGNOCELLULOSE",
+        "count": 2
+      },
+      {
+        "name": "LIPID_ACCUMULATION",
+        "count": 6
+      },
+      {
+        "name": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "count": 1
+      },
+      {
+        "name": "MARGINAL_LANDS",
+        "count": 1
+      },
+      {
+        "name": "MERCURY",
+        "count": 2
+      },
+      {
+        "name": "METABOLIC_ENGINEERING",
+        "count": 1
+      },
+      {
+        "name": "METAL_REDUCTION",
+        "count": 3
+      },
+      {
+        "name": "METAPHENOME",
+        "count": 4
+      },
+      {
+        "name": "METHYLMERCURY",
+        "count": 2
+      },
+      {
+        "name": "MICROBIAL_CONVERSION",
+        "count": 1
+      },
+      {
+        "name": "MICROBIAL_ECOSYSTEMS",
+        "count": 3
+      },
+      {
+        "name": "MICROBIAL_INVASION",
+        "count": 3
+      },
+      {
+        "name": "MISCANTHUS",
+        "count": 6
+      },
+      {
+        "name": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "count": 1
+      },
+      {
+        "name": "PLANT_MICROBE_INTERACTIONS",
+        "count": 8
+      },
+      {
+        "name": "POPLAR",
+        "count": 8
+      },
+      {
+        "name": "POPULUS",
+        "count": 5
+      },
+      {
+        "name": "RHIZOSPHERE",
+        "count": 12
+      },
+      {
+        "name": "RIVER_CORRIDORS",
+        "count": 2
+      },
+      {
+        "name": "SOIL_CARBON",
+        "count": 5
+      },
+      {
+        "name": "SOIL_MICROBIOME",
+        "count": 20
+      },
+      {
+        "name": "SORGHUM",
+        "count": 2
+      },
+      {
+        "name": "STABLE_ISOTOPES",
+        "count": 5
+      },
+      {
+        "name": "SUGARCANE",
+        "count": 6
+      },
+      {
+        "name": "SUSTAINABLE_AVIATION_FUEL",
+        "count": 3
+      },
+      {
+        "name": "SWITCHGRASS",
+        "count": 5
+      },
+      {
+        "name": "SYNTHETIC_BIOLOGY",
+        "count": 1
+      },
+      {
+        "name": "TERPENES",
+        "count": 1
+      },
+      {
+        "name": "UPPER_COLORADO_RIVER_BASIN",
+        "count": 2
+      },
+      {
+        "name": "WATERSHED_HYDROLOGY",
+        "count": 2
+      },
+      {
+        "name": "WILDFIRE",
+        "count": 2
+      },
+      {
+        "name": "YAKIMA_RIVER_BASIN",
+        "count": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "BIOENERGY",
+        "target": "BIOFUELS",
+        "value": 2
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "LIGNOCELLULOSE",
+        "value": 2
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "LIGNOCELLULOSE",
+        "value": 2
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "RHIZOSPHERE",
+        "value": 2
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "SORGHUM",
+        "value": 2
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SORGHUM",
+        "value": 2
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SOIL_MICROBIOME",
+        "value": 9
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "DROUGHT",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "DECOMPOSITION",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "SOIL_MICROBIOME",
+        "value": 5
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "IONIC_LIQUIDS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "MISCANTHUS",
+        "value": 6
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "SUGARCANE",
+        "value": 6
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "SUGARCANE",
+        "value": 6
+      },
+      {
+        "source": "POPLAR",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 3
+      },
+      {
+        "source": "POPLAR",
+        "target": "SWITCHGRASS",
+        "value": 3
+      },
+      {
+        "source": "SUSTAINABLE_AVIATION_FUEL",
+        "target": "SWITCHGRASS",
+        "value": 3
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "METAL_REDUCTION",
+        "value": 3
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "MICROBIAL_ECOSYSTEMS",
+        "value": 3
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "MICROBIAL_ECOSYSTEMS",
+        "value": 3
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "RHIZOSPHERE",
+        "value": 8
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "SOIL_MICROBIOME",
+        "value": 8
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "SOIL_MICROBIOME",
+        "value": 5
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "STABLE_ISOTOPES",
+        "value": 5
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "STABLE_ISOTOPES",
+        "value": 5
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "METAPHENOME",
+        "value": 4
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "SOIL_MICROBIOME",
+        "value": 4
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "POPLAR",
+        "value": 5
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "POPULUS",
+        "value": 5
+      },
+      {
+        "source": "POPLAR",
+        "target": "POPULUS",
+        "value": 5
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "ECOSYSTEM_ENGINEERING",
+        "value": 3
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "MICROBIAL_INVASION",
+        "value": 3
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "MICROBIAL_INVASION",
+        "value": 3
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 2
+      },
+      {
+        "source": "UPPER_COLORADO_RIVER_BASIN",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 2
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "WILDFIRE",
+        "value": 2
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 2
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "MERCURY",
+        "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "METHYLMERCURY",
+        "value": 2
+      },
+      {
+        "source": "MERCURY",
+        "target": "METHYLMERCURY",
+        "value": 2
+      }
+    ]
+  },
+  "datatype_datatype": {
+    "nodes": [
+      {
+        "name": "AMPLICON_16S",
+        "count": 21
+      },
+      {
+        "name": "AMPLICON_ITS",
+        "count": 7
+      },
+      {
+        "name": "EXOMETABOLOMICS",
+        "count": 2
+      },
+      {
+        "name": "GENOMICS",
+        "count": 5
+      },
+      {
+        "name": "METABOLOMICS",
+        "count": 9
+      },
+      {
+        "name": "METAGENOMICS",
+        "count": 21
+      },
+      {
+        "name": "METATRANSCRIPTOMICS",
+        "count": 5
+      },
+      {
+        "name": "PHENOTYPIC_DATA",
+        "count": 1
+      },
+      {
+        "name": "PROTEOMICS",
+        "count": 2
+      },
+      {
+        "name": "RADIOCARBON_DATA",
+        "count": 1
+      },
+      {
+        "name": "STABLE_ISOTOPE_DATA",
+        "count": 2
+      },
+      {
+        "name": "TRANSCRIPTOMICS",
+        "count": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "METAGENOMICS",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 5
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "AMPLICON_ITS",
+        "value": 7
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "AMPLICON_ITS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "EXOMETABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "EXOMETABOLOMICS",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "METABOLOMICS",
+        "target": "PHENOTYPIC_DATA",
+        "value": 1
+      },
+      {
+        "source": "RADIOCARBON_DATA",
+        "target": "STABLE_ISOTOPE_DATA",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "STABLE_ISOTOPE_DATA",
+        "value": 1
+      },
+      {
+        "source": "METABOLOMICS",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "METABOLOMICS",
+        "target": "PROTEOMICS",
+        "value": 2
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "PROTEOMICS",
+        "value": 2
+      },
+      {
+        "source": "METABOLOMICS",
+        "target": "TRANSCRIPTOMICS",
+        "value": 2
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "AMPLICON_16S",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "GENOMICS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "GENOMICS",
+        "target": "TRANSCRIPTOMICS",
+        "value": 2
+      }
+    ]
+  },
+  "keyword_datatype": {
+    "nodes": [
+      {
+        "name": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "BIOCONTAINMENT",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "BIOENERGY",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "BIOFUELS",
+        "count": 4,
+        "group": "keyword"
+      },
+      {
+        "name": "BIOGEOCHEMISTRY",
+        "count": 4,
+        "group": "keyword"
+      },
+      {
+        "name": "BIOSYSTEMS_DESIGN",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "CARBON_CYCLING",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "CARBON_USE_EFFICIENCY",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "DECOMPOSITION",
+        "count": 5,
+        "group": "keyword"
+      },
+      {
+        "name": "DENITRIFICATION",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "DROUGHT",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "ECOSYSTEM_ENGINEERING",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "FABRICATED_ECOSYSTEMS",
+        "count": 8,
+        "group": "keyword"
+      },
+      {
+        "name": "LIGNIN",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "LIGNOCELLULOSE",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "LIPID_ACCUMULATION",
+        "count": 6,
+        "group": "keyword"
+      },
+      {
+        "name": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "MARGINAL_LANDS",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "MERCURY",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "METABOLIC_ENGINEERING",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "METAL_REDUCTION",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "METAPHENOME",
+        "count": 4,
+        "group": "keyword"
+      },
+      {
+        "name": "METHYLMERCURY",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "MICROBIAL_CONVERSION",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "MICROBIAL_ECOSYSTEMS",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "MICROBIAL_INVASION",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "MISCANTHUS",
+        "count": 6,
+        "group": "keyword"
+      },
+      {
+        "name": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "PLANT_MICROBE_INTERACTIONS",
+        "count": 8,
+        "group": "keyword"
+      },
+      {
+        "name": "POPLAR",
+        "count": 8,
+        "group": "keyword"
+      },
+      {
+        "name": "POPULUS",
+        "count": 5,
+        "group": "keyword"
+      },
+      {
+        "name": "RHIZOSPHERE",
+        "count": 12,
+        "group": "keyword"
+      },
+      {
+        "name": "RIVER_CORRIDORS",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "SOIL_CARBON",
+        "count": 5,
+        "group": "keyword"
+      },
+      {
+        "name": "SOIL_MICROBIOME",
+        "count": 20,
+        "group": "keyword"
+      },
+      {
+        "name": "SORGHUM",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "STABLE_ISOTOPES",
+        "count": 5,
+        "group": "keyword"
+      },
+      {
+        "name": "SUGARCANE",
+        "count": 6,
+        "group": "keyword"
+      },
+      {
+        "name": "SUSTAINABLE_AVIATION_FUEL",
+        "count": 3,
+        "group": "keyword"
+      },
+      {
+        "name": "SWITCHGRASS",
+        "count": 5,
+        "group": "keyword"
+      },
+      {
+        "name": "TERPENES",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "UPPER_COLORADO_RIVER_BASIN",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "WATERSHED_HYDROLOGY",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "WILDFIRE",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "YAKIMA_RIVER_BASIN",
+        "count": 2,
+        "group": "keyword"
+      },
+      {
+        "name": "AMPLICON_16S",
+        "count": 21,
+        "group": "datatype"
+      },
+      {
+        "name": "AMPLICON_ITS",
+        "count": 7,
+        "group": "datatype"
+      },
+      {
+        "name": "EXOMETABOLOMICS",
+        "count": 2,
+        "group": "datatype"
+      },
+      {
+        "name": "GENOMICS",
+        "count": 5,
+        "group": "datatype"
+      },
+      {
+        "name": "METABOLOMICS",
+        "count": 9,
+        "group": "datatype"
+      },
+      {
+        "name": "METAGENOMICS",
+        "count": 21,
+        "group": "datatype"
+      },
+      {
+        "name": "METATRANSCRIPTOMICS",
+        "count": 5,
+        "group": "datatype"
+      },
+      {
+        "name": "PHENOTYPIC_DATA",
+        "count": 1,
+        "group": "datatype"
+      },
+      {
+        "name": "PROTEOMICS",
+        "count": 2,
+        "group": "datatype"
+      },
+      {
+        "name": "RADIOCARBON_DATA",
+        "count": 1,
+        "group": "datatype"
+      },
+      {
+        "name": "STABLE_ISOTOPE_DATA",
+        "count": 2,
+        "group": "datatype"
+      },
+      {
+        "name": "TRANSCRIPTOMICS",
+        "count": 3,
+        "group": "datatype"
+      }
+    ],
+    "links": [
+      {
+        "source": "BIOENERGY",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 2
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "AMPLICON_16S",
+        "value": 2
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "AMPLICON_16S",
+        "value": 2
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "AMPLICON_16S",
+        "value": 7
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "AMPLICON_16S",
+        "value": 6
+      },
+      {
+        "source": "SWITCHGRASS",
+        "target": "AMPLICON_16S",
+        "value": 4
+      },
+      {
+        "source": "SWITCHGRASS",
+        "target": "AMPLICON_ITS",
+        "value": 4
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "AMPLICON_16S",
+        "value": 5
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "AMPLICON_ITS",
+        "value": 3
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "TERPENES",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "METAGENOMICS",
+        "value": 8
+      },
+      {
+        "source": "DROUGHT",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "METAGENOMICS",
+        "value": 4
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "AMPLICON_16S",
+        "value": 6
+      },
+      {
+        "source": "SUGARCANE",
+        "target": "AMPLICON_16S",
+        "value": 6
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "AMPLICON_16S",
+        "value": 6
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "SUGARCANE",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "AMPLICON_ITS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "AMPLICON_16S",
+        "value": 5
+      },
+      {
+        "source": "POPLAR",
+        "target": "AMPLICON_ITS",
+        "value": 4
+      },
+      {
+        "source": "SUSTAINABLE_AVIATION_FUEL",
+        "target": "AMPLICON_16S",
+        "value": 2
+      },
+      {
+        "source": "SUSTAINABLE_AVIATION_FUEL",
+        "target": "AMPLICON_ITS",
+        "value": 2
+      },
+      {
+        "source": "POPLAR",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "SWITCHGRASS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "SUSTAINABLE_AVIATION_FUEL",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_ECOSYSTEMS",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "AMPLICON_16S",
+        "value": 4
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "METABOLOMICS",
+        "value": 3
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "EXOMETABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "METABOLOMICS",
+        "value": 5
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "EXOMETABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "METABOLOMICS",
+        "value": 3
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "EXOMETABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "PHENOTYPIC_DATA",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "PHENOTYPIC_DATA",
+        "value": 1
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "PHENOTYPIC_DATA",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "STABLE_ISOTOPES",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "STABLE_ISOTOPES",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "STABLE_ISOTOPE_DATA",
+        "value": 2
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "RADIOCARBON_DATA",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "STABLE_ISOTOPE_DATA",
+        "value": 2
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "RADIOCARBON_DATA",
+        "value": 1
+      },
+      {
+        "source": "STABLE_ISOTOPES",
+        "target": "STABLE_ISOTOPE_DATA",
+        "value": 2
+      },
+      {
+        "source": "STABLE_ISOTOPES",
+        "target": "RADIOCARBON_DATA",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "METAGENOMICS",
+        "value": 3
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "AMPLICON_16S",
+        "value": 3
+      },
+      {
+        "source": "POPULUS",
+        "target": "AMPLICON_ITS",
+        "value": 2
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "GENOMICS",
+        "value": 3
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "GENOMICS",
+        "value": 3
+      },
+      {
+        "source": "MICROBIAL_INVASION",
+        "target": "GENOMICS",
+        "value": 3
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INVASION",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INVASION",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "GENOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "TRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "WATERSHED_HYDROLOGY",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "METAGENOMICS",
+        "value": 4
+      },
+      {
+        "source": "UPPER_COLORADO_RIVER_BASIN",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "WATERSHED_HYDROLOGY",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "UPPER_COLORADO_RIVER_BASIN",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "YAKIMA_RIVER_BASIN",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "YAKIMA_RIVER_BASIN",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "YAKIMA_RIVER_BASIN",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "PROTEOMICS",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "YAKIMA_RIVER_BASIN",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "METATRANSCRIPTOMICS",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "METHYLMERCURY",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "MERCURY",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "METHYLMERCURY",
+        "target": "AMPLICON_16S",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "AMPLICON_16S",
+        "value": 1
+      }
+    ]
+  },
+  "program_keywords": {
+    "nodes": [
+      {
+        "name": "ACTINIDES",
+        "count": 1
+      },
+      {
+        "name": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "count": 1
+      },
+      {
+        "name": "BIOCONTAINMENT",
+        "count": 2
+      },
+      {
+        "name": "BIODEFENSE",
+        "count": 2
+      },
+      {
+        "name": "BIOENERGY",
+        "count": 1
+      },
+      {
+        "name": "BIOENERGY_CROPS",
+        "count": 2
+      },
+      {
+        "name": "BIOFUELS",
+        "count": 2
+      },
+      {
+        "name": "BIOGEOCHEMISTRY",
+        "count": 3
+      },
+      {
+        "name": "BIOMASS_RECALCITRANCE",
+        "count": 1
+      },
+      {
+        "name": "BIOPRODUCTS",
+        "count": 1
+      },
+      {
+        "name": "BIOSECURITY",
+        "count": 3
+      },
+      {
+        "name": "BIOSYSTEMS_DESIGN",
+        "count": 1
+      },
+      {
+        "name": "BRACHYPODIUM",
+        "count": 1
+      },
+      {
+        "name": "CAPILLARY_FRINGE",
+        "count": 1
+      },
+      {
+        "name": "CARBON_CYCLING",
+        "count": 3
+      },
+      {
+        "name": "CARBON_FLUX",
+        "count": 1
+      },
+      {
+        "name": "CARBON_PERSISTENCE",
+        "count": 1
+      },
+      {
+        "name": "CARBON_USE_EFFICIENCY",
+        "count": 1
+      },
+      {
+        "name": "CELLULOSIC_BIOMASS",
+        "count": 1
+      },
+      {
+        "name": "COLLOID_TRANSPORT",
+        "count": 2
+      },
+      {
+        "name": "COMBIGEM",
+        "count": 1
+      },
+      {
+        "name": "CONTAMINANT_TRANSPORT",
+        "count": 2
+      },
+      {
+        "name": "CO_EVOLUTION",
+        "count": 1
+      },
+      {
+        "name": "CRISPR",
+        "count": 2
+      },
+      {
+        "name": "DECOMPOSITION",
+        "count": 1
+      },
+      {
+        "name": "DENITRIFICATION",
+        "count": 1
+      },
+      {
+        "name": "DNA_BARCODING",
+        "count": 1
+      },
+      {
+        "name": "DROUGHT",
+        "count": 1
+      },
+      {
+        "name": "ECOFAB",
+        "count": 1
+      },
+      {
+        "name": "ECOSYSTEM_ENGINEERING",
+        "count": 1
+      },
+      {
+        "name": "ENDOPHYTES",
+        "count": 1
+      },
+      {
+        "name": "ENERGY_SORGHUM",
+        "count": 1
+      },
+      {
+        "name": "ENVIRONMENTAL_CHANGE",
+        "count": 1
+      },
+      {
+        "name": "ENVIRONMENTAL_SYSTEMS",
+        "count": 1
+      },
+      {
+        "name": "FABRICATED_ECOSYSTEMS",
+        "count": 1
+      },
+      {
+        "name": "FATTY_ACIDS",
+        "count": 1
+      },
+      {
+        "name": "FLOODPLAIN",
+        "count": 1
+      },
+      {
+        "name": "FUNGAL_PATHOGENS",
+        "count": 2
+      },
+      {
+        "name": "GENOME_ENGINEERING",
+        "count": 1
+      },
+      {
+        "name": "GENOMIC_SELECTION",
+        "count": 1
+      },
+      {
+        "name": "GROUNDWATER_QUALITY",
+        "count": 1
+      },
+      {
+        "name": "HGCA",
+        "count": 1
+      },
+      {
+        "name": "HGCB",
+        "count": 1
+      },
+      {
+        "name": "HYDROLOGIC_CONNECTIVITY",
+        "count": 1
+      },
+      {
+        "name": "HYDRO_BIOGEOCHEMISTRY",
+        "count": 1
+      },
+      {
+        "name": "INTERFACES",
+        "count": 1
+      },
+      {
+        "name": "IONIC_LIQUIDS",
+        "count": 1
+      },
+      {
+        "name": "LAND_COVER",
+        "count": 1
+      },
+      {
+        "name": "LIFE_CYCLE_ASSESSMENT",
+        "count": 1
+      },
+      {
+        "name": "LIGNIN",
+        "count": 1
+      },
+      {
+        "name": "LIGNIN_VALORIZATION",
+        "count": 1
+      },
+      {
+        "name": "LIGNOCELLULOSE",
+        "count": 1
+      },
+      {
+        "name": "LIPID_ACCUMULATION",
+        "count": 1
+      },
+      {
+        "name": "MACHINE_LEARNING",
+        "count": 1
+      },
+      {
+        "name": "MARGINAL_LANDS",
+        "count": 1
+      },
+      {
+        "name": "MERCURY",
+        "count": 2
+      },
+      {
+        "name": "MERCURY_METHYLATION",
+        "count": 1
+      },
+      {
+        "name": "METABOLIC_ENGINEERING",
+        "count": 2
+      },
+      {
+        "name": "METAGENOMICS",
+        "count": 1
+      },
+      {
+        "name": "METAL_REDUCTION",
+        "count": 1
+      },
+      {
+        "name": "METAPHENOME",
+        "count": 1
+      },
+      {
+        "name": "METHYLMERCURY",
+        "count": 1
+      },
+      {
+        "name": "MICROBIAL_CHASSIS",
+        "count": 2
+      },
+      {
+        "name": "MICROBIAL_CONVERSION",
+        "count": 2
+      },
+      {
+        "name": "MICROBIAL_ECOSYSTEMS",
+        "count": 1
+      },
+      {
+        "name": "MICROBIAL_INTERACTIONS",
+        "count": 1
+      },
+      {
+        "name": "MICROBIAL_INVASION",
+        "count": 1
+      },
+      {
+        "name": "MISCANTHUS",
+        "count": 2
+      },
+      {
+        "name": "MODEX",
+        "count": 1
+      },
+      {
+        "name": "MOISTURE_EFFECTS",
+        "count": 1
+      },
+      {
+        "name": "MOISTURE_REGIMES",
+        "count": 1
+      },
+      {
+        "name": "MOUNTAIN_HYDROLOGY",
+        "count": 1
+      },
+      {
+        "name": "MYCORRHIZAE",
+        "count": 1
+      },
+      {
+        "name": "NANOSIMS",
+        "count": 1
+      },
+      {
+        "name": "NITRATE",
+        "count": 1
+      },
+      {
+        "name": "NUTRIENT_CYCLING",
+        "count": 3
+      },
+      {
+        "name": "OIL_CROPS",
+        "count": 1
+      },
+      {
+        "name": "PERENNIAL_CROPS",
+        "count": 1
+      },
+      {
+        "name": "PHAGE",
+        "count": 1
+      },
+      {
+        "name": "PLANT_CELL_WALLS",
+        "count": 1
+      },
+      {
+        "name": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "count": 1
+      },
+      {
+        "name": "PLANT_MICROBE_INTERACTIONS",
+        "count": 2
+      },
+      {
+        "name": "PLANT_PRODUCTIVITY",
+        "count": 1
+      },
+      {
+        "name": "POPLAR",
+        "count": 3
+      },
+      {
+        "name": "POPULUS",
+        "count": 2
+      },
+      {
+        "name": "QSIP",
+        "count": 1
+      },
+      {
+        "name": "REDOX_CYCLING",
+        "count": 1
+      },
+      {
+        "name": "RHIZOSPHERE",
+        "count": 4
+      },
+      {
+        "name": "RIPARIAN_WETLAND",
+        "count": 1
+      },
+      {
+        "name": "RIVER_CORRIDORS",
+        "count": 1
+      },
+      {
+        "name": "SAVANNAH_RIVER_SITE",
+        "count": 1
+      },
+      {
+        "name": "SEDIMENT_WATER_INTERFACE",
+        "count": 1
+      },
+      {
+        "name": "SHEWANELLA",
+        "count": 1
+      },
+      {
+        "name": "SNOWMELT",
+        "count": 1
+      },
+      {
+        "name": "SOIL_CARBON",
+        "count": 1
+      },
+      {
+        "name": "SOIL_MICROBIOME",
+        "count": 4
+      },
+      {
+        "name": "SOIL_ORGANIC_MATTER",
+        "count": 1
+      },
+      {
+        "name": "SORGHUM",
+        "count": 2
+      },
+      {
+        "name": "STABLE_ISOTOPES",
+        "count": 1
+      },
+      {
+        "name": "STREAM_DRYING",
+        "count": 1
+      },
+      {
+        "name": "STREAM_NETWORKS",
+        "count": 1
+      },
+      {
+        "name": "SUBSURFACE_INTERFACES",
+        "count": 1
+      },
+      {
+        "name": "SUBSURFACE_MICROBIOLOGY",
+        "count": 1
+      },
+      {
+        "name": "SUGARCANE",
+        "count": 1
+      },
+      {
+        "name": "SUSTAINABILITY",
+        "count": 2
+      },
+      {
+        "name": "SUSTAINABLE_AVIATION_FUEL",
+        "count": 1
+      },
+      {
+        "name": "SWITCHGRASS",
+        "count": 2
+      },
+      {
+        "name": "SYNTHETIC_BIOLOGY",
+        "count": 3
+      },
+      {
+        "name": "SYSTEMS_BIOLOGY",
+        "count": 1
+      },
+      {
+        "name": "TALL_WHEATGRASS",
+        "count": 1
+      },
+      {
+        "name": "TENNESSEE_RIVER_BASIN",
+        "count": 1
+      },
+      {
+        "name": "TERPENES",
+        "count": 1
+      },
+      {
+        "name": "UPPER_COLORADO_RIVER_BASIN",
+        "count": 1
+      },
+      {
+        "name": "URANIUM",
+        "count": 2
+      },
+      {
+        "name": "VIROME",
+        "count": 1
+      },
+      {
+        "name": "WATERSHED_DYNAMICS",
+        "count": 1
+      },
+      {
+        "name": "WATERSHED_HYDROLOGY",
+        "count": 1
+      },
+      {
+        "name": "WETLAND_BIOGEOCHEMISTRY",
+        "count": 1
+      },
+      {
+        "name": "WETLAND_RESILIENCE",
+        "count": 1
+      },
+      {
+        "name": "WHONDRS",
+        "count": 1
+      },
+      {
+        "name": "WILDFIRE",
+        "count": 1
+      },
+      {
+        "name": "YAKIMA_RIVER_BASIN",
+        "count": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "BIOENERGY",
+        "target": "BIOFUELS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "CELLULOSIC_BIOMASS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "ENERGY_SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "LIGNOCELLULOSE",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "CELLULOSIC_BIOMASS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "ENERGY_SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "LIGNOCELLULOSE",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "ENERGY_SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "LIGNOCELLULOSE",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "CELLULOSIC_BIOMASS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "LIGNOCELLULOSE",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "ENERGY_SORGHUM",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "MARGINAL_LANDS",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "LIGNOCELLULOSE",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "MARGINAL_LANDS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "POPLAR",
+        "value": 2
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "SWITCHGRASS",
+        "value": 2
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "SUSTAINABILITY",
+        "value": 2
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "SWITCHGRASS",
+        "value": 2
+      },
+      {
+        "source": "SUSTAINABILITY",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "FATTY_ACIDS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "IONIC_LIQUIDS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "LIGNIN_VALORIZATION",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "BIOFUELS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "IONIC_LIQUIDS",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "LIGNIN_VALORIZATION",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "FATTY_ACIDS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "LIGNIN_VALORIZATION",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "IONIC_LIQUIDS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN_VALORIZATION",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN_VALORIZATION",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN_VALORIZATION",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN_VALORIZATION",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN_VALORIZATION",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CHASSIS",
+        "target": "PLANT_CELL_WALLS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CHASSIS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 2
+      },
+      {
+        "source": "MICROBIAL_CHASSIS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "PLANT_CELL_WALLS",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "PLANT_CELL_WALLS",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "SYNTHETIC_BIOLOGY",
+        "target": "TERPENES",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "LIFE_CYCLE_ASSESSMENT",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "LIPID_ACCUMULATION",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "OIL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "BIOPRODUCTS",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "LIPID_ACCUMULATION",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "OIL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "LIFE_CYCLE_ASSESSMENT",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "METABOLIC_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "OIL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "LIPID_ACCUMULATION",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "MISCANTHUS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "OIL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "METABOLIC_ENGINEERING",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "OIL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "MISCANTHUS",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "OIL_CROPS",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "OIL_CROPS",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "OIL_CROPS",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "SUGARCANE",
+        "value": 1
+      },
+      {
+        "source": "SORGHUM",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "SUGARCANE",
+        "target": "SUSTAINABILITY",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "GENOMIC_SELECTION",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "LIGNIN",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "PERENNIAL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "BIOMASS_RECALCITRANCE",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "LIGNIN",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "PERENNIAL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "GENOMIC_SELECTION",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "MICROBIAL_CONVERSION",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "PERENNIAL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "LIGNIN",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "PERENNIAL_CROPS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_CONVERSION",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "PERENNIAL_CROPS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "PERENNIAL_CROPS",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "PERENNIAL_CROPS",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "PERENNIAL_CROPS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "POPULUS",
+        "value": 2
+      },
+      {
+        "source": "POPLAR",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "SUSTAINABLE_AVIATION_FUEL",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "SUSTAINABLE_AVIATION_FUEL",
+        "target": "SWITCHGRASS",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "METAL_REDUCTION",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "MICROBIAL_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "NITRATE",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "SUBSURFACE_MICROBIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "DENITRIFICATION",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "METAL_REDUCTION",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "MICROBIAL_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "NITRATE",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "SUBSURFACE_MICROBIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "MICROBIAL_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "NITRATE",
+        "value": 1
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "SUBSURFACE_MICROBIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "METAL_REDUCTION",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_ECOSYSTEMS",
+        "target": "NITRATE",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_ECOSYSTEMS",
+        "target": "SUBSURFACE_MICROBIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_ECOSYSTEMS",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_ECOSYSTEMS",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "NITRATE",
+        "target": "SUBSURFACE_MICROBIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "NITRATE",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "NITRATE",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "SUBSURFACE_MICROBIOLOGY",
+        "target": "SYSTEMS_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "SUBSURFACE_MICROBIOLOGY",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "SYSTEMS_BIOLOGY",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "CARBON_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "CRISPR",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "ECOFAB",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "FABRICATED_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "PHAGE",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BRACHYPODIUM",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "CRISPR",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "ECOFAB",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "FABRICATED_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "PHAGE",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "ECOFAB",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "FABRICATED_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "PHAGE",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "RHIZOSPHERE",
+        "value": 2
+      },
+      {
+        "source": "CRISPR",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "ECOFAB",
+        "target": "FABRICATED_ECOSYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "ECOFAB",
+        "target": "PHAGE",
+        "value": 1
+      },
+      {
+        "source": "ECOFAB",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "ECOFAB",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "PHAGE",
+        "value": 1
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "FABRICATED_ECOSYSTEMS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "PHAGE",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "PHAGE",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "MOISTURE_REGIMES",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "NANOSIMS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "QSIP",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "CARBON_PERSISTENCE",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "NANOSIMS",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "QSIP",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_REGIMES",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "QSIP",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "NANOSIMS",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "QSIP",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "QSIP",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "QSIP",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "QSIP",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "QSIP",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "STABLE_ISOTOPES",
+        "value": 1
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "STABLE_ISOTOPES",
+        "target": "VIROME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "DECOMPOSITION",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "METAPHENOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "MICROBIAL_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "MOISTURE_EFFECTS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_USE_EFFICIENCY",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "METAPHENOME",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "MICROBIAL_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "MOISTURE_EFFECTS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "MICROBIAL_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "MOISTURE_EFFECTS",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "METAPHENOME",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INTERACTIONS",
+        "target": "MOISTURE_EFFECTS",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INTERACTIONS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INTERACTIONS",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_EFFECTS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "MOISTURE_EFFECTS",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "TALL_WHEATGRASS",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "BIOSECURITY",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "COMBIGEM",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "DNA_BARCODING",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "GENOME_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 2
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "COMBIGEM",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "DNA_BARCODING",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "GENOME_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "COMBIGEM",
+        "target": "DNA_BARCODING",
+        "value": 1
+      },
+      {
+        "source": "COMBIGEM",
+        "target": "GENOME_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "COMBIGEM",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "COMBIGEM",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "DNA_BARCODING",
+        "target": "GENOME_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "DNA_BARCODING",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "DNA_BARCODING",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "GENOME_ENGINEERING",
+        "target": "MICROBIAL_CHASSIS",
+        "value": 1
+      },
+      {
+        "source": "GENOME_ENGINEERING",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "CARBON_FLUX",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "CO_EVOLUTION",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "NUTRIENT_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "PLANT_PRODUCTIVITY",
+        "value": 1
+      },
+      {
+        "source": "BACTERIAL_FUNGAL_INTERACTIONS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CARBON_FLUX",
+        "target": "CO_EVOLUTION",
+        "value": 1
+      },
+      {
+        "source": "CARBON_FLUX",
+        "target": "NUTRIENT_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "CARBON_FLUX",
+        "target": "PLANT_PRODUCTIVITY",
+        "value": 1
+      },
+      {
+        "source": "CARBON_FLUX",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "CO_EVOLUTION",
+        "target": "NUTRIENT_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "CO_EVOLUTION",
+        "target": "PLANT_PRODUCTIVITY",
+        "value": 1
+      },
+      {
+        "source": "CO_EVOLUTION",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "PLANT_PRODUCTIVITY",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "PLANT_PRODUCTIVITY",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "ENDOPHYTES",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "MYCORRHIZAE",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 2
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "ENDOPHYTES",
+        "target": "MYCORRHIZAE",
+        "value": 1
+      },
+      {
+        "source": "ENDOPHYTES",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "ENDOPHYTES",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "ENDOPHYTES",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "ENDOPHYTES",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "MYCORRHIZAE",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "MYCORRHIZAE",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "MYCORRHIZAE",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "MYCORRHIZAE",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "POPLAR",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "POPULUS",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "POPLAR",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "POPULUS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "BIOSECURITY",
+        "value": 2
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "BIOSYSTEMS_DESIGN",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "CRISPR",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "ECOSYSTEM_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 2
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "BIOSYSTEMS_DESIGN",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "CRISPR",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "ECOSYSTEM_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 2
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "CRISPR",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "ECOSYSTEM_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "BIOSYSTEMS_DESIGN",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "ECOSYSTEM_ENGINEERING",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 1
+      },
+      {
+        "source": "CRISPR",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 1
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "ECOSYSTEM_ENGINEERING",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "FUNGAL_PATHOGENS",
+        "target": "MICROBIAL_INVASION",
+        "value": 1
+      },
+      {
+        "source": "FUNGAL_PATHOGENS",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "MICROBIAL_INVASION",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "MACHINE_LEARNING",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "BIOCONTAINMENT",
+        "target": "SHEWANELLA",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "SHEWANELLA",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "RHIZOSPHERE",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "SHEWANELLA",
+        "value": 1
+      },
+      {
+        "source": "PLANT_GROWTH_PROMOTING_BACTERIA",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SHEWANELLA",
+        "value": 1
+      },
+      {
+        "source": "RHIZOSPHERE",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "SHEWANELLA",
+        "target": "SYNTHETIC_BIOLOGY",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "DROUGHT",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "MODEX",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "MOUNTAIN_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "SNOWMELT",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "MODEX",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "MOUNTAIN_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "SNOWMELT",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "DROUGHT",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "MODEX",
+        "target": "MOUNTAIN_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "MODEX",
+        "target": "SNOWMELT",
+        "value": 1
+      },
+      {
+        "source": "MODEX",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "MODEX",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "MOUNTAIN_HYDROLOGY",
+        "target": "SNOWMELT",
+        "value": 1
+      },
+      {
+        "source": "MOUNTAIN_HYDROLOGY",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "MOUNTAIN_HYDROLOGY",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "SNOWMELT",
+        "target": "UPPER_COLORADO_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "SNOWMELT",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "UPPER_COLORADO_RIVER_BASIN",
+        "target": "WATERSHED_HYDROLOGY",
+        "value": 1
+      },
+      {
+        "source": "HYDRO_BIOGEOCHEMISTRY",
+        "target": "LAND_COVER",
+        "value": 1
+      },
+      {
+        "source": "HYDRO_BIOGEOCHEMISTRY",
+        "target": "MERCURY",
+        "value": 1
+      },
+      {
+        "source": "HYDRO_BIOGEOCHEMISTRY",
+        "target": "STREAM_NETWORKS",
+        "value": 1
+      },
+      {
+        "source": "HYDRO_BIOGEOCHEMISTRY",
+        "target": "TENNESSEE_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "HYDRO_BIOGEOCHEMISTRY",
+        "target": "WATERSHED_DYNAMICS",
+        "value": 1
+      },
+      {
+        "source": "LAND_COVER",
+        "target": "MERCURY",
+        "value": 1
+      },
+      {
+        "source": "LAND_COVER",
+        "target": "STREAM_NETWORKS",
+        "value": 1
+      },
+      {
+        "source": "LAND_COVER",
+        "target": "TENNESSEE_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "LAND_COVER",
+        "target": "WATERSHED_DYNAMICS",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "STREAM_NETWORKS",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "TENNESSEE_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "WATERSHED_DYNAMICS",
+        "value": 1
+      },
+      {
+        "source": "STREAM_NETWORKS",
+        "target": "TENNESSEE_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "STREAM_NETWORKS",
+        "target": "WATERSHED_DYNAMICS",
+        "value": 1
+      },
+      {
+        "source": "TENNESSEE_RIVER_BASIN",
+        "target": "WATERSHED_DYNAMICS",
+        "value": 1
+      },
+      {
+        "source": "HYDROLOGIC_CONNECTIVITY",
+        "target": "RIVER_CORRIDORS",
+        "value": 1
+      },
+      {
+        "source": "HYDROLOGIC_CONNECTIVITY",
+        "target": "STREAM_DRYING",
+        "value": 1
+      },
+      {
+        "source": "HYDROLOGIC_CONNECTIVITY",
+        "target": "WHONDRS",
+        "value": 1
+      },
+      {
+        "source": "HYDROLOGIC_CONNECTIVITY",
+        "target": "WILDFIRE",
+        "value": 1
+      },
+      {
+        "source": "HYDROLOGIC_CONNECTIVITY",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "STREAM_DRYING",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "WHONDRS",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "WILDFIRE",
+        "value": 1
+      },
+      {
+        "source": "RIVER_CORRIDORS",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "STREAM_DRYING",
+        "target": "WHONDRS",
+        "value": 1
+      },
+      {
+        "source": "STREAM_DRYING",
+        "target": "WILDFIRE",
+        "value": 1
+      },
+      {
+        "source": "STREAM_DRYING",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "WHONDRS",
+        "target": "WILDFIRE",
+        "value": 1
+      },
+      {
+        "source": "WHONDRS",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "WILDFIRE",
+        "target": "YAKIMA_RIVER_BASIN",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "HGCA",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "HGCB",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "MERCURY",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "MERCURY_METHYLATION",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "METHYLMERCURY",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "HGCA",
+        "target": "HGCB",
+        "value": 1
+      },
+      {
+        "source": "HGCA",
+        "target": "MERCURY",
+        "value": 1
+      },
+      {
+        "source": "HGCA",
+        "target": "MERCURY_METHYLATION",
+        "value": 1
+      },
+      {
+        "source": "HGCA",
+        "target": "METHYLMERCURY",
+        "value": 1
+      },
+      {
+        "source": "HGCA",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "HGCB",
+        "target": "MERCURY",
+        "value": 1
+      },
+      {
+        "source": "HGCB",
+        "target": "MERCURY_METHYLATION",
+        "value": 1
+      },
+      {
+        "source": "HGCB",
+        "target": "METHYLMERCURY",
+        "value": 1
+      },
+      {
+        "source": "HGCB",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "MERCURY_METHYLATION",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "METHYLMERCURY",
+        "value": 1
+      },
+      {
+        "source": "MERCURY",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "MERCURY_METHYLATION",
+        "target": "METHYLMERCURY",
+        "value": 1
+      },
+      {
+        "source": "MERCURY_METHYLATION",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "METHYLMERCURY",
+        "target": "SEDIMENT_WATER_INTERFACE",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "CONTAMINANT_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "NUTRIENT_CYCLING",
+        "value": 2
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "RIPARIAN_WETLAND",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SAVANNAH_RIVER_SITE",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "WETLAND_BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "NUTRIENT_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "RIPARIAN_WETLAND",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "SAVANNAH_RIVER_SITE",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "WETLAND_BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "RIPARIAN_WETLAND",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "SAVANNAH_RIVER_SITE",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "WETLAND_BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "RIPARIAN_WETLAND",
+        "target": "SAVANNAH_RIVER_SITE",
+        "value": 1
+      },
+      {
+        "source": "RIPARIAN_WETLAND",
+        "target": "WETLAND_BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "SAVANNAH_RIVER_SITE",
+        "target": "WETLAND_BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "CAPILLARY_FRINGE",
+        "target": "COLLOID_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "CAPILLARY_FRINGE",
+        "target": "FLOODPLAIN",
+        "value": 1
+      },
+      {
+        "source": "CAPILLARY_FRINGE",
+        "target": "GROUNDWATER_QUALITY",
+        "value": 1
+      },
+      {
+        "source": "CAPILLARY_FRINGE",
+        "target": "REDOX_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "CAPILLARY_FRINGE",
+        "target": "SUBSURFACE_INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "FLOODPLAIN",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "GROUNDWATER_QUALITY",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "REDOX_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "SUBSURFACE_INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "FLOODPLAIN",
+        "target": "GROUNDWATER_QUALITY",
+        "value": 1
+      },
+      {
+        "source": "FLOODPLAIN",
+        "target": "REDOX_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "FLOODPLAIN",
+        "target": "SUBSURFACE_INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "GROUNDWATER_QUALITY",
+        "target": "REDOX_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "GROUNDWATER_QUALITY",
+        "target": "SUBSURFACE_INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "REDOX_CYCLING",
+        "target": "SUBSURFACE_INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "ENVIRONMENTAL_CHANGE",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "WETLAND_RESILIENCE",
+        "value": 1
+      },
+      {
+        "source": "ENVIRONMENTAL_CHANGE",
+        "target": "NUTRIENT_CYCLING",
+        "value": 1
+      },
+      {
+        "source": "ENVIRONMENTAL_CHANGE",
+        "target": "WETLAND_RESILIENCE",
+        "value": 1
+      },
+      {
+        "source": "NUTRIENT_CYCLING",
+        "target": "WETLAND_RESILIENCE",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "BIOGEOCHEMISTRY",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "COLLOID_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "CONTAMINANT_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "ENVIRONMENTAL_SYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "ACTINIDES",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "COLLOID_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "CONTAMINANT_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "ENVIRONMENTAL_SYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "BIOGEOCHEMISTRY",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "CONTAMINANT_TRANSPORT",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "ENVIRONMENTAL_SYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "COLLOID_TRANSPORT",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "ENVIRONMENTAL_SYSTEMS",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "CONTAMINANT_TRANSPORT",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "ENVIRONMENTAL_SYSTEMS",
+        "target": "INTERFACES",
+        "value": 1
+      },
+      {
+        "source": "ENVIRONMENTAL_SYSTEMS",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "INTERFACES",
+        "target": "URANIUM",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "BIOENERGY_CROPS",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "BIODEFENSE",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "BIOSECURITY",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "FUNGAL_PATHOGENS",
+        "value": 1
+      },
+      {
+        "source": "BIOENERGY_CROPS",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "BIOSECURITY",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "FUNGAL_PATHOGENS",
+        "target": "PLANT_MICROBE_INTERACTIONS",
+        "value": 1
+      },
+      {
+        "source": "FUNGAL_PATHOGENS",
+        "target": "SORGHUM",
+        "value": 1
+      },
+      {
+        "source": "PLANT_MICROBE_INTERACTIONS",
+        "target": "SORGHUM",
+        "value": 1
+      }
+    ]
+  },
+  "stats": {
+    "study_count": 54,
+    "program_count": 22,
+    "unique_keywords": 47,
+    "unique_datatypes": 12
+  }
+};
+
+        // Color schemes for different views
+        const colorSchemes = {
+            'keyword-keyword': d3.schemeTableau10,
+            'datatype-datatype': d3.schemeDark2,
+            'keyword-datatype': null, // bipartite - special handling
+            'program-keywords': d3.schemeSet3
+        };
+
+        // Current state
+        let currentView = 'keyword-keyword';
+        let minValue = 1;
+        let sortBy = 'name';
+
+        // Dimensions
+        const width = Math.min(800, window.innerWidth - 40);
+        const height = width;
+        const outerRadius = Math.min(width, height) * 0.4;
+        const innerRadius = outerRadius - 30;
+
+        // SVG setup
+        const svg = d3.select("#chord-diagram")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", `translate(${width/2},${height/2})`);
+
+        const tooltip = d3.select("#tooltip");
+
+        // Tab switching
+        d3.selectAll(".tab").on("click", function() {
+            d3.selectAll(".tab").classed("active", false);
+            d3.select(this).classed("active", true);
+            currentView = this.dataset.view;
+            updateVisualization();
+        });
+
+        // Controls
+        d3.select("#min-value").on("input", function() {
+            minValue = +this.value;
+            d3.select("#min-value-display").text(minValue);
+            updateVisualization();
+        });
+
+        d3.select("#sort-by").on("change", function() {
+            sortBy = this.value;
+            updateVisualization();
+        });
+
+        function getDataForView(view) {
+            switch(view) {
+                case 'keyword-keyword':
+                    return vizData.keyword_keyword;
+                case 'datatype-datatype':
+                    return vizData.datatype_datatype;
+                case 'keyword-datatype':
+                    return vizData.keyword_datatype;
+                case 'program-keywords':
+                    return vizData.program_keywords;
+                default:
+                    return vizData.keyword_keyword;
+            }
+        }
+
+        function buildMatrix(data, minVal) {
+            // Filter links by minimum value
+            const links = data.links.filter(l => l.value >= minVal);
+
+            // Get nodes that appear in filtered links
+            const nodeNames = new Set();
+            links.forEach(l => {
+                nodeNames.add(l.source);
+                nodeNames.add(l.target);
+            });
+
+            // Build node list with counts
+            let nodes = data.nodes.filter(n => nodeNames.has(n.name));
+
+            // Sort nodes
+            if (sortBy === 'count') {
+                nodes.sort((a, b) => b.count - a.count);
+            } else {
+                nodes.sort((a, b) => a.name.localeCompare(b.name));
+            }
+
+            const nameToIndex = new Map(nodes.map((n, i) => [n.name, i]));
+            const n = nodes.length;
+
+            // Build matrix
+            const matrix = Array(n).fill(null).map(() => Array(n).fill(0));
+
+            links.forEach(link => {
+                const i = nameToIndex.get(link.source);
+                const j = nameToIndex.get(link.target);
+                if (i !== undefined && j !== undefined) {
+                    matrix[i][j] = link.value;
+                    matrix[j][i] = link.value; // symmetric for chord
+                }
+            });
+
+            return { matrix, nodes, nameToIndex };
+        }
+
+        function formatName(name) {
+            return name.replace(/_/g, ' ').toLowerCase()
+                .replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        function updateVisualization() {
+            const data = getDataForView(currentView);
+            const { matrix, nodes, nameToIndex } = buildMatrix(data, minValue);
+
+            if (nodes.length === 0) {
+                svg.selectAll("*").remove();
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("fill", "#a0a0a0")
+                    .text("No connections meet the filter criteria");
+                return;
+            }
+
+            svg.selectAll("*").remove();
+
+            // Color scale
+            let colorScale;
+            if (currentView === 'keyword-datatype') {
+                // Bipartite: different colors for keywords vs datatypes
+                colorScale = d => nodes[d].group === 'keyword' ? '#e94560' : '#3282b8';
+            } else {
+                const colors = colorSchemes[currentView] || d3.schemeTableau10;
+                colorScale = d => colors[d % colors.length];
+            }
+
+            // Chord layout
+            const chord = d3.chord()
+                .padAngle(0.05)
+                .sortSubgroups(d3.descending);
+
+            const chords = chord(matrix);
+
+            // Arc generator
+            const arc = d3.arc()
+                .innerRadius(innerRadius)
+                .outerRadius(outerRadius);
+
+            // Ribbon generator
+            const ribbon = d3.ribbon()
+                .radius(innerRadius);
+
+            // Draw groups (outer arcs)
+            const group = svg.append("g")
+                .attr("class", "groups")
+                .selectAll("g")
+                .data(chords.groups)
+                .join("g")
+                .attr("class", "group");
+
+            group.append("path")
+                .attr("d", arc)
+                .attr("fill", d => colorScale(d.index))
+                .attr("stroke", "#fff")
+                .style("cursor", "pointer")
+                .on("mouseover", function(event, d) {
+                    // Fade non-connected chords
+                    svg.selectAll(".chord path")
+                        .classed("fade", p => p.source.index !== d.index && p.target.index !== d.index);
+
+                    // Show tooltip
+                    const node = nodes[d.index];
+                    tooltip.classed("visible", true)
+                        .html(`<h4>${formatName(node.name)}</h4>
+                               <p>Appears in ${node.count} ${currentView.includes('keyword') ? 'studies' : 'records'}</p>
+                               <p>Connected to ${chords.groups[d.index].value} other items</p>`);
+                })
+                .on("mousemove", function(event) {
+                    tooltip.style("left", (event.pageX + 15) + "px")
+                           .style("top", (event.pageY - 10) + "px");
+                })
+                .on("mouseout", function() {
+                    svg.selectAll(".chord path").classed("fade", false);
+                    tooltip.classed("visible", false);
+                });
+
+            // Draw labels
+            group.append("text")
+                .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+                .attr("dy", "0.35em")
+                .attr("transform", d => `
+                    rotate(${(d.angle * 180 / Math.PI - 90)})
+                    translate(${outerRadius + 10})
+                    ${d.angle > Math.PI ? "rotate(180)" : ""}
+                `)
+                .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
+                .text(d => formatName(nodes[d.index].name))
+                .style("font-size", nodes.length > 20 ? "8px" : "10px");
+
+            // Draw ribbons (chords)
+            svg.append("g")
+                .attr("class", "chord")
+                .selectAll("path")
+                .data(chords)
+                .join("path")
+                .attr("d", ribbon)
+                .attr("fill", d => colorScale(d.source.index))
+                .attr("stroke", "#fff")
+                .style("mix-blend-mode", "multiply")
+                .on("mouseover", function(event, d) {
+                    d3.select(this).style("fill-opacity", 1);
+
+                    tooltip.classed("visible", true)
+                        .html(`<h4>${formatName(nodes[d.source.index].name)} ↔ ${formatName(nodes[d.target.index].name)}</h4>
+                               <p>Co-occur in ${d.source.value} ${currentView.includes('study') || currentView.includes('keyword') ? 'studies' : 'records'}</p>`);
+                })
+                .on("mousemove", function(event) {
+                    tooltip.style("left", (event.pageX + 15) + "px")
+                           .style("top", (event.pageY - 10) + "px");
+                })
+                .on("mouseout", function() {
+                    d3.select(this).style("fill-opacity", 0.67);
+                    tooltip.classed("visible", false);
+                });
+
+            // Update legend for bipartite view
+            const legend = d3.select("#legend");
+            legend.html("");
+
+            if (currentView === 'keyword-datatype') {
+                legend.html(`
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e94560;"></div>
+                        <span>Keywords</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3282b8;"></div>
+                        <span>Data Types</span>
+                    </div>
+                `);
+            }
+        }
+
+        // Initial render
+        updateVisualization();
+
+        // Resize handler
+        window.addEventListener('resize', () => {
+            // Could implement responsive resize here
+        });
+    </script>
+</body>
+</html>

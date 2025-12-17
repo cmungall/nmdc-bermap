@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOE BER Research Associations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --text-primary: #e6e6e6;
+            --text-secondary: #a0a0a0;
+            --accent-1: #e94560;
+            --accent-2: #0f4c75;
+            --accent-3: #3282b8;
+            --accent-4: #bbe1fa;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-card) 100%);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-4);
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 1rem;
+            background: var(--bg-secondary);
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 0.75rem 1.5rem;
+            background: var(--bg-card);
+            border: none;
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .tab:hover {
+            background: var(--accent-2);
+        }
+
+        .tab.active {
+            background: var(--accent-1);
+            font-weight: bold;
+        }
+
+        .viz-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .chord-container {
+            position: relative;
+        }
+
+        .chord-container svg {
+            overflow: visible;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--accent-3);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+            max-width: 300px;
+        }
+
+        .tooltip.visible {
+            opacity: 1;
+        }
+
+        .tooltip h4 {
+            margin-bottom: 0.25rem;
+            color: var(--accent-4);
+        }
+
+        .tooltip p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .control {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .control label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .control input[type="range"] {
+            width: 100px;
+        }
+
+        .control select {
+            padding: 0.25rem 0.5rem;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--accent-3);
+            border-radius: 4px;
+        }
+
+        /* Chord diagram styles */
+        .chord path {
+            fill-opacity: 0.67;
+            stroke-width: 0.5px;
+        }
+
+        .chord path:hover {
+            fill-opacity: 1;
+        }
+
+        .chord .group path {
+            fill-opacity: 0.8;
+        }
+
+        .chord .group:hover path {
+            fill-opacity: 1;
+        }
+
+        .chord text {
+            font-size: 10px;
+            fill: var(--text-primary);
+        }
+
+        .fade {
+            opacity: 0.1 !important;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .stats {
+                gap: 1rem;
+            }
+
+            .tab {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOE BER Research Associations</h1>
+        <p>Interactive visualization of keyword and data type relationships across studies</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">{{ stats.study_count }}</div>
+                <div class="stat-label">Studies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">{{ stats.program_count }}</div>
+                <div class="stat-label">Programs</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">{{ stats.unique_keywords }}</div>
+                <div class="stat-label">Keywords</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">{{ stats.unique_datatypes }}</div>
+                <div class="stat-label">Data Types</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs">
+        <button class="tab active" data-view="keyword-keyword">Keyword ↔ Keyword</button>
+        <button class="tab" data-view="datatype-datatype">DataType ↔ DataType</button>
+        <button class="tab" data-view="keyword-datatype">Keyword → DataType</button>
+        <button class="tab" data-view="program-keywords">Program Keywords</button>
+    </div>
+
+    <div class="viz-container">
+        <div class="controls">
+            <div class="control">
+                <label for="min-value">Min connections:</label>
+                <input type="range" id="min-value" min="1" max="10" value="1">
+                <span id="min-value-display">1</span>
+            </div>
+            <div class="control">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="name">Name</option>
+                    <option value="count">Connection count</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="chord-container">
+            <svg id="chord-diagram"></svg>
+        </div>
+
+        <div class="tooltip" id="tooltip"></div>
+
+        <div class="legend" id="legend"></div>
+    </div>
+
+    <footer>
+        Generated from DOE BER SFAs and BRCs database |
+        <a href="browser.html" style="color: var(--accent-4);">Back to Browser</a>
+    </footer>
+
+    <script>
+        // Visualization data from Python
+        const vizData = {{ viz_data_json | safe }};
+
+        // Color schemes for different views
+        const colorSchemes = {
+            'keyword-keyword': d3.schemeTableau10,
+            'datatype-datatype': d3.schemeDark2,
+            'keyword-datatype': null, // bipartite - special handling
+            'program-keywords': d3.schemeSet3
+        };
+
+        // Current state
+        let currentView = 'keyword-keyword';
+        let minValue = 1;
+        let sortBy = 'name';
+
+        // Dimensions
+        const width = Math.min(800, window.innerWidth - 40);
+        const height = width;
+        const outerRadius = Math.min(width, height) * 0.4;
+        const innerRadius = outerRadius - 30;
+
+        // SVG setup
+        const svg = d3.select("#chord-diagram")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", `translate(${width/2},${height/2})`);
+
+        const tooltip = d3.select("#tooltip");
+
+        // Tab switching
+        d3.selectAll(".tab").on("click", function() {
+            d3.selectAll(".tab").classed("active", false);
+            d3.select(this).classed("active", true);
+            currentView = this.dataset.view;
+            updateVisualization();
+        });
+
+        // Controls
+        d3.select("#min-value").on("input", function() {
+            minValue = +this.value;
+            d3.select("#min-value-display").text(minValue);
+            updateVisualization();
+        });
+
+        d3.select("#sort-by").on("change", function() {
+            sortBy = this.value;
+            updateVisualization();
+        });
+
+        function getDataForView(view) {
+            switch(view) {
+                case 'keyword-keyword':
+                    return vizData.keyword_keyword;
+                case 'datatype-datatype':
+                    return vizData.datatype_datatype;
+                case 'keyword-datatype':
+                    return vizData.keyword_datatype;
+                case 'program-keywords':
+                    return vizData.program_keywords;
+                default:
+                    return vizData.keyword_keyword;
+            }
+        }
+
+        function buildMatrix(data, minVal) {
+            // Filter links by minimum value
+            const links = data.links.filter(l => l.value >= minVal);
+
+            // Get nodes that appear in filtered links
+            const nodeNames = new Set();
+            links.forEach(l => {
+                nodeNames.add(l.source);
+                nodeNames.add(l.target);
+            });
+
+            // Build node list with counts
+            let nodes = data.nodes.filter(n => nodeNames.has(n.name));
+
+            // Sort nodes
+            if (sortBy === 'count') {
+                nodes.sort((a, b) => b.count - a.count);
+            } else {
+                nodes.sort((a, b) => a.name.localeCompare(b.name));
+            }
+
+            const nameToIndex = new Map(nodes.map((n, i) => [n.name, i]));
+            const n = nodes.length;
+
+            // Build matrix
+            const matrix = Array(n).fill(null).map(() => Array(n).fill(0));
+
+            links.forEach(link => {
+                const i = nameToIndex.get(link.source);
+                const j = nameToIndex.get(link.target);
+                if (i !== undefined && j !== undefined) {
+                    matrix[i][j] = link.value;
+                    matrix[j][i] = link.value; // symmetric for chord
+                }
+            });
+
+            return { matrix, nodes, nameToIndex };
+        }
+
+        function formatName(name) {
+            return name.replace(/_/g, ' ').toLowerCase()
+                .replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        function updateVisualization() {
+            const data = getDataForView(currentView);
+            const { matrix, nodes, nameToIndex } = buildMatrix(data, minValue);
+
+            if (nodes.length === 0) {
+                svg.selectAll("*").remove();
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("fill", "#a0a0a0")
+                    .text("No connections meet the filter criteria");
+                return;
+            }
+
+            svg.selectAll("*").remove();
+
+            // Color scale
+            let colorScale;
+            if (currentView === 'keyword-datatype') {
+                // Bipartite: different colors for keywords vs datatypes
+                colorScale = d => nodes[d].group === 'keyword' ? '#e94560' : '#3282b8';
+            } else {
+                const colors = colorSchemes[currentView] || d3.schemeTableau10;
+                colorScale = d => colors[d % colors.length];
+            }
+
+            // Chord layout
+            const chord = d3.chord()
+                .padAngle(0.05)
+                .sortSubgroups(d3.descending);
+
+            const chords = chord(matrix);
+
+            // Arc generator
+            const arc = d3.arc()
+                .innerRadius(innerRadius)
+                .outerRadius(outerRadius);
+
+            // Ribbon generator
+            const ribbon = d3.ribbon()
+                .radius(innerRadius);
+
+            // Draw groups (outer arcs)
+            const group = svg.append("g")
+                .attr("class", "groups")
+                .selectAll("g")
+                .data(chords.groups)
+                .join("g")
+                .attr("class", "group");
+
+            group.append("path")
+                .attr("d", arc)
+                .attr("fill", d => colorScale(d.index))
+                .attr("stroke", "#fff")
+                .style("cursor", "pointer")
+                .on("mouseover", function(event, d) {
+                    // Fade non-connected chords
+                    svg.selectAll(".chord path")
+                        .classed("fade", p => p.source.index !== d.index && p.target.index !== d.index);
+
+                    // Show tooltip
+                    const node = nodes[d.index];
+                    tooltip.classed("visible", true)
+                        .html(`<h4>${formatName(node.name)}</h4>
+                               <p>Appears in ${node.count} ${currentView.includes('keyword') ? 'studies' : 'records'}</p>
+                               <p>Connected to ${chords.groups[d.index].value} other items</p>`);
+                })
+                .on("mousemove", function(event) {
+                    tooltip.style("left", (event.pageX + 15) + "px")
+                           .style("top", (event.pageY - 10) + "px");
+                })
+                .on("mouseout", function() {
+                    svg.selectAll(".chord path").classed("fade", false);
+                    tooltip.classed("visible", false);
+                });
+
+            // Draw labels
+            group.append("text")
+                .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+                .attr("dy", "0.35em")
+                .attr("transform", d => `
+                    rotate(${(d.angle * 180 / Math.PI - 90)})
+                    translate(${outerRadius + 10})
+                    ${d.angle > Math.PI ? "rotate(180)" : ""}
+                `)
+                .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
+                .text(d => formatName(nodes[d.index].name))
+                .style("font-size", nodes.length > 20 ? "8px" : "10px");
+
+            // Draw ribbons (chords)
+            svg.append("g")
+                .attr("class", "chord")
+                .selectAll("path")
+                .data(chords)
+                .join("path")
+                .attr("d", ribbon)
+                .attr("fill", d => colorScale(d.source.index))
+                .attr("stroke", "#fff")
+                .style("mix-blend-mode", "multiply")
+                .on("mouseover", function(event, d) {
+                    d3.select(this).style("fill-opacity", 1);
+
+                    tooltip.classed("visible", true)
+                        .html(`<h4>${formatName(nodes[d.source.index].name)} ↔ ${formatName(nodes[d.target.index].name)}</h4>
+                               <p>Co-occur in ${d.source.value} ${currentView.includes('study') || currentView.includes('keyword') ? 'studies' : 'records'}</p>`);
+                })
+                .on("mousemove", function(event) {
+                    tooltip.style("left", (event.pageX + 15) + "px")
+                           .style("top", (event.pageY - 10) + "px");
+                })
+                .on("mouseout", function() {
+                    d3.select(this).style("fill-opacity", 0.67);
+                    tooltip.classed("visible", false);
+                });
+
+            // Update legend for bipartite view
+            const legend = d3.select("#legend");
+            legend.html("");
+
+            if (currentView === 'keyword-datatype') {
+                legend.html(`
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e94560;"></div>
+                        <span>Keywords</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3282b8;"></div>
+                        <span>Data Types</span>
+                    </div>
+                `);
+            }
+        }
+
+        // Initial render
+        updateVisualization();
+
+        // Resize handler
+        window.addEventListener('resize', () => {
+            // Could implement responsive resize here
+        });
+    </script>
+</body>
+</html>

@@ -20,6 +20,8 @@
     --accent-ess-sfa-light: #f3e5f5;
     --accent-facility: #e65100;
     --accent-facility-light: #fff3e0;
+    --accent-other: #00838f;
+    --accent-other-light: #e0f7fa;
     --link-color: #1976d2;
     --chip-bg: #e8eaf6;
     --chip-text: #3f51b5;
@@ -179,6 +181,7 @@ footer {
 .program.gs-sfa > summary { border-left-color: var(--accent-gs-sfa); }
 .program.ess-sfa > summary { border-left-color: var(--accent-ess-sfa); }
 .program.facility > summary { border-left-color: var(--accent-facility); }
+.program.other > summary { border-left-color: var(--accent-other); }
 
 .program-name {
     font-size: 1.05em;
@@ -246,6 +249,17 @@ footer {
 .chip.modality { background: #fce4ec; color: #c2185b; }
 .chip.service { background: #fff3e0; color: #e65100; }
 .chip.institution { background: #f3e5f5; color: #7b1fa2; }
+.chip.phenotype-assay { background: #fff8e1; color: #f57f17; }
+
+.count-badge {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    margin-left: 8px;
+}
 
 /* Links */
 a {
@@ -514,6 +528,9 @@ DOE BER
 </span>
         </div>
 
+
+
+
         <div class="field">
     <span class="field-label">Established:</span>
     <span class="field-value">
@@ -628,7 +645,10 @@ DOE BER
 </span>
         </div>
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -643,7 +663,28 @@ DOE BER
         <span class="item-title">Seasonal activities of the phyllosphere microbiome of perennial crops</span>
 <span class="pi-info">(Ashley Shade)</span>    </summary>
     <div class="item-content">
-        <p class="description">Genome-centric approach to identify ecologically important leaf microbiome members on switchgrass and miscanthus, quantifying activities over two growing seasons.</p>
+        <p class="description">Genome-centric approach to identify ecologically important leaf microbiome members on switchgrass and miscanthus, quantifying activities over two growing seasons. Classes represented by MAGs (Actinomycetia, Alpha- and Gamma-Proteobacteria, Bacteroidota) are active in late season with stress-associated pathways and biosynthetic pathways for terpenes and non-ribosomal peptides.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            switchgrass phyllosphere metagenome
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Metagenomics</span>
+<span class="chip data-type">Metatranscriptomics</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Primary reference:</span>
+            <span class="field-value"><a href="https://doi.org/10.1038/s41467-023-36515-y" target="_blank" class="link-doi">doi:10.1038/s41467-023-36515-y</a>
+ - Seasonal activities of the phyllosphere microbiome of perennial crops</span>
+        </div>
     </div>
 </details>
 
@@ -655,6 +696,28 @@ DOE BER
 <span class="pi-info">(Maren Friesen)</span>    </summary>
     <div class="item-content">
         <p class="description">Understanding how rhizosphere microbiome influences soil nitrogen transformations under low- and high-N conditions across five locations in the Great Lakes Region.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Panicum virgatum
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            2971
+    </span>
+</div>
+
         <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
@@ -715,7 +778,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41467-024-50463-1" target="_blank" class="link-doi">doi:10.1038/s41467-024-50463-1</a>
-</span>
+ - Disentangling plant- and environment-mediated drivers of active rhizosphere bacterial community dynamics during short-term drought</span>
         </div>
     </div>
 </details>
@@ -772,7 +835,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1186/s40793-023-00504-x" target="_blank" class="link-doi">doi:10.1186/s40793-023-00504-x</a>
-</span>
+ - Regional biogeography versus intra-annual dynamics of the root and soil microbiome</span>
         </div>
     </div>
 </details>
@@ -828,7 +891,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1128/spectrum.01546-24" target="_blank" class="link-doi">doi:10.1128/spectrum.01546-24</a>
-</span>
+ - Genetic modification of the shikimate pathway to reduce lignin content in switchgrass ( &lt;i&gt;Panicum virgatum&lt;/i&gt; L.) significantly impacts plant microbiomes</span>
         </div>
     </div>
 </details>
@@ -869,6 +932,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            228
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA933671" target="_blank">PRJNA933671</a>            </span>
@@ -883,7 +953,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1128/spectrum.01332-23" target="_blank" class="link-doi">doi:10.1128/spectrum.01332-23</a>
-</span>
+ - Terpenes modulate bacterial and fungal growth and sorghum rhizobiome communities</span>
         </div>
     </div>
 </details>
@@ -924,6 +994,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            106
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1156252" target="_blank">PRJNA1156252</a>            </span>
@@ -938,7 +1015,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1016/j.soilbio.2025.109787" target="_blank" class="link-doi">doi:10.1016/j.soilbio.2025.109787</a>
-</span>
+ - Drought increases microbial allocation to stress tolerance but with few tradeoffs among community-level traits</span>
         </div>
     </div>
 </details>
@@ -978,6 +1055,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            872
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA938072" target="_blank">PRJNA938072</a>            </span>
@@ -992,7 +1076,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.3389/fmicb.2023.1172862" target="_blank" class="link-doi">doi:10.3389/fmicb.2023.1172862</a>
-</span>
+ - The microbiome structure of decomposing plant leaves in soil depends on plant species, soil pore sizes, and soil moisture content</span>
         </div>
     </div>
 </details>
@@ -1045,7 +1129,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.3389/fbioe.2023.1173656" target="_blank" class="link-doi">doi:10.3389/fbioe.2023.1173656</a>
-</span>
+ - A metagenome-level analysis of a microbial community fermenting ultra-filtered milk permeate</span>
         </div>
     </div>
 </details>
@@ -1210,7 +1294,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41586-020-03127-1" target="_blank" class="link-doi">doi:10.1038/s41586-020-03127-1</a>
-</span>
+ - Genomic mechanisms of climate adaptation in polyploid bioenergy switchgrass</span>
         </div>
     </div>
 </details>
@@ -1307,6 +1391,9 @@ DOE BER
  / Genomic Science Program (2023-2028)</span>
 </span>
         </div>
+
+
+
 
         <div class="field">
     <span class="field-label">Established:</span>
@@ -1417,7 +1504,10 @@ DOE BER
 </span>
         </div>
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -1567,6 +1657,9 @@ DOE BER
 </span>
         </div>
 
+
+
+
         <div class="field">
     <span class="field-label">Established:</span>
     <span class="field-value">
@@ -1675,7 +1768,10 @@ DOE BER
 </span>
         </div>
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -1692,6 +1788,28 @@ DOE BER
     <div class="item-content">
         <p class="description">Investigation of effects of stand age and N fertilizer rates on microbial community structure in Miscanthus × giganteus replicated chronosequence trial.</p>
         <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Miscanthus × giganteus
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            648
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601860" target="_blank">PRJNA601860</a>            </span>
@@ -1705,6 +1823,28 @@ DOE BER
 <span class="pi-info">(Angela Kent)</span>    </summary>
     <div class="item-content">
         <p class="description">Survey of the native Miscanthus rhizosphere and endophytic microbiome in Taiwan, with particular attention to the diazotrophic community across strong biogeographical and ecological gradients in Miscanthus sinensis and M. floridulus.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Miscanthus sinensis, Miscanthus floridulus
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            466
+    </span>
+</div>
+
         <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
@@ -1720,6 +1860,28 @@ DOE BER
     <div class="item-content">
         <p class="description">SSU rRNA RNA library of soil microbiome at LAMPS. Complements DNA-based study examining total vs metabolically active microbial communities under nitrogen fertilization.</p>
         <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Miscanthus × giganteus
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            271
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA745191" target="_blank">PRJNA745191</a>            </span>
@@ -1733,6 +1895,28 @@ DOE BER
 <span class="pi-info">(Wendy Yang)</span>    </summary>
     <div class="item-content">
         <p class="description">Intra- and inter-annual variability of nitrification in the rhizosphere of field-grown bioenergy sorghum, examining biological nitrification inhibition (BNI) potential and soil microbial communities across fertilizer treatments.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Sorghum bicolor
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            288
+    </span>
+</div>
+
         <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
@@ -1748,6 +1932,22 @@ DOE BER
     <div class="item-content">
         <p class="description">Study of bacterial and fungal microbiome structure and potential functions in leaves, stems, roots, rhizospheres, and bulk soils of sugarcane and metabolically engineered oilcane grown in greenhouses.</p>
         <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+<span class="chip data-type">Amplicon Its</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            200
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA892137" target="_blank">PRJNA892137</a>            </span>
@@ -1761,6 +1961,28 @@ DOE BER
 <span class="pi-info">(Wendy Yang)</span>    </summary>
     <div class="item-content">
         <p class="description">Investigation of soil microorganisms along 1 meter soil profiles in Miscanthus × giganteus, examining distinct mechanisms driving plant-nitrifier interactions at different depths.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Miscanthus × giganteus
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            103
+    </span>
+</div>
+
         <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
@@ -1885,6 +2107,9 @@ DOE BER
 </span>
         </div>
 
+
+
+
         <div class="field">
     <span class="field-label">Established:</span>
     <span class="field-value">
@@ -1999,7 +2224,10 @@ DOE BER
 </span>
         </div>
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -2016,6 +2244,29 @@ DOE BER
     <div class="item-content">
         <p class="description">Assessment of archaeal/bacterial and fungal communities within root endosphere, rhizosphere, and bulk soil of P. trichocarpa genotypes under drought in Boardman, OR.</p>
         <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Populus trichocarpa
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+<span class="chip data-type">Amplicon Its</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            384
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA784967" target="_blank">PRJNA784967</a>            </span>
@@ -2029,6 +2280,30 @@ DOE BER
 <span class="pi-info">(Aurelie Deveau)</span>    </summary>
     <div class="item-content">
         <p class="description">Characterization of fungal and bacterial community assembly from root to shoot axis in poplar (P. tremula x tremuloides) over 30 days of growth, tracking changes in rhizosphere, root and shoot by DNA metabarcoding alongside metabolomics.</p>
+        <div class="field">
+    <span class="field-label">Organism:</span>
+    <span class="field-value">
+            Populus tremula x tremuloides
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Amplicon 16s</span>
+<span class="chip data-type">Amplicon Its</span>
+<span class="chip data-type">Metabolomics</span>
+</div>
+
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            505
+    </span>
+</div>
+
         <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
@@ -2116,7 +2391,7 @@ DOE BER
 </details>
 
 <details class="category gs-sfas" open>
-    <summary>Genomic Science SFAs (9)</summary>
+    <summary>Genomic Science SFAs (11)</summary>
     <div class="category-content">
         <details class="program gs-sfa" id="nmdc_sfas_brcs:enigma">
     <summary>
@@ -2144,6 +2419,9 @@ DOE BER
  / Genomic Science Program</span>
 </span>
         </div>
+
+
+
 
 
 
@@ -2242,6 +2520,21 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Rbtseq Fitness</span>
+        <span class="chip phenotype-assay">Stress Tolerance</span>
+        <span class="chip phenotype-assay">Anaerobic Growth</span>
+        <span class="chip phenotype-assay">Substrate Utilization</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        <span class="chip phenotype-assay">Coculture Interactions</span>
+        </div>
+    </span>
+</div>
+
+
 
         <details class="section field-sites">
     <summary>
@@ -2263,6 +2556,62 @@ DOE BER
 <span class="chip keyword">Volatile Organic Carbon Species</span>
 </div>
 </span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">1</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">ENIGMA Subsurface Isolates</span>
+        <span class="count-badge">261 isolates</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial and archaeal isolates from Oak Ridge Reservation subsurface environments including contaminated groundwater and sediments. Characterized for stress tolerance and denitrification/metal reduction capabilities.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+<span class="chip keyword">Archaea</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Genomes sequenced:</span>
+    <span class="field-value">
+            261
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Oak Ridge Subsurface</span>
+<span class="chip keyword">Contaminated Groundwater</span>
+<span class="chip keyword">Aquifer Sediments</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">Aerobic plating, Anaerobic enrichment</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Genome catalog:</span>
+            <span class="field-value"><a href="https://kbase.us/n/63776/35/" target="_blank">View genomes</a></span>
+        </div>
+        <div class="field">
+            <span class="field-label">Reference:</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/msystems.00537-21" target="_blank" class="link-doi">doi:10.1128/msystems.00537-21</a>
+ - Ecogenomics of Groundwater Phages Suggests Niche Differentiation Linked to Specific Environmental Tolerance</span>
         </div>
     </div>
 </details>
@@ -2308,7 +2657,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41564-023-01573-x" target="_blank" class="link-doi">doi:10.1038/s41564-023-01573-x</a>
-</span>
+ - Environmental stress mediates groundwater microbial community assembly</span>
         </div>
     </div>
 </details>
@@ -2345,7 +2694,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1128/mra.00014-25" target="_blank" class="link-doi">doi:10.1128/mra.00014-25</a>
-</span>
+ - Sediment and groundwater metagenomes from subsurface microbial communities from the Oak Ridge National Laboratory Oak Ridge Reservation, Oak Ridge, Tennessee, USA</span>
         </div>
     </div>
 </details>
@@ -2421,8 +2770,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1128/mSystems.00645-20" target="_blank" class="link-doi">doi:10.1128/mSystems.00645-20</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/msystems.00537-21" target="_blank" class="link-doi">doi:10.1128/msystems.00537-21</a>
+ - Ecogenomics of Groundwater Phages Suggests Niche Differentiation Linked to Specific Environmental Tolerance</span>
         </div>
     </div>
 </details>
@@ -2562,6 +2911,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -2647,8 +2999,90 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Ecofab Phenotyping</span>
+        <span class="chip phenotype-assay">Exometabolomics</span>
+        <span class="chip phenotype-assay">Synthetic Community</span>
+        <span class="chip phenotype-assay">Plant Colonization</span>
+        <span class="chip phenotype-assay">Substrate Utilization</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        <span class="chip phenotype-assay">Live Cell Imaging</span>
+        </div>
+    </span>
+</div>
+
+
 
         
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">2</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">m-CAFEs Rhizosphere Bacterial Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial isolates from Brachypodium and grass rhizospheres used for synthetic community studies in EcoFAB devices. Includes reduced complexity consortia (RCC) strains representing core rhizosphere microbiome.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Brachypodium Rhizosphere</span>
+<span class="chip keyword">Grass Rhizosphere</span>
+<span class="chip keyword">Angelo Coast Range Reserve Soil</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Host organisms:</span>
+            <span class="field-value">Brachypodium distachyon, Avena barbata</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">Aerobic plating, Dilution-to-extinction</span>
+        </div>
+    </div>
+</details>
+
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">m-CAFEs Phage Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacteriophages isolated from soil for phage-based genome editing and microbial community manipulation studies.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Phage</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Soil</span>
+<span class="chip keyword">Rhizosphere</span>
+</div>
+</span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
         <details class="section studies">
     <summary>
         Studies
@@ -2702,6 +3136,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            71
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1120948" target="_blank">PRJNA1120948</a>            </span>
@@ -2709,7 +3150,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1007/s10725-024-01221-2" target="_blank" class="link-doi">doi:10.1007/s10725-024-01221-2</a>
-</span>
+ - Bacterial metabarcoding reveals plant growth promoting members of the core Brachypodium distachyon root-associated microbiome overlooked by culture dependent techniques</span>
         </div>
     </div>
 </details>
@@ -2741,7 +3182,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s43705-023-00265-1" target="_blank" class="link-doi">doi:10.1038/s43705-023-00265-1</a>
-</span>
+ - Fine scale sampling reveals early differentiation of rhizosphere microbiome from bulk soil in young &lt;i&gt;Brachypodium&lt;/i&gt; plant roots</span>
         </div>
     </div>
 </details>
@@ -2775,7 +3216,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41564-018-0129-3" target="_blank" class="link-doi">doi:10.1038/s41564-018-0129-3</a>
-</span>
+ - Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere microbial community assembly</span>
         </div>
     </div>
 </details>
@@ -2808,7 +3249,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41467-023-37164-x" target="_blank" class="link-doi">doi:10.1038/s41467-023-37164-x</a>
-</span>
+ - The core metabolome and root exudation dynamics of three phylogenetically distinct plant species</span>
         </div>
     </div>
 </details>
@@ -2841,7 +3282,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.3389/fmicb.2024.1401794" target="_blank" class="link-doi">doi:10.3389/fmicb.2024.1401794</a>
-</span>
+ - Developing stable, simplified, functional consortia from Brachypodium rhizosphere for microbial application in sustainable agriculture</span>
         </div>
     </div>
 </details>
@@ -2874,7 +3315,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1111/nph.15662" target="_blank" class="link-doi">doi:10.1111/nph.15662</a>
-</span>
+ - Multilab EcoFAB study shows highly reproducible physiology and depletion of soil metabolites by a model grass</span>
         </div>
     </div>
 </details>
@@ -3008,6 +3449,9 @@ DOE BER
 </span>
         </div>
 
+
+
+
         <div class="field">
     <span class="field-label">Established:</span>
     <span class="field-value">
@@ -3106,7 +3550,22 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Qsip Activity</span>
+        <span class="chip phenotype-assay">Nanosims Activity</span>
+        <span class="chip phenotype-assay">Soil Incubation</span>
+        <span class="chip phenotype-assay">Respiration</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        </div>
+    </span>
+</div>
 
+
+
+        
         
         <details class="section studies">
     <summary>
@@ -3152,8 +3611,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1038/s41564-023-01576-y" target="_blank" class="link-doi">doi:10.1038/s41564-023-01576-y</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1038/s41564-023-01582-w" target="_blank" class="link-doi">doi:10.1038/s41564-023-01582-w</a>
+ - Predictions of rhizosphere microbiome dynamics with a genome-informed and trait-based energy budget model</span>
         </div>
     </div>
 </details>
@@ -3178,8 +3637,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1017/RDC.2023.59" target="_blank" class="link-doi">doi:10.1017/RDC.2023.59</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1017/RDC.2023.80" target="_blank" class="link-doi">doi:10.1017/RDC.2023.80</a>
+ - RADIOCARBON ANALYSIS OF SOIL MICROBIAL BIOMASS VIA DIRECT CHLOROFORM EXTRACTION</span>
         </div>
     </div>
 </details>
@@ -3195,8 +3654,8 @@ DOE BER
         <p class="description">Data standard for reuse and reproducibility of stable isotope probing-derived nucleic acid sequences. Published in GigaScience 2024.</p>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1093/gigascience/giae008" target="_blank" class="link-doi">doi:10.1093/gigascience/giae008</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1093/gigascience/giae071" target="_blank" class="link-doi">doi:10.1093/gigascience/giae071</a>
+ - MISIP: a data standard for the reuse and reproducibility of any stable isotope probing-derived nucleic acid sequence and experiment</span>
         </div>
     </div>
 </details>
@@ -3227,6 +3686,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            332
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA718849" target="_blank">PRJNA718849</a>            </span>
@@ -3234,7 +3700,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1128/msystems.00417-22" target="_blank" class="link-doi">doi:10.1128/msystems.00417-22</a>
-</span>
+ - Quantitative Stable-Isotope Probing (qSIP) with Metagenomics Links Microbial Physiology and Activity to Soil Moisture in Mediterranean-Climate Grassland Ecosystems</span>
         </div>
     </div>
 </details>
@@ -3265,7 +3731,7 @@ DOE BER
 
         <details class="item publication">
     <summary>
-        <a href="https://doi.org/10.1038/s41564-023-01576-y" target="_blank" class="link-doi">doi:10.1038/s41564-023-01576-y</a>
+        <a href="https://doi.org/10.1038/s41564-023-01582-w" target="_blank" class="link-doi">doi:10.1038/s41564-023-01582-w</a>
 
         <span class="item-title">Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based energy budget model</span>
     </summary>
@@ -3361,6 +3827,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -3444,6 +3913,19 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Soil Incubation</span>
+        <span class="chip phenotype-assay">Respiration</span>
+        <span class="chip phenotype-assay">Exometabolomics</span>
+        <span class="chip phenotype-assay">Substrate Utilization</span>
+        </div>
+    </span>
+</div>
+
+
 
         <details class="section field-sites">
     <summary>
@@ -3463,6 +3945,7 @@ DOE BER
     </div>
 </details>
 
+        
         <details class="section studies">
     <summary>
         Studies
@@ -3488,8 +3971,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1038/s41467-023-43430-1" target="_blank" class="link-doi">doi:10.1038/s41467-023-43430-1</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1038/s41467-023-42967-z" target="_blank" class="link-doi">doi:10.1038/s41467-023-42967-z</a>
+ - Hi-C metagenome sequencing reveals soil phage–host interactions</span>
         </div>
     </div>
 </details>
@@ -3516,7 +3999,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1128/mbio.01758-23" target="_blank" class="link-doi">doi:10.1128/mbio.01758-23</a>
-</span>
+ - Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome, and carbon chemistry</span>
         </div>
     </div>
 </details>
@@ -3541,7 +4024,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.3390/microorganisms11112630" target="_blank" class="link-doi">doi:10.3390/microorganisms11112630</a>
-</span>
+ - Real-Time and Rapid Respiratory Response of the Soil Microbiome to Moisture Shifts</span>
         </div>
     </div>
 </details>
@@ -3566,7 +4049,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1111/gcb.17524" target="_blank" class="link-doi">doi:10.1111/gcb.17524</a>
-</span>
+ - Estimating the Importance of Viral Contributions to Soil Carbon Dynamics</span>
         </div>
     </div>
 </details>
@@ -3693,6 +4176,205 @@ DOE BER
     </div>
 </details>
 
+        <details class="program gs-sfa" id="nmdc_sfas_brcs:incogentec">
+    <summary>
+        <span class="program-acronym">InCoGenTEC</span>
+        <span class="program-name">InCoGenTEC</span>
+    </summary>
+    <div class="program-content">
+        <p class="description">InCoGenTEC SFA at Sandia National Laboratories. Details to be populated.</p>
+
+        <div class="field">
+    <span class="field-label">Lead institution:</span>
+    <span class="field-value">
+            Sandia National Laboratories
+    </span>
+</div>
+
+
+
+
+
+        <div class="field">
+            <span class="field-label">Funding:</span>
+            <span class="field-value"><span>
+DOE BER
+ / Genomic Science Program</span>
+</span>
+        </div>
+
+
+
+
+
+
+        <div class="field">
+            <span class="field-label">Principal investigators:</span>
+            <span class="field-value"><div class="person-list">
+<div class="person-card">
+    <div class="person-name">Katie Mageeney</div>
+<div class="person-role">Principal Investigator</div><div class="person-affiliation">Sandia National Laboratories</div></div>
+
+</div>
+</span>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Phage Host Range</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        </div>
+    </span>
+</div>
+
+
+
+        
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">2</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">InCoGenTEC Bacterial Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial isolates maintained by InCoGenTEC SFA</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+</div>
+</span>
+        </div>
+    </div>
+</details>
+
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">InCoGenTEC Phage Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacteriophage isolates for phage-host studies</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Phage</span>
+</div>
+</span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+    </div>
+</details>
+
+        <details class="program gs-sfa" id="nmdc_sfas_brcs:ubiospheres">
+    <summary>
+        <span class="program-acronym">µBiospheres</span>
+        <span class="program-name">µBiospheres SFA</span>
+    </summary>
+    <div class="program-content">
+        <p class="description">µBiospheres SFA at Lawrence Livermore National Laboratory. Details to be populated.</p>
+
+        <div class="field">
+    <span class="field-label">Lead institution:</span>
+    <span class="field-value">
+            Lawrence Livermore National Laboratory
+    </span>
+</div>
+
+
+
+
+
+        <div class="field">
+            <span class="field-label">Funding:</span>
+            <span class="field-value"><span>
+DOE BER
+ / Genomic Science Program</span>
+</span>
+        </div>
+
+
+
+
+
+
+        <div class="field">
+            <span class="field-label">Principal investigators:</span>
+            <span class="field-value"><div class="person-list">
+<div class="person-card">
+    <div class="person-name">Rhona Stuart</div>
+<div class="person-role">Principal Investigator</div><div class="person-affiliation">Lawrence Livermore National Laboratory</div></div>
+
+</div>
+</span>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Growth Curves</span>
+        </div>
+    </span>
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+    </div>
+</details>
+
         <details class="program gs-sfa" id="nmdc_sfas_brcs:imagine_biosecurity">
     <summary>
         <span class="program-acronym">IMAGINE</span>
@@ -3728,6 +4410,9 @@ DOE BER
  / Genomic Science Program</span>
 </span>
         </div>
+
+
+
 
 
 
@@ -3794,7 +4479,10 @@ DOE BER
 </span>
         </div>
 
+        
 
+
+        
         
         
         
@@ -3900,6 +4588,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -3980,8 +4671,88 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Bacterial Fungal Interaction Assay</span>
+        <span class="chip phenotype-assay">Coculture Interactions</span>
+        <span class="chip phenotype-assay">Exometabolomics</span>
+        <span class="chip phenotype-assay">Live Cell Imaging</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        <span class="chip phenotype-assay">Competition Assays</span>
+        </div>
+    </span>
+</div>
+
+
 
         
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">2</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">BFI Bacterial Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial isolates used for bacterial-fungal interaction studies. Includes strains selected for their ability to interact with diverse fungal partners.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Soil</span>
+<span class="chip keyword">Rhizosphere</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">Aerobic plating</span>
+        </div>
+    </div>
+</details>
+
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">BFI Fungal Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Fungal isolates including soil fungi and model organisms used for bacterial-fungal interaction studies.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Fungi</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Soil</span>
+<span class="chip keyword">Rhizosphere</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">Fungal plating, Hyphal tip isolation</span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
         
         
         <details class="section publications">
@@ -4092,6 +4863,9 @@ DOE BER
  / Genomic Science Program</span>
 </span>
         </div>
+
+
+
 
         <div class="field">
     <span class="field-label">Established:</span>
@@ -4205,8 +4979,87 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Growth Curves</span>
+        <span class="chip phenotype-assay">Biolog Phenotyping</span>
+        <span class="chip phenotype-assay">Plant Colonization</span>
+        <span class="chip phenotype-assay">Coculture Interactions</span>
+        <span class="chip phenotype-assay">Synthetic Community</span>
+        <span class="chip phenotype-assay">Exometabolomics</span>
+        <span class="chip phenotype-assay">Live Cell Imaging</span>
+        </div>
+    </span>
+</div>
+
+
 
         
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">1</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">PMI Bacterial Collection</span>
+        <span class="count-badge">400 isolates</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial isolates from native, field, and greenhouse-grown Populus trees. Includes rhizosphere, endosphere, and phyllosphere isolates characterized by 16S rDNA sequencing with full genome sequences for many strains.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+    <span class="field-label">Genomes sequenced:</span>
+    <span class="field-value">
+            400
+    </span>
+</div>
+
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Populus Rhizosphere</span>
+<span class="chip keyword">Populus Root Endosphere</span>
+<span class="chip keyword">Populus Phyllosphere</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Host organisms:</span>
+            <span class="field-value">Populus trichocarpa, Populus deltoides</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Isolation methods:</span>
+            <span class="field-value">Aerobic plating, Root homogenization</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Culture collection:</span>
+            <span class="field-value"><a href="https://pmiweb.ornl.gov/table-test/" target="_blank">Browse/Request</a></span>
+        </div>
+        <div class="field">
+            <span class="field-label">Genome catalog:</span>
+            <span class="field-value"><a href="https://kbase.us/n/56021/26/" target="_blank">View genomes</a></span>
+        </div>
+        <div class="field">
+            <span class="field-label">Reference:</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/mSystems.01306-20" target="_blank" class="link-doi">doi:10.1128/mSystems.01306-20</a>
+ - Cultivating the Bacterial Microbiota of &lt;i&gt;Populus&lt;/i&gt; Roots</span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
         <details class="section studies">
     <summary>
         Studies
@@ -4221,6 +5074,11 @@ DOE BER
 <span class="pi-info">(Mitchel J. Doktycz)</span>    </summary>
     <div class="item-content">
         <p class="description">Characterization and interpretation of plant-microbe interfaces using poplar and its microbial community in the context of favorable plant microbe interactions.</p>
+        <div class="field">
+            <span class="field-label">Primary reference:</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/mSystems.00045-18" target="_blank" class="link-doi">doi:10.1128/mSystems.00045-18</a>
+ - Exploration of the Biosynthetic Potential of the &lt;i&gt;Populus&lt;/i&gt; Microbiome</span>
+        </div>
     </div>
 </details>
 
@@ -4264,7 +5122,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41597-024-03069-7" target="_blank" class="link-doi">doi:10.1038/s41597-024-03069-7</a>
-</span>
+ - An integrated metagenomic, metabolomic and transcriptomic survey of Populus across genotypes and environments</span>
         </div>
     </div>
 </details>
@@ -4295,14 +5153,21 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            2359
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA993999" target="_blank">PRJNA993999</a>            </span>
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1128/msystems.00991-23" target="_blank" class="link-doi">doi:10.1128/msystems.00991-23</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/msystems.00886-23" target="_blank" class="link-doi">doi:10.1128/msystems.00886-23</a>
+ - Seasonality and longer-term development generate temporal dynamics in the &lt;i&gt;Populus&lt;/i&gt; microbiome</span>
         </div>
     </div>
 </details>
@@ -4333,6 +5198,13 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            590
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA385484" target="_blank">PRJNA385484</a>,                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA384978" target="_blank">PRJNA384978</a>            </span>
@@ -4340,7 +5212,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1186/s40168-018-0413-8" target="_blank" class="link-doi">doi:10.1186/s40168-018-0413-8</a>
-</span>
+ - The Populus holobiont: dissecting the effects of plant niches and genotype on the microbiome</span>
         </div>
     </div>
 </details>
@@ -4371,14 +5243,21 @@ DOE BER
 </span>
         </div>
         <div class="field">
+    <span class="field-label">Samples:</span>
+    <span class="field-value">
+            552
+    </span>
+</div>
+
+        <div class="field">
             <span class="field-label">BioProjects:</span>
             <span class="field-value">
                 <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA666202" target="_blank">PRJNA666202</a>            </span>
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1128/mSystems.00052-21" target="_blank" class="link-doi">doi:10.1128/mSystems.00052-21</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/mSystems.01306-20" target="_blank" class="link-doi">doi:10.1128/mSystems.01306-20</a>
+ - Cultivating the Bacterial Microbiota of &lt;i&gt;Populus&lt;/i&gt; Roots</span>
         </div>
     </div>
 </details>
@@ -4440,7 +5319,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1016/j.csbj.2021.03.034" target="_blank" class="link-doi">doi:10.1016/j.csbj.2021.03.034</a>
-</span>
+ - Formation, characterization and modeling of emergent synthetic microbial communities</span>
         </div>
     </div>
 </details>
@@ -4469,7 +5348,7 @@ DOE BER
 
         <details class="item publication">
     <summary>
-        <a href="https://doi.org/10.1128/msystems.00991-23" target="_blank" class="link-doi">doi:10.1128/msystems.00991-23</a>
+        <a href="https://doi.org/10.1128/msystems.00886-23" target="_blank" class="link-doi">doi:10.1128/msystems.00886-23</a>
 
         <span class="item-title">Seasonality and temporal dynamics in the Populus microbiome</span>
     </summary>
@@ -4584,6 +5463,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -4663,7 +5545,10 @@ DOE BER
         </div>
 
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -4700,7 +5585,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1094/PHYTO-09-20-0433-A" target="_blank" class="link-doi">doi:10.1094/PHYTO-09-20-0433-A</a>
-</span>
+ - Genome Sequence Resource of &lt;i&gt;Bacillus&lt;/i&gt; &lt;i&gt;velezensis&lt;/i&gt; EB14, a Native Endophytic Bacterial Strain with Biocontrol Potential Against the Poplar Stem Canker Causative Pathogen, &lt;i&gt;Sphaerulina musiva&lt;/i&gt;</span>
         </div>
     </div>
 </details>
@@ -4731,7 +5616,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1093/hr/uhae232" target="_blank" class="link-doi">doi:10.1093/hr/uhae232</a>
-</span>
+ - A small secreted protein serves as a plant-derived effector mediating symbiosis between &lt;i&gt;Populus&lt;/i&gt; and &lt;i&gt;Laccaria bicolor&lt;/i&gt;</span>
         </div>
     </div>
 </details>
@@ -4963,6 +5848,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -5060,7 +5948,10 @@ DOE BER
         </div>
 
 
+        
 
+
+        
         
         <details class="section studies">
     <summary>
@@ -5141,6 +6032,9 @@ DOE BER
  / Environmental System Science (ESS)</span>
 </span>
         </div>
+
+
+
 
 
 
@@ -5232,6 +6126,17 @@ DOE BER
 </span>
         </div>
 
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Soil Incubation</span>
+        <span class="chip phenotype-assay">Respiration</span>
+        </div>
+    </span>
+</div>
+
+
 
         <details class="section field-sites">
     <summary>
@@ -5261,6 +6166,7 @@ DOE BER
     </div>
 </details>
 
+        
         <details class="section studies">
     <summary>
         Studies
@@ -5321,8 +6227,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1186/s40168-023-01533-5" target="_blank" class="link-doi">doi:10.1186/s40168-023-01533-5</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1186/s40168-023-01666-z" target="_blank" class="link-doi">doi:10.1186/s40168-023-01666-z</a>
+ - Virus diversity and activity is driven by snowmelt and host dynamics in a high-altitude watershed soil ecosystem</span>
         </div>
     </div>
 </details>
@@ -5349,7 +6255,7 @@ DOE BER
 
         <details class="item publication">
     <summary>
-        <a href="https://doi.org/10.1186/s40168-023-01533-5" target="_blank" class="link-doi">doi:10.1186/s40168-023-01533-5</a>
+        <a href="https://doi.org/10.1186/s40168-023-01666-z" target="_blank" class="link-doi">doi:10.1186/s40168-023-01666-z</a>
 
         <span class="item-title">Virus diversity and activity is driven by snowmelt and host dynamics in a high-altitude watershed soil ecosystem</span>
     </summary>
@@ -5482,6 +6388,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -5539,6 +6448,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -5558,6 +6469,7 @@ DOE BER
     </div>
 </details>
 
+        
         
         
         <details class="section publications">
@@ -5638,6 +6550,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -5712,6 +6627,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -5731,6 +6648,7 @@ DOE BER
     </div>
 </details>
 
+        
         <details class="section studies">
     <summary>
         Studies
@@ -5755,6 +6673,11 @@ DOE BER
 
 </span>
         </div>
+        <div class="field">
+            <span class="field-label">Primary reference:</span>
+            <span class="field-value"><a href="https://doi.org/10.1371/journal.pone.0228165" target="_blank" class="link-doi">doi:10.1371/journal.pone.0228165</a>
+ - Distinct temporal diversity profiles for nitrogen cycling genes in a hyporheic microbiome</span>
+        </div>
     </div>
 </details>
 
@@ -5776,7 +6699,7 @@ DOE BER
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value"><a href="https://doi.org/10.1038/s41586-024-08240-z" target="_blank" class="link-doi">doi:10.1038/s41586-024-08240-z</a>
-</span>
+ - A functional microbiome catalogue crowdsourced from North American rivers</span>
         </div>
     </div>
 </details>
@@ -6023,6 +6946,9 @@ DOE BER
 </span>
         </div>
 
+
+
+
         <div class="field">
     <span class="field-label">Established:</span>
     <span class="field-value">
@@ -6102,6 +7028,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -6128,6 +7056,7 @@ DOE BER
     </div>
 </details>
 
+        
         <details class="section studies">
     <summary>
         Studies
@@ -6165,8 +7094,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1128/MRA.00100-21" target="_blank" class="link-doi">doi:10.1128/MRA.00100-21</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/MRA.00153-21" target="_blank" class="link-doi">doi:10.1128/MRA.00153-21</a>
+ - Metagenome-Assembled Genome Sequences of Novel Prokaryotic Species from the Mercury-Contaminated East Fork Poplar Creek, Oak Ridge, Tennessee, USA</span>
         </div>
     </div>
 </details>
@@ -6198,8 +7127,8 @@ DOE BER
         </div>
         <div class="field">
             <span class="field-label">Primary reference:</span>
-            <span class="field-value"><a href="https://doi.org/10.1128/mBio.00599-18" target="_blank" class="link-doi">doi:10.1128/mBio.00599-18</a>
-</span>
+            <span class="field-value"><a href="https://doi.org/10.1128/mBio.02403-17" target="_blank" class="link-doi">doi:10.1128/mBio.02403-17</a>
+ - Robust Mercury Methylation across Diverse Methanogenic Archaea</span>
         </div>
     </div>
 </details>
@@ -6349,6 +7278,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -6434,6 +7366,8 @@ DOE BER
 
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -6454,6 +7388,7 @@ DOE BER
     </div>
 </details>
 
+        
         
         
         
@@ -6494,6 +7429,9 @@ DOE BER
  / Environmental System Science (ESS)</span>
 </span>
         </div>
+
+
+
 
 
 
@@ -6566,6 +7504,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -6594,6 +7534,7 @@ DOE BER
     </div>
 </details>
 
+        
         
         
         <details class="section publications">
@@ -6668,6 +7609,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Principal investigators:</span>
             <span class="field-value"><div class="person-list">
@@ -6728,6 +7672,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -6771,6 +7717,7 @@ DOE BER
         
         
         
+        
 
 
 
@@ -6806,6 +7753,9 @@ DOE BER
  / Environmental System Science (ESS)</span>
 </span>
         </div>
+
+
+
 
 
 
@@ -6875,6 +7825,8 @@ DOE BER
         </div>
 
 
+        
+
 
         <details class="section field-sites">
     <summary>
@@ -6894,6 +7846,7 @@ DOE BER
     </div>
 </details>
 
+        
         
         
         
@@ -6946,6 +7899,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -6965,6 +7921,8 @@ DOE BER
 
 
 
+        
+
         <div class="field">
             <span class="field-label">Services:</span>
             <span class="field-value">
@@ -6979,6 +7937,7 @@ DOE BER
             </span>
         </div>
 
+        
         
         
         
@@ -7218,6 +8177,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -7234,6 +8196,8 @@ DOE BER
 
 
 
+        
+
         <div class="field">
             <span class="field-label">Services:</span>
             <span class="field-value">
@@ -7248,6 +8212,7 @@ DOE BER
             </span>
         </div>
 
+        
         
         
         
@@ -7566,6 +8531,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -7588,7 +8556,10 @@ DOE BER
 
 
 
+        
 
+
+        
         
         
         
@@ -7779,6 +8750,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -7795,7 +8769,10 @@ DOE BER
 
 
 
+        
 
+
+        
         
         
         
@@ -7847,6 +8824,9 @@ DOE BER
 
 
 
+
+
+
         <div class="field">
             <span class="field-label">Links:</span>
             <span class="field-value"><div class="web-links">
@@ -7863,8 +8843,218 @@ DOE BER
 
 
 
+        
+
 
         
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+    </div>
+</details>
+
+    </div>
+</details>
+
+<details class="category other-programs" open>
+    <summary>Other Initiatives (1)</summary>
+    <div class="category-content">
+        <details class="program other" id="nmdc_sfas_brcs:brave_sorghum_anthracnose">
+    <summary>
+        <span class="program-acronym">SABI</span>
+        <span class="program-name">Sorghum-Anthracnose-Biocontrol Interactions</span>
+    </summary>
+    <div class="program-content">
+        <p class="description">BRaVE project investigating molecular interactions between sorghum (a bioenergy crop), its anthracnose-disease causative fungal pathogen Colletotrichum sublineola (Cs), and antifungal biocontrol bacteria to create disease-resilient bioenergy crops. Uses computational and experimental approaches to study plant-pathosystem interactions.</p>
+
+        <div class="field">
+    <span class="field-label">Lead institution:</span>
+    <span class="field-value">
+            Lawrence Berkeley National Laboratory
+    </span>
+</div>
+
+
+
+
+
+        <div class="field">
+            <span class="field-label">Funding:</span>
+            <span class="field-value"><span>
+DOE BER
+ / Biopreparedness Research Virtual Environment (BRaVE)</span>
+</span>
+        </div>
+
+        <div class="field">
+    <span class="field-label">Initiative:</span>
+    <span class="field-value">
+            BRaVE
+    </span>
+</div>
+
+
+        <div class="field">
+    <span class="field-label">Funding period:</span>
+    <span class="field-value">
+            2023-2026
+    </span>
+</div>
+
+
+        <div class="field">
+            <span class="field-label">DOE offices:</span>
+            <span class="field-value">BER, ASCR</span>
+        </div>
+
+
+
+        <div class="field">
+            <span class="field-label">Principal investigators:</span>
+            <span class="field-value"><div class="person-list">
+<div class="person-card">
+    <div class="person-name">Trent Northen</div>
+<div class="person-role">Principal Investigator</div><div class="person-affiliation">Lawrence Berkeley National Laboratory</div></div>
+
+</div>
+</span>
+        </div>
+
+
+        <div class="field">
+            <span class="field-label">Links:</span>
+            <span class="field-value"><div class="web-links">
+<a href="https://www.genomicscience.energy.gov/brave-awards23/" target="_blank" class="web-link">
+    Doe Page
+</a>
+</div>
+</span>
+        </div>
+
+
+
+        <div class="field">
+            <span class="field-label">Scientific questions:</span>
+            <span class="field-value">
+                <ul style="margin: 5px 0; padding-left: 20px;">
+                    <li>What molecular mechanisms underlie sorghum-Colletotrichum pathogenic interactions?</li>
+                    <li>How do biocontrol bacteria protect sorghum from anthracnose disease?</li>
+                    <li>How can we engineer disease-resilient bioenergy crops?</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="field">
+            <span class="field-label">Keywords:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Biosecurity</span>
+<span class="chip keyword">Sorghum</span>
+<span class="chip keyword">Fungal Pathogens</span>
+<span class="chip keyword">Bioenergy Crops</span>
+<span class="chip keyword">Plant Microbe Interactions</span>
+<span class="chip keyword">Biodefense</span>
+</div>
+
+</span>
+        </div>
+
+        <div class="field">
+            <span class="field-label">Data types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip data-type">Metagenomics</span>
+<span class="chip data-type">Transcriptomics</span>
+<span class="chip data-type">Metabolomics</span>
+</div>
+
+</span>
+        </div>
+
+
+        <div class="field">
+    <span class="field-label">Phenotype assays:</span>
+    <span class="field-value">
+        <div class="chip-list">
+        <span class="chip phenotype-assay">Plant Colonization</span>
+        <span class="chip phenotype-assay">Bacterial Fungal Interaction Assay</span>
+        <span class="chip phenotype-assay">Growth Curves</span>
+        <span class="chip phenotype-assay">Competition Assays</span>
+        </div>
+    </span>
+</div>
+
+
+
+        
+        <details class="section isolate-collections">
+    <summary>
+        Isolate Collections
+        <span class="section-count">2</span>
+    </summary>
+    <div class="section-content">
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">Sorghum-Associated Bacterial Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Bacterial isolates with biocontrol activity against Colletotrichum sublineola, collected from sorghum rhizosphere and phyllosphere.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Bacteria</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Sorghum Rhizosphere</span>
+<span class="chip keyword">Sorghum Phyllosphere</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Host organisms:</span>
+            <span class="field-value">Sorghum bicolor</span>
+        </div>
+    </div>
+</details>
+
+        <details class="item isolate-collection">
+    <summary>
+        <span class="item-title">Colletotrichum Pathogen Collection</span>
+    </summary>
+    <div class="item-content">
+        <p class="description">Colletotrichum sublineola isolates causing anthracnose disease in sorghum.</p>
+        <div class="field">
+            <span class="field-label">Organism types:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Fungi</span>
+</div>
+</span>
+        </div>
+        <div class="field">
+            <span class="field-label">Source environments:</span>
+            <span class="field-value"><div class="chip-list">
+<span class="chip keyword">Infected Sorghum Tissue</span>
+</div>
+</span>
+        </div>
+    </div>
+</details>
+
+    </div>
+</details>
+
         
         
         

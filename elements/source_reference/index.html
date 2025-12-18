@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/partner_institutions/">
+        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/source_reference/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Slot: partner_institutions - nmdc-sfas-brcs</title>
+        <title>Slot: source_reference - nmdc-sfas-brcs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-partner_institutions" class="md-skip">
+        <a href="#slot-source_reference" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: partner_institutions
+              Slot: source_reference
             
           </span>
         </div>
@@ -416,10 +416,10 @@
   
 
 
-<h1 id="slot-partner_institutions">Slot: partner_institutions</h1>
-<p><em>Partner institutions participating in the program</em></p>
-<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/partner_institutions">nmdc_sfas_brcs:partner_institutions</a>
-Alias: partner_institutions</p>
+<h1 id="slot-source_reference">Slot: source_reference</h1>
+<p><em>Web reference documenting this study (project page, news article, etc.) for studies without a primary DOI publication.</em></p>
+<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/source_reference">nmdc_sfas_brcs:source_reference</a>
+Alias: source_reference</p>
 <!-- no inheritance hierarchy -->
 
 <h2 id="applicable-classes">Applicable Classes</h2>
@@ -433,35 +433,15 @@ Alias: partner_institutions</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../ScientificFocusArea/">ScientificFocusArea</a></td>
-<td>A DOE Scientific Focus Area (SFA)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../OtherProgram/">OtherProgram</a></td>
-<td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
+<td><a href="../NMDCStudyReference/">NMDCStudyReference</a></td>
+<td>A reference to an NMDC study associated with a research program</td>
 <td>no</td>
 </tr>
 </tbody>
 </table>
 <h2 id="properties">Properties</h2>
 <ul>
-<li>
-<p>Range: <a href="../String/">String</a></p>
-</li>
-<li>
-<p>Multivalued: True</p>
-</li>
+<li>Range: <a href="../WebReference/">WebReference</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
@@ -479,26 +459,28 @@ Alias: partner_institutions</p>
 <tbody>
 <tr>
 <td>self</td>
-<td>nmdc_sfas_brcs:partner_institutions</td>
+<td>nmdc_sfas_brcs:source_reference</td>
 </tr>
 <tr>
 <td>native</td>
-<td>nmdc_sfas_brcs:partner_institutions</td>
+<td>nmdc_sfas_brcs:source_reference</td>
 </tr>
 </tbody>
 </table>
 <h2 id="linkml-source">LinkML Source</h2>
 <details>
 
-<pre><code class="language-yaml">name: partner_institutions
-description: Partner institutions participating in the program
+<pre><code class="language-yaml">name: source_reference
+description: Web reference documenting this study (project page, news article, etc.)
+  for studies without a primary DOI publication.
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
-alias: partner_institutions
+alias: source_reference
+owner: NMDCStudyReference
 domain_of:
-- ResearchProgram
-range: string
-multivalued: true
+- NMDCStudyReference
+range: WebReference
+inlined: true
 
 </code></pre>
 

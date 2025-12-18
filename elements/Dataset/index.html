@@ -281,11 +281,15 @@
 
       Dataset : lter_dataset_id
 
+      Dataset : massive_id
+
       Dataset : name
 
       Dataset : nmdc_study_id
 
       Dataset : osti_id
+
+      Dataset : pride_id
 
       Dataset : primary_reference
 
@@ -429,6 +433,18 @@
 <td>direct</td>
 </tr>
 <tr>
+<td><a href="../pride_id/">pride_id</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>ProteomeXchange/PRIDE Archive identifier for proteomics data (e</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../massive_id/">massive_id</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>MassIVE repository identifier for mass spectrometry data (e</td>
+<td>direct</td>
+</tr>
+<tr>
 <td><a href="../primary_reference/">primary_reference</a></td>
 <td>0..1 <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
 <td>DOI of the primary publication describing this dataset</td>
@@ -534,6 +550,8 @@ slots:
 - jgi_project_id
 - ameriflux_site_id
 - lter_dataset_id
+- pride_id
+- massive_id
 - primary_reference
 - additional_references
 attributes:
@@ -635,6 +653,7 @@ attributes:
     owner: Dataset
     domain_of:
     - Dataset
+    - WebReference
     - Capability
     range: uri
   repository:
@@ -775,6 +794,29 @@ attributes:
     domain_of:
     - Dataset
     range: string
+  pride_id:
+    name: pride_id
+    description: ProteomeXchange/PRIDE Archive identifier for proteomics data (e.g.,
+      PXD049389)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: pride_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    pattern: ^PXD\d+$
+  massive_id:
+    name: massive_id
+    description: MassIVE repository identifier for mass spectrometry data (e.g., MSV000095714)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: massive_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    pattern: ^MSV\d+$
   primary_reference:
     name: primary_reference
     implements:

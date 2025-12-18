@@ -1819,6 +1819,29 @@ slots:
     domain_of:
     - Dataset
     range: string
+  pride_id:
+    name: pride_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/pride_id
+    description: ProteomeXchange/PRIDE Archive identifier for proteomics data (e.g.,
+      PXD049389)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:pride_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    pattern: ^PXD\d+$
+  massive_id:
+    name: massive_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/massive_id
+    description: MassIVE repository identifier for mass spectrometry data (e.g., MSV000095714)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:massive_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    pattern: ^MSV\d+$
   primary_reference:
     name: primary_reference
     definition_uri: https://w3id.org/nmdc/sfas-brcs/primary_reference
@@ -3213,6 +3236,40 @@ slots:
     domain_of:
     - FieldSite
     range: string
+  webReference__url:
+    name: webReference__url
+    description: URL of the web resource
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:url
+    alias: url
+    owner: WebReference
+    domain_of:
+    - WebReference
+    range: uri
+    required: true
+  webReference__title:
+    name: webReference__title
+    description: Title of the web page or resource
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:title
+    alias: title
+    owner: WebReference
+    domain_of:
+    - WebReference
+    range: string
+    required: true
+  webReference__summary:
+    name: webReference__summary
+    description: Brief description of what content can be found at this URL. Serves
+      as an annotation to help users understand what information the source provides
+      before clicking.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:summary
+    alias: summary
+    owner: WebReference
+    domain_of:
+    - WebReference
+    range: string
   nMDCStudyReference__pi:
     name: nMDCStudyReference__pi
     description: Principal investigator name for this study
@@ -3368,6 +3425,19 @@ slots:
     domain_of:
     - NMDCStudyReference
     range: PrimaryReferenceInfo
+    inlined: true
+    inlined_as_list: true
+  nMDCStudyReference__source_reference:
+    name: nMDCStudyReference__source_reference
+    description: Web reference documenting this study (project page, news article,
+      etc.) for studies without a primary DOI publication.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:source_reference
+    alias: source_reference
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: WebReference
     inlined: true
     inlined_as_list: true
   analysis__analysis_type:
@@ -4396,6 +4466,8 @@ classes:
     - jgi_project_id
     - ameriflux_site_id
     - lter_dataset_id
+    - pride_id
+    - massive_id
     - primary_reference
     - additional_references
     - dataset__primary_reference_info
@@ -4617,6 +4689,34 @@ classes:
     - name
     - description
     class_uri: nmdc_sfas_brcs:Technology
+  WebReference:
+    name: WebReference
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/WebReference
+    description: A reference to a web resource such as a project page, news article,
+      or documentation. Used for citing non-DOI sources that document research activities.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - webReference__url
+    - webReference__title
+    - webReference__summary
+    attributes:
+      url:
+        name: url
+        description: URL of the web resource
+        range: uri
+        required: true
+      title:
+        name: title
+        description: Title of the web page or resource
+        range: string
+        required: true
+      summary:
+        name: summary
+        description: Brief description of what content can be found at this URL. Serves
+          as an annotation to help users understand what information the source provides
+          before clicking.
+        range: string
+    class_uri: nmdc_sfas_brcs:WebReference
   NMDCStudyReference:
     name: NMDCStudyReference
     definition_uri: https://w3id.org/nmdc/sfas-brcs/NMDCStudyReference
@@ -4644,6 +4744,7 @@ classes:
     - nMDCStudyReference__preprocessed_data_counts
     - nMDCStudyReference__ncbi_data_quality_notes
     - nMDCStudyReference__primary_reference_info
+    - nMDCStudyReference__source_reference
     attributes:
       pi:
         name: pi
@@ -4716,6 +4817,12 @@ classes:
         description: Primary publication reference with structured metadata for validation.
           Preferred over primary_reference slot - enables title and excerpt validation.
         range: PrimaryReferenceInfo
+        inlined: true
+      source_reference:
+        name: source_reference
+        description: Web reference documenting this study (project page, news article,
+          etc.) for studies without a primary DOI publication.
+        range: WebReference
         inlined: true
     class_uri: nmdc_sfas_brcs:NMDCStudyReference
   Analysis:
@@ -4982,7 +5089,7 @@ classes:
     class_uri: nmdc_sfas_brcs:Instrument
 metamodel_version: 1.7.0
 source_file: nmdc_sfas_brcs.yaml
-source_file_date: '2025-12-17T21:14:45'
-source_file_size: 80018
-generation_date: '2025-12-17T21:15:02'
+source_file_date: '2025-12-18T02:59:39'
+source_file_size: 81315
+generation_date: '2025-12-18T02:59:55'
 

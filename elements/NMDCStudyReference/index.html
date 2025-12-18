@@ -346,6 +346,17 @@
 
       NMDCStudyReference : sample_count
 
+      NMDCStudyReference : source_reference
+
+
+
+
+
+        NMDCStudyReference --&gt; "0..1" WebReference : source_reference
+        click WebReference href "../WebReference/"
+
+
+
 
 </div>
 <!-- no inheritance hierarchy -->
@@ -472,6 +483,12 @@
 <td><a href="../primary_reference_info/">primary_reference_info</a></td>
 <td>0..1 <br/> <a href="../PrimaryReferenceInfo/">PrimaryReferenceInfo</a></td>
 <td>Primary publication reference with structured metadata for validation</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../source_reference/">source_reference</a></td>
+<td>0..1 <br/> <a href="../WebReference/">WebReference</a></td>
+<td>Web reference documenting this study (project page, news article, etc</td>
 <td>direct</td>
 </tr>
 </tbody>
@@ -684,6 +701,16 @@ attributes:
     - Analysis
     range: PrimaryReferenceInfo
     inlined: true
+  source_reference:
+    name: source_reference
+    description: Web reference documenting this study (project page, news article,
+      etc.) for studies without a primary DOI publication.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - NMDCStudyReference
+    range: WebReference
+    inlined: true
 
 </code></pre>
 </details>
@@ -853,6 +880,18 @@ attributes:
     - NMDCStudyReference
     - Analysis
     range: PrimaryReferenceInfo
+    inlined: true
+  source_reference:
+    name: source_reference
+    description: Web reference documenting this study (project page, news article,
+      etc.) for studies without a primary DOI publication.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: source_reference
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: WebReference
     inlined: true
   nmdc_study_id:
     name: nmdc_study_id

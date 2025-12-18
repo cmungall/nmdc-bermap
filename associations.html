@@ -250,19 +250,19 @@
         <p>Interactive visualization of keyword and data type relationships across studies</p>
         <div class="stats">
             <div class="stat">
-                <div class="stat-value">54</div>
+                <div class="stat-value">59</div>
                 <div class="stat-label">Studies</div>
             </div>
             <div class="stat">
-                <div class="stat-value">22</div>
+                <div class="stat-value">23</div>
                 <div class="stat-label">Programs</div>
             </div>
             <div class="stat">
-                <div class="stat-value">47</div>
+                <div class="stat-value">49</div>
                 <div class="stat-label">Keywords</div>
             </div>
             <div class="stat">
-                <div class="stat-value">12</div>
+                <div class="stat-value">14</div>
                 <div class="stat-label">Data Types</div>
             </div>
         </div>
@@ -336,7 +336,7 @@
       },
       {
         "name": "CARBON_CYCLING",
-        "count": 1
+        "count": 4
       },
       {
         "name": "CARBON_USE_EFFICIENCY",
@@ -380,6 +380,10 @@
       },
       {
         "name": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "count": 1
+      },
+      {
+        "name": "MACHINE_LEARNING",
         "count": 1
       },
       {
@@ -448,11 +452,15 @@
       },
       {
         "name": "SOIL_CARBON",
-        "count": 5
+        "count": 10
       },
       {
         "name": "SOIL_MICROBIOME",
-        "count": 20
+        "count": 21
+      },
+      {
+        "name": "SOIL_ORGANIC_MATTER",
+        "count": 2
       },
       {
         "name": "SORGHUM",
@@ -763,7 +771,7 @@
       {
         "source": "SOIL_CARBON",
         "target": "SOIL_MICROBIOME",
-        "value": 5
+        "value": 6
       },
       {
         "source": "SOIL_CARBON",
@@ -874,6 +882,31 @@
         "source": "MERCURY",
         "target": "METHYLMERCURY",
         "value": 2
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_CARBON",
+        "value": 3
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 2
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "MACHINE_LEARNING",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "SOIL_CARBON",
+        "value": 1
       }
     ]
   },
@@ -888,6 +921,10 @@
         "count": 7
       },
       {
+        "name": "BIOGEOCHEMICAL_DATA",
+        "count": 4
+      },
+      {
         "name": "EXOMETABOLOMICS",
         "count": 2
       },
@@ -896,12 +933,16 @@
         "count": 5
       },
       {
+        "name": "IMAGING_DATA",
+        "count": 3
+      },
+      {
         "name": "METABOLOMICS",
-        "count": 9
+        "count": 13
       },
       {
         "name": "METAGENOMICS",
-        "count": 21
+        "count": 26
       },
       {
         "name": "METATRANSCRIPTOMICS",
@@ -987,7 +1028,7 @@
       {
         "source": "METABOLOMICS",
         "target": "METAGENOMICS",
-        "value": 3
+        "value": 7
       },
       {
         "source": "METABOLOMICS",
@@ -1023,6 +1064,31 @@
         "source": "GENOMICS",
         "target": "TRANSCRIPTOMICS",
         "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMICAL_DATA",
+        "target": "IMAGING_DATA",
+        "value": 2
+      },
+      {
+        "source": "BIOGEOCHEMICAL_DATA",
+        "target": "METABOLOMICS",
+        "value": 3
+      },
+      {
+        "source": "BIOGEOCHEMICAL_DATA",
+        "target": "METAGENOMICS",
+        "value": 4
+      },
+      {
+        "source": "IMAGING_DATA",
+        "target": "METABOLOMICS",
+        "value": 3
+      },
+      {
+        "source": "IMAGING_DATA",
+        "target": "METAGENOMICS",
+        "value": 3
       }
     ]
   },
@@ -1060,7 +1126,7 @@
       },
       {
         "name": "CARBON_CYCLING",
-        "count": 1,
+        "count": 4,
         "group": "keyword"
       },
       {
@@ -1110,6 +1176,11 @@
       },
       {
         "name": "LONG_TERM_ECOLOGICAL_RESEARCH",
+        "count": 1,
+        "group": "keyword"
+      },
+      {
+        "name": "MACHINE_LEARNING",
         "count": 1,
         "group": "keyword"
       },
@@ -1195,12 +1266,17 @@
       },
       {
         "name": "SOIL_CARBON",
-        "count": 5,
+        "count": 10,
         "group": "keyword"
       },
       {
         "name": "SOIL_MICROBIOME",
-        "count": 20,
+        "count": 21,
+        "group": "keyword"
+      },
+      {
+        "name": "SOIL_ORGANIC_MATTER",
+        "count": 2,
         "group": "keyword"
       },
       {
@@ -1264,6 +1340,11 @@
         "group": "datatype"
       },
       {
+        "name": "BIOGEOCHEMICAL_DATA",
+        "count": 4,
+        "group": "datatype"
+      },
+      {
         "name": "EXOMETABOLOMICS",
         "count": 2,
         "group": "datatype"
@@ -1274,13 +1355,18 @@
         "group": "datatype"
       },
       {
+        "name": "IMAGING_DATA",
+        "count": 3,
+        "group": "datatype"
+      },
+      {
         "name": "METABOLOMICS",
-        "count": 9,
+        "count": 13,
         "group": "datatype"
       },
       {
         "name": "METAGENOMICS",
-        "count": 21,
+        "count": 26,
         "group": "datatype"
       },
       {
@@ -1483,7 +1569,7 @@
       {
         "source": "SOIL_MICROBIOME",
         "target": "METAGENOMICS",
-        "value": 8
+        "value": 9
       },
       {
         "source": "DROUGHT",
@@ -1508,7 +1594,7 @@
       {
         "source": "CARBON_CYCLING",
         "target": "METAGENOMICS",
-        "value": 1
+        "value": 4
       },
       {
         "source": "MICROBIAL_CONVERSION",
@@ -1613,7 +1699,7 @@
       {
         "source": "SOIL_MICROBIOME",
         "target": "METABOLOMICS",
-        "value": 5
+        "value": 6
       },
       {
         "source": "SOIL_MICROBIOME",
@@ -1653,7 +1739,7 @@
       {
         "source": "SOIL_CARBON",
         "target": "METAGENOMICS",
-        "value": 2
+        "value": 7
       },
       {
         "source": "SOIL_CARBON",
@@ -1984,6 +2070,81 @@
         "source": "BIOGEOCHEMISTRY",
         "target": "AMPLICON_16S",
         "value": 1
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "METABOLOMICS",
+        "value": 4
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "IMAGING_DATA",
+        "value": 3
+      },
+      {
+        "source": "SOIL_CARBON",
+        "target": "BIOGEOCHEMICAL_DATA",
+        "value": 4
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "METAGENOMICS",
+        "value": 2
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "IMAGING_DATA",
+        "value": 2
+      },
+      {
+        "source": "SOIL_ORGANIC_MATTER",
+        "target": "BIOGEOCHEMICAL_DATA",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "METABOLOMICS",
+        "value": 2
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "IMAGING_DATA",
+        "value": 2
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "BIOGEOCHEMICAL_DATA",
+        "value": 3
+      },
+      {
+        "source": "SOIL_MICROBIOME",
+        "target": "BIOGEOCHEMICAL_DATA",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "METABOLOMICS",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "IMAGING_DATA",
+        "value": 1
+      },
+      {
+        "source": "MACHINE_LEARNING",
+        "target": "BIOGEOCHEMICAL_DATA",
+        "value": 1
       }
     ]
   },
@@ -2047,7 +2208,7 @@
       },
       {
         "name": "CARBON_CYCLING",
-        "count": 3
+        "count": 4
       },
       {
         "name": "CARBON_FLUX",
@@ -2087,7 +2248,7 @@
       },
       {
         "name": "DECOMPOSITION",
-        "count": 1
+        "count": 2
       },
       {
         "name": "DENITRIFICATION",
@@ -2223,7 +2384,7 @@
       },
       {
         "name": "METAGENOMICS",
-        "count": 1
+        "count": 2
       },
       {
         "name": "METAL_REDUCTION",
@@ -2367,15 +2528,15 @@
       },
       {
         "name": "SOIL_CARBON",
-        "count": 1
+        "count": 2
       },
       {
         "name": "SOIL_MICROBIOME",
-        "count": 4
+        "count": 5
       },
       {
         "name": "SOIL_ORGANIC_MATTER",
-        "count": 1
+        "count": 2
       },
       {
         "name": "SORGHUM",
@@ -3477,7 +3638,7 @@
       {
         "source": "CARBON_CYCLING",
         "target": "SOIL_MICROBIOME",
-        "value": 1
+        "value": 2
       },
       {
         "source": "CRISPR",
@@ -3687,12 +3848,12 @@
       {
         "source": "SOIL_CARBON",
         "target": "SOIL_MICROBIOME",
-        "value": 1
+        "value": 2
       },
       {
         "source": "SOIL_CARBON",
         "target": "SOIL_ORGANIC_MATTER",
-        "value": 1
+        "value": 2
       },
       {
         "source": "SOIL_CARBON",
@@ -3707,7 +3868,7 @@
       {
         "source": "SOIL_MICROBIOME",
         "target": "SOIL_ORGANIC_MATTER",
-        "value": 1
+        "value": 2
       },
       {
         "source": "SOIL_MICROBIOME",
@@ -3782,7 +3943,7 @@
       {
         "source": "DECOMPOSITION",
         "target": "SOIL_MICROBIOME",
-        "value": 1
+        "value": 2
       },
       {
         "source": "DECOMPOSITION",
@@ -5013,14 +5174,64 @@
         "source": "PLANT_MICROBE_INTERACTIONS",
         "target": "SORGHUM",
         "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "DECOMPOSITION",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "CARBON_CYCLING",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "METAGENOMICS",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "DECOMPOSITION",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "SOIL_CARBON",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "SOIL_MICROBIOME",
+        "value": 1
+      },
+      {
+        "source": "METAGENOMICS",
+        "target": "SOIL_ORGANIC_MATTER",
+        "value": 1
       }
     ]
   },
   "stats": {
-    "study_count": 54,
-    "program_count": 22,
-    "unique_keywords": 47,
-    "unique_datatypes": 12
+    "study_count": 59,
+    "program_count": 23,
+    "unique_keywords": 49,
+    "unique_datatypes": 14
   }
 };
 

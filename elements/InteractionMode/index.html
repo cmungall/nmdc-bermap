@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/nmdc_umbrella_study/">
+        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/InteractionMode/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Slot: nmdc_umbrella_study - nmdc-sfas-brcs</title>
+        <title>Enum: InteractionMode - nmdc-sfas-brcs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-nmdc_umbrella_study" class="md-skip">
+        <a href="#enum-interactionmode" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: nmdc_umbrella_study
+              Enum: InteractionMode
             
           </span>
         </div>
@@ -325,10 +325,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#applicable-classes" class="md-nav__link">
+  <a href="#permissible-values" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Applicable Classes
+        Permissible Values
       
     </span>
   </a>
@@ -336,10 +336,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
+  <a href="#slots" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Properties
+        Slots
       
     </span>
   </a>
@@ -375,17 +375,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mappings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Mappings
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#linkml-source" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -416,90 +405,129 @@
   
 
 
-<h1 id="slot-nmdc_umbrella_study">Slot: nmdc_umbrella_study</h1>
-<p><em>The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.</em></p>
-<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/nmdc_umbrella_study">nmdc_sfas_brcs:nmdc_umbrella_study</a>
-Alias: nmdc_umbrella_study</p>
-<!-- no inheritance hierarchy -->
-
-<h2 id="applicable-classes">Applicable Classes</h2>
+<h1 id="enum-interactionmode">Enum: InteractionMode</h1>
+<p><em>Physical or chemical mode of bacterial-fungal interaction</em></p>
+<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/InteractionMode">nmdc_sfas_brcs:InteractionMode</a></p>
+<h2 id="permissible-values">Permissible Values</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PHYSICAL_ATTACHMENT</td>
+<td>None</td>
+<td>External attachment of bacteria to fungal surfaces (hyphae, spores)</td>
+</tr>
+<tr>
+<td>ENDOHYPHAL</td>
+<td>None</td>
+<td>Bacteria residing within fungal hyphae</td>
+</tr>
+<tr>
+<td>BIOFILM_FORMATION</td>
+<td>None</td>
+<td>Biofilm formation on fungal structures</td>
+</tr>
+<tr>
+<td>FUNGAL_HIGHWAY</td>
+<td>None</td>
+<td>Bacterial dispersal using fungal mycelia as transport networks</td>
+</tr>
+<tr>
+<td>QUORUM_SENSING</td>
+<td>None</td>
+<td>Chemical signaling via quorum sensing molecules</td>
+</tr>
+<tr>
+<td>VOLATILE_METABOLITES</td>
+<td>None</td>
+<td>Interaction mediated by volatile organic compounds</td>
+</tr>
+<tr>
+<td>SIDEROPHORE_MEDIATED</td>
+<td>None</td>
+<td>Iron competition via siderophore production</td>
+</tr>
+<tr>
+<td>ANTIBIOTIC_PRODUCTION</td>
+<td>None</td>
+<td>Interaction mediated by antibiotic secretion</td>
+</tr>
+<tr>
+<td>NUTRIENT_EXCHANGE</td>
+<td>None</td>
+<td>Metabolite exchange including carbon, nitrogen, vitamins</td>
+</tr>
+<tr>
+<td>CHEMOTAXIS</td>
+<td>None</td>
+<td>Directed movement in response to chemical gradients</td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Description</th>
-<th>Modifies Slot</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../OtherProgram/">OtherProgram</a></td>
-<td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ScientificFocusArea/">ScientificFocusArea</a></td>
-<td>A DOE Scientific Focus Area (SFA)</td>
-<td>no</td>
+<td><a href="../interaction_modes/">interaction_modes</a></td>
+<td>Physical or chemical modes of microbial interaction (e</td>
 </tr>
 </tbody>
 </table>
-<h2 id="properties">Properties</h2>
-<ul>
-<li>
-<p>Range: <a href="../Uriorcurie/">Uriorcurie</a></p>
-</li>
-<li>
-<p>Regex pattern: <code>^nmdc:sty-[a-z0-9-]+$</code></p>
-</li>
-</ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
 <li>from schema: https://w3id.org/nmdc/sfas-brcs</li>
 </ul>
-<h2 id="mappings">Mappings</h2>
-<table>
-<thead>
-<tr>
-<th>Mapping Type</th>
-<th>Mapped Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>self</td>
-<td>nmdc_sfas_brcs:nmdc_umbrella_study</td>
-</tr>
-<tr>
-<td>native</td>
-<td>nmdc_sfas_brcs:nmdc_umbrella_study</td>
-</tr>
-</tbody>
-</table>
 <h2 id="linkml-source">LinkML Source</h2>
 <details>
 
-<pre><code class="language-yaml">name: nmdc_umbrella_study
-description: The NMDC umbrella study identifier for this research program. This is
-  the top-level study that child studies link to via part_of.
+<pre><code class="language-yaml">name: InteractionMode
+description: Physical or chemical mode of bacterial-fungal interaction
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
-alias: nmdc_umbrella_study
-domain_of:
-- ResearchProgram
-range: uriorcurie
-pattern: ^nmdc:sty-[a-z0-9-]+$
+permissible_values:
+  PHYSICAL_ATTACHMENT:
+    text: PHYSICAL_ATTACHMENT
+    description: External attachment of bacteria to fungal surfaces (hyphae, spores)
+  ENDOHYPHAL:
+    text: ENDOHYPHAL
+    description: Bacteria residing within fungal hyphae
+  BIOFILM_FORMATION:
+    text: BIOFILM_FORMATION
+    description: Biofilm formation on fungal structures
+  FUNGAL_HIGHWAY:
+    text: FUNGAL_HIGHWAY
+    description: Bacterial dispersal using fungal mycelia as transport networks
+  QUORUM_SENSING:
+    text: QUORUM_SENSING
+    description: Chemical signaling via quorum sensing molecules
+  VOLATILE_METABOLITES:
+    text: VOLATILE_METABOLITES
+    description: Interaction mediated by volatile organic compounds
+  SIDEROPHORE_MEDIATED:
+    text: SIDEROPHORE_MEDIATED
+    description: Iron competition via siderophore production
+  ANTIBIOTIC_PRODUCTION:
+    text: ANTIBIOTIC_PRODUCTION
+    description: Interaction mediated by antibiotic secretion
+  NUTRIENT_EXCHANGE:
+    text: NUTRIENT_EXCHANGE
+    description: Metabolite exchange including carbon, nitrogen, vitamins
+  CHEMOTAXIS:
+    text: CHEMOTAXIS
+    description: Directed movement in response to chemical gradients
 
 </code></pre>
 

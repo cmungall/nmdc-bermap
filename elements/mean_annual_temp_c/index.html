@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/nmdc_umbrella_study/">
+        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/mean_annual_temp_c/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Slot: nmdc_umbrella_study - nmdc-sfas-brcs</title>
+        <title>Slot: mean_annual_temp_c - nmdc-sfas-brcs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-nmdc_umbrella_study" class="md-skip">
+        <a href="#slot-mean_annual_temp_c" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: nmdc_umbrella_study
+              Slot: mean_annual_temp_c
             
           </span>
         </div>
@@ -416,10 +416,10 @@
   
 
 
-<h1 id="slot-nmdc_umbrella_study">Slot: nmdc_umbrella_study</h1>
-<p><em>The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.</em></p>
-<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/nmdc_umbrella_study">nmdc_sfas_brcs:nmdc_umbrella_study</a>
-Alias: nmdc_umbrella_study</p>
+<h1 id="slot-mean_annual_temp_c">Slot: mean_annual_temp_c</h1>
+<p><em>Mean annual temperature at the site in degrees Celsius</em></p>
+<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/mean_annual_temp_c">nmdc_sfas_brcs:mean_annual_temp_c</a>
+Alias: mean_annual_temp_c</p>
 <!-- no inheritance hierarchy -->
 
 <h2 id="applicable-classes">Applicable Classes</h2>
@@ -433,35 +433,15 @@ Alias: nmdc_umbrella_study</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../OtherProgram/">OtherProgram</a></td>
-<td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ScientificFocusArea/">ScientificFocusArea</a></td>
-<td>A DOE Scientific Focus Area (SFA)</td>
+<td><a href="../FieldSite/">FieldSite</a></td>
+<td>A field research site associated with a research program</td>
 <td>no</td>
 </tr>
 </tbody>
 </table>
 <h2 id="properties">Properties</h2>
 <ul>
-<li>
-<p>Range: <a href="../Uriorcurie/">Uriorcurie</a></p>
-</li>
-<li>
-<p>Regex pattern: <code>^nmdc:sty-[a-z0-9-]+$</code></p>
-</li>
+<li>Range: <a href="../Float/">Float</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
@@ -479,27 +459,26 @@ Alias: nmdc_umbrella_study</p>
 <tbody>
 <tr>
 <td>self</td>
-<td>nmdc_sfas_brcs:nmdc_umbrella_study</td>
+<td>nmdc_sfas_brcs:mean_annual_temp_c</td>
 </tr>
 <tr>
 <td>native</td>
-<td>nmdc_sfas_brcs:nmdc_umbrella_study</td>
+<td>nmdc_sfas_brcs:mean_annual_temp_c</td>
 </tr>
 </tbody>
 </table>
 <h2 id="linkml-source">LinkML Source</h2>
 <details>
 
-<pre><code class="language-yaml">name: nmdc_umbrella_study
-description: The NMDC umbrella study identifier for this research program. This is
-  the top-level study that child studies link to via part_of.
+<pre><code class="language-yaml">name: mean_annual_temp_c
+description: Mean annual temperature at the site in degrees Celsius
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
-alias: nmdc_umbrella_study
+alias: mean_annual_temp_c
+owner: FieldSite
 domain_of:
-- ResearchProgram
-range: uriorcurie
-pattern: ^nmdc:sty-[a-z0-9-]+$
+- FieldSite
+range: float
 
 </code></pre>
 

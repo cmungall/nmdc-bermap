@@ -269,9 +269,15 @@
 
       FieldSite : description
 
+      FieldSite : elevation_m
+
       FieldSite : institution
 
       FieldSite : location
+
+      FieldSite : mean_annual_precip_cm
+
+      FieldSite : mean_annual_temp_c
 
       FieldSite : name
 
@@ -347,6 +353,24 @@
 <td><a href="../contamination_source/">contamination_source</a></td>
 <td>0..1 <br/> <a href="../String/">String</a></td>
 <td>Source of contamination at the site</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../elevation_m/">elevation_m</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Elevation of the field site in meters above sea level</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../mean_annual_temp_c/">mean_annual_temp_c</a></td>
+<td>0..1 <br/> <a href="../Float/">Float</a></td>
+<td>Mean annual temperature at the site in degrees Celsius</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../mean_annual_precip_cm/">mean_annual_precip_cm</a></td>
+<td>0..1 <br/> <a href="../Float/">Float</a></td>
+<td>Mean annual precipitation at the site in centimeters</td>
 <td>direct</td>
 </tr>
 </tbody>
@@ -484,6 +508,30 @@ attributes:
     domain_of:
     - FieldSite
     range: string
+  elevation_m:
+    name: elevation_m
+    description: Elevation of the field site in meters above sea level
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: integer
+  mean_annual_temp_c:
+    name: mean_annual_temp_c
+    description: Mean annual temperature at the site in degrees Celsius
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: float
+  mean_annual_precip_cm:
+    name: mean_annual_precip_cm
+    description: Mean annual precipitation at the site in centimeters
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: float
 
 </code></pre>
 </details>
@@ -568,6 +616,36 @@ attributes:
     domain_of:
     - FieldSite
     range: string
+  elevation_m:
+    name: elevation_m
+    description: Elevation of the field site in meters above sea level
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: elevation_m
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: integer
+  mean_annual_temp_c:
+    name: mean_annual_temp_c
+    description: Mean annual temperature at the site in degrees Celsius
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: mean_annual_temp_c
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: float
+  mean_annual_precip_cm:
+    name: mean_annual_precip_cm
+    description: Mean annual precipitation at the site in centimeters
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: mean_annual_precip_cm
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: float
   name:
     name: name
     description: A human-readable name for an entity

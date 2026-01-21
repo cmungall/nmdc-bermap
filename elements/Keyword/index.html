@@ -699,6 +699,21 @@
 <td>Bacterial-fungal interactions in soil</td>
 </tr>
 <tr>
+<td>ENDOHYPHAL_BACTERIA</td>
+<td>None</td>
+<td>Bacteria living within fungal hyphae</td>
+</tr>
+<tr>
+<td>FUNGAL_HIGHWAYS</td>
+<td>None</td>
+<td>Bacterial dispersal via fungal mycelial networks</td>
+</tr>
+<tr>
+<td>SIDEROPHORES</td>
+<td>None</td>
+<td>Iron-chelating compounds mediating microbial interactions</td>
+</tr>
+<tr>
 <td>SUBSURFACE_MICROBIOLOGY</td>
 <td>None</td>
 <td>Subsurface microbial communities</td>
@@ -1310,6 +1325,18 @@ permissible_values:
     text: BACTERIAL_FUNGAL_INTERACTIONS
     description: Bacterial-fungal interactions in soil
     is_a: SOIL_MICROBIOME
+  ENDOHYPHAL_BACTERIA:
+    text: ENDOHYPHAL_BACTERIA
+    description: Bacteria living within fungal hyphae
+    is_a: BACTERIAL_FUNGAL_INTERACTIONS
+  FUNGAL_HIGHWAYS:
+    text: FUNGAL_HIGHWAYS
+    description: Bacterial dispersal via fungal mycelial networks
+    is_a: BACTERIAL_FUNGAL_INTERACTIONS
+  SIDEROPHORES:
+    text: SIDEROPHORES
+    description: Iron-chelating compounds mediating microbial interactions
+    is_a: BACTERIAL_FUNGAL_INTERACTIONS
   SUBSURFACE_MICROBIOLOGY:
     text: SUBSURFACE_MICROBIOLOGY
     description: Subsurface microbial communities

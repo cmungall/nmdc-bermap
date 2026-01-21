@@ -354,6 +354,28 @@
 
       ResearchProgram : id
 
+      ResearchProgram : interaction_modes
+
+
+
+
+
+        ResearchProgram --&gt; "*" InteractionMode : interaction_modes
+        click InteractionMode href "../InteractionMode/"
+
+
+
+      ResearchProgram : interaction_types
+
+
+
+
+
+        ResearchProgram --&gt; "*" InteractionType : interaction_types
+        click InteractionType href "../InteractionType/"
+
+
+
       ResearchProgram : isolate_collections
 
 
@@ -572,6 +594,18 @@
 <td>direct</td>
 </tr>
 <tr>
+<td><a href="../interaction_types/">interaction_types</a></td>
+<td>* <br/> <a href="../InteractionType/">InteractionType</a></td>
+<td>Types of microbial interactions studied (e</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../interaction_modes/">interaction_modes</a></td>
+<td>* <br/> <a href="../InteractionMode/">InteractionMode</a></td>
+<td>Physical or chemical modes of microbial interaction (e</td>
+<td>direct</td>
+</tr>
+<tr>
 <td><a href="../nmdc_umbrella_study/">nmdc_umbrella_study</a></td>
 <td>0..1 <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
 <td>The NMDC umbrella study identifier for this research program</td>
@@ -706,6 +740,8 @@ slots:
 - keywords
 - data_types
 - data_collection_modalities
+- interaction_types
+- interaction_modes
 - nmdc_umbrella_study
 - studies
 - analyses
@@ -885,6 +921,32 @@ attributes:
     domain_of:
     - ResearchProgram
     range: DataCollectionModality
+    multivalued: true
+  interaction_types:
+    name: interaction_types
+    description: Types of microbial interactions studied (e.g., mutualism, antagonism,
+      competition)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: interaction_types
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionType
+    multivalued: true
+  interaction_modes:
+    name: interaction_modes
+    description: Physical or chemical modes of microbial interaction (e.g., endohyphal,
+      siderophore-mediated)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: interaction_modes
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionMode
     multivalued: true
   nmdc_umbrella_study:
     name: nmdc_umbrella_study

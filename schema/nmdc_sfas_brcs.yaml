@@ -558,6 +558,23 @@ enums:
       CONTAINMENT_EFFICACY_DATA:
         text: CONTAINMENT_EFFICACY_DATA
         description: Biocontainment efficacy measurements
+      FISH_IMAGING:
+        text: FISH_IMAGING
+        description: Fluorescence in situ hybridization imaging data
+      SIDEROPHORE_DATA:
+        text: SIDEROPHORE_DATA
+        description: Siderophore profile and iron-chelating compound data
+      ENDOHYPHAL_MICROBIOME_DATA:
+        text: ENDOHYPHAL_MICROBIOME_DATA
+        description: Data on microorganisms living within fungal hyphae
+      BACTERIAL_FUNGAL_INTERACTION_DATA:
+        text: BACTERIAL_FUNGAL_INTERACTION_DATA
+        description: Curated bacterial-fungal interaction records from literature
+          or experiments
+      FUNGAL_HIGHWAY_DATA:
+        text: FUNGAL_HIGHWAY_DATA
+        description: Data from fungal highway column experiments on bacterial dispersal
+          via mycelia
   DataCollectionModality:
     name: DataCollectionModality
     definition_uri: https://w3id.org/nmdc/sfas-brcs/DataCollectionModality
@@ -681,6 +698,19 @@ enums:
       FABRICATED_ECOSYSTEMS:
         text: FABRICATED_ECOSYSTEMS
         description: Fabricated/controlled ecosystem platforms (e.g., EcoFAB)
+      FUNGAL_HIGHWAY_COLUMNS:
+        text: FUNGAL_HIGHWAY_COLUMNS
+        description: Fungal highway column devices for studying bacterial dispersal
+          via mycelia
+      FISH_MICROSCOPY:
+        text: FISH_MICROSCOPY
+        description: Fluorescence in situ hybridization microscopy
+      COCULTURE_EXPERIMENTS:
+        text: COCULTURE_EXPERIMENTS
+        description: Bacterial-fungal co-culture experiments
+      SEQUENCE_ENRICHMENT:
+        text: SEQUENCE_ENRICHMENT
+        description: Sequence-based enrichment techniques for detecting endosymbionts
   Keyword:
     name: Keyword
     definition_uri: https://w3id.org/nmdc/sfas-brcs/Keyword
@@ -899,6 +929,18 @@ enums:
         text: BACTERIAL_FUNGAL_INTERACTIONS
         description: Bacterial-fungal interactions in soil
         is_a: SOIL_MICROBIOME
+      ENDOHYPHAL_BACTERIA:
+        text: ENDOHYPHAL_BACTERIA
+        description: Bacteria living within fungal hyphae
+        is_a: BACTERIAL_FUNGAL_INTERACTIONS
+      FUNGAL_HIGHWAYS:
+        text: FUNGAL_HIGHWAYS
+        description: Bacterial dispersal via fungal mycelial networks
+        is_a: BACTERIAL_FUNGAL_INTERACTIONS
+      SIDEROPHORES:
+        text: SIDEROPHORES
+        description: Iron-chelating compounds mediating microbial interactions
+        is_a: BACTERIAL_FUNGAL_INTERACTIONS
       SUBSURFACE_MICROBIOLOGY:
         text: SUBSURFACE_MICROBIOLOGY
         description: Subsurface microbial communities
@@ -1594,6 +1636,18 @@ enums:
       BACTERIAL_FUNGAL_INTERACTION_ASSAY:
         text: BACTERIAL_FUNGAL_INTERACTION_ASSAY
         description: Bacterial-fungal co-culture or proximity interaction assays
+      FUNGAL_HIGHWAY_ASSAY:
+        text: FUNGAL_HIGHWAY_ASSAY
+        description: Fungal highway column assays for bacterial dispersal via mycelia
+      ENDOHYPHAL_SCREENING:
+        text: ENDOHYPHAL_SCREENING
+        description: Screening for endohyphal bacteria within fungal isolates
+      INTERNALIZATION_ASSAY:
+        text: INTERNALIZATION_ASSAY
+        description: In vitro bacterial internalization into fungal cells
+      SIDEROPHORE_ASSAY:
+        text: SIDEROPHORE_ASSAY
+        description: Siderophore production and iron chelation assays
       PLANT_COLONIZATION:
         text: PLANT_COLONIZATION
         description: Plant root or leaf colonization assays
@@ -1645,6 +1699,72 @@ enums:
       ECOFAB_PHENOTYPING:
         text: ECOFAB_PHENOTYPING
         description: EcoFAB fabricated ecosystem phenotyping
+  InteractionType:
+    name: InteractionType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/InteractionType
+    description: Types of bacterial-fungal interactions based on ecological outcome
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      MUTUALISM:
+        text: MUTUALISM
+        description: Win-win interaction where bacteria and fungi achieve functional
+          complementarity through resource sharing (e.g., mycorrhizal symbiosis, lichen
+          symbiosis)
+      ANTAGONISM:
+        text: ANTAGONISM
+        description: Reciprocal inhibition including pathogen infection, antibiotic
+          production, and biological control mechanisms
+      COMPETITION:
+        text: COMPETITION
+        description: Resource and spatial rivalry maintaining community stability
+          through niche differentiation (e.g., iron, biotin, adhesion sites)
+      COMMENSALISM:
+        text: COMMENSALISM
+        description: Interaction where one partner benefits while the other is unaffected
+      PARASITISM:
+        text: PARASITISM
+        description: Interaction where one partner benefits at the expense of the
+          other
+      ENDOSYMBIOSIS:
+        text: ENDOSYMBIOSIS
+        description: Obligate or facultative intracellular association where bacteria
+          live within fungal cells (endohyphal bacteria)
+  InteractionMode:
+    name: InteractionMode
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/InteractionMode
+    description: Physical or chemical mode of bacterial-fungal interaction
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      PHYSICAL_ATTACHMENT:
+        text: PHYSICAL_ATTACHMENT
+        description: External attachment of bacteria to fungal surfaces (hyphae, spores)
+      ENDOHYPHAL:
+        text: ENDOHYPHAL
+        description: Bacteria residing within fungal hyphae
+      BIOFILM_FORMATION:
+        text: BIOFILM_FORMATION
+        description: Biofilm formation on fungal structures
+      FUNGAL_HIGHWAY:
+        text: FUNGAL_HIGHWAY
+        description: Bacterial dispersal using fungal mycelia as transport networks
+      QUORUM_SENSING:
+        text: QUORUM_SENSING
+        description: Chemical signaling via quorum sensing molecules
+      VOLATILE_METABOLITES:
+        text: VOLATILE_METABOLITES
+        description: Interaction mediated by volatile organic compounds
+      SIDEROPHORE_MEDIATED:
+        text: SIDEROPHORE_MEDIATED
+        description: Iron competition via siderophore production
+      ANTIBIOTIC_PRODUCTION:
+        text: ANTIBIOTIC_PRODUCTION
+        description: Interaction mediated by antibiotic secretion
+      NUTRIENT_EXCHANGE:
+        text: NUTRIENT_EXCHANGE
+        description: Metabolite exchange including carbon, nitrogen, vitamins
+      CHEMOTAXIS:
+        text: CHEMOTAXIS
+        description: Directed movement in response to chemical gradients
 slots:
   id:
     name: id
@@ -2232,6 +2352,32 @@ slots:
     domain_of:
     - ResearchProgram
     range: DataCollectionModality
+    multivalued: true
+  interaction_types:
+    name: interaction_types
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/interaction_types
+    description: Types of microbial interactions studied (e.g., mutualism, antagonism,
+      competition)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:interaction_types
+    owner: Dataset
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionType
+    multivalued: true
+  interaction_modes:
+    name: interaction_modes
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/interaction_modes
+    description: Physical or chemical modes of microbial interaction (e.g., endohyphal,
+      siderophore-mediated)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:interaction_modes
+    owner: Dataset
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionMode
     multivalued: true
   services:
     name: services
@@ -3279,6 +3425,36 @@ slots:
     domain_of:
     - FieldSite
     range: string
+  fieldSite__elevation_m:
+    name: fieldSite__elevation_m
+    description: Elevation of the field site in meters above sea level
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:elevation_m
+    alias: elevation_m
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: integer
+  fieldSite__mean_annual_temp_c:
+    name: fieldSite__mean_annual_temp_c
+    description: Mean annual temperature at the site in degrees Celsius
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:mean_annual_temp_c
+    alias: mean_annual_temp_c
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: float
+  fieldSite__mean_annual_precip_cm:
+    name: fieldSite__mean_annual_precip_cm
+    description: Mean annual precipitation at the site in centimeters
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:mean_annual_precip_cm
+    alias: mean_annual_precip_cm
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: float
   webReference__url:
     name: webReference__url
     description: URL of the web resource
@@ -4066,6 +4242,8 @@ classes:
     - keywords
     - data_types
     - data_collection_modalities
+    - interaction_types
+    - interaction_modes
     - nmdc_umbrella_study
     - studies
     - analyses
@@ -4113,6 +4291,8 @@ classes:
     - keywords
     - data_types
     - data_collection_modalities
+    - interaction_types
+    - interaction_modes
     - nmdc_umbrella_study
     - studies
     - analyses
@@ -4156,6 +4336,8 @@ classes:
     - keywords
     - data_types
     - data_collection_modalities
+    - interaction_types
+    - interaction_modes
     - nmdc_umbrella_study
     - studies
     - analyses
@@ -4200,6 +4382,8 @@ classes:
     - keywords
     - data_types
     - data_collection_modalities
+    - interaction_types
+    - interaction_modes
     - nmdc_umbrella_study
     - studies
     - analyses
@@ -4513,6 +4697,8 @@ classes:
     - massive_id
     - primary_reference
     - additional_references
+    - interaction_types
+    - interaction_modes
     - dataset__primary_reference_info
     attributes:
       primary_reference_info:
@@ -4712,6 +4898,9 @@ classes:
     - fieldSite__relevance
     - fieldSite__contaminants
     - fieldSite__contamination_source
+    - fieldSite__elevation_m
+    - fieldSite__mean_annual_temp_c
+    - fieldSite__mean_annual_precip_cm
     attributes:
       location:
         name: location
@@ -4745,6 +4934,18 @@ classes:
         name: contamination_source
         description: Source of contamination at the site
         range: string
+      elevation_m:
+        name: elevation_m
+        description: Elevation of the field site in meters above sea level
+        range: integer
+      mean_annual_temp_c:
+        name: mean_annual_temp_c
+        description: Mean annual temperature at the site in degrees Celsius
+        range: float
+      mean_annual_precip_cm:
+        name: mean_annual_precip_cm
+        description: Mean annual precipitation at the site in centimeters
+        range: float
     class_uri: nmdc_sfas_brcs:FieldSite
   Technology:
     name: Technology
@@ -5155,7 +5356,7 @@ classes:
     class_uri: nmdc_sfas_brcs:Instrument
 metamodel_version: 1.7.0
 source_file: nmdc_sfas_brcs.yaml
-source_file_date: '2025-12-23T02:12:45'
-source_file_size: 81971
-generation_date: '2025-12-23T02:12:59'
+source_file_date: '2026-01-21T21:19:40'
+source_file_size: 86865
+generation_date: '2026-01-21T21:19:55'
 

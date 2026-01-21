@@ -277,6 +277,28 @@
 
       Dataset : doi_examples
 
+      Dataset : interaction_modes
+
+
+
+
+
+        Dataset --&gt; "*" InteractionMode : interaction_modes
+        click InteractionMode href "../InteractionMode/"
+
+
+
+      Dataset : interaction_types
+
+
+
+
+
+        Dataset --&gt; "*" InteractionType : interaction_types
+        click InteractionType href "../InteractionType/"
+
+
+
       Dataset : jgi_project_id
 
       Dataset : lter_dataset_id
@@ -457,6 +479,18 @@
 <td>direct</td>
 </tr>
 <tr>
+<td><a href="../interaction_types/">interaction_types</a></td>
+<td>* <br/> <a href="../InteractionType/">InteractionType</a></td>
+<td>Types of microbial interactions studied (e</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../interaction_modes/">interaction_modes</a></td>
+<td>* <br/> <a href="../InteractionMode/">InteractionMode</a></td>
+<td>Physical or chemical modes of microbial interaction (e</td>
+<td>direct</td>
+</tr>
+<tr>
 <td><a href="../primary_reference_info/">primary_reference_info</a></td>
 <td>0..1 <br/> <a href="../PrimaryReferenceInfo/">PrimaryReferenceInfo</a></td>
 <td>Primary publication reference with structured metadata for validation</td>
@@ -554,6 +588,8 @@ slots:
 - massive_id
 - primary_reference
 - additional_references
+- interaction_types
+- interaction_modes
 attributes:
   primary_reference_info:
     name: primary_reference_info
@@ -844,6 +880,32 @@ attributes:
     - Dataset
     - Analysis
     range: uriorcurie
+    multivalued: true
+  interaction_types:
+    name: interaction_types
+    description: Types of microbial interactions studied (e.g., mutualism, antagonism,
+      competition)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: interaction_types
+    owner: Dataset
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionType
+    multivalued: true
+  interaction_modes:
+    name: interaction_modes
+    description: Physical or chemical modes of microbial interaction (e.g., endohyphal,
+      siderophore-mediated)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: interaction_modes
+    owner: Dataset
+    domain_of:
+    - ResearchProgram
+    - Dataset
+    range: InteractionMode
     multivalued: true
 
 </code></pre>

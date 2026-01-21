@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-12-18T10:29:21
+# Generation date: 2026-01-21T12:40:35
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -58,7 +58,7 @@ from rdflib import (
     URIRef
 )
 
-from linkml_runtime.linkml_model.types import Boolean, Date, Integer, String, Uri, Uriorcurie
+from linkml_runtime.linkml_model.types import Boolean, Date, Float, Integer, String, Uri, Uriorcurie
 from linkml_runtime.utils.metamodelcore import Bool, URI, URIorCURIE, XSDDate
 
 metamodel_version = "1.7.0"
@@ -245,6 +245,8 @@ class ResearchProgram(NamedThing):
     keywords: Optional[Union[Union[str, "Keyword"], list[Union[str, "Keyword"]]]] = empty_list()
     data_types: Optional[Union[Union[str, "DataType"], list[Union[str, "DataType"]]]] = empty_list()
     data_collection_modalities: Optional[Union[Union[str, "DataCollectionModality"], list[Union[str, "DataCollectionModality"]]]] = empty_list()
+    interaction_types: Optional[Union[Union[str, "InteractionType"], list[Union[str, "InteractionType"]]]] = empty_list()
+    interaction_modes: Optional[Union[Union[str, "InteractionMode"], list[Union[str, "InteractionMode"]]]] = empty_list()
     nmdc_umbrella_study: Optional[Union[str, URIorCURIE]] = None
     studies: Optional[Union[Union[dict, "NMDCStudyReference"], list[Union[dict, "NMDCStudyReference"]]]] = empty_list()
     analyses: Optional[Union[dict[Union[str, KBaseNarrativeId], Union[dict, "KBaseNarrative"]], list[Union[dict, "KBaseNarrative"]]]] = empty_dict()
@@ -309,6 +311,14 @@ class ResearchProgram(NamedThing):
         if not isinstance(self.data_collection_modalities, list):
             self.data_collection_modalities = [self.data_collection_modalities] if self.data_collection_modalities is not None else []
         self.data_collection_modalities = [v if isinstance(v, DataCollectionModality) else DataCollectionModality(v) for v in self.data_collection_modalities]
+
+        if not isinstance(self.interaction_types, list):
+            self.interaction_types = [self.interaction_types] if self.interaction_types is not None else []
+        self.interaction_types = [v if isinstance(v, InteractionType) else InteractionType(v) for v in self.interaction_types]
+
+        if not isinstance(self.interaction_modes, list):
+            self.interaction_modes = [self.interaction_modes] if self.interaction_modes is not None else []
+        self.interaction_modes = [v if isinstance(v, InteractionMode) else InteractionMode(v) for v in self.interaction_modes]
 
         if self.nmdc_umbrella_study is not None and not isinstance(self.nmdc_umbrella_study, URIorCURIE):
             self.nmdc_umbrella_study = URIorCURIE(self.nmdc_umbrella_study)
@@ -853,6 +863,8 @@ class Dataset(YAMLRoot):
     massive_id: Optional[str] = None
     primary_reference: Optional[Union[str, URIorCURIE]] = None
     additional_references: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
+    interaction_types: Optional[Union[Union[str, "InteractionType"], list[Union[str, "InteractionType"]]]] = empty_list()
+    interaction_modes: Optional[Union[Union[str, "InteractionMode"], list[Union[str, "InteractionMode"]]]] = empty_list()
     primary_reference_info: Optional[Union[dict, "PrimaryReferenceInfo"]] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
@@ -920,6 +932,14 @@ class Dataset(YAMLRoot):
         if not isinstance(self.additional_references, list):
             self.additional_references = [self.additional_references] if self.additional_references is not None else []
         self.additional_references = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.additional_references]
+
+        if not isinstance(self.interaction_types, list):
+            self.interaction_types = [self.interaction_types] if self.interaction_types is not None else []
+        self.interaction_types = [v if isinstance(v, InteractionType) else InteractionType(v) for v in self.interaction_types]
+
+        if not isinstance(self.interaction_modes, list):
+            self.interaction_modes = [self.interaction_modes] if self.interaction_modes is not None else []
+        self.interaction_modes = [v if isinstance(v, InteractionMode) else InteractionMode(v) for v in self.interaction_modes]
 
         if self.primary_reference_info is not None and not isinstance(self.primary_reference_info, PrimaryReferenceInfo):
             self.primary_reference_info = PrimaryReferenceInfo(**as_dict(self.primary_reference_info))
@@ -1157,6 +1177,9 @@ class FieldSite(YAMLRoot):
     relevance: Optional[Union[str, list[str]]] = empty_list()
     contaminants: Optional[Union[str, list[str]]] = empty_list()
     contamination_source: Optional[str] = None
+    elevation_m: Optional[int] = None
+    mean_annual_temp_c: Optional[float] = None
+    mean_annual_precip_cm: Optional[float] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
         if self.name is not None and not isinstance(self.name, str):
@@ -1187,6 +1210,15 @@ class FieldSite(YAMLRoot):
 
         if self.contamination_source is not None and not isinstance(self.contamination_source, str):
             self.contamination_source = str(self.contamination_source)
+
+        if self.elevation_m is not None and not isinstance(self.elevation_m, int):
+            self.elevation_m = int(self.elevation_m)
+
+        if self.mean_annual_temp_c is not None and not isinstance(self.mean_annual_temp_c, float):
+            self.mean_annual_temp_c = float(self.mean_annual_temp_c)
+
+        if self.mean_annual_precip_cm is not None and not isinstance(self.mean_annual_precip_cm, float):
+            self.mean_annual_precip_cm = float(self.mean_annual_precip_cm)
 
         super().__post_init__(**kwargs)
 
@@ -1887,6 +1919,21 @@ class DataType(EnumDefinitionImpl):
     CONTAINMENT_EFFICACY_DATA = PermissibleValue(
         text="CONTAINMENT_EFFICACY_DATA",
         description="Biocontainment efficacy measurements")
+    FISH_IMAGING = PermissibleValue(
+        text="FISH_IMAGING",
+        description="Fluorescence in situ hybridization imaging data")
+    SIDEROPHORE_DATA = PermissibleValue(
+        text="SIDEROPHORE_DATA",
+        description="Siderophore profile and iron-chelating compound data")
+    ENDOHYPHAL_MICROBIOME_DATA = PermissibleValue(
+        text="ENDOHYPHAL_MICROBIOME_DATA",
+        description="Data on microorganisms living within fungal hyphae")
+    BACTERIAL_FUNGAL_INTERACTION_DATA = PermissibleValue(
+        text="BACTERIAL_FUNGAL_INTERACTION_DATA",
+        description="Curated bacterial-fungal interaction records from literature or experiments")
+    FUNGAL_HIGHWAY_DATA = PermissibleValue(
+        text="FUNGAL_HIGHWAY_DATA",
+        description="Data from fungal highway column experiments on bacterial dispersal via mycelia")
 
     _defn = EnumDefinition(
         name="DataType",
@@ -2014,6 +2061,18 @@ class DataCollectionModality(EnumDefinitionImpl):
     FABRICATED_ECOSYSTEMS = PermissibleValue(
         text="FABRICATED_ECOSYSTEMS",
         description="Fabricated/controlled ecosystem platforms (e.g., EcoFAB)")
+    FUNGAL_HIGHWAY_COLUMNS = PermissibleValue(
+        text="FUNGAL_HIGHWAY_COLUMNS",
+        description="Fungal highway column devices for studying bacterial dispersal via mycelia")
+    FISH_MICROSCOPY = PermissibleValue(
+        text="FISH_MICROSCOPY",
+        description="Fluorescence in situ hybridization microscopy")
+    COCULTURE_EXPERIMENTS = PermissibleValue(
+        text="COCULTURE_EXPERIMENTS",
+        description="Bacterial-fungal co-culture experiments")
+    SEQUENCE_ENRICHMENT = PermissibleValue(
+        text="SEQUENCE_ENRICHMENT",
+        description="Sequence-based enrichment techniques for detecting endosymbionts")
 
     _defn = EnumDefinition(
         name="DataCollectionModality",
@@ -2192,6 +2251,15 @@ class Keyword(EnumDefinitionImpl):
     BACTERIAL_FUNGAL_INTERACTIONS = PermissibleValue(
         text="BACTERIAL_FUNGAL_INTERACTIONS",
         description="Bacterial-fungal interactions in soil")
+    ENDOHYPHAL_BACTERIA = PermissibleValue(
+        text="ENDOHYPHAL_BACTERIA",
+        description="Bacteria living within fungal hyphae")
+    FUNGAL_HIGHWAYS = PermissibleValue(
+        text="FUNGAL_HIGHWAYS",
+        description="Bacterial dispersal via fungal mycelial networks")
+    SIDEROPHORES = PermissibleValue(
+        text="SIDEROPHORES",
+        description="Iron-chelating compounds mediating microbial interactions")
     SUBSURFACE_MICROBIOLOGY = PermissibleValue(
         text="SUBSURFACE_MICROBIOLOGY",
         description="Subsurface microbial communities")
@@ -2795,6 +2863,18 @@ class PhenotypeAssayType(EnumDefinitionImpl):
     BACTERIAL_FUNGAL_INTERACTION_ASSAY = PermissibleValue(
         text="BACTERIAL_FUNGAL_INTERACTION_ASSAY",
         description="Bacterial-fungal co-culture or proximity interaction assays")
+    FUNGAL_HIGHWAY_ASSAY = PermissibleValue(
+        text="FUNGAL_HIGHWAY_ASSAY",
+        description="Fungal highway column assays for bacterial dispersal via mycelia")
+    ENDOHYPHAL_SCREENING = PermissibleValue(
+        text="ENDOHYPHAL_SCREENING",
+        description="Screening for endohyphal bacteria within fungal isolates")
+    INTERNALIZATION_ASSAY = PermissibleValue(
+        text="INTERNALIZATION_ASSAY",
+        description="In vitro bacterial internalization into fungal cells")
+    SIDEROPHORE_ASSAY = PermissibleValue(
+        text="SIDEROPHORE_ASSAY",
+        description="Siderophore production and iron chelation assays")
     PLANT_COLONIZATION = PermissibleValue(
         text="PLANT_COLONIZATION",
         description="Plant root or leaf colonization assays")
@@ -2850,6 +2930,74 @@ class PhenotypeAssayType(EnumDefinitionImpl):
     _defn = EnumDefinition(
         name="PhenotypeAssayType",
         description="""Types of phenotype assays performed by research programs. Used to catalog what phenotyping capabilities and data types each SFA/BRC generates.""",
+    )
+
+class InteractionType(EnumDefinitionImpl):
+    """
+    Types of bacterial-fungal interactions based on ecological outcome
+    """
+    MUTUALISM = PermissibleValue(
+        text="MUTUALISM",
+        description="""Win-win interaction where bacteria and fungi achieve functional complementarity through resource sharing (e.g., mycorrhizal symbiosis, lichen symbiosis)""")
+    ANTAGONISM = PermissibleValue(
+        text="ANTAGONISM",
+        description="""Reciprocal inhibition including pathogen infection, antibiotic production, and biological control mechanisms""")
+    COMPETITION = PermissibleValue(
+        text="COMPETITION",
+        description="""Resource and spatial rivalry maintaining community stability through niche differentiation (e.g., iron, biotin, adhesion sites)""")
+    COMMENSALISM = PermissibleValue(
+        text="COMMENSALISM",
+        description="Interaction where one partner benefits while the other is unaffected")
+    PARASITISM = PermissibleValue(
+        text="PARASITISM",
+        description="Interaction where one partner benefits at the expense of the other")
+    ENDOSYMBIOSIS = PermissibleValue(
+        text="ENDOSYMBIOSIS",
+        description="""Obligate or facultative intracellular association where bacteria live within fungal cells (endohyphal bacteria)""")
+
+    _defn = EnumDefinition(
+        name="InteractionType",
+        description="Types of bacterial-fungal interactions based on ecological outcome",
+    )
+
+class InteractionMode(EnumDefinitionImpl):
+    """
+    Physical or chemical mode of bacterial-fungal interaction
+    """
+    PHYSICAL_ATTACHMENT = PermissibleValue(
+        text="PHYSICAL_ATTACHMENT",
+        description="External attachment of bacteria to fungal surfaces (hyphae, spores)")
+    ENDOHYPHAL = PermissibleValue(
+        text="ENDOHYPHAL",
+        description="Bacteria residing within fungal hyphae")
+    BIOFILM_FORMATION = PermissibleValue(
+        text="BIOFILM_FORMATION",
+        description="Biofilm formation on fungal structures")
+    FUNGAL_HIGHWAY = PermissibleValue(
+        text="FUNGAL_HIGHWAY",
+        description="Bacterial dispersal using fungal mycelia as transport networks")
+    QUORUM_SENSING = PermissibleValue(
+        text="QUORUM_SENSING",
+        description="Chemical signaling via quorum sensing molecules")
+    VOLATILE_METABOLITES = PermissibleValue(
+        text="VOLATILE_METABOLITES",
+        description="Interaction mediated by volatile organic compounds")
+    SIDEROPHORE_MEDIATED = PermissibleValue(
+        text="SIDEROPHORE_MEDIATED",
+        description="Iron competition via siderophore production")
+    ANTIBIOTIC_PRODUCTION = PermissibleValue(
+        text="ANTIBIOTIC_PRODUCTION",
+        description="Interaction mediated by antibiotic secretion")
+    NUTRIENT_EXCHANGE = PermissibleValue(
+        text="NUTRIENT_EXCHANGE",
+        description="Metabolite exchange including carbon, nitrogen, vitamins")
+    CHEMOTAXIS = PermissibleValue(
+        text="CHEMOTAXIS",
+        description="Directed movement in response to chemical gradients")
+
+    _defn = EnumDefinition(
+        name="InteractionMode",
+        description="Physical or chemical mode of bacterial-fungal interaction",
     )
 
 # Slots
@@ -3009,6 +3157,12 @@ slots.data_types = Slot(uri=NMDC_SFAS_BRCS.data_types, name="data_types", curie=
 
 slots.data_collection_modalities = Slot(uri=NMDC_SFAS_BRCS.data_collection_modalities, name="data_collection_modalities", curie=NMDC_SFAS_BRCS.curie('data_collection_modalities'),
                    model_uri=NMDC_SFAS_BRCS.data_collection_modalities, domain=None, range=Optional[Union[Union[str, "DataCollectionModality"], list[Union[str, "DataCollectionModality"]]]])
+
+slots.interaction_types = Slot(uri=NMDC_SFAS_BRCS.interaction_types, name="interaction_types", curie=NMDC_SFAS_BRCS.curie('interaction_types'),
+                   model_uri=NMDC_SFAS_BRCS.interaction_types, domain=None, range=Optional[Union[Union[str, "InteractionType"], list[Union[str, "InteractionType"]]]])
+
+slots.interaction_modes = Slot(uri=NMDC_SFAS_BRCS.interaction_modes, name="interaction_modes", curie=NMDC_SFAS_BRCS.curie('interaction_modes'),
+                   model_uri=NMDC_SFAS_BRCS.interaction_modes, domain=None, range=Optional[Union[Union[str, "InteractionMode"], list[Union[str, "InteractionMode"]]]])
 
 slots.services = Slot(uri=NMDC_SFAS_BRCS.services, name="services", curie=NMDC_SFAS_BRCS.curie('services'),
                    model_uri=NMDC_SFAS_BRCS.services, domain=None, range=Optional[Union[str, list[str]]])
@@ -3300,6 +3454,15 @@ slots.fieldSite__contaminants = Slot(uri=NMDC_SFAS_BRCS.contaminants, name="fiel
 
 slots.fieldSite__contamination_source = Slot(uri=NMDC_SFAS_BRCS.contamination_source, name="fieldSite__contamination_source", curie=NMDC_SFAS_BRCS.curie('contamination_source'),
                    model_uri=NMDC_SFAS_BRCS.fieldSite__contamination_source, domain=None, range=Optional[str])
+
+slots.fieldSite__elevation_m = Slot(uri=NMDC_SFAS_BRCS.elevation_m, name="fieldSite__elevation_m", curie=NMDC_SFAS_BRCS.curie('elevation_m'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__elevation_m, domain=None, range=Optional[int])
+
+slots.fieldSite__mean_annual_temp_c = Slot(uri=NMDC_SFAS_BRCS.mean_annual_temp_c, name="fieldSite__mean_annual_temp_c", curie=NMDC_SFAS_BRCS.curie('mean_annual_temp_c'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__mean_annual_temp_c, domain=None, range=Optional[float])
+
+slots.fieldSite__mean_annual_precip_cm = Slot(uri=NMDC_SFAS_BRCS.mean_annual_precip_cm, name="fieldSite__mean_annual_precip_cm", curie=NMDC_SFAS_BRCS.curie('mean_annual_precip_cm'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__mean_annual_precip_cm, domain=None, range=Optional[float])
 
 slots.webReference__url = Slot(uri=NMDC_SFAS_BRCS.url, name="webReference__url", curie=NMDC_SFAS_BRCS.curie('url'),
                    model_uri=NMDC_SFAS_BRCS.webReference__url, domain=None, range=Union[str, URI])

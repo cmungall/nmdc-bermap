@@ -1523,6 +1523,34 @@ genomic_science_sfas:
     biotechnological potential for steering soil ecosystem functions. Research uses novel bioinformatics
     and multiomics approaches to understand how bacteria and fungi sense, respond to, and co-evolve with
     one another.
+  field_sites:
+  - name: Valles Caldera National Preserve
+    description: >
+      Montane grassland site at highest elevation in the BFI gradient. Part of elevation/precipitation
+      transect studying bacterial-fungal interactions across environmental conditions.
+    location: Jemez Mountains, New Mexico
+    site_type: NATIONAL_PRESERVE
+    elevation_m: 2466
+    mean_annual_temp_c: 6
+    mean_annual_precip_cm: 59
+  - name: Los Alamos National Laboratory
+    description: >
+      Mid-elevation piñon-juniper woodland site. Intermediate conditions in the BFI
+      elevation/precipitation gradient for studying bacterial-fungal interactions.
+    location: Los Alamos, New Mexico
+    site_type: NATIONAL_LABORATORY
+    elevation_m: 2231
+    mean_annual_temp_c: 12
+    mean_annual_precip_cm: 30
+  - name: Sevilleta LTER
+    description: >
+      Desert grassland site at lowest elevation in the BFI gradient. Represents marginal lands
+      with arid conditions for studying bacterial-fungal interactions under water limitation.
+    location: Sevilleta National Wildlife Refuge, New Mexico
+    site_type: LTER
+    elevation_m: 1511
+    mean_annual_temp_c: 14
+    mean_annual_precip_cm: 2
   scientific_questions:
   - What principles drive bacterial-fungal interactions in soil?
   - How do BFI affect carbon flux and nutrient cycling?
@@ -1530,6 +1558,9 @@ genomic_science_sfas:
   - What molecular mechanisms mediate BFI?
   keywords:
   - BACTERIAL_FUNGAL_INTERACTIONS
+  - ENDOHYPHAL_BACTERIA
+  - FUNGAL_HIGHWAYS
+  - SIDEROPHORES
   - SOIL_MICROBIOME
   - CARBON_FLUX
   - NUTRIENT_CYCLING
@@ -1539,16 +1570,55 @@ genomic_science_sfas:
   - METAGENOMICS
   - TRANSCRIPTOMICS
   - METABOLOMICS
+  - AMPLICON_16S
+  - AMPLICON_ITS
   - IMAGING_DATA
+  - FISH_IMAGING
+  - SIDEROPHORE_DATA
+  - ENDOHYPHAL_MICROBIOME_DATA
+  - BACTERIAL_FUNGAL_INTERACTION_DATA
+  - FUNGAL_HIGHWAY_DATA
   data_collection_modalities:
   - MULTI_OMICS
   - IMAGING
   - COMPUTATIONAL_MODELING
   - TARGETED_METAGENOMICS
+  - FUNGAL_HIGHWAY_COLUMNS
+  - FISH_MICROSCOPY
+  - COCULTURE_EXPERIMENTS
+  - SEQUENCE_ENRICHMENT
+  interaction_types:
+  - MUTUALISM
+  - ANTAGONISM
+  - COMPETITION
+  - ENDOSYMBIOSIS
+  interaction_modes:
+  - PHYSICAL_ATTACHMENT
+  - ENDOHYPHAL
+  - FUNGAL_HIGHWAY
+  - SIDEROPHORE_MEDIATED
+  - NUTRIENT_EXCHANGE
+  - QUORUM_SENSING
   datasets:
   - name: BFI Research Portal Database
-    description: Database of known bacterial-fungal interactions and participating taxa
+    description: >
+      Curated database of literature-derived bacterial-fungal interaction records. Users can query
+      bacterial or fungal taxa to identify known interaction partners. Includes interactive Krona
+      visualizations and supports user submission of new interaction reports.
     url: https://sfa-bfi.edgebioinformatics.org/search
+  - name: Fungal Highway Column Dataset
+    description: >
+      Data from 3D-printed fungal highway column experiments studying bacterial dispersal via fungal
+      mycelia. Includes 16S/ITS amplicon data and metagenomes (150-250 bp paired-end, 10-20 Gb/sample)
+      from soil, dung, and rhizosphere substrates.
+  - name: Endohyphal Microbiome Database
+    description: >
+      Genomic and imaging data on microorganisms living within fungal hyphae, including Mollicutes-related
+      endobacteria (MRE), viruses, cyanobacteria, algae, archaea, and plastids detected in fungal cells.
+  - name: BFI Metabolomics Interaction Data
+    description: >
+      Exometabolomics data from bacterial-fungal co-cultures including siderophore profiles (ferrichrome,
+      coprogen, novel analogues), iron/biotin availability measurements, and metabolite exchange dynamics.
   key_publications:
   - id: doi:10.1016/j.funbio.2023.04.002
     title: A centralized resource for bacterial-fungal interactions research
@@ -1587,6 +1657,10 @@ genomic_science_sfas:
     - Hyphal tip isolation
   phenotype_assays:
   - BACTERIAL_FUNGAL_INTERACTION_ASSAY
+  - FUNGAL_HIGHWAY_ASSAY
+  - ENDOHYPHAL_SCREENING
+  - INTERNALIZATION_ASSAY
+  - SIDEROPHORE_ASSAY
   - COCULTURE_INTERACTIONS
   - EXOMETABOLOMICS
   - LIVE_CELL_IMAGING
@@ -1602,9 +1676,14 @@ genomic_science_sfas:
   - name: Mitchel Doktycz
     role: Principal Investigator
     affiliation: Oak Ridge National Laboratory
+    orcid: orcid:0000-0003-4856-8343
   - name: Dale Pelletier
     role: Bacterial Collection Lead
     affiliation: Oak Ridge National Laboratory
+  - name: Melissa Cregger
+    role: Microbiome Ecology Lead
+    affiliation: Oak Ridge National Laboratory
+    orcid: orcid:0000-0002-7773-4999
   funding:
     agency: DOE BER
     program: Genomic Science Program
@@ -1614,7 +1693,6 @@ genomic_science_sfas:
     ornl_page: https://www.ornl.gov/project/plant-microbe-interfaces
     doe_page: https://www.genomicscience.energy.gov/ornlpmi/
     kbase: https://www.kbase.us/research/doktycz-sfa/
-    bacterial_strains: https://pmiweb.ornl.gov/table-test/
   description: >
     PMI reveals mechanistic bases underpinning selection of symbiotic plant-microbe partnerships and how
     environment structures the host plant's microbiome. Various Populus species (eastern cottonwood, black
@@ -1689,7 +1767,7 @@ genomic_science_sfas:
     sample_count: 2359
     bioproject_ids:
     - PRJNA993999
-    nmdc_ingest_target: true
+    nmdc_ingest_priority: HIGH
     primary_reference_info:
       reference:
         id: doi:10.1128/msystems.00886-23
@@ -1707,7 +1785,7 @@ genomic_science_sfas:
     bioproject_ids:
     - PRJNA385484
     - PRJNA384978
-    nmdc_ingest_target: true
+    nmdc_ingest_priority: MEDIUM
     primary_reference_info:
       reference:
         id: doi:10.1186/s40168-018-0413-8
@@ -1723,11 +1801,30 @@ genomic_science_sfas:
     sample_count: 552
     bioproject_ids:
     - PRJNA666202
-    nmdc_ingest_target: true
+    nmdc_ingest_priority: MEDIUM
     primary_reference_info:
       reference:
         id: doi:10.1128/mSystems.01306-20
         title: Cultivating the Bacterial Microbiota of <i>Populus</i> Roots
+  - name: Climate-driven Divergence in Plant-Microbiome Interactions
+    pi: Jason Holliday
+    description: Range-wide survey examining how tree genotypes condition their soil microbiomes across
+      the geographic distribution of Populus angustifolia. Demonstrates that warming-adapted microbiomes
+      can transmit thermotolerance to axenic laboratory-grown plants. PMI Variovorax collection (n=190 strains)
+      used for functional validation of microbially-mediated thermotolerance.
+    organism: Populus angustifolia
+    data_modalities:
+    - AMPLICON_16S
+    - AMPLICON_ITS
+    sample_count: 539
+    bioproject_ids:
+    - PRJNA726831
+    nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41467-021-24112-w
+        title: Climate-driven divergence in plant-microbiome interactions generates range-wide variation
+          in bud break phenology
   kbase_genome_collection: PMI
   analyses:
   - id: nmdc_sfas_brcs:pmi_populus_microbiome
@@ -1778,15 +1875,38 @@ genomic_science_sfas:
     title: CRISPR/Cas9-based gene activation and base editing in Populus
     findings:
     - statement: Established CRISPR tools for Populus genetic engineering
+  - id: doi:10.1038/s41467-021-24112-w
+    title: Climate-driven divergence in plant-microbiome interactions generates range-wide variation in bud break phenology
+    findings:
+    - statement: Warming-adapted microbiomes can transmit thermotolerance to axenic laboratory-grown plants
+    - statement: Tree genotypes condition their soil microbiomes across geographic distribution
+  - id: doi:10.1128/mSystems.00045-18
+    title: Exploration of the Biosynthetic Potential of the Populus Microbiome
+    findings:
+    - statement: Populus microbiome encodes diverse biosynthetic gene clusters for secondary metabolites
+  - id: doi:10.1186/s12866-021-02370-4
+    title: Metaproteomics Reveals Insights into Microbial Structure, Interactions, and Dynamic Regulation in Defined Communities
+    findings:
+    - statement: Metaproteomics reveals dynamic regulation of microbial communities responding to environmental disturbance
+  - id: doi:10.1111/nph.15182
+    title: Fungal Endophytes of Populus trichocarpa Alter Host Phenotype, Gene Expression, and Rhizobiome Composition
+    findings:
+    - statement: Mortierella elongata PMI93 promotes P. trichocarpa growth in a cultivar-independent manner
+  - id: doi:10.1186/s13007-023-01022-0
+    title: A rapid assay for assessing bacterial effects on Arabidopsis thermotolerance
+    findings:
+    - statement: Variovorax strains from Populus roots confer thermotolerance to plants
+    - statement: Six Variovorax strains (CF313, YR634, GV004, GV035, YR752, OV084) significantly improve plant heat tolerance
   isolate_collections:
   - name: PMI Bacterial Collection
     description: Bacterial isolates from native, field, and greenhouse-grown Populus trees. Includes rhizosphere,
       endosphere, and phyllosphere isolates characterized by 16S rDNA sequencing with full genome sequences
-      for many strains.
+      for many strains. Represents ~50% of the natural community based on phylogenetic analyses, with multiple
+      representatives of all highly abundant genera.
     organism_types:
     - BACTERIA
-    isolate_count: 400
-    genome_count: 400
+    isolate_count: 3500
+    genome_count: 750
     source_environments:
     - Populus rhizosphere
     - Populus root endosphere
@@ -1804,6 +1924,29 @@ genomic_science_sfas:
       reference:
         id: doi:10.1128/mSystems.01306-20
         title: Cultivating the Bacterial Microbiota of <i>Populus</i> Roots
+  - name: PMI Fungal Collection
+    description: Fungal isolates representing diverse guilds including ectomycorrhizal (ECM), endophytic (END),
+      pathogens, and saprotrophs. Identified key symbiotic taxa and established new models for plant-fungal
+      symbiosis research.
+    organism_types:
+    - FUNGI
+    isolate_count: 3000
+    genome_count: 100
+    source_environments:
+    - Populus rhizosphere
+    - Populus root endosphere
+    - Forest soil
+    host_organisms:
+    - Populus trichocarpa
+    - Populus deltoides
+  datasets:
+  - name: Populus trichocarpa GWAS Population
+    description: '>1500 natural variants of P. trichocarpa resequenced and phenotyped for genome-wide
+      association studies (GWAS) linking plant genotype to microbiome composition. Includes backcross
+      pedigrees for QTL mapping and transgenic lines in multiple host backgrounds.'
+  - name: Populus deltoides Common Garden Collection
+    description: '~350 natural variants of P. deltoides planted in common gardens for studying genotype-environment
+      interactions and microbiome assembly.'
   phenotype_assays:
   - GROWTH_CURVES
   - BIOLOG_PHENOTYPING
@@ -1871,7 +2014,7 @@ genomic_science_sfas:
     - PRJNA681597
     data_modalities:
     - GENOMICS
-    nmdc_ingest_priority: MEDIUM
+    nmdc_ingest_priority: LOW
     primary_reference_info:
       reference:
         id: doi:10.1094/PHYTO-09-20-0433-A

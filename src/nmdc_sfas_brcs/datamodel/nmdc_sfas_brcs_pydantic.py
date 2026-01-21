@@ -392,6 +392,26 @@ class DataType(str, Enum):
     """
     Biocontainment efficacy measurements
     """
+    FISH_IMAGING = "FISH_IMAGING"
+    """
+    Fluorescence in situ hybridization imaging data
+    """
+    SIDEROPHORE_DATA = "SIDEROPHORE_DATA"
+    """
+    Siderophore profile and iron-chelating compound data
+    """
+    ENDOHYPHAL_MICROBIOME_DATA = "ENDOHYPHAL_MICROBIOME_DATA"
+    """
+    Data on microorganisms living within fungal hyphae
+    """
+    BACTERIAL_FUNGAL_INTERACTION_DATA = "BACTERIAL_FUNGAL_INTERACTION_DATA"
+    """
+    Curated bacterial-fungal interaction records from literature or experiments
+    """
+    FUNGAL_HIGHWAY_DATA = "FUNGAL_HIGHWAY_DATA"
+    """
+    Data from fungal highway column experiments on bacterial dispersal via mycelia
+    """
 
 
 class DataCollectionModality(str, Enum):
@@ -553,6 +573,22 @@ class DataCollectionModality(str, Enum):
     FABRICATED_ECOSYSTEMS = "FABRICATED_ECOSYSTEMS"
     """
     Fabricated/controlled ecosystem platforms (e.g., EcoFAB)
+    """
+    FUNGAL_HIGHWAY_COLUMNS = "FUNGAL_HIGHWAY_COLUMNS"
+    """
+    Fungal highway column devices for studying bacterial dispersal via mycelia
+    """
+    FISH_MICROSCOPY = "FISH_MICROSCOPY"
+    """
+    Fluorescence in situ hybridization microscopy
+    """
+    COCULTURE_EXPERIMENTS = "COCULTURE_EXPERIMENTS"
+    """
+    Bacterial-fungal co-culture experiments
+    """
+    SEQUENCE_ENRICHMENT = "SEQUENCE_ENRICHMENT"
+    """
+    Sequence-based enrichment techniques for detecting endosymbionts
     """
 
 
@@ -783,6 +819,18 @@ class Keyword(str, Enum):
     BACTERIAL_FUNGAL_INTERACTIONS = "BACTERIAL_FUNGAL_INTERACTIONS"
     """
     Bacterial-fungal interactions in soil
+    """
+    ENDOHYPHAL_BACTERIA = "ENDOHYPHAL_BACTERIA"
+    """
+    Bacteria living within fungal hyphae
+    """
+    FUNGAL_HIGHWAYS = "FUNGAL_HIGHWAYS"
+    """
+    Bacterial dispersal via fungal mycelial networks
+    """
+    SIDEROPHORES = "SIDEROPHORES"
+    """
+    Iron-chelating compounds mediating microbial interactions
     """
     SUBSURFACE_MICROBIOLOGY = "SUBSURFACE_MICROBIOLOGY"
     """
@@ -1520,6 +1568,22 @@ class PhenotypeAssayType(str, Enum):
     """
     Bacterial-fungal co-culture or proximity interaction assays
     """
+    FUNGAL_HIGHWAY_ASSAY = "FUNGAL_HIGHWAY_ASSAY"
+    """
+    Fungal highway column assays for bacterial dispersal via mycelia
+    """
+    ENDOHYPHAL_SCREENING = "ENDOHYPHAL_SCREENING"
+    """
+    Screening for endohyphal bacteria within fungal isolates
+    """
+    INTERNALIZATION_ASSAY = "INTERNALIZATION_ASSAY"
+    """
+    In vitro bacterial internalization into fungal cells
+    """
+    SIDEROPHORE_ASSAY = "SIDEROPHORE_ASSAY"
+    """
+    Siderophore production and iron chelation assays
+    """
     PLANT_COLONIZATION = "PLANT_COLONIZATION"
     """
     Plant root or leaf colonization assays
@@ -1587,6 +1651,82 @@ class PhenotypeAssayType(str, Enum):
     ECOFAB_PHENOTYPING = "ECOFAB_PHENOTYPING"
     """
     EcoFAB fabricated ecosystem phenotyping
+    """
+
+
+class InteractionType(str, Enum):
+    """
+    Types of bacterial-fungal interactions based on ecological outcome
+    """
+    MUTUALISM = "MUTUALISM"
+    """
+    Win-win interaction where bacteria and fungi achieve functional complementarity through resource sharing (e.g., mycorrhizal symbiosis, lichen symbiosis)
+    """
+    ANTAGONISM = "ANTAGONISM"
+    """
+    Reciprocal inhibition including pathogen infection, antibiotic production, and biological control mechanisms
+    """
+    COMPETITION = "COMPETITION"
+    """
+    Resource and spatial rivalry maintaining community stability through niche differentiation (e.g., iron, biotin, adhesion sites)
+    """
+    COMMENSALISM = "COMMENSALISM"
+    """
+    Interaction where one partner benefits while the other is unaffected
+    """
+    PARASITISM = "PARASITISM"
+    """
+    Interaction where one partner benefits at the expense of the other
+    """
+    ENDOSYMBIOSIS = "ENDOSYMBIOSIS"
+    """
+    Obligate or facultative intracellular association where bacteria live within fungal cells (endohyphal bacteria)
+    """
+
+
+class InteractionMode(str, Enum):
+    """
+    Physical or chemical mode of bacterial-fungal interaction
+    """
+    PHYSICAL_ATTACHMENT = "PHYSICAL_ATTACHMENT"
+    """
+    External attachment of bacteria to fungal surfaces (hyphae, spores)
+    """
+    ENDOHYPHAL = "ENDOHYPHAL"
+    """
+    Bacteria residing within fungal hyphae
+    """
+    BIOFILM_FORMATION = "BIOFILM_FORMATION"
+    """
+    Biofilm formation on fungal structures
+    """
+    FUNGAL_HIGHWAY = "FUNGAL_HIGHWAY"
+    """
+    Bacterial dispersal using fungal mycelia as transport networks
+    """
+    QUORUM_SENSING = "QUORUM_SENSING"
+    """
+    Chemical signaling via quorum sensing molecules
+    """
+    VOLATILE_METABOLITES = "VOLATILE_METABOLITES"
+    """
+    Interaction mediated by volatile organic compounds
+    """
+    SIDEROPHORE_MEDIATED = "SIDEROPHORE_MEDIATED"
+    """
+    Iron competition via siderophore production
+    """
+    ANTIBIOTIC_PRODUCTION = "ANTIBIOTIC_PRODUCTION"
+    """
+    Interaction mediated by antibiotic secretion
+    """
+    NUTRIENT_EXCHANGE = "NUTRIENT_EXCHANGE"
+    """
+    Metabolite exchange including carbon, nitrogen, vitamins
+    """
+    CHEMOTAXIS = "CHEMOTAXIS"
+    """
+    Directed movement in response to chemical gradients
     """
 
 
@@ -1679,6 +1819,8 @@ class ResearchProgram(NamedThing):
          'slot_uri': 'schema:keywords'} })
     data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data collected or generated""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     data_collection_modalities: Optional[list[DataCollectionModality]] = Field(default=[], description="""Methods and modalities used for data collection""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    interaction_types: Optional[list[InteractionType]] = Field(default=[], description="""Types of microbial interactions studied (e.g., mutualism, antagonism, competition)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
+    interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     nmdc_umbrella_study: Optional[str] = Field(default=None, description="""The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     studies: Optional[list[NMDCStudyReference]] = Field(default=[], description="""NMDC studies associated with this research program. These are individual research studies that are part of the program.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     analyses: Optional[list[KBaseNarrative]] = Field(default=[], description="""Computational analyses associated with this research program, including KBase narratives and other workflows.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
@@ -1768,6 +1910,8 @@ class BioenergyResearchCenter(ResearchProgram):
          'slot_uri': 'schema:keywords'} })
     data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data collected or generated""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     data_collection_modalities: Optional[list[DataCollectionModality]] = Field(default=[], description="""Methods and modalities used for data collection""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    interaction_types: Optional[list[InteractionType]] = Field(default=[], description="""Types of microbial interactions studied (e.g., mutualism, antagonism, competition)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
+    interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     nmdc_umbrella_study: Optional[str] = Field(default=None, description="""The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     studies: Optional[list[NMDCStudyReference]] = Field(default=[], description="""NMDC studies associated with this research program. These are individual research studies that are part of the program.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     analyses: Optional[list[KBaseNarrative]] = Field(default=[], description="""Computational analyses associated with this research program, including KBase narratives and other workflows.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
@@ -1857,6 +2001,8 @@ class ScientificFocusArea(ResearchProgram):
          'slot_uri': 'schema:keywords'} })
     data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data collected or generated""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     data_collection_modalities: Optional[list[DataCollectionModality]] = Field(default=[], description="""Methods and modalities used for data collection""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    interaction_types: Optional[list[InteractionType]] = Field(default=[], description="""Types of microbial interactions studied (e.g., mutualism, antagonism, competition)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
+    interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     nmdc_umbrella_study: Optional[str] = Field(default=None, description="""The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     studies: Optional[list[NMDCStudyReference]] = Field(default=[], description="""NMDC studies associated with this research program. These are individual research studies that are part of the program.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     analyses: Optional[list[KBaseNarrative]] = Field(default=[], description="""Computational analyses associated with this research program, including KBase narratives and other workflows.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
@@ -1946,6 +2092,8 @@ class OtherProgram(ResearchProgram):
          'slot_uri': 'schema:keywords'} })
     data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data collected or generated""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     data_collection_modalities: Optional[list[DataCollectionModality]] = Field(default=[], description="""Methods and modalities used for data collection""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    interaction_types: Optional[list[InteractionType]] = Field(default=[], description="""Types of microbial interactions studied (e.g., mutualism, antagonism, competition)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
+    interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     nmdc_umbrella_study: Optional[str] = Field(default=None, description="""The NMDC umbrella study identifier for this research program. This is the top-level study that child studies link to via part_of.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     studies: Optional[list[NMDCStudyReference]] = Field(default=[], description="""NMDC studies associated with this research program. These are individual research studies that are part of the program.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     analyses: Optional[list[KBaseNarrative]] = Field(default=[], description="""Computational analyses associated with this research program, including KBase narratives and other workflows.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
@@ -2252,6 +2400,8 @@ class Dataset(ConfiguredBaseModel):
                        'Analysis'],
          'implements': ['linkml:authoritative_reference']} })
     additional_references: Optional[list[str]] = Field(default=[], description="""DOIs of additional publications associated with or derived from this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Analysis']} })
+    interaction_types: Optional[list[InteractionType]] = Field(default=[], description="""Types of microbial interactions studied (e.g., mutualism, antagonism, competition)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
+    interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference slot - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
                        'IsolateCollection',
                        'NMDCStudyReference',
@@ -2448,6 +2598,9 @@ class FieldSite(ConfiguredBaseModel):
     relevance: Optional[list[str]] = Field(default=[], description="""Research relevance categories for the site (e.g., BIOTECH, BIOENERGY, HAZARD_PREDICTION, WILDFIRE, CLIMATE_CHANGE, AGRICULTURE)""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
     contaminants: Optional[list[str]] = Field(default=[], description="""Contaminants present at the site (if applicable)""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
     contamination_source: Optional[str] = Field(default=None, description="""Source of contamination at the site""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
+    elevation_m: Optional[int] = Field(default=None, description="""Elevation of the field site in meters above sea level""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
+    mean_annual_temp_c: Optional[float] = Field(default=None, description="""Mean annual temperature at the site in degrees Celsius""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
+    mean_annual_precip_cm: Optional[float] = Field(default=None, description="""Mean annual precipitation at the site in centimeters""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
 
 
 class Technology(ConfiguredBaseModel):

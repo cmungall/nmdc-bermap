@@ -1,11 +1,11 @@
 summary:
-  variable_count: 517
-  study_variable_count: 512
-  dataset_variable_count: 5
+  variable_count: 540
+  study_variable_count: 533
+  dataset_variable_count: 7
   bervo_mapped_variable_count: 21
   bervo_term_count: 12
   mixs_term_count: 18
-  without_bervo_count: 496
+  without_bervo_count: 519
 records:
 - id: nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-16s-community-profile
   name: 16S community profile
@@ -255,6 +255,52 @@ records:
     name: Plant-Microbe Interfaces
     acronym: PMI
     anchor_id: nmdc_sfas_brcs:pmi
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-amphiphilic-solvent-identity
+  name: amphiphilic solvent identity
+  description: Solvent or co-solvent used to disrupt biomass or biomembrane assemblies.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: solvent treatment
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - ethanol
+  - butanol
+  - tetrahydrofuran
+  - dimethyl isosorbide
+  - deep eutectic solvent
+  source_field_names:
+  - solvent
+  - cosolvent
+  - solvent_identity
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
 - id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-ancestry-data
   name: ancestry data
   description: Host or biological ancestry descriptor recorded in NMDC biosample metadata.
@@ -1314,9 +1360,11 @@ records:
   temporal_resolution: null
   spatial_resolution: null
   levels:
-  - kill-switch
   - sequence entanglement
-  - gene overlap
+  - kill-switch
+  - unnatural amino acid dependence
+  - chemical or light signaling control
+  - quorum sensing coordination
   source_field_names:
   - containment_design
   - kill_switch
@@ -1340,8 +1388,9 @@ records:
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:llnl_secure_biosystems
-    name: Secure Biosystems Design Scientific Focus Area
-    acronym: null
+    name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily
+      Stable Microorganisms'
+    acronym: BioSecure
     anchor_id: nmdc_sfas_brcs:llnl_secure_biosystems
 - id: nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-bioenergy-trait-modulation
   name: bioenergy trait modulation
@@ -1387,6 +1436,132 @@ records:
     name: Joint BioEnergy Institute
     acronym: JBEI
     anchor_id: nmdc_sfas_brcs:jbei
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-deconstruction-performance
+  name: biomass deconstruction performance
+  description: Pretreatment effectiveness measured as biomass disruption, fractionation,
+    or sugar release.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: lignocellulosic biomass
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - deconstruction_yield
+  - sugar_release
+  - lignin_solubilization
+  - fractionation_efficiency
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-or-biomembrane-substrate
+  name: biomass or biomembrane substrate
+  description: Plant biomass, cell-wall polymer, or microbial membrane system exposed
+    to solvent.
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - GROUPING
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: biomass or biomembrane substrate
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - cellulose
+  - lignin
+  - switchgrass biomass
+  - microbial lipid bilayer
+  source_field_names:
+  - substrate
+  - biomass_type
+  - membrane_system
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomolecular-assembly-structure
+  name: biomolecular assembly structure
+  description: Structural state of biomass polymers or lipid bilayers measured after
+    solvent exposure.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: ARRAY
+  units: null
+  measured_entity: plant cell-wall or biomembrane assembly
+  material_or_matrix: null
+  method: neutron scattering, NMR spectroscopy, microscopy, or molecular dynamics
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - scattering_profile
+  - nmr_spectrum
+  - membrane_order_parameter
+  - cellulose_fibril_spacing
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
 - id: nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-bioreactor-metagenome-assembled-genome
   name: bioreactor metagenome-assembled genome
   description: MAGs reconstructed from anaerobic fermentation microbial communities.
@@ -2067,6 +2242,48 @@ records:
       Mechanisms of Pathogenesis
     acronym: CyanoPath
     anchor_id: nmdc_sfas_brcs:brave_pathogenesis_model
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-carbon-oxidation-and-greenhouse-gas-flux
+  name: carbon oxidation and greenhouse gas flux
+  description: Carbon oxidation, carbon dioxide production, methane production, or
+    greenhouse gas flux response to hydrologic and redox changes.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: coastal carbon cycling
+  material_or_matrix: soil, sediment, water, or atmosphere
+  method: null
+  time_series: true
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - carbon_oxidation
+  - co2_flux
+  - methane_flux
+  - greenhouse_gas_flux
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-carboxylate-product-profile
   name: carboxylate product profile
   description: Fermentation product profile for carboxylate platform compounds.
@@ -2403,6 +2620,49 @@ records:
     name: Plant-Microbe Interfaces
     acronym: PMI
     anchor_id: nmdc_sfas_brcs:pmi
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-coastal-study-region
+  name: coastal study region
+  description: COMPASS-FME region or site network represented by each sample or time
+    series.
+  roles:
+  - GROUPING
+  - SPATIAL_INDEX
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: coastal terrestrial-aquatic interface
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - Chesapeake Bay
+  - Western Lake Erie Basin
+  source_field_names:
+  - region
+  - site
+  - watershed
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-collected-from
   name: collected from
   description: Source location or object from which the NMDC biosample was collected.
@@ -3243,8 +3503,9 @@ records:
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:llnl_secure_biosystems
-    name: Secure Biosystems Design Scientific Focus Area
-    acronym: null
+    name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily
+      Stable Microorganisms'
+    acronym: BioSecure
     anchor_id: nmdc_sfas_brcs:llnl_secure_biosystems
 - id: nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-containment-transcriptomic-response
   name: containment transcriptomic response
@@ -3255,7 +3516,7 @@ records:
   - MEASURED_VARIABLE
   value_type: ARRAY
   units: null
-  measured_entity: engineered Shewanella oneidensis
+  measured_entity: engineered environmental microorganism
   material_or_matrix: null
   method: transcriptomics
   time_series: null
@@ -3283,8 +3544,9 @@ records:
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:llnl_secure_biosystems
-    name: Secure Biosystems Design Scientific Focus Area
-    acronym: null
+    name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily
+      Stable Microorganisms'
+    acronym: BioSecure
     anchor_id: nmdc_sfas_brcs:llnl_secure_biosystems
 - id: nmdc_sfas_brcs-mcafes-study-core-metabolome-and-root-exudation-dynamics-core-metabolite-abundance
   name: core metabolite abundance
@@ -3956,6 +4218,47 @@ records:
     name: Center for Advanced Bioenergy and Bioproducts Innovation
     acronym: CABBI
     anchor_id: nmdc_sfas_brcs:cabbi
+- id: nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal-discrete-sample-characterization
+  name: discrete sample characterization
+  description: Chemical, biochemical, molecular, microbial, or plant characterization
+    of collected coastal samples.
+  roles:
+  - MEASURED_VARIABLE
+  value_type: ARRAY
+  units: null
+  measured_entity: coastal TAI sample
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - chemistry_measurement
+  - molecular_characterization
+  - microbial_profile
+  - plant_trait
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: dataset
+    name: COMPASS ESS-DIVE Data Portal
+    anchor_id: nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: https://data.ess-dive.lbl.gov/portals/compass
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-pnnl_soil_microbiome-dataset-gnps--influence-of-drought-and-wet-up-on-the-soil-lipidome-pnnl-soils-sfa--drought-and-wet-up-treatment
   name: drought and wet-up treatment
   description: Moisture perturbation treatment associated with soil lipidomics samples.
@@ -6094,14 +6397,14 @@ records:
     anchor_id: nmdc_sfas_brcs:cbi
 - id: nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-engineered-microbial-strain
   name: engineered microbial strain
-  description: Shewanella oneidensis strain or engineered chassis carrying a containment
+  description: Engineered environmental microbial strain or chassis carrying a containment
     design.
   roles:
   - IDENTIFIER
   - STUDY_DESIGN_INDEPENDENT_VARIABLE
   value_type: IDENTIFIER
   units: null
-  measured_entity: engineered Shewanella oneidensis
+  measured_entity: engineered environmental microorganism
   material_or_matrix: null
   method: null
   time_series: null
@@ -6129,9 +6432,50 @@ records:
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:llnl_secure_biosystems
-    name: Secure Biosystems Design Scientific Focus Area
-    acronym: null
+    name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily
+      Stable Microorganisms'
+    acronym: BioSecure
     anchor_id: nmdc_sfas_brcs:llnl_secure_biosystems
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-engineered-rhizosphere-bacterial-strain
+  name: engineered rhizosphere bacterial strain
+  description: Non-model rhizosphere bacterial strain selected or engineered for persistence
+    control.
+  roles:
+  - IDENTIFIER
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: IDENTIFIER
+  units: null
+  measured_entity: engineered rhizosphere bacterium
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - strain_id
+  - isolate_id
+  - engineered_strain
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
 - id: nmdc_sfas_brcs-mcafes-study-reduced-complexity-consortia-from-brachypodium-rhizosphere-enrichment-generation
   name: enrichment generation
   description: Transfer or enrichment stage used to derive reduced complexity consortia.
@@ -7298,6 +7642,50 @@ records:
     name: Great Lakes Bioenergy Research Center
     acronym: GLBRC
     anchor_id: nmdc_sfas_brcs:glbrc
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-flooding-regime
+  name: flooding regime
+  description: Frequency, duration, depth, or source of flooding applied or observed
+    in coastal TAI plots.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: NUMERIC
+  units: cm or days
+  measured_entity: flooding disturbance
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - flood_frequency
+  - flood_duration
+  - flood_depth
+  - water_level
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-watershed_function-study-east-river-floodplain-metagenomes-floodplain-reach
   name: floodplain reach
   description: Watershed reach represented by each floodplain soil metagenome sample.
@@ -7589,6 +7977,48 @@ records:
       Bioenergy Crops
     acronym: PlantPath
     anchor_id: nmdc_sfas_brcs:brave_plant_pathogen
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-genome-edit-or-pathway-perturbation
+  name: genome edit or pathway perturbation
+  description: Genome reduction, catabolic pathway addition/removal, or synthetic
+    metabolic addiction used to alter environmental niche.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: engineered microbial genotype
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - genome_edit
+  - pathway_perturbation
+  - catabolic_pathway
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
 - id: nmdc_sfas_brcs-microbes_persist-study-rhizosphere-microbiome-dynamics-with-genome-informed-energy-budget-model-genome-informed-trait-profile
   name: genome-informed trait profile
   description: Genome-derived microbial traits used as inputs to the energy budget
@@ -7714,6 +8144,46 @@ records:
       Against Drug-Resistant Pathogens'
     acronym: PhageFoundry
     anchor_id: nmdc_sfas_brcs:brave_phage_foundry
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-geographic-location
+  name: geographic location
+  description: Coordinates or named location of the coastal TAI sample or sensor.
+  roles:
+  - SPATIAL_INDEX
+  - COVARIATE
+  value_type: TEXT
+  units: null
+  measured_entity: sample location
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - lat_lon
+  - geo_loc_name
+  - site_location
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-geographic-location-name
   name: geographic location name
   description: Geographic location name recorded for the NMDC biosample.
@@ -9538,6 +10008,47 @@ records:
     name: Great Lakes Bioenergy Research Center
     acronym: GLBRC
     anchor_id: nmdc_sfas_brcs:glbrc
+- id: nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal-in-situ-sensor-observation
+  name: in situ sensor observation
+  description: Automated soil, water, and plant sensor measurements available through
+    the COMPASS portal.
+  roles:
+  - MEASURED_VARIABLE
+  value_type: ARRAY
+  units: null
+  measured_entity: coastal TAI sensor network
+  material_or_matrix: null
+  method: null
+  time_series: true
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - sensor_observation
+  - timestamp
+  - water_level
+  - soil_moisture
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: dataset
+    name: COMPASS ESS-DIVE Data Portal
+    anchor_id: nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: https://data.ess-dive.lbl.gov/portals/compass
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-brave_plant_pathogen-study-sorghum-colletotrichum-dual-rna-seq-infection-time-point
   name: infection time point
   description: Time point or infection stage sampled for dual RNA-seq.
@@ -12026,6 +12537,48 @@ records:
     name: 'Microbes Persist: Systems Biology of the Soil Microbiome'
     acronym: Microbes Persist
     anchor_id: nmdc_sfas_brcs:microbes_persist
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-microbial-community-composition
+  name: microbial community composition
+  description: Molecular profile of microbial communities in coastal soil, sediment,
+    water, or plant-associated samples.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: ARRAY
+  units: null
+  measured_entity: coastal microbial community
+  material_or_matrix: soil, sediment, water, or plant-associated material
+  method: sequencing or molecular characterization
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - microbial_community
+  - metagenome_profile
+  - amplicon_profile
+  - taxonomic_profile
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-microbial-ecophysiology-trait
   name: microbial ecophysiology trait
   description: Community or genome-resolved ecophysiological trait inferred for tropical
@@ -12188,6 +12741,87 @@ records:
     name: Plant-Microbe Interfaces
     acronym: PMI
     anchor_id: nmdc_sfas_brcs:pmi
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-microbial-persistence-phenotype
+  name: microbial persistence phenotype
+  description: Persistence, colonization, abundance, or fitness of engineered bacteria
+    under tested community and environmental contexts.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: engineered rhizosphere bacterial population
+  material_or_matrix: null
+  method: fitness assay, abundance tracking, sequencing, or culture-based enumeration
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - persistence
+  - colonization
+  - relative_abundance
+  - fitness_score
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-microbial-solvent-tolerance
+  name: microbial solvent tolerance
+  description: Microbial growth, membrane stability, or viability under solvent exposure.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: fermenting microbial cell
+  material_or_matrix: microbial culture
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - growth_rate
+  - viability
+  - membrane_integrity
+  - solvent_tolerance
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
 - id: nmdc_sfas_brcs-glbrc-study-kbs-mcse-long-term-cropping-experiment-metagenomes-microbial-stress-tolerance-allocation
   name: microbial stress tolerance allocation
   description: Metagenome-derived community trait allocation to stress tolerance under
@@ -13452,6 +14086,47 @@ records:
     name: Molecular Observation Network
     acronym: MONet
     anchor_id: nmdc_sfas_brcs:monet
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-persistence-control-escape
+  name: persistence control escape
+  description: Evidence of escape from the intended persistence-control design through
+    environmental complementation or community interactions.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  - DERIVED
+  value_type: NUMERIC
+  units: null
+  measured_entity: engineered microbial containment outcome
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - escape_frequency
+  - complementation_escape
+  - persistence_escape_score
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
 - id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-perturbation
   name: perturbation
   description: Perturbation applied to the sample or system and recorded in NMDC biosample
@@ -15293,6 +15968,48 @@ records:
     name: 'Microbes Persist: Systems Biology of the Soil Microbiome'
     acronym: Microbes Persist
     anchor_id: nmdc_sfas_brcs:microbes_persist
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-redox-chemistry
+  name: redox chemistry
+  description: Redox state or redox-active chemical measurements used to characterize
+    aerobic to anaerobic shifts.
+  roles:
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  - MEASURED_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: soil, sediment, or water redox chemistry
+  material_or_matrix: soil, sediment, or water
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - redox_potential
+  - dissolved_oxygen
+  - iron_redox
+  - manganese_redox
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-redox-fluctuation-treatment
   name: redox fluctuation treatment
   description: Oxic-anoxic or redox fluctuation condition applied to tropical soil
@@ -15624,9 +16341,60 @@ records:
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:llnl_secure_biosystems
-    name: Secure Biosystems Design Scientific Focus Area
-    acronym: null
+    name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily
+      Stable Microorganisms'
+    acronym: BioSecure
     anchor_id: nmdc_sfas_brcs:llnl_secure_biosystems
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-rhizosphere-environmental-context
+  name: rhizosphere environmental context
+  description: Plant-associated, bulk-soil, detritus, or necromass environment used
+    to test persistence.
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - GROUPING
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: microbial niche context
+  material_or_matrix: soil or rhizosphere
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - sorghum rhizosphere
+  - bulk soil
+  - plant detritus
+  - microbial necromass
+  source_field_names:
+  - environment
+  - niche
+  - env_local_scale
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000013
+      label: local environmental context
+    - id: MIXS:0000014
+      label: environmental medium
+    other:
+    - id: ENVO:00005801
+      label: rhizosphere
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
 - id: nmdc_sfas_brcs-mcafes-study-dynamic-root-exudate-chemistry-and-microbial-assembly-rhizosphere-microbial-community-assembly
   name: rhizosphere microbial community assembly
   description: Rhizosphere microbial community composition and assembly pattern associated
@@ -16145,6 +16913,49 @@ records:
     name: Center for Advanced Bioenergy and Bioproducts Innovation
     acronym: CABBI
     anchor_id: nmdc_sfas_brcs:cabbi
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-salinity-condition
+  name: salinity condition
+  description: Salinity or salinization treatment in freshwater and saltwater coastal
+    TAI experiments.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - COVARIATE
+  value_type: NUMERIC
+  units: practical salinity units
+  measured_entity: water chemistry
+  material_or_matrix: soil water or surface water
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - salinity
+  - conductivity
+  - salinization_treatment
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-sample-carbon-to-nitrogen-ratio
   name: sample carbon to nitrogen ratio
   description: Carbon-to-nitrogen ratio recorded for phyllosphere samples in NMDC
@@ -16184,6 +16995,47 @@ records:
     name: Great Lakes Bioenergy Research Center
     acronym: GLBRC
     anchor_id: nmdc_sfas_brcs:glbrc
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-sample-collection-date
+  name: sample collection date
+  description: Date or timestamp for each field collection, sensor observation, or
+    incubation sampling point.
+  roles:
+  - DATE_TIME_VARIABLE
+  - COVARIATE
+  value_type: DATETIME
+  units: null
+  measured_entity: sampling event
+  material_or_matrix: null
+  method: null
+  time_series: true
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - collection_date
+  - timestamp
+  - date
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-mcafes-study-meadow-soil-metagenomes-from-the-angelo-coast-range-reserve-sample-collection-site
   name: sample collection site
   description: Sample collection site descriptor recorded for the NMDC biosample.
@@ -18998,6 +19850,86 @@ records:
     name: Watershed Function Science Focus Area
     acronym: null
     anchor_id: nmdc_sfas_brcs:watershed_function
+- id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-solvent-concentration
+  name: solvent concentration
+  description: Concentration or fraction of solvent used in pretreatment, membrane
+    exposure, or simulation.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: NUMERIC
+  units: null
+  measured_entity: solvent treatment
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - solvent_concentration
+  - cosolvent_fraction
+  - solvent_loading
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Solvent Disruption of Biomass and Biomembrane Structures
+    anchor_id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1039/D4GC00510D
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:biomass_deconstruction
+    name: Solvent Disruption of Biomass and Biomembranes
+    acronym: Biofuels SFA
+    anchor_id: nmdc_sfas_brcs:biomass_deconstruction
+- id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-sorghum-root-exudate-availability
+  name: sorghum root exudate availability
+  description: Presence or concentration of sorghum-derived root exudates used to
+    create synthetic metabolic dependency.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - COVARIATE
+  value_type: NUMERIC
+  units: null
+  measured_entity: sorghum root exudate pool
+  material_or_matrix: rhizosphere
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names:
+  - root_exudate
+  - exudate_concentration
+  - plant_specific_metabolite
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    anchor_id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:persistence_control
+    name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+    acronym: Persistence Control
+    anchor_id: nmdc_sfas_brcs:persistence_control
 - id: nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-sorghum-associated-microbial-community-composition
   name: sorghum-associated microbial community composition
   description: Amplicon, metagenomic, or metatranscriptomic profiles of sorghum-associated
@@ -20175,6 +21107,53 @@ records:
     name: Great Lakes Bioenergy Research Center
     acronym: GLBRC
     anchor_id: nmdc_sfas_brcs:glbrc
+- id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-terrestrial-aquatic-interface-position
+  name: terrestrial-aquatic interface position
+  description: Position along the open-water, wetland, shoreline, and upland coastal
+    gradient.
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - SPATIAL_INDEX
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: coastal gradient position
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - open water
+  - wetland
+  - shoreline
+  - upland forest
+  source_field_names:
+  - transect_position
+  - gradient_position
+  - env_local_scale
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000013
+      label: local environmental context
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    anchor_id: nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: null
+  program:
+    collection: other_programs
+    id: nmdc_sfas_brcs:compass_fme
+    name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales
+      - Field, Measurements, and Experiments
+    acronym: COMPASS-FME
+    anchor_id: nmdc_sfas_brcs:compass_fme
 - id: nmdc_sfas_brcs-pmi-study-populus-holobiont-niche-and-genotype-effects-tissue-level-niche
   name: tissue-level niche
   description: Fine-scale tissue or niche sampled within Populus plants and associated
@@ -21332,6 +22311,7 @@ by_mixs:
   - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-rhizosphere-bacterial-community-composition
   - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-rhizosphere-bacterial-community-composition
   - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-rhizosphere-deployment-context
+  - nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-rhizosphere-environmental-context
   - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-rhizosphere-microbial-community-composition
   - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-root-zone
   - nmdc_sfas_brcs-glbrc-study-populus-variovorax-syncom28-compartment-partitioning-root-associated-compartment
@@ -21353,6 +22333,7 @@ by_mixs:
     id: MIXS:0000008
     label: experimental factor
   variable_ids:
+  - nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-amphiphilic-solvent-identity
   - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-bacteriophage-challenge
   - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-bacteriophage-challenge
   - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-biocontainment-design
@@ -21366,6 +22347,8 @@ by_mixs:
   - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-experimental-factor
   - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-experimental-factor
   - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-fertilizer-treatment
+  - nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-flooding-regime
+  - nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-genome-edit-or-pathway-perturbation
   - nmdc_sfas_brcs-brave_phage_foundry-study-geochemical-constraints-on-phage-infectivity-geochemical-condition
   - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-growth-container
   - nmdc_sfas_brcs-pmi-study-populus-rhizosphere-pd10-synthetic-community-growth-medium
@@ -21386,6 +22369,7 @@ by_mixs:
   - nmdc_sfas_brcs-brave_pathogenesis_model-study-systematic-scale-up-and-enhanced-purification-of-cyanophage-p-ssp7-purification-workflow
   - nmdc_sfas_brcs-glbrc-study-transgenic-switchgrass-microbiome-effects-qsub-transgenic-status
   - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-redox-fluctuation-treatment
+  - nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-salinity-condition
   - nmdc_sfas_brcs-glbrc-study-soil-pore-space-decomposition-microbiome-soil-moisture-content
   - nmdc_sfas_brcs-glbrc-study-soil-pore-space-decomposition-microbiome-soil-pore-size
   - nmdc_sfas_brcs-jbei-study-sorghum-synthetic-rhizosphere-community-src1--src1-inoculation
@@ -21473,6 +22457,7 @@ by_mixs:
   - nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-populus-root-source
   - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-populus-root-associated-compartment
   - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-rhizosphere-deployment-context
+  - nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-rhizosphere-environmental-context
   - nmdc_sfas_brcs-river_corridor-study-functional-microbiome-catalogue-from-north-american-rivers-river-system
   - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-root-zone
   - nmdc_sfas_brcs-glbrc-study-populus-variovorax-syncom28-compartment-partitioning-root-associated-compartment
@@ -21484,6 +22469,7 @@ by_mixs:
   - nmdc_sfas_brcs-mcafes-study-brachypodium-core-root-microbiome-metabarcoding-soil-origin
   - nmdc_sfas_brcs-pnnl_soil_microbiome-study-viral-contributions-to-soil-carbon-dynamics-soil-sample-context
   - nmdc_sfas_brcs-enigma-study-oak-ridge-sediment-and-groundwater-metagenomes-subsurface-spatial-scale
+  - nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-terrestrial-aquatic-interface-position
   - nmdc_sfas_brcs-pmi-study-populus-holobiont-niche-and-genotype-effects-tissue-level-niche
   - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-tropical-soil-source
   - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-vegetation-density
@@ -21557,6 +22543,7 @@ without_bervo:
 - nmdc_sfas_brcs-cabbi-study-soil-microbiome-of-miscanthus-giganteus-at-lamps-study-site-active-soil-microbiome-composition
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-agrochemical-addition
 - nmdc_sfas_brcs-monet-study-soils-ai-campaign-ai-model-feature-set
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-amphiphilic-solvent-identity
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-ancestry-data
 - nmdc_sfas_brcs-seed-study-bacillus-velezensis-eb14-biocontrol-agent-genome-antifungal-biocontrol-activity
 - nmdc_sfas_brcs-seed-study-bacillus-velezensis-eb14-biocontrol-agent-genome-antimicrobial-biosynthetic-gene-cluster
@@ -21584,6 +22571,9 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-belowground-microbiome-composition
 - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-biocontainment-design
 - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-bioenergy-trait-modulation
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-deconstruction-performance
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-or-biomembrane-substrate
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomolecular-assembly-structure
 - nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-bioreactor-metagenome-assembled-genome
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-biotic-regimen
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-broad-scale-environmental-context
@@ -21601,6 +22591,7 @@ without_bervo:
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-calcium
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-carbon-metabolism-proteomics-carbon-metabolism-condition
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-carbon-metabolism-proteomics-carbon-metabolism-pathway-assignment
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-carbon-oxidation-and-greenhouse-gas-flux
 - nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-carboxylate-product-profile
 - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-cell-envelope-component
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-4d-whole-cell-model-of-prochlorococcus-marinus-med4-central-carbon-metabolic-flux
@@ -21609,6 +22600,7 @@ without_bervo:
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-circadian-control-proteomics-circadian-regulatory-pathway
 - nmdc_sfas_brcs-mcafes-study-meadow-soil-metagenomes-from-the-angelo-coast-range-reserve-climate-change-experiment-treatment
 - nmdc_sfas_brcs-pmi-study-climate-driven-divergence-in-plant-microbiome-interactions-climate-or-geographic-origin
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-coastal-study-region
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-collected-from
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-collection-date
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-collection-date
@@ -21647,6 +22639,7 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-soil-pore-space-decomposition-microbiome-decomposition-microbiome-composition
 - nmdc_sfas_brcs-enigma-study-denitrifying-synthetic-community-denitrification-intermediate-exchange
 - nmdc_sfas_brcs-cabbi-study-native-miscanthus-rhizosphere-and-endophytic-microbiome-diazotrophic-community-composition
+- nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal-discrete-sample-characterization
 - nmdc_sfas_brcs-pnnl_soil_microbiome-dataset-gnps--influence-of-drought-and-wet-up-on-the-soil-lipidome-pnnl-soils-sfa--drought-and-wet-up-treatment
 - nmdc_sfas_brcs-glbrc-study-kbs-mcse-long-term-cropping-experiment-metagenomes-drought-treatment
 - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-drought-treatment
@@ -21703,6 +22696,7 @@ without_bervo:
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-elevation
 - nmdc_sfas_brcs-cbi-study-clostridium-thermocellum-strain-collection-engineered-genotype
 - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-engineered-microbial-strain
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-engineered-rhizosphere-bacterial-strain
 - nmdc_sfas_brcs-mcafes-study-reduced-complexity-consortia-from-brachypodium-rhizosphere-enrichment-generation
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-environmental-medium
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-environmental-medium
@@ -21731,6 +22725,7 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-fermentation-time-point
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-fertilizer-regimen
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-field-location
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-flooding-regime
 - nmdc_sfas_brcs-watershed_function-study-east-river-floodplain-metagenomes-floodplain-reach
 - nmdc_sfas_brcs-watershed_function-study-east-river-floodplain-metagenomes-floodplain-soil-metagenome-profile
 - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-functional-gene-profile
@@ -21738,9 +22733,11 @@ without_bervo:
 - nmdc_sfas_brcs-brave_plant_pathogen-study-colletotrichum-sublineola-genome-and-transcriptome-fungal-isolate-identifier
 - nmdc_sfas_brcs-brave_plant_pathogen-study-colletotrichum-sublineola-genome-and-transcriptome-fungal-transcript-abundance
 - nmdc_sfas_brcs-brave_plant_pathogen-study-colletotrichum-sublineola-genome-and-transcriptome-genome-assembly-feature
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-genome-edit-or-pathway-perturbation
 - nmdc_sfas_brcs-microbes_persist-study-rhizosphere-microbiome-dynamics-with-genome-informed-energy-budget-model-genome-informed-trait-profile
 - nmdc_sfas_brcs-glbrc-study-novosphingobium-aromaticivorans-dap-seq-epigenomics-genomic-binding-site
 - nmdc_sfas_brcs-brave_phage_foundry-study-geochemical-constraints-on-phage-infectivity-geochemical-condition
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-geographic-location
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-geographic-location-name
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-geographic-location-name
 - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-geographic-location-name
@@ -21787,6 +22784,7 @@ without_bervo:
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-host-taxon-identifier
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-host-taxon-identifier
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-humidity
+- nmdc_sfas_brcs-compass_fme-dataset-compass-ess-dive-data-portal-in-situ-sensor-observation
 - nmdc_sfas_brcs-brave_plant_pathogen-study-sorghum-colletotrichum-dual-rna-seq-infection-time-point
 - nmdc_sfas_brcs-brave_plant_pathogen-study-sorghum-colletotrichum-dual-rna-seq-infection-treatment
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-systematic-scale-up-and-enhanced-purification-of-cyanophage-p-ssp7-infectious-phage-titer
@@ -21846,10 +22844,13 @@ without_bervo:
 - nmdc_sfas_brcs-mercury_sfa-study-archaeal-mercury-methylators-in-freshwater-sediments-methylmercury-production
 - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-microbial-carbon-transformation-profile
 - nmdc_sfas_brcs-microbes_persist-study-radiocarbon-analysis-of-soil-microbial-biomass-microbial-carbon-turnover-estimate
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-microbial-community-composition
 - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-microbial-ecophysiology-trait
 - nmdc_sfas_brcs-river_corridor-study-functional-microbiome-catalogue-from-north-american-rivers-microbial-functional-expression-profile
 - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-microbial-functional-profile
 - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-microbial-isolate-or-genome-identifier
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-microbial-persistence-phenotype
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-microbial-solvent-tolerance
 - nmdc_sfas_brcs-glbrc-study-kbs-mcse-long-term-cropping-experiment-metagenomes-microbial-stress-tolerance-allocation
 - nmdc_sfas_brcs-mcafes-study-dynamic-root-exudate-chemistry-and-microbial-assembly-microbial-substrate-preference
 - nmdc_sfas_brcs-pmi-study-climate-driven-divergence-in-plant-microbiome-interactions-microbially-mediated-thermotolerance
@@ -21872,6 +22873,7 @@ without_bervo:
 - nmdc_sfas_brcs-brave_plant_pathogen-study-colletotrichum-sublineola-genome-and-transcriptome-pathogenicity-candidate-gene
 - nmdc_sfas_brcs-pmi-study-populus-rhizosphere-pd10-synthetic-community-pd10-member-strain
 - nmdc_sfas_brcs-monet-study-soils-ai-campaign-pedotransfer-function-output
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-persistence-control-escape
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-perturbation
 - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-perturbation-library-type
 - nmdc_sfas_brcs-brave_phage_foundry-study-geochemical-constraints-on-phage-infectivity-phage-infectivity
@@ -21915,6 +22917,7 @@ without_bervo:
 - nmdc_sfas_brcs-microbes_persist-study-california-grassland-qsip-metagenomes-qsip-derived-microbial-activity
 - nmdc_sfas_brcs-glbrc-study-transgenic-switchgrass-microbiome-effects-qsub-transgenic-status
 - nmdc_sfas_brcs-microbes_persist-study-radiocarbon-analysis-of-soil-microbial-biomass-radiocarbon-content
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-redox-chemistry
 - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-redox-fluctuation-treatment
 - nmdc_sfas_brcs-mcafes-study-reduced-complexity-consortia-from-brachypodium-rhizosphere-reduced-consortium-composition
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-reproducibility-metric
@@ -21923,6 +22926,7 @@ without_bervo:
 - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-rhizosphere-bacterial-community-composition
 - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-rhizosphere-bacterial-community-composition
 - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-rhizosphere-deployment-context
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-rhizosphere-environmental-context
 - nmdc_sfas_brcs-mcafes-study-dynamic-root-exudate-chemistry-and-microbial-assembly-rhizosphere-microbial-community-assembly
 - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-rhizosphere-microbial-community-composition
 - nmdc_sfas_brcs-microbes_persist-study-rhizosphere-microbiome-dynamics-with-genome-informed-energy-budget-model-rhizosphere-omics-profile
@@ -21935,7 +22939,9 @@ without_bervo:
 - nmdc_sfas_brcs-mcafes-study-brachypodium-core-root-microbiome-metabarcoding-root-associated-bacterial-community-composition
 - nmdc_sfas_brcs-glbrc-study-populus-variovorax-syncom28-compartment-partitioning-root-associated-compartment
 - nmdc_sfas_brcs-cabbi-study-native-miscanthus-rhizosphere-and-endophytic-microbiome-root-associated-compartment
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-salinity-condition
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-sample-carbon-to-nitrogen-ratio
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-sample-collection-date
 - nmdc_sfas_brcs-mcafes-study-meadow-soil-metagenomes-from-the-angelo-coast-range-reserve-sample-collection-site
 - nmdc_sfas_brcs-microbes_persist-study-microbial-carbon-transformations-in-wet-tropical-soils-sample-collection-site
 - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-sample-collection-site
@@ -21997,6 +23003,8 @@ without_bervo:
 - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-soil-sampling-depth
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-soil-sampling-depth
 - nmdc_sfas_brcs-pnnl_soil_microbiome-study-viral-contributions-to-soil-carbon-dynamics-soil-virus-abundance-or-diversity
+- nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-solvent-concentration
+- nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-sorghum-root-exudate-availability
 - nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-sorghum-associated-microbial-community-composition
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-specific-ecosystem
 - nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-specific-ecosystem
@@ -22026,6 +23034,7 @@ without_bervo:
 - nmdc_sfas_brcs-jbei-study-sorghum-synthetic-rhizosphere-community-src1--synthetic-community-strain-abundance
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-terpene-dose
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-terpene-treatment
+- nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-terrestrial-aquatic-interface-position
 - nmdc_sfas_brcs-pmi-study-populus-holobiont-niche-and-genotype-effects-tissue-level-niche
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-total-carbon
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-total-nitrogen-content

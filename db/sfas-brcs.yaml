@@ -6383,6 +6383,443 @@ genomic_science_sfas:
   - LIVE_CELL_IMAGING
   - GROWTH_CURVES
   - COMPETITION_ASSAYS
+- id: nmdc_sfas_brcs:biomass_deconstruction
+  name: Solvent Disruption of Biomass and Biomembranes
+  acronym: Biofuels SFA
+  program_type: SCIENTIFIC_FOCUS_AREA
+  sfa_type: GENOMIC_SCIENCE_SFA
+  lead_institution: Oak Ridge National Laboratory
+  partner_institutions:
+  - University of Cincinnati
+  - University of Tennessee
+  - University of California, Riverside
+  principal_investigators:
+  - name: Brian Davison
+    role: Principal Investigator
+    affiliation: Oak Ridge National Laboratory
+  co_investigators:
+  - name: Barbara R. Evans
+    role: Technical Co-Manager
+    affiliation: Oak Ridge National Laboratory
+  - name: James Elkins
+    affiliation: Oak Ridge National Laboratory
+  - name: John Katsaras
+    affiliation: Oak Ridge National Laboratory
+  - name: Jonathan Nickels
+    affiliation: University of Cincinnati
+  - name: Hugh M. O'Neill
+    affiliation: Oak Ridge National Laboratory
+  - name: Arthur J. Ragauskas
+    affiliation: University of Tennessee
+  - name: Loukas Petridis
+    affiliation: University of Tennessee
+  - name: Sai Venkatesh Pingali
+    affiliation: Oak Ridge National Laboratory
+  - name: Jeremy C. Smith
+    affiliation: University of Tennessee
+  funding:
+    agency: DOE BER
+    program: Genomic Science Program
+    area: Bioenergy
+  websites:
+    main: https://sfa-biofuels.ornl.gov/
+    doe_page: https://www.genomicscience.energy.gov/ornlviz/
+    publications: https://sfa-biofuels.ornl.gov/publications/
+  description: >
+    ORNL Biofuels SFA studying how amphiphilic solvents alter plant cell-wall and microbial membrane
+    assemblies during biomass pretreatment and microbial fermentation. The program combines neutron
+    scattering, NMR spectroscopy, molecular dynamics, biodeuteration, bacterial membrane engineering,
+    and plant cell-wall chemistry to improve production of biofuels and bioproducts.
+  scientific_questions:
+  - How do amphiphilic solvents disrupt plant biomass and microbial biomembranes?
+  - Which solvent properties are best suited for biomass disruption and fractionation?
+  - What are the biological limits of microbial tolerance to high solvent levels?
+  - How can predictive models and biophysical characterization guide pretreatment and fermentation design?
+  keywords:
+  - BIOENERGY
+  - BIOFUELS
+  - BIOPRODUCTS
+  - BIOMASS_RECALCITRANCE
+  - PLANT_CELL_WALLS
+  - LIGNOCELLULOSE
+  - MICROBIAL_CONVERSION
+  - IONIC_LIQUIDS
+  data_types:
+  - STRUCTURAL_BIOLOGY
+  - PHENOTYPIC_DATA
+  - IMAGING_DATA
+  - ENZYME_ACTIVITY_DATA
+  - SYNTHETIC_BIOLOGY_CONSTRUCTS
+  data_collection_modalities:
+  - NMR_SPECTROSCOPY
+  - SYNCHROTRON_METHODS
+  - IMAGING
+  - COMPUTATIONAL_MODELING
+  - LABORATORY_EXPERIMENTS
+  - FERMENTATION_STUDIES
+  studies:
+  - name: Solvent Disruption of Biomass and Biomembrane Structures
+    pi: Brian Davison
+    description: Integrated experimental and computational study of amphiphilic co-solvent effects on
+      lignocellulosic biomass, plant cell-wall polymers, and microbial membrane lipid bilayers.
+    organism: bioenergy feedstocks and solvent-tolerant microbes
+    data_modalities:
+    - STRUCTURAL_BIOLOGY
+    - PHENOTYPIC_DATA
+    - IMAGING_DATA
+    source_reference:
+      url: https://www.genomicscience.energy.gov/ornlviz/
+      title: Solvent Disruption of Biomass and Biomembranes
+      summary: DOE Genomic Science program page describing the ORNL Biomass Deconstruction SFA.
+    primary_reference_info:
+      reference:
+        id: doi:10.1039/D4GC00510D
+        title: Multiscale Investigation of the Mechanism of Biomass Deconstruction in the Dimethyl Isosorbide/Water Co-Solvent Pretreatment System
+    study_design:
+      design_types:
+      - id: OBI:0500000
+        label: study design
+      experimental_units:
+      - solvent-treated biomass samples
+      - solvent-exposed microbial membrane systems
+      - molecular dynamics simulations
+      observational_units:
+      - plant cell-wall structural measurements
+      - membrane structural measurements
+      - pretreatment and fermentation performance measurements
+      sampling_strategy: Laboratory and simulation-based comparison of solvent classes, solvent
+        concentrations, biomass substrates, and biomembrane systems.
+      controls: Untreated biomass or membrane systems and solvent-free baseline simulations.
+      notes: Variable catalog entry based on DOE and ORNL SFA descriptions.
+    variables:
+    - name: amphiphilic solvent identity
+      description: Solvent or co-solvent used to disrupt biomass or biomembrane assemblies.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+      measured_entity: solvent treatment
+      levels:
+      - ethanol
+      - butanol
+      - tetrahydrofuran
+      - dimethyl isosorbide
+      - deep eutectic solvent
+      source_field_names:
+      - solvent
+      - cosolvent
+      - solvent_identity
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
+    - name: solvent concentration
+      description: Concentration or fraction of solvent used in pretreatment, membrane exposure, or simulation.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: NUMERIC
+      measured_entity: solvent treatment
+      source_field_names:
+      - solvent_concentration
+      - cosolvent_fraction
+      - solvent_loading
+    - name: biomass or biomembrane substrate
+      description: Plant biomass, cell-wall polymer, or microbial membrane system exposed to solvent.
+      roles:
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      - GROUPING
+      value_type: CATEGORICAL
+      measured_entity: biomass or biomembrane substrate
+      levels:
+      - cellulose
+      - lignin
+      - switchgrass biomass
+      - microbial lipid bilayer
+      source_field_names:
+      - substrate
+      - biomass_type
+      - membrane_system
+    - name: biomolecular assembly structure
+      description: Structural state of biomass polymers or lipid bilayers measured after solvent exposure.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: plant cell-wall or biomembrane assembly
+      method: neutron scattering, NMR spectroscopy, microscopy, or molecular dynamics
+      source_field_names:
+      - scattering_profile
+      - nmr_spectrum
+      - membrane_order_parameter
+      - cellulose_fibril_spacing
+    - name: biomass deconstruction performance
+      description: Pretreatment effectiveness measured as biomass disruption, fractionation, or sugar release.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: NUMERIC
+      measured_entity: lignocellulosic biomass
+      source_field_names:
+      - deconstruction_yield
+      - sugar_release
+      - lignin_solubilization
+      - fractionation_efficiency
+    - name: microbial solvent tolerance
+      description: Microbial growth, membrane stability, or viability under solvent exposure.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: NUMERIC
+      measured_entity: fermenting microbial cell
+      material_or_matrix: microbial culture
+      source_field_names:
+      - growth_rate
+      - viability
+      - membrane_integrity
+      - solvent_tolerance
+  datasets:
+  - name: ORNL Biofuels SFA Publications
+    description: Publication list for the ORNL Biomass Deconstruction SFA, including solvent, biomass,
+      membrane, scattering, and molecular simulation studies.
+    repository: ORNL Biofuels SFA
+    url: https://sfa-biofuels.ornl.gov/publications/
+    data_type: publication index
+  - name: Protein Co-Evolutionary Analysis and Virtual Ligand Screening
+    description: KBase collaboration associated with the ORNL Biofuels SFA.
+    repository: KBase
+    url: https://www.kbase.us/
+    data_type: computational analysis narrative
+  key_publications:
+  - id: doi:10.1039/D4GC00510D
+    title: Multiscale Investigation of the Mechanism of Biomass Deconstruction in the Dimethyl Isosorbide/Water Co-Solvent Pretreatment System
+    findings:
+    - statement: Multiscale measurements and simulations can connect co-solvent pretreatment chemistry to biomass deconstruction mechanisms.
+  - id: doi:10.1021/acssuschemeng.2c06876
+    title: Amphiphilic co-solvents modulate structure of membrane domains
+    findings:
+    - statement: Amphiphilic co-solvents alter membrane-domain structure relevant to microbial solvent tolerance.
+- id: nmdc_sfas_brcs:persistence_control
+  name: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+  acronym: Persistence Control
+  program_type: SCIENTIFIC_FOCUS_AREA
+  sfa_type: GENOMIC_SCIENCE_SFA
+  lead_institution: Pacific Northwest National Laboratory
+  partner_institutions:
+  - Stanford University
+  - Lawrence Berkeley National Laboratory
+  - Oak Ridge National Laboratory
+  - University of Washington
+  - University of California, Berkeley
+  - University of Arizona
+  - University of California, Santa Barbara
+  principal_investigators:
+  - name: Robert Egbert
+    role: Principal Investigator
+    affiliation: Pacific Northwest National Laboratory
+  co_investigators:
+  - name: Vanessa Bailey
+    role: Laboratory Research Manager
+    affiliation: Pacific Northwest National Laboratory
+  - name: Joshua Elmore
+    affiliation: Pacific Northwest National Laboratory
+  - name: Pubudu Handakumbura
+    affiliation: Pacific Northwest National Laboratory
+  - name: Jason McDermott
+    affiliation: Pacific Northwest National Laboratory
+  - name: Young-Mo Kim
+    affiliation: Pacific Northwest National Laboratory
+  - name: Jennifer Brophy
+    affiliation: Stanford University
+  - name: Adam Deutschbauer
+    affiliation: Lawrence Berkeley National Laboratory
+  - name: Adam Guss
+    affiliation: Oak Ridge National Laboratory
+  - name: Carrie Harwood
+    affiliation: University of Washington
+  - name: Devin Coleman-Derr
+    affiliation: University of California, Berkeley
+  funding:
+    agency: DOE BER
+    program: Genomic Science Program
+    area: Secure Biosystems Design
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/pnnlbiosystemsdesign/
+    data_page: https://www.emsl.pnnl.gov/project/60649
+  description: >
+    PNNL SFA developing principles and tools for persistence control of engineered microbial functions
+    in sorghum rhizosphere microbiomes. The program uses genome editing, high-throughput functional
+    genomics, synthetic communities, laboratory and field rhizosphere experiments, and predictive modeling
+    to increase persistence near target plants while reducing persistence in bulk soil or plant-detritus
+    environments.
+  scientific_questions:
+  - Which genes and catabolic pathways determine rhizosphere persistence of engineered microbes?
+  - How can genome reduction and synthetic metabolic addictions restrict microbial niches?
+  - How do synthetic communities and complex rhizosphere microbiomes affect persistence control escape?
+  - Can computational models predict persistence phenotypes from genotype and environmental context?
+  keywords:
+  - RHIZOSPHERE
+  - SORGHUM
+  - PLANT_GROWTH_PROMOTING_BACTERIA
+  - BIOCONTAINMENT
+  - BIOSYSTEMS_DESIGN
+  - GENOME_ENGINEERING
+  - MICROBIAL_INVASION
+  - SOIL_MICROBIOME
+  data_types:
+  - GENOMICS
+  - METAGENOMICS
+  - TRANSCRIPTOMICS
+  - METABOLOMICS
+  - FITNESS_DATA
+  - SYNTHETIC_BIOLOGY_CONSTRUCTS
+  data_collection_modalities:
+  - GENOME_SCALE_ENGINEERING
+  - CRISPR_GENE_EDITING
+  - HIGH_THROUGHPUT_SCREENING
+  - HIGH_THROUGHPUT_SEQUENCING
+  - MULTI_OMICS
+  - FABRICATED_ECOSYSTEMS
+  - FIELD_EXPERIMENTS
+  - COMPUTATIONAL_MODELING
+  studies:
+  - name: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+    pi: Robert Egbert
+    description: Genome editing and phenotype modeling of non-model sorghum rhizosphere bacteria to
+      promote persistence near sorghum roots while reducing persistence in bulk soil or scavenging
+      environments.
+    organism: sorghum rhizosphere bacteria
+    data_modalities:
+    - GENOMICS
+    - METAGENOMICS
+    - TRANSCRIPTOMICS
+    - METABOLOMICS
+    - FITNESS_DATA
+    nmdc_ingest_target: true
+    nmdc_ingest_priority: MEDIUM
+    source_reference:
+      url: https://www.genomicscience.energy.gov/pnnlbiosystemsdesign/
+      title: Persistence Control of Engineered Functions in Complex Soil Microbiomes
+      summary: DOE Genomic Science program page describing the PNNL Persistence Control SFA.
+    study_design:
+      design_types:
+      - id: OBI:0500000
+        label: study design
+      experimental_units:
+      - genome-edited non-model rhizosphere bacterial strains
+      - synthetic rhizosphere communities
+      - sorghum rhizosphere microcosms and field plots
+      observational_units:
+      - microbial persistence and fitness measurements
+      - edited-gene and pathway records
+      - community-composition profiles
+      sampling_strategy: Laboratory-to-field testing of engineered microbial persistence across increasing
+        rhizosphere community complexity and plant-associated environmental contexts.
+      controls: Wild-type strains, unedited strains, bulk-soil contexts, and plant-free scavenging environments.
+      notes: Variable catalog entry based on DOE and EMSL Persistence Control project descriptions.
+    variables:
+    - name: engineered rhizosphere bacterial strain
+      description: Non-model rhizosphere bacterial strain selected or engineered for persistence control.
+      roles:
+      - IDENTIFIER
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: IDENTIFIER
+      measured_entity: engineered rhizosphere bacterium
+      source_field_names:
+      - strain_id
+      - isolate_id
+      - engineered_strain
+    - name: genome edit or pathway perturbation
+      description: Genome reduction, catabolic pathway addition/removal, or synthetic metabolic addiction
+        used to alter environmental niche.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+      measured_entity: engineered microbial genotype
+      source_field_names:
+      - genome_edit
+      - pathway_perturbation
+      - catabolic_pathway
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
+    - name: rhizosphere environmental context
+      description: Plant-associated, bulk-soil, detritus, or necromass environment used to test persistence.
+      roles:
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      - GROUPING
+      value_type: CATEGORICAL
+      measured_entity: microbial niche context
+      material_or_matrix: soil or rhizosphere
+      levels:
+      - sorghum rhizosphere
+      - bulk soil
+      - plant detritus
+      - microbial necromass
+      source_field_names:
+      - environment
+      - niche
+      - env_local_scale
+      mixs_terms:
+      - id: MIXS:0000013
+        label: local environmental context
+      - id: MIXS:0000014
+        label: environmental medium
+      ontology_mappings:
+      - id: ENVO:00005801
+        label: rhizosphere
+    - name: sorghum root exudate availability
+      description: Presence or concentration of sorghum-derived root exudates used to create synthetic
+        metabolic dependency.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - COVARIATE
+      value_type: NUMERIC
+      measured_entity: sorghum root exudate pool
+      material_or_matrix: rhizosphere
+      source_field_names:
+      - root_exudate
+      - exudate_concentration
+      - plant_specific_metabolite
+    - name: microbial persistence phenotype
+      description: Persistence, colonization, abundance, or fitness of engineered bacteria under tested
+        community and environmental contexts.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: NUMERIC
+      measured_entity: engineered rhizosphere bacterial population
+      method: fitness assay, abundance tracking, sequencing, or culture-based enumeration
+      source_field_names:
+      - persistence
+      - colonization
+      - relative_abundance
+      - fitness_score
+    - name: persistence control escape
+      description: Evidence of escape from the intended persistence-control design through environmental
+        complementation or community interactions.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      - DERIVED
+      value_type: NUMERIC
+      measured_entity: engineered microbial containment outcome
+      source_field_names:
+      - escape_frequency
+      - complementation_escape
+      - persistence_escape_score
+  datasets:
+  - name: Persistence Control SFA EMSL Project
+    description: EMSL project record and released data link for the Persistence Control SFA.
+    repository: EMSL
+    doi: doi:10.46936/cpcy.proj.2022.60649/60008751
+    url: https://www.emsl.pnnl.gov/project/60649
+    data_type: project record and released data
+  - name: Persistence Control SFA EMSL Released Data
+    description: Released EMSL data search scoped to Persistence Control project 60649.
+    repository: EMSL
+    url: https://search.emsl.pnnl.gov/?project_id_search=60649
+    data_type: EMSL project data
 - id: nmdc_sfas_brcs:pmi
   name: Plant-Microbe Interfaces
   acronym: PMI
@@ -8008,47 +8445,53 @@ genomic_science_sfas:
     findings:
     - statement: B. velezensis EB14 shows strong antifungal activity against S. musiva
 - id: nmdc_sfas_brcs:llnl_secure_biosystems
-  name: Secure Biosystems Design Scientific Focus Area
+  name: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily Stable Microorganisms'
+  acronym: BioSecure
   program_type: SCIENTIFIC_FOCUS_AREA
   sfa_type: GENOMIC_SCIENCE_SFA
   lead_institution: Lawrence Livermore National Laboratory
   partner_institutions:
-  - University of Maryland
-  - University of Minnesota
-  - Columbia University
   - University of California, Berkeley
+  - Columbia University
+  - University of Pittsburgh
   principal_investigators:
   - name: Yongqin Jiao
     role: Lead Principal Investigator
     affiliation: Lawrence Livermore National Laboratory
   co_investigators:
-  - name: William Bentley
-    affiliation: University of Maryland
-    expertise: microfluidic platforms
-  - name: Gregory Payne
-    affiliation: University of Maryland
-    expertise: microfluidic platforms
-  - name: Jeffrey Gralnick
-    expertise: Shewanella oneidensis recombineering and CRISPR-Cas
-  - name: Jonathan Allen
-    expertise: machine learning for sequence design
   - name: Dan Park
-    expertise: fitness considerations in biocontainment
+    affiliation: Lawrence Livermore National Laboratory
+    expertise: sequence entanglement and biocontainment
   - name: Mimi Yung
+    affiliation: Lawrence Livermore National Laboratory
     expertise: population coordination for containment
-  - name: Jennifer Chlebek
-    expertise: gene overlap for circuit stability
+  - name: Dante Ricci
+    affiliation: Lawrence Livermore National Laboratory
+    expertise: synthetic biology and containment design
+  - name: Jonathan Allen
+    affiliation: Lawrence Livermore National Laboratory
+    expertise: machine learning for sequence design
+  - name: Jennifer Listgarten
+    affiliation: University of California, Berkeley
+    expertise: machine learning for protein fitness and biological design
+  - name: Harris Wang
+    affiliation: Columbia University
+    expertise: genome engineering and synthetic biology
+  - name: W. Seth Childers
+    affiliation: University of Pittsburgh
+    expertise: environmental microbiology and engineered microorganisms
   funding:
     agency: DOE BER
     program: Genomic Science Program
     area: Secure Biosystems Design
     amount: $9 million
   websites:
+    doe_page: https://www.genomicscience.energy.gov/llnlseqcellpop/
     llnl_page: https://sc-programs.llnl.gov/biological-and-environmental-research-at-llnl/secure-biosystems-design
-  description: This SFA engineers plant-benefiting microbes for safe and effective deployment in the rhizosphere
-    as plant-promoting probiotics. Develops multilayered containment strategies including kill-switches
-    and gene overlap for circuit stability. Leverages LLNL Soil Microbiome SFA expertise to test containment
-    designs in soil and rhizosphere environments.
+  description: The BioSecure SFA develops evolutionarily robust containment strategies for engineered
+    environmental microorganisms, with emphasis on rhizosphere deployment. The program combines sequence
+    entanglement, cellular controls, population-level coordination, high-throughput gene editing, and
+    machine learning to keep engineered functions active only where and when they are intended.
   scientific_questions:
   - How do we deploy beneficial microbes safely in the rhizosphere?
   - What biocontainment mechanisms are evolutionarily stable?
@@ -8062,40 +8505,51 @@ genomic_science_sfas:
   - SHEWANELLA
   - MACHINE_LEARNING
   - SYNTHETIC_BIOLOGY
+  - BIOSECURITY
+  - CRISPR
   data_types:
   - GENOMICS
   - TRANSCRIPTOMICS
   - PROTEOMICS
+  - SYNTHETIC_BIOLOGY_CONSTRUCTS
+  - FITNESS_DATA
+  - CONTAINMENT_EFFICACY_DATA
   studies:
   - name: Multilayered Biocontainment for Rhizosphere Deployment
     pi: Yongqin Jiao
     description: Developing and testing multilayered containment strategies for engineered microbes including
-      kill-switches stabilized through gene overlap (sequence entanglement).
-    organism: Shewanella oneidensis
+      sequence entanglement, kill-switches, environmental-cue controls, and population-level coordination.
+    organism: engineered environmental microorganisms
     data_modalities:
     - GENOMICS
     - TRANSCRIPTOMICS
     nmdc_ingest_priority: LOW
+    source_reference:
+      url: https://www.genomicscience.energy.gov/llnlseqcellpop/
+      title: 'BioSecure: Building Robust Biocontainment Strategies for Evolutionarily Stable Microorganisms'
+      summary: DOE Genomic Science program page describing the BioSecure SFA, personnel, research goals,
+        and containment strategies.
     study_design:
       design_types:
       - id: OBI:0500000
         label: study design
       experimental_units:
       - engineered Shewanella oneidensis strains
+      - engineered Pseudomonas strains
       observational_units:
       - biocontainment construct records
       - containment assay measurements
       sampling_strategy: Engineering and testing of multilayered kill-switch and sequence-entanglement
-        containment designs for rhizosphere deployment.
-      notes: Variable catalog entry based on study description and SFA description.
+        containment designs for environmental microorganisms in rhizosphere-relevant contexts.
+      notes: Variable catalog entry based on DOE and LLNL BioSecure SFA descriptions.
     variables:
     - name: engineered microbial strain
-      description: Shewanella oneidensis strain or engineered chassis carrying a containment design.
+      description: Engineered environmental microbial strain or chassis carrying a containment design.
       roles:
       - IDENTIFIER
       - STUDY_DESIGN_INDEPENDENT_VARIABLE
       value_type: IDENTIFIER
-      measured_entity: engineered Shewanella oneidensis
+      measured_entity: engineered environmental microorganism
       source_field_names:
       - strain_id
       - chassis
@@ -8108,9 +8562,11 @@ genomic_science_sfas:
       value_type: CATEGORICAL
       measured_entity: biocontainment circuit
       levels:
-      - kill-switch
       - sequence entanglement
-      - gene overlap
+      - kill-switch
+      - unnatural amino acid dependence
+      - chemical or light signaling control
+      - quorum sensing coordination
       source_field_names:
       - containment_design
       - kill_switch
@@ -8156,12 +8612,27 @@ genomic_science_sfas:
       - STUDY_DESIGN_DEPENDENT_VARIABLE
       - MEASURED_VARIABLE
       value_type: ARRAY
-      measured_entity: engineered Shewanella oneidensis
+      measured_entity: engineered environmental microorganism
       method: transcriptomics
       source_field_names:
       - transcript_abundance
       - expression_profile
       - containment_response
+  datasets:
+  - name: BioSecure LLNL project page and research outputs
+    description: Program page describing BioSecure containment capabilities, publications, and team members.
+    repository: LLNL Office of Science Programs
+    url: https://sc-programs.llnl.gov/biological-and-environmental-research-at-llnl/secure-biosystems-design
+    data_type: program metadata and publication links
+  key_publications:
+  - id: doi:10.1093/nar/gkad484
+    title: Prolonging genetic circuit stability through adaptive evolution of overlapping genes
+    findings:
+    - statement: Overlapping-gene sequence entanglement can improve genetic circuit stability for biocontainment.
+  - id: doi:10.1021/acssynbio.2c00386
+    title: Comparison of kill switch toxins in plant-beneficial Pseudomonas fluorescens reveals drivers of lethality, stability, and escape
+    findings:
+    - statement: Kill-switch performance in plant-beneficial Pseudomonas depends on toxin choice, stability, and escape mechanisms.
 environmental_system_science_sfas:
 - id: nmdc_sfas_brcs:watershed_function
   name: Watershed Function Science Focus Area
@@ -10104,6 +10575,265 @@ other_programs:
     osti_id: '3014404'
     url: https://www.osti.gov/biblio/3014404
     data_type: vegetation field observations
+- id: nmdc_sfas_brcs:compass_fme
+  name: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales - Field, Measurements, and Experiments
+  acronym: COMPASS-FME
+  program_type: OTHER_INITIATIVE
+  initiative_name: COMPASS
+  participating_offices:
+  - BER
+  lead_institution: Pacific Northwest National Laboratory
+  partner_institutions:
+  - Argonne National Laboratory
+  - Lawrence Berkeley National Laboratory
+  - Los Alamos National Laboratory
+  - Oak Ridge National Laboratory
+  - University of Toledo
+  - Smithsonian Environmental Research Center
+  principal_investigators:
+  - name: Vanessa Bailey
+    role: Principal Investigator
+    affiliation: Pacific Northwest National Laboratory
+  funding:
+    agency: DOE BER
+    program: Environmental System Science
+    division: Earth and Environmental Systems Sciences Division
+  websites:
+    main: https://compass.pnnl.gov/
+    doe_page: https://ess.science.energy.gov/compass-coastal-systems/
+    ess_dive: https://data.ess-dive.lbl.gov/portals/compass
+  description: >
+    COMPASS-FME is a BER ESS coastal systems project improving predictive understanding of terrestrial-aquatic
+    interfaces in the Chesapeake Bay and Western Lake Erie Basin. The project combines field observations,
+    in situ sensors, large campaign-based collections, laboratory incubations, water-level manipulations,
+    molecular characterization, and multiscale modeling of soil, water, sediment, microbial, and plant processes.
+  scientific_questions:
+  - What ecological, biogeochemical, and hydrological control points govern coastal terrestrial-aquatic interfaces?
+  - How do flood frequency, duration, depth, and salinization affect carbon oxidation and coupled processes?
+  - Which mechanisms and interactions are transferable across coastal systems and model scales?
+  keywords:
+  - WETLAND_SCIENCE
+  - BIOGEOCHEMISTRY
+  - WATERSHED_SCIENCE
+  - CARBON_CYCLING
+  - REDOX_CYCLING
+  - HYDRO_BIOGEOCHEMISTRY
+  - ENVIRONMENTAL_SYSTEMS
+  data_types:
+  - ENVIRONMENTAL_SENSOR_DATA
+  - HYDROLOGICAL_DATA
+  - BIOGEOCHEMICAL_DATA
+  - WATER_CHEMISTRY
+  - METAGENOMICS
+  - METABOLOMICS
+  - GEOSPATIAL
+  data_collection_modalities:
+  - FIELD_EXPERIMENTS
+  - FIELD_SENSORS
+  - STREAM_SAMPLING
+  - GROUNDWATER_MONITORING
+  - MULTI_OMICS
+  - ECOSYSTEM_MODELING
+  field_site_ids:
+  - nmdc_sfas_brcs:site_chesapeake_bay_coastal_tai
+  - nmdc_sfas_brcs:site_western_lake_erie_basin_coastal_tai
+  studies:
+  - name: Coastal Terrestrial-Aquatic Interface Flooding and Salinization Experiments
+    pi: Vanessa Bailey
+    description: Field and laboratory investigation of flooding, salinization, and water-level manipulation
+      effects on coastal terrestrial-aquatic interface ecosystem state, redox chemistry, carbon oxidation,
+      soil-water-sediment-microbe-plant interactions, and greenhouse gas production.
+    organism: coastal soil, sediment, microbial, and plant communities
+    data_modalities:
+    - ENVIRONMENTAL_SENSOR_DATA
+    - HYDROLOGICAL_DATA
+    - BIOGEOCHEMICAL_DATA
+    - METAGENOMICS
+    - METABOLOMICS
+    source_reference:
+      url: https://ess.science.energy.gov/compass-coastal-systems/
+      title: Coastal Observations, Mechanisms, and Predictions Across Systems and Scales - Field, Measurements, and Experiments
+      summary: DOE ESS program page describing COMPASS-FME research questions, study regions, datasets,
+        and data portal.
+    study_design:
+      design_types:
+      - id: OBI:0500000
+        label: study design
+      experimental_units:
+      - field water-level manipulation plots
+      - soil and sediment incubation cores
+      - batch experiments
+      observational_units:
+      - coastal terrestrial-aquatic interface samples
+      - in situ sensor time series
+      - soil, water, sediment, microbial, and plant measurements
+      sampling_strategy: Synoptic and temporally resolved sampling across shoreline-to-upland gradients,
+        paired with field manipulations, laboratory incubations, and model integration.
+      blocking: Chesapeake Bay and Western Lake Erie Basin regions; open-water, wetland, and upland gradient positions.
+      notes: Variable catalog entry based on DOE ESS COMPASS-FME program description.
+    variables:
+    - name: coastal study region
+      description: COMPASS-FME region or site network represented by each sample or time series.
+      roles:
+      - GROUPING
+      - SPATIAL_INDEX
+      value_type: CATEGORICAL
+      measured_entity: coastal terrestrial-aquatic interface
+      levels:
+      - Chesapeake Bay
+      - Western Lake Erie Basin
+      source_field_names:
+      - region
+      - site
+      - watershed
+    - name: terrestrial-aquatic interface position
+      description: Position along the open-water, wetland, shoreline, and upland coastal gradient.
+      roles:
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      - SPATIAL_INDEX
+      value_type: CATEGORICAL
+      measured_entity: coastal gradient position
+      levels:
+      - open water
+      - wetland
+      - shoreline
+      - upland forest
+      source_field_names:
+      - transect_position
+      - gradient_position
+      - env_local_scale
+      mixs_terms:
+      - id: MIXS:0000013
+        label: local environmental context
+    - name: flooding regime
+      description: Frequency, duration, depth, or source of flooding applied or observed in coastal TAI plots.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: NUMERIC
+      measured_entity: flooding disturbance
+      units: cm or days
+      source_field_names:
+      - flood_frequency
+      - flood_duration
+      - flood_depth
+      - water_level
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
+    - name: salinity condition
+      description: Salinity or salinization treatment in freshwater and saltwater coastal TAI experiments.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - COVARIATE
+      value_type: NUMERIC
+      measured_entity: water chemistry
+      material_or_matrix: soil water or surface water
+      units: practical salinity units
+      source_field_names:
+      - salinity
+      - conductivity
+      - salinization_treatment
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
+    - name: sample collection date
+      description: Date or timestamp for each field collection, sensor observation, or incubation sampling point.
+      roles:
+      - DATE_TIME_VARIABLE
+      - COVARIATE
+      value_type: DATETIME
+      measured_entity: sampling event
+      time_series: true
+      source_field_names:
+      - collection_date
+      - timestamp
+      - date
+    - name: geographic location
+      description: Coordinates or named location of the coastal TAI sample or sensor.
+      roles:
+      - SPATIAL_INDEX
+      - COVARIATE
+      value_type: TEXT
+      measured_entity: sample location
+      source_field_names:
+      - lat_lon
+      - geo_loc_name
+      - site_location
+    - name: redox chemistry
+      description: Redox state or redox-active chemical measurements used to characterize aerobic to anaerobic shifts.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: NUMERIC
+      measured_entity: soil, sediment, or water redox chemistry
+      material_or_matrix: soil, sediment, or water
+      source_field_names:
+      - redox_potential
+      - dissolved_oxygen
+      - iron_redox
+      - manganese_redox
+    - name: carbon oxidation and greenhouse gas flux
+      description: Carbon oxidation, carbon dioxide production, methane production, or greenhouse gas flux
+        response to hydrologic and redox changes.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: NUMERIC
+      measured_entity: coastal carbon cycling
+      material_or_matrix: soil, sediment, water, or atmosphere
+      time_series: true
+      source_field_names:
+      - carbon_oxidation
+      - co2_flux
+      - methane_flux
+      - greenhouse_gas_flux
+    - name: microbial community composition
+      description: Molecular profile of microbial communities in coastal soil, sediment, water, or plant-associated samples.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: coastal microbial community
+      material_or_matrix: soil, sediment, water, or plant-associated material
+      method: sequencing or molecular characterization
+      source_field_names:
+      - microbial_community
+      - metagenome_profile
+      - amplicon_profile
+      - taxonomic_profile
+  datasets:
+  - name: COMPASS ESS-DIVE Data Portal
+    description: ESS-DIVE portal for COMPASS-FME datasets, including in situ sensor data, campaign field
+      collections, community science data, synthesis datasets, and chemical, biochemical, molecular,
+      water, soil, sediment, microbial, and plant sample characterizations.
+    repository: ESS-DIVE
+    url: https://data.ess-dive.lbl.gov/portals/compass
+    data_type: coastal systems field observations and experiments
+    variables:
+    - name: in situ sensor observation
+      description: Automated soil, water, and plant sensor measurements available through the COMPASS portal.
+      roles:
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: coastal TAI sensor network
+      time_series: true
+      source_field_names:
+      - sensor_observation
+      - timestamp
+      - water_level
+      - soil_moisture
+    - name: discrete sample characterization
+      description: Chemical, biochemical, molecular, microbial, or plant characterization of collected coastal samples.
+      roles:
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: coastal TAI sample
+      source_field_names:
+      - chemistry_measurement
+      - molecular_characterization
+      - microbial_profile
+      - plant_trait
 - id: nmdc_sfas_brcs:brave_sorghum_anthracnose
   name: Sorghum-Anthracnose-Biocontrol Interactions
   acronym: SABI
@@ -12291,12 +13021,49 @@ sites:
   relevance:
   - WETLAND_ECOLOGY
   - COASTAL_ECOSYSTEMS
+- id: nmdc_sfas_brcs:site_chesapeake_bay_coastal_tai
+  name: Chesapeake Bay Coastal Terrestrial-Aquatic Interfaces
+  description: >
+    COMPASS-FME coastal terrestrial-aquatic interface study region used to compare saltwater coastal
+    inundation, soil-water-sediment-microbe-vegetation interactions, and hydrologic disturbance responses.
+  location: Chesapeake Bay region, United States
+  site_type: COASTAL_TERRESTRIAL_AQUATIC_INTERFACE
+  pi: Vanessa Bailey
+  institution: Pacific Northwest National Laboratory
+  relevance:
+  - COASTAL_SYSTEMS
+  - WETLAND_ECOLOGY
+  - HYDRO_BIOGEOCHEMISTRY
+- id: nmdc_sfas_brcs:site_western_lake_erie_basin_coastal_tai
+  name: Western Lake Erie Basin Coastal Terrestrial-Aquatic Interfaces
+  description: >
+    COMPASS-FME freshwater coastal terrestrial-aquatic interface study region used to compare Great Lakes
+    hydrologic disturbance, water-level changes, soil-water-sediment-microbe-vegetation interactions,
+    and coastal ecosystem state change.
+  location: Western Lake Erie Basin, United States
+  site_type: COASTAL_TERRESTRIAL_AQUATIC_INTERFACE
+  pi: Vanessa Bailey
+  institution: Pacific Northwest National Laboratory
+  relevance:
+  - COASTAL_SYSTEMS
+  - WETLAND_ECOLOGY
+  - HYDRO_BIOGEOCHEMISTRY
 metadata:
-  compiled_date: '2026-04-26'
+  compiled_date: '2026-05-05'
   sources:
   - https://www.genomicscience.energy.gov
   - https://ess.science.energy.gov
   - https://science.osti.gov/ber
+  - https://www.genomicscience.energy.gov/sfas/
+  - https://www.genomicscience.energy.gov/ornlviz/
+  - https://sfa-biofuels.ornl.gov/
+  - https://www.genomicscience.energy.gov/pnnlbiosystemsdesign/
+  - https://www.emsl.pnnl.gov/project/60649
+  - https://www.genomicscience.energy.gov/llnlseqcellpop/
+  - https://sc-programs.llnl.gov/biological-and-environmental-research-at-llnl/secure-biosystems-design
+  - https://ess.science.energy.gov/compass-coastal-systems/
+  - https://compass.pnnl.gov/
+  - https://data.ess-dive.lbl.gov/portals/compass
   - https://science.osti.gov/-/media/funding/pdf/Awards-Lists/2025/HR1-FY2025-AI-investments.pdf
   - https://opal-doe.org/
   - https://lambda-doe.org/

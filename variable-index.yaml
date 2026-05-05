@@ -123,7 +123,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -457,7 +457,7 @@ records:
     - PRJNA268032
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.cub.2015.01.014
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -498,7 +498,7 @@ records:
     - PRJNA268032
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.cub.2015.01.014
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -539,7 +539,7 @@ records:
     - PRJNA268032
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.cub.2015.01.014
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -620,7 +620,7 @@ records:
     - PRJNA268032
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.cub.2015.01.014
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -700,7 +700,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1128/mSystems.01306-20
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:pmi
@@ -909,7 +909,7 @@ records:
     - PRJNA892137
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s13068-023-02302-6
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -1253,7 +1253,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -1295,7 +1295,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -1715,7 +1715,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -1797,7 +1797,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -1838,7 +1838,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -1877,7 +1877,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -2567,7 +2567,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -2776,7 +2776,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -2905,7 +2905,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -2946,7 +2946,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -2985,7 +2985,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -3267,7 +3267,7 @@ records:
     - PRJNA561781
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-023-01646-3
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -3672,7 +3672,7 @@ records:
     - PRJNA892137
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s13068-023-02302-6
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -3800,7 +3800,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1093/ismejo/wraf093
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -3959,7 +3959,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -4170,7 +4170,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1093/ismejo/wraf093
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -4211,7 +4211,7 @@ records:
     - PRJNA561781
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-023-01646-3
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -4391,7 +4391,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -4552,7 +4552,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -4630,7 +4630,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -4667,7 +4667,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -4931,7 +4931,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -5009,7 +5009,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -5046,7 +5046,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -5310,7 +5310,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -5388,7 +5388,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -5425,7 +5425,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -5689,7 +5689,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -5767,7 +5767,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -5804,7 +5804,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -6112,7 +6112,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -6192,7 +6192,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -6232,7 +6232,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -6270,7 +6270,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -6589,7 +6589,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -6671,7 +6671,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -6712,7 +6712,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -6751,7 +6751,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -7025,7 +7025,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -7103,7 +7103,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -7142,7 +7142,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -7591,7 +7591,7 @@ records:
     - PRJNA741261
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1111/gcbb.12917
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -7635,7 +7635,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -7724,7 +7724,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-020-00957-z
   program:
     collection: environmental_system_science_sfas
     id: nmdc_sfas_brcs:watershed_function
@@ -7766,7 +7766,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-020-00957-z
   program:
     collection: environmental_system_science_sfas
     id: nmdc_sfas_brcs:watershed_function
@@ -8254,7 +8254,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -8332,7 +8332,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -8371,7 +8371,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -8408,7 +8408,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -8850,7 +8850,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -8930,7 +8930,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -8970,7 +8970,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -9012,7 +9012,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1128/mSystems.01306-20
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:pmi
@@ -9088,7 +9088,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -10586,7 +10586,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -10664,7 +10664,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -10703,7 +10703,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -10740,7 +10740,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -11181,7 +11181,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -11263,7 +11263,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -11304,7 +11304,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -11343,7 +11343,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -11660,7 +11660,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -11705,7 +11705,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -11745,7 +11745,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1128/mSystems.01306-20
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:pmi
@@ -12079,7 +12079,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1128/mSystems.01306-20
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:pmi
@@ -12239,7 +12239,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-020-00957-z
   program:
     collection: environmental_system_science_sfas
     id: nmdc_sfas_brcs:watershed_function
@@ -12983,7 +12983,7 @@ records:
     - PRJNA561781
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-023-01646-3
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13358,7 +13358,7 @@ records:
     - PRJNA741261
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1111/gcbb.12917
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13401,7 +13401,7 @@ records:
     - PRJNA1080623
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.soilbio.2024.109370
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13582,7 +13582,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13633,7 +13633,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -13798,7 +13798,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -13839,7 +13839,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13878,7 +13878,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -13917,7 +13917,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -14040,7 +14040,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1128/mSystems.01306-20
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:pmi
@@ -14678,7 +14678,7 @@ records:
     - PRJNA892137
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s13068-023-02302-6
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -15161,7 +15161,7 @@ records:
     - PRJNA1080623
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.soilbio.2024.109370
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -15245,7 +15245,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -16209,7 +16209,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -16473,7 +16473,7 @@ records:
     - PRJNA741261
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1111/gcbb.12917
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -16906,7 +16906,7 @@ records:
     - PRJNA561781
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-023-01646-3
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -17066,7 +17066,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -17382,7 +17382,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -17762,7 +17762,7 @@ records:
     - PRJNA741261
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1111/gcbb.12917
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -18015,7 +18015,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -18182,7 +18182,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -18425,7 +18425,7 @@ records:
     - PRJNA1080623
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1016/j.soilbio.2024.109370
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -18667,7 +18667,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -19421,7 +19421,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -19464,7 +19464,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -19507,7 +19507,7 @@ records:
     - PRJNA784967
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-12-21-0076-R
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cbi
@@ -19548,7 +19548,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -20042,7 +20042,7 @@ records:
     - PRJNA733764
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40793-023-00504-x
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:glbrc
@@ -20120,7 +20120,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -20157,7 +20157,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1038/s41564-019-0449-y
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:mcafes
@@ -20476,7 +20476,7 @@ records:
     - PRJNA601860
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -20929,7 +20929,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1093/ismejo/wraf093
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -21393,7 +21393,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1093/ismejo/wraf093
   program:
     collection: genomic_science_sfas
     id: nmdc_sfas_brcs:enigma
@@ -21927,7 +21927,7 @@ records:
     bioproject_ids: []
     doi: null
     url: null
-    primary_reference: null
+    primary_reference: doi:10.1186/s40168-020-00957-z
   program:
     collection: environmental_system_science_sfas
     id: nmdc_sfas_brcs:watershed_function

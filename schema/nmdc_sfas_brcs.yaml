@@ -6482,7 +6482,7 @@ classes:
     class_uri: nmdc_sfas_brcs:Instrument
 metamodel_version: 1.7.0
 source_file: nmdc_sfas_brcs.yaml
-source_file_date: '2026-05-05T06:34:14'
+source_file_date: '2026-05-05T06:51:16'
 source_file_size: 102211
-generation_date: '2026-05-05T06:34:29'
+generation_date: '2026-05-05T06:51:30'
 

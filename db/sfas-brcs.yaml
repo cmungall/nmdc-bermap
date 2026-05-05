@@ -1697,8 +1697,8 @@ bioenergy_research_centers:
       supporting_text: DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional
         regulators of aromatic metabolism in Novosphingobium aromaticivorans
   - id: doi:10.1039/C8GC03504K
-    title: Funneling aromatic products of chemically depolymerized lignin into 2-pyrone-4,6-dicarboxylic
-      acid with Novosphingobium aromaticivorans
+    title: Funneling aromatic products of chemically depolymerized lignin into 2-pyrone-4-6-dicarboxylic
+      acid with<i>Novosphingobium aromaticivorans</i>
     findings:
     - statement: Engineered N. aromaticivorans DSM12444 funnels heterogeneous lignin-derived aromatics
         into a single product, 2-pyrone-4,6-dicarboxylic acid (PDC), a precursor for polyesters and
@@ -1708,21 +1708,21 @@ bioenergy_research_centers:
         simultaneously metabolize G, S, and H lignin-derived monomers and oligomers
       reference: doi:10.1039/C8GC03504K
   - id: doi:10.1128/mbio.01718-24
-    title: Catabolism of beta-5 linked aromatics by Novosphingobium aromaticivorans
+    title: Catabolism of β-5 linked aromatics by <i>Novosphingobium aromaticivorans</i>
     findings:
     - statement: N. aromaticivorans catabolizes beta-5 linked lignin dimers, expanding the range of
         lignin depolymerization products that can be funneled into valuable chemicals
       reference: doi:10.1128/mbio.01718-24
   - id: doi:10.1039/D4GC01975J
     title: Achieving high productivity of 2-pyrone-4,6-dicarboxylic acid from aqueous aromatic streams
-      with Novosphingobium aromaticivorans
+      with <i>Novosphingobium aromaticivorans</i>
     findings:
     - statement: Demonstrated high-productivity PDC production from aqueous aromatic streams, advancing
         N. aromaticivorans toward industrial-scale lignin valorization
       reference: doi:10.1039/D4GC01975J
   - id: doi:10.1128/aem.02081-24
-    title: Laboratory evolution in Novosphingobium aromaticivorans enables rapid catabolism of a model
-      lignin-derived aromatic dimer
+    title: Laboratory evolution in <i>Novosphingobium aromaticivorans</i> enables rapid catabolism
+      of a model lignin-derived aromatic dimer
     findings:
     - statement: Adaptive laboratory evolution generated N. aromaticivorans strains with improved catabolism
         of guaiacylglycerol-beta-guaiacyl ether (GGE), a model lignin dimer with a beta-O-4 linkage
@@ -1730,16 +1730,16 @@ bioenergy_research_centers:
     - statement: Identified causal mutation in an uncharacterized gene that doubled growth yield on GGE,
         with the encoded enzyme oxidizing beta-hydroxypropiovanillone to vanilloyl acetaldehyde
       reference: doi:10.1128/aem.02081-24
-  - id: doi:10.1128/msystems.00187-22
+  - id: doi:10.3390/metabo12040366
     title: 'iNovo479: Metabolic Modeling Provides a Roadmap to Optimize Bioproduct Yield from Deconstructed
       Lignin Aromatics by Novosphingobium aromaticivorans'
     findings:
     - statement: Genome-scale metabolic model iNovo479 predicts product yields from single or multiple
         lignin-derived aromatics and guides engineering of N. aromaticivorans for lignin valorization
-      reference: doi:10.1128/msystems.00187-22
+      reference: doi:10.3390/metabo12040366
   - id: doi:10.1128/aem.01268-23
-    title: Production of carotenoids from aromatics and pretreated lignocellulosic biomass by Novosphingobium
-      aromaticivorans
+    title: Production of carotenoids from aromatics and pretreated lignocellulosic biomass by
+      <i>Novosphingobium aromaticivorans</i>
     findings:
     - statement: Engineered N. aromaticivorans produces carotenoids (beta-carotene, zeaxanthin, astaxanthin)
         concurrently with PDC from alkaline pretreated lignocellulosic biomass
@@ -2175,7 +2175,7 @@ bioenergy_research_centers:
     findings:
     - statement: HTME platform electroporates 384 wells in under one minute with individual well control, enabling high-throughput strain construction for ML-guided metabolic engineering
   - id: doi:10.1126/sciadv.adj0053
-    title: Lignin conversion to beta-ketoadipic acid by Pseudomonas putida via metabolic engineering
+    title: Lignin conversion to β-ketoadipic acid by <i>Pseudomonas putida</i> via metabolic engineering
       and bioprocess development
     findings:
     - statement: Engineered P. putida KT2440 converts mixed lignin-derived aromatics to beta-ketoadipic
@@ -2185,16 +2185,16 @@ bioenergy_research_centers:
     - statement: Technoeconomic analysis predicts a minimum selling price of $2.01/kg for beta-ketoadipate,
         cost-competitive with fossil-derived adipic acid
       reference: doi:10.1126/sciadv.adj0053
-  - id: doi:10.1016/j.meteng.2021.02.004
+  - id: doi:10.1016/j.ymben.2021.02.005
     title: Metabolism of syringyl lignin-derived compounds in Pseudomonas putida enables convergent
       production of 2-pyrone-4,6-dicarboxylic acid
     findings:
     - statement: Engineered P. putida converges S-lignin-derived aromatics into 2-pyrone-4,6-dicarboxylic
         acid (PDC), expanding biological funneling beyond G-lignin substrates
-      reference: doi:10.1016/j.meteng.2021.02.004
+      reference: doi:10.1016/j.ymben.2021.02.005
   - id: doi:10.1039/d0gc01663b
-    title: Generation of ionic liquid tolerant Pseudomonas putida KT2440 strains via adaptive laboratory
-      evolution
+    title: Generation of ionic liquid tolerant <i>Pseudomonas putida</i> KT2440 strains <i>via</i>
+      adaptive laboratory evolution
     findings:
     - statement: Adaptive laboratory evolution generated P. putida strains tolerant to ionic liquids
         used in biomass pretreatment, enabling one-pot bioprocessing of IL-treated lignocellulose
@@ -2203,7 +2203,7 @@ bioenergy_research_centers:
         with mutations in efflux pump emrE and glyoxylate cycle regulator PP_5350
       reference: doi:10.1039/d0gc01663b
   - id: doi:10.1021/acssuschemeng.1c00933
-    title: Muconic Acid Production Using Engineered Pseudomonas putida KT2440 and a Guaiacol-Rich
+    title: Muconic Acid Production Using Engineered <i>Pseudomonas putida</i> KT2440 and a Guaiacol-Rich
       Fraction Derived from Kraft Lignin
     findings:
     - statement: Engineered P. putida produces cis,cis-muconic acid from guaiacol derived from kraft
@@ -3430,14 +3430,14 @@ bioenergy_research_centers:
     - statement: C. bescii with C. thermocellum adhE gene produces ethanol directly from unpretreated
         plant biomass, bypassing costly pretreatment steps for lignin-rich feedstocks
       reference: doi:10.1038/s41467-019-11376-6
-  - id: doi:10.1016/j.biortech.2023.129189
+  - id: doi:10.1016/j.biortech.2023.129263
     title: Rewiring metabolism of Clostridium thermocellum for consolidated bioprocessing of lignocellulosic
       biomass poplar to produce short-chain esters
     findings:
     - statement: Engineered C. thermocellum produces short-chain esters directly from poplar biomass
         via consolidated bioprocessing, with up to 80-fold improvement through carbohydrate esterase
         deletion and alcohol acetyltransferase overexpression
-      reference: doi:10.1016/j.biortech.2023.129189
+      reference: doi:10.1016/j.biortech.2023.129263
   - id: doi:10.1038/s41563-024-02024-6
     title: Lignin deoxygenation for the production of sustainable aviation fuel blendstocks
     findings:
@@ -6700,7 +6700,7 @@ genomic_science_sfas:
     findings:
     - statement: Multiscale measurements and simulations can connect co-solvent pretreatment chemistry to biomass deconstruction mechanisms.
   - id: doi:10.1021/acssuschemeng.2c06876
-    title: Amphiphilic co-solvents modulate structure of membrane domains
+    title: Amphiphilic Co-Solvents Modulate the Structure of Membrane Domains
     findings:
     - statement: Amphiphilic co-solvents alter membrane-domain structure relevant to microbial solvent tolerance.
 - id: nmdc_sfas_brcs:persistence_control
@@ -8748,7 +8748,7 @@ genomic_science_sfas:
     findings:
     - statement: Overlapping-gene sequence entanglement can improve genetic circuit stability for biocontainment.
   - id: doi:10.1021/acssynbio.2c00386
-    title: Comparison of kill switch toxins in plant-beneficial Pseudomonas fluorescens reveals drivers of lethality, stability, and escape
+    title: Comparison of Kill Switch Toxins in Plant-Beneficial <i>Pseudomonas fluorescens</i> Reveals Drivers of Lethality, Stability, and Escape
     findings:
     - statement: Kill-switch performance in plant-beneficial Pseudomonas depends on toxin choice, stability, and escape mechanisms.
 environmental_system_science_sfas:
@@ -11502,8 +11502,7 @@ other_programs:
     primary_reference_info:
       reference:
         id: doi:10.1101/2024.12.11.628001
-        title: >
-          Synergy and antagonism in a genome-scale model of metabolic hijacking by bacteriophage
+        title: Synergy and antagonism in a genome-scale model of metabolic hijacking by bacteriophages
     study_design:
       design_types:
       - id: OBI:0500000
@@ -11844,10 +11843,10 @@ other_programs:
       data to graphs for feature-based classification. Used for cryo-ET analysis in NW-BRaVE.
   key_publications:
   - id: doi:10.1002/pro.4822
-    title: >
-      PTM-Psi: A python package to facilitate the computational investigation of
-      post-translational modification on protein structures and their impacts on
-      dynamics and functions
+    title: '<scp><i>PTM‐Psi</i></scp>: A python package to facilitate the computational investigation
+      of <scp><i>p</i></scp>ost‐<scp><i>t</i></scp>ranslational <scp><i>m</i></scp>odification
+      on <scp><i>p</i></scp>rotein <scp><i>s</i></scp>tructures and their <scp><i>i</i></scp>mpacts
+      on dynamics and functions'
 - id: nmdc_sfas_brcs:brave_phage_foundry
   name: "Phage Foundry: High-Throughput Platform for Rapid Design of Countermeasures Against Drug-Resistant Pathogens"
   acronym: PhageFoundry

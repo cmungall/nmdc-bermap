@@ -465,6 +465,25 @@ a:hover {
     font-size: 0.85em;
 }
 
+.mapping-relation {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mapping-note {
+    display: block;
+    margin: 3px 0 0 46px;
+    color: var(--text-muted);
+    font-size: 0.85em;
+}
+
 /* Variable browser */
 .variable-summary-grid {
     display: grid;
@@ -741,11 +760,11 @@ a:hover {
 
 <section class="variable-summary-grid">
     <div class="summary-card">
-        <span class="summary-number">540</span>
+        <span class="summary-number">547</span>
         <span class="summary-label">Variables</span>
     </div>
     <div class="summary-card">
-        <span class="summary-number">533</span>
+        <span class="summary-number">540</span>
         <span class="summary-label">Study variables</span>
     </div>
     <div class="summary-card">
@@ -757,7 +776,7 @@ a:hover {
         <span class="summary-label">BERVO terms</span>
     </div>
     <div class="summary-card">
-        <span class="summary-number">519</span>
+        <span class="summary-number">526</span>
         <span class="summary-label">Need BERVO review</span>
     </div>
 </section>
@@ -1057,6 +1076,8 @@ a:hover {
         <details class="bervo-group" open>
             <summary>
                 <a href="https://w3id.org/bervo/BERVO_0000326" target="_blank" class="ontology-term">total canopy net CO2 exchange <span>BERVO:0000326</span></a>
+<span class="mapping-relation">close match</span>
+<span class="mapping-note">BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here are treated as ecosystem-atmosphere carbon dioxide exchange.</span>
 
                 <span class="section-count">1</span>
             </summary>
@@ -1094,6 +1115,8 @@ a:hover {
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000326" target="_blank" class="ontology-term">total canopy net CO2 exchange <span>BERVO:0000326</span></a>
+<span class="mapping-relation">close match</span>
+<span class="mapping-note">BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here are treated as ecosystem-atmosphere carbon dioxide exchange.</span>
 </div>
     </div>
 </article>
@@ -1631,7 +1654,7 @@ a:hover {
 </details>
 
 <details class="category variable-browser">
-    <summary>Variables Without BERVO Mapping (519)</summary>
+    <summary>Variables Without BERVO Mapping (526)</summary>
     <div class="category-content variable-index-list">
         <article class="variable-index-item" id="nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-16s-community-profile">
     <header class="variable-index-header">
@@ -2485,6 +2508,35 @@ a:hover {
     </div>
 </article>
 
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-barcode-to-locus-map">
+    <header class="variable-index-header">
+        <div>
+            <h3>barcode-to-locus map</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function">Mutant phenotypes for thousands of bacterial genes of unknown function</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Array</span>
+    </header>
+
+    <p class="compact-description">Mapping from each library&#39;s random 20-bp barcodes to the transposon insertion sites in the parent genome, established once per organism by a single TnSeq (transposon-junction sequencing) run.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Identifier</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Method</dt><dd>TnSeq (transposon-junction sequencing)</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
         <article class="variable-index-item" id="nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-belowground-compartment">
     <header class="variable-index-header">
         <div>
@@ -3326,6 +3378,36 @@ a:hover {
         <div><dt>Matrix</dt><dd>soil, sediment, water, or atmosphere</dd></div>
         <div><dt>Time series</dt><dd>yes</dd></div>
         <div><dt>Fields</dt><dd>carbon_oxidation, co2_flux, methane_flux, greenhouse_gas_flux</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-carbon-source">
+    <header class="variable-index-header">
+        <div>
+            <h3>carbon source</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons">Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Defined carbon source in minimal medium.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Experimental Factor</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>carbon source compound</dd></div>
+        <div><dt>Levels</dt><dd>(carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose)</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -8400,6 +8482,36 @@ a:hover {
     </div>
 </article>
 
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-growth-condition">
+    <header class="variable-index-header">
+        <div>
+            <h3>growth condition</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function">Mutant phenotypes for thousands of bacterial genes of unknown function</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other stressor) applied to each library aliquot.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Experimental Factor</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>defined growth condition (selective agent)</dd></div>
+        <div><dt>Levels</dt><dd>carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol), nitrogen source, metal stressor, antibiotic, other defined inhibitor</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
         <article class="variable-index-item" id="nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-growth-container">
     <header class="variable-index-header">
         <div>
@@ -12322,6 +12434,67 @@ a:hover {
         <div><dt>Entity</dt><dd>continental-scale soil carbon dynamics estimate</dd></div>
         <div><dt>Method</dt><dd>pedotransfer function</dd></div>
         <div><dt>Fields</dt><dd>pedotransfer_output, upscaled_estimate, soil_property_prediction</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-per-gene-fitness-value">
+    <header class="variable-index-header">
+        <div>
+            <h3>per-gene fitness value</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function">Mutant phenotypes for thousands of bacterial genes of unknown function</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Numeric</span>
+    </header>
+
+    <p class="compact-description">log2(end-of-experiment barcode abundance / Time0 abundance) per insertion-bearing gene, with a t-like statistic for confidence.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Measured Variable</span>
+    <span class="chip variable-role">Study Design Dependent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>bacterial gene</dd></div>
+        <div><dt>Method</dt><dd>BarSeq amplicon read counting, normalized</dd></div>
+        <div><dt>Units</dt><dd>log2 fold change</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-per-gene-fitness-value">
+    <header class="variable-index-header">
+        <div>
+            <h3>per-gene fitness value</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons">Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Numeric</span>
+    </header>
+
+    <p class="compact-description">log2(end/Time0) per gene with t-like statistic.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Measured Variable</span>
+    <span class="chip variable-role">Study Design Dependent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Method</dt><dd>BarSeq amplicon read counting, normalized</dd></div>
+        <div><dt>Units</dt><dd>log2 fold change</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -17654,6 +17827,65 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
 </div>
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-test-bacterial-species">
+    <header class="variable-index-header">
+        <div>
+            <h3>test bacterial species</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function">Mutant phenotypes for thousands of bacterial genes of unknown function</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Bacterial species used as the parent strain for RB-TnSeq library construction and fitness profiling.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Experimental Factor</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>bacterial species</dd></div>
+        <div><dt>Levels</dt><dd>Escherichia coli BW25113, Pseudomonas fluorescens FW300-N2E2, Shewanella oneidensis MR-1, (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-test-bacterial-species">
+    <header class="variable-index-header">
+        <div>
+            <h3>test bacterial species</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons">Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons</a>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:enigma">ENIGMA</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Parent strain used for RB-TnSeq library construction.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Experimental Factor</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Levels</dt><dd>Escherichia coli K-12 (BW25113), Phaeobacter inhibens DSM 17395, Pseudomonas stutzeri RCH2, Shewanella amazonensis SB2B, Shewanella oneidensis MR-1</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
     </div>
 </article>
 

@@ -30,6 +30,9 @@ prefixes:
   rdfs:
     prefix_prefix: rdfs
     prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  skos:
+    prefix_prefix: skos
+    prefix_reference: http://www.w3.org/2004/02/skos/core#
   orcid:
     prefix_prefix: orcid
     prefix_reference: https://orcid.org/
@@ -859,6 +862,36 @@ enums:
       OBJECT:
         text: OBJECT
         description: Structured object or nested record
+  OntologyMappingRelation:
+    name: OntologyMappingRelation
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/OntologyMappingRelation
+    description: SSSOM/SKOS mapping predicate used to qualify how a local variable,
+      field, or data-dictionary entry maps to an ontology term.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      EXACT_MATCH:
+        text: EXACT_MATCH
+        description: The local variable and ontology term can be used interchangeably
+          in this context.
+        title: exact match
+      CLOSE_MATCH:
+        text: CLOSE_MATCH
+        description: The local variable and ontology term are sufficiently similar
+          for many uses but should not be treated as exact equivalents.
+        title: close match
+      BROAD_MATCH:
+        text: BROAD_MATCH
+        description: The ontology term is broader than the local variable.
+        title: broad match
+      NARROW_MATCH:
+        text: NARROW_MATCH
+        description: The ontology term is narrower than the local variable.
+        title: narrow match
+      RELATED_MATCH:
+        text: RELATED_MATCH
+        description: The local variable and ontology term are associated but not equivalent
+          or hierarchical.
+        title: related match
   StudyDesignTerm:
     name: StudyDesignTerm
     definition_uri: https://w3id.org/nmdc/sfas-brcs/StudyDesignTerm
@@ -3676,6 +3709,30 @@ slots:
     - OntologyTerm
     range: string
     required: true
+  ontologyTerm__mapping_relation:
+    name: ontologyTerm__mapping_relation
+    description: SSSOM/SKOS mapping predicate describing how the local variable or
+      field maps to this ontology term. The local variable is the subject and the
+      ontology term is the object; for example, NARROW_MATCH means the ontology term
+      is narrower than the local variable.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:mapping_relation
+    alias: mapping_relation
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: OntologyMappingRelation
+  ontologyTerm__mapping_note:
+    name: ontologyTerm__mapping_note
+    description: Curator note explaining the scope or uncertainty of this ontology
+      mapping
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:mapping_note
+    alias: mapping_note
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: string
   finding__reference:
     name: finding__reference
     implements:
@@ -5696,6 +5753,8 @@ classes:
     slots:
     - ontologyTerm__id
     - ontologyTerm__label
+    - ontologyTerm__mapping_relation
+    - ontologyTerm__mapping_note
     attributes:
       id:
         name: id
@@ -5710,6 +5769,18 @@ classes:
         description: Human-readable ontology term label
         range: string
         required: true
+      mapping_relation:
+        name: mapping_relation
+        description: SSSOM/SKOS mapping predicate describing how the local variable
+          or field maps to this ontology term. The local variable is the subject and
+          the ontology term is the object; for example, NARROW_MATCH means the ontology
+          term is narrower than the local variable.
+        range: OntologyMappingRelation
+      mapping_note:
+        name: mapping_note
+        description: Curator note explaining the scope or uncertainty of this ontology
+          mapping
+        range: string
     class_uri: nmdc_sfas_brcs:OntologyTerm
   BERVOTerm:
     name: BERVOTerm
@@ -5719,6 +5790,8 @@ classes:
     is_a: OntologyTerm
     slots:
     - ontologyTerm__label
+    - ontologyTerm__mapping_relation
+    - ontologyTerm__mapping_note
     - BERVOTerm_id
     slot_usage:
       id:
@@ -5735,6 +5808,8 @@ classes:
     is_a: OntologyTerm
     slots:
     - ontologyTerm__label
+    - ontologyTerm__mapping_relation
+    - ontologyTerm__mapping_note
     - MIXSTerm_id
     slot_usage:
       id:
@@ -6482,7 +6557,7 @@ classes:
     class_uri: nmdc_sfas_brcs:Instrument
 metamodel_version: 1.7.0
 source_file: nmdc_sfas_brcs.yaml
-source_file_date: '2026-05-03T18:02:43'
-source_file_size: 102211
-generation_date: '2026-05-03T18:07:33'
+source_file_date: '2026-05-05T08:39:28'
+source_file_size: 103754
+generation_date: '2026-05-05T08:40:17'
 

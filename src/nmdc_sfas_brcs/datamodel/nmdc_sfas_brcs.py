@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2026-05-04T13:27:38
+# Generation date: 2026-05-19T20:51:07
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -83,6 +83,7 @@ PMID = CurieNamespace('pmid', 'https://www.ncbi.nlm.nih.gov/pubmed/')
 RDFS = CurieNamespace('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
 ROR = CurieNamespace('ror', 'https://ror.org/')
 SCHEMA = CurieNamespace('schema', 'http://schema.org/')
+SKOS = CurieNamespace('skos', 'http://www.w3.org/2004/02/skos/core#')
 DEFAULT_ = NMDC_SFAS_BRCS
 
 
@@ -291,6 +292,7 @@ class ResearchProgram(NamedThing):
     established: Optional[int] = None
     collaborators: Optional[str] = None
     isolate_collections: Optional[Union[Union[dict, "IsolateCollection"], list[Union[dict, "IsolateCollection"]]]] = empty_list()
+    research_resources: Optional[Union[Union[dict, "ResearchResource"], list[Union[dict, "ResearchResource"]]]] = empty_list()
     phenotype_assays: Optional[Union[Union[str, "PhenotypeAssayType"], list[Union[str, "PhenotypeAssayType"]]]] = empty_list()
 
     def __post_init__(self, *_: str, **kwargs: Any):
@@ -391,6 +393,10 @@ class ResearchProgram(NamedThing):
         if not isinstance(self.isolate_collections, list):
             self.isolate_collections = [self.isolate_collections] if self.isolate_collections is not None else []
         self.isolate_collections = [v if isinstance(v, IsolateCollection) else IsolateCollection(**as_dict(v)) for v in self.isolate_collections]
+
+        if not isinstance(self.research_resources, list):
+            self.research_resources = [self.research_resources] if self.research_resources is not None else []
+        self.research_resources = [v if isinstance(v, ResearchResource) else ResearchResource(**as_dict(v)) for v in self.research_resources]
 
         if not isinstance(self.phenotype_assays, list):
             self.phenotype_assays = [self.phenotype_assays] if self.phenotype_assays is not None else []
@@ -581,6 +587,7 @@ class UserFacility(NamedThing):
     flagship_genomes: Optional[Union[Union[dict, "FlagshipGenome"], list[Union[dict, "FlagshipGenome"]]]] = empty_list()
     reference_data: Optional[Union[dict, "ReferenceData"]] = None
     supported_data_types: Optional[Union[str, list[str]]] = empty_list()
+    research_resources: Optional[Union[Union[dict, "ResearchResource"], list[Union[dict, "ResearchResource"]]]] = empty_list()
 
     def __post_init__(self, *_: str, **kwargs: Any):
         if self._is_empty(self.id):
@@ -631,6 +638,10 @@ class UserFacility(NamedThing):
         if not isinstance(self.supported_data_types, list):
             self.supported_data_types = [self.supported_data_types] if self.supported_data_types is not None else []
         self.supported_data_types = [v if isinstance(v, str) else str(v) for v in self.supported_data_types]
+
+        if not isinstance(self.research_resources, list):
+            self.research_resources = [self.research_resources] if self.research_resources is not None else []
+        self.research_resources = [v if isinstance(v, ResearchResource) else ResearchResource(**as_dict(v)) for v in self.research_resources]
 
         super().__post_init__(**kwargs)
 
@@ -1144,6 +1155,8 @@ class OntologyTerm(YAMLRoot):
 
     id: Union[str, OntologyTermId] = None
     label: str = None
+    mapping_relation: Optional[Union[str, "OntologyMappingRelation"]] = None
+    mapping_note: Optional[str] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
         if self._is_empty(self.id):
@@ -1155,6 +1168,12 @@ class OntologyTerm(YAMLRoot):
             self.MissingRequiredField("label")
         if not isinstance(self.label, str):
             self.label = str(self.label)
+
+        if self.mapping_relation is not None and not isinstance(self.mapping_relation, OntologyMappingRelation):
+            self.mapping_relation = OntologyMappingRelation(self.mapping_relation)
+
+        if self.mapping_note is not None and not isinstance(self.mapping_note, str):
+            self.mapping_note = str(self.mapping_note)
 
         super().__post_init__(**kwargs)
 
@@ -1342,11 +1361,119 @@ class ProgramOutputs(YAMLRoot):
 
 
 @dataclass(repr=False)
-class IsolateCollection(YAMLRoot):
+class ResearchResource(YAMLRoot):
+    """
+    A large-grain research resource maintained or produced by a research program: an isolate collection, mutant
+    library, phage bank, reference genome set, plasmid collection, synthetic community, knowledgebase, or similar
+    reagent or data resource. Catalog-level metadata only; detailed records are expected to live in external systems
+    referenced via identifiers. IsolateCollection is a subtype; other resource kinds are distinguished by the
+    resource_type discriminator rather than by proliferating subclasses.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["ResearchResource"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:ResearchResource"
+    class_name: ClassVar[str] = "ResearchResource"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.ResearchResource
+
+    name: Optional[str] = None
+    description: Optional[str] = None
+    primary_reference: Optional[Union[str, URIorCURIE]] = None
+    resource_type: Optional[Union[str, "ResourceType"]] = None
+    identifiers: Optional[Union[Union[dict, "ResourceIdentifier"], list[Union[dict, "ResourceIdentifier"]]]] = empty_list()
+    provider: Optional[str] = None
+    url: Optional[Union[str, URI]] = None
+    count: Optional[str] = None
+    members: Optional[Union[str, list[str]]] = empty_list()
+    member_count: Optional[int] = None
+    primary_reference_info: Optional[Union[dict, PrimaryReferenceInfo]] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self.name is not None and not isinstance(self.name, str):
+            self.name = str(self.name)
+
+        if self.description is not None and not isinstance(self.description, str):
+            self.description = str(self.description)
+
+        if self.primary_reference is not None and not isinstance(self.primary_reference, URIorCURIE):
+            self.primary_reference = URIorCURIE(self.primary_reference)
+
+        if self.resource_type is not None and not isinstance(self.resource_type, ResourceType):
+            self.resource_type = ResourceType(self.resource_type)
+
+        if not isinstance(self.identifiers, list):
+            self.identifiers = [self.identifiers] if self.identifiers is not None else []
+        self.identifiers = [v if isinstance(v, ResourceIdentifier) else ResourceIdentifier(**as_dict(v)) for v in self.identifiers]
+
+        if self.provider is not None and not isinstance(self.provider, str):
+            self.provider = str(self.provider)
+
+        if self.url is not None and not isinstance(self.url, URI):
+            self.url = URI(self.url)
+
+        if self.count is not None and not isinstance(self.count, str):
+            self.count = str(self.count)
+
+        if not isinstance(self.members, list):
+            self.members = [self.members] if self.members is not None else []
+        self.members = [v if isinstance(v, str) else str(v) for v in self.members]
+
+        if self.member_count is not None and not isinstance(self.member_count, int):
+            self.member_count = int(self.member_count)
+
+        if self.primary_reference_info is not None and not isinstance(self.primary_reference_info, PrimaryReferenceInfo):
+            self.primary_reference_info = PrimaryReferenceInfo(**as_dict(self.primary_reference_info))
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class ResourceIdentifier(YAMLRoot):
+    """
+    A typed external identifier for a research resource: a {registry, accession} tuple with an optional resolvable URL
+    and citation. Used to point at a resource's record in any external catalog or registry — examples include Addgene,
+    BEI, ATCC, DSMZ, KBase narrative IDs, NCBI:Assembly accessions, a Fitness Browser organism ID, an RRID, or a lab
+    catalog identifier.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["ResourceIdentifier"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:ResourceIdentifier"
+    class_name: ClassVar[str] = "ResourceIdentifier"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.ResourceIdentifier
+
+    registry: str = None
+    accession: str = None
+    url: Optional[Union[str, URI]] = None
+    citation: Optional[Union[str, URIorCURIE]] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.registry):
+            self.MissingRequiredField("registry")
+        if not isinstance(self.registry, str):
+            self.registry = str(self.registry)
+
+        if self._is_empty(self.accession):
+            self.MissingRequiredField("accession")
+        if not isinstance(self.accession, str):
+            self.accession = str(self.accession)
+
+        if self.url is not None and not isinstance(self.url, URI):
+            self.url = URI(self.url)
+
+        if self.citation is not None and not isinstance(self.citation, URIorCURIE):
+            self.citation = URIorCURIE(self.citation)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class IsolateCollection(ResearchResource):
     """
     A collection of cultured microbial isolates maintained by a research program. Provides catalog-level metadata
     about the collection; detailed isolate records are maintained in external systems (KBase, JGI, culture
-    collections).
+    collections). Subtype of ResearchResource; other resource kinds (mutant libraries, phage banks, knowledgebases)
+    are modeled as ResearchResource directly using the resource_type discriminator.
     """
     _inherited_slots: ClassVar[list[str]] = []
 
@@ -1562,6 +1689,7 @@ class StudyDesign(YAMLRoot):
 
     description: Optional[str] = None
     design_types: Optional[Union[dict[Union[str, OntologyTermId], Union[dict, OntologyTerm]], list[Union[dict, OntologyTerm]]]] = empty_dict()
+    factor_panels: Optional[Union[str, list[str]]] = empty_list()
     experimental_units: Optional[Union[str, list[str]]] = empty_list()
     observational_units: Optional[Union[str, list[str]]] = empty_list()
     sampling_strategy: Optional[str] = None
@@ -1576,6 +1704,10 @@ class StudyDesign(YAMLRoot):
             self.description = str(self.description)
 
         self._normalize_inlined_as_list(slot_name="design_types", slot_type=OntologyTerm, key_name="id", keyed=True)
+
+        if not isinstance(self.factor_panels, list):
+            self.factor_panels = [self.factor_panels] if self.factor_panels is not None else []
+        self.factor_panels = [v if isinstance(v, str) else str(v) for v in self.factor_panels]
 
         if not isinstance(self.experimental_units, list):
             self.experimental_units = [self.experimental_units] if self.experimental_units is not None else []
@@ -2536,6 +2668,37 @@ class VariableValueType(EnumDefinitionImpl):
         description="Basic value shape for variables",
     )
 
+class OntologyMappingRelation(EnumDefinitionImpl):
+    """
+    SSSOM/SKOS mapping predicate used to qualify how a local variable, field, or data-dictionary entry maps to an
+    ontology term.
+    """
+    EXACT_MATCH = PermissibleValue(
+        text="EXACT_MATCH",
+        title="exact match",
+        description="The local variable and ontology term can be used interchangeably in this context.")
+    CLOSE_MATCH = PermissibleValue(
+        text="CLOSE_MATCH",
+        title="close match",
+        description="""The local variable and ontology term are sufficiently similar for many uses but should not be treated as exact equivalents.""")
+    BROAD_MATCH = PermissibleValue(
+        text="BROAD_MATCH",
+        title="broad match",
+        description="The ontology term is broader than the local variable.")
+    NARROW_MATCH = PermissibleValue(
+        text="NARROW_MATCH",
+        title="narrow match",
+        description="The ontology term is narrower than the local variable.")
+    RELATED_MATCH = PermissibleValue(
+        text="RELATED_MATCH",
+        title="related match",
+        description="The local variable and ontology term are associated but not equivalent or hierarchical.")
+
+    _defn = EnumDefinition(
+        name="OntologyMappingRelation",
+        description="""SSSOM/SKOS mapping predicate used to qualify how a local variable, field, or data-dictionary entry maps to an ontology term.""",
+    )
+
 class StudyDesignTerm(EnumDefinitionImpl):
     """
     OBI study design terms
@@ -3339,6 +3502,51 @@ class NMDCIngestPriority(EnumDefinitionImpl):
         description="""Priority level for considering a study/dataset for NMDC ingest. Used to help prioritize which external datasets should be targeted for ingestion into the National Microbiome Data Collaborative.""",
     )
 
+class ResourceType(EnumDefinitionImpl):
+    """
+    Coarse type of a research resource, used as a discriminator on the ResearchResource class. Lets the catalog
+    represent isolate collections, mutant libraries, phage banks, knowledgebases, and similar large-grain reagent or
+    data resources without proliferating subclasses.
+    """
+    ISOLATE_COLLECTION = PermissibleValue(
+        text="ISOLATE_COLLECTION",
+        description="A collection of cultured microbial isolates.")
+    MUTANT_LIBRARY = PermissibleValue(
+        text="MUTANT_LIBRARY",
+        description="""A pooled mutant library, e.g. a randomly-barcoded transposon (RB-TnSeq) insertion library or a CRISPRi library.""")
+    PHAGE_BANK = PermissibleValue(
+        text="PHAGE_BANK",
+        description="A collection of bacteriophage isolates maintained as a reagent bank.")
+    REFERENCE_GENOME_SET = PermissibleValue(
+        text="REFERENCE_GENOME_SET",
+        description="A curated set of reference genomes maintained by a program.")
+    PLASMID_COLLECTION = PermissibleValue(
+        text="PLASMID_COLLECTION",
+        description="A collection of plasmids or other genetic constructs.")
+    SYNTHETIC_COMMUNITY = PermissibleValue(
+        text="SYNTHETIC_COMMUNITY",
+        description="A defined synthetic microbial community maintained as a reagent.")
+    ORGANISM_PANEL = PermissibleValue(
+        text="ORGANISM_PANEL",
+        description="""A defined set of organisms used as an experimental factor across one or more studies (e.g., the LBNL Fitness Browser organism set).""")
+    CONDITION_PANEL = PermissibleValue(
+        text="CONDITION_PANEL",
+        description="""A defined set of growth conditions, media, stressors, or selective agents used as an experimental factor across one or more studies.""")
+    KNOWLEDGEBASE = PermissibleValue(
+        text="KNOWLEDGEBASE",
+        description="""A versioned data resource or knowledgebase produced and maintained by the program (e.g., the LBNL Fitness Browser, the Phage Foundry Knowledge-Base).""")
+    SOFTWARE = PermissibleValue(
+        text="SOFTWARE",
+        description="A software tool or pipeline produced as a research resource.")
+    OTHER = PermissibleValue(
+        text="OTHER",
+        description="A research resource not covered by the above categories.")
+
+    _defn = EnumDefinition(
+        name="ResourceType",
+        description="""Coarse type of a research resource, used as a discriminator on the ResearchResource class. Lets the catalog represent isolate collections, mutant libraries, phage banks, knowledgebases, and similar large-grain reagent or data resources without proliferating subclasses.""",
+    )
+
 class OrganismType(EnumDefinitionImpl):
     """
     Types of organisms in a microbial isolate collection. Used to characterize the taxonomic breadth of culture
@@ -3664,6 +3872,9 @@ slots.collaborators = Slot(uri=NMDC_SFAS_BRCS.collaborators, name="collaborators
 
 slots.isolate_collections = Slot(uri=NMDC_SFAS_BRCS.isolate_collections, name="isolate_collections", curie=NMDC_SFAS_BRCS.curie('isolate_collections'),
                    model_uri=NMDC_SFAS_BRCS.isolate_collections, domain=None, range=Optional[Union[Union[dict, IsolateCollection], list[Union[dict, IsolateCollection]]]])
+
+slots.research_resources = Slot(uri=NMDC_SFAS_BRCS.research_resources, name="research_resources", curie=NMDC_SFAS_BRCS.curie('research_resources'),
+                   model_uri=NMDC_SFAS_BRCS.research_resources, domain=None, range=Optional[Union[Union[dict, ResearchResource], list[Union[dict, ResearchResource]]]])
 
 slots.phenotype_assays = Slot(uri=NMDC_SFAS_BRCS.phenotype_assays, name="phenotype_assays", curie=NMDC_SFAS_BRCS.curie('phenotype_assays'),
                    model_uri=NMDC_SFAS_BRCS.phenotype_assays, domain=None, range=Optional[Union[Union[str, "PhenotypeAssayType"], list[Union[str, "PhenotypeAssayType"]]]])
@@ -3998,6 +4209,12 @@ slots.ontologyTerm__id = Slot(uri=NMDC_SFAS_BRCS.id, name="ontologyTerm__id", cu
 slots.ontologyTerm__label = Slot(uri=NMDC_SFAS_BRCS.label, name="ontologyTerm__label", curie=NMDC_SFAS_BRCS.curie('label'),
                    model_uri=NMDC_SFAS_BRCS.ontologyTerm__label, domain=None, range=str)
 
+slots.ontologyTerm__mapping_relation = Slot(uri=NMDC_SFAS_BRCS.mapping_relation, name="ontologyTerm__mapping_relation", curie=NMDC_SFAS_BRCS.curie('mapping_relation'),
+                   model_uri=NMDC_SFAS_BRCS.ontologyTerm__mapping_relation, domain=None, range=Optional[Union[str, "OntologyMappingRelation"]])
+
+slots.ontologyTerm__mapping_note = Slot(uri=NMDC_SFAS_BRCS.mapping_note, name="ontologyTerm__mapping_note", curie=NMDC_SFAS_BRCS.curie('mapping_note'),
+                   model_uri=NMDC_SFAS_BRCS.ontologyTerm__mapping_note, domain=None, range=Optional[str])
+
 slots.finding__reference = Slot(uri=NMDC_SFAS_BRCS.reference, name="finding__reference", curie=NMDC_SFAS_BRCS.curie('reference'),
                    model_uri=NMDC_SFAS_BRCS.finding__reference, domain=None, range=Optional[Union[str, URIorCURIE]])
 
@@ -4024,6 +4241,42 @@ slots.programOutputs__patents = Slot(uri=NMDC_SFAS_BRCS.patents, name="programOu
 
 slots.programOutputs__startups = Slot(uri=NMDC_SFAS_BRCS.startups, name="programOutputs__startups", curie=NMDC_SFAS_BRCS.curie('startups'),
                    model_uri=NMDC_SFAS_BRCS.programOutputs__startups, domain=None, range=Optional[int])
+
+slots.researchResource__resource_type = Slot(uri=NMDC_SFAS_BRCS.resource_type, name="researchResource__resource_type", curie=NMDC_SFAS_BRCS.curie('resource_type'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__resource_type, domain=None, range=Optional[Union[str, "ResourceType"]])
+
+slots.researchResource__identifiers = Slot(uri=NMDC_SFAS_BRCS.identifiers, name="researchResource__identifiers", curie=NMDC_SFAS_BRCS.curie('identifiers'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__identifiers, domain=None, range=Optional[Union[Union[dict, ResourceIdentifier], list[Union[dict, ResourceIdentifier]]]])
+
+slots.researchResource__provider = Slot(uri=NMDC_SFAS_BRCS.provider, name="researchResource__provider", curie=NMDC_SFAS_BRCS.curie('provider'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__provider, domain=None, range=Optional[str])
+
+slots.researchResource__url = Slot(uri=NMDC_SFAS_BRCS.url, name="researchResource__url", curie=NMDC_SFAS_BRCS.curie('url'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__url, domain=None, range=Optional[Union[str, URI]])
+
+slots.researchResource__count = Slot(uri=NMDC_SFAS_BRCS.count, name="researchResource__count", curie=NMDC_SFAS_BRCS.curie('count'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__count, domain=None, range=Optional[str])
+
+slots.researchResource__members = Slot(uri=NMDC_SFAS_BRCS.members, name="researchResource__members", curie=NMDC_SFAS_BRCS.curie('members'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__members, domain=None, range=Optional[Union[str, list[str]]])
+
+slots.researchResource__member_count = Slot(uri=NMDC_SFAS_BRCS.member_count, name="researchResource__member_count", curie=NMDC_SFAS_BRCS.curie('member_count'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__member_count, domain=None, range=Optional[int])
+
+slots.researchResource__primary_reference_info = Slot(uri=NMDC_SFAS_BRCS.primary_reference_info, name="researchResource__primary_reference_info", curie=NMDC_SFAS_BRCS.curie('primary_reference_info'),
+                   model_uri=NMDC_SFAS_BRCS.researchResource__primary_reference_info, domain=None, range=Optional[Union[dict, PrimaryReferenceInfo]])
+
+slots.resourceIdentifier__registry = Slot(uri=NMDC_SFAS_BRCS.registry, name="resourceIdentifier__registry", curie=NMDC_SFAS_BRCS.curie('registry'),
+                   model_uri=NMDC_SFAS_BRCS.resourceIdentifier__registry, domain=None, range=str)
+
+slots.resourceIdentifier__accession = Slot(uri=NMDC_SFAS_BRCS.accession, name="resourceIdentifier__accession", curie=NMDC_SFAS_BRCS.curie('accession'),
+                   model_uri=NMDC_SFAS_BRCS.resourceIdentifier__accession, domain=None, range=str)
+
+slots.resourceIdentifier__url = Slot(uri=NMDC_SFAS_BRCS.url, name="resourceIdentifier__url", curie=NMDC_SFAS_BRCS.curie('url'),
+                   model_uri=NMDC_SFAS_BRCS.resourceIdentifier__url, domain=None, range=Optional[Union[str, URI]])
+
+slots.resourceIdentifier__citation = Slot(uri=NMDC_SFAS_BRCS.citation, name="resourceIdentifier__citation", curie=NMDC_SFAS_BRCS.curie('citation'),
+                   model_uri=NMDC_SFAS_BRCS.resourceIdentifier__citation, domain=None, range=Optional[Union[str, URIorCURIE]])
 
 slots.isolateCollection__organism_types = Slot(uri=NMDC_SFAS_BRCS.organism_types, name="isolateCollection__organism_types", curie=NMDC_SFAS_BRCS.curie('organism_types'),
                    model_uri=NMDC_SFAS_BRCS.isolateCollection__organism_types, domain=None, range=Optional[Union[Union[str, "OrganismType"], list[Union[str, "OrganismType"]]]])
@@ -4099,6 +4352,9 @@ slots.webReference__summary = Slot(uri=NMDC_SFAS_BRCS.summary, name="webReferenc
 
 slots.studyDesign__design_types = Slot(uri=NMDC_SFAS_BRCS.design_types, name="studyDesign__design_types", curie=NMDC_SFAS_BRCS.curie('design_types'),
                    model_uri=NMDC_SFAS_BRCS.studyDesign__design_types, domain=None, range=Optional[Union[dict[Union[str, OntologyTermId], Union[dict, OntologyTerm]], list[Union[dict, OntologyTerm]]]])
+
+slots.studyDesign__factor_panels = Slot(uri=NMDC_SFAS_BRCS.factor_panels, name="studyDesign__factor_panels", curie=NMDC_SFAS_BRCS.curie('factor_panels'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__factor_panels, domain=None, range=Optional[Union[str, list[str]]])
 
 slots.studyDesign__experimental_units = Slot(uri=NMDC_SFAS_BRCS.experimental_units, name="studyDesign__experimental_units", curie=NMDC_SFAS_BRCS.curie('experimental_units'),
                    model_uri=NMDC_SFAS_BRCS.studyDesign__experimental_units, domain=None, range=Optional[Union[str, list[str]]])

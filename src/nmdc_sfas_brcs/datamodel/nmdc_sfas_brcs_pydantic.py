@@ -125,7 +125,9 @@ linkml_meta = LinkMLMeta({'default_prefix': 'nmdc_sfas_brcs',
                   'ror': {'prefix_prefix': 'ror',
                           'prefix_reference': 'https://ror.org/'},
                   'schema': {'prefix_prefix': 'schema',
-                             'prefix_reference': 'http://schema.org/'}},
+                             'prefix_reference': 'http://schema.org/'},
+                  'skos': {'prefix_prefix': 'skos',
+                           'prefix_reference': 'http://www.w3.org/2004/02/skos/core#'}},
      'see_also': ['https://www.genomicscience.energy.gov',
                   'https://ess.science.energy.gov',
                   'https://science.osti.gov/ber'],
@@ -717,6 +719,32 @@ class VariableValueType(str, Enum):
     OBJECT = "OBJECT"
     """
     Structured object or nested record
+    """
+
+
+class OntologyMappingRelation(str, Enum):
+    """
+    SSSOM/SKOS mapping predicate used to qualify how a local variable, field, or data-dictionary entry maps to an ontology term.
+    """
+    exact_match = "EXACT_MATCH"
+    """
+    The local variable and ontology term can be used interchangeably in this context.
+    """
+    close_match = "CLOSE_MATCH"
+    """
+    The local variable and ontology term are sufficiently similar for many uses but should not be treated as exact equivalents.
+    """
+    broad_match = "BROAD_MATCH"
+    """
+    The ontology term is broader than the local variable.
+    """
+    narrow_match = "NARROW_MATCH"
+    """
+    The ontology term is narrower than the local variable.
+    """
+    related_match = "RELATED_MATCH"
+    """
+    The local variable and ontology term are associated but not equivalent or hierarchical.
     """
 
 
@@ -1645,6 +1673,56 @@ class NMDCIngestPriority(str, Enum):
     """
 
 
+class ResourceType(str, Enum):
+    """
+    Coarse type of a research resource, used as a discriminator on the ResearchResource class. Lets the catalog represent isolate collections, mutant libraries, phage banks, knowledgebases, and similar large-grain reagent or data resources without proliferating subclasses.
+    """
+    ISOLATE_COLLECTION = "ISOLATE_COLLECTION"
+    """
+    A collection of cultured microbial isolates.
+    """
+    MUTANT_LIBRARY = "MUTANT_LIBRARY"
+    """
+    A pooled mutant library, e.g. a randomly-barcoded transposon (RB-TnSeq) insertion library or a CRISPRi library.
+    """
+    PHAGE_BANK = "PHAGE_BANK"
+    """
+    A collection of bacteriophage isolates maintained as a reagent bank.
+    """
+    REFERENCE_GENOME_SET = "REFERENCE_GENOME_SET"
+    """
+    A curated set of reference genomes maintained by a program.
+    """
+    PLASMID_COLLECTION = "PLASMID_COLLECTION"
+    """
+    A collection of plasmids or other genetic constructs.
+    """
+    SYNTHETIC_COMMUNITY = "SYNTHETIC_COMMUNITY"
+    """
+    A defined synthetic microbial community maintained as a reagent.
+    """
+    ORGANISM_PANEL = "ORGANISM_PANEL"
+    """
+    A defined set of organisms used as an experimental factor across one or more studies (e.g., the LBNL Fitness Browser organism set).
+    """
+    CONDITION_PANEL = "CONDITION_PANEL"
+    """
+    A defined set of growth conditions, media, stressors, or selective agents used as an experimental factor across one or more studies.
+    """
+    KNOWLEDGEBASE = "KNOWLEDGEBASE"
+    """
+    A versioned data resource or knowledgebase produced and maintained by the program (e.g., the LBNL Fitness Browser, the Phage Foundry Knowledge-Base).
+    """
+    SOFTWARE = "SOFTWARE"
+    """
+    A software tool or pipeline produced as a research resource.
+    """
+    OTHER = "OTHER"
+    """
+    A research resource not covered by the above categories.
+    """
+
+
 class OrganismType(str, Enum):
     """
     Types of organisms in a microbial isolate collection. Used to characterize the taxonomic breadth of culture collections maintained by research programs.
@@ -1932,6 +2010,7 @@ class NamedThing(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -1943,6 +2022,7 @@ class NamedThing(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -1995,7 +2075,8 @@ class ResearchProgram(NamedThing):
     key_publications: Optional[list[Reference]] = Field(default=[], description="""Key publications from the program with their findings""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     established: Optional[int] = Field(default=None, description="""Year the program was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     collaborators: Optional[str] = Field(default=None, description="""Description of collaborators""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
-    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     phenotype_assays: Optional[list[PhenotypeAssayType]] = Field(default=[], description="""Types of phenotype assays performed by this research program. Catalogs the phenotyping capabilities and data types generated.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     id: str = Field(default=..., description="""A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
@@ -2004,6 +2085,7 @@ class ResearchProgram(NamedThing):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2015,6 +2097,7 @@ class ResearchProgram(NamedThing):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2090,7 +2173,8 @@ class BioenergyResearchCenter(ResearchProgram):
     key_publications: Optional[list[Reference]] = Field(default=[], description="""Key publications from the program with their findings""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     established: Optional[int] = Field(default=None, description="""Year the program was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     collaborators: Optional[str] = Field(default=None, description="""Description of collaborators""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
-    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     phenotype_assays: Optional[list[PhenotypeAssayType]] = Field(default=[], description="""Types of phenotype assays performed by this research program. Catalogs the phenotyping capabilities and data types generated.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     id: str = Field(default=..., description="""A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
@@ -2099,6 +2183,7 @@ class BioenergyResearchCenter(ResearchProgram):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2110,6 +2195,7 @@ class BioenergyResearchCenter(ResearchProgram):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2185,7 +2271,8 @@ class ScientificFocusArea(ResearchProgram):
     key_publications: Optional[list[Reference]] = Field(default=[], description="""Key publications from the program with their findings""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     established: Optional[int] = Field(default=None, description="""Year the program was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     collaborators: Optional[str] = Field(default=None, description="""Description of collaborators""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
-    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     phenotype_assays: Optional[list[PhenotypeAssayType]] = Field(default=[], description="""Types of phenotype assays performed by this research program. Catalogs the phenotyping capabilities and data types generated.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     id: str = Field(default=..., description="""A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
@@ -2194,6 +2281,7 @@ class ScientificFocusArea(ResearchProgram):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2205,6 +2293,7 @@ class ScientificFocusArea(ResearchProgram):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2280,7 +2369,8 @@ class OtherProgram(ResearchProgram):
     key_publications: Optional[list[Reference]] = Field(default=[], description="""Key publications from the program with their findings""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     established: Optional[int] = Field(default=None, description="""Year the program was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     collaborators: Optional[str] = Field(default=None, description="""Description of collaborators""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
-    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     phenotype_assays: Optional[list[PhenotypeAssayType]] = Field(default=[], description="""Types of phenotype assays performed by this research program. Catalogs the phenotyping capabilities and data types generated.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     id: str = Field(default=..., description="""A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
@@ -2289,6 +2379,7 @@ class OtherProgram(ResearchProgram):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2300,6 +2391,7 @@ class OtherProgram(ResearchProgram):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2375,7 +2467,8 @@ class ArtificialIntelligenceProject(OtherProgram):
     key_publications: Optional[list[Reference]] = Field(default=[], description="""Key publications from the program with their findings""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     established: Optional[int] = Field(default=None, description="""Year the program was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     collaborators: Optional[str] = Field(default=None, description="""Description of collaborators""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
-    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    isolate_collections: Optional[list[IsolateCollection]] = Field(default=[], description="""Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     phenotype_assays: Optional[list[PhenotypeAssayType]] = Field(default=[], description="""Types of phenotype assays performed by this research program. Catalogs the phenotyping capabilities and data types generated.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram']} })
     id: str = Field(default=..., description="""A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
@@ -2384,6 +2477,7 @@ class ArtificialIntelligenceProject(OtherProgram):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2395,6 +2489,7 @@ class ArtificialIntelligenceProject(OtherProgram):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2451,6 +2546,7 @@ class UserFacility(NamedThing):
     flagship_genomes: Optional[list[FlagshipGenome]] = Field(default=[], description="""Flagship genomes sequenced by the facility""", json_schema_extra = { "linkml_meta": {'domain_of': ['UserFacility']} })
     reference_data: Optional[ReferenceData] = Field(default=None, description="""Reference data maintained by the facility""", json_schema_extra = { "linkml_meta": {'domain_of': ['UserFacility']} })
     supported_data_types: Optional[list[str]] = Field(default=[], description="""Data types supported by a facility""", json_schema_extra = { "linkml_meta": {'domain_of': ['UserFacility']} })
+    research_resources: Optional[list[ResearchResource]] = Field(default=[], description="""Research resources maintained or produced by this program at catalog grain (mutant libraries, phage banks, reference genome sets, plasmid collections, synthetic communities, knowledgebases, software). Use this slot for resource kinds other than isolate collections; existing isolate collections remain under the isolate_collections slot for back-compatibility but are also instances of ResearchResource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'UserFacility']} })
     id: str = Field(default=..., description="""A unique identifier for an entity""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference'],
          'slot_uri': 'schema:identifier'} })
     name: Optional[str] = Field(default=None, description="""A human-readable name for an entity""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing',
@@ -2458,6 +2554,7 @@ class UserFacility(NamedThing):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2469,6 +2566,7 @@ class UserFacility(NamedThing):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2491,6 +2589,7 @@ class Institution(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2502,6 +2601,7 @@ class Institution(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2538,6 +2638,7 @@ class Person(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2638,6 +2739,7 @@ class Dataset(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2649,6 +2751,7 @@ class Dataset(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2658,7 +2761,11 @@ class Dataset(ConfiguredBaseModel):
                        'Instrument'],
          'slot_uri': 'schema:description'} })
     doi: Optional[str] = Field(default=None, description="""Digital Object Identifier""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
-    url: Optional[str] = Field(default=None, description="""A URL""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability'],
+    url: Optional[str] = Field(default=None, description="""A URL""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability'],
          'slot_uri': 'schema:url'} })
     repository: Optional[str] = Field(default=None, description="""Data repository where a dataset is stored""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     data_type: Optional[str] = Field(default=None, description="""Type of data in a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
@@ -2666,7 +2773,7 @@ class Dataset(ConfiguredBaseModel):
     version: Optional[str] = Field(default=None, description="""Version of a dataset or resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     years: Optional[str] = Field(default=None, description="""Years covered by a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     reference: Optional[str] = Field(default=None, description="""Reference citation for a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Finding', 'PrimaryReferenceInfo']} })
-    count: Optional[str] = Field(default=None, description="""Count of items in a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Instrument']} })
+    count: Optional[str] = Field(default=None, description="""Count of items in a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'ResearchResource', 'Instrument']} })
     osti_id: Optional[str] = Field(default=None, description="""OSTI (Office of Scientific and Technical Information) identifier""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     doi_examples: Optional[list[str]] = Field(default=[], description="""Example DOIs for a dataset collection""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     nmdc_study_id: Optional[str] = Field(default=None, description="""National Microbiome Data Collaborative study identifier (e.g., nmdc:sty-11-ev70y104)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'NMDCStudyReference']} })
@@ -2676,6 +2783,7 @@ class Dataset(ConfiguredBaseModel):
     pride_id: Optional[str] = Field(default=None, description="""ProteomeXchange/PRIDE Archive identifier for proteomics data (e.g., PXD049389)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     massive_id: Optional[str] = Field(default=None, description="""MassIVE repository identifier for mass spectrometry data (e.g., MSV000095714)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis'],
@@ -2685,6 +2793,7 @@ class Dataset(ConfiguredBaseModel):
     interaction_modes: Optional[list[InteractionMode]] = Field(default=[], description="""Physical or chemical modes of microbial interaction (e.g., endohyphal, siderophore-mediated)""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'Dataset']} })
     variables: Optional[list[Variable]] = Field(default=[], description="""Variables, factors, measurements, or data fields catalogued for a study or dataset.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'NMDCStudyReference']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference slot - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
@@ -2758,6 +2867,7 @@ class Variable(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2769,6 +2879,7 @@ class Variable(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2806,6 +2917,8 @@ class OntologyTerm(ConfiguredBaseModel):
 
     id: str = Field(default=..., description="""CURIE or URI for the ontology term""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference']} })
     label: str = Field(default=..., description="""Human-readable ontology term label""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm'], 'implements': ['rdfs:label']} })
+    mapping_relation: Optional[OntologyMappingRelation] = Field(default=None, description="""SSSOM/SKOS mapping predicate describing how the local variable or field maps to this ontology term. The local variable is the subject and the ontology term is the object; for example, NARROW_MATCH means the ontology term is narrower than the local variable.""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
+    mapping_note: Optional[str] = Field(default=None, description="""Curator note explaining the scope or uncertainty of this ontology mapping""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
 
 
 class BERVOTerm(OntologyTerm):
@@ -2819,6 +2932,8 @@ class BERVOTerm(OntologyTerm):
 
     id: str = Field(default=..., description="""BERVO CURIE for the ontology term""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference']} })
     label: str = Field(default=..., description="""Human-readable ontology term label""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm'], 'implements': ['rdfs:label']} })
+    mapping_relation: Optional[OntologyMappingRelation] = Field(default=None, description="""SSSOM/SKOS mapping predicate describing how the local variable or field maps to this ontology term. The local variable is the subject and the ontology term is the object; for example, NARROW_MATCH means the ontology term is narrower than the local variable.""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
+    mapping_note: Optional[str] = Field(default=None, description="""Curator note explaining the scope or uncertainty of this ontology mapping""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
 
     @field_validator('id')
     def pattern_id(cls, v):
@@ -2845,6 +2960,8 @@ class MIXSTerm(OntologyTerm):
 
     id: str = Field(default=..., description="""MIxS CURIE for the metadata term""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'OntologyTerm', 'Reference']} })
     label: str = Field(default=..., description="""Human-readable ontology term label""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm'], 'implements': ['rdfs:label']} })
+    mapping_relation: Optional[OntologyMappingRelation] = Field(default=None, description="""SSSOM/SKOS mapping predicate describing how the local variable or field maps to this ontology term. The local variable is the subject and the ontology term is the object; for example, NARROW_MATCH means the ontology term is narrower than the local variable.""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
+    mapping_note: Optional[str] = Field(default=None, description="""Curator note explaining the scope or uncertainty of this ontology mapping""", json_schema_extra = { "linkml_meta": {'domain_of': ['OntologyTerm']} })
 
     @field_validator('id')
     def pattern_id(cls, v):
@@ -2913,17 +3030,18 @@ class ProgramOutputs(ConfiguredBaseModel):
     startups: Optional[int] = Field(default=None, description="""Number of startup companies formed""", json_schema_extra = { "linkml_meta": {'domain_of': ['ProgramOutputs']} })
 
 
-class IsolateCollection(ConfiguredBaseModel):
+class ResearchResource(ConfiguredBaseModel):
     """
-    A collection of cultured microbial isolates maintained by a research program. Provides catalog-level metadata about the collection; detailed isolate records are maintained in external systems (KBase, JGI, culture collections).
+    A large-grain research resource maintained or produced by a research program: an isolate collection, mutant library, phage bank, reference genome set, plasmid collection, synthetic community, knowledgebase, or similar reagent or data resource. Catalog-level metadata only; detailed records are expected to live in external systems referenced via identifiers. IsolateCollection is a subtype; other resource kinds are distinguished by the resource_type discriminator rather than by proliferating subclasses.
     """
-    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'abstract': True, 'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
 
     name: Optional[str] = Field(default=None, description="""A human-readable name for an entity""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing',
                        'Institution',
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -2935,6 +3053,79 @@ class IsolateCollection(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
+                       'IsolateCollection',
+                       'Technology',
+                       'StudyDesign',
+                       'NMDCStudyReference',
+                       'FlagshipGenome',
+                       'Capability',
+                       'Instrument'],
+         'slot_uri': 'schema:description'} })
+    primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'IsolateCollection',
+                       'NMDCStudyReference',
+                       'Analysis'],
+         'implements': ['linkml:authoritative_reference']} })
+    resource_type: Optional[ResourceType] = Field(default=None, description="""Coarse classification of this resource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    identifiers: Optional[list[ResourceIdentifier]] = Field(default=[], description="""Typed external identifiers for the resource — registry + accession tuples pointing to records in catalogs such as Addgene, BEI, ATCC, DSMZ, KBase narratives, NCBI:Assembly, the LBNL Fitness Browser, lab catalogs, or RRID-issuing registries.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    provider: Optional[str] = Field(default=None, description="""Organization or laboratory that maintains and distributes the resource (e.g., LBNL, EMSL, JGI, BEI Resources).""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    url: Optional[str] = Field(default=None, description="""Primary landing or catalog URL for the resource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability']} })
+    count: Optional[str] = Field(default=None, description="""Approximate size of the resource (e.g., \"~10^5 mutants\", \"261 isolates\", \"135 Gbases\"). Free text so units travel with the value.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'ResearchResource', 'Instrument']} })
+    members: Optional[list[str]] = Field(default=[], description="""Members of the resource at human-readable grain (e.g., organism names with strain designators, condition or media descriptors). For panel resources this is the panel content. May be a representative subset when the full list is large; in that case the canonical list lives at the resource's url and member_count reflects the total.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    member_count: Optional[int] = Field(default=None, description="""Total number of members in the resource. Useful when members is a representative subset rather than a complete enumeration.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference for new entries.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'IsolateCollection',
+                       'NMDCStudyReference',
+                       'Analysis']} })
+
+
+class ResourceIdentifier(ConfiguredBaseModel):
+    """
+    A typed external identifier for a research resource: a {registry, accession} tuple with an optional resolvable URL and citation. Used to point at a resource's record in any external catalog or registry — examples include Addgene, BEI, ATCC, DSMZ, KBase narrative IDs, NCBI:Assembly accessions, a Fitness Browser organism ID, an RRID, or a lab catalog identifier.
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
+
+    registry: str = Field(default=..., description="""Issuing registry or catalog (e.g., RRID, Addgene, BEI, ATCC, DSMZ, KBase, NCBI:Assembly, fit.genomics.lbl.gov, internal).""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResourceIdentifier']} })
+    accession: str = Field(default=..., description="""Identifier assigned by the registry.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResourceIdentifier']} })
+    url: Optional[str] = Field(default=None, description="""Resolvable URL for the identifier.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability']} })
+    citation: Optional[str] = Field(default=None, description="""DOI of a canonical publication describing this resource entry, when distinct from the resource's primary_reference.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResourceIdentifier']} })
+
+
+class IsolateCollection(ResearchResource):
+    """
+    A collection of cultured microbial isolates maintained by a research program. Provides catalog-level metadata about the collection; detailed isolate records are maintained in external systems (KBase, JGI, culture collections). Subtype of ResearchResource; other resource kinds (mutant libraries, phage banks, knowledgebases) are modeled as ResearchResource directly using the resource_type discriminator.
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
+
+    name: Optional[str] = Field(default=None, description="""A human-readable name for an entity""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing',
+                       'Institution',
+                       'Person',
+                       'Dataset',
+                       'Variable',
+                       'ResearchResource',
+                       'IsolateCollection',
+                       'Technology',
+                       'NMDCStudyReference',
+                       'FlagshipGenome',
+                       'Capability',
+                       'Instrument'],
+         'slot_uri': 'schema:name'} })
+    description: Optional[str] = Field(default=None, description="""A human-readable description for an entity""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing',
+                       'Institution',
+                       'Dataset',
+                       'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -2953,14 +3144,27 @@ class IsolateCollection(ConfiguredBaseModel):
     genome_catalog_url: Optional[str] = Field(default=None, description="""URL to genome data (KBase narrative, JGI, NCBI BioProject)""", json_schema_extra = { "linkml_meta": {'domain_of': ['IsolateCollection']} })
     kbase_narrative_id: Optional[str] = Field(default=None, description="""KBase narrative ID containing isolate genomes if applicable""", json_schema_extra = { "linkml_meta": {'domain_of': ['IsolateCollection', 'KBaseNarrative']} })
     primary_reference: Optional[str] = Field(default=None, description="""DOI of primary publication describing the collection. DEPRECATED: Use primary_reference_info for new entries to enable title validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis'],
          'implements': ['linkml:authoritative_reference']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
+    resource_type: Optional[ResourceType] = Field(default=None, description="""Coarse classification of this resource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    identifiers: Optional[list[ResourceIdentifier]] = Field(default=[], description="""Typed external identifiers for the resource — registry + accession tuples pointing to records in catalogs such as Addgene, BEI, ATCC, DSMZ, KBase narratives, NCBI:Assembly, the LBNL Fitness Browser, lab catalogs, or RRID-issuing registries.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    provider: Optional[str] = Field(default=None, description="""Organization or laboratory that maintains and distributes the resource (e.g., LBNL, EMSL, JGI, BEI Resources).""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    url: Optional[str] = Field(default=None, description="""Primary landing or catalog URL for the resource.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability']} })
+    count: Optional[str] = Field(default=None, description="""Approximate size of the resource (e.g., \"~10^5 mutants\", \"261 isolates\", \"135 Gbases\"). Free text so units travel with the value.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'ResearchResource', 'Instrument']} })
+    members: Optional[list[str]] = Field(default=[], description="""Members of the resource at human-readable grain (e.g., organism names with strain designators, condition or media descriptors). For panel resources this is the panel content. May be a representative subset when the full list is large; in that case the canonical list lives at the resource's url and member_count reflects the total.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
+    member_count: Optional[int] = Field(default=None, description="""Total number of members in the resource. Useful when members is a representative subset rather than a complete enumeration.""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchResource']} })
 
 
 class FieldSite(NamedThing):
@@ -2993,6 +3197,7 @@ class FieldSite(NamedThing):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3004,6 +3209,7 @@ class FieldSite(NamedThing):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3025,6 +3231,7 @@ class Technology(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3036,6 +3243,7 @@ class Technology(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3052,7 +3260,11 @@ class WebReference(ConfiguredBaseModel):
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
 
-    url: str = Field(default=..., description="""URL of the web resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability']} })
+    url: str = Field(default=..., description="""URL of the web resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability']} })
     title: str = Field(default=..., description="""Title of the web page or resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Reference', 'WebReference']} })
     summary: Optional[str] = Field(default=None, description="""Brief description of what content can be found at this URL. Serves as an annotation to help users understand what information the source provides before clicking.""", json_schema_extra = { "linkml_meta": {'domain_of': ['WebReference']} })
 
@@ -3067,6 +3279,7 @@ class StudyDesign(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3079,6 +3292,7 @@ class StudyDesign(ConfiguredBaseModel):
                        'obligation_level': 'RECOMMENDED',
                        'range': 'StudyDesignTerm'}],
          'domain_of': ['StudyDesign']} })
+    factor_panels: Optional[list[str]] = Field(default=[], description="""Names of panel ResearchResource entries (typically ORGANISM_PANEL or CONDITION_PANEL) that contribute the factor levels for this study. Lets multiple studies share a panel definition rather than redeclaring it; the cross-product of the referenced panels is implied by the study design and need not be enumerated cell by cell.""", json_schema_extra = { "linkml_meta": {'domain_of': ['StudyDesign']} })
     experimental_units: Optional[list[str]] = Field(default=[], description="""Units assigned to treatments or interventions""", json_schema_extra = { "linkml_meta": {'domain_of': ['StudyDesign']} })
     observational_units: Optional[list[str]] = Field(default=[], description="""Units on which measurements are made""", json_schema_extra = { "linkml_meta": {'domain_of': ['StudyDesign']} })
     sampling_strategy: Optional[str] = Field(default=None, description="""Sampling strategy or sampling design used by the study""", json_schema_extra = { "linkml_meta": {'domain_of': ['StudyDesign']} })
@@ -3101,6 +3315,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3112,6 +3327,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3121,6 +3337,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
                        'Instrument'],
          'slot_uri': 'schema:description'} })
     primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis'],
@@ -3144,6 +3361,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
     preprocessed_data_counts: Optional[str] = Field(default=None, description="""Counts of preprocessed data products available (e.g., \"28 MAGs\", \"135 Gbases\"). Free text to capture quantity and type.""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
     ncbi_data_quality_notes: Optional[str] = Field(default=None, description="""Notes about the quality or completeness of preprocessed data in NCBI. Used to track whether external data meets NMDC standards.""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference slot - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
@@ -3171,6 +3389,7 @@ class Analysis(NamedThing):
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'abstract': True, 'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
 
     primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis'],
@@ -3180,6 +3399,7 @@ class Analysis(NamedThing):
     input_data_description: Optional[str] = Field(default=None, description="""Description of input data used""", json_schema_extra = { "linkml_meta": {'domain_of': ['Analysis']} })
     output_data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data objects produced""", json_schema_extra = { "linkml_meta": {'domain_of': ['Analysis']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference slot - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
@@ -3190,6 +3410,7 @@ class Analysis(NamedThing):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3201,6 +3422,7 @@ class Analysis(NamedThing):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3226,6 +3448,7 @@ class KBaseNarrative(Analysis):
     sample_count: Optional[int] = Field(default=None, description="""Number of samples in this narrative""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference', 'KBaseNarrative']} })
     related_narratives: Optional[list[str]] = Field(default=[], description="""IDs of related KBase narratives""", json_schema_extra = { "linkml_meta": {'domain_of': ['KBaseNarrative']} })
     primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis'],
@@ -3235,6 +3458,7 @@ class KBaseNarrative(Analysis):
     input_data_description: Optional[str] = Field(default=None, description="""Description of input data used""", json_schema_extra = { "linkml_meta": {'domain_of': ['Analysis']} })
     output_data_types: Optional[list[DataType]] = Field(default=[], description="""Types of data objects produced""", json_schema_extra = { "linkml_meta": {'domain_of': ['Analysis']} })
     primary_reference_info: Optional[PrimaryReferenceInfo] = Field(default=None, description="""Primary publication reference with structured metadata for validation. Preferred over primary_reference slot - enables title and excerpt validation.""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
@@ -3245,6 +3469,7 @@ class KBaseNarrative(Analysis):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3256,6 +3481,7 @@ class KBaseNarrative(Analysis):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3277,6 +3503,7 @@ class FlagshipGenome(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3288,6 +3515,7 @@ class FlagshipGenome(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3323,6 +3551,7 @@ class Capability(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3334,6 +3563,7 @@ class Capability(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3347,7 +3577,11 @@ class Capability(ConfiguredBaseModel):
     access_mode: Optional[str] = Field(default=None, description="""How users can access this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     throughput: Optional[str] = Field(default=None, description="""Throughput or capacity metrics""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     year_established: Optional[int] = Field(default=None, description="""Year this capability was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
-    url: Optional[str] = Field(default=None, description="""URL for more information about this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability']} })
+    url: Optional[str] = Field(default=None, description="""URL for more information about this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
+                       'ResearchResource',
+                       'ResourceIdentifier',
+                       'WebReference',
+                       'Capability']} })
     applications: Optional[list[str]] = Field(default=[], description="""Key applications or use cases for this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     data_products: Optional[list[str]] = Field(default=[], description="""Types of data products generated by this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     status: Optional[CapabilityStatus] = Field(default=None, description="""Current operational status""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
@@ -3367,6 +3601,7 @@ class Instrument(ConfiguredBaseModel):
                        'Person',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'NMDCStudyReference',
@@ -3378,6 +3613,7 @@ class Instrument(ConfiguredBaseModel):
                        'Institution',
                        'Dataset',
                        'Variable',
+                       'ResearchResource',
                        'IsolateCollection',
                        'Technology',
                        'StudyDesign',
@@ -3389,7 +3625,7 @@ class Instrument(ConfiguredBaseModel):
     instrument_type: Optional[InstrumentType] = Field(default=None, description="""Type of instrument""", json_schema_extra = { "linkml_meta": {'domain_of': ['Instrument']} })
     manufacturer: Optional[str] = Field(default=None, description="""Manufacturer of the instrument""", json_schema_extra = { "linkml_meta": {'domain_of': ['Instrument']} })
     model: Optional[str] = Field(default=None, description="""Model name or number""", json_schema_extra = { "linkml_meta": {'domain_of': ['Instrument']} })
-    count: Optional[int] = Field(default=None, description="""Number of instruments of this type""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Instrument']} })
+    count: Optional[int] = Field(default=None, description="""Number of instruments of this type""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'ResearchResource', 'Instrument']} })
     specifications: Optional[str] = Field(default=None, description="""Key specifications (e.g., resolution, sensitivity)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Instrument']} })
 
 
@@ -3418,6 +3654,8 @@ Reference.model_rebuild()
 Finding.model_rebuild()
 PrimaryReferenceInfo.model_rebuild()
 ProgramOutputs.model_rebuild()
+ResearchResource.model_rebuild()
+ResourceIdentifier.model_rebuild()
 IsolateCollection.model_rebuild()
 FieldSite.model_rebuild()
 Technology.model_rebuild()

@@ -1581,6 +1581,9 @@ bioenergy_research_centers:
       bervo_term:
         id: BERVO:0000326
         label: total canopy net CO2 exchange
+        mapping_relation: CLOSE_MATCH
+        mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here are treated
+          as ecosystem-atmosphere carbon dioxide exchange.
       measured_entity: switchgrass ecosystem-atmosphere carbon exchange
       method: eddy covariance flux tower
       time_series: true
@@ -3885,6 +3888,171 @@ genomic_science_sfas:
       - transcript_abundance
       - protein_abundance
       - pathway_profile
+  - name: Mutant phenotypes for thousands of bacterial genes of unknown function
+    description: >-
+      Genome-wide mutant fitness assays across 32 diverse bacteria using
+      RB-TnSeq, identifying mutant phenotypes for 11,779 protein-coding
+      genes previously annotated only as "of unknown function." Flagship
+      paper for the LBNL Fitness Browser.
+    pi: Adam M. Deutschbauer
+    organism: 32 diverse bacteria (Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)
+    data_modalities:
+    - FITNESS_DATA
+    - GENOMICS
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41586-018-0124-0
+        title: Mutant phenotypes for thousands of bacterial genes of unknown function
+    study_design:
+      design_types:
+      - id: OBI:0500000
+        label: study design
+      experimental_units:
+      - transposon insertion mutant strain (one per random insertion site)
+      observational_units:
+      - barcoded mutant pool grown competitively in a defined condition
+      sampling_strategy: >-
+        Per organism, a randomly-barcoded transposon insertion library is
+        built once and frozen; aliquots are grown competitively under each
+        defined condition with a paired Time0 reference; barcode abundances
+        are read out by BarSeq amplicon sequencing.
+      replication: >-
+        32 bacterial species spanning Proteobacteria, Firmicutes,
+        Actinobacteria, Bacteroidetes; dozens of conditions per organism;
+        biological replicates per (organism × condition) pool.
+      controls: Time0 reference aliquot paired with each condition assay.
+      randomization: >-
+        Random transposon insertion (Tn5 / mariner) at library construction
+        gives stochastic coverage of the genome; condition assignment is
+        experimenter-defined.
+      notes: >-
+        Combinatorial fitness profiling across an organism panel and a
+        condition panel. Per-gene fitness = log2(end/Time0) with t-like
+        statistic; data aggregated into the LBNL Fitness Browser.
+      factor_panels:
+      - LBNL Fitness Browser organism panel
+      - LBNL Fitness Browser condition panel
+    variables:
+    - name: test bacterial species
+      description: >-
+        Bacterial species used as the parent strain for RB-TnSeq library
+        construction and fitness profiling.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - GROUPING
+      value_type: CATEGORICAL
+      measured_entity: bacterial species
+      levels:
+      - Escherichia coli BW25113
+      - Pseudomonas fluorescens FW300-N2E2
+      - Shewanella oneidensis MR-1
+      - "(and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)"
+    - name: growth condition
+      description: >-
+        Defined growth condition (carbon source, nitrogen source, metal,
+        antibiotic, or other stressor) applied to each library aliquot.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+      measured_entity: defined growth condition (selective agent)
+      levels:
+      - carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol)
+      - nitrogen source
+      - metal stressor
+      - antibiotic
+      - other defined inhibitor
+    - name: barcode-to-locus map
+      description: >-
+        Mapping from each library's random 20-bp barcodes to the transposon
+        insertion sites in the parent genome, established once per organism
+        by a single TnSeq (transposon-junction sequencing) run.
+      roles:
+      - IDENTIFIER
+      - DERIVED
+      value_type: ARRAY
+      method: TnSeq (transposon-junction sequencing)
+    - name: per-gene fitness value
+      description: >-
+        log2(end-of-experiment barcode abundance / Time0 abundance) per
+        insertion-bearing gene, with a t-like statistic for confidence.
+      roles:
+      - MEASURED_VARIABLE
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      value_type: NUMERIC
+      units: log2 fold change
+      method: BarSeq amplicon read counting, normalized
+      measured_entity: bacterial gene
+  - name: Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons
+    description: >-
+      Methods paper introducing RB-TnSeq — random DNA barcodes carried by
+      Tn5 and mariner transposons, read out by BarSeq amplicon sequencing.
+      Demonstrated across five bacteria with 387 genome-wide fitness assays
+      and 5,196 phenotyped genes; foundation for subsequent LBNL RB-TnSeq
+      work and the Fitness Browser.
+    pi: Adam M. Deutschbauer
+    organism: five bacteria (E. coli, P. inhibens, P. stutzeri, S. amazonensis, S. oneidensis)
+    data_modalities:
+    - FITNESS_DATA
+    - GENOMICS
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mBio.00306-15
+        title: Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons
+    study_design:
+      design_types:
+      - id: OBI:0500000
+        label: study design
+      experimental_units:
+      - transposon insertion mutant strain (barcoded)
+      observational_units:
+      - barcoded library aliquot grown competitively in a defined condition
+      sampling_strategy: >-
+        Tn5- and mariner-based randomly-barcoded transposon libraries built
+        in each of five bacteria; aliquots competitively grown across defined
+        carbon-source media; barcodes read out by BarSeq amplicon PCR and
+        Illumina HiSeq.
+      replication: >-
+        Five bacteria; 387 successful genome-wide fitness assays across 130
+        bacterium × carbon-source combinations; 5,196 phenotyped genes.
+      controls: Time0 reference aliquot per pool.
+      notes: >-
+        Methods-development paper that introduces RB-TnSeq and BarSeq and
+        demonstrates throughput and reproducibility. Per-gene fitness =
+        log2(end/Time0).
+      factor_panels:
+      - LBNL Fitness Browser organism panel
+      - LBNL Fitness Browser condition panel
+    variables:
+    - name: test bacterial species
+      description: Parent strain used for RB-TnSeq library construction.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - GROUPING
+      value_type: CATEGORICAL
+      levels:
+      - Escherichia coli K-12 (BW25113)
+      - Phaeobacter inhibens DSM 17395
+      - Pseudomonas stutzeri RCH2
+      - Shewanella amazonensis SB2B
+      - Shewanella oneidensis MR-1
+    - name: carbon source
+      description: Defined carbon source in minimal medium.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+      measured_entity: carbon source compound
+      levels:
+      - "(carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose)"
+    - name: per-gene fitness value
+      description: log2(end/Time0) per gene with t-like statistic.
+      roles:
+      - MEASURED_VARIABLE
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      value_type: NUMERIC
+      units: log2 fold change
+      method: BarSeq amplicon read counting, normalized
   key_publications:
   - id: doi:10.1038/s41564-023-01573-x
     title: Environmental stress mediates groundwater microbial community assembly
@@ -3923,6 +4091,91 @@ genomic_science_sfas:
           reference: doi:10.1128/msystems.00537-21
           supporting_text: first study to identify the bacteriophage distribution in a groundwater ecosystem
       relationship_note: Describes the 261 ENIGMA bacterial isolates used for phage host prediction
+  research_resources:
+  - name: LBNL Fitness Browser
+    description: >-
+      Cumulative web-accessible knowledgebase of genome-wide mutant fitness
+      assays produced by RB-TnSeq across hundreds of bacteria. Each organism
+      contributes a barcoded transposon mutant library; per-gene fitness
+      values are reported across many growth conditions and stressors.
+      Continuously extended.
+    resource_type: KNOWLEDGEBASE
+    provider: Lawrence Berkeley National Laboratory
+    url: https://fit.genomics.lbl.gov
+    count: hundreds of bacteria; thousands of condition experiments
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41586-018-0124-0
+        title: Mutant phenotypes for thousands of bacterial genes of unknown function
+    identifiers:
+    - registry: internal
+      accession: lbnl-fitness-browser
+      url: https://fit.genomics.lbl.gov
+    - registry: doi
+      accession: 10.1038/s41586-018-0124-0
+      url: https://doi.org/10.1038/s41586-018-0124-0
+  - name: LBNL Fitness Browser organism panel
+    description: >-
+      Set of bacteria for which barcoded mariner/Tn5 transposon insertion
+      libraries have been constructed and fitness-profiled by the LBNL
+      Deutschbauer/Arkin labs. Continuously growing; Price 2018 reported
+      32 organisms, with hundreds in the live browser today. Members listed
+      below are a representative subset; the canonical list lives at the
+      Fitness Browser URL.
+    resource_type: ORGANISM_PANEL
+    provider: Lawrence Berkeley National Laboratory
+    url: https://fit.genomics.lbl.gov
+    member_count: 32
+    count: 32 at Price 2018; hundreds in the current browser
+    members:
+    - Escherichia coli BW25113
+    - Pseudomonas fluorescens FW300-N2E2
+    - Pseudomonas stutzeri RCH2
+    - Shewanella oneidensis MR-1
+    - Shewanella amazonensis SB2B
+    - Phaeobacter inhibens DSM 17395
+    - Burkholderia phytofirmans PsJN
+    - Klebsiella michiganensis M5al
+    - Cupriavidus basilensis 4G11
+    - Sphingomonas koreensis DSMZ 15582
+    - Desulfovibrio vulgaris Miyazaki F
+    - Dyella japonica UNC79MFTsu3.2
+    identifiers:
+    - registry: internal
+      accession: lbnl-fitness-browser-organisms
+      url: https://fit.genomics.lbl.gov/cgi-bin/myFitShow.cgi
+  - name: LBNL Fitness Browser condition panel
+    description: >-
+      Defined growth conditions used in RB-TnSeq fitness assays at LBNL,
+      spanning carbon sources, nitrogen sources, metal stressors,
+      antibiotics, and other defined inhibitors in minimal media (typically
+      MOPS or M9). Continuously extended; thousands of conditions across the
+      panel's history. Members below are a representative subset; the
+      canonical list lives at the Fitness Browser URL.
+    resource_type: CONDITION_PANEL
+    provider: Lawrence Berkeley National Laboratory
+    url: https://fit.genomics.lbl.gov
+    count: thousands of condition experiments across the panel's history
+    members:
+    - D-glucose (carbon source)
+    - D-xylose (carbon source)
+    - L-arabinose (carbon source)
+    - glycerol (carbon source)
+    - sucrose (carbon source)
+    - L-glutamine (nitrogen source)
+    - ammonium chloride (nitrogen source)
+    - sodium chloride (osmotic stress)
+    - hydrogen peroxide (oxidative stress)
+    - copper II chloride (metal stressor)
+    - cobalt II chloride (metal stressor)
+    - cisplatin (DNA damage)
+    - chloramphenicol (antibiotic)
+    - ciprofloxacin (antibiotic)
+    - vancomycin (antibiotic)
+    identifiers:
+    - registry: internal
+      accession: lbnl-fitness-browser-conditions
+      url: https://fit.genomics.lbl.gov/cgi-bin/myFitShow.cgi
   phenotype_assays:
   - RBTSEQ_FITNESS
   - STRESS_TOLERANCE

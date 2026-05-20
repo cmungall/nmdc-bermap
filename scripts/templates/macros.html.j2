@@ -47,6 +47,8 @@
 {% if term %}
 {% set term_id = term.id if term is mapping else term %}
 {% set term_label = term.label if term is mapping and term.label else term_id %}
+{% set mapping_relation = term.mapping_relation if term is mapping and term.mapping_relation else none %}
+{% set mapping_note = term.mapping_note if term is mapping and term.mapping_note else none %}
 {% if term_id %}
 {% set prefix = term_id.split(':')[0] if ':' in term_id else '' %}
 {% set local_id = term_id.split(':')[1] if ':' in term_id else term_id %}
@@ -58,6 +60,12 @@
 <a href="http://purl.obolibrary.org/obo/{{ prefix }}_{{ local_id }}" target="_blank" class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></a>
 {% else %}
 <span class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></span>
+{% endif %}
+{% if mapping_relation %}
+<span class="mapping-relation">{{ mapping_relation | replace('_', ' ') | lower }}</span>
+{% endif %}
+{% if mapping_note %}
+<span class="mapping-note">{{ mapping_note }}</span>
 {% endif %}
 {% endif %}
 {% endif %}

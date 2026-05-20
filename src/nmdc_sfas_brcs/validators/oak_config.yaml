@@ -22,6 +22,7 @@ ontology_adapters:
   schema:
   dcterms:
   rdfs:
+  skos:
   linkml:
   orcid:
   ror:

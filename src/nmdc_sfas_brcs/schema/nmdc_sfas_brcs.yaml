@@ -18,6 +18,7 @@ prefixes:
   schema: http://schema.org/
   dcterms: http://purl.org/dc/terms/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
   orcid: https://orcid.org/
   ror: https://ror.org/
   doi: https://doi.org/
@@ -167,6 +168,7 @@ classes:
       - established
       - collaborators
       - isolate_collections
+      - research_resources
       - phenotype_assays
     slot_usage:
       id:
@@ -251,6 +253,7 @@ classes:
       - flagship_genomes
       - reference_data
       - supported_data_types
+      - research_resources
 
   # ---------------------------------------------------------------------------
   # Supporting Classes - Organizations and People
@@ -568,6 +571,16 @@ classes:
         required: true
         implements:
           - rdfs:label
+      mapping_relation:
+        description: >-
+          SSSOM/SKOS mapping predicate describing how the local variable or
+          field maps to this ontology term. The local variable is the subject
+          and the ontology term is the object; for example, NARROW_MATCH means
+          the ontology term is narrower than the local variable.
+        range: OntologyMappingRelation
+      mapping_note:
+        description: Curator note explaining the scope or uncertainty of this ontology mapping
+        range: string
 
   BERVOTerm:
     description: A BERVO ontology term represented with an identifier and label
@@ -651,11 +664,107 @@ classes:
         description: Number of startup companies formed
         range: integer
 
+  ResearchResource:
+    description: >-
+      A large-grain research resource maintained or produced by a research
+      program: an isolate collection, mutant library, phage bank, reference
+      genome set, plasmid collection, synthetic community, knowledgebase, or
+      similar reagent or data resource. Catalog-level metadata only; detailed
+      records are expected to live in external systems referenced via
+      identifiers. IsolateCollection is a subtype; other resource kinds are
+      distinguished by the resource_type discriminator rather than by
+      proliferating subclasses.
+    abstract: true
+    slots:
+      - name
+      - description
+      - primary_reference
+    attributes:
+      resource_type:
+        description: Coarse classification of this resource.
+        range: ResourceType
+      identifiers:
+        description: >-
+          Typed external identifiers for the resource — registry + accession
+          tuples pointing to records in catalogs such as Addgene, BEI, ATCC,
+          DSMZ, KBase narratives, NCBI:Assembly, the LBNL Fitness Browser,
+          lab catalogs, or RRID-issuing registries.
+        range: ResourceIdentifier
+        multivalued: true
+        inlined_as_list: true
+      provider:
+        description: >-
+          Organization or laboratory that maintains and distributes the
+          resource (e.g., LBNL, EMSL, JGI, BEI Resources).
+        range: string
+      url:
+        description: Primary landing or catalog URL for the resource.
+        range: uri
+      count:
+        description: >-
+          Approximate size of the resource (e.g., "~10^5 mutants",
+          "261 isolates", "135 Gbases"). Free text so units travel with the
+          value.
+        range: string
+      members:
+        description: >-
+          Members of the resource at human-readable grain (e.g., organism
+          names with strain designators, condition or media descriptors).
+          For panel resources this is the panel content. May be a
+          representative subset when the full list is large; in that case
+          the canonical list lives at the resource's url and member_count
+          reflects the total.
+        range: string
+        multivalued: true
+      member_count:
+        description: >-
+          Total number of members in the resource. Useful when members is
+          a representative subset rather than a complete enumeration.
+        range: integer
+      primary_reference_info:
+        description: >-
+          Primary publication reference with structured metadata for
+          validation. Preferred over primary_reference for new entries.
+        range: PrimaryReferenceInfo
+        inlined: true
+
+  ResourceIdentifier:
+    description: >-
+      A typed external identifier for a research resource: a {registry,
+      accession} tuple with an optional resolvable URL and citation. Used
+      to point at a resource's record in any external catalog or registry —
+      examples include Addgene, BEI, ATCC, DSMZ, KBase narrative IDs,
+      NCBI:Assembly accessions, a Fitness Browser organism ID, an RRID,
+      or a lab catalog identifier.
+    attributes:
+      registry:
+        description: >-
+          Issuing registry or catalog (e.g., RRID, Addgene, BEI, ATCC, DSMZ,
+          KBase, NCBI:Assembly, fit.genomics.lbl.gov, internal).
+        range: string
+        required: true
+      accession:
+        description: Identifier assigned by the registry.
+        range: string
+        required: true
+      url:
+        description: Resolvable URL for the identifier.
+        range: uri
+      citation:
+        description: >-
+          DOI of a canonical publication describing this resource entry,
+          when distinct from the resource's primary_reference.
+        range: uriorcurie
+
   IsolateCollection:
     description: >-
       A collection of cultured microbial isolates maintained by a research program.
       Provides catalog-level metadata about the collection; detailed isolate records
       are maintained in external systems (KBase, JGI, culture collections).
+      Subtype of ResearchResource; other resource kinds (mutant libraries, phage
+      banks, knowledgebases) are modeled as ResearchResource directly using the
+      resource_type discriminator.
+    is_a: ResearchResource
     slots:
       - name
       - description
@@ -809,6 +918,16 @@ classes:
           - binds_value_of: id
             range: StudyDesignTerm
             obligation_level: RECOMMENDED
+      factor_panels:
+        description: >-
+          Names of panel ResearchResource entries (typically ORGANISM_PANEL
+          or CONDITION_PANEL) that contribute the factor levels for this
+          study. Lets multiple studies share a panel definition rather than
+          redeclaring it; the cross-product of the referenced panels is
+          implied by the study design and need not be enumerated cell by
+          cell.
+        range: string
+        multivalued: true
       experimental_units:
         description: Units assigned to treatments or interventions
         range: string
@@ -1320,7 +1439,24 @@ slots:
     description: >-
       Microbial isolate collections maintained by this research program.
       Provides catalog-level information about available cultures and genomes.
+      For new entries that are not isolate collections (mutant libraries, phage
+      banks, knowledgebases, reference genome sets), use research_resources
+      instead. Both slots reference subtypes of ResearchResource, so a single
+      query against the class hierarchy returns every resource a program
+      maintains.
     range: IsolateCollection
+    multivalued: true
+    inlined_as_list: true
+
+  research_resources:
+    description: >-
+      Research resources maintained or produced by this program at catalog
+      grain (mutant libraries, phage banks, reference genome sets, plasmid
+      collections, synthetic communities, knowledgebases, software). Use this
+      slot for resource kinds other than isolate collections; existing
+      isolate collections remain under the isolate_collections slot for
+      back-compatibility but are also instances of ResearchResource.
+    range: ResearchResource
     multivalued: true
     inlined_as_list: true
 
@@ -1947,6 +2083,29 @@ enums:
         description: Ordered list, vector, spectrum, profile, or other repeated values
       OBJECT:
         description: Structured object or nested record
+
+  OntologyMappingRelation:
+    description: >-
+      SSSOM/SKOS mapping predicate used to qualify how a local variable,
+      field, or data-dictionary entry maps to an ontology term.
+    permissible_values:
+      EXACT_MATCH:
+        title: exact match
+        description: The local variable and ontology term can be used interchangeably in this context.
+      CLOSE_MATCH:
+        title: close match
+        description: >-
+          The local variable and ontology term are sufficiently similar for many
+          uses but should not be treated as exact equivalents.
+      BROAD_MATCH:
+        title: broad match
+        description: The ontology term is broader than the local variable.
+      NARROW_MATCH:
+        title: narrow match
+        description: The ontology term is narrower than the local variable.
+      RELATED_MATCH:
+        title: related match
+        description: The local variable and ontology term are associated but not equivalent or hierarchical.
 
   StudyDesignTerm:
     description: OBI study design terms
@@ -2746,6 +2905,47 @@ enums:
         description: >-
           Low priority - dataset has some microbiome relevance but is
           either small, has limited metadata, or is a marginal candidate.
+
+  ResourceType:
+    description: >-
+      Coarse type of a research resource, used as a discriminator on the
+      ResearchResource class. Lets the catalog represent isolate collections,
+      mutant libraries, phage banks, knowledgebases, and similar large-grain
+      reagent or data resources without proliferating subclasses.
+    permissible_values:
+      ISOLATE_COLLECTION:
+        description: A collection of cultured microbial isolates.
+      MUTANT_LIBRARY:
+        description: >-
+          A pooled mutant library, e.g. a randomly-barcoded transposon
+          (RB-TnSeq) insertion library or a CRISPRi library.
+      PHAGE_BANK:
+        description: >-
+          A collection of bacteriophage isolates maintained as a reagent bank.
+      REFERENCE_GENOME_SET:
+        description: A curated set of reference genomes maintained by a program.
+      PLASMID_COLLECTION:
+        description: A collection of plasmids or other genetic constructs.
+      SYNTHETIC_COMMUNITY:
+        description: >-
+          A defined synthetic microbial community maintained as a reagent.
+      ORGANISM_PANEL:
+        description: >-
+          A defined set of organisms used as an experimental factor across
+          one or more studies (e.g., the LBNL Fitness Browser organism set).
+      CONDITION_PANEL:
+        description: >-
+          A defined set of growth conditions, media, stressors, or selective
+          agents used as an experimental factor across one or more studies.
+      KNOWLEDGEBASE:
+        description: >-
+          A versioned data resource or knowledgebase produced and maintained
+          by the program (e.g., the LBNL Fitness Browser, the Phage Foundry
+          Knowledge-Base).
+      SOFTWARE:
+        description: A software tool or pipeline produced as a research resource.
+      OTHER:
+        description: A research resource not covered by the above categories.
 
   OrganismType:
     description: >-

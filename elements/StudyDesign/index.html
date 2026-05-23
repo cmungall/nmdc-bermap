@@ -282,6 +282,8 @@
 
       StudyDesign : experimental_units
 
+      StudyDesign : factor_panels
+
       StudyDesign : notes
 
       StudyDesign : observational_units
@@ -316,6 +318,12 @@
 <td><a href="../design_types/">design_types</a></td>
 <td>* <br/> <a href="../OntologyTerm/">OntologyTerm</a></td>
 <td>OBI or related ontology terms describing the study design</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../factor_panels/">factor_panels</a></td>
+<td>* <br/> <a href="../String/">String</a></td>
+<td>Names of panel ResearchResource entries (typically ORGANISM_PANEL or CONDITIO...</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -439,6 +447,19 @@ attributes:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  factor_panels:
+    name: factor_panels
+    description: Names of panel ResearchResource entries (typically ORGANISM_PANEL
+      or CONDITION_PANEL) that contribute the factor levels for this study. Lets multiple
+      studies share a panel definition rather than redeclaring it; the cross-product
+      of the referenced panels is implied by the study design and need not be enumerated
+      cell by cell.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - StudyDesign
+    range: string
+    multivalued: true
   experimental_units:
     name: experimental_units
     description: Units assigned to treatments or interventions
@@ -535,6 +556,21 @@ attributes:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  factor_panels:
+    name: factor_panels
+    description: Names of panel ResearchResource entries (typically ORGANISM_PANEL
+      or CONDITION_PANEL) that contribute the factor levels for this study. Lets multiple
+      studies share a panel definition rather than redeclaring it; the cross-product
+      of the referenced panels is implied by the study design and need not be enumerated
+      cell by cell.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: factor_panels
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+    multivalued: true
   experimental_units:
     name: experimental_units
     description: Units assigned to treatments or interventions
@@ -631,6 +667,7 @@ attributes:
     - Institution
     - Dataset
     - Variable
+    - ResearchResource
     - IsolateCollection
     - Technology
     - StudyDesign

@@ -1,11 +1,11 @@
 summary:
-  variable_count: 540
-  study_variable_count: 533
+  variable_count: 547
+  study_variable_count: 540
   dataset_variable_count: 7
   bervo_mapped_variable_count: 21
   bervo_term_count: 12
   mixs_term_count: 18
-  without_bervo_count: 519
+  without_bervo_count: 526
 records:
 - id: nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-16s-community-profile
   name: 16S community profile
@@ -1210,6 +1210,44 @@ records:
       Against Drug-Resistant Pathogens'
     acronym: PhageFoundry
     anchor_id: nmdc_sfas_brcs:brave_phage_foundry
+- id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-barcode-to-locus-map
+  name: barcode-to-locus map
+  description: Mapping from each library's random 20-bp barcodes to the transposon
+    insertion sites in the parent genome, established once per organism by a single
+    TnSeq (transposon-junction sequencing) run.
+  roles:
+  - IDENTIFIER
+  - DERIVED
+  value_type: ARRAY
+  units: null
+  measured_entity: null
+  material_or_matrix: null
+  method: TnSeq (transposon-junction sequencing)
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Mutant phenotypes for thousands of bacterial genes of unknown function
+    anchor_id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1038/s41586-018-0124-0
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
 - id: nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-belowground-compartment
   name: belowground compartment
   description: Belowground habitat sampled for Populus microbiome profiling.
@@ -2284,6 +2322,45 @@ records:
       - Field, Measurements, and Experiments
     acronym: COMPASS-FME
     anchor_id: nmdc_sfas_brcs:compass_fme
+- id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-carbon-source
+  name: carbon source
+  description: Defined carbon source in minimal medium.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: carbon source compound
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol,
+    D-glucose, L-arabinose)
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Rapid quantification of mutant fitness in diverse bacteria by sequencing
+      randomly bar-coded transposons
+    anchor_id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1128/mBio.00306-15
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
 - id: nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-carboxylate-product-profile
   name: carboxylate product profile
   description: Fermentation product profile for carboxylate platform compounds.
@@ -8689,6 +8766,48 @@ records:
     name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
     acronym: ENIGMA
     anchor_id: nmdc_sfas_brcs:enigma
+- id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-growth-condition
+  name: growth condition
+  description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic,
+    or other stressor) applied to each library aliquot.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: defined growth condition (selective agent)
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol)
+  - nitrogen source
+  - metal stressor
+  - antibiotic
+  - other defined inhibitor
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Mutant phenotypes for thousands of bacterial genes of unknown function
+    anchor_id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1038/s41586-018-0124-0
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
 - id: nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-growth-container
   name: growth container
   description: Experimental growth system used for Brachypodium root microbiome sampling.
@@ -13218,6 +13337,9 @@ records:
     bervo:
       id: BERVO:0000326
       label: total canopy net CO2 exchange
+      mapping_relation: CLOSE_MATCH
+      mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields
+        here are treated as ecosystem-atmosphere carbon dioxide exchange.
     mixs: []
     other: []
     unit: null
@@ -14086,6 +14208,80 @@ records:
     name: Molecular Observation Network
     acronym: MONet
     anchor_id: nmdc_sfas_brcs:monet
+- id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-per-gene-fitness-value
+  name: per-gene fitness value
+  description: log2(end-of-experiment barcode abundance / Time0 abundance) per insertion-bearing
+    gene, with a t-like statistic for confidence.
+  roles:
+  - MEASURED_VARIABLE
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  value_type: NUMERIC
+  units: log2 fold change
+  measured_entity: bacterial gene
+  material_or_matrix: null
+  method: BarSeq amplicon read counting, normalized
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Mutant phenotypes for thousands of bacterial genes of unknown function
+    anchor_id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1038/s41586-018-0124-0
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
+- id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-per-gene-fitness-value
+  name: per-gene fitness value
+  description: log2(end/Time0) per gene with t-like statistic.
+  roles:
+  - MEASURED_VARIABLE
+  - STUDY_DESIGN_DEPENDENT_VARIABLE
+  value_type: NUMERIC
+  units: log2 fold change
+  measured_entity: null
+  material_or_matrix: null
+  method: BarSeq amplicon read counting, normalized
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Rapid quantification of mutant fitness in diverse bacteria by sequencing
+      randomly bar-coded transposons
+    anchor_id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1128/mBio.00306-15
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
 - id: nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-persistence-control-escape
   name: persistence control escape
   description: Evidence of escape from the intended persistence-control design through
@@ -21154,6 +21350,89 @@ records:
       - Field, Measurements, and Experiments
     acronym: COMPASS-FME
     anchor_id: nmdc_sfas_brcs:compass_fme
+- id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-test-bacterial-species
+  name: test bacterial species
+  description: Bacterial species used as the parent strain for RB-TnSeq library construction
+    and fitness profiling.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - GROUPING
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: bacterial species
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - Escherichia coli BW25113
+  - Pseudomonas fluorescens FW300-N2E2
+  - Shewanella oneidensis MR-1
+  - (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Mutant phenotypes for thousands of bacterial genes of unknown function
+    anchor_id: nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1038/s41586-018-0124-0
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
+- id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-test-bacterial-species
+  name: test bacterial species
+  description: Parent strain used for RB-TnSeq library construction.
+  roles:
+  - EXPERIMENTAL_FACTOR
+  - GROUPING
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: null
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - Escherichia coli K-12 (BW25113)
+  - Phaeobacter inhibens DSM 17395
+  - Pseudomonas stutzeri RCH2
+  - Shewanella amazonensis SB2B
+  - Shewanella oneidensis MR-1
+  source_field_names: []
+  mappings:
+    bervo: null
+    mixs: []
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: Rapid quantification of mutant fitness in diverse bacteria by sequencing
+      randomly bar-coded transposons
+    anchor_id: nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons
+    nmdc_study_id: null
+    bioproject_ids: []
+    doi: null
+    url: null
+    primary_reference: doi:10.1128/mBio.00306-15
+  program:
+    collection: genomic_science_sfas
+    id: nmdc_sfas_brcs:enigma
+    name: 'ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies'
+    acronym: ENIGMA
+    anchor_id: nmdc_sfas_brcs:enigma
 - id: nmdc_sfas_brcs-pmi-study-populus-holobiont-niche-and-genotype-effects-tissue-level-niche
   name: tissue-level niche
   description: Fine-scale tissue or niche sampled within Populus plants and associated
@@ -22160,6 +22439,9 @@ by_bervo:
 - term:
     id: BERVO:0000326
     label: total canopy net CO2 exchange
+    mapping_relation: CLOSE_MATCH
+    mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here
+      are treated as ecosystem-atmosphere carbon dioxide exchange.
   variable_ids:
   - nmdc_sfas_brcs-glbrc-dataset-kbs-lux-arbor-reserve-switchgrass-flux-data-net-ecosystem-carbon-dioxide-exchange
 - term:
@@ -22566,6 +22848,7 @@ without_bervo:
 - nmdc_sfas_brcs-seed-study-bacillus-velezensis-eb14-biocontrol-agent-genome-bacterial-strain-identifier
 - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-bacteriophage-challenge
 - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-bacteriophage-challenge
+- nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-barcode-to-locus-map
 - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-belowground-compartment
 - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-belowground-microbial-community-composition
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-belowground-microbiome-composition
@@ -22592,6 +22875,7 @@ without_bervo:
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-carbon-metabolism-proteomics-carbon-metabolism-condition
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-carbon-metabolism-proteomics-carbon-metabolism-pathway-assignment
 - nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-carbon-oxidation-and-greenhouse-gas-flux
+- nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-carbon-source
 - nmdc_sfas_brcs-glbrc-study-bioreactor-fermentation-microbiomes-carboxylate-product-profile
 - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-cell-envelope-component
 - nmdc_sfas_brcs-brave_pathogenesis_model-study-4d-whole-cell-model-of-prochlorococcus-marinus-med4-central-carbon-metabolic-flux
@@ -22751,6 +23035,7 @@ without_bervo:
 - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-geographic-location-name
 - nmdc_sfas_brcs-enigma-study-oak-ridge-groundwater-100-well-survey-metagenomes-groundwater-microbial-community-composition
 - nmdc_sfas_brcs-enigma-study-oak-ridge-groundwater-100-well-survey-metagenomes-groundwater-well-identifier
+- nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-growth-condition
 - nmdc_sfas_brcs-mcafes-study-fine-scale-rhizosphere-spatial-heterogeneity-growth-container
 - nmdc_sfas_brcs-cbi-study-poplar-rhizosphere-microbiota-assembly-dynamics-growth-day
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-growth-facility
@@ -22873,6 +23158,8 @@ without_bervo:
 - nmdc_sfas_brcs-brave_plant_pathogen-study-colletotrichum-sublineola-genome-and-transcriptome-pathogenicity-candidate-gene
 - nmdc_sfas_brcs-pmi-study-populus-rhizosphere-pd10-synthetic-community-pd10-member-strain
 - nmdc_sfas_brcs-monet-study-soils-ai-campaign-pedotransfer-function-output
+- nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-per-gene-fitness-value
+- nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-per-gene-fitness-value
 - nmdc_sfas_brcs-persistence_control-study-persistence-control-engineering-in-sorghum-rhizosphere-bacteria-persistence-control-escape
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-perturbation
 - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-perturbation-library-type
@@ -23035,6 +23322,8 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-terpene-dose
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-terpene-treatment
 - nmdc_sfas_brcs-compass_fme-study-coastal-terrestrial-aquatic-interface-flooding-and-salinization-experiments-terrestrial-aquatic-interface-position
+- nmdc_sfas_brcs-enigma-study-mutant-phenotypes-for-thousands-of-bacterial-genes-of-unknown-function-test-bacterial-species
+- nmdc_sfas_brcs-enigma-study-rapid-quantification-of-mutant-fitness-in-diverse-bacteria-by-sequencing-randomly-bar-coded-transposons-test-bacterial-species
 - nmdc_sfas_brcs-pmi-study-populus-holobiont-niche-and-genotype-effects-tissue-level-niche
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-total-carbon
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-total-nitrogen-content

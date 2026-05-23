@@ -417,7 +417,7 @@
 
 
 <h1 id="slot-isolate_collections">Slot: isolate_collections</h1>
-<p><em>Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes.</em></p>
+<p><em>Microbial isolate collections maintained by this research program. Provides catalog-level information about available cultures and genomes. For new entries that are not isolate collections (mutant libraries, phage banks, knowledgebases, reference genome sets), use research_resources instead. Both slots reference subtypes of ResearchResource, so a single query against the class hierarchy returns every resource a program maintains.</em></p>
 <p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/isolate_collections">nmdc_sfas_brcs:isolate_collections</a>
 Alias: isolate_collections</p>
 <!-- no inheritance hierarchy -->
@@ -433,8 +433,8 @@ Alias: isolate_collections</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
+<td><a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
+<td>A DOE artificial intelligence project or pilot initiative using AI/ML, agenti...</td>
 <td>no</td>
 </tr>
 <tr>
@@ -443,13 +443,13 @@ Alias: isolate_collections</p>
 <td>no</td>
 </tr>
 <tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
+<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
+<td>A DOE Bioenergy Research Center (BRC)</td>
 <td>no</td>
 </tr>
 <tr>
-<td><a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
-<td>A DOE artificial intelligence project or pilot initiative using AI/ML, agenti...</td>
+<td><a href="../ResearchProgram/">ResearchProgram</a></td>
+<td>A DOE BER funded research program</td>
 <td>no</td>
 </tr>
 <tr>
@@ -497,7 +497,11 @@ Alias: isolate_collections</p>
 
 <pre><code class="language-yaml">name: isolate_collections
 description: Microbial isolate collections maintained by this research program. Provides
-  catalog-level information about available cultures and genomes.
+  catalog-level information about available cultures and genomes. For new entries
+  that are not isolate collections (mutant libraries, phage banks, knowledgebases,
+  reference genome sets), use research_resources instead. Both slots reference subtypes
+  of ResearchResource, so a single query against the class hierarchy returns every
+  resource a program maintains.
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
 alias: isolate_collections

@@ -281,6 +281,19 @@
 
       OntologyTerm : label
 
+      OntologyTerm : mapping_note
+
+      OntologyTerm : mapping_relation
+
+
+
+
+
+        OntologyTerm --&gt; "0..1" OntologyMappingRelation : mapping_relation
+        click OntologyMappingRelation href "../OntologyMappingRelation/"
+
+
+
 
 </div>
 <h2 id="inheritance">Inheritance</h2>
@@ -312,6 +325,18 @@
 <td><a href="../label/">label</a></td>
 <td>1 <br/> <a href="../String/">String</a></td>
 <td>Human-readable ontology term label</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../mapping_relation/">mapping_relation</a></td>
+<td>0..1 <br/> <a href="../OntologyMappingRelation/">OntologyMappingRelation</a></td>
+<td>SSSOM/SKOS mapping predicate describing how the local variable or field maps ...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../mapping_note/">mapping_note</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Curator note explaining the scope or uncertainty of this ontology mapping</td>
 <td>direct</td>
 </tr>
 </tbody>
@@ -403,6 +428,26 @@ attributes:
     - OntologyTerm
     range: string
     required: true
+  mapping_relation:
+    name: mapping_relation
+    description: SSSOM/SKOS mapping predicate describing how the local variable or
+      field maps to this ontology term. The local variable is the subject and the
+      ontology term is the object; for example, NARROW_MATCH means the ontology term
+      is narrower than the local variable.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - OntologyTerm
+    range: OntologyMappingRelation
+  mapping_note:
+    name: mapping_note
+    description: Curator note explaining the scope or uncertainty of this ontology
+      mapping
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - OntologyTerm
+    range: string
 
 </code></pre>
 </details>
@@ -440,6 +485,30 @@ attributes:
     - OntologyTerm
     range: string
     required: true
+  mapping_relation:
+    name: mapping_relation
+    description: SSSOM/SKOS mapping predicate describing how the local variable or
+      field maps to this ontology term. The local variable is the subject and the
+      ontology term is the object; for example, NARROW_MATCH means the ontology term
+      is narrower than the local variable.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: mapping_relation
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: OntologyMappingRelation
+  mapping_note:
+    name: mapping_note
+    description: Curator note explaining the scope or uncertainty of this ontology
+      mapping
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: mapping_note
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: string
 
 </code></pre>
 </details>

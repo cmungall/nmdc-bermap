@@ -553,10 +553,6 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>A scientific instrument or piece of equipment that supports a capability</td>
 </tr>
 <tr>
-<td><a href="IsolateCollection/">IsolateCollection</a></td>
-<td>A collection of cultured microbial isolates maintained by a research program</td>
-</tr>
-<tr>
 <td><a href="Location/">Location</a></td>
 <td>Geographic location information for a research program</td>
 </tr>
@@ -641,6 +637,18 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>A container for DOE BER funded research programs including Bioenergy Research...</td>
 </tr>
 <tr>
+<td><a href="ResearchResource/">ResearchResource</a></td>
+<td>A large-grain research resource maintained or produced by a research program:...</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="IsolateCollection/">IsolateCollection</a></td>
+<td>A collection of cultured microbial isolates maintained by a research program</td>
+</tr>
+<tr>
+<td><a href="ResourceIdentifier/">ResourceIdentifier</a></td>
+<td>A typed external identifier for a research resource: a {registry, accession} ...</td>
+</tr>
+<tr>
 <td><a href="StudyDesign/">StudyDesign</a></td>
 <td>Study-level design metadata that applies across variables and datasets</td>
 </tr>
@@ -674,6 +682,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="access_mode/">access_mode</a></td>
 <td>How users can access this capability</td>
+</tr>
+<tr>
+<td><a href="accession/">accession</a></td>
+<td>Identifier assigned by the registry</td>
 </tr>
 <tr>
 <td><a href="acronym/">acronym</a></td>
@@ -778,6 +790,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="capability_type/">capability_type</a></td>
 <td>The type/category of capability</td>
+</tr>
+<tr>
+<td><a href="citation/">citation</a></td>
+<td>DOI of a canonical publication describing this resource entry, when distinct ...</td>
 </tr>
 <tr>
 <td><a href="city/">city</a></td>
@@ -936,6 +952,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>Area of expertise</td>
 </tr>
 <tr>
+<td><a href="factor_panels/">factor_panels</a></td>
+<td>Names of panel ResearchResource entries (typically ORGANISM_PANEL or CONDITIO...</td>
+</tr>
+<tr>
 <td><a href="field_site_ids/">field_site_ids</a></td>
 <td>Identifiers of canonical field sites associated with the program or study</td>
 </tr>
@@ -998,6 +1018,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="ideas_watersheds/">ideas_watersheds</a></td>
 <td>IDEAS-Watersheds page URL</td>
+</tr>
+<tr>
+<td><a href="identifiers/">identifiers</a></td>
+<td>Typed external identifiers for the resource — registry + accession tuples poi...</td>
 </tr>
 <tr>
 <td><a href="initiative_name/">initiative_name</a></td>
@@ -1132,6 +1156,14 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>Manufacturer of the instrument</td>
 </tr>
 <tr>
+<td><a href="mapping_note/">mapping_note</a></td>
+<td>Curator note explaining the scope or uncertainty of this ontology mapping</td>
+</tr>
+<tr>
+<td><a href="mapping_relation/">mapping_relation</a></td>
+<td>SSSOM/SKOS mapping predicate describing how the local variable or field maps ...</td>
+</tr>
+<tr>
 <td><a href="massive_id/">massive_id</a></td>
 <td>MassIVE repository identifier for mass spectrometry data (e</td>
 </tr>
@@ -1150,6 +1182,14 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="measured_entity/">measured_entity</a></td>
 <td>Entity, organism, environmental feature, process, or system being measured or...</td>
+</tr>
+<tr>
+<td><a href="member_count/">member_count</a></td>
+<td>Total number of members in the resource</td>
+</tr>
+<tr>
+<td><a href="members/">members</a></td>
+<td>Members of the resource at human-readable grain (e</td>
 </tr>
 <tr>
 <td><a href="metadata/">metadata</a></td>
@@ -1316,6 +1356,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>The type of research program</td>
 </tr>
 <tr>
+<td><a href="provider/">provider</a></td>
+<td>Organization or laboratory that maintains and distributes the resource (e</td>
+</tr>
+<tr>
 <td><a href="publication_count/">publication_count</a></td>
 <td>Number or description of publications</td>
 </tr>
@@ -1340,6 +1384,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>Reference data maintained by the facility</td>
 </tr>
 <tr>
+<td><a href="registry/">registry</a></td>
+<td>Issuing registry or catalog (e</td>
+</tr>
+<tr>
 <td><a href="related_narratives/">related_narratives</a></td>
 <td>IDs of related KBase narratives</td>
 </tr>
@@ -1358,6 +1406,14 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="repository/">repository</a></td>
 <td>Data repository where a dataset is stored</td>
+</tr>
+<tr>
+<td><a href="research_resources/">research_resources</a></td>
+<td>Research resources maintained or produced by this program at catalog grain (m...</td>
+</tr>
+<tr>
+<td><a href="resource_type/">resource_type</a></td>
+<td>Coarse classification of this resource</td>
 </tr>
 <tr>
 <td><a href="role/">role</a></td>
@@ -1615,6 +1671,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <td>Priority level for considering a study/dataset for NMDC ingest</td>
 </tr>
 <tr>
+<td><a href="OntologyMappingRelation/">OntologyMappingRelation</a></td>
+<td>SSSOM/SKOS mapping predicate used to qualify how a local variable, field, or ...</td>
+</tr>
+<tr>
 <td><a href="OrganismType/">OrganismType</a></td>
 <td>Types of organisms in a microbial isolate collection</td>
 </tr>
@@ -1629,6 +1689,10 @@ including their metadata, datasets, publications, and organizational structure.<
 <tr>
 <td><a href="ProgramType/">ProgramType</a></td>
 <td>Types of DOE BER research programs</td>
+</tr>
+<tr>
+<td><a href="ResourceType/">ResourceType</a></td>
+<td>Coarse type of a research resource, used as a discriminator on the ResearchRe...</td>
 </tr>
 <tr>
 <td><a href="SFAType/">SFAType</a></td>

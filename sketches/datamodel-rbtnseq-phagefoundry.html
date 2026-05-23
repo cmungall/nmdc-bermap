@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Settled shape — catalog-grain resource registry</title>
+<style>
+  body { font: 14px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         margin: 0; padding: 32px; background: #f7f7f5; color: #1c1c1c; max-width: 1100px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 28px 0 10px; }
+  p.sub { margin: 0 0 18px; color: #555; }
+  p { max-width: 900px; }
+  svg { background: #fff; border: 1px solid #e3e3df; border-radius: 8px; max-width: 100%; height: auto; }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin: 12px 0 4px; font-size: 13px; color:#444; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .sw { width: 14px; height: 14px; border-radius: 3px; display: inline-block; border: 1px solid #00000022; }
+  .cards { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 8px; }
+  .card { background: #fff; border: 1px solid #e3e3df; border-radius: 8px; padding: 14px 16px; }
+  .card h3 { margin: 0 0 6px; font-size: 14px; color: #1c1c1c; }
+  .card .desc { color: #555; font-size: 12.5px; margin: 0 0 8px; }
+  pre { background: #f3f3ef; border: 1px solid #e3e3df; border-radius: 6px;
+        padding: 10px 12px; margin: 0; overflow-x: auto;
+        font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #1f2933; }
+  code { background:#ececea; padding:1px 4px; border-radius:3px; font-size:12.5px; }
+  .scope { background: #fff8ec; border: 1px solid #e9d6a3; border-radius: 8px;
+           padding: 12px 14px; font-size: 13px; color: #5e4a18; margin-top: 18px; max-width: 900px; }
+</style>
+</head>
+<body>
+
+<h1>Settled shape — catalog-grain resource registry</h1>
+<p class="sub">RB-TnSeq · AMP2/M2P2 · Phage Foundry, modelled at the KB's actual grain.</p>
+
+<p>
+This knowledge base operates at <b>program / paper / catalog</b> grain, not at bench grain. Once we accepted that, the modelling problem collapsed: studies stay paper-shaped (existing <code>studies</code> / <code>NMDCStudyReference</code> machinery), umbrella-study programs like AMP2/M2P2 reuse <code>nmdc_umbrella_study</code> with arbitrary-bolus datasets, and the only genuinely missing surface was a place to enumerate the large-grain, catalog-level resources a program maintains or produces (mutant libraries, phage banks, knowledgebases) with typed external identifiers. The additions below are the entire diff.
+</p>
+
+<h2>Schema additions</h2>
+
+<div class="legend">
+  <span><i class="sw" style="background:#e8e6e1"></i> existing class / slot</span>
+  <span><i class="sw" style="background:#fde9d3"></i> new (this diff)</span>
+  <span><i class="sw" style="background:#eef2f7"></i> enum</span>
+</div>
+
+<svg viewBox="0 0 1040 620" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+    <marker id="tri" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#fff" stroke="#444" stroke-width="1.2"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Row 1 : Programs (existing) ===== -->
+  <g font-size="13">
+    <rect x="40"  y="40" width="280" height="148" rx="7" fill="#e8e6e1" stroke="#0003"/>
+    <text x="180" y="62" text-anchor="middle" font-weight="700">ResearchProgram</text>
+    <text x="180" y="78" text-anchor="middle" font-size="10.5" fill="#666">(BRC · SFA · OtherProgram)</text>
+    <line x1="56" y1="86" x2="304" y2="86" stroke="#0002"/>
+    <text x="56" y="106" font-size="12">studies · NMDCStudyReference [*]</text>
+    <text x="56" y="124" font-size="12">isolate_collections · IsolateCollection [*]</text>
+    <text x="56" y="142" font-size="12" font-weight="600" fill="#a05a00">research_resources · ResearchResource [*]</text>
+    <text x="56" y="160" font-size="11" fill="#666">nmdc_umbrella_study (for facility-style)</text>
+    <text x="56" y="178" font-size="11" fill="#666">phenotype_assays (vocabulary; kept)</text>
+
+    <rect x="360" y="40" width="240" height="148" rx="7" fill="#e8e6e1" stroke="#0003"/>
+    <text x="480" y="62" text-anchor="middle" font-weight="700">UserFacility</text>
+    <text x="480" y="78" text-anchor="middle" font-size="10.5" fill="#666">(EMSL · JGI · KBase)</text>
+    <line x1="376" y1="86" x2="584" y2="86" stroke="#0002"/>
+    <text x="376" y="106" font-size="12">capabilities</text>
+    <text x="376" y="124" font-size="12">flagship_genomes · reference_data</text>
+    <text x="376" y="142" font-size="12" font-weight="600" fill="#a05a00">research_resources · ResearchResource [*]</text>
+
+    <rect x="640" y="40" width="360" height="148" rx="7" fill="#fff" stroke="#0003"/>
+    <text x="656" y="62" font-weight="700">studies stay paper-grained</text>
+    <text x="656" y="82" font-size="12" fill="#444">Price 2018, Wetmore 2015, Mutalik &amp; Arkin 2022</text>
+    <text x="656" y="100" font-size="12" fill="#444">enter as <tspan font-family="monospace">NMDCStudyReference</tspan> entries with a</text>
+    <text x="656" y="118" font-size="12" fill="#444"><tspan font-family="monospace">primary_reference_info</tspan>.</text>
+    <text x="656" y="142" font-size="12" fill="#444">Umbrella-study programs (AMP2/M2P2) keep</text>
+    <text x="656" y="160" font-size="12" fill="#444">using <tspan font-family="monospace">nmdc_umbrella_study</tspan> + datasets.</text>
+  </g>
+
+  <!-- arrows from program/facility to ResearchResource -->
+  <line x1="200" y1="188" x2="440" y2="232" stroke="#a05a00" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="480" y1="188" x2="520" y2="232" stroke="#a05a00" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="298" y="216" font-size="11" fill="#a05a00">research_resources [*]</text>
+
+  <!-- ===== Row 2 : Resource classes ===== -->
+  <g font-size="13">
+    <!-- IsolateCollection (existing, now is_a) -->
+    <rect x="40" y="240" width="280" height="170" rx="7" fill="#e8e6e1" stroke="#0003"/>
+    <text x="180" y="262" text-anchor="middle" font-weight="700">IsolateCollection</text>
+    <text x="180" y="278" text-anchor="middle" font-size="10.5" fill="#666">(existing — <tspan font-style="italic">now</tspan> is_a ResearchResource)</text>
+    <line x1="56" y1="286" x2="304" y2="286" stroke="#0002"/>
+    <text x="56" y="306" font-size="12">organism_types · isolate_count</text>
+    <text x="56" y="324" font-size="12">genome_count · source_environments</text>
+    <text x="56" y="342" font-size="12">isolation_methods · host_organisms</text>
+    <text x="56" y="360" font-size="12">culture_collection_url</text>
+    <text x="56" y="378" font-size="12">genome_catalog_url · kbase_narrative_id</text>
+    <text x="56" y="398" font-size="11" fill="#1a5e1a">existing entries validate unchanged</text>
+
+    <!-- ResearchResource (new abstract) -->
+    <rect x="360" y="240" width="320" height="200" rx="7" fill="#fde9d3" stroke="#a05a00" stroke-width="1.6"/>
+    <text x="520" y="262" text-anchor="middle" font-weight="700">ResearchResource  <tspan font-size="11" fill="#a05a00">· new · abstract</tspan></text>
+    <line x1="376" y1="270" x2="664" y2="270" stroke="#a05a0033"/>
+    <text x="376" y="290" font-size="12">name · description</text>
+    <text x="376" y="308" font-size="12">primary_reference · primary_reference_info</text>
+    <text x="376" y="326" font-size="12" font-weight="600">resource_type · ResourceType</text>
+    <text x="376" y="344" font-size="12" font-weight="600">identifiers · ResourceIdentifier [*]</text>
+    <text x="376" y="362" font-size="12">provider · url · count</text>
+    <line x1="376" y1="372" x2="664" y2="372" stroke="#a05a0033"/>
+    <text x="376" y="390" font-size="11" fill="#5e4a18">no subclass proliferation; the type</text>
+    <text x="376" y="406" font-size="11" fill="#5e4a18">is the discriminator. IsolateCollection is</text>
+    <text x="376" y="422" font-size="11" fill="#5e4a18">the only concrete subclass we promoted.</text>
+
+    <!-- ResourceIdentifier (new) -->
+    <rect x="720" y="240" width="280" height="170" rx="7" fill="#fde9d3" stroke="#a05a00" stroke-width="1.6"/>
+    <text x="860" y="262" text-anchor="middle" font-weight="700">ResourceIdentifier  <tspan font-size="11" fill="#a05a00">· new</tspan></text>
+    <text x="860" y="278" text-anchor="middle" font-size="10.5" fill="#666">typed external identifier</text>
+    <line x1="736" y1="286" x2="984" y2="286" stroke="#a05a0033"/>
+    <text x="736" y="308" font-size="12">registry  (Addgene · BEI · ATCC · DSMZ ·</text>
+    <text x="736" y="324" font-size="12">           KBase · NCBI:Assembly ·</text>
+    <text x="736" y="340" font-size="12">           fit.genomics.lbl.gov · internal)</text>
+    <text x="736" y="362" font-size="12">accession</text>
+    <text x="736" y="380" font-size="12">url</text>
+    <text x="736" y="398" font-size="12">citation</text>
+  </g>
+
+  <!-- is_a inheritance arrow IsolateCollection -> ResearchResource -->
+  <line x1="320" y1="320" x2="358" y2="320" stroke="#444" stroke-width="1.6" marker-end="url(#tri)"/>
+  <text x="338" y="312" text-anchor="middle" font-size="11" fill="#444">is_a</text>
+
+  <!-- identifiers arrow ResearchResource -> ResourceIdentifier -->
+  <line x1="680" y1="334" x2="718" y2="334" stroke="#555" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="699" y="326" text-anchor="middle" font-size="11" fill="#555">identifiers</text>
+
+  <!-- ===== Row 3 : ResourceType enum ===== -->
+  <g font-size="12.5">
+    <rect x="360" y="468" width="640" height="130" rx="7" fill="#eef2f7" stroke="#2c5d8f" stroke-width="1.4"/>
+    <text x="376" y="488" font-weight="700">ResourceType  <tspan font-size="11" font-weight="400" fill="#2c5d8f">· new enum · the discriminator</tspan></text>
+    <line x1="376" y1="496" x2="984" y2="496" stroke="#2c5d8f33"/>
+    <text x="380" y="516">ISOLATE_COLLECTION</text>
+    <text x="540" y="516">MUTANT_LIBRARY</text>
+    <text x="680" y="516">PHAGE_BANK</text>
+    <text x="820" y="516">REFERENCE_GENOME_SET</text>
+    <text x="380" y="536">PLASMID_COLLECTION</text>
+    <text x="540" y="536">SYNTHETIC_COMMUNITY</text>
+    <text x="700" y="536">KNOWLEDGEBASE</text>
+    <text x="820" y="536">SOFTWARE</text>
+    <text x="380" y="556">OTHER</text>
+    <text x="380" y="582" font-size="11" fill="#456">extend the enum when a genuinely new kind arrives — split out a subclass only when slots actually diverge.</text>
+  </g>
+
+  <line x1="520" y1="440" x2="520" y2="466" stroke="#2c5d8f" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="528" y="456" font-size="11" fill="#2c5d8f">resource_type</text>
+</svg>
+
+<h2>Worked examples</h2>
+
+<div class="cards">
+
+  <div class="card">
+    <h3>Deutschbauer · RB-TnSeq / LBNL Fitness Browser</h3>
+    <p class="desc">Two paper-grained studies plus one knowledgebase resource. Per-organism mutant libraries live behind the Fitness Browser landing page and aren't enumerated here.</p>
+<pre>studies:
+- name: Mutant phenotypes for thousands of bacterial genes of unknown function
+  primary_reference_info:
+    reference:
+      id: doi:10.1038/s41586-018-0124-0
+      title: Mutant phenotypes for thousands of bacterial genes of unknown function
+  pi: Adam M. Deutschbauer
+
+- name: Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons
+  primary_reference_info:
+    reference:
+      id: doi:10.1128/mBio.00306-15
+      title: Rapid Quantification of Mutant Fitness in Diverse Bacteria by Sequencing Randomly Bar-Coded Transposons
+  pi: Adam M. Deutschbauer
+
+research_resources:
+- name: LBNL Fitness Browser
+  description: >-
+    Cumulative database of genome-wide mutant fitness assays produced by
+    RB-TnSeq across hundreds of bacteria; continuously updated.
+  resource_type: KNOWLEDGEBASE
+  provider: Lawrence Berkeley National Laboratory
+  url: https://fit.genomics.lbl.gov
+  count: "~hundreds of bacteria; thousands of conditions"
+  primary_reference_info:
+    reference:
+      id: doi:10.1038/s41586-018-0124-0
+      title: Mutant phenotypes for thousands of bacterial genes of unknown function
+  identifiers:
+  - registry: internal
+    accession: lbnl-fitness-browser
+    url: https://fit.genomics.lbl.gov
+  - registry: doi
+    accession: 10.1038/s41586-018-0124-0
+    url: https://doi.org/10.1038/s41586-018-0124-0</pre>
+  </div>
+
+  <div class="card">
+    <h3>AMP2 / M2P2 · EMSL phenotyping production facility</h3>
+    <p class="desc">No new schema needed for the program structure — data releases reuse <code>nmdc_umbrella_study</code> + <code>studies</code>/<code>datasets</code> at whatever bolus size EMSL releases. A single <code>ResearchResource</code> entry catalogs the facility-level capability with an EMSL project ID.</p>
+<pre># Under EMSL (UserFacility):
+research_resources:
+- name: M2P2 — EMSL Microbiome Molecular Phenotyping Platform
+  description: >-
+    EMSL production phenotyping facility offering integrated multi-omics
+    characterization of microbial isolates and consortia submitted by
+    user-projects.
+  resource_type: KNOWLEDGEBASE
+  provider: EMSL (Pacific Northwest National Laboratory)
+  url: https://www.emsl.pnnl.gov
+  identifiers:
+  - registry: internal
+    accession: emsl-m2p2
+    url: https://www.emsl.pnnl.gov
+  # actual data releases go in calling programs' studies/datasets under
+  # nmdc_umbrella_study, not here.</pre>
+  </div>
+
+  <div class="card">
+    <h3>Phage Foundry · Mutalik Lab · BRaVE</h3>
+    <p class="desc">Framework paper as a study; the PFK as a knowledgebase resource. The existing m-CAFEs and InCoGenTEC phage collections — already filed under <code>isolate_collections</code> — stay where they are and now inherit <code>ResearchResource</code> identity automatically.</p>
+<pre>studies:
+- name: A Phage Foundry Framework to Systematically Develop Viral Countermeasures
+  primary_reference_info:
+    reference:
+      id: doi:10.1016/j.isci.2022.104121
+      title: A Phage Foundry Framework to Systematically Develop Viral Countermeasures to Combat Antibiotic-Resistant Bacterial Pathogens
+  pi: Vivek K. Mutalik
+
+research_resources:
+- name: Phage Foundry Knowledge-Base (PFK)
+  description: >-
+    FAIR knowledgebase of phage-host interaction "datasheets" produced by
+    the Phage Foundry's tiered PCL1–PCL5 characterization pipeline.
+  resource_type: KNOWLEDGEBASE
+  provider: Mutalik Lab, Lawrence Berkeley National Laboratory
+  url: https://phagefoundry.org
+  primary_reference_info:
+    reference:
+      id: doi:10.1016/j.isci.2022.104121
+      title: A Phage Foundry Framework to Systematically Develop Viral Countermeasures to Combat Antibiotic-Resistant Bacterial Pathogens
+  identifiers:
+  - registry: internal
+    accession: phage-foundry-pfk
+    url: https://phagefoundry.org
+  - registry: PMID
+    accession: "35402883"
+    url: https://pubmed.ncbi.nlm.nih.gov/35402883/
+  - registry: PMC
+    accession: PMC8983348
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8983348/
+
+# Existing phage collections (no change required):
+# isolate_collections:
+# - name: m-CAFEs Phage Collection           # organism_types: [PHAGE]
+# - name: InCoGenTEC Phage Collection         # organism_types: [PHAGE]
+# These are now ResearchResource subtype instances by virtue of is_a.</pre>
+  </div>
+
+</div>
+
+<div class="scope">
+  <b>Out of scope (intentionally).</b> The earlier sketches explored an <code>AssayPlatform</code> / <code>ExperimentalCondition</code> / <code>Perturbation</code> lattice that would have modeled RB-TnSeq at bench grain (library × condition × Time0 → fitness matrix). That was the wrong grain for this KB. The fine-grained machinery is dropped; if a future use case needs assay-level decomposition, it should be a separate, downstream schema and not a generalization of this one.
+</div>
+
+</body>
+</html>

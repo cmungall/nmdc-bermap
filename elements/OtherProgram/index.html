@@ -473,6 +473,17 @@
 
 
 
+      OtherProgram : research_resources
+
+
+
+
+
+        OtherProgram --&gt; "*" ResearchResource : research_resources
+        click ResearchResource href "../ResearchResource/"
+
+
+
       OtherProgram : scientific_questions
 
       OtherProgram : start_date
@@ -697,6 +708,12 @@
 <td><a href="../isolate_collections/">isolate_collections</a></td>
 <td>* <br/> <a href="../IsolateCollection/">IsolateCollection</a></td>
 <td>Microbial isolate collections maintained by this research program</td>
+<td><a href="../ResearchProgram/">ResearchProgram</a></td>
+</tr>
+<tr>
+<td><a href="../research_resources/">research_resources</a></td>
+<td>* <br/> <a href="../ResearchResource/">ResearchResource</a></td>
+<td>Research resources maintained or produced by this program at catalog grain (m...</td>
 <td><a href="../ResearchProgram/">ResearchProgram</a></td>
 </tr>
 <tr>
@@ -1141,7 +1158,11 @@ attributes:
   isolate_collections:
     name: isolate_collections
     description: Microbial isolate collections maintained by this research program.
-      Provides catalog-level information about available cultures and genomes.
+      Provides catalog-level information about available cultures and genomes. For
+      new entries that are not isolate collections (mutant libraries, phage banks,
+      knowledgebases, reference genome sets), use research_resources instead. Both
+      slots reference subtypes of ResearchResource, so a single query against the
+      class hierarchy returns every resource a program maintains.
     from_schema: https://w3id.org/nmdc/sfas-brcs
     rank: 1000
     alias: isolate_collections
@@ -1149,6 +1170,25 @@ attributes:
     domain_of:
     - ResearchProgram
     range: IsolateCollection
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  research_resources:
+    name: research_resources
+    description: Research resources maintained or produced by this program at catalog
+      grain (mutant libraries, phage banks, reference genome sets, plasmid collections,
+      synthetic communities, knowledgebases, software). Use this slot for resource
+      kinds other than isolate collections; existing isolate collections remain under
+      the isolate_collections slot for back-compatibility but are also instances of
+      ResearchResource.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: research_resources
+    owner: OtherProgram
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: ResearchResource
     multivalued: true
     inlined: true
     inlined_as_list: true
@@ -1194,6 +1234,7 @@ attributes:
     - Person
     - Dataset
     - Variable
+    - ResearchResource
     - IsolateCollection
     - Technology
     - NMDCStudyReference
@@ -1215,6 +1256,7 @@ attributes:
     - Institution
     - Dataset
     - Variable
+    - ResearchResource
     - IsolateCollection
     - Technology
     - StudyDesign

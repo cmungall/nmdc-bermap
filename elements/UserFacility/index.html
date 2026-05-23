@@ -344,6 +344,17 @@
 
 
 
+      UserFacility : research_resources
+
+
+
+
+
+        UserFacility --&gt; "*" ResearchResource : research_resources
+        click ResearchResource href "../ResearchResource/"
+
+
+
       UserFacility : services
 
       UserFacility : start_date
@@ -460,6 +471,12 @@
 <td>direct</td>
 </tr>
 <tr>
+<td><a href="../research_resources/">research_resources</a></td>
+<td>* <br/> <a href="../ResearchResource/">ResearchResource</a></td>
+<td>Research resources maintained or produced by this program at catalog grain (m...</td>
+<td>direct</td>
+</tr>
+<tr>
 <td><a href="../id/">id</a></td>
 <td>1 <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
 <td>A unique identifier for an entity</td>
@@ -545,6 +562,7 @@ slots:
 - flagship_genomes
 - reference_data
 - supported_data_types
+- research_resources
 
 </code></pre>
 </details>
@@ -706,6 +724,25 @@ attributes:
     - UserFacility
     range: string
     multivalued: true
+  research_resources:
+    name: research_resources
+    description: Research resources maintained or produced by this program at catalog
+      grain (mutant libraries, phage banks, reference genome sets, plasmid collections,
+      synthetic communities, knowledgebases, software). Use this slot for resource
+      kinds other than isolate collections; existing isolate collections remain under
+      the isolate_collections slot for back-compatibility but are also instances of
+      ResearchResource.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: research_resources
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: ResearchResource
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
   id:
     name: id
     description: A unique identifier for an entity
@@ -735,6 +772,7 @@ attributes:
     - Person
     - Dataset
     - Variable
+    - ResearchResource
     - IsolateCollection
     - Technology
     - NMDCStudyReference
@@ -755,6 +793,7 @@ attributes:
     - Institution
     - Dataset
     - Variable
+    - ResearchResource
     - IsolateCollection
     - Technology
     - StudyDesign

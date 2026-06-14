@@ -63,6 +63,15 @@ gen-profiles:
 validate-profiles:
   uv run python schemas/validate_profiles.py
 
+# Vet the ontology CURIEs in profile enum permissible values (linkml-term-validator)
+validate-profile-terms:
+  #!/usr/bin/env bash
+  set -euo pipefail
+  for f in schemas/base.yaml $(grep -l 'meaning:' schemas/studies/*.yaml); do
+    echo "== $f =="
+    uv run linkml-term-validator validate-schema "$f" -c src/nmdc_sfas_brcs/validators/oak_config.yaml --strict
+  done
+
 # Fetch all BRC datasets from API and save as individual YAML files
 fetch-brc-datasets:
   uv run python src/nmdc_sfas_brcs/scripts/fetch_brc_datasets.py --summary

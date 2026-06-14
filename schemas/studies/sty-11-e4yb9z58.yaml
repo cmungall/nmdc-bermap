@@ -404,10 +404,9 @@ slots:
 enums:
   HostCropEnum:
     permissible_values:
-      switchgrass:
-        meaning: NCBITaxon:38727
+      switchgrass: null
       miscanthus:
-        meaning: NCBITaxon:62324
+        meaning: NCBITaxon:62336
   SamplingSeasonEnum:
     permissible_values:
       early season: null

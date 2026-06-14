@@ -45,13 +45,21 @@ grow over time — ungrounded levels are emitted as text-only permissible values
 ## Regenerate / validate
 
 ```bash
-just gen-profiles        # rebuild schemas/studies/*.yaml and schemas/sites/*.yaml
-just validate-profiles   # load every profile via SchemaView; verify imports + ranges resolve
+just gen-profiles            # rebuild schemas/studies/*.yaml and schemas/sites/*.yaml
+just validate-profiles       # load every profile via SchemaView; verify imports + ranges resolve
+just validate-profile-terms  # vet enum permissible-value meaning: CURIEs against ontologies (OAK)
 ```
+
+`validate-profile-terms` runs `linkml-term-validator` (strict) over every profile that carries
+`meaning:` fields, confirming each CURIE resolves to a term whose label matches the level text.
+This is what guarantees the groundings are real — it caught a wrong seed (`miscanthus` →
+`NCBITaxon:62324`, which is *Anopheles funestus*) during initial curation. Because it checks
+label equality (not common-name synonyms), `level_meanings.yaml` only grounds level texts that
+match a term label; common names like `switchgrass` are left to the dynamic `HostCommonNameEnum`.
 
 ## Current coverage
 
 81 study profiles (540 slots, 54 static enums, 145 permissible values) + 40 site profiles.
-60 slots bind to the shared dynamic enums; **51 of 145 permissible values carry an ontology
-`meaning:`** (27 distinct terms across NCBITaxon/ENVO/PO/CHEBI), all OLS-verified. Grounding
-grows by extending the curated, verified `level_meanings.yaml`.
+60 slots bind to the shared dynamic enums; **48 of 145 permissible values carry an ontology
+`meaning:`** (across NCBITaxon/ENVO/PO/CHEBI), every one passing `just validate-profile-terms`.
+Grounding grows by extending the curated, verified `level_meanings.yaml`.

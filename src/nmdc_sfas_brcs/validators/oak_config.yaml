@@ -16,6 +16,7 @@ ontology_adapters:
   CHEBI: sqlite:obo:chebi
   ENVO: sqlite:obo:envo
   NCBITaxon: sqlite:obo:ncbitaxon
+  PO: sqlite:obo:po
   UO: sqlite:obo:uo
 
   # Skip validation for these prefixes (not real ontologies or not available)

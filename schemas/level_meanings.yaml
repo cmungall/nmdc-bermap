@@ -6,8 +6,10 @@
 # verify each against OLS first. See README.md.
 
 # --- organisms (NCBITaxon) ---
-switchgrass: NCBITaxon:38727            # Panicum virgatum
-miscanthus: NCBITaxon:62324             # Miscanthus x giganteus
+# Only level texts that match an ontology term's LABEL are grounded here; the term validator
+# rejects common-name->binomial mismatches (e.g. "switchgrass" vs label "Panicum virgatum"),
+# so common names are left to the dynamic HostCommonNameEnum (NCBITaxon by reference) instead.
+miscanthus: NCBITaxon:62336             # genus Miscanthus (label "Miscanthus")
 miscanthus sinensis: NCBITaxon:62337
 sorghum bicolor: NCBITaxon:4558
 brachypodium distachyon: NCBITaxon:15368
@@ -18,7 +20,6 @@ laccaria bicolor: NCBITaxon:29883
 colletotrichum sublineola: NCBITaxon:1173701
 shewanella oneidensis mr-1: NCBITaxon:211586
 escherichia coli bw25113: NCBITaxon:679895
-escherichia coli k-12 (bw25113): NCBITaxon:679895
 
 # --- environmental materials / habitats (ENVO) ---
 soil: ENVO:00001998
@@ -31,7 +32,6 @@ groundwater: ENVO:01001004
 root: PO:0009005
 leaf: PO:0025034
 stem: PO:0009047
-shoot: PO:0009006
 
 # --- chemicals (CHEBI) ---
 ethanol: CHEBI:16236

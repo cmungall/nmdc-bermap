@@ -65,8 +65,7 @@ enums:
       (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose): null
   TestBacterialSpeciesEnum:
     permissible_values:
-      Escherichia coli K-12 (BW25113):
-        meaning: NCBITaxon:679895
+      Escherichia coli K-12 (BW25113): null
       Phaeobacter inhibens DSM 17395: null
       Pseudomonas stutzeri RCH2: null
       Shewanella amazonensis SB2B: null

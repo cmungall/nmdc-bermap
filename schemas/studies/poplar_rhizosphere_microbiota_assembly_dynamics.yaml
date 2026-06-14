@@ -106,5 +106,4 @@ enums:
         meaning: ENVO:00005801
       root:
         meaning: PO:0009005
-      shoot:
-        meaning: PO:0009006
+      shoot: null

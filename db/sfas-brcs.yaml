@@ -121,6 +121,8 @@ bioenergy_research_centers:
         label: season
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: host crop
       description: Perennial bioenergy crop host sampled for phyllosphere community profiling.
       roles:
@@ -138,6 +140,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: phyllosphere transcript activity
       description: Microbial transcript abundance profiles used to infer seasonal activity of phyllosphere taxa.
       roles:
@@ -158,6 +162,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: degree Celsius
       measured_entity: phyllosphere air environment
       material_or_matrix: air
       bervo_term:
@@ -172,6 +177,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: dimensionless
       measured_entity: phyllosphere sample chemistry
       material_or_matrix: leaf phyllosphere
       source_field_names:
@@ -183,6 +189,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       measured_entity: phyllosphere sample chemistry
       material_or_matrix: leaf phyllosphere
       source_field_names:
@@ -325,6 +332,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000556
         label: fertilizer regimen
+      - id: MIXS:0000008
+        label: experimental factor
     - name: host common name
       description: Host common name recorded for the NMDC biosample.
       roles:
@@ -342,6 +351,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: gram
       source_field_names:
       - host_dry_mass
     - name: host height
@@ -350,6 +360,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: centimeter
       source_field_names:
       - host_height
     - name: humidity
@@ -358,6 +369,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       source_field_names:
       - humidity
     - name: photon flux
@@ -366,6 +378,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: micromole per square meter per second
       source_field_names:
       - photon_flux
     - name: wind direction
@@ -374,6 +387,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: degree
       source_field_names:
       - wind_direction
     - name: wind speed
@@ -382,6 +396,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: meter per second
       source_field_names:
       - wind_speed
     - name: total carbon
@@ -390,6 +405,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       source_field_names:
       - tot_carb
   - nmdc_study_id: nmdc:sty-11-wbc14h22
@@ -640,6 +656,9 @@ bioenergy_research_centers:
       value_type: CATEGORICAL
       source_field_names:
       - agrochem_addition
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sieving
       description: Sieving protocol or size fraction recorded in NMDC biosample metadata.
       roles:
@@ -696,7 +715,7 @@ bioenergy_research_centers:
       - sorghum-associated bacterial isolates
       sampling_strategy: Genome-resolved and transcript-resolved profiling of sorghum-associated phyllosphere
         communities, paired with isolation of culturable aerial root mucilage bacteria.
-      notes: Variable catalog entry based on BRC dataset metadata and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from BRC dataset metadata and the primary reference.
     variables:
     - name: host crop
       description: Sorghum host associated with phyllosphere, aerial root mucilage, or rhizosphere samples.
@@ -712,6 +731,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: plant-associated compartment
       description: Sorghum plant-associated habitat sampled for community profiling or isolate recovery.
       roles:
@@ -732,6 +753,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sorghum-associated microbial community composition
       description: Amplicon, metagenomic, or metatranscriptomic profiles of sorghum-associated microbial communities.
       roles:
@@ -798,7 +821,7 @@ bioenergy_research_centers:
       sampling_strategy: Regional sampling across five GLBRC Marginal Land Experiment sites plus repeated
         seasonal sampling at Lux Arbor.
       replication: Field plots sampled across Michigan and Wisconsin sites with repeated root and soil collections.
-      notes: Variable catalog entry based on the primary publication and BRC study description.
+      notes: Catalog of 5 variables (4 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: sampling site
       description: GLBRC Marginal Land Experiment site where switchgrass root or soil samples were collected.
@@ -821,6 +844,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sample compartment
       description: Belowground habitat sampled for switchgrass-associated microbiome profiling.
       roles:
@@ -841,6 +866,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: collection date
       description: Date or seasonal sampling point used to evaluate intra-annual microbiome dynamics.
       roles:
@@ -859,6 +886,8 @@ bioenergy_research_centers:
         label: collection date
       - id: MIXS:0000829
         label: season
+      - id: MIXS:0000008
+        label: experimental factor
     - name: nitrogen addition
       description: Nitrogen addition treatment evaluated as a possible driver of switchgrass microbiome structure.
       roles:
@@ -931,7 +960,7 @@ bioenergy_research_centers:
       - plant compartment microbiome samples
       sampling_strategy: Amplicon profiling of wild-type and QsuB transgenic switchgrass-associated compartments.
       controls: Wild-type switchgrass plants provide the comparison condition for QsuB transgenic plants.
-      notes: Variable catalog entry based on the primary publication and BRC study description.
+      notes: Catalog of 3 variables (2 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: QsuB transgenic status
       description: Host plant engineering status for the shikimate pathway modification that reduces lignin content.
@@ -972,6 +1001,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: bacterial and fungal community composition
       description: 16S and ITS amplicon profiles used to evaluate transgenic effects on switchgrass microbiomes.
       roles:
@@ -1020,7 +1051,7 @@ bioenergy_research_centers:
       sampling_strategy: Mesocosm experiment delivering terpene treatments through an artificial root system
         with pre-treatment and post-treatment microbiome sampling.
       controls: Untreated or solvent-control sorghum mesocosms used as treatment baselines.
-      notes: Variable catalog entry based on the primary publication and BRC study description.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: terpene treatment
       description: Exogenous terpene supplied belowground to test effects on sorghum rhizobiome communities.
@@ -1056,6 +1087,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000751
         label: chemical administration
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sampling time point
       description: Sampling point relative to terpene application and plant growth.
       roles:
@@ -1072,6 +1105,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: belowground microbiome composition
       description: Bacterial and fungal community profiles from sorghum root-associated belowground compartments.
       roles:
@@ -1124,7 +1159,7 @@ bioenergy_research_centers:
       - soil metagenome samples
       sampling_strategy: Long-term field experiment sampling across drought and cropping-system treatments
         at Kellogg Biological Station.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: drought treatment
       description: Field drought manipulation used to test microbial allocation to stress tolerance.
@@ -1158,6 +1193,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: microbial stress tolerance allocation
       description: Metagenome-derived community trait allocation to stress tolerance under drought.
       roles:
@@ -1220,7 +1257,7 @@ bioenergy_research_centers:
       observational_units:
       - decomposing leaf litter soil metagenome samples
       sampling_strategy: Soil microcosm experiment varying plant detritus, soil pore size, and soil moisture.
-      notes: Variable catalog entry based on the primary publication title and study description.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: leaf litter plant species
       description: Plant species identity of decomposing leaf detritus placed into soil microcosms.
@@ -1259,6 +1296,7 @@ bioenergy_research_centers:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       measured_entity: soil water
       material_or_matrix: soil
       source_field_names:
@@ -1322,7 +1360,7 @@ bioenergy_research_centers:
       observational_units:
       - bioreactor metagenome samples
       sampling_strategy: Longitudinal anaerobic bioreactor sampling during fermentation of dairy coproducts.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: dairy coproduct feedstock
       description: Dairy coproduct used as fermentation substrate.
@@ -1356,6 +1394,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: carboxylate product profile
       description: Fermentation product profile for carboxylate platform compounds.
       roles:
@@ -1421,7 +1461,7 @@ bioenergy_research_centers:
       - transcription factor binding profiles
       sampling_strategy: DNA affinity purification sequencing assays for putative transcriptional regulators
         of aromatic metabolism.
-      notes: Variable catalog entry based on NCBI BioProject metadata and publication title.
+      notes: Catalog of 3 variables (1 design factor, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: transcription factor bait
       description: Putative transcriptional regulator assayed for in vitro DNA binding.
@@ -1434,6 +1474,9 @@ bioenergy_research_centers:
       - transcription_factor
       - regulator
       - bait_protein
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: genomic binding site
       description: Genomic interval enriched by DAP-seq for a candidate transcriptional regulator.
       roles:
@@ -1487,7 +1530,7 @@ bioenergy_research_centers:
       - endosphere compartment samples
       sampling_strategy: Defined 28-strain Variovorax synthetic community assay across Populus host species
         and root-associated compartments.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: Variovorax strain
       description: Member strain of the 28-strain Populus Variovorax synthetic community.
@@ -1500,6 +1543,9 @@ bioenergy_research_centers:
       - strain_id
       - isolate_id
       - genome_accession
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: Populus host species
       description: Populus host species used for synthetic community compartment partitioning assays.
       roles:
@@ -1516,6 +1562,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: root-associated compartment
       description: Populus root-associated compartment where each Variovorax strain was quantified.
       roles:
@@ -1535,6 +1583,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -1881,6 +1931,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: rhizosphere bacterial community composition
       description: 16S amplicon profile of sorghum rhizosphere bacterial communities.
       roles:
@@ -2061,7 +2113,7 @@ bioenergy_research_centers:
       sampling_strategy: Field test of defined sorghum rhizosphere synthetic community colonization and plant
         performance effects.
       controls: Non-inoculated sorghum plants used as the baseline for synthetic community effects.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 3 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: SRC1 inoculation
       description: Defined sorghum rhizosphere synthetic community treatment applied to field-grown plants.
@@ -2104,6 +2156,7 @@ bioenergy_research_centers:
       - STUDY_DESIGN_DEPENDENT_VARIABLE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: gram
       measured_entity: sorghum shoot
       method: field biomass phenotyping
       source_field_names:
@@ -2318,7 +2371,7 @@ bioenergy_research_centers:
       - soil microbiome samples
       sampling_strategy: Replicated chronosequence field sampling across stand ages and nitrogen fertilizer rates.
       replication: Replicated Miscanthus field plots across stand age and fertilizer-rate combinations.
-      notes: Variable catalog entry based on publication and BioProject descriptions.
+      notes: Catalog of 20 variables (4 design factors, 2 measured outcomes, 10 covariates, 3 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 696 samples.
     variables:
     - name: stand age
       description: Age of the Miscanthus stand in the replicated chronosequence trial.
@@ -2332,12 +2385,16 @@ bioenergy_research_centers:
       - stand_age
       - stand_age_years
       - plot_age
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: nitrogen fertilizer rate
       description: Nitrogen fertilizer application rate assigned to Miscanthus field plots.
       roles:
       - EXPERIMENTAL_FACTOR
       - STUDY_DESIGN_INDEPENDENT_VARIABLE
       value_type: NUMERIC
+      units: kilogram per hectare
       measured_entity: Miscanthus field plot
       source_field_names:
       - nitrogen_rate
@@ -2527,6 +2584,9 @@ bioenergy_research_centers:
       value_type: CATEGORICAL
       source_field_names:
       - other_treatment
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
   - name: Native Miscanthus Rhizosphere and Endophytic Microbiome
     pi: Angela Kent
     description: Survey of the native Miscanthus rhizosphere and endophytic microbiome in Taiwan, with
@@ -2558,7 +2618,7 @@ bioenergy_research_centers:
       - root endophytic compartment samples
       sampling_strategy: Survey across native Miscanthus species, host genetic variation, sites, and ecological
         gradients in Taiwan.
-      notes: Variable catalog entry based on CABBI dataset page and primary publication summary.
+      notes: Catalog of 4 variables (2 design factors, 1 measured outcome, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: Miscanthus species
       description: Host Miscanthus species associated with each root or rhizosphere microbiome sample.
@@ -2577,6 +2637,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: root-associated compartment
       description: Root-associated habitat distinguishing rhizosphere soil from root endophytic samples.
       roles:
@@ -2596,6 +2658,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -2682,6 +2746,9 @@ bioenergy_research_centers:
       - nucleic_acid_fraction
       - dna_rna_fraction
       - library_type
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: active soil microbiome composition
       description: SSU rRNA profile representing metabolically active soil microbial communities.
       roles:
@@ -2731,7 +2798,7 @@ bioenergy_research_centers:
       - sorghum rhizosphere soil samples
       sampling_strategy: Repeated field sampling across years and fertilizer treatments to evaluate rhizosphere
         nitrification and microbial community variation.
-      notes: Variable catalog entry based on study and publication descriptions.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: fertilizer treatment
       description: Fertilizer treatment condition applied to field-grown bioenergy sorghum.
@@ -2769,6 +2836,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: nitrification activity
       description: Rhizosphere nitrification response used to evaluate biological nitrification inhibition potential.
       roles:
@@ -2829,7 +2898,7 @@ bioenergy_research_centers:
       observational_units:
       - plant compartment microbiome samples
       sampling_strategy: Greenhouse microbiome comparison across crop accessions and plant-associated compartments.
-      notes: Variable catalog entry based on CABBI study description and publication summary.
+      notes: Catalog of 3 variables (2 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: crop accession type
       description: Host plant type contrasting sugarcane with metabolically engineered oilcane accessions.
@@ -2875,6 +2944,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -2916,7 +2987,7 @@ bioenergy_research_centers:
       - subsoil microbiome samples
       sampling_strategy: One-meter soil profile sampling in Miscanthus fields to compare plant-nitrifier
         interactions across depth.
-      notes: Variable catalog entry based on CABBI study description.
+      notes: Catalog of 3 variables (1 design factor, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: soil depth
       description: Soil profile depth interval sampled under Miscanthus.
@@ -2937,6 +3008,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000018
         label: depth
+      - id: MIXS:0000008
+        label: experimental factor
     - name: nitrifier community composition
       description: 16S amplicon profile of nitrifying microorganisms across topsoil and subsoil.
       roles:
@@ -3071,7 +3144,7 @@ bioenergy_research_centers:
       - bulk soil microbiome samples
       sampling_strategy: Boardman field sampling across Populus genotypes, belowground compartments, and drought
         conditions.
-      notes: Variable catalog entry based on CBI study description.
+      notes: Catalog of 15 variables (4 design factors, 2 measured outcomes, 5 covariates, 3 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 64 samples.
     variables:
     - name: drought treatment
       description: Chronic drought condition applied to Populus field plots.
@@ -3104,6 +3177,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: belowground compartment
       description: Belowground habitat sampled for Populus microbiome profiling.
       roles:
@@ -3124,6 +3199,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -3249,6 +3326,9 @@ bioenergy_research_centers:
       value_type: CATEGORICAL
       source_field_names:
       - other_treatment
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
   - name: Poplar Rhizosphere Microbiota Assembly Dynamics
     pi: Aurelie Deveau
     description: Characterization of fungal and bacterial community assembly from root to shoot axis in
@@ -3280,7 +3360,7 @@ bioenergy_research_centers:
       - shoot samples
       sampling_strategy: DNA metabarcoding and metabolomics across root-to-shoot compartments over 30 days
         of poplar growth.
-      notes: Variable catalog entry based on CBI study description.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: growth day
       description: Sampling day during 30-day poplar growth experiment.
@@ -3299,6 +3379,8 @@ bioenergy_research_centers:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: plant axis compartment
       description: Rhizosphere, root, or shoot compartment sampled along the poplar root-to-shoot axis.
       roles:
@@ -3319,6 +3401,8 @@ bioenergy_research_centers:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -3367,7 +3451,7 @@ bioenergy_research_centers:
       - resequenced strain genomes
       sampling_strategy: Whole-genome resequencing of engineered C. thermocellum lineages selected for ethanol
         production and tolerance phenotypes.
-      notes: Variable catalog entry based on CBI study description.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: strain identifier
       description: Identifier for engineered or evolved Clostridium thermocellum strain.
@@ -3392,6 +3476,9 @@ bioenergy_research_centers:
       - mutation
       - variant
       - genotype
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: ethanol production phenotype
       description: Ethanol production level associated with engineered or evolved strains.
       roles:
@@ -3564,7 +3651,7 @@ genomic_science_sfas:
       sampling_strategy: Metagenomic survey across 100 Oak Ridge Field Research Center groundwater wells
         spanning environmental stress and contamination gradients.
       replication: 100 groundwater wells.
-      notes: Variable catalog entry based on study description and primary publication summary.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: groundwater well identifier
       description: Identifier for the Oak Ridge groundwater well sampled in the survey.
@@ -3598,6 +3685,9 @@ genomic_science_sfas:
       - environmental_stress
       - pH
       - metal_concentration
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: groundwater microbial community composition
       description: Metagenome-derived taxonomic and functional profile of groundwater microbial communities.
       roles:
@@ -3653,7 +3743,7 @@ genomic_science_sfas:
       sampling_strategy: Sampling of Oak Ridge subsurface sediment and groundwater across centimeter- to
         field-scale spatial structure.
       replication: 26 sediment metagenomes and 9 groundwater metagenomes.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: subsurface sample matrix
       description: Material type represented by each Oak Ridge metagenome sample.
@@ -3673,6 +3763,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: subsurface spatial scale
       description: Spatial grain or sampling scale represented by the metagenome sample.
       roles:
@@ -3738,7 +3830,7 @@ genomic_science_sfas:
       - archaeal genome bins
       sampling_strategy: Genome-resolved metagenomic analysis of groundwater and aquifer samples to recover
         archaeal diversity.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 4 variables (2 measured outcomes, 1 spatial index, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: aquifer sampling context
       description: Subsurface aquifer context represented by each groundwater metagenome sample.
@@ -3827,7 +3919,7 @@ genomic_science_sfas:
       sampling_strategy: Genomic, transcriptomic, and proteomic profiling of a two-member Oak Ridge
         denitrifying synthetic community.
       controls: Single-member cultures used to interpret two-member community interactions.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: synthetic community member
       description: Rhodanobacter or Acidovorax member represented in the denitrifying synthetic community.
@@ -3844,6 +3936,9 @@ genomic_science_sfas:
       - strain
       - organism
       - community_member
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: culture configuration
       description: Whether the sample represents a single-member culture or two-member synthetic community.
       roles:
@@ -3947,6 +4042,9 @@ genomic_science_sfas:
       - Pseudomonas fluorescens FW300-N2E2
       - Shewanella oneidensis MR-1
       - "(and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)"
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: growth condition
       description: >-
         Defined growth condition (carbon source, nitrogen source, metal,
@@ -3962,6 +4060,9 @@ genomic_science_sfas:
       - metal stressor
       - antibiotic
       - other defined inhibitor
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: barcode-to-locus map
       description: >-
         Mapping from each library's random 20-bp barcodes to the transposon
@@ -4036,6 +4137,9 @@ genomic_science_sfas:
       - Pseudomonas stutzeri RCH2
       - Shewanella amazonensis SB2B
       - Shewanella oneidensis MR-1
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: carbon source
       description: Defined carbon source in minimal medium.
       roles:
@@ -4045,6 +4149,9 @@ genomic_science_sfas:
       measured_entity: carbon source compound
       levels:
       - "(carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose)"
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: per-gene fitness value
       description: log2(end/Time0) per gene with t-like statistic.
       roles:
@@ -4257,7 +4364,7 @@ genomic_science_sfas:
       sampling_strategy: Soil metagenome sampling across multiple plots in a meadow climate change experiment
         at the Angelo Coast Range Reserve.
       replication: 60 soil samples.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 20 variables (1 design factor, 3 measured outcomes, 9 covariates, 6 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 60 samples.
     variables:
     - name: meadow soil plot
       description: Field plot identifier or location within the Angelo Coast Range Reserve meadow experiment.
@@ -4494,7 +4601,7 @@ genomic_science_sfas:
       sampling_strategy: Multi-laboratory ring trial using standardized EcoFAB 2.0 devices, Brachypodium,
         and a defined synthetic bacterial community.
       replication: Replicated across participating laboratories.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 27 variables (3 design factors, 4 measured outcomes, 14 covariates, 1 grouping variable, 2 spatial indices, 1 temporal index, 2 identifiers) derived from NMDC biosample attributes across 140 samples.
     variables:
     - name: participating laboratory
       description: Laboratory or site participating in the EcoFAB 2.0 ring trial.
@@ -4686,6 +4793,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000754
         label: perturbation
+      - id: MIXS:0000008
+        label: experimental factor
     - name: biotic regimen
       description: Biotic regimen recorded in NMDC biosample metadata.
       roles:
@@ -4694,6 +4803,9 @@ genomic_science_sfas:
       value_type: CATEGORICAL
       source_field_names:
       - biotic_regm
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: culture root medium
       description: Culture root medium recorded in NMDC biosample metadata.
       roles:
@@ -4730,6 +4842,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: day
       source_field_names:
       - host_age
     - name: host life stage
@@ -4782,7 +4895,7 @@ genomic_science_sfas:
       - root-associated microbiome samples
       sampling_strategy: Bacterial metabarcoding of Brachypodium roots grown in four distinct soils, paired
         with culture-based isolation.
-      notes: Variable catalog entry based on the primary publication summary and study description.
+      notes: Catalog of 3 variables (1 design factor, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: soil origin
       description: Source soil used to grow Brachypodium distachyon for core root microbiome analysis.
@@ -4802,6 +4915,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: root-associated bacterial community composition
       description: 16S metabarcoding profile used to define the Brachypodium core root microbiome.
       roles:
@@ -4851,7 +4966,7 @@ genomic_science_sfas:
       - root-zone microbiome samples
       sampling_strategy: Fine-scale sampling of root tips, root bases, and bulk soil in EcoFAB and conventional
         growth containers.
-      notes: Variable catalog entry based on the primary publication summary and study description.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: root zone
       description: Fine-scale spatial zone along the developing primary root or bulk soil comparison region.
@@ -4874,6 +4989,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: growth container
       description: Experimental growth system used for Brachypodium root microbiome sampling.
       roles:
@@ -4947,7 +5064,7 @@ genomic_science_sfas:
       - rhizosphere microbiome samples
       sampling_strategy: Time-resolved profiling of Avena root exudate chemistry, microbial substrate
         preferences, and rhizosphere community assembly in natural soil.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 3 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: plant developmental time point
       description: Sampling time or developmental stage used to track dynamic root exudate chemistry.
@@ -4964,6 +5081,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: root exudate metabolite abundance
       description: Metabolite feature abundances measured in root exudates through plant development.
       roles:
@@ -5030,7 +5149,7 @@ genomic_science_sfas:
       - plant metabolome samples
       sampling_strategy: EcoFAB multi-omics profiling of root exudation dynamics across three phylogenetically
         distinct plant species.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: plant species
       description: Plant species included in the core metabolome and root exudation comparison.
@@ -5050,6 +5169,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: exudation time point
       description: Time point or growth interval for root exudate collection.
       roles:
@@ -5065,6 +5186,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: core metabolite abundance
       description: Metabolite feature abundances used to identify a core metabolome across plant species.
       roles:
@@ -5117,7 +5240,7 @@ genomic_science_sfas:
       - reduced consortium profiles
       sampling_strategy: Systematic enrichment and profiling of reduced complexity consortia from Angelo
         Coast Range Reserve Brachypodium rhizosphere inoculum.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: enrichment generation
       description: Transfer or enrichment stage used to derive reduced complexity consortia.
@@ -5131,6 +5254,9 @@ genomic_science_sfas:
       - enrichment_generation
       - transfer_number
       - passage
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: inoculum source
       description: Brachypodium rhizosphere or Angelo Coast Range Reserve soil source used to initiate
         the reduced complexity consortium.
@@ -5149,6 +5275,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: reduced consortium composition
       description: Microbial composition of the reduced complexity consortium after enrichment.
       roles:
@@ -5199,7 +5327,7 @@ genomic_science_sfas:
       sampling_strategy: Standardized EcoFAB experiment repeated across four laboratories to measure plant
         physiology and soil metabolite depletion.
       replication: Experiment repeated across 4 labs.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 measured outcomes, 1 grouping variable, 1 controlled variable) derived from the study description and primary reference.
     variables:
     - name: laboratory site
       description: Laboratory where the EcoFAB reproducibility experiment was performed.
@@ -5391,7 +5519,7 @@ genomic_science_sfas:
       - soil microbial community samples
       sampling_strategy: Laboratory enrichment of Luquillo tropical soil microbial communities under redox
         fluctuation conditions.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 19 variables (1 design factor, 2 measured outcomes, 10 covariates, 5 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 105 samples.
     variables:
     - name: redox fluctuation treatment
       description: Oxic-anoxic or redox fluctuation condition applied to tropical soil enrichments.
@@ -5612,7 +5740,7 @@ genomic_science_sfas:
       - model-predicted microbial populations
       sampling_strategy: Genome-informed and trait-based modeling of Avena rhizosphere microbiome dynamics
         integrated with metagenomic and metatranscriptomic data.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: rhizosphere sampling time
       description: Sampling point used to represent temporal dynamics in the Avena rhizosphere microbiome.
@@ -5629,6 +5757,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: genome-informed trait profile
       description: Genome-derived microbial traits used as inputs to the energy budget model.
       roles:
@@ -5641,6 +5771,9 @@ genomic_science_sfas:
       - genome_trait
       - trait_profile
       - energy_budget_trait
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: predicted energy budget state
       description: Model-predicted microbial energy allocation, growth, or activity state.
       roles:
@@ -5690,7 +5823,7 @@ genomic_science_sfas:
       observational_units:
       - soil microbial biomass carbon fractions
       sampling_strategy: Direct chloroform extraction and radiocarbon measurement of soil microbial biomass.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 3 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: extraction fraction
       description: Soil microbial biomass fraction or extract produced by the direct chloroform extraction method.
@@ -5704,6 +5837,9 @@ genomic_science_sfas:
       - extraction_fraction
       - fraction
       - chloroform_extract
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: radiocarbon content
       description: Radiocarbon measurement of soil microbial biomass carbon.
       roles:
@@ -5723,6 +5859,7 @@ genomic_science_sfas:
       - MEASURED_VARIABLE
       - STUDY_DESIGN_DEPENDENT_VARIABLE
       value_type: NUMERIC
+      units: microgram per gram
       measured_entity: soil microbial biomass
       material_or_matrix: soil
       method: direct chloroform extraction
@@ -5766,7 +5903,7 @@ genomic_science_sfas:
       - SIP-derived nucleic acid sequence records
       sampling_strategy: Data-standard specification of reusable metadata fields for stable isotope probing
         experiments and derived nucleic acid sequences.
-      notes: Variable catalog entry treats MISIP-required metadata fields as data dictionary variables.
+      notes: Catalog of 4 variables (1 design factor, 1 measured outcome, 2 identifiers) derived from the study description and primary reference.
     variables:
     - name: isotope label or substrate
       description: Stable isotope label and labeled substrate used in a stable isotope probing experiment.
@@ -5859,6 +5996,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000185
         label: water content
+      - id: MIXS:0000008
+        label: experimental factor
     - name: stable isotope amendment
       description: Isotopically labeled substrate or amendment used for quantitative stable isotope probing.
       roles:
@@ -5984,7 +6123,7 @@ genomic_science_sfas:
       - phage-host linkage records
       sampling_strategy: Hi-C metagenome sequencing to identify phage-host interactions across soil moisture
         conditions.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: soil moisture condition
       description: Soil water availability condition used to assess moisture impacts on phage-host interactions.
@@ -6006,6 +6145,8 @@ genomic_science_sfas:
         label: water content
       - id: MIXS:0000591
         label: watering regimen
+      - id: MIXS:0000008
+        label: experimental factor
     - name: Hi-C contact signal
       description: Chromosomal conformation capture contact evidence used to link viral and host sequences.
       roles:
@@ -6081,6 +6222,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000018
         label: depth
+      - id: MIXS:0000008
+        label: experimental factor
     - name: irrigation treatment
       description: Watering or irrigation condition applied to the soil and plant system.
       roles:
@@ -6110,6 +6253,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil microbiome composition
       description: Metagenome-derived microbial community composition across depth, irrigation, and genotype treatments.
       roles:
@@ -6161,7 +6306,7 @@ genomic_science_sfas:
       - soil metabolite measurements
       sampling_strategy: Rapid time-series measurement of soil microbiome respiration from 90 seconds to
         90 minutes after moisture shifts.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: moisture shift treatment
       description: Drying or rewetting moisture perturbation applied to soil microbiome incubations.
@@ -6183,6 +6328,8 @@ genomic_science_sfas:
         label: perturbation
       - id: MIXS:0000591
         label: watering regimen
+      - id: MIXS:0000008
+        label: experimental factor
     - name: response elapsed time
       description: Time after moisture shift at which respiration was measured.
       roles:
@@ -6197,6 +6344,9 @@ genomic_science_sfas:
       - elapsed_time
       - time_after_rewetting
       - response_time
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil respiration rate
       description: Rapid respiratory response of the soil microbiome after moisture shift.
       roles:
@@ -6243,7 +6393,7 @@ genomic_science_sfas:
       - soil viral genome records
       sampling_strategy: Metagenomic estimation of soil viral diversity, auxiliary metabolic potential,
         and contributions to carbon dynamics.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (3 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: soil virus abundance or diversity
       description: Soil virome abundance, richness, or diversity inferred from metagenomic data.
@@ -6499,19 +6649,84 @@ genomic_science_sfas:
   - EXOMETABOLOMICS
   - SUBSTRATE_UTILIZATION
 - id: nmdc_sfas_brcs:incogentec
-  name: InCoGenTEC
+  name: 'InCoGenTEC: Intrinsic Control for Genome and Transcriptome Editing in Communities'
   acronym: InCoGenTEC
   program_type: SCIENTIFIC_FOCUS_AREA
   sfa_type: GENOMIC_SCIENCE_SFA
   lead_institution: Sandia National Laboratories
+  partner_institutions:
+  - Northwestern University
+  - Yale University
+  - University of California, Berkeley
   principal_investigators:
-  - name: Katie Mageeney
+  - name: Joe Schoeniger
     role: Principal Investigator
     affiliation: Sandia National Laboratories
+  co_investigators:
+  - name: Kelly Williams
+    affiliation: Sandia National Laboratories
+  - name: Catharine (Katie) Mageeney
+    affiliation: Sandia National Laboratories
+  - name: Jesse Cahill
+    affiliation: Sandia National Laboratories
+  - name: Yooli Light
+    affiliation: Sandia National Laboratories
+  - name: Michael Jewett
+    affiliation: Northwestern University
+  - name: Farren Isaacs
+    affiliation: Yale University
+  - name: Brady Cress
+    affiliation: University of California, Berkeley
+  - name: Jennifer Doudna
+    affiliation: University of California, Berkeley
   funding:
     agency: DOE BER
     program: Genomic Science Program
-  description: InCoGenTEC SFA at Sandia National Laboratories. Details to be populated.
+    division: Biological Systems Science Division
+  websites:
+    main: https://www.sandia.gov/research/area/biological-science/
+    doe_page: https://www.genomicscience.energy.gov/snl-incogentec/
+  description: >
+    InCoGenTEC develops technologies to edit genomes and transcriptomes within microbial communities
+    while keeping engineered changes contained. The SFA maps mobile genetic elements - generating a
+    database of prokaryotic genomic islands and their associated DNA integrases and integration sites -
+    and builds synthetic genetic elements, engineered bacteriophage vectors, and CRISPR-based molecular
+    sensing and control tools to transform diverse non-model bacteria. A central aim is strong,
+    multilayered biocontainment that prevents escape of engineered microbes and limits horizontal
+    transfer of engineered genetic material to native organisms, enabling safe microbiome editing to
+    study and control the composition and function of microbial communities.
+  scientific_questions:
+  - How can mobile genetic elements and DNA integrases be mapped and harnessed to edit non-model bacteria
+    and microbial communities?
+  - How can engineered bacteriophage vectors deliver genetic cargo to diverse, non-model prokaryotes?
+  - What molecular sensing and CRISPR-based control tools let bacteria detect and respond to defined
+    biochemical and genetic states?
+  - How can multilayered biocontainment prevent escape of engineered microbes and limit horizontal
+    transfer of engineered genetic material to native organisms?
+  keywords:
+  - SYNTHETIC_BIOLOGY
+  - BIOCONTAINMENT
+  - BIOSECURITY
+  - GENOME_ENGINEERING
+  - CRISPR
+  - PHAGE
+  - MICROBIAL_CHASSIS
+  - BIOSYSTEMS_DESIGN
+  - MICROBIAL_INTERACTIONS
+  data_types:
+  - GENOMICS
+  - METAGENOMICS
+  - TRANSCRIPTOMICS
+  - SYNTHETIC_BIOLOGY_CONSTRUCTS
+  - CONTAINMENT_EFFICACY_DATA
+  - ISOLATE_COLLECTIONS
+  data_collection_modalities:
+  - GENOME_SEQUENCING
+  - CRISPR_GENE_EDITING
+  - GENOME_SCALE_ENGINEERING
+  - BACTERIAL_ISOLATION
+  - HIGH_THROUGHPUT_SCREENING
+  - SEQUENCE_ENRICHMENT
   isolate_collections:
   - name: InCoGenTEC Bacterial Collection
     description: Bacterial isolates maintained by InCoGenTEC SFA
@@ -6525,21 +6740,139 @@ genomic_science_sfas:
   - PHAGE_HOST_RANGE
   - GROWTH_CURVES
 - id: nmdc_sfas_brcs:ubiospheres
-  name: µBiospheres SFA
+  name: 'µBiospheres: Community Systems Biology of Microscale Interactions for Sustainable
+    Bioenergy'
   acronym: µBiospheres
   program_type: SCIENTIFIC_FOCUS_AREA
   sfa_type: GENOMIC_SCIENCE_SFA
   lead_institution: Lawrence Livermore National Laboratory
+  partner_institutions:
+  - Lawrence Berkeley National Laboratory
+  - Sandia National Laboratories
+  - University of California, Berkeley
+  - North Carolina State University
+  - Massachusetts Institute of Technology
+  - Oregon State University
+  - University of Minnesota
+  - University of Illinois Urbana-Champaign
   principal_investigators:
   - name: Rhona Stuart
     role: Principal Investigator
     affiliation: Lawrence Livermore National Laboratory
+  co_investigators:
+  - name: Xavier Mayali
+    role: Scientific Lead, Algal-Bacterial Interactions
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Peter Weber
+    role: Scientific Lead, Geochemistry and NanoSIMS
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Ali Navid
+    role: Scientific Lead, Computational Modeling
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Erin Nuccio
+    role: Scientific Lead, Plant-Microbial Interactions
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Jennifer Pett-Ridge
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Jeff Kimbrel
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Patrik D'Haeseleer
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Ty Samo
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Steven Blazewicz
+    affiliation: Lawrence Livermore National Laboratory
+  - name: Eoin Brodie
+    affiliation: Lawrence Berkeley National Laboratory
+  - name: Trent Northen
+    affiliation: Lawrence Berkeley National Laboratory
+  - name: Todd Lane
+    affiliation: Sandia National Laboratories
+  - name: Sabeeha Merchant
+    affiliation: University of California, Berkeley
+  - name: Christine Hawkes
+    affiliation: North Carolina State University
+  - name: Cullen Buie
+    affiliation: Massachusetts Institute of Technology
+  - name: Kimberley Halsey
+    affiliation: Oregon State University
+  - name: Rene Boiteau
+    affiliation: University of Minnesota
+  - name: Mary Kraft
+    affiliation: University of Illinois Urbana-Champaign
   funding:
     agency: DOE BER
     program: Genomic Science Program
-  description: µBiospheres SFA at Lawrence Livermore National Laboratory. Details to be populated.
+    division: Biological Systems Science Division
+  websites:
+    main: https://bio-sfa.llnl.gov/
+    doe_page: https://www.genomicscience.energy.gov/llnl/
+    kbase: https://www.kbase.us/research/stuart-sfa/
+  description: >
+    The µBiospheres SFA investigates phototroph-heterotroph interactions within the microscale
+    spheres of influence surrounding algae and bioenergy crops - the phycosphere, rhizosphere,
+    and hyphosphere. The program seeks cross-cutting principles governing how these microbial
+    partnerships form and persist, and how they control system-level resource allocation (carbon,
+    nutrients, and water), productivity, and robustness. Research is organized around three themes:
+    (1) the resource economy and context-dependency of interactions, (2) the selective mechanisms
+    that regulate microbial interactions, and (3) development of new measurement and modeling
+    capabilities. The approach combines single-cell analyses, quantitative stable-isotope tracing
+    of elemental exchange (NanoSIMS), system-scale multi-omics, and multiscale modeling including
+    constraint-based genome-scale metabolic models, using microalgae and C4 perennial grasses as
+    study systems.
+  scientific_questions:
+  - What principles govern the formation and maintenance of phototroph-heterotroph interactions?
+  - How context-dependent are these interactions, and how do they shape the resource economy of
+    carbon, nutrients, and water?
+  - What molecular and ecological mechanisms select for and stabilize beneficial microbial partnerships?
+  - How do microscale interactions scale up to determine phototroph productivity, robustness, and
+    microbiome function for sustainable bioenergy?
+  keywords:
+  - BIOENERGY
+  - MICROBIAL_INTERACTIONS
+  - PLANT_MICROBE_INTERACTIONS
+  - RHIZOSPHERE
+  - MICROBIAL_ECOSYSTEMS
+  - CARBON_AND_NUTRIENT_CYCLING
+  - CARBON_FLUX
+  - STABLE_ISOTOPES
+  - NANOSIMS
+  - SYSTEMS_BIOLOGY
+  - BIOENERGY_CROPS
+  data_types:
+  - GENOMICS
+  - METAGENOMICS
+  - METATRANSCRIPTOMICS
+  - PROTEOMICS
+  - METABOLOMICS
+  - EXOMETABOLOMICS
+  - STABLE_ISOTOPE_DATA
+  - IMAGING_DATA
+  data_collection_modalities:
+  - COCULTURE_EXPERIMENTS
+  - NANOSIMS
+  - STABLE_ISOTOPE_PROBING
+  - CHEMICAL_IMAGING
+  - MASS_SPECTROMETRY
+  - MULTI_OMICS
+  - COMPUTATIONAL_MODELING
+  - METABOLIC_FLUX_ANALYSIS
+  interaction_types:
+  - MUTUALISM
+  - COMMENSALISM
+  - COMPETITION
+  interaction_modes:
+  - NUTRIENT_EXCHANGE
+  - PHYSICAL_ATTACHMENT
+  - SIDEROPHORE_MEDIATED
+  - CHEMOTAXIS
   phenotype_assays:
   - GROWTH_CURVES
+  - COCULTURE_INTERACTIONS
+  - SYNTHETIC_COMMUNITY
+  - NANOSIMS_ACTIVITY
+  - EXOMETABOLOMICS
+  - FLOW_CYTOMETRY_PHENOTYPING
 - id: nmdc_sfas_brcs:imagine_biosecurity
   name: 'IMAGINE BioSecurity: Integrative Modeling and Genome-Scale Engineering for Biosystems Security'
   acronym: IMAGINE
@@ -6848,7 +7181,7 @@ genomic_science_sfas:
       sampling_strategy: Laboratory and simulation-based comparison of solvent classes, solvent
         concentrations, biomass substrates, and biomembrane systems.
       controls: Untreated biomass or membrane systems and solvent-free baseline simulations.
-      notes: Variable catalog entry based on DOE and ORNL SFA descriptions.
+      notes: Catalog of 6 variables (3 design factors, 3 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: amphiphilic solvent identity
       description: Solvent or co-solvent used to disrupt biomass or biomembrane assemblies.
@@ -6881,6 +7214,9 @@ genomic_science_sfas:
       - solvent_concentration
       - cosolvent_fraction
       - solvent_loading
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: biomass or biomembrane substrate
       description: Plant biomass, cell-wall polymer, or microbial membrane system exposed to solvent.
       roles:
@@ -6897,6 +7233,9 @@ genomic_science_sfas:
       - substrate
       - biomass_type
       - membrane_system
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: biomolecular assembly structure
       description: Structural state of biomass polymers or lipid bilayers measured after solvent exposure.
       roles:
@@ -7073,7 +7412,7 @@ genomic_science_sfas:
       sampling_strategy: Laboratory-to-field testing of engineered microbial persistence across increasing
         rhizosphere community complexity and plant-associated environmental contexts.
       controls: Wild-type strains, unedited strains, bulk-soil contexts, and plant-free scavenging environments.
-      notes: Variable catalog entry based on DOE and EMSL Persistence Control project descriptions.
+      notes: Catalog of 6 variables (4 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: engineered rhizosphere bacterial strain
       description: Non-model rhizosphere bacterial strain selected or engineered for persistence control.
@@ -7086,6 +7425,9 @@ genomic_science_sfas:
       - strain_id
       - isolate_id
       - engineered_strain
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: genome edit or pathway perturbation
       description: Genome reduction, catabolic pathway addition/removal, or synthetic metabolic addiction
         used to alter environmental niche.
@@ -7123,6 +7465,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -7139,6 +7483,9 @@ genomic_science_sfas:
       - root_exudate
       - exudate_concentration
       - plant_specific_metabolite
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: microbial persistence phenotype
       description: Persistence, colonization, abundance, or fitness of engineered bacteria under tested
         community and environmental contexts.
@@ -7253,7 +7600,7 @@ genomic_science_sfas:
       - Populus-associated microbial isolate genomes
       sampling_strategy: Characterization of poplar root microbiome membership and functional diversity
         in the context of favorable plant-microbe interactions.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 21 variables (1 design factor, 2 measured outcomes, 11 covariates, 5 spatial indices, 1 temporal index, 1 identifier) derived from NMDC biosample attributes across 30 samples.
     variables:
     - name: Populus root-associated compartment
       description: Root-associated habitat or compartment represented by the sample or isolate.
@@ -7272,6 +7619,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -7514,6 +7863,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: plant compartment
       description: Plant-associated compartment sampled for microbiome and metabolomic profiling.
       roles:
@@ -7533,6 +7884,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -7596,6 +7949,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       measured_entity: soil ammonium nitrogen
       material_or_matrix: soil
       bervo_term:
@@ -7610,6 +7964,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       measured_entity: soil nitrate nitrogen
       material_or_matrix: soil
       bervo_term:
@@ -7624,6 +7979,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       measured_entity: soil nitrate and nitrite nitrogen
       material_or_matrix: soil
       bervo_term:
@@ -7638,6 +7994,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       measured_entity: soil nitrogen pool
       material_or_matrix: soil
       source_field_names:
@@ -7810,6 +8167,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - calcium
     - name: magnesium
@@ -7818,6 +8176,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - magnesium
     - name: manganese
@@ -7826,6 +8185,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - manganese
     - name: potassium
@@ -7834,6 +8194,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - potassium
     - name: zinc
@@ -7842,6 +8203,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - zinc
     - name: labile carbon 30
@@ -7850,6 +8212,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - lbc_thirty
       notes: NMDC source field label should be refined against the source study metadata.
@@ -7859,6 +8222,7 @@ genomic_science_sfas:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: milligram per kilogram
       source_field_names:
       - lbceq
       notes: NMDC source field label should be refined against the source study metadata.
@@ -7889,7 +8253,7 @@ genomic_science_sfas:
       - rhizosphere samples
       sampling_strategy: Common-garden sampling of two Populus species over four seasons across two consecutive years.
       replication: Multiple genotypes and replicate plants sampled across time points and plant-associated habitats.
-      notes: Variable catalog entry based on the primary publication and study description.
+      notes: Catalog of 5 variables (4 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: sampling season
       description: Seasonal sampling interval used to test temporal dynamics in the Populus microbiome.
@@ -7909,6 +8273,8 @@ genomic_science_sfas:
         label: season
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sampling year
       description: Year of repeated Populus microbiome sampling used to separate seasonal and longer-term dynamics.
       roles:
@@ -7925,6 +8291,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: Populus species
       description: Host Populus species included in the common-garden temporal microbiome study.
       roles:
@@ -7942,6 +8310,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: plant-associated habitat
       description: Populus habitat sampled for bacterial, archaeal, and fungal microbiome profiling.
       roles:
@@ -7962,6 +8332,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -8006,7 +8378,7 @@ genomic_science_sfas:
       sampling_strategy: Niche-level sampling across Populus tissues, broader plant habitats, soils, and host
         genotypes.
       replication: Replicated Populus individuals sampled across approximately 30 tissue-level niches.
-      notes: Variable catalog entry based on the primary publication and study description.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: plant habitat class
       description: Broad Populus habitat class used to organize niche-level microbiome comparisons.
@@ -8029,6 +8401,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: tissue-level niche
       description: Fine-scale tissue or niche sampled within Populus plants and associated soils.
       roles:
@@ -8047,6 +8421,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: Populus genotype
       description: Host genotype used to test genotype effects on Populus-associated microbial communities.
       roles:
@@ -8060,6 +8436,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: bacterial archaeal and fungal community composition
       description: 16S and ITS profiles used to compare microbial communities across Populus niches and genotypes.
       roles:
@@ -8101,7 +8479,7 @@ genomic_science_sfas:
       - bacterial isolate records
       sampling_strategy: Isolation and 16S-based characterization of culturable bacteria from Populus roots.
       replication: 552 samples or isolate-related records.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: Populus root source
       description: Populus root-associated source material used for bacterial cultivation and community analysis.
@@ -8120,6 +8498,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
     - name: bacterial isolate identifier
       description: Identifier for culturable bacterial isolates recovered from Populus roots.
       roles:
@@ -8187,7 +8567,7 @@ genomic_science_sfas:
       sampling_strategy: Range-wide sampling of Populus angustifolia soil microbiomes and functional
         validation of warming-adapted microbiomes.
       replication: 539 samples with functional validation using PMI Variovorax strains.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 5 variables (3 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: climate or geographic origin
       description: Geographic or climate origin of Populus angustifolia genotype or microbiome source.
@@ -8206,6 +8586,8 @@ genomic_science_sfas:
         label: broad-scale environmental context
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: Populus angustifolia genotype
       description: Host tree genotype used to evaluate conditioning of the soil microbiome.
       roles:
@@ -8220,6 +8602,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000365
         label: host genotype
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil microbiome composition
       description: Bacterial and fungal community composition associated with Populus genotypes across
         the species range.
@@ -8263,6 +8647,9 @@ genomic_science_sfas:
       - variovorax_strain
       - strain_id
       - isolate_id
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
   - name: Populus Rhizosphere PD10 Synthetic Community
     pi: Mitchel J. Doktycz
     description: Ten-member synthetic bacterial community (PD10) assembled from Populus deltoides
@@ -8291,7 +8678,7 @@ genomic_science_sfas:
       - metabolite profiles
       sampling_strategy: Time-resolved profiling of a ten-member Populus rhizosphere synthetic community
         across growth media and assembly stages.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 5 variables (3 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: PD10 member strain
       description: Member strain in the ten-member Populus deltoides rhizosphere synthetic community.
@@ -8307,6 +8694,9 @@ genomic_science_sfas:
       - strain_id
       - member_id
       - syncom_member
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: growth medium
       description: Culture medium condition influencing PD10 community structure and metabolic exchange.
       roles:
@@ -8321,6 +8711,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000008
         label: experimental factor
+      - id: MIXS:0001057
+        label: plant growth medium
     - name: assembly time point
       description: Time point during PD10 community assembly and stable community formation.
       roles:
@@ -8333,6 +8725,9 @@ genomic_science_sfas:
       - time_point
       - assembly_time
       - sampling_time
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: member abundance profile
       description: Relative or absolute abundance profile of PD10 member strains through community assembly.
       roles:
@@ -8552,7 +8947,7 @@ genomic_science_sfas:
       - antimicrobial biosynthetic gene clusters
       sampling_strategy: Genome sequencing and annotation of a Populus endophytic bacterial strain with
         biocontrol potential.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: bacterial strain identifier
       description: Identifier for the Bacillus velezensis EB14 biocontrol strain.
@@ -8583,6 +8978,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: antimicrobial biosynthetic gene cluster
       description: Predicted biosynthetic gene cluster for antimicrobial compounds such as iturin A,
         subtulene A, or fengycin.
@@ -8633,7 +9030,7 @@ genomic_science_sfas:
       - effector and receptor expression profiles
       sampling_strategy: Multi-omics investigation of Populus-derived effector proteins and Laccaria
         colonization during ectomycorrhizal symbiosis.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: symbiosis partner
       description: Plant or fungal partner represented in the Populus-Laccaria symbiosis assay.
@@ -8652,6 +9049,8 @@ genomic_science_sfas:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: effector or receptor gene
       description: Plant-derived effector protein, receptor, or small secreted protein implicated in symbiosis.
       roles:
@@ -8666,6 +9065,9 @@ genomic_science_sfas:
       - gene_id
       - effector_id
       - receptor_id
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: fungal colonization phenotype
       description: Laccaria colonization response regulated by Populus effector and receptor interactions.
       roles:
@@ -8717,7 +9119,7 @@ genomic_science_sfas:
       - CRISPRi guide-target records
       sampling_strategy: High-throughput workflow development for transformation optimization, genetic part
         characterization, and genome-wide CRISPRi screens.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 5 variables (3 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: non-model bacterial strain
       description: Bacterial strain or chassis used for transformation optimization and CRISPRi screening.
@@ -8730,6 +9132,9 @@ genomic_science_sfas:
       - strain_id
       - chassis
       - organism
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: transformation workflow condition
       description: Protocol condition varied to enhance transformation efficiency.
       roles:
@@ -8755,6 +9160,9 @@ genomic_science_sfas:
       - guide_id
       - guide_sequence
       - target_gene
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: transformation efficiency
       description: Efficiency of DNA transformation under tested workflow conditions.
       roles:
@@ -8912,7 +9320,7 @@ genomic_science_sfas:
       - containment assay measurements
       sampling_strategy: Engineering and testing of multilayered kill-switch and sequence-entanglement
         containment designs for environmental microorganisms in rhizosphere-relevant contexts.
-      notes: Variable catalog entry based on DOE and LLNL BioSecure SFA descriptions.
+      notes: Catalog of 5 variables (3 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: engineered microbial strain
       description: Engineered environmental microbial strain or chassis carrying a containment design.
@@ -8925,6 +9333,9 @@ genomic_science_sfas:
       - strain_id
       - chassis
       - engineered_strain
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: biocontainment design
       description: Multilayered containment strategy including kill-switch or gene-overlap architecture.
       roles:
@@ -8962,6 +9373,8 @@ genomic_science_sfas:
         label: local environmental context
       - id: MIXS:0000014
         label: environmental medium
+      - id: MIXS:0000008
+        label: experimental factor
       ontology_mappings:
       - id: ENVO:00005801
         label: rhizosphere
@@ -9080,7 +9493,7 @@ environmental_system_science_sfas:
       sampling_strategy: Floodplain soil metagenomics across upper, middle, and lower reaches of the East
         River watershed.
       replication: 248 draft quality genomes reconstructed at sub-species level.
-      notes: Variable catalog entry based on study description.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: floodplain reach
       description: Watershed reach represented by each floodplain soil metagenome sample.
@@ -9102,6 +9515,8 @@ environmental_system_science_sfas:
       mixs_terms:
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: floodplain soil metagenome profile
       description: Taxonomic and functional metagenome profile for East River floodplain soils.
       roles:
@@ -9165,7 +9580,7 @@ environmental_system_science_sfas:
       - high-altitude watershed soil samples
       sampling_strategy: Seasonal soil sampling across snowmelt-linked watershed conditions to compare viral
         diversity, viral activity, and host dynamics.
-      notes: Variable catalog entry based on primary publication title and Watershed Function SFA description.
+      notes: Catalog of 4 variables (1 design factor, 3 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: snowmelt phase
       description: Seasonal watershed condition relative to snowmelt timing.
@@ -9185,12 +9600,15 @@ environmental_system_science_sfas:
         label: season
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil water content
       description: Soil moisture context associated with snowmelt-driven viral and host dynamics.
       roles:
       - COVARIATE
       - MEASURED_VARIABLE
       value_type: NUMERIC
+      units: percent
       measured_entity: soil water
       material_or_matrix: watershed soil
       bervo_term:
@@ -9367,7 +9785,7 @@ environmental_system_science_sfas:
       - Columbia River hyporheic zone sediment samples
       sampling_strategy: Riverbed sediment sampling in groundwater-surface water mixing zones across locations
         with different vegetation density and repeated temporal observations.
-      notes: Variable catalog entry based on NMDC study metadata and primary publication.
+      notes: Catalog of 19 variables (2 design factors, 2 measured outcomes, 10 covariates, 5 spatial indices) derived from NMDC biosample attributes across 84 samples.
     variables:
     - name: vegetation density
       description: Riparian vegetation density associated with the riverbed sediment sampling location.
@@ -9384,6 +9802,8 @@ environmental_system_science_sfas:
       mixs_terms:
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: sediment sampling depth
       description: Depth value recorded in NMDC biosample metadata for Columbia River riverbed sediment samples.
       roles:
@@ -9414,6 +9834,8 @@ environmental_system_science_sfas:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: nitrogen cycling gene abundance
       description: Abundance or diversity profile for nitrogen-cycling genes in hyporheic microbiomes.
       roles:
@@ -9586,7 +10008,7 @@ environmental_system_science_sfas:
       sampling_strategy: Crowdsourced WHONDRS river sampling across approximately 100 North American rivers
         with metagenomic and metatranscriptomic sequencing.
       replication: More than 1,000 metagenomes contributing to a river microbiome genome catalogue.
-      notes: Variable catalog entry based on the primary Nature publication and WHONDRS/GROW description.
+      notes: Catalog of 4 variables (2 measured outcomes, 1 spatial index, 1 temporal index) derived from the study description and primary reference.
     variables:
     - name: river system
       description: North American river or river reach represented by each WHONDRS sample.
@@ -9801,7 +10223,7 @@ environmental_system_science_sfas:
       - mercury-contaminated stream sediment samples
       sampling_strategy: Sediment metagenome sampling from East Fork Poplar Creek to reconstruct MAGs and identify
         mercury methylation potential.
-      notes: Variable catalog entry based on primary publication and study metadata.
+      notes: Catalog of 4 variables (3 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: sediment sampling location
       description: East Fork Poplar Creek location represented by each contaminated sediment sample.
@@ -9880,7 +10302,7 @@ environmental_system_science_sfas:
       - freshwater sediment microbial samples
       sampling_strategy: Comparative evaluation of mercury methylation across methanogenic archaea and sediment
         communities.
-      notes: Variable catalog entry based on primary publication title and Mercury SFA description.
+      notes: Catalog of 3 variables (2 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: archaeal taxon
       description: Methanogenic archaeal organism or group evaluated for mercury methylation.
@@ -9893,6 +10315,9 @@ environmental_system_science_sfas:
       - archaeal_taxon
       - organism
       - taxon
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: mercury amendment
       description: Mercury exposure or amendment condition used to evaluate methylmercury production.
       roles:
@@ -11046,7 +11471,7 @@ other_programs:
       sampling_strategy: Synoptic and temporally resolved sampling across shoreline-to-upland gradients,
         paired with field manipulations, laboratory incubations, and model integration.
       blocking: Chesapeake Bay and Western Lake Erie Basin regions; open-water, wetland, and upland gradient positions.
-      notes: Variable catalog entry based on DOE ESS COMPASS-FME program description.
+      notes: Catalog of 9 variables (3 design factors, 3 measured outcomes, 2 spatial indices, 1 temporal index) derived from the study description and primary reference.
     variables:
     - name: coastal study region
       description: COMPASS-FME region or site network represented by each sample or time series.
@@ -11081,6 +11506,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000013
         label: local environmental context
+      - id: MIXS:0000008
+        label: experimental factor
     - name: flooding regime
       description: Frequency, duration, depth, or source of flooding applied or observed in coastal TAI plots.
       roles:
@@ -11125,6 +11552,9 @@ other_programs:
       - collection_date
       - timestamp
       - date
+      mixs_terms:
+      - id: MIXS:0000011
+        label: collection date
     - name: geographic location
       description: Coordinates or named location of the coastal TAI sample or sensor.
       roles:
@@ -11347,7 +11777,7 @@ other_programs:
       - fungal transcriptome samples
       sampling_strategy: Genome assembly and transcriptome profiling of Colletotrichum sublineola CsGL1
         to characterize anthracnose pathogenicity.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (3 measured outcomes, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: fungal isolate identifier
       description: Identifier for the Colletotrichum sublineola isolate used for genome and transcriptome analysis.
@@ -11423,7 +11853,7 @@ other_programs:
       - Colletotrichum transcriptome samples
       sampling_strategy: Dual RNA-seq profiling of host and fungal pathogen transcripts during sorghum
         infection by Colletotrichum sublineola.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: infection time point
       description: Time point or infection stage sampled for dual RNA-seq.
@@ -11440,6 +11870,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: interaction partner
       description: Organism whose transcriptome is represented in the dual RNA-seq profile.
       roles:
@@ -11457,6 +11889,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000248
         label: host common name
+      - id: MIXS:0000008
+        label: experimental factor
     - name: infection treatment
       description: Sorghum infection condition or pathogen challenge status.
       roles:
@@ -11619,7 +12053,7 @@ other_programs:
       - proteomics samples
       sampling_strategy: Proteomics profiling of S. elongatus PCC 7942 carbon metabolism under different
         experimental conditions.
-      notes: Variable catalog entry based on study description and PNNL DataHub source reference.
+      notes: Catalog of 4 variables (1 design factor, 1 measured outcome, 1 grouping variable, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: carbon metabolism condition
       description: Experimental condition used to perturb or compare cyanobacterial carbon metabolism.
@@ -11693,7 +12127,7 @@ other_programs:
       - circadian proteomics samples
       sampling_strategy: Proteomics profiling of S. elongatus PCC 7942 across circadian regulatory states
         or time points.
-      notes: Variable catalog entry based on study description and PNNL DataHub source reference.
+      notes: Catalog of 4 variables (1 design factor, 1 measured outcome, 1 grouping variable, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: circadian phase
       description: Circadian phase or sampling time used to study control of cyanobacterial protein abundance.
@@ -11707,6 +12141,9 @@ other_programs:
       - circadian_phase
       - time_point
       - sampling_time
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: protein identifier
       description: Protein or peptide feature identified in circadian-control proteomics.
       roles:
@@ -11765,7 +12202,7 @@ other_programs:
       - simulated phage-host metabolic states
       sampling_strategy: Genome-scale metabolic modeling of Prochlorococcus MED4 metabolic hijacking by
         cyanophage P-HM2 auxiliary metabolic genes.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 1 measured outcome, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: phage metabolic hijacking scenario
       description: Model scenario representing cyanophage P-HM2 infection, AMG inclusion, or phage assembly.
@@ -11792,6 +12229,9 @@ other_programs:
       - AMG
       - phage_gene
       - gene_id
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: hijacked metabolic reaction
       description: Host metabolic reaction directly affected by phage auxiliary metabolic genes.
       roles:
@@ -11840,7 +12280,7 @@ other_programs:
       - cryo-EM particle preparations
       sampling_strategy: Scale-up and purification method development for P-SSP7 cyanophage production
         from lab volumes to 40-liter scale.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: production scale
       description: Culture or production volume used for P-SSP7 cyanophage scale-up.
@@ -11857,6 +12297,9 @@ other_programs:
       - production_volume
       - culture_volume
       - scale
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: purification workflow
       description: Purification step or workflow used to enrich usable cyanophage particles.
       roles:
@@ -11924,7 +12367,7 @@ other_programs:
       - transcriptomics samples
       sampling_strategy: Time-resolved transcriptome and redox proteome profiling of S. elongatus under
         light disturbance.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 4 variables (2 design factors, 2 measured outcomes) derived from the study description and primary reference.
     variables:
     - name: light disturbance condition
       description: Light perturbation applied to S. elongatus cultures to study carbon metabolism regulation.
@@ -11954,6 +12397,9 @@ other_programs:
       - time_point
       - post_disturbance_time
       - sampling_time
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: cysteine redox state
       description: Cysteine redox state or redox modification of regulatory proteins and metabolic enzymes.
       roles:
@@ -12010,7 +12456,7 @@ other_programs:
       - metabolic flux predictions
       sampling_strategy: Spatiotemporal whole-cell simulation constrained by cryo-ET and proteomic data
         to model Prochlorococcus carbon metabolism under light perturbation.
-      notes: Variable catalog entry based on study description and primary reference.
+      notes: Catalog of 5 variables (2 design factors, 2 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: light perturbation
       description: Light condition or perturbation represented in the Prochlorococcus whole-cell model.
@@ -12026,6 +12472,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000754
         label: perturbation
+      - id: MIXS:0000008
+        label: experimental factor
     - name: intracellular spatial compartment
       description: Spatial region or structure represented in the 4D whole-cell simulation.
       roles:
@@ -12050,6 +12498,9 @@ other_programs:
       - simulation_time
       - time_point
       - model_time
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: dark complex assembly state
       description: Modeled assembly state of the Gap-CP12-Prk dark complex regulated by redox-dependent
         post-translational modifications.
@@ -12179,7 +12630,7 @@ other_programs:
       sampling_strategy: High-throughput gain-of-function, loss-of-function, and deletion-library screens
         challenged across bacteriophages.
       controls: Wild-type and library baseline measurements used to interpret strain-specific phage resistance.
-      notes: Variable catalog entry based on primary publication and study description.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: host gene perturbation
       description: E. coli gene-level perturbation introduced by gain-of-function, loss-of-function, or deletion libraries.
@@ -12213,6 +12664,9 @@ other_programs:
       - library_type
       - screen_type
       - perturbation_library
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: bacteriophage challenge
       description: Phage isolate or challenge condition applied to each E. coli perturbation.
       roles:
@@ -12260,7 +12714,7 @@ other_programs:
       observational_units:
       - phage infectivity measurements
       sampling_strategy: Laboratory phage-host infectivity assays across controlled geochemical conditions.
-      notes: Variable catalog entry based on study title and description.
+      notes: Catalog of 3 variables (2 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: geochemical condition
       description: Chemical or physical condition tested as a constraint on bacteriophage infectivity.
@@ -12287,6 +12741,9 @@ other_programs:
       - host
       - phage
       - phage_host_pair
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: phage infectivity
       description: Infectivity response measured under each geochemical condition.
       roles:
@@ -12322,7 +12779,7 @@ other_programs:
       - cell-envelope genotype records
       - phage resistance measurements
       sampling_strategy: Mapping of Corynebacterium cell envelope components associated with phage resistance.
-      notes: Variable catalog entry based on study description and primary publication.
+      notes: Catalog of 4 variables (3 design factors, 1 measured outcome) derived from the study description and primary reference.
     variables:
     - name: cell envelope component
       description: Corynebacterial cell envelope gene, component, or structural feature tested for phage
@@ -12336,6 +12793,9 @@ other_programs:
       - cell_envelope_gene
       - envelope_component
       - gene_id
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: host genotype or perturbation
       description: Corynebacterium genotype, mutation, or perturbation affecting the cell envelope.
       roles:
@@ -12350,6 +12810,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000754
         label: perturbation
+      - id: MIXS:0000008
+        label: experimental factor
     - name: bacteriophage challenge
       description: Phage isolate or challenge condition applied to Corynebacterium strains.
       roles:
@@ -12471,7 +12933,7 @@ other_programs:
       sampling_strategy: Standardized soil sampling across US ecoregions with coordinated FTICR-MS, X-ray
         computed tomography, metagenomics, geochemistry, texture, respiration, enzyme activity, and
         microbial biomass measurements.
-      notes: Variable catalog entry based on MONet pilot description and primary publication.
+      notes: Catalog of 9 variables (1 design factor, 7 measured outcomes, 1 spatial index) derived from the study description and primary reference.
     variables:
     - name: sampling ecoregion
       description: US ecoregion or site context represented by the standardized soil sample.
@@ -12506,6 +12968,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000018
         label: depth
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil organic matter molecular composition
       description: Organic matter molecular features measured by FTICR-MS.
       roles:
@@ -12587,6 +13051,7 @@ other_programs:
       - MEASURED_VARIABLE
       - STUDY_DESIGN_DEPENDENT_VARIABLE
       value_type: NUMERIC
+      units: microgram per gram
       measured_entity: soil microbial biomass
       material_or_matrix: soil
       bervo_term:
@@ -12641,7 +13106,7 @@ other_programs:
       - soil biological characterization profiles
       sampling_strategy: Observational soil core sampling across NEON terrestrial sites from September 2023
         to July 2024 with standardized physical, chemical, and biological characterization.
-      notes: Variable catalog entry based on MONet-NEON study description and source reference.
+      notes: Catalog of 6 variables (1 design factor, 3 measured outcomes, 2 spatial indices) derived from the study description and primary reference.
     variables:
     - name: NEON site identifier
       description: NEON terrestrial site represented by each MONet soil core.
@@ -12684,6 +13149,8 @@ other_programs:
       mixs_terms:
       - id: MIXS:0000011
         label: collection date
+      - id: MIXS:0000008
+        label: experimental factor
     - name: soil physical property profile
       description: Physical characterization of MONet-NEON soil cores.
       roles:
@@ -12750,7 +13217,7 @@ other_programs:
       - standardized MONet analysis workflow outputs
       sampling_strategy: Community soil core solicitation using standardized MONet workflows and JGI
         metagenome sequencing proposal 510110.
-      notes: Variable catalog entry based on study description and JGI source reference.
+      notes: Catalog of 4 variables (2 measured outcomes, 1 grouping variable, 1 identifier) derived from the study description and primary reference.
     variables:
     - name: submitted project identifier
       description: Community project or soil core submission identifier for the MONet Soil Function Call.
@@ -12832,7 +13299,7 @@ other_programs:
       sampling_strategy: Winter 2024 MONet sampling across five selected projects spanning forest, cropland,
         vegetable nitrogen, snowpack decline, and sage scrub recovery systems.
       replication: Five selected winter sampling projects.
-      notes: Variable catalog entry based on study description and EMSL announcement.
+      notes: Catalog of 4 variables (1 design factor, 2 measured outcomes, 1 temporal index) derived from the study description and primary reference.
     variables:
     - name: selected project
       description: MONet winter sampling project or PI-defined study context represented by the soil sample.
@@ -12851,6 +13318,9 @@ other_programs:
       - project
       - selected_project
       - study_context
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: winter sampling context
       description: Seasonal or management context for winter soil sampling.
       roles:
@@ -12923,7 +13393,7 @@ other_programs:
       - AI-ready soil carbon feature records
       sampling_strategy: Campaign sampling of ten underrepresented soil orders using standardized MONet
         protocols and pedotransfer functions for continental-scale soil carbon modeling.
-      notes: Variable catalog entry based on SOILS-AI campaign description and EMSL source reference.
+      notes: Catalog of 5 variables (1 design factor, 3 measured outcomes, 1 controlled variable) derived from the study description and primary reference.
     variables:
     - name: soil order
       description: Targeted underrepresented soil order represented by a SOILS-AI sample.
@@ -12938,6 +13408,9 @@ other_programs:
       - soil_order
       - taxonomy
       - soil_class
+      mixs_terms:
+      - id: MIXS:0000008
+        label: experimental factor
     - name: standardized sampling protocol
       description: MONet or SOILS-AI sampling protocol applied to generate AI-ready soil data.
       roles:

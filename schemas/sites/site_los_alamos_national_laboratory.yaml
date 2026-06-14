@@ -1,0 +1,54 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_los_alamos_national_laboratory
+name: los_alamos_national_laboratory
+title: Los Alamos National Laboratory
+description: Mid-elevation piñon-juniper woodland site. Intermediate conditions in the BFI elevation/precipitation
+  gradient for studying bacterial-fungal interactions.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_los_alamos_national_laboratory.
+    slots:
+    - elevation
+    - location
+    - mean_annual_precipitation
+    - mean_annual_temperature
+    - site_type
+slots:
+  elevation:
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Los Alamos, New Mexico
+  mean_annual_precipitation:
+    range: float
+    unit:
+      descriptive_name: centimeter
+      ucum_code: cm
+  mean_annual_temperature:
+    range: float
+    unit:
+      descriptive_name: degree Celsius
+      ucum_code: Cel
+  site_type:
+    annotations:
+      value: NATIONAL_LABORATORY

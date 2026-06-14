@@ -1,0 +1,101 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sorghum_phyllosphere_microbiome
+name: sorghum_phyllosphere_microbiome
+title: Sorghum Phyllosphere Microbiome
+description: Functional and genomic diversity of the sorghum phyllosphere microbiome. Collection of 47
+  bacteria isolated from aerial root mucilage of energy sorghum plus metagenome and metatranscriptome
+  data from phyllosphere communities.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sorghum_phyllosphere_microbiome.
+    slots:
+    - bacterial_isolate_identity
+    - host_crop
+    - plant_associated_compartment
+    - sorghum_associated_microbial_community_composition
+slots:
+  bacterial_isolate_identity:
+    title: bacterial isolate identity
+    description: Identity of culturable sorghum-associated bacteria isolated from aerial root mucilage.
+    range: string
+    aliases:
+    - isolate_id
+    - strain_id
+    - genome_accession
+    annotations:
+      role: IDENTIFIER; MEASURED_VARIABLE
+      measured_entity: sorghum-associated bacterial isolate
+      method: bacterial isolation and genome sequencing
+      value_type: IDENTIFIER
+  host_crop:
+    title: host crop
+    description: Sorghum host associated with phyllosphere, aerial root mucilage, or rhizosphere samples.
+    range: HostCommonNameEnum
+    exact_mappings:
+    - MIXS:0000248
+    - MIXS:0000008
+    slot_uri: MIXS:0000248
+    aliases:
+    - host_common_name
+    - crop
+    - host_species
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Sorghum bicolor
+      value_type: CATEGORICAL
+  plant_associated_compartment:
+    title: plant-associated compartment
+    description: Sorghum plant-associated habitat sampled for community profiling or isolate recovery.
+    range: PlantAssociatedCompartmentEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000014
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - compartment
+    - sample_type
+    - niche
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: sorghum-associated microbial habitat
+      value_type: CATEGORICAL
+  sorghum_associated_microbial_community_composition:
+    title: sorghum-associated microbial community composition
+    description: Amplicon, metagenomic, or metatranscriptomic profiles of sorghum-associated microbial
+      communities.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - metagenome_profile
+    - transcript_abundance
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sorghum-associated microbial community
+      material_or_matrix: phyllosphere, aerial root mucilage, and rhizosphere
+      method: amplicon sequencing, metagenomics, and metatranscriptomics
+      value_type: ARRAY
+enums:
+  PlantAssociatedCompartmentEnum:
+    permissible_values:
+      phyllosphere: null
+      aerial root mucilage: null
+      rhizosphere:
+        meaning: ENVO:00005801

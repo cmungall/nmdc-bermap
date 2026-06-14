@@ -1,0 +1,83 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/s_elongatus_pcc_7942_carbon_metabolism_proteomics
+name: s_elongatus_pcc_7942_carbon_metabolism_proteomics
+title: S. elongatus PCC 7942 Carbon Metabolism Proteomics
+description: Proteomics analysis of Synechococcus elongatus PCC 7942 carbon metabolism under different
+  conditions. Part of BRaVE cyanobacteria-cyanophage model system research.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study s_elongatus_pcc_7942_carbon_metabolism_proteomics.
+    slots:
+    - carbon_metabolism_condition
+    - carbon_metabolism_pathway_assignment
+    - protein_abundance
+    - protein_identifier
+slots:
+  carbon_metabolism_condition:
+    title: carbon metabolism condition
+    description: Experimental condition used to perturb or compare cyanobacterial carbon metabolism.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - condition
+    - carbon_condition
+    - experimental_factor
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Synechococcus elongatus culture
+      value_type: CATEGORICAL
+  carbon_metabolism_pathway_assignment:
+    title: carbon metabolism pathway assignment
+    description: Functional pathway assignment for proteins involved in carbon metabolism.
+    range: string
+    aliases:
+    - pathway
+    - carbon_pathway
+    - functional_annotation
+    annotations:
+      role: DERIVED; GROUPING
+      measured_entity: cyanobacterial carbon metabolism pathway
+      method: protein functional annotation
+      value_type: CATEGORICAL
+  protein_abundance:
+    title: protein abundance
+    description: Proteomics abundance measurement for carbon metabolism proteins.
+    range: float
+    aliases:
+    - protein_abundance
+    - peptide_abundance
+    - intensity
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: cyanobacterial protein
+      method: mass spectrometry proteomics
+      value_type: NUMERIC
+  protein_identifier:
+    title: protein identifier
+    description: Protein or peptide feature identified in S. elongatus proteomics.
+    range: string
+    aliases:
+    - protein_id
+    - peptide_id
+    - feature_id
+    annotations:
+      role: IDENTIFIER
+      measured_entity: Synechococcus elongatus protein
+      value_type: IDENTIFIER

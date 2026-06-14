@@ -1,0 +1,134 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/switchgrass_root_and_soil_microbiome
+name: switchgrass_root_and_soil_microbiome
+title: Switchgrass Root and Soil Microbiome
+description: Variation in root and soil microbiome over space and time in switchgrass. Bacterial and fungal
+  community characterization from GLBRC Marginal Lands Experiment via 16S and ITS amplicon sequencing.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study switchgrass_root_and_soil_microbiome.
+    slots:
+    - bacterial_and_fungal_community_composition
+    - collection_date
+    - nitrogen_addition
+    - sample_compartment
+    - sampling_site
+slots:
+  bacterial_and_fungal_community_composition:
+    title: bacterial and fungal community composition
+    description: Amplicon-derived bacterial and fungal community profiles from switchgrass roots and soils.
+    multivalued: true
+    range: string
+    aliases:
+    - otu_table
+    - asv_table
+    - bacterial_community_profile
+    - fungal_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: switchgrass-associated microbial community
+      material_or_matrix: root and bulk soil
+      method: 16S rRNA and ITS amplicon sequencing
+      value_type: ARRAY
+  collection_date:
+    title: collection date
+    description: Date or seasonal sampling point used to evaluate intra-annual microbiome dynamics.
+    range: datetime
+    exact_mappings:
+    - MIXS:0000011
+    - MIXS:0000829
+    - MIXS:0000008
+    slot_uri: MIXS:0000011
+    aliases:
+    - collection_date
+    - sampling_date
+    - date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sampling event
+      temporal_resolution: biweekly soil and monthly root sampling during the 2018 growing season
+      value_type: DATETIME
+  nitrogen_addition:
+    title: nitrogen addition
+    description: Nitrogen addition treatment evaluated as a possible driver of switchgrass microbiome
+      structure.
+    range: NitrogenAdditionEnum
+    exact_mappings:
+    - MIXS:0000556
+    - MIXS:0000008
+    - BERVO:0000895
+    slot_uri: MIXS:0000556
+    aliases:
+    - nitrogen_addition
+    - n_addition
+    - fertilizer_regimen
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: switchgrass field plot
+      value_type: CATEGORICAL
+  sample_compartment:
+    title: sample compartment
+    description: Belowground habitat sampled for switchgrass-associated microbiome profiling.
+    range: SampleCompartmentEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000014
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - compartment
+    - sample_type
+    - niche
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: switchgrass-associated microbial habitat
+      material_or_matrix: root and bulk soil
+      value_type: CATEGORICAL
+  sampling_site:
+    title: sampling site
+    description: GLBRC Marginal Land Experiment site where switchgrass root or soil samples were collected.
+    range: SamplingSiteEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - site
+    - location
+    - field_site
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX; GROUPING
+      measured_entity: field site
+      value_type: CATEGORICAL
+enums:
+  NitrogenAdditionEnum:
+    permissible_values:
+      no nitrogen addition: null
+      nitrogen addition: null
+  SampleCompartmentEnum:
+    permissible_values:
+      root: null
+      bulk soil: null
+  SamplingSiteEnum:
+    permissible_values:
+      Lake City: null
+      Escanaba: null
+      Lux Arbor: null
+      Hancock: null
+      Rhinelander: null

@@ -1,0 +1,37 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_douglas_fir_forest_health_sites
+name: douglas_fir_forest_health_sites
+title: Douglas-fir Forest Health Sites
+description: James Lutz (Utah State) examining how belowground soil and microbial characteristics vary
+  around large-diameter Douglas-fir trees at different life stages (healthy, declining, standing dead,
+  decomposing logs). Winter 2024 campaign.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_douglas_fir_forest_health_sites.
+    slots:
+    - location
+    - site_type
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Stabler, Washington
+  site_type:
+    annotations:
+      value: FOREST_RESEARCH

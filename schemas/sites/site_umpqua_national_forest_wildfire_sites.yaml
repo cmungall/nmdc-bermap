@@ -1,0 +1,39 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_umpqua_national_forest_wildfire_sites
+name: umpqua_national_forest_wildfire_sites
+title: Umpqua National Forest Wildfire Sites
+description: USDA Forest Service ecologist Devin McMahon collecting and comparing severely burned soils
+  with soils in areas of little apparent fire impact. Sampling allows land managers to assess effects
+  of severe wildfire and postfire management on soil physical, chemical, and biological properties. Soil
+  analyses provide microbial community data to form baseline for discussing potential impacts of forest
+  management. Summer 2024 campaign.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_umpqua_national_forest_wildfire_sites.
+    slots:
+    - location
+    - site_type
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Umpqua National Forest, Oregon
+  site_type:
+    annotations:
+      value: NATIONAL_FOREST

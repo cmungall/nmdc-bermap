@@ -1,0 +1,101 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/soil_pore_space_decomposition_microbiome
+name: soil_pore_space_decomposition_microbiome
+title: Soil Pore Space Decomposition Microbiome
+description: Exploring interactions between plant detritus decomposition and micro-scale characteristics
+  of soil physical micro-environments. Soil metagenome sequencing of leaf litter decomposition in soil
+  microcosms.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study soil_pore_space_decomposition_microbiome.
+    slots:
+    - decomposition_microbiome_composition
+    - leaf_litter_plant_species
+    - soil_moisture_content
+    - soil_pore_size
+slots:
+  decomposition_microbiome_composition:
+    title: decomposition microbiome composition
+    description: Metagenomic profile of microbial communities associated with leaf litter decomposition
+      in soil.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: decomposition-associated soil microbial community
+      material_or_matrix: soil microcosm with plant litter
+      method: metagenomics
+      value_type: ARRAY
+  leaf_litter_plant_species:
+    title: leaf litter plant species
+    description: Plant species identity of decomposing leaf detritus placed into soil microcosms.
+    range: HostCommonNameEnum
+    exact_mappings:
+    - MIXS:0000248
+    - MIXS:0000008
+    slot_uri: MIXS:0000248
+    aliases:
+    - plant_species
+    - litter_species
+    - host_common_name
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: decomposing plant detritus
+      value_type: CATEGORICAL
+  soil_moisture_content:
+    title: soil moisture content
+    description: Soil water content in the decomposition microcosm.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    exact_mappings:
+    - MIXS:0000185
+    - MIXS:0000008
+    - BERVO:0000301
+    slot_uri: MIXS:0000185
+    aliases:
+    - soil_moisture
+    - water_content
+    annotations:
+      role: EXPERIMENTAL_FACTOR; COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil water
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_pore_size:
+    title: soil pore size
+    description: Micro-scale soil physical environment represented by pore-size treatment or fraction.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - pore_size
+    - soil_pore_size
+    - physical_microenvironment
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil physical microenvironment
+      value_type: CATEGORICAL

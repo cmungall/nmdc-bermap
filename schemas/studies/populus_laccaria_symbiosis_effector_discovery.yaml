@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/populus_laccaria_symbiosis_effector_discovery
+name: populus_laccaria_symbiosis_effector_discovery
+title: Populus-Laccaria Symbiosis Effector Discovery
+description: Investigation of plant-derived effector proteins mediating symbiosis between Populus and
+  the ectomycorrhizal fungus Laccaria bicolor. Identifies PtLecRLK1 receptor and small secreted proteins
+  regulating fungal colonization.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study populus_laccaria_symbiosis_effector_discovery.
+    slots:
+    - effector_or_receptor_gene
+    - fungal_colonization_phenotype
+    - symbiosis_omics_profile
+    - symbiosis_partner
+slots:
+  effector_or_receptor_gene:
+    title: effector or receptor gene
+    description: Plant-derived effector protein, receptor, or small secreted protein implicated in symbiosis.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - gene_id
+    - effector_id
+    - receptor_id
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: symbiosis effector or receptor
+      value_type: IDENTIFIER
+  fungal_colonization_phenotype:
+    title: fungal colonization phenotype
+    description: Laccaria colonization response regulated by Populus effector and receptor interactions.
+    range: float
+    aliases:
+    - colonization
+    - fungal_colonization
+    - symbiosis_phenotype
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus-Laccaria symbiosis
+      method: fungal colonization assay
+      value_type: NUMERIC
+  symbiosis_omics_profile:
+    title: symbiosis omics profile
+    description: Transcriptomic or metabolomic profile used to discover symbiosis effectors.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - metabolite_abundance
+    - omics_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus-Laccaria interaction
+      method: transcriptomics and metabolomics
+      value_type: ARRAY
+  symbiosis_partner:
+    title: symbiosis partner
+    description: Plant or fungal partner represented in the Populus-Laccaria symbiosis assay.
+    range: SymbiosisPartnerEnum
+    exact_mappings:
+    - MIXS:0000248
+    - MIXS:0000008
+    slot_uri: MIXS:0000248
+    aliases:
+    - organism
+    - partner
+    - species
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: symbiosis organism
+      value_type: CATEGORICAL
+enums:
+  SymbiosisPartnerEnum:
+    permissible_values:
+      Populus trichocarpa: null
+      Laccaria bicolor: null

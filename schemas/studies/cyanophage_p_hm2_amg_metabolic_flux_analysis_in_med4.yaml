@@ -1,0 +1,87 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
+name: cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
+title: Cyanophage P-HM2 AMG Metabolic Flux Analysis in MED4
+description: Genome-scale metabolic model studying synergy and antagonism of cyanophage P-HM2 auxiliary
+  metabolic gene (AMG) impacts in Prochlorococcus marinus MED4. Demonstrates that 17 directly hijacked
+  reactions substantially impact over 30% of metabolism including carbon fixation, photosynthesis, and
+  nucleotide synthesis. First integration of AMGs and phage assembly into a genome-scale metabolic model.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4.
+    slots:
+    - auxiliary_metabolic_gene
+    - hijacked_metabolic_reaction
+    - metabolic_flux_prediction
+    - phage_metabolic_hijacking_scenario
+slots:
+  auxiliary_metabolic_gene:
+    title: auxiliary metabolic gene
+    description: Cyanophage P-HM2 AMG represented in the metabolic model.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - AMG
+    - phage_gene
+    - gene_id
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: cyanophage auxiliary metabolic gene
+      value_type: IDENTIFIER
+  hijacked_metabolic_reaction:
+    title: hijacked metabolic reaction
+    description: Host metabolic reaction directly affected by phage auxiliary metabolic genes.
+    range: string
+    aliases:
+    - reaction_id
+    - hijacked_reaction
+    - metabolic_reaction
+    annotations:
+      role: DERIVED; IDENTIFIER
+      measured_entity: Prochlorococcus metabolic reaction
+      value_type: IDENTIFIER
+  metabolic_flux_prediction:
+    title: metabolic flux prediction
+    description: Predicted flux or pathway impact for Prochlorococcus metabolism under phage hijacking
+      scenarios.
+    range: float
+    aliases:
+    - flux
+    - flux_prediction
+    - pathway_impact
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: host metabolic flux
+      method: genome-scale metabolic modeling
+      value_type: NUMERIC
+  phage_metabolic_hijacking_scenario:
+    title: phage metabolic hijacking scenario
+    description: Model scenario representing cyanophage P-HM2 infection, AMG inclusion, or phage assembly.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - scenario
+    - phage_infection
+    - AMG_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: phage-host metabolic model
+      value_type: CATEGORICAL

@@ -1,0 +1,91 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/cultivating_bacterial_microbiota_of_populus_roots
+name: cultivating_bacterial_microbiota_of_populus_roots
+title: Cultivating Bacterial Microbiota of Populus Roots
+description: Isolation and characterization of culturable bacteria from Populus roots with 16S sequencing
+  for community analysis.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study cultivating_bacterial_microbiota_of_populus_roots.
+    slots:
+    - _16s_community_profile
+    - bacterial_isolate_identifier
+    - culture_recovery_status
+    - populus_root_source
+slots:
+  _16s_community_profile:
+    title: 16S community profile
+    description: 16S rRNA amplicon profile used to compare cultured isolates with Populus root bacterial
+      community composition.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - otu_table
+    - community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus root bacterial community
+      material_or_matrix: root
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
+  bacterial_isolate_identifier:
+    title: bacterial isolate identifier
+    description: Identifier for culturable bacterial isolates recovered from Populus roots.
+    range: string
+    aliases:
+    - isolate_id
+    - strain_id
+    - culture_id
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: Populus root bacterial isolate
+      value_type: IDENTIFIER
+  culture_recovery_status:
+    title: culture recovery status
+    description: Whether a Populus root-associated taxon or sample yielded a culturable bacterial isolate.
+    range: string
+    aliases:
+    - culture_status
+    - isolate_recovered
+    - cultivation_result
+    annotations:
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: root-associated bacterial taxon
+      method: bacterial cultivation
+      value_type: CATEGORICAL
+  populus_root_source:
+    title: Populus root source
+    description: Populus root-associated source material used for bacterial cultivation and community
+      analysis.
+    range: string
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000014
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - root_source
+    - sample_type
+    - compartment
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus root sample
+      material_or_matrix: root
+      value_type: CATEGORICAL

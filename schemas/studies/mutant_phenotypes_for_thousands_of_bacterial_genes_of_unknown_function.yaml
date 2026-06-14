@@ -1,0 +1,91 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+name: mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+title: Mutant phenotypes for thousands of bacterial genes of unknown function
+description: Genome-wide mutant fitness assays across 32 diverse bacteria using RB-TnSeq, identifying
+  mutant phenotypes for 11,779 protein-coding genes previously annotated only as "of unknown function."
+  Flagship paper for the LBNL Fitness Browser.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function.
+    slots:
+    - barcode_to_locus_map
+    - growth_condition
+    - per_gene_fitness_value
+    - test_bacterial_species
+slots:
+  barcode_to_locus_map:
+    title: barcode-to-locus map
+    description: Mapping from each library's random 20-bp barcodes to the transposon insertion sites in
+      the parent genome, established once per organism by a single TnSeq (transposon-junction sequencing)
+      run.
+    multivalued: true
+    range: string
+    annotations:
+      role: IDENTIFIER; DERIVED
+      method: TnSeq (transposon-junction sequencing)
+      value_type: ARRAY
+  growth_condition:
+    title: growth condition
+    description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other
+      stressor) applied to each library aliquot.
+    range: GrowthConditionEnum
+    exact_mappings:
+    - MIXS:0000008
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: defined growth condition (selective agent)
+      value_type: CATEGORICAL
+  per_gene_fitness_value:
+    title: per-gene fitness value
+    description: log2(end-of-experiment barcode abundance / Time0 abundance) per insertion-bearing gene,
+      with a t-like statistic for confidence.
+    range: float
+    unit:
+      descriptive_name: log2 fold change
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: bacterial gene
+      method: BarSeq amplicon read counting, normalized
+      value_type: NUMERIC
+  test_bacterial_species:
+    title: test bacterial species
+    description: Bacterial species used as the parent strain for RB-TnSeq library construction and fitness
+      profiling.
+    range: TestBacterialSpeciesEnum
+    exact_mappings:
+    - MIXS:0000008
+    annotations:
+      role: EXPERIMENTAL_FACTOR; GROUPING
+      measured_entity: bacterial species
+      value_type: CATEGORICAL
+enums:
+  GrowthConditionEnum:
+    permissible_values:
+      carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol): null
+      nitrogen source: null
+      metal stressor: null
+      antibiotic: null
+      other defined inhibitor: null
+  TestBacterialSpeciesEnum:
+    permissible_values:
+      Escherichia coli BW25113: null
+      Pseudomonas fluorescens FW300-N2E2: null
+      Shewanella oneidensis MR-1: null
+      (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes): null

@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/viral_contributions_to_soil_carbon_dynamics
+name: viral_contributions_to_soil_carbon_dynamics
+title: Viral Contributions to Soil Carbon Dynamics
+description: Estimating the importance of viral contributions to soil carbon dynamics through metagenomics.
+  Published in Global Change Biology 2024.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study viral_contributions_to_soil_carbon_dynamics.
+    slots:
+    - soil_carbon_dynamics_estimate
+    - soil_sample_context
+    - soil_virus_abundance_or_diversity
+    - viral_auxiliary_metabolic_gene_profile
+slots:
+  soil_carbon_dynamics_estimate:
+    title: soil carbon dynamics estimate
+    description: Estimated contribution of viruses to soil carbon pools, fluxes, or transformations.
+    multivalued: true
+    range: string
+    aliases:
+    - viral_carbon_contribution
+    - carbon_dynamics_estimate
+    - carbon_flux
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: soil carbon dynamics
+      material_or_matrix: soil
+      method: metagenomics-informed carbon dynamics estimation
+      value_type: ARRAY
+  soil_sample_context:
+    title: soil sample context
+    description: Soil site, matrix, or environmental context for viral carbon dynamics estimates.
+    range: string
+    exact_mappings:
+    - MIXS:0000013
+    slot_uri: MIXS:0000013
+    aliases:
+    - site
+    - soil_context
+    - environmental_medium
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: soil sampling context
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  soil_virus_abundance_or_diversity:
+    title: soil virus abundance or diversity
+    description: Soil virome abundance, richness, or diversity inferred from metagenomic data.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - viral_abundance
+    - viral_diversity
+    - virome_profile
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil viral community
+      material_or_matrix: soil
+      method: metagenomics
+      value_type: ARRAY
+  viral_auxiliary_metabolic_gene_profile:
+    title: viral auxiliary metabolic gene profile
+    description: Viral genes or functions with potential roles in soil carbon cycling.
+    multivalued: true
+    range: string
+    aliases:
+    - auxiliary_metabolic_gene
+    - AMG_profile
+    - viral_function
+    annotations:
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: soil viral genome
+      method: viral genome annotation
+      value_type: ARRAY

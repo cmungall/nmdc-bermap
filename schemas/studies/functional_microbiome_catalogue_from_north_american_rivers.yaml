@@ -1,0 +1,95 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/functional_microbiome_catalogue_from_north_american_rivers
+name: functional_microbiome_catalogue_from_north_american_rivers
+title: Functional Microbiome Catalogue from North American Rivers
+description: Catalog of 2,000+ microbial genomes from ~100 rivers across North America. Over 1,000 metagenomes
+  sequenced through JGI from WHONDRS water samples. Landmark study published in Nature 2024.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study functional_microbiome_catalogue_from_north_american_rivers.
+    slots:
+    - collection_date
+    - microbial_functional_expression_profile
+    - river_microbiome_genome_catalogue
+    - river_system
+slots:
+  collection_date:
+    title: collection date
+    description: Sampling date for WHONDRS river water microbiome collections.
+    range: datetime
+    exact_mappings:
+    - MIXS:0000011
+    slot_uri: MIXS:0000011
+    aliases:
+    - collection_date
+    - sampling_date
+    - date
+    annotations:
+      role: DATE_TIME_VARIABLE
+      measured_entity: sampling event
+      value_type: DATETIME
+  microbial_functional_expression_profile:
+    title: microbial functional expression profile
+    description: Metatranscriptomic profile used to relate microbial functions to river corridor conditions.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - transcript_abundance
+    - expression_profile
+    - functional_expression_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: river microbial community
+      material_or_matrix: river water
+      method: metatranscriptomics
+      value_type: ARRAY
+  river_microbiome_genome_catalogue:
+    title: river microbiome genome catalogue
+    description: Metagenome-assembled genome catalogue derived from WHONDRS river metagenomes.
+    multivalued: true
+    range: string
+    aliases:
+    - mag_id
+    - genome_bin
+    - genome_catalogue
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: river microbial genomes
+      material_or_matrix: river water
+      method: metagenome assembly and genome binning
+      value_type: ARRAY
+  river_system:
+    title: river system
+    description: North American river or river reach represented by each WHONDRS sample.
+    range: string
+    exact_mappings:
+    - MIXS:0000013
+    slot_uri: MIXS:0000013
+    aliases:
+    - river
+    - river_system
+    - site
+    - reach
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: river system
+      value_type: CATEGORICAL

@@ -1,0 +1,132 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+name: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+title: Persistence Control Engineering in Sorghum Rhizosphere Bacteria
+description: Genome editing and phenotype modeling of non-model sorghum rhizosphere bacteria to promote
+  persistence near sorghum roots while reducing persistence in bulk soil or scavenging environments.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study persistence_control_engineering_in_sorghum_rhizosphere_bacteria.
+    slots:
+    - engineered_rhizosphere_bacterial_strain
+    - genome_edit_or_pathway_perturbation
+    - microbial_persistence_phenotype
+    - persistence_control_escape
+    - rhizosphere_environmental_context
+    - sorghum_root_exudate_availability
+slots:
+  engineered_rhizosphere_bacterial_strain:
+    title: engineered rhizosphere bacterial strain
+    description: Non-model rhizosphere bacterial strain selected or engineered for persistence control.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - strain_id
+    - isolate_id
+    - engineered_strain
+    annotations:
+      role: IDENTIFIER; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: engineered rhizosphere bacterium
+      value_type: IDENTIFIER
+  genome_edit_or_pathway_perturbation:
+    title: genome edit or pathway perturbation
+    description: Genome reduction, catabolic pathway addition/removal, or synthetic metabolic addiction
+      used to alter environmental niche.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - genome_edit
+    - pathway_perturbation
+    - catabolic_pathway
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: engineered microbial genotype
+      value_type: CATEGORICAL
+  microbial_persistence_phenotype:
+    title: microbial persistence phenotype
+    description: Persistence, colonization, abundance, or fitness of engineered bacteria under tested
+      community and environmental contexts.
+    range: float
+    aliases:
+    - persistence
+    - colonization
+    - relative_abundance
+    - fitness_score
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: engineered rhizosphere bacterial population
+      method: fitness assay, abundance tracking, sequencing, or culture-based enumeration
+      value_type: NUMERIC
+  persistence_control_escape:
+    title: persistence control escape
+    description: Evidence of escape from the intended persistence-control design through environmental
+      complementation or community interactions.
+    range: float
+    aliases:
+    - escape_frequency
+    - complementation_escape
+    - persistence_escape_score
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
+      measured_entity: engineered microbial containment outcome
+      value_type: NUMERIC
+  rhizosphere_environmental_context:
+    title: rhizosphere environmental context
+    description: Plant-associated, bulk-soil, detritus, or necromass environment used to test persistence.
+    range: RhizosphereEnvironmentalContextEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000014
+    - MIXS:0000008
+    - ENVO:00005801
+    slot_uri: MIXS:0000013
+    aliases:
+    - environment
+    - niche
+    - env_local_scale
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: microbial niche context
+      material_or_matrix: soil or rhizosphere
+      value_type: CATEGORICAL
+  sorghum_root_exudate_availability:
+    title: sorghum root exudate availability
+    description: Presence or concentration of sorghum-derived root exudates used to create synthetic metabolic
+      dependency.
+    range: float
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - root_exudate
+    - exudate_concentration
+    - plant_specific_metabolite
+    annotations:
+      role: EXPERIMENTAL_FACTOR; COVARIATE
+      measured_entity: sorghum root exudate pool
+      material_or_matrix: rhizosphere
+      value_type: NUMERIC
+enums:
+  RhizosphereEnvironmentalContextEnum:
+    permissible_values:
+      sorghum rhizosphere: null
+      bulk soil: null
+      plant detritus: null
+      microbial necromass: null

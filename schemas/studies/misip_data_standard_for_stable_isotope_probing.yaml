@@ -1,0 +1,86 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/misip_data_standard_for_stable_isotope_probing
+name: misip_data_standard_for_stable_isotope_probing
+title: MISIP Data Standard for Stable Isotope Probing
+description: Data standard for reuse and reproducibility of stable isotope probing-derived nucleic acid
+  sequences. Published in GigaScience 2024.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study misip_data_standard_for_stable_isotope_probing.
+    slots:
+    - buoyant_density
+    - isotope_label_or_substrate
+    - nucleic_acid_fraction
+    - sip_sequence_accession
+slots:
+  buoyant_density:
+    title: buoyant density
+    description: Buoyant density associated with a SIP gradient fraction.
+    range: float
+    unit:
+      descriptive_name: gram per milliliter
+      ucum_code: g/mL
+    aliases:
+    - buoyant_density
+    - density
+    - fraction_density
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: SIP gradient fraction
+      value_type: NUMERIC
+  isotope_label_or_substrate:
+    title: isotope label or substrate
+    description: Stable isotope label and labeled substrate used in a stable isotope probing experiment.
+    range: string
+    exact_mappings:
+    - MIXS:0000751
+    - MIXS:0000008
+    slot_uri: MIXS:0000751
+    aliases:
+    - isotope_label
+    - labeled_substrate
+    - substrate_label
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: SIP labeling treatment
+      value_type: CATEGORICAL
+  nucleic_acid_fraction:
+    title: nucleic acid fraction
+    description: Density fraction or nucleic acid fraction from which SIP-derived sequence data were generated.
+    range: string
+    aliases:
+    - fraction_id
+    - gradient_fraction
+    - nucleic_acid_fraction
+    annotations:
+      role: GROUPING; IDENTIFIER
+      measured_entity: SIP nucleic acid fraction
+      value_type: IDENTIFIER
+  sip_sequence_accession:
+    title: SIP sequence accession
+    description: Identifier linking MISIP metadata to SIP-derived nucleic acid sequence data.
+    range: string
+    aliases:
+    - sequence_accession
+    - run_accession
+    - biosample_accession
+    annotations:
+      role: IDENTIFIER
+      measured_entity: nucleic acid sequence record
+      value_type: IDENTIFIER

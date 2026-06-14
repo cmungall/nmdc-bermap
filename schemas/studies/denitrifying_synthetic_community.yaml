@@ -1,0 +1,100 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/denitrifying_synthetic_community
+name: denitrifying_synthetic_community
+title: Denitrifying Synthetic Community
+description: Two-member denitrifying synthetic community of Rhodanobacter thiooxydans FW510-R12 and Acidovorax
+  sp. GW101-3H11 from the Oak Ridge contaminated subsurface. Exhibits pathway-partitioned denitrification
+  via nitrite and nitric oxide exchange.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study denitrifying_synthetic_community.
+    slots:
+    - culture_configuration
+    - denitrification_intermediate_exchange
+    - synthetic_community_member
+    - transcript_and_protein_abundance_profile
+slots:
+  culture_configuration:
+    title: culture configuration
+    description: Whether the sample represents a single-member culture or two-member synthetic community.
+    range: CultureConfigurationEnum
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - culture_configuration
+    - coculture_condition
+    - community_state
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: denitrifying culture
+      value_type: CATEGORICAL
+  denitrification_intermediate_exchange:
+    title: denitrification intermediate exchange
+    description: Nitrite and nitric oxide exchange associated with pathway-partitioned denitrification.
+    multivalued: true
+    range: string
+    aliases:
+    - nitrite_exchange
+    - nitric_oxide_exchange
+    - denitrification_intermediate
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: denitrification metabolites
+      material_or_matrix: culture medium
+      method: metabolite or pathway analysis
+      value_type: ARRAY
+  synthetic_community_member:
+    title: synthetic community member
+    description: Rhodanobacter or Acidovorax member represented in the denitrifying synthetic community.
+    range: SyntheticCommunityMemberEnum
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - strain
+    - organism
+    - community_member
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING; IDENTIFIER
+      measured_entity: denitrifying bacterial strain
+      value_type: CATEGORICAL
+  transcript_and_protein_abundance_profile:
+    title: transcript and protein abundance profile
+    description: Expression and proteomic profiles used to characterize pathway partitioning in the denitrifying
+      synthetic community.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - protein_abundance
+    - pathway_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: denitrifying synthetic community
+      material_or_matrix: microbial culture
+      method: transcriptomics and proteomics
+      value_type: ARRAY
+enums:
+  CultureConfigurationEnum:
+    permissible_values:
+      monoculture: null
+      co-culture: null
+  SyntheticCommunityMemberEnum:
+    permissible_values:
+      Rhodanobacter thiooxydans FW510-R12: null
+      Acidovorax sp. GW101-3H11: null

@@ -1,0 +1,92 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
+name: s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
+title: S. elongatus PCC 7942 Redox Proteome Under Light Disturbance
+description: Systems approach examining redox activities and conformational changes of proteins and nucleic
+  acid interactions in multi-layered protein-DNA regulatory networks under light disturbance in Synechococcus
+  elongatus PCC 7942. Identifies significant shifts in cysteine redox states in regulatory proteins including
+  transcription sigma factors and metabolic enzymes.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study s_elongatus_pcc_7942_redox_proteome_under_light_disturbance.
+    slots:
+    - cysteine_redox_state
+    - light_disturbance_condition
+    - post_disturbance_time_point
+    - transcript_abundance_response
+slots:
+  cysteine_redox_state:
+    title: cysteine redox state
+    description: Cysteine redox state or redox modification of regulatory proteins and metabolic enzymes.
+    multivalued: true
+    range: string
+    aliases:
+    - cysteine_redox_state
+    - redox_modification
+    - redox_proteome
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: cyanobacterial protein
+      method: redox proteomics
+      value_type: ARRAY
+  light_disturbance_condition:
+    title: light disturbance condition
+    description: Light perturbation applied to S. elongatus cultures to study carbon metabolism regulation.
+    range: string
+    exact_mappings:
+    - MIXS:0000754
+    - MIXS:0000008
+    slot_uri: MIXS:0000754
+    aliases:
+    - light_condition
+    - light_disturbance
+    - perturbation
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanobacterial culture
+      value_type: CATEGORICAL
+  post_disturbance_time_point:
+    title: post-disturbance time point
+    description: Sampling time after light disturbance for transcriptome and redox proteome measurements.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - time_point
+    - post_disturbance_time
+    - sampling_time
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanobacterial sampling event
+      value_type: CATEGORICAL
+  transcript_abundance_response:
+    title: transcript abundance response
+    description: Transcript abundance response associated with carbon metabolism regulation after light
+      disturbance.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - expression_profile
+    - RNAseq_counts
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Synechococcus elongatus transcriptome
+      method: transcriptomics
+      value_type: ARRAY

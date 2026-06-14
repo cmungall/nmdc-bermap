@@ -1,0 +1,126 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/base
+name: brc-sfa-base
+title: BRC/SFA Data-Dictionary Base Profile
+description: >-
+  Shared slots and dynamic, vocabulary-governed enums imported by the per-study
+  data-dictionary profiles in this directory. Linkage to MIxS / ENVO / NCBITaxon /
+  GOLD is by URI and `reachable_from` only; the full NMDC schema is intentionally
+  NOT imported (keeps profiles small and hand-authorable).
+
+  Convention: an enum is DYNAMIC if it has `reachable_from` or an `annotations.source`
+  (its members come from an external vocabulary, not enumerated here); it is STATIC if
+  it lists `permissible_values`.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+default_prefix: profiles
+default_range: string
+imports:
+  - linkml:types
+
+slots:
+  collection_date:
+    slot_uri: MIXS:0000011
+    title: collection date
+    range: datetime
+  depth:
+    slot_uri: MIXS:0000018
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+  elevation:
+    slot_uri: MIXS:0000093
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+  lat_lon:
+    slot_uri: MIXS:0000009
+    title: latitude and longitude
+  geo_loc_name:
+    slot_uri: MIXS:0000010
+    title: geographic location name
+  env_broad_scale:
+    slot_uri: MIXS:0000012
+    range: EnvBroadScaleEnum
+  env_local_scale:
+    slot_uri: MIXS:0000013
+    range: EnvLocalScaleEnum
+  env_medium:
+    slot_uri: MIXS:0000014
+    range: EnvMediumEnum
+  host_common_name:
+    slot_uri: MIXS:0000248
+    range: HostCommonNameEnum
+  host_taxid:
+    slot_uri: MIXS:0000250
+    range: uriorcurie
+  ecosystem:
+    range: GoldEcosystemPathEnum
+  ecosystem_category:
+    range: GoldEcosystemPathEnum
+  ecosystem_type:
+    range: GoldEcosystemPathEnum
+  ecosystem_subtype:
+    range: GoldEcosystemPathEnum
+  specific_ecosystem:
+    range: GoldEcosystemPathEnum
+  environmental_package:
+    range: EnvPackageEnum
+
+enums:
+  EnvBroadScaleEnum:
+    description: MIxS env_broad_scale — an ENVO biome.
+    reachable_from:
+      source_ontology: obo:envo
+      source_nodes:
+        - ENVO:00000428
+      relationship_types:
+        - rdfs:subClassOf
+      is_direct: false
+  EnvLocalScaleEnum:
+    description: MIxS env_local_scale — an ENVO environmental feature.
+    reachable_from:
+      source_ontology: obo:envo
+      source_nodes:
+        - ENVO:00002297
+      relationship_types:
+        - rdfs:subClassOf
+      is_direct: false
+  EnvMediumEnum:
+    description: MIxS env_medium — an ENVO environmental material.
+    reachable_from:
+      source_ontology: obo:envo
+      source_nodes:
+        - ENVO:00010483
+      relationship_types:
+        - rdfs:subClassOf
+      is_direct: false
+  HostCommonNameEnum:
+    description: Host common name, governed by NCBITaxon.
+    reachable_from:
+      source_ontology: obo:ncbitaxon
+      source_nodes:
+        - NCBITaxon:1
+      relationship_types:
+        - rdfs:subClassOf
+      is_direct: false
+  GoldEcosystemPathEnum:
+    description: A level of the GOLD ecosystem classification path (dynamic, by reference).
+    annotations:
+      source: GOLD ecosystem classification
+  EnvPackageEnum:
+    description: A MIxS environmental package (dynamic, by reference).
+    annotations:
+      source: MIxS environmental packages

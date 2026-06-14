@@ -1,0 +1,31 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_cottonwood_lake_study_area
+name: cottonwood_lake_study_area
+title: Cottonwood Lake Study Area
+description: Depressional wetland complex in the Prairie Pothole Region
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_cottonwood_lake_study_area.
+    slots:
+    - location
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: North Dakota

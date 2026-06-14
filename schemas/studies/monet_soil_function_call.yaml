@@ -1,0 +1,89 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/monet_soil_function_call
+name: monet_soil_function_call
+title: MONet Soil Function Call
+description: First major MONet capability launched February 2023. Community soil core solicitation with
+  standardized analysis workflows. JGI proposal 510110 for metagenome sequencing.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study monet_soil_function_call.
+    slots:
+    - metagenome_sequencing_product
+    - molecular_and_microstructural_soil_profile
+    - standardized_workflow
+    - submitted_project_identifier
+slots:
+  metagenome_sequencing_product:
+    title: metagenome sequencing product
+    description: Sequence data and annotations generated through JGI proposal 510110.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_sequence
+    - metagenome_profile
+    - annotation
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil core
+      method: metagenomic sequencing
+      value_type: ARRAY
+  molecular_and_microstructural_soil_profile:
+    title: molecular and microstructural soil profile
+    description: Integrated MONet molecular and microstructural data product for a submitted soil core.
+    range: string
+    aliases:
+    - molecular_profile
+    - microstructural_profile
+    - soil_function_profile
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil core
+      method: FTICR-MS, X-ray computed tomography, and biogeochemical analysis
+      value_type: OBJECT
+  standardized_workflow:
+    title: standardized workflow
+    description: MONet analysis workflow applied to submitted soil cores.
+    range: string
+    aliases:
+    - workflow
+    - analysis_workflow
+    - data_product
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE; GROUPING
+      measured_entity: MONet analysis workflow
+      value_type: CATEGORICAL
+  submitted_project_identifier:
+    title: submitted project identifier
+    description: Community project or soil core submission identifier for the MONet Soil Function Call.
+    range: string
+    exact_mappings:
+    - MIXS:0001107
+    slot_uri: MIXS:0001107
+    aliases:
+    - project_id
+    - proposal_id
+    - sample_name
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: submitted soil core project
+      value_type: IDENTIFIER

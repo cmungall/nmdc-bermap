@@ -1,0 +1,97 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/e_coli_phage_resistance_landscape
+name: e_coli_phage_resistance_landscape
+title: E. coli Phage Resistance Landscape
+description: High-throughput mapping of the phage resistance landscape in E. coli using gain-of-function,
+  loss-of-function, and gene deletion libraries. Generates datasets for predictive models of phage-mediated
+  selection on bacterial phenotype and evolution.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study e_coli_phage_resistance_landscape.
+    slots:
+    - bacteriophage_challenge
+    - host_gene_perturbation
+    - perturbation_library_type
+    - phage_resistance_phenotype
+slots:
+  bacteriophage_challenge:
+    title: bacteriophage challenge
+    description: Phage isolate or challenge condition applied to each E. coli perturbation.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - phage
+    - phage_id
+    - challenge_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacteriophage exposure
+      value_type: CATEGORICAL
+  host_gene_perturbation:
+    title: host gene perturbation
+    description: E. coli gene-level perturbation introduced by gain-of-function, loss-of-function, or
+      deletion libraries.
+    range: string
+    exact_mappings:
+    - MIXS:0000754
+    - MIXS:0000008
+    slot_uri: MIXS:0000754
+    aliases:
+    - gene
+    - perturbation
+    - deletion_id
+    - overexpression_construct
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Escherichia coli strain
+      value_type: CATEGORICAL
+  perturbation_library_type:
+    title: perturbation library type
+    description: Genetic library class used to generate E. coli perturbations.
+    range: PerturbationLibraryTypeEnum
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - library_type
+    - screen_type
+    - perturbation_library
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: genetic screen library
+      value_type: CATEGORICAL
+  phage_resistance_phenotype:
+    title: phage resistance phenotype
+    description: Growth, survival, or resistance phenotype measured after phage challenge.
+    range: float
+    aliases:
+    - resistance_score
+    - growth_score
+    - fitness_score
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: E. coli phage resistance
+      method: high-throughput phage challenge screen
+      value_type: NUMERIC
+enums:
+  PerturbationLibraryTypeEnum:
+    permissible_values:
+      gain-of-function: null
+      loss-of-function: null
+      gene deletion: null

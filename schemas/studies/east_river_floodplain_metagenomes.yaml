@@ -1,0 +1,100 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/east_river_floodplain_metagenomes
+name: east_river_floodplain_metagenomes
+title: East River Floodplain Metagenomes
+description: Metagenome-assembled genomes from floodplain soils in the East River watershed. 248 draft
+  quality genomes reconstructed at sub-species level from upper, middle, and lower reaches. Demonstrates
+  floodplains as scaling motifs for watershed models.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study east_river_floodplain_metagenomes.
+    slots:
+    - floodplain_reach
+    - floodplain_soil_metagenome_profile
+    - metagenome_assembled_genome
+    - watershed_model_scaling_motif
+slots:
+  floodplain_reach:
+    title: floodplain reach
+    description: Watershed reach represented by each floodplain soil metagenome sample.
+    range: FloodplainReachEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - reach
+    - watershed_position
+    - floodplain_reach
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX; GROUPING
+      measured_entity: East River floodplain
+      material_or_matrix: floodplain soil
+      value_type: CATEGORICAL
+  floodplain_soil_metagenome_profile:
+    title: floodplain soil metagenome profile
+    description: Taxonomic and functional metagenome profile for East River floodplain soils.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: floodplain soil microbial community
+      material_or_matrix: floodplain soil
+      method: metagenomic sequencing
+      value_type: ARRAY
+  metagenome_assembled_genome:
+    title: metagenome-assembled genome
+    description: Draft quality MAG reconstructed from East River floodplain soil metagenomes.
+    range: string
+    aliases:
+    - mag_id
+    - genome_bin
+    - genome_id
+    annotations:
+      role: DERIVED; IDENTIFIER
+      measured_entity: floodplain soil microbial genome
+      method: metagenome assembly and binning
+      value_type: IDENTIFIER
+  watershed_model_scaling_motif:
+    title: watershed model scaling motif
+    description: Derived motif or feature used to represent floodplains in watershed models.
+    multivalued: true
+    range: string
+    aliases:
+    - scaling_motif
+    - floodplain_motif
+    - model_feature
+    annotations:
+      role: DERIVED; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: watershed model representation
+      method: genome-resolved metagenomic interpretation for watershed model scaling
+      value_type: ARRAY
+enums:
+  FloodplainReachEnum:
+    permissible_values:
+      upper reach: null
+      middle reach: null
+      lower reach: null

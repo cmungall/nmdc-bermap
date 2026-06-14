@@ -1,0 +1,188 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/1000_soils_pilot
+name: _1000_soils_pilot
+title: 1000 Soils Pilot
+description: Pilot study collecting standardized soil samples across US ecoregions to develop continental-scale
+  molecular and microstructural soil database. Samples analyzed using FTICR-MS for organic matter composition,
+  X-ray computed tomography for 3D pore structure, and metagenomics via JGI partnership. Includes geochemistry,
+  texture, respiration, enzyme activities, and microbial biomass measurements.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study 1000_soils_pilot.
+    slots:
+    - microbial_biomass_carbon
+    - sampling_ecoregion
+    - soil_core_depth
+    - soil_metagenome_profile
+    - soil_organic_matter_molecular_composition
+    - soil_ph
+    - soil_pore_network_structure
+    - soil_respiration
+    - soil_water_characteristic
+slots:
+  microbial_biomass_carbon:
+    title: microbial biomass carbon
+    description: Microbial biomass carbon measured as part of MONet soil biological characterization.
+    range: float
+    unit:
+      descriptive_name: microgram per gram
+      ucum_code: ug/g
+    exact_mappings:
+    - BERVO:0000995
+    slot_uri: BERVO:0000995
+    aliases:
+    - microbial_biomass_C
+    - microbial_biomass_carbon
+    - biomass_C
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial biomass
+      material_or_matrix: soil
+      value_type: NUMERIC
+  sampling_ecoregion:
+    title: sampling ecoregion
+    description: US ecoregion or site context represented by the standardized soil sample.
+    range: string
+    exact_mappings:
+    - MIXS:0000012
+    - MIXS:0000013
+    slot_uri: MIXS:0000012
+    aliases:
+    - ecoregion
+    - site
+    - sampling_location
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: soil sampling site
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  soil_core_depth:
+    title: soil core depth
+    description: Depth interval represented by a standardized soil core or subsample.
+    range: float
+    unit:
+      descriptive_name: centimeter
+      ucum_code: cm
+    exact_mappings:
+    - MIXS:0000018
+    - MIXS:0000008
+    slot_uri: MIXS:0000018
+    aliases:
+    - depth
+    - soil_depth
+    - core_depth
+    annotations:
+      role: SPATIAL_INDEX; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil core
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_metagenome_profile:
+    title: soil metagenome profile
+    description: Metagenomic sequence and annotation profile generated through the JGI partnership.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil
+      method: metagenomic sequencing
+      value_type: ARRAY
+  soil_organic_matter_molecular_composition:
+    title: soil organic matter molecular composition
+    description: Organic matter molecular features measured by FTICR-MS.
+    multivalued: true
+    range: string
+    aliases:
+    - fticr_feature
+    - organic_matter_composition
+    - molecular_formula
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil organic matter
+      material_or_matrix: soil
+      method: FTICR-MS
+      value_type: ARRAY
+  soil_ph:
+    title: soil pH
+    description: Soil pH measurement included in MONet geochemical characterization.
+    range: float
+    exact_mappings:
+    - BERVO:0000882
+    slot_uri: BERVO:0000882
+    aliases:
+    - soil_pH
+    - ph
+    - pH
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: soil acidity
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_pore_network_structure:
+    title: soil pore network structure
+    description: Three-dimensional pore structure metrics measured by X-ray computed tomography.
+    multivalued: true
+    range: string
+    aliases:
+    - pore_network_metric
+    - xray_ct_metric
+    - pore_structure
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil pore network
+      material_or_matrix: soil core
+      method: X-ray computed tomography
+      value_type: ARRAY
+  soil_respiration:
+    title: soil respiration
+    description: Soil respiration measurement included in MONet biogeochemical characterization.
+    range: float
+    aliases:
+    - respiration
+    - soil_respiration
+    - CO2_flux
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil respiration
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_water_characteristic:
+    title: soil water characteristic
+    description: Soil water-related measurement included in MONet physical and hydraulic characterization.
+    range: float
+    exact_mappings:
+    - MIXS:0000185
+    - BERVO:0000301
+    slot_uri: MIXS:0000185
+    aliases:
+    - soil_water_content
+    - water_content
+    - hydraulic_property
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC

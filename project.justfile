@@ -55,6 +55,14 @@ validate-refs-verbose:
 gen-browser:
   uv run python scripts/generate_html_browser.py
 
+# Generate per-study/-site LinkML data-dictionary profiles (schemas/studies, schemas/sites)
+gen-profiles:
+  uv run python schemas/generate_profiles.py
+
+# Validate the generated LinkML profiles (load, imports, range resolution)
+validate-profiles:
+  uv run python schemas/validate_profiles.py
+
 # Fetch all BRC datasets from API and save as individual YAML files
 fetch-brc-datasets:
   uv run python src/nmdc_sfas_brcs/scripts/fetch_brc_datasets.py --summary

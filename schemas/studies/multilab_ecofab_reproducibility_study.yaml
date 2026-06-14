@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/multilab_ecofab_reproducibility_study
+name: multilab_ecofab_reproducibility_study
+title: Multilab EcoFAB Reproducibility Study
+description: Multilab study demonstrating highly reproducible plant physiology and soil metabolite depletion
+  patterns using EcoFAB standardized fabricated ecosystems across 4 labs.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study multilab_ecofab_reproducibility_study.
+    slots:
+    - ecofab_growth_system
+    - laboratory_site
+    - plant_physiology_phenotype
+    - soil_metabolite_depletion
+slots:
+  ecofab_growth_system:
+    title: EcoFAB growth system
+    description: Standardized fabricated ecosystem used to grow Brachypodium for reproducibility testing.
+    range: EcofabGrowthSystemEnum
+    exact_mappings:
+    - MIXS:0001057
+    slot_uri: MIXS:0001057
+    aliases:
+    - growth_system
+    - ecofab_device
+    - device_type
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE
+      measured_entity: plant growth system
+      value_type: CATEGORICAL
+  laboratory_site:
+    title: laboratory site
+    description: Laboratory where the EcoFAB reproducibility experiment was performed.
+    range: LaboratorySiteEnum
+    aliases:
+    - lab
+    - site
+    - laboratory
+    annotations:
+      role: BLOCKING_VARIABLE; GROUPING
+      measured_entity: reproducibility study site
+      value_type: CATEGORICAL
+  plant_physiology_phenotype:
+    title: plant physiology phenotype
+    description: Plant physiology measurements used to assess reproducibility across EcoFAB laboratories.
+    multivalued: true
+    range: string
+    aliases:
+    - plant_physiology
+    - biomass
+    - growth_phenotype
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Brachypodium plant
+      method: plant physiology phenotyping
+      value_type: ARRAY
+  soil_metabolite_depletion:
+    title: soil metabolite depletion
+    description: Soil metabolite depletion profile measured in standardized EcoFAB experiments.
+    multivalued: true
+    range: string
+    aliases:
+    - soil_metabolite_depletion
+    - metabolite_abundance
+    - depletion_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil metabolome
+      material_or_matrix: soil
+      method: metabolomics
+      value_type: ARRAY
+enums:
+  EcofabGrowthSystemEnum:
+    permissible_values:
+      EcoFAB: null
+  LaboratorySiteEnum:
+    permissible_values:
+      four participating laboratories: null

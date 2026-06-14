@@ -1,0 +1,77 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/archaeal_mercury_methylators_in_freshwater_sediments
+name: archaeal_mercury_methylators_in_freshwater_sediments
+title: Archaeal Mercury Methylators in Freshwater Sediments
+description: Study demonstrating robust mercury methylation across diverse methanogenic archaea in freshwater
+  sediments from East Fork Poplar Creek.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study archaeal_mercury_methylators_in_freshwater_sediments.
+    slots:
+    - archaeal_taxon
+    - mercury_amendment
+    - methylmercury_production
+slots:
+  archaeal_taxon:
+    title: archaeal taxon
+    description: Methanogenic archaeal organism or group evaluated for mercury methylation.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - archaeal_taxon
+    - organism
+    - taxon
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: methanogenic archaeon
+      value_type: CATEGORICAL
+  mercury_amendment:
+    title: mercury amendment
+    description: Mercury exposure or amendment condition used to evaluate methylmercury production.
+    range: string
+    exact_mappings:
+    - MIXS:0000751
+    - MIXS:0000008
+    - CHEBI:25195
+    slot_uri: MIXS:0000751
+    aliases:
+    - mercury_amendment
+    - mercury_exposure
+    - chemical_administration
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: mercury exposure condition
+      value_type: CATEGORICAL
+  methylmercury_production:
+    title: methylmercury production
+    description: Methylmercury production response used to determine mercury methylation capacity.
+    range: float
+    exact_mappings:
+    - CHEBI:25322
+    slot_uri: CHEBI:25322
+    aliases:
+    - methylmercury
+    - methylmercury_production
+    - mercury_methylation_rate
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: methylmercury production
+      method: mercury methylation assay
+      value_type: NUMERIC

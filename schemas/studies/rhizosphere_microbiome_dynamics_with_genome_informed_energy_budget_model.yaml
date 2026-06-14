@@ -1,0 +1,95 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+name: rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+title: Rhizosphere Microbiome Dynamics with Genome-Informed Energy Budget Model
+description: Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based energy
+  budget model. Published in Nature Microbiology 2024.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model.
+    slots:
+    - genome_informed_trait_profile
+    - predicted_energy_budget_state
+    - rhizosphere_omics_profile
+    - rhizosphere_sampling_time
+slots:
+  genome_informed_trait_profile:
+    title: genome-informed trait profile
+    description: Genome-derived microbial traits used as inputs to the energy budget model.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - genome_trait
+    - trait_profile
+    - energy_budget_trait
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: rhizosphere microbial genome
+      method: genome annotation and trait inference
+      value_type: ARRAY
+  predicted_energy_budget_state:
+    title: predicted energy budget state
+    description: Model-predicted microbial energy allocation, growth, or activity state.
+    multivalued: true
+    range: string
+    aliases:
+    - predicted_growth
+    - energy_budget_state
+    - model_prediction
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: rhizosphere microbial population
+      method: genome-informed trait-based energy budget model
+      value_type: ARRAY
+  rhizosphere_omics_profile:
+    title: rhizosphere omics profile
+    description: Metagenomic and metatranscriptomic profile used to fit or evaluate microbiome dynamics.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - ENVO:00005801
+    slot_uri: ENVO:00005801
+    aliases:
+    - metagenome_profile
+    - metatranscriptome_profile
+    - transcript_abundance
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: Avena rhizosphere microbial community
+      material_or_matrix: rhizosphere
+      method: metagenomics and metatranscriptomics
+      value_type: ARRAY
+  rhizosphere_sampling_time:
+    title: rhizosphere sampling time
+    description: Sampling point used to represent temporal dynamics in the Avena rhizosphere microbiome.
+    range: string
+    exact_mappings:
+    - MIXS:0000011
+    - MIXS:0000008
+    slot_uri: MIXS:0000011
+    aliases:
+    - time_point
+    - sampling_time
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: rhizosphere sampling event
+      value_type: CATEGORICAL

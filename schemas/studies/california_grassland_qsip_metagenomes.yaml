@@ -1,0 +1,81 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/california_grassland_qsip_metagenomes
+name: california_grassland_qsip_metagenomes
+title: California Grassland qSIP Metagenomes
+description: Quantitative stable isotope probing with metagenomics linking microbial physiology and activity
+  to soil moisture in Mediterranean-climate grassland ecosystems.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study california_grassland_qsip_metagenomes.
+    slots:
+    - qsip_derived_microbial_activity
+    - soil_moisture
+    - stable_isotope_amendment
+slots:
+  qsip_derived_microbial_activity:
+    title: qSIP-derived microbial activity
+    description: Genome-resolved microbial activity inferred from isotope incorporation in metagenomic
+      data.
+    multivalued: true
+    range: string
+    aliases:
+    - qsip_activity
+    - isotope_incorporation
+    - genome_activity_estimate
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
+      measured_entity: soil microbial populations
+      material_or_matrix: soil
+      method: quantitative stable isotope probing with metagenomics
+      value_type: ARRAY
+  soil_moisture:
+    title: soil moisture
+    description: Soil water availability condition associated with qSIP metagenome samples.
+    range: float
+    unit:
+      descriptive_name: gram per gram or cubic centimeter per cubic centimeter
+    exact_mappings:
+    - MIXS:0000185
+    - MIXS:0000008
+    slot_uri: MIXS:0000185
+    aliases:
+    - soil_moisture
+    - water_content
+    - volumetric_water_content
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC
+  stable_isotope_amendment:
+    title: stable isotope amendment
+    description: Isotopically labeled substrate or amendment used for quantitative stable isotope probing.
+    range: string
+    exact_mappings:
+    - MIXS:0000751
+    - MIXS:0000008
+    slot_uri: MIXS:0000751
+    aliases:
+    - isotope_label
+    - isotope_amendment
+    - substrate_label
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      method: quantitative stable isotope probing
+      value_type: CATEGORICAL

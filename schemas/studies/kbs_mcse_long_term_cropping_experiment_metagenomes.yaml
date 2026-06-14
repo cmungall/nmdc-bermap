@@ -1,0 +1,99 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/kbs_mcse_long_term_cropping_experiment_metagenomes
+name: kbs_mcse_long_term_cropping_experiment_metagenomes
+title: KBS MCSE Long-term Cropping Experiment Metagenomes
+description: Metagenomics from Kellogg Biological Station Long Term Ecological Research Main Cropping
+  System Experiment (KBS MCSE). Testing how drought affects microbial allocation to stress tolerance across
+  different cropping systems.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+- ../sites/site_w_k_kellogg_biological_station
+classes:
+  Record:
+    description: Per-record data dictionary for study kbs_mcse_long_term_cropping_experiment_metagenomes.
+    slots:
+    - cropping_system
+    - drought_treatment
+    - microbial_stress_tolerance_allocation
+    - soil_metagenome_profile
+slots:
+  cropping_system:
+    title: cropping system
+    description: Long-term KBS MCSE cropping-system treatment represented by each soil sample.
+    range: string
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - cropping_system
+    - crop_rotation
+    - treatment
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: agricultural field plot
+      value_type: CATEGORICAL
+  drought_treatment:
+    title: drought treatment
+    description: Field drought manipulation used to test microbial allocation to stress tolerance.
+    range: string
+    exact_mappings:
+    - MIXS:0000754
+    - MIXS:0000591
+    - MIXS:0000008
+    slot_uri: MIXS:0000754
+    aliases:
+    - drought_treatment
+    - water_treatment
+    - perturbation
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cropping-system field plot
+      value_type: CATEGORICAL
+  microbial_stress_tolerance_allocation:
+    title: microbial stress tolerance allocation
+    description: Metagenome-derived community trait allocation to stress tolerance under drought.
+    multivalued: true
+    range: string
+    aliases:
+    - stress_tolerance_genes
+    - trait_allocation
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: soil microbial community trait profile
+      material_or_matrix: soil
+      method: metagenomic trait inference
+      value_type: ARRAY
+  soil_metagenome_profile:
+    title: soil metagenome profile
+    description: Taxonomic and functional composition of soil microbial communities in KBS MCSE plots.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil
+      method: metagenomics
+      value_type: ARRAY

@@ -1,0 +1,98 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/core_metabolome_and_root_exudation_dynamics
+name: core_metabolome_and_root_exudation_dynamics
+title: Core Metabolome and Root Exudation Dynamics
+description: Core metabolome and root exudation dynamics of three phylogenetically distinct plant species
+  (Brachypodium, Avena, Microbotryum). Multi-omics dataset from EcoFABs.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study core_metabolome_and_root_exudation_dynamics.
+    slots:
+    - core_metabolite_abundance
+    - exudation_time_point
+    - plant_species
+    - root_exudation_rate_or_profile
+slots:
+  core_metabolite_abundance:
+    title: core metabolite abundance
+    description: Metabolite feature abundances used to identify a core metabolome across plant species.
+    multivalued: true
+    range: string
+    aliases:
+    - metabolite_abundance
+    - core_metabolome_feature
+    - feature_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: plant-associated metabolome
+      method: metabolomics and exometabolomics
+      value_type: ARRAY
+  exudation_time_point:
+    title: exudation time point
+    description: Time point or growth interval for root exudate collection.
+    range: string
+    exact_mappings:
+    - MIXS:0000011
+    - MIXS:0000008
+    slot_uri: MIXS:0000011
+    aliases:
+    - time_point
+    - growth_stage
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: root exudation sampling event
+      value_type: CATEGORICAL
+  plant_species:
+    title: plant species
+    description: Plant species included in the core metabolome and root exudation comparison.
+    range: PlantSpeciesEnum
+    exact_mappings:
+    - MIXS:0000248
+    - MIXS:0000008
+    slot_uri: MIXS:0000248
+    aliases:
+    - species
+    - host_common_name
+    - plant_species
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: host plant
+      value_type: CATEGORICAL
+  root_exudation_rate_or_profile:
+    title: root exudation rate or profile
+    description: Root exudation dynamics represented as metabolite profiles or inferred exudation rates.
+    multivalued: true
+    range: string
+    aliases:
+    - exudation_profile
+    - exudation_rate
+    - root_exudate_feature
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
+      measured_entity: root exudation process
+      material_or_matrix: root exudate
+      method: exometabolomics
+      value_type: ARRAY
+enums:
+  PlantSpeciesEnum:
+    permissible_values:
+      Brachypodium distachyon: null
+      Avena barbata: null
+      Microbotryum: null

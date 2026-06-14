@@ -1,0 +1,98 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/oak_ridge_groundwater_100_well_survey_metagenomes
+name: oak_ridge_groundwater_100_well_survey_metagenomes
+title: Oak Ridge Groundwater 100-Well Survey Metagenomes
+description: Comprehensive metagenomic survey of groundwater microbial communities from 100 wells at the
+  Oak Ridge Field Research Center. Examines community assembly processes under environmental stress from
+  contamination gradients.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study oak_ridge_groundwater_100_well_survey_metagenomes.
+    slots:
+    - community_assembly_process_estimate
+    - environmental_stress_gradient
+    - groundwater_microbial_community_composition
+    - groundwater_well_identifier
+slots:
+  community_assembly_process_estimate:
+    title: community assembly process estimate
+    description: Inferred contribution of stochastic and selection processes to groundwater community
+      assembly under environmental stress.
+    range: float
+    aliases:
+    - stochastic_assembly_fraction
+    - selection_process_estimate
+    - assembly_process
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: groundwater microbial community assembly
+      method: community assembly modeling from metagenomic and environmental data
+      value_type: NUMERIC
+  environmental_stress_gradient:
+    title: environmental stress gradient
+    description: Composite contamination and geochemical stress context, including pH and metal-related
+      stressors associated with groundwater community assembly.
+    range: float
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - stress_gradient
+    - environmental_stress
+    - pH
+    - metal_concentration
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE; DERIVED
+      measured_entity: groundwater geochemical stress
+      material_or_matrix: groundwater
+      value_type: NUMERIC
+  groundwater_microbial_community_composition:
+    title: groundwater microbial community composition
+    description: Metagenome-derived taxonomic and functional profile of groundwater microbial communities.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: groundwater microbial community
+      material_or_matrix: groundwater
+      method: metagenomic sequencing
+      value_type: ARRAY
+  groundwater_well_identifier:
+    title: groundwater well identifier
+    description: Identifier for the Oak Ridge groundwater well sampled in the survey.
+    range: string
+    exact_mappings:
+    - MIXS:0001107
+    - MIXS:0000013
+    slot_uri: MIXS:0001107
+    aliases:
+    - well_id
+    - sample_name
+    - groundwater_well
+    annotations:
+      role: IDENTIFIER; SPATIAL_INDEX
+      measured_entity: groundwater monitoring well
+      material_or_matrix: groundwater
+      value_type: IDENTIFIER

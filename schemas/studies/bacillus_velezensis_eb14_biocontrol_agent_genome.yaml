@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/bacillus_velezensis_eb14_biocontrol_agent_genome
+name: bacillus_velezensis_eb14_biocontrol_agent_genome
+title: Bacillus velezensis EB14 Biocontrol Agent Genome
+description: Genome sequencing of Bacillus velezensis EB14, a native endophytic bacterial strain isolated
+  from Populus × jackii with biocontrol potential against Sphaerulina musiva, the causative pathogen of
+  poplar stem canker. Contains gene clusters for antimicrobial compound biosynthesis including iturin
+  A, subtulene A, and fengycin.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study bacillus_velezensis_eb14_biocontrol_agent_genome.
+    slots:
+    - antifungal_biocontrol_activity
+    - antimicrobial_biosynthetic_gene_cluster
+    - bacterial_strain_identifier
+    - host_isolation_source
+slots:
+  antifungal_biocontrol_activity:
+    title: antifungal biocontrol activity
+    description: Biocontrol or antifungal activity against Sphaerulina musiva.
+    range: float
+    aliases:
+    - antifungal_activity
+    - inhibition_zone
+    - biocontrol_activity
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Bacillus velezensis EB14
+      method: antifungal activity assay
+      value_type: NUMERIC
+  antimicrobial_biosynthetic_gene_cluster:
+    title: antimicrobial biosynthetic gene cluster
+    description: Predicted biosynthetic gene cluster for antimicrobial compounds such as iturin A, subtulene
+      A, or fengycin.
+    multivalued: true
+    range: string
+    aliases:
+    - biosynthetic_gene_cluster
+    - BGC
+    - antimicrobial_cluster
+    annotations:
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: Bacillus velezensis genome
+      method: genome annotation and biosynthetic gene cluster prediction
+      value_type: ARRAY
+  bacterial_strain_identifier:
+    title: bacterial strain identifier
+    description: Identifier for the Bacillus velezensis EB14 biocontrol strain.
+    range: string
+    aliases:
+    - strain_id
+    - isolate_id
+    - organism
+    annotations:
+      role: IDENTIFIER
+      measured_entity: Bacillus velezensis strain
+      value_type: IDENTIFIER
+  host_isolation_source:
+    title: host isolation source
+    description: Populus host source from which EB14 was isolated.
+    range: HostIsolationSourceEnum
+    exact_mappings:
+    - MIXS:0000248
+    - MIXS:0000008
+    slot_uri: MIXS:0000248
+    aliases:
+    - host
+    - isolation_source
+    - host_common_name
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacterial isolation context
+      material_or_matrix: Populus endosphere
+      value_type: CATEGORICAL
+enums:
+  HostIsolationSourceEnum:
+    permissible_values:
+      Populus x jackii: null

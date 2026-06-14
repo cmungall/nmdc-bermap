@@ -1,0 +1,345 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sty-11-ev70y104
+name: ecofab_2_0_root_microbiome_ring_trial
+title: EcoFAB 2.0 Root Microbiome Ring Trial
+description: Multi-laboratory ring trial using EcoFAB 2.0 devices with synthetic bacterial communities
+  and Brachypodium distachyon to test reproducibility and standardization.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sty-11-ev70y104.
+    slots:
+    - ancestry_data
+    - biotic_regimen
+    - broad_scale_environmental_context
+    - collection_date
+    - culture_root_medium
+    - ecofab_device
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_subtype
+    - ecosystem_type
+    - elevation
+    - environmental_medium
+    - environmental_package
+    - experimental_factor
+    - geographic_location_name
+    - host_age
+    - host_common_name
+    - host_life_stage
+    - host_taxon_identifier
+    - latitude_and_longitude
+    - local_environmental_context
+    - participating_laboratory
+    - perturbation
+    - plant_structure
+    - reproducibility_metric
+    - specific_ecosystem
+    - synthetic_community_member_abundance
+slots:
+  ancestry_data:
+    title: ancestry data
+    description: Host or biological ancestry descriptor recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - ances_data
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: TEXT
+  biotic_regimen:
+    title: biotic regimen
+    description: Biotic regimen recorded in NMDC biosample metadata.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - biotic_regm
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    exact_mappings:
+    - MIXS:0000012
+    slot_uri: MIXS:0000012
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  collection_date:
+    title: collection date
+    description: Date when the NMDC biosample was collected.
+    range: datetime
+    exact_mappings:
+    - MIXS:0000011
+    slot_uri: MIXS:0000011
+    aliases:
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      value_type: DATETIME
+  culture_root_medium:
+    title: culture root medium
+    description: Culture root medium recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - cult_root_med
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE; COVARIATE
+      value_type: CATEGORICAL
+  ecofab_device:
+    title: EcoFAB device
+    description: Standardized EcoFAB 2.0 device or device batch used for plant-microbiome growth.
+    range: string
+    exact_mappings:
+    - MIXS:0001057
+    slot_uri: MIXS:0001057
+    aliases:
+    - device_id
+    - ecofab_id
+    - device_batch
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE; IDENTIFIER
+      measured_entity: fabricated ecosystem device
+      value_type: IDENTIFIER
+  ecosystem:
+    description: GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_category:
+    title: ecosystem category
+    description: GOLD ecosystem category recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_category
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_subtype
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_type:
+    title: ecosystem type
+    description: GOLD ecosystem type recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_type
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_package:
+    title: environmental package
+    description: MIxS environmental package used for the NMDC biosample metadata.
+    range: EnvPackageEnum
+    aliases:
+    - env_package
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  experimental_factor:
+    title: experimental factor
+    description: Experimental factor recorded in NMDC biosample metadata.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - experimental_factor
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  host_age:
+    title: host age
+    description: Host age recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: day
+      ucum_code: d
+    aliases:
+    - host_age
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  host_common_name:
+    title: host common name
+    description: Host common name recorded for the NMDC biosample.
+    range: HostCommonNameEnum
+    exact_mappings:
+    - MIXS:0000248
+    slot_uri: MIXS:0000248
+    aliases:
+    - host_common_name
+    annotations:
+      role: GROUPING; COVARIATE
+      value_type: CATEGORICAL
+  host_life_stage:
+    title: host life stage
+    description: Host life stage recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - host_life_stage
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  host_taxon_identifier:
+    title: host taxon identifier
+    description: NCBI taxon identifier for the host recorded for the NMDC biosample.
+    range: string
+    exact_mappings:
+    - MIXS:0000250
+    slot_uri: MIXS:0000250
+    aliases:
+    - host_taxid
+    annotations:
+      role: IDENTIFIER; COVARIATE
+      value_type: IDENTIFIER
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    exact_mappings:
+    - MIXS:0000013
+    slot_uri: MIXS:0000013
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  participating_laboratory:
+    title: participating laboratory
+    description: Laboratory or site participating in the EcoFAB 2.0 ring trial.
+    range: string
+    aliases:
+    - lab
+    - site
+    - participating_laboratory
+    annotations:
+      role: BLOCKING_VARIABLE; GROUPING
+      measured_entity: ring trial site
+      value_type: CATEGORICAL
+  perturbation:
+    description: Perturbation applied to the sample or system and recorded in NMDC biosample metadata.
+    range: string
+    exact_mappings:
+    - MIXS:0000754
+    - MIXS:0000008
+    slot_uri: MIXS:0000754
+    aliases:
+    - perturbation
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  plant_structure:
+    title: plant structure
+    description: Plant structure sampled or observed for the NMDC biosample.
+    range: string
+    aliases:
+    - plant_struc
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  reproducibility_metric:
+    title: reproducibility metric
+    description: Derived measure of cross-laboratory reproducibility for microbial, plant, or device measurements
+      in the ring trial.
+    range: float
+    aliases:
+    - reproducibility_score
+    - interlab_variance
+    - coefficient_of_variation
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: EcoFAB ring trial outcome
+      value_type: NUMERIC
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - specific_ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  synthetic_community_member_abundance:
+    title: synthetic community member abundance
+    description: Abundance profile of SynCom17 bacterial members in Brachypodium root-associated samples.
+    multivalued: true
+    range: string
+    aliases:
+    - syncom_member_abundance
+    - strain_abundance
+    - community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: synthetic bacterial community
+      material_or_matrix: Brachypodium root microbiome
+      method: amplicon sequencing or metagenomics
+      value_type: ARRAY

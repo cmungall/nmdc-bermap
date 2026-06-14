@@ -1,0 +1,116 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+name: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+title: Soil Microbiome Response to Depth, Irrigation and Plant Genotype
+description: Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome,
+  and carbon chemistry. Multi-omics study published in mBio 2023.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study soil_microbiome_response_to_depth_irrigation_and_plant_genotype.
+    slots:
+    - irrigation_treatment
+    - metabolite_and_protein_feature_abundances
+    - plant_genotype
+    - soil_depth
+    - soil_microbiome_composition
+slots:
+  irrigation_treatment:
+    title: irrigation treatment
+    description: Watering or irrigation condition applied to the soil and plant system.
+    range: string
+    exact_mappings:
+    - MIXS:0000591
+    - MIXS:0000008
+    slot_uri: MIXS:0000591
+    aliases:
+    - irrigation
+    - irrigation_treatment
+    - watering_regimen
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil-plant system
+      value_type: CATEGORICAL
+  metabolite_and_protein_feature_abundances:
+    title: metabolite and protein feature abundances
+    description: Metabolomic and proteomic feature abundances measured from the same soil system.
+    multivalued: true
+    range: string
+    aliases:
+    - metabolite_abundance
+    - protein_abundance
+    - metaphenome_features
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil metaphenome
+      material_or_matrix: soil
+      method: metabolomics and proteomics
+      value_type: ARRAY
+  plant_genotype:
+    title: plant genotype
+    description: Host plant genotype associated with each soil multi-omics sample.
+    range: string
+    exact_mappings:
+    - MIXS:0000365
+    - MIXS:0000008
+    slot_uri: MIXS:0000365
+    aliases:
+    - plant_genotype
+    - host_genotype
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: host plant
+      value_type: CATEGORICAL
+  soil_depth:
+    title: soil depth
+    description: Sampling depth below the soil surface.
+    range: float
+    unit:
+      descriptive_name: centimeter
+      ucum_code: cm
+    exact_mappings:
+    - MIXS:0000018
+    - MIXS:0000008
+    slot_uri: MIXS:0000018
+    aliases:
+    - depth
+    - soil_depth
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
+      measured_entity: soil profile
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_microbiome_composition:
+    title: soil microbiome composition
+    description: Metagenome-derived microbial community composition across depth, irrigation, and genotype
+      treatments.
+    multivalued: true
+    range: string
+    exact_mappings:
+    - MIXS:0000014
+    slot_uri: MIXS:0000014
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil
+      method: metagenomics
+      value_type: ARRAY

@@ -1,0 +1,92 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+name: hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+title: Hi-C Metagenome Sequencing of Soil Moisture Impacts on Phage-Host Interactions
+description: High-throughput chromosomal conformation capture (Hi-C) metagenome sequencing revealing soil
+  moisture impacts on phage-host interactions. Published in Nature Comm 2023.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions.
+    slots:
+    - hi_c_contact_signal
+    - phage_host_interaction
+    - soil_moisture_condition
+    - viral_contig_or_mag
+slots:
+  hi_c_contact_signal:
+    title: Hi-C contact signal
+    description: Chromosomal conformation capture contact evidence used to link viral and host sequences.
+    multivalued: true
+    range: string
+    aliases:
+    - hic_contact
+    - contact_matrix
+    - read_pair_link
+    annotations:
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: viral-host DNA contact
+      material_or_matrix: soil metagenome
+      method: Hi-C metagenome sequencing
+      value_type: ARRAY
+  phage_host_interaction:
+    title: phage-host interaction
+    description: Inferred interaction or linkage between phage sequence and microbial host genome.
+    multivalued: true
+    range: string
+    aliases:
+    - phage_host_link
+    - virus_host_pair
+    - host_prediction
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: soil phage-host pair
+      method: Hi-C link inference from metagenomic data
+      value_type: ARRAY
+  soil_moisture_condition:
+    title: soil moisture condition
+    description: Soil water availability condition used to assess moisture impacts on phage-host interactions.
+    range: float
+    exact_mappings:
+    - MIXS:0000185
+    - MIXS:0000591
+    - MIXS:0000008
+    - BERVO:0000301
+    slot_uri: MIXS:0000185
+    aliases:
+    - soil_moisture
+    - water_content
+    - moisture_condition
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC
+  viral_contig_or_mag:
+    title: viral contig or MAG
+    description: Viral contig, viral genome, or microbial genome bin used in phage-host interaction analysis.
+    range: string
+    aliases:
+    - viral_contig_id
+    - mag_id
+    - genome_id
+    annotations:
+      role: IDENTIFIER; DERIVED
+      measured_entity: viral or microbial genome sequence
+      method: metagenome assembly and binning
+      value_type: IDENTIFIER

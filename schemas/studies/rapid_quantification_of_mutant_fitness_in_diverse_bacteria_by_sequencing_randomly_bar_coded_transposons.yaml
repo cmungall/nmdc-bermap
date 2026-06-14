@@ -1,0 +1,71 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
+name: rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
+title: Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons
+description: Methods paper introducing RB-TnSeq — random DNA barcodes carried by Tn5 and mariner transposons,
+  read out by BarSeq amplicon sequencing. Demonstrated across five bacteria with 387 genome-wide fitness
+  assays and 5,196 phenotyped genes; foundation for subsequent LBNL RB-TnSeq work and the Fitness Browser.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons.
+    slots:
+    - carbon_source
+    - per_gene_fitness_value
+    - test_bacterial_species
+slots:
+  carbon_source:
+    title: carbon source
+    description: Defined carbon source in minimal medium.
+    range: CarbonSourceEnum
+    exact_mappings:
+    - MIXS:0000008
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: carbon source compound
+      value_type: CATEGORICAL
+  per_gene_fitness_value:
+    title: per-gene fitness value
+    description: log2(end/Time0) per gene with t-like statistic.
+    range: float
+    unit:
+      descriptive_name: log2 fold change
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      method: BarSeq amplicon read counting, normalized
+      value_type: NUMERIC
+  test_bacterial_species:
+    title: test bacterial species
+    description: Parent strain used for RB-TnSeq library construction.
+    range: TestBacterialSpeciesEnum
+    exact_mappings:
+    - MIXS:0000008
+    annotations:
+      role: EXPERIMENTAL_FACTOR; GROUPING
+      value_type: CATEGORICAL
+enums:
+  CarbonSourceEnum:
+    permissible_values:
+      (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose): null
+  TestBacterialSpeciesEnum:
+    permissible_values:
+      Escherichia coli K-12 (BW25113): null
+      Phaeobacter inhibens DSM 17395: null
+      Pseudomonas stutzeri RCH2: null
+      Shewanella amazonensis SB2B: null
+      Shewanella oneidensis MR-1: null

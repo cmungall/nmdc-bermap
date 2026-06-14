@@ -1,0 +1,80 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/brachypodium_core_root_microbiome_metabarcoding
+name: brachypodium_core_root_microbiome_metabarcoding
+title: Brachypodium Core Root Microbiome Metabarcoding
+description: 16S rRNA amplicon sequencing defining core root microbiome of Brachypodium distachyon grown
+  in four distinct soils. Identified overlooked taxa via metabarcoding vs culture.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study brachypodium_core_root_microbiome_metabarcoding.
+    slots:
+    - cultured_isolate_recovery
+    - root_associated_bacterial_community_composition
+    - soil_origin
+slots:
+  cultured_isolate_recovery:
+    title: cultured isolate recovery
+    description: Culture-dependent recovery status or isolate set used to compare cultured and metabarcoded
+      taxa.
+    range: string
+    aliases:
+    - isolate_recovered
+    - culture_status
+    - isolate_id
+    annotations:
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: root-associated bacterial taxon
+      method: bacterial isolation and culture comparison
+      value_type: CATEGORICAL
+  root_associated_bacterial_community_composition:
+    title: root-associated bacterial community composition
+    description: 16S metabarcoding profile used to define the Brachypodium core root microbiome.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - otu_table
+    - core_root_microbiome_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Brachypodium root-associated bacterial community
+      material_or_matrix: root-associated microbiome samples
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
+  soil_origin:
+    title: soil origin
+    description: Source soil used to grow Brachypodium distachyon for core root microbiome analysis.
+    range: SoilOriginEnum
+    exact_mappings:
+    - MIXS:0000013
+    - MIXS:0000014
+    - MIXS:0000008
+    slot_uri: MIXS:0000013
+    aliases:
+    - soil_origin
+    - soil_type
+    - growth_soil
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: plant growth soil
+      value_type: CATEGORICAL
+enums:
+  SoilOriginEnum:
+    permissible_values:
+      four distinct soils: null

@@ -1,0 +1,71 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/geochemical_constraints_on_phage_infectivity
+name: geochemical_constraints_on_phage_infectivity
+title: Geochemical Constraints on Phage Infectivity
+description: Investigation of how geochemical conditions constrain bacteriophage infectivity. Part of
+  phage-host interaction research informing phage therapy development.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study geochemical_constraints_on_phage_infectivity.
+    slots:
+    - geochemical_condition
+    - phage_host_pair
+    - phage_infectivity
+slots:
+  geochemical_condition:
+    title: geochemical condition
+    description: Chemical or physical condition tested as a constraint on bacteriophage infectivity.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - geochemical_condition
+    - treatment
+    - assay_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: phage-host assay environment
+      value_type: CATEGORICAL
+  phage_host_pair:
+    title: phage-host pair
+    description: Host bacterium and bacteriophage combination used in the infectivity assay.
+    range: string
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - host
+    - phage
+    - phage_host_pair
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: phage-host interaction
+      value_type: CATEGORICAL
+  phage_infectivity:
+    title: phage infectivity
+    description: Infectivity response measured under each geochemical condition.
+    range: float
+    aliases:
+    - infectivity
+    - plaque_count
+    - infection_efficiency
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: bacteriophage infectivity
+      method: phage-host infectivity assay
+      value_type: NUMERIC

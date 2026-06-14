@@ -1,0 +1,107 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/4d_whole_cell_model_of_prochlorococcus_marinus_med4
+name: _4d_whole_cell_model_of_prochlorococcus_marinus_med4
+title: 4D Whole-Cell Model of Prochlorococcus marinus MED4
+description: Spatiotemporal 4D (3D + time) whole-cell model of Prochlorococcus marinus MED4 representing
+  the spatial organization of enzymatic and molecular processes in central carbon metabolism under light
+  perturbation. Uses cryo-ET at 10 nm resolution as structural constraints. Demonstrates that redox-dependent
+  post-translational modifications regulate the structural assembly of the "dark complex" (a protein megacomplex
+  of Gap, CP12, and Prk), modulating metabolic flux at a conserved regulatory node of the Calvin-Benson
+  cycle. Built using the Lattice Microbes platform. First spatiotemporal simulation of a photosynthetic
+  autotroph.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study 4d_whole_cell_model_of_prochlorococcus_marinus_med4.
+    slots:
+    - central_carbon_metabolic_flux
+    - dark_complex_assembly_state
+    - intracellular_spatial_compartment
+    - light_perturbation
+    - simulation_time_point
+slots:
+  central_carbon_metabolic_flux:
+    title: central carbon metabolic flux
+    description: Modeled local flux through central carbon metabolism and Calvin-Benson cycle reactions.
+    range: float
+    aliases:
+    - flux
+    - metabolic_flux
+    - CBC_flux
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: Prochlorococcus central carbon metabolism
+      method: spatiotemporal whole-cell modeling
+      value_type: NUMERIC
+  dark_complex_assembly_state:
+    title: dark complex assembly state
+    description: Modeled assembly state of the Gap-CP12-Prk dark complex regulated by redox-dependent
+      post-translational modifications.
+    range: string
+    aliases:
+    - dark_complex_state
+    - complex_assembly
+    - PTM_state
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: Calvin-Benson cycle regulatory complex
+      method: Lattice Microbes whole-cell simulation
+      value_type: CATEGORICAL
+  intracellular_spatial_compartment:
+    title: intracellular spatial compartment
+    description: Spatial region or structure represented in the 4D whole-cell simulation.
+    range: string
+    aliases:
+    - compartment
+    - spatial_region
+    - structure_id
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: Prochlorococcus intracellular structure
+      spatial_resolution: 10 nm cryo-ET structural constraint scale
+      value_type: CATEGORICAL
+  light_perturbation:
+    title: light perturbation
+    description: Light condition or perturbation represented in the Prochlorococcus whole-cell model.
+    range: string
+    exact_mappings:
+    - MIXS:0000754
+    - MIXS:0000008
+    slot_uri: MIXS:0000754
+    aliases:
+    - light_condition
+    - light_perturbation
+    - simulation_condition
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; EXPERIMENTAL_FACTOR
+      measured_entity: Prochlorococcus model state
+      value_type: CATEGORICAL
+  simulation_time_point:
+    title: simulation time point
+    description: Time coordinate in the 4D whole-cell model.
+    range: float
+    exact_mappings:
+    - MIXS:0000008
+    aliases:
+    - simulation_time
+    - time_point
+    - model_time
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: whole-cell simulation state
+      value_type: NUMERIC

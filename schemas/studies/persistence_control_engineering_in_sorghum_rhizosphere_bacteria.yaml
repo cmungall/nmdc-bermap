@@ -10,6 +10,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -127,6 +128,7 @@ enums:
   RhizosphereEnvironmentalContextEnum:
     permissible_values:
       sorghum rhizosphere: null
-      bulk soil: null
+      bulk soil:
+        meaning: ENVO:00005802
       plant detritus: null
       microbial necromass: null

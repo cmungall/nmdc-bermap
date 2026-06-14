@@ -11,6 +11,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -85,7 +86,9 @@ enums:
       other defined inhibitor: null
   TestBacterialSpeciesEnum:
     permissible_values:
-      Escherichia coli BW25113: null
+      Escherichia coli BW25113:
+        meaning: NCBITaxon:679895
       Pseudomonas fluorescens FW300-N2E2: null
-      Shewanella oneidensis MR-1: null
+      Shewanella oneidensis MR-1:
+        meaning: NCBITaxon:211586
       (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes): null

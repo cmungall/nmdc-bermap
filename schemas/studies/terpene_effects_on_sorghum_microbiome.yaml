@@ -10,6 +10,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -98,6 +99,9 @@ enums:
   TerpeneTreatmentEnum:
     permissible_values:
       control: null
-      1,8-cineole: null
-      linalool: null
-      nerolidol: null
+      1,8-cineole:
+        meaning: CHEBI:27961
+      linalool:
+        meaning: CHEBI:17580
+      nerolidol:
+        meaning: CHEBI:7524

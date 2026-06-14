@@ -13,6 +13,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -490,7 +491,8 @@ enums:
       root endosphere: null
       rhizosphere:
         meaning: ENVO:00005801
-      soil: null
+      soil:
+        meaning: ENVO:00001998
   PopulusGenotypeEnum:
     permissible_values:
       27 P. trichocarpa genotypes: null

@@ -10,6 +10,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -98,10 +99,14 @@ slots:
 enums:
   PlantHabitatClassEnum:
     permissible_values:
-      leaf: null
-      stem: null
-      root: null
-      soil: null
+      leaf:
+        meaning: PO:0025034
+      stem:
+        meaning: PO:0009047
+      root:
+        meaning: PO:0009005
+      soil:
+        meaning: ENVO:00001998
   TissueLevelNicheEnum:
     permissible_values:
       approximately 30 tissue-level niches: null

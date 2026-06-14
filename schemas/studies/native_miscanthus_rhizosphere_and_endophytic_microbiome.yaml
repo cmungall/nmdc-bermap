@@ -11,6 +11,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -98,7 +99,8 @@ slots:
 enums:
   MiscanthusSpeciesEnum:
     permissible_values:
-      Miscanthus sinensis: null
+      Miscanthus sinensis:
+        meaning: NCBITaxon:62337
       Miscanthus floridulus: null
   RootAssociatedCompartmentEnum:
     permissible_values:

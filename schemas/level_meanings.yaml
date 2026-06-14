@@ -1,0 +1,41 @@
+# Curated, verified groundings of categorical level values to ontology terms.
+# Key = level text (lowercased); value = ontology CURIE.
+# Each entry was verified via OLS (exact label match in the named ontology); the
+# generator merges these over groundings harvested from the database's own
+# ontology_mappings. Extend this file to deepen harmonization — do NOT invent CURIEs;
+# verify each against OLS first. See README.md.
+
+# --- organisms (NCBITaxon) ---
+switchgrass: NCBITaxon:38727            # Panicum virgatum
+miscanthus: NCBITaxon:62324             # Miscanthus x giganteus
+miscanthus sinensis: NCBITaxon:62337
+sorghum bicolor: NCBITaxon:4558
+brachypodium distachyon: NCBITaxon:15368
+avena barbata: NCBITaxon:146530
+populus trichocarpa: NCBITaxon:3694
+populus deltoides: NCBITaxon:3696
+laccaria bicolor: NCBITaxon:29883
+colletotrichum sublineola: NCBITaxon:1173701
+shewanella oneidensis mr-1: NCBITaxon:211586
+escherichia coli bw25113: NCBITaxon:679895
+escherichia coli k-12 (bw25113): NCBITaxon:679895
+
+# --- environmental materials / habitats (ENVO) ---
+soil: ENVO:00001998
+bulk soil: ENVO:00005802
+rhizosphere: ENVO:00005801
+sediment: ENVO:00002007
+groundwater: ENVO:01001004
+
+# --- plant anatomical structures (PO) ---
+root: PO:0009005
+leaf: PO:0025034
+stem: PO:0009047
+shoot: PO:0009006
+
+# --- chemicals (CHEBI) ---
+ethanol: CHEBI:16236
+lignin: CHEBI:6457
+linalool: CHEBI:17580
+nerolidol: CHEBI:7524
+1,8-cineole: CHEBI:27961

@@ -52,5 +52,6 @@ just validate-profiles   # load every profile via SchemaView; verify imports + r
 ## Current coverage
 
 81 study profiles (540 slots, 54 static enums, 145 permissible values) + 40 site profiles.
-60 slots bind to the shared dynamic enums; 10 permissible values carry an ontology `meaning:`
-so far (grows as `MEANINGS`/`DYNAMIC_BINDINGS` in `generate_profiles.py` are extended).
+60 slots bind to the shared dynamic enums; **51 of 145 permissible values carry an ontology
+`meaning:`** (27 distinct terms across NCBITaxon/ENVO/PO/CHEBI), all OLS-verified. Grounding
+grows by extending the curated, verified `level_meanings.yaml`.

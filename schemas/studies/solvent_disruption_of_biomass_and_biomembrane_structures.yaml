@@ -10,6 +10,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -118,7 +119,8 @@ slots:
 enums:
   AmphiphilicSolventIdentityEnum:
     permissible_values:
-      ethanol: null
+      ethanol:
+        meaning: CHEBI:16236
       butanol: null
       tetrahydrofuran: null
       dimethyl isosorbide: null
@@ -126,6 +128,7 @@ enums:
   BiomassOrBiomembraneSubstrateEnum:
     permissible_values:
       cellulose: null
-      lignin: null
+      lignin:
+        meaning: CHEBI:6457
       switchgrass biomass: null
       microbial lipid bilayer: null

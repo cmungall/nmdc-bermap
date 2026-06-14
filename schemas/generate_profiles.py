@@ -35,6 +35,7 @@ PREFIXES = {
     "ENVO": "http://purl.obolibrary.org/obo/ENVO_",
     "PO": "http://purl.obolibrary.org/obo/PO_",
     "NCBITaxon": "http://purl.obolibrary.org/obo/NCBITaxon_",
+    "CHEBI": "http://purl.obolibrary.org/obo/CHEBI_",
     "BERVO": "http://purl.obolibrary.org/obo/BERVO_",
     "OBI": "http://purl.obolibrary.org/obo/OBI_",
     "UO": "http://purl.obolibrary.org/obo/UO_",
@@ -98,11 +99,7 @@ DYNAMIC_BINDINGS = {
     "env_medium": "EnvMediumEnum",
 }
 
-# Verified, high-confidence level groundings layered on top of harvested ones (see harvest()).
-SEED_MEANINGS = {
-    "switchgrass": "NCBITaxon:38727",
-    "miscanthus": "NCBITaxon:62324",
-}
+LEVEL_MEANINGS_PATH = SCHEMAS / "level_meanings.yaml"
 
 
 def slugify(name: str) -> str:
@@ -123,10 +120,10 @@ def camel(slug: str) -> str:
 def harvest_meanings(db: dict) -> dict:
     """Build {level_text_lower: CURIE} from the DB's OWN vetted ontology mappings.
 
-    Reuses ids the project already curated (ontology_mappings / bervo_term / mixs labels),
-    so no CURIEs are invented here.
+    Reuses ids the project already curated (ontology_mappings / bervo_term), then overlays the
+    curated, OLS-verified groundings in level_meanings.yaml. No CURIEs are invented here.
     """
-    out = dict(SEED_MEANINGS)
+    out = {}
     for prog_key in PROG_KEYS:
         for prog in db.get(prog_key) or []:
             for study in prog.get("studies") or []:
@@ -137,6 +134,8 @@ def harvest_meanings(db: dict) -> dict:
                     bv = v.get("bervo_term")
                     if bv and bv.get("label") and bv.get("id"):
                         out.setdefault(bv["label"].strip().lower(), bv["id"])
+    curated = yaml.safe_load(LEVEL_MEANINGS_PATH.read_text()) or {}
+    out.update({str(k).strip().lower(): v for k, v in curated.items()})
     return out
 
 

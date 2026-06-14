@@ -11,6 +11,7 @@ prefixes:
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   BERVO: http://purl.obolibrary.org/obo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
@@ -64,8 +65,10 @@ enums:
       (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose): null
   TestBacterialSpeciesEnum:
     permissible_values:
-      Escherichia coli K-12 (BW25113): null
+      Escherichia coli K-12 (BW25113):
+        meaning: NCBITaxon:679895
       Phaeobacter inhibens DSM 17395: null
       Pseudomonas stutzeri RCH2: null
       Shewanella amazonensis SB2B: null
-      Shewanella oneidensis MR-1: null
+      Shewanella oneidensis MR-1:
+        meaning: NCBITaxon:211586

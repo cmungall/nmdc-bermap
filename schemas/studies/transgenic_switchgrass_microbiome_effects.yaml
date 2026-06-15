@@ -25,10 +25,35 @@ classes:
   Record:
     description: Per-record data dictionary for study transgenic_switchgrass_microbiome_effects.
     slots:
-    - bacterial_and_fungal_community_composition
-    - plant_compartment
     - qsub_transgenic_status
+    - plant_compartment
+    - bacterial_and_fungal_community_composition
 slots:
+  qsub_transgenic_status:
+    title: QsuB transgenic status
+    description: Host plant engineering status for the shikimate pathway modification that reduces lignin
+      content.
+    range: QsubTransgenicStatusEnum
+    aliases:
+    - transgenic_status
+    - genotype
+    - qsub_status
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Panicum virgatum
+      value_type: CATEGORICAL
+  plant_compartment:
+    title: plant compartment
+    description: Switchgrass plant or soil compartment sampled for microbiome profiling.
+    range: PlantCompartmentEnum
+    aliases:
+    - compartment
+    - tissue
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: switchgrass-associated microbial habitat
+      value_type: CATEGORICAL
   bacterial_and_fungal_community_composition:
     title: bacterial and fungal community composition
     description: 16S and ITS amplicon profiles used to evaluate transgenic effects on switchgrass microbiomes.
@@ -45,41 +70,11 @@ slots:
       material_or_matrix: roots, leaves, and soil
       method: 16S rRNA and ITS amplicon sequencing
       value_type: ARRAY
-  plant_compartment:
-    title: plant compartment
-    description: Switchgrass plant or soil compartment sampled for microbiome profiling.
-    range: PlantCompartmentEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - compartment
-    - tissue
-    - sample_type
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: switchgrass-associated microbial habitat
-      value_type: CATEGORICAL
-  qsub_transgenic_status:
-    title: QsuB transgenic status
-    description: Host plant engineering status for the shikimate pathway modification that reduces lignin
-      content.
-    range: QsubTransgenicStatusEnum
-    exact_mappings:
-    - MIXS:0000365
-    - MIXS:0000008
-    slot_uri: MIXS:0000365
-    aliases:
-    - transgenic_status
-    - genotype
-    - qsub_status
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: Panicum virgatum
-      value_type: CATEGORICAL
 enums:
+  QsubTransgenicStatusEnum:
+    permissible_values:
+      wild type: null
+      QsuB transgenic: null
   PlantCompartmentEnum:
     permissible_values:
       root:
@@ -88,7 +83,3 @@ enums:
         meaning: PO:0025034
       soil:
         meaning: ENVO:00001998
-  QsubTransgenicStatusEnum:
-    permissible_values:
-      wild type: null
-      QsuB transgenic: null

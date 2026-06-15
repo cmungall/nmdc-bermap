@@ -25,10 +25,37 @@ classes:
   Record:
     description: Per-record data dictionary for study california_grassland_qsip_metagenomes.
     slots:
-    - qsip_derived_microbial_activity
     - soil_moisture
     - stable_isotope_amendment
+    - qsip_derived_microbial_activity
 slots:
+  soil_moisture:
+    title: soil moisture
+    description: Soil water availability condition associated with qSIP metagenome samples.
+    range: float
+    unit:
+      descriptive_name: gram per gram or cubic centimeter per cubic centimeter
+    aliases:
+    - soil_moisture
+    - water_content
+    - volumetric_water_content
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC
+  stable_isotope_amendment:
+    title: stable isotope amendment
+    description: Isotopically labeled substrate or amendment used for quantitative stable isotope probing.
+    range: string
+    aliases:
+    - isotope_label
+    - isotope_amendment
+    - substrate_label
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      method: quantitative stable isotope probing
+      value_type: CATEGORICAL
   qsip_derived_microbial_activity:
     title: qSIP-derived microbial activity
     description: Genome-resolved microbial activity inferred from isotope incorporation in metagenomic
@@ -45,38 +72,3 @@ slots:
       material_or_matrix: soil
       method: quantitative stable isotope probing with metagenomics
       value_type: ARRAY
-  soil_moisture:
-    title: soil moisture
-    description: Soil water availability condition associated with qSIP metagenome samples.
-    range: float
-    unit:
-      descriptive_name: gram per gram or cubic centimeter per cubic centimeter
-    exact_mappings:
-    - MIXS:0000185
-    - MIXS:0000008
-    slot_uri: MIXS:0000185
-    aliases:
-    - soil_moisture
-    - water_content
-    - volumetric_water_content
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
-      measured_entity: soil water content
-      material_or_matrix: soil
-      value_type: NUMERIC
-  stable_isotope_amendment:
-    title: stable isotope amendment
-    description: Isotopically labeled substrate or amendment used for quantitative stable isotope probing.
-    range: string
-    exact_mappings:
-    - MIXS:0000751
-    - MIXS:0000008
-    slot_uri: MIXS:0000751
-    aliases:
-    - isotope_label
-    - isotope_amendment
-    - substrate_label
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      method: quantitative stable isotope probing
-      value_type: CATEGORICAL

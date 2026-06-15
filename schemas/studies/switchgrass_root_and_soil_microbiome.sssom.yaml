@@ -1,0 +1,67 @@
+mappings:
+- subject_id: profiles:sampling_site
+  subject_label: sampling site
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sampling_site
+  subject_label: sampling site
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sample_compartment
+  subject_label: sample compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sample_compartment
+  subject_label: sample compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sample_compartment
+  subject_label: sample compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000829
+  object_label: season
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrogen_addition
+  subject_label: nitrogen addition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000556
+  object_label: fertilizer regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrogen_addition
+  subject_label: nitrogen addition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrogen_addition
+  subject_label: nitrogen addition
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000895
+  object_label: total fertilizer N amendment
+  mapping_justification: semapv:ManualMappingCuration

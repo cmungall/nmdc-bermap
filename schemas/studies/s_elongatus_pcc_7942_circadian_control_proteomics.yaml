@@ -26,16 +26,14 @@ classes:
     description: Per-record data dictionary for study s_elongatus_pcc_7942_circadian_control_proteomics.
     slots:
     - circadian_phase
+    - protein_identifier
     - circadian_protein_abundance
     - circadian_regulatory_pathway
-    - protein_identifier
 slots:
   circadian_phase:
     title: circadian phase
     description: Circadian phase or sampling time used to study control of cyanobacterial protein abundance.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - circadian_phase
     - time_point
@@ -43,7 +41,20 @@ slots:
     annotations:
       role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: cyanobacterial culture sampling event
+      time_series: 'true'
       value_type: CATEGORICAL
+  protein_identifier:
+    title: protein identifier
+    description: Protein or peptide feature identified in circadian-control proteomics.
+    range: string
+    aliases:
+    - protein_id
+    - peptide_id
+    - feature_id
+    annotations:
+      role: IDENTIFIER
+      measured_entity: Synechococcus elongatus protein
+      value_type: IDENTIFIER
   circadian_protein_abundance:
     title: circadian protein abundance
     description: Protein abundance measured across circadian phases or time points.
@@ -70,15 +81,3 @@ slots:
       measured_entity: cyanobacterial circadian regulation
       method: protein functional annotation
       value_type: CATEGORICAL
-  protein_identifier:
-    title: protein identifier
-    description: Protein or peptide feature identified in circadian-control proteomics.
-    range: string
-    aliases:
-    - protein_id
-    - peptide_id
-    - feature_id
-    annotations:
-      role: IDENTIFIER
-      measured_entity: Synechococcus elongatus protein
-      value_type: IDENTIFIER

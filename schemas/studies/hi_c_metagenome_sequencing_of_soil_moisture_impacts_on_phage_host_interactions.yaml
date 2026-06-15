@@ -25,11 +25,24 @@ classes:
   Record:
     description: Per-record data dictionary for study hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions.
     slots:
+    - soil_moisture_condition
     - hi_c_contact_signal
     - phage_host_interaction
-    - soil_moisture_condition
     - viral_contig_or_mag
 slots:
+  soil_moisture_condition:
+    title: soil moisture condition
+    description: Soil water availability condition used to assess moisture impacts on phage-host interactions.
+    range: float
+    aliases:
+    - soil_moisture
+    - water_content
+    - moisture_condition
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC
   hi_c_contact_signal:
     title: Hi-C contact signal
     description: Chromosomal conformation capture contact evidence used to link viral and host sequences.
@@ -59,25 +72,6 @@ slots:
       measured_entity: soil phage-host pair
       method: Hi-C link inference from metagenomic data
       value_type: ARRAY
-  soil_moisture_condition:
-    title: soil moisture condition
-    description: Soil water availability condition used to assess moisture impacts on phage-host interactions.
-    range: float
-    exact_mappings:
-    - MIXS:0000185
-    - MIXS:0000591
-    - MIXS:0000008
-    - BERVO:0000301
-    slot_uri: MIXS:0000185
-    aliases:
-    - soil_moisture
-    - water_content
-    - moisture_condition
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE
-      measured_entity: soil water content
-      material_or_matrix: soil
-      value_type: NUMERIC
   viral_contig_or_mag:
     title: viral contig or MAG
     description: Viral contig, viral genome, or microbial genome bin used in phage-host interaction analysis.

@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:submitted_project_identifier
+  subject_label: submitted project identifier
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001107
+  object_label: sample name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:metagenome_sequencing_product
+  subject_label: metagenome sequencing product
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

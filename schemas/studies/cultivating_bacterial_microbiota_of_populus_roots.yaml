@@ -25,27 +25,25 @@ classes:
   Record:
     description: Per-record data dictionary for study cultivating_bacterial_microbiota_of_populus_roots.
     slots:
-    - _16s_community_profile
+    - populus_root_source
     - bacterial_isolate_identifier
     - culture_recovery_status
-    - populus_root_source
+    - _16s_community_profile
 slots:
-  _16s_community_profile:
-    title: 16S community profile
-    description: 16S rRNA amplicon profile used to compare cultured isolates with Populus root bacterial
-      community composition.
-    multivalued: true
+  populus_root_source:
+    title: Populus root source
+    description: Populus root-associated source material used for bacterial cultivation and community
+      analysis.
     range: string
     aliases:
-    - asv_table
-    - otu_table
-    - community_profile
+    - root_source
+    - sample_type
+    - compartment
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: Populus root bacterial community
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus root sample
       material_or_matrix: root
-      method: 16S rRNA amplicon sequencing
-      value_type: ARRAY
+      value_type: CATEGORICAL
   bacterial_isolate_identifier:
     title: bacterial isolate identifier
     description: Identifier for culturable bacterial isolates recovered from Populus roots.
@@ -71,22 +69,19 @@ slots:
       measured_entity: root-associated bacterial taxon
       method: bacterial cultivation
       value_type: CATEGORICAL
-  populus_root_source:
-    title: Populus root source
-    description: Populus root-associated source material used for bacterial cultivation and community
-      analysis.
+  _16s_community_profile:
+    title: 16S community profile
+    description: 16S rRNA amplicon profile used to compare cultured isolates with Populus root bacterial
+      community composition.
+    multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
     aliases:
-    - root_source
-    - sample_type
-    - compartment
+    - asv_table
+    - otu_table
+    - community_profile
     annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus root sample
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus root bacterial community
       material_or_matrix: root
-      value_type: CATEGORICAL
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY

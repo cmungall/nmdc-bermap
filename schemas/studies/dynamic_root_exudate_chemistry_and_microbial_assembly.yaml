@@ -25,33 +25,15 @@ classes:
   Record:
     description: Per-record data dictionary for study dynamic_root_exudate_chemistry_and_microbial_assembly.
     slots:
-    - microbial_substrate_preference
     - plant_developmental_time_point
-    - rhizosphere_microbial_community_assembly
     - root_exudate_metabolite_abundance
+    - microbial_substrate_preference
+    - rhizosphere_microbial_community_assembly
 slots:
-  microbial_substrate_preference:
-    title: microbial substrate preference
-    description: Microbial preference or utilization pattern for root-exudate-derived substrates.
-    multivalued: true
-    range: string
-    aliases:
-    - substrate_preference
-    - substrate_utilization
-    - preferred_metabolite
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
-      measured_entity: rhizosphere microorganisms
-      method: substrate utilization profiling linked to exudate chemistry
-      value_type: ARRAY
   plant_developmental_time_point:
     title: plant developmental time point
     description: Sampling time or developmental stage used to track dynamic root exudate chemistry.
     range: string
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
     aliases:
     - time_point
     - developmental_stage
@@ -59,26 +41,8 @@ slots:
     annotations:
       role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: Avena plant development
+      time_series: 'true'
       value_type: CATEGORICAL
-  rhizosphere_microbial_community_assembly:
-    title: rhizosphere microbial community assembly
-    description: Rhizosphere microbial community composition and assembly pattern associated with dynamic
-      exudate chemistry.
-    multivalued: true
-    range: string
-    exact_mappings:
-    - ENVO:00005801
-    slot_uri: ENVO:00005801
-    aliases:
-    - asv_table
-    - community_profile
-    - assembly_pattern
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: Avena rhizosphere microbial community
-      material_or_matrix: rhizosphere
-      method: 16S rRNA amplicon sequencing
-      value_type: ARRAY
   root_exudate_metabolite_abundance:
     title: root exudate metabolite abundance
     description: Metabolite feature abundances measured in root exudates through plant development.
@@ -93,4 +57,34 @@ slots:
       measured_entity: root exudate metabolome
       material_or_matrix: root exudate
       method: exometabolomics
+      value_type: ARRAY
+  microbial_substrate_preference:
+    title: microbial substrate preference
+    description: Microbial preference or utilization pattern for root-exudate-derived substrates.
+    multivalued: true
+    range: string
+    aliases:
+    - substrate_preference
+    - substrate_utilization
+    - preferred_metabolite
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
+      measured_entity: rhizosphere microorganisms
+      method: substrate utilization profiling linked to exudate chemistry
+      value_type: ARRAY
+  rhizosphere_microbial_community_assembly:
+    title: rhizosphere microbial community assembly
+    description: Rhizosphere microbial community composition and assembly pattern associated with dynamic
+      exudate chemistry.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - community_profile
+    - assembly_pattern
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Avena rhizosphere microbial community
+      material_or_matrix: rhizosphere
+      method: 16S rRNA amplicon sequencing
       value_type: ARRAY

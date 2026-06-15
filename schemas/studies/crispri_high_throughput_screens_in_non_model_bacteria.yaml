@@ -26,45 +26,16 @@ classes:
   Record:
     description: Per-record data dictionary for study crispri_high_throughput_screens_in_non_model_bacteria.
     slots:
-    - crispri_screen_fitness_effect
-    - guide_rna_target
     - non_model_bacterial_strain
-    - transformation_efficiency
     - transformation_workflow_condition
+    - guide_rna_target
+    - transformation_efficiency
+    - crispri_screen_fitness_effect
 slots:
-  crispri_screen_fitness_effect:
-    title: CRISPRi screen fitness effect
-    description: Growth or fitness effect measured for CRISPRi perturbations in non-model bacteria.
-    range: float
-    aliases:
-    - fitness_effect
-    - guide_enrichment
-    - screen_score
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
-      measured_entity: bacterial CRISPRi perturbation
-      method: high-throughput CRISPRi screen
-      value_type: NUMERIC
-  guide_rna_target:
-    title: guide RNA target
-    description: CRISPRi guide RNA and target gene represented in high-throughput screens.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - guide_id
-    - guide_sequence
-    - target_gene
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
-      measured_entity: CRISPRi perturbation
-      value_type: IDENTIFIER
   non_model_bacterial_strain:
     title: non-model bacterial strain
     description: Bacterial strain or chassis used for transformation optimization and CRISPRi screening.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - strain_id
     - chassis
@@ -72,6 +43,30 @@ slots:
     annotations:
       role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
       measured_entity: bacterial chassis
+      value_type: IDENTIFIER
+  transformation_workflow_condition:
+    title: transformation workflow condition
+    description: Protocol condition varied to enhance transformation efficiency.
+    range: string
+    aliases:
+    - transformation_condition
+    - protocol_condition
+    - workflow_parameter
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacterial transformation workflow
+      value_type: CATEGORICAL
+  guide_rna_target:
+    title: guide RNA target
+    description: CRISPRi guide RNA and target gene represented in high-throughput screens.
+    range: string
+    aliases:
+    - guide_id
+    - guide_sequence
+    - target_gene
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: CRISPRi perturbation
       value_type: IDENTIFIER
   transformation_efficiency:
     title: transformation efficiency
@@ -85,17 +80,16 @@ slots:
       role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
       measured_entity: bacterial transformation
       value_type: NUMERIC
-  transformation_workflow_condition:
-    title: transformation workflow condition
-    description: Protocol condition varied to enhance transformation efficiency.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
+  crispri_screen_fitness_effect:
+    title: CRISPRi screen fitness effect
+    description: Growth or fitness effect measured for CRISPRi perturbations in non-model bacteria.
+    range: float
     aliases:
-    - transformation_condition
-    - protocol_condition
-    - workflow_parameter
+    - fitness_effect
+    - guide_enrichment
+    - screen_score
     annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: bacterial transformation workflow
-      value_type: CATEGORICAL
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE; DERIVED
+      measured_entity: bacterial CRISPRi perturbation
+      method: high-throughput CRISPRi screen
+      value_type: NUMERIC

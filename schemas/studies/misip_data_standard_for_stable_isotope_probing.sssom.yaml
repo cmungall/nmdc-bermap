@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:isotope_label_or_substrate
+  subject_label: isotope label or substrate
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000751
+  object_label: chemical administration
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:isotope_label_or_substrate
+  subject_label: isotope label or substrate
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

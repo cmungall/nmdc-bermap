@@ -139,26 +139,24 @@ def harvest_meanings(db: dict) -> dict:
     return out
 
 
-def mapping_ids(v: dict) -> list:
-    ids = []
+def slot_mappings(v: dict) -> list:
+    """Slot -> ontology mappings as (object_id, object_label, predicate), emitted to SSSOM
+    (not inline in the schema). Source bucket is recoverable from the object CURIE prefix on
+    the reverse trip: MIXS->mixs_terms, BERVO->bervo_term, UO->unit_term, else->ontology_mappings.
+    """
+    out = []
     for m in v.get("mixs_terms") or []:
         if m.get("id"):
-            ids.append(m["id"])
+            out.append((m["id"], m.get("label"), "skos:exactMatch"))
     bv = v.get("bervo_term")
     if bv and bv.get("id"):
-        ids.append(bv["id"])
+        out.append((bv["id"], bv.get("label"), "skos:exactMatch"))
     ut = v.get("unit_term")
     if ut and ut.get("id"):
-        ids.append(ut["id"])
+        out.append((ut["id"], ut.get("label"), "skos:closeMatch"))
     for m in v.get("ontology_mappings") or []:
         if m.get("id"):
-            ids.append(m["id"])
-    # de-dup, preserve order
-    seen, out = set(), []
-    for i in ids:
-        if i not in seen:
-            seen.add(i)
-            out.append(i)
+            out.append((m["id"], m.get("label"), "skos:relatedMatch"))
     return out
 
 
@@ -213,13 +211,6 @@ def build_variable(v: dict, enums: dict, meanings: dict):
     if v.get("units"):
         slot["unit"] = build_unit(v["units"])
 
-    ids = mapping_ids(v)
-    if ids:
-        slot["exact_mappings"] = ids
-        specific = [i for i in ids if i != "MIXS:0000008"]
-        if specific:
-            slot["slot_uri"] = specific[0]
-
     if source_fields:
         slot["aliases"] = list(source_fields)
 
@@ -227,12 +218,18 @@ def build_variable(v: dict, enums: dict, meanings: dict):
     if v.get("roles"):
         ann["role"] = "; ".join(v["roles"])
     for facet in ("measured_entity", "material_or_matrix", "method",
-                  "temporal_resolution", "spatial_resolution"):
+                  "temporal_resolution", "spatial_resolution", "notes"):
         if v.get(facet):
             ann[facet] = v[facet]
+    # non-CATEGORICAL variables can still carry example levels (NUMERIC bins, IDENTIFIER
+    # examples); CATEGORICAL levels live in the enum, these go in an annotation.
+    if v.get("levels") and vt != "CATEGORICAL":
+        ann["levels"] = " | ".join(v["levels"])
+    if v.get("time_series"):
+        ann["time_series"] = "true"
     ann["value_type"] = vt
     slot["annotations"] = ann
-    return ncname(slug), slot
+    return ncname(slug), slot, slot_mappings(v)
 
 
 def study_id(study: dict) -> str:
@@ -262,10 +259,19 @@ def generate():
                 if not variables:
                     continue
                 sid = study_id(study)
-                slots, enums = {}, {}
+                slots, enums, mappings = {}, {}, []
                 for v in variables:
-                    sname, sdict = build_variable(v, enums, meanings)
+                    sname, sdict, vmaps = build_variable(v, enums, meanings)
                     slots[sname] = sdict
+                    for oid, olabel, pred in vmaps:
+                        mappings.append({
+                            "subject_id": f"profiles:{sname}",
+                            "subject_label": v.get("name"),
+                            "predicate_id": pred,
+                            "object_id": oid,
+                            "object_label": olabel,
+                            "mapping_justification": "semapv:ManualMappingCuration",
+                        })
                 imports = ["../base"]
                 for fs in study.get("field_site_ids") or []:
                     imports.append("../sites/" + fs.split(":")[-1])
@@ -281,15 +287,17 @@ def generate():
                     "classes": {
                         "Record": {
                             "description": f"Per-record data dictionary for study {sid}.",
-                            "slots": sorted(slots.keys()),
+                            "slots": list(slots.keys()),
                         }
                     },
-                    "slots": dict(sorted(slots.items())),
+                    "slots": dict(slots),
                 }
                 if enums:
-                    profile["enums"] = dict(sorted(enums.items()))
+                    profile["enums"] = dict(enums)
                 profile = {k: v for k, v in profile.items() if v is not None}
                 dump(OUT_STUDIES / f"{sid}.yaml", profile)
+                if mappings:
+                    dump(OUT_STUDIES / f"{sid}.sssom.yaml", {"mappings": mappings})
                 n_study += 1
                 n_slot += len(slots)
                 n_enum += len(enums)

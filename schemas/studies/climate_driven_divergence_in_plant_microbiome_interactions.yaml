@@ -28,20 +28,15 @@ classes:
     description: Per-record data dictionary for study climate_driven_divergence_in_plant_microbiome_interactions.
     slots:
     - climate_or_geographic_origin
-    - microbially_mediated_thermotolerance
     - populus_angustifolia_genotype
     - soil_microbiome_composition
+    - microbially_mediated_thermotolerance
     - variovorax_validation_strain
 slots:
   climate_or_geographic_origin:
     title: climate or geographic origin
     description: Geographic or climate origin of Populus angustifolia genotype or microbiome source.
     range: string
-    exact_mappings:
-    - MIXS:0000012
-    - MIXS:0000013
-    - MIXS:0000008
-    slot_uri: MIXS:0000012
     aliases:
     - geographic_origin
     - climate_origin
@@ -50,28 +45,10 @@ slots:
       role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX; GROUPING
       measured_entity: Populus-microbiome source environment
       value_type: CATEGORICAL
-  microbially_mediated_thermotolerance:
-    title: microbially mediated thermotolerance
-    description: Thermotolerance phenotype transmitted to axenic plants by warming-adapted microbiomes
-      or Variovorax validation strains.
-    range: float
-    aliases:
-    - thermotolerance
-    - heat_tolerance
-    - plant_growth_under_warming
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: axenic Populus plant
-      method: plant thermotolerance assay
-      value_type: NUMERIC
   populus_angustifolia_genotype:
     title: Populus angustifolia genotype
     description: Host tree genotype used to evaluate conditioning of the soil microbiome.
     range: string
-    exact_mappings:
-    - MIXS:0000365
-    - MIXS:0000008
-    slot_uri: MIXS:0000365
     aliases:
     - genotype
     - host_genotype
@@ -86,9 +63,6 @@ slots:
       species range.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - bacterial_community_profile
     - fungal_community_profile
@@ -99,12 +73,24 @@ slots:
       material_or_matrix: soil
       method: 16S and ITS amplicon sequencing
       value_type: ARRAY
+  microbially_mediated_thermotolerance:
+    title: microbially mediated thermotolerance
+    description: Thermotolerance phenotype transmitted to axenic plants by warming-adapted microbiomes
+      or Variovorax validation strains.
+    range: float
+    aliases:
+    - thermotolerance
+    - heat_tolerance
+    - plant_growth_under_warming
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: axenic Populus plant
+      method: plant thermotolerance assay
+      value_type: NUMERIC
   variovorax_validation_strain:
     title: Variovorax validation strain
     description: Variovorax strain used for functional validation of microbially mediated thermotolerance.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - variovorax_strain
     - strain_id
@@ -112,4 +98,5 @@ slots:
     annotations:
       role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
       measured_entity: Variovorax strain
+      levels: PMI Variovorax collection strains
       value_type: IDENTIFIER

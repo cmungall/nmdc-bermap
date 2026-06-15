@@ -26,32 +26,29 @@ classes:
   Record:
     description: Per-record data dictionary for study oak_ridge_groundwater_100_well_survey_metagenomes.
     slots:
-    - community_assembly_process_estimate
+    - groundwater_well_identifier
     - environmental_stress_gradient
     - groundwater_microbial_community_composition
-    - groundwater_well_identifier
+    - community_assembly_process_estimate
 slots:
-  community_assembly_process_estimate:
-    title: community assembly process estimate
-    description: Inferred contribution of stochastic and selection processes to groundwater community
-      assembly under environmental stress.
-    range: float
+  groundwater_well_identifier:
+    title: groundwater well identifier
+    description: Identifier for the Oak Ridge groundwater well sampled in the survey.
+    range: string
     aliases:
-    - stochastic_assembly_fraction
-    - selection_process_estimate
-    - assembly_process
+    - well_id
+    - sample_name
+    - groundwater_well
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
-      measured_entity: groundwater microbial community assembly
-      method: community assembly modeling from metagenomic and environmental data
-      value_type: NUMERIC
+      role: IDENTIFIER; SPATIAL_INDEX
+      measured_entity: groundwater monitoring well
+      material_or_matrix: groundwater
+      value_type: IDENTIFIER
   environmental_stress_gradient:
     title: environmental stress gradient
     description: Composite contamination and geochemical stress context, including pH and metal-related
       stressors associated with groundwater community assembly.
     range: float
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - stress_gradient
     - environmental_stress
@@ -67,9 +64,6 @@ slots:
     description: Metagenome-derived taxonomic and functional profile of groundwater microbial communities.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - metagenome_profile
     - taxonomic_profile
@@ -80,20 +74,17 @@ slots:
       material_or_matrix: groundwater
       method: metagenomic sequencing
       value_type: ARRAY
-  groundwater_well_identifier:
-    title: groundwater well identifier
-    description: Identifier for the Oak Ridge groundwater well sampled in the survey.
-    range: string
-    exact_mappings:
-    - MIXS:0001107
-    - MIXS:0000013
-    slot_uri: MIXS:0001107
+  community_assembly_process_estimate:
+    title: community assembly process estimate
+    description: Inferred contribution of stochastic and selection processes to groundwater community
+      assembly under environmental stress.
+    range: float
     aliases:
-    - well_id
-    - sample_name
-    - groundwater_well
+    - stochastic_assembly_fraction
+    - selection_process_estimate
+    - assembly_process
     annotations:
-      role: IDENTIFIER; SPATIAL_INDEX
-      measured_entity: groundwater monitoring well
-      material_or_matrix: groundwater
-      value_type: IDENTIFIER
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: groundwater microbial community assembly
+      method: community assembly modeling from metagenomic and environmental data
+      value_type: NUMERIC

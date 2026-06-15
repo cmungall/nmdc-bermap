@@ -27,19 +27,14 @@ classes:
     description: Per-record data dictionary for study sorghum_rhizosphere_nitrification_study.
     slots:
     - fertilizer_treatment
+    - sampling_year
     - nitrification_activity
     - rhizosphere_microbial_community_composition
-    - sampling_year
 slots:
   fertilizer_treatment:
     title: fertilizer treatment
     description: Fertilizer treatment condition applied to field-grown bioenergy sorghum.
     range: string
-    exact_mappings:
-    - MIXS:0000556
-    - MIXS:0000008
-    - BERVO:0000895
-    slot_uri: MIXS:0000556
     aliases:
     - fertilizer_treatment
     - n_treatment
@@ -48,14 +43,25 @@ slots:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: sorghum field plot
       value_type: CATEGORICAL
+  sampling_year:
+    title: sampling year
+    description: Field season used to evaluate inter-annual variability in rhizosphere nitrification.
+    range: integer
+    aliases:
+    - year
+    - sampling_year
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: sampling event
+      temporal_resolution: annual and within-season sampling
+      time_series: 'true'
+      value_type: INTEGER
   nitrification_activity:
     title: nitrification activity
     description: Rhizosphere nitrification response used to evaluate biological nitrification inhibition
       potential.
     range: float
-    exact_mappings:
-    - BERVO:0000871
-    slot_uri: BERVO:0000871
     aliases:
     - nitrification_rate
     - potential_nitrification_rate
@@ -65,15 +71,14 @@ slots:
       measured_entity: nitrification process
       material_or_matrix: rhizosphere soil
       method: soil nitrogen transformation assay
+      notes: BERVO mapping is to inhibition activity because the study frames the assay as biological
+        nitrification inhibition potential; generic nitrification rate did not have a closer BERVO label.
       value_type: NUMERIC
   rhizosphere_microbial_community_composition:
     title: rhizosphere microbial community composition
     description: Amplicon-derived microbial community profile for sorghum rhizosphere samples.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - asv_table
     - otu_table
@@ -84,20 +89,3 @@ slots:
       material_or_matrix: rhizosphere soil
       method: 16S rRNA amplicon sequencing
       value_type: ARRAY
-  sampling_year:
-    title: sampling year
-    description: Field season used to evaluate inter-annual variability in rhizosphere nitrification.
-    range: integer
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - year
-    - sampling_year
-    - collection_date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: sampling event
-      temporal_resolution: annual and within-season sampling
-      value_type: INTEGER

@@ -26,34 +26,29 @@ classes:
   Record:
     description: Per-record data dictionary for study populus_rhizosphere_pd10_synthetic_community.
     slots:
-    - assembly_time_point
+    - pd10_member_strain
     - growth_medium
+    - assembly_time_point
     - member_abundance_profile
     - metabolite_exchange_profile
-    - pd10_member_strain
 slots:
-  assembly_time_point:
-    title: assembly time point
-    description: Time point during PD10 community assembly and stable community formation.
+  pd10_member_strain:
+    title: PD10 member strain
+    description: Member strain in the ten-member Populus deltoides rhizosphere synthetic community.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
-    - time_point
-    - assembly_time
-    - sampling_time
+    - strain_id
+    - member_id
+    - syncom_member
     annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: synthetic community sampling event
-      value_type: CATEGORICAL
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER; GROUPING
+      measured_entity: PD10 synthetic community strain
+      levels: ten Populus deltoides rhizosphere isolates
+      value_type: IDENTIFIER
   growth_medium:
     title: growth medium
     description: Culture medium condition influencing PD10 community structure and metabolic exchange.
     range: string
-    exact_mappings:
-    - MIXS:0000008
-    - MIXS:0001057
-    slot_uri: MIXS:0001057
     aliases:
     - medium
     - growth_medium
@@ -61,6 +56,19 @@ slots:
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: synthetic community culture
+      value_type: CATEGORICAL
+  assembly_time_point:
+    title: assembly time point
+    description: Time point during PD10 community assembly and stable community formation.
+    range: string
+    aliases:
+    - time_point
+    - assembly_time
+    - sampling_time
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: synthetic community sampling event
+      time_series: 'true'
       value_type: CATEGORICAL
   member_abundance_profile:
     title: member abundance profile
@@ -91,17 +99,3 @@ slots:
       material_or_matrix: culture medium
       method: metabolomics
       value_type: ARRAY
-  pd10_member_strain:
-    title: PD10 member strain
-    description: Member strain in the ten-member Populus deltoides rhizosphere synthetic community.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - strain_id
-    - member_id
-    - syncom_member
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER; GROUPING
-      measured_entity: PD10 synthetic community strain
-      value_type: IDENTIFIER

@@ -26,17 +26,15 @@ classes:
     description: Per-record data dictionary for study radiocarbon_analysis_of_soil_microbial_biomass.
     slots:
     - extraction_fraction
+    - radiocarbon_content
     - microbial_biomass_carbon
     - microbial_carbon_turnover_estimate
-    - radiocarbon_content
 slots:
   extraction_fraction:
     title: extraction fraction
     description: Soil microbial biomass fraction or extract produced by the direct chloroform extraction
       method.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - extraction_fraction
     - fraction
@@ -46,39 +44,6 @@ slots:
       measured_entity: soil microbial biomass extract
       material_or_matrix: soil
       value_type: CATEGORICAL
-  microbial_biomass_carbon:
-    title: microbial biomass carbon
-    description: Soil microbial biomass carbon amount measured from the extracted fraction.
-    range: float
-    unit:
-      descriptive_name: microgram per gram
-      ucum_code: ug/g
-    exact_mappings:
-    - BERVO:0000995
-    slot_uri: BERVO:0000995
-    aliases:
-    - microbial_biomass_carbon
-    - biomass_C
-    - extracted_carbon
-    annotations:
-      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil microbial biomass
-      material_or_matrix: soil
-      method: direct chloroform extraction
-      value_type: NUMERIC
-  microbial_carbon_turnover_estimate:
-    title: microbial carbon turnover estimate
-    description: Inferred microbial carbon turnover enabled by radiocarbon analysis of microbial biomass.
-    range: float
-    aliases:
-    - turnover_estimate
-    - carbon_turnover
-    - microbial_C_turnover
-    annotations:
-      role: DERIVED; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil microbial carbon turnover
-      method: radiocarbon-based turnover inference
-      value_type: NUMERIC
   radiocarbon_content:
     title: radiocarbon content
     description: Radiocarbon measurement of soil microbial biomass carbon.
@@ -92,4 +57,36 @@ slots:
       measured_entity: microbial biomass carbon
       material_or_matrix: soil
       method: radiocarbon analysis
+      value_type: NUMERIC
+  microbial_biomass_carbon:
+    title: microbial biomass carbon
+    description: Soil microbial biomass carbon amount measured from the extracted fraction.
+    range: float
+    unit:
+      descriptive_name: microgram per gram
+      ucum_code: ug/g
+    aliases:
+    - microbial_biomass_carbon
+    - biomass_C
+    - extracted_carbon
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial biomass
+      material_or_matrix: soil
+      method: direct chloroform extraction
+      notes: BERVO has a generic microbial biomass chemical element term but no carbon-specific microbial
+        biomass term.
+      value_type: NUMERIC
+  microbial_carbon_turnover_estimate:
+    title: microbial carbon turnover estimate
+    description: Inferred microbial carbon turnover enabled by radiocarbon analysis of microbial biomass.
+    range: float
+    aliases:
+    - turnover_estimate
+    - carbon_turnover
+    - microbial_C_turnover
+    annotations:
+      role: DERIVED; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial carbon turnover
+      method: radiocarbon-based turnover inference
       value_type: NUMERIC

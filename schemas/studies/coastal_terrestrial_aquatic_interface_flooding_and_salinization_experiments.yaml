@@ -26,16 +26,112 @@ classes:
   Record:
     description: Per-record data dictionary for study coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments.
     slots:
-    - carbon_oxidation_and_greenhouse_gas_flux
     - coastal_study_region
+    - terrestrial_aquatic_interface_position
     - flooding_regime
-    - geographic_location
-    - microbial_community_composition
-    - redox_chemistry
     - salinity_condition
     - sample_collection_date
-    - terrestrial_aquatic_interface_position
+    - geographic_location
+    - redox_chemistry
+    - carbon_oxidation_and_greenhouse_gas_flux
+    - microbial_community_composition
 slots:
+  coastal_study_region:
+    title: coastal study region
+    description: COMPASS-FME region or site network represented by each sample or time series.
+    range: CoastalStudyRegionEnum
+    aliases:
+    - region
+    - site
+    - watershed
+    annotations:
+      role: GROUPING; SPATIAL_INDEX
+      measured_entity: coastal terrestrial-aquatic interface
+      value_type: CATEGORICAL
+  terrestrial_aquatic_interface_position:
+    title: terrestrial-aquatic interface position
+    description: Position along the open-water, wetland, shoreline, and upland coastal gradient.
+    range: TerrestrialAquaticInterfacePositionEnum
+    aliases:
+    - transect_position
+    - gradient_position
+    - env_local_scale
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
+      measured_entity: coastal gradient position
+      value_type: CATEGORICAL
+  flooding_regime:
+    title: flooding regime
+    description: Frequency, duration, depth, or source of flooding applied or observed in coastal TAI
+      plots.
+    range: float
+    unit:
+      descriptive_name: cm or days
+    aliases:
+    - flood_frequency
+    - flood_duration
+    - flood_depth
+    - water_level
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: flooding disturbance
+      value_type: NUMERIC
+  salinity_condition:
+    title: salinity condition
+    description: Salinity or salinization treatment in freshwater and saltwater coastal TAI experiments.
+    range: float
+    unit:
+      descriptive_name: practical salinity units
+    aliases:
+    - salinity
+    - conductivity
+    - salinization_treatment
+    annotations:
+      role: EXPERIMENTAL_FACTOR; COVARIATE
+      measured_entity: water chemistry
+      material_or_matrix: soil water or surface water
+      value_type: NUMERIC
+  sample_collection_date:
+    title: sample collection date
+    description: Date or timestamp for each field collection, sensor observation, or incubation sampling
+      point.
+    range: datetime
+    aliases:
+    - collection_date
+    - timestamp
+    - date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      measured_entity: sampling event
+      time_series: 'true'
+      value_type: DATETIME
+  geographic_location:
+    title: geographic location
+    description: Coordinates or named location of the coastal TAI sample or sensor.
+    range: string
+    aliases:
+    - lat_lon
+    - geo_loc_name
+    - site_location
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: sample location
+      value_type: TEXT
+  redox_chemistry:
+    title: redox chemistry
+    description: Redox state or redox-active chemical measurements used to characterize aerobic to anaerobic
+      shifts.
+    range: float
+    aliases:
+    - redox_potential
+    - dissolved_oxygen
+    - iron_redox
+    - manganese_redox
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil, sediment, or water redox chemistry
+      material_or_matrix: soil, sediment, or water
+      value_type: NUMERIC
   carbon_oxidation_and_greenhouse_gas_flux:
     title: carbon oxidation and greenhouse gas flux
     description: Carbon oxidation, carbon dioxide production, methane production, or greenhouse gas flux
@@ -50,49 +146,8 @@ slots:
       role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
       measured_entity: coastal carbon cycling
       material_or_matrix: soil, sediment, water, or atmosphere
+      time_series: 'true'
       value_type: NUMERIC
-  coastal_study_region:
-    title: coastal study region
-    description: COMPASS-FME region or site network represented by each sample or time series.
-    range: CoastalStudyRegionEnum
-    aliases:
-    - region
-    - site
-    - watershed
-    annotations:
-      role: GROUPING; SPATIAL_INDEX
-      measured_entity: coastal terrestrial-aquatic interface
-      value_type: CATEGORICAL
-  flooding_regime:
-    title: flooding regime
-    description: Frequency, duration, depth, or source of flooding applied or observed in coastal TAI
-      plots.
-    range: float
-    unit:
-      descriptive_name: cm or days
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - flood_frequency
-    - flood_duration
-    - flood_depth
-    - water_level
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: flooding disturbance
-      value_type: NUMERIC
-  geographic_location:
-    title: geographic location
-    description: Coordinates or named location of the coastal TAI sample or sensor.
-    range: string
-    aliases:
-    - lat_lon
-    - geo_loc_name
-    - site_location
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      measured_entity: sample location
-      value_type: TEXT
   microbial_community_composition:
     title: microbial community composition
     description: Molecular profile of microbial communities in coastal soil, sediment, water, or plant-associated
@@ -110,70 +165,6 @@ slots:
       material_or_matrix: soil, sediment, water, or plant-associated material
       method: sequencing or molecular characterization
       value_type: ARRAY
-  redox_chemistry:
-    title: redox chemistry
-    description: Redox state or redox-active chemical measurements used to characterize aerobic to anaerobic
-      shifts.
-    range: float
-    aliases:
-    - redox_potential
-    - dissolved_oxygen
-    - iron_redox
-    - manganese_redox
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: soil, sediment, or water redox chemistry
-      material_or_matrix: soil, sediment, or water
-      value_type: NUMERIC
-  salinity_condition:
-    title: salinity condition
-    description: Salinity or salinization treatment in freshwater and saltwater coastal TAI experiments.
-    range: float
-    unit:
-      descriptive_name: practical salinity units
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - salinity
-    - conductivity
-    - salinization_treatment
-    annotations:
-      role: EXPERIMENTAL_FACTOR; COVARIATE
-      measured_entity: water chemistry
-      material_or_matrix: soil water or surface water
-      value_type: NUMERIC
-  sample_collection_date:
-    title: sample collection date
-    description: Date or timestamp for each field collection, sensor observation, or incubation sampling
-      point.
-    range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    slot_uri: MIXS:0000011
-    aliases:
-    - collection_date
-    - timestamp
-    - date
-    annotations:
-      role: DATE_TIME_VARIABLE; COVARIATE
-      measured_entity: sampling event
-      value_type: DATETIME
-  terrestrial_aquatic_interface_position:
-    title: terrestrial-aquatic interface position
-    description: Position along the open-water, wetland, shoreline, and upland coastal gradient.
-    range: TerrestrialAquaticInterfacePositionEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - transect_position
-    - gradient_position
-    - env_local_scale
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
-      measured_entity: coastal gradient position
-      value_type: CATEGORICAL
 enums:
   CoastalStudyRegionEnum:
     permissible_values:

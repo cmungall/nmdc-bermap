@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:soil_virus_abundance_or_diversity
+  subject_label: soil virus abundance or diversity
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_sample_context
+  subject_label: soil sample context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration

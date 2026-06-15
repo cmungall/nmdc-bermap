@@ -18,8 +18,9 @@ BUILTIN = {
 
 
 def main() -> int:
-    files = sorted(glob.glob(str(SCHEMAS / "studies" / "*.yaml")) +
-                   glob.glob(str(SCHEMAS / "sites" / "*.yaml")))
+    files = sorted(f for f in glob.glob(str(SCHEMAS / "studies" / "*.yaml")) +
+                   glob.glob(str(SCHEMAS / "sites" / "*.yaml"))
+                   if not f.endswith(".sssom.yaml"))
     problems = []
     for f in [str(SCHEMAS / "base.yaml")] + files:
         sv = SchemaView(f)

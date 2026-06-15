@@ -25,19 +25,40 @@ classes:
   Record:
     description: Per-record data dictionary for study monet_soil_function_call.
     slots:
+    - submitted_project_identifier
+    - standardized_workflow
     - metagenome_sequencing_product
     - molecular_and_microstructural_soil_profile
-    - standardized_workflow
-    - submitted_project_identifier
 slots:
+  submitted_project_identifier:
+    title: submitted project identifier
+    description: Community project or soil core submission identifier for the MONet Soil Function Call.
+    range: string
+    aliases:
+    - project_id
+    - proposal_id
+    - sample_name
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: submitted soil core project
+      value_type: IDENTIFIER
+  standardized_workflow:
+    title: standardized workflow
+    description: MONet analysis workflow applied to submitted soil cores.
+    range: string
+    aliases:
+    - workflow
+    - analysis_workflow
+    - data_product
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE; GROUPING
+      measured_entity: MONet analysis workflow
+      value_type: CATEGORICAL
   metagenome_sequencing_product:
     title: metagenome sequencing product
     description: Sequence data and annotations generated through JGI proposal 510110.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - metagenome_sequence
     - metagenome_profile
@@ -61,30 +82,3 @@ slots:
       measured_entity: soil core
       method: FTICR-MS, X-ray computed tomography, and biogeochemical analysis
       value_type: OBJECT
-  standardized_workflow:
-    title: standardized workflow
-    description: MONet analysis workflow applied to submitted soil cores.
-    range: string
-    aliases:
-    - workflow
-    - analysis_workflow
-    - data_product
-    annotations:
-      role: STUDY_DESIGN_CONTROLLED_VARIABLE; GROUPING
-      measured_entity: MONet analysis workflow
-      value_type: CATEGORICAL
-  submitted_project_identifier:
-    title: submitted project identifier
-    description: Community project or soil core submission identifier for the MONet Soil Function Call.
-    range: string
-    exact_mappings:
-    - MIXS:0001107
-    slot_uri: MIXS:0001107
-    aliases:
-    - project_id
-    - proposal_id
-    - sample_name
-    annotations:
-      role: IDENTIFIER; GROUPING
-      measured_entity: submitted soil core project
-      value_type: IDENTIFIER

@@ -33,8 +33,6 @@ slots:
     title: archaeal taxon
     description: Methanogenic archaeal organism or group evaluated for mercury methylation.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - archaeal_taxon
     - organism
@@ -47,11 +45,6 @@ slots:
     title: mercury amendment
     description: Mercury exposure or amendment condition used to evaluate methylmercury production.
     range: string
-    exact_mappings:
-    - MIXS:0000751
-    - MIXS:0000008
-    - CHEBI:25195
-    slot_uri: MIXS:0000751
     aliases:
     - mercury_amendment
     - mercury_exposure
@@ -64,9 +57,6 @@ slots:
     title: methylmercury production
     description: Methylmercury production response used to determine mercury methylation capacity.
     range: float
-    exact_mappings:
-    - CHEBI:25322
-    slot_uri: CHEBI:25322
     aliases:
     - methylmercury
     - methylmercury_production

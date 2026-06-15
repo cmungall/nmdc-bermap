@@ -27,17 +27,27 @@ classes:
   Record:
     description: Per-record data dictionary for study cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4.
     slots:
+    - phage_metabolic_hijacking_scenario
     - auxiliary_metabolic_gene
     - hijacked_metabolic_reaction
     - metabolic_flux_prediction
-    - phage_metabolic_hijacking_scenario
 slots:
+  phage_metabolic_hijacking_scenario:
+    title: phage metabolic hijacking scenario
+    description: Model scenario representing cyanophage P-HM2 infection, AMG inclusion, or phage assembly.
+    range: string
+    aliases:
+    - scenario
+    - phage_infection
+    - AMG_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: phage-host metabolic model
+      value_type: CATEGORICAL
   auxiliary_metabolic_gene:
     title: auxiliary metabolic gene
     description: Cyanophage P-HM2 AMG represented in the metabolic model.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - AMG
     - phage_gene
@@ -72,17 +82,3 @@ slots:
       measured_entity: host metabolic flux
       method: genome-scale metabolic modeling
       value_type: NUMERIC
-  phage_metabolic_hijacking_scenario:
-    title: phage metabolic hijacking scenario
-    description: Model scenario representing cyanophage P-HM2 infection, AMG inclusion, or phage assembly.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - scenario
-    - phage_infection
-    - AMG_condition
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: phage-host metabolic model
-      value_type: CATEGORICAL

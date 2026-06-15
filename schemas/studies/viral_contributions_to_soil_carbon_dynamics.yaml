@@ -25,50 +25,16 @@ classes:
   Record:
     description: Per-record data dictionary for study viral_contributions_to_soil_carbon_dynamics.
     slots:
-    - soil_carbon_dynamics_estimate
-    - soil_sample_context
     - soil_virus_abundance_or_diversity
     - viral_auxiliary_metabolic_gene_profile
+    - soil_carbon_dynamics_estimate
+    - soil_sample_context
 slots:
-  soil_carbon_dynamics_estimate:
-    title: soil carbon dynamics estimate
-    description: Estimated contribution of viruses to soil carbon pools, fluxes, or transformations.
-    multivalued: true
-    range: string
-    aliases:
-    - viral_carbon_contribution
-    - carbon_dynamics_estimate
-    - carbon_flux
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
-      measured_entity: soil carbon dynamics
-      material_or_matrix: soil
-      method: metagenomics-informed carbon dynamics estimation
-      value_type: ARRAY
-  soil_sample_context:
-    title: soil sample context
-    description: Soil site, matrix, or environmental context for viral carbon dynamics estimates.
-    range: string
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
-    aliases:
-    - site
-    - soil_context
-    - environmental_medium
-    annotations:
-      role: SPATIAL_INDEX; GROUPING
-      measured_entity: soil sampling context
-      material_or_matrix: soil
-      value_type: CATEGORICAL
   soil_virus_abundance_or_diversity:
     title: soil virus abundance or diversity
     description: Soil virome abundance, richness, or diversity inferred from metagenomic data.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - viral_abundance
     - viral_diversity
@@ -93,3 +59,31 @@ slots:
       measured_entity: soil viral genome
       method: viral genome annotation
       value_type: ARRAY
+  soil_carbon_dynamics_estimate:
+    title: soil carbon dynamics estimate
+    description: Estimated contribution of viruses to soil carbon pools, fluxes, or transformations.
+    multivalued: true
+    range: string
+    aliases:
+    - viral_carbon_contribution
+    - carbon_dynamics_estimate
+    - carbon_flux
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: soil carbon dynamics
+      material_or_matrix: soil
+      method: metagenomics-informed carbon dynamics estimation
+      value_type: ARRAY
+  soil_sample_context:
+    title: soil sample context
+    description: Soil site, matrix, or environmental context for viral carbon dynamics estimates.
+    range: string
+    aliases:
+    - site
+    - soil_context
+    - environmental_medium
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: soil sampling context
+      material_or_matrix: soil
+      value_type: CATEGORICAL

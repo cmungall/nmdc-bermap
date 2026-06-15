@@ -25,33 +25,41 @@ classes:
   Record:
     description: Per-record data dictionary for study sty-11-n7mtj961.
     slots:
+    - watering_condition
     - bioenergy_trait_modulation
-    - broad_scale_environmental_context
+    - rhizosphere_bacterial_community_composition
     - collection_date
-    - ecosystem
-    - ecosystem_category
-    - ecosystem_subtype
-    - ecosystem_type
+    - geographic_location_name
+    - latitude_and_longitude
     - elevation
+    - broad_scale_environmental_context
+    - local_environmental_context
     - environmental_medium
     - environmental_package
-    - experimental_factor
-    - geographic_location_name
-    - growth_facility
-    - latitude_and_longitude
-    - local_environmental_context
-    - rhizosphere_bacterial_community_composition
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
     - specific_ecosystem
-    - watering_condition
+    - growth_facility
+    - experimental_factor
 slots:
+  watering_condition:
+    title: watering condition
+    description: Well-watered versus drought-stressed treatment applied to sorghum.
+    range: WateringConditionEnum
+    aliases:
+    - watering_condition
+    - drought_treatment
+    - water_regime
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sorghum water treatment
+      value_type: CATEGORICAL
   bioenergy_trait_modulation:
     title: bioenergy trait modulation
     description: Host plant bioenergy trait state or line associated with the sorghum sample.
     range: string
-    exact_mappings:
-    - MIXS:0000365
-    - MIXS:0000008
-    slot_uri: MIXS:0000365
     aliases:
     - host_line
     - trait_modulation
@@ -60,30 +68,95 @@ slots:
       role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
       measured_entity: Sorghum bicolor
       value_type: CATEGORICAL
-  broad_scale_environmental_context:
-    title: broad-scale environmental context
-    description: Broad-scale environmental context recorded for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000012
-    slot_uri: MIXS:0000012
+  rhizosphere_bacterial_community_composition:
+    title: rhizosphere bacterial community composition
+    description: 16S amplicon profile of sorghum rhizosphere bacterial communities.
+    multivalued: true
+    range: string
     aliases:
-    - env_broad_scale
+    - otu_table
+    - asv_table
+    - community_profile
     annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sorghum rhizosphere microbial community
+      material_or_matrix: rhizosphere
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
   collection_date:
     title: collection date
     description: Date when the NMDC biosample was collected.
     range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    slot_uri: MIXS:0000011
     aliases:
     - collection_date
     annotations:
       role: DATE_TIME_VARIABLE; COVARIATE
       value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_package:
+    title: environmental package
+    description: MIxS environmental package used for the NMDC biosample metadata.
+    range: EnvPackageEnum
+    aliases:
+    - env_package
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
   ecosystem:
     description: GOLD ecosystem classification recorded for the NMDC biosample.
     range: GoldEcosystemPathEnum
@@ -101,15 +174,6 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  ecosystem_subtype:
-    title: ecosystem subtype
-    description: GOLD ecosystem subtype recorded for the NMDC biosample.
-    range: GoldEcosystemPathEnum
-    aliases:
-    - ecosystem_subtype
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
   ecosystem_type:
     title: ecosystem type
     description: GOLD ecosystem type recorded for the NMDC biosample.
@@ -119,106 +183,15 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  elevation:
-    description: Elevation recorded for the NMDC biosample.
-    range: float
-    unit:
-      descriptive_name: m
-      ucum_code: m
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
     aliases:
-    - elev
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
-      value_type: NUMERIC
-  environmental_medium:
-    title: environmental medium
-    description: Environmental medium or material sampled for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - env_medium
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  environmental_package:
-    title: environmental package
-    description: MIxS environmental package used for the NMDC biosample metadata.
-    range: EnvPackageEnum
-    aliases:
-    - env_package
+    - ecosystem_subtype
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  experimental_factor:
-    title: experimental factor
-    description: Experimental factor recorded in NMDC biosample metadata.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - experimental_factor
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      value_type: CATEGORICAL
-  geographic_location_name:
-    title: geographic location name
-    description: Geographic location name recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - geo_loc_name
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
-  growth_facility:
-    title: growth facility
-    description: Growth facility or experimental facility context recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - growth_facil
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
-  latitude_and_longitude:
-    title: latitude and longitude
-    description: Latitude and longitude coordinates recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - lat_lon
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
-  local_environmental_context:
-    title: local environmental context
-    description: Local environmental context recorded for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
-    aliases:
-    - env_local_scale
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  rhizosphere_bacterial_community_composition:
-    title: rhizosphere bacterial community composition
-    description: 16S amplicon profile of sorghum rhizosphere bacterial communities.
-    multivalued: true
-    range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - otu_table
-    - asv_table
-    - community_profile
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: sorghum rhizosphere microbial community
-      material_or_matrix: rhizosphere
-      method: 16S rRNA amplicon sequencing
-      value_type: ARRAY
   specific_ecosystem:
     title: specific ecosystem
     description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
@@ -228,21 +201,23 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  watering_condition:
-    title: watering condition
-    description: Well-watered versus drought-stressed treatment applied to sorghum.
-    range: WateringConditionEnum
-    exact_mappings:
-    - MIXS:0000591
-    - MIXS:0000008
-    slot_uri: MIXS:0000591
+  growth_facility:
+    title: growth facility
+    description: Growth facility or experimental facility context recorded for the NMDC biosample.
+    range: string
     aliases:
-    - watering_condition
-    - drought_treatment
-    - water_regime
+    - growth_facil
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  experimental_factor:
+    title: experimental factor
+    description: Experimental factor recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - experimental_factor
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: sorghum water treatment
       value_type: CATEGORICAL
 enums:
   WateringConditionEnum:

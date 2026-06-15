@@ -72,6 +72,19 @@ validate-profile-terms:
     uv run linkml-term-validator validate-schema "$f" -c src/nmdc_sfas_brcs/validators/oak_config.yaml --strict
   done
 
+# Vet the per-schema SSSOM mapping tables: object_label must match object_id's ontology label
+validate-profile-mappings:
+  #!/usr/bin/env bash
+  set -euo pipefail
+  files=$(find schemas -name '*.sssom.yaml' | sort)
+  uv run linkml-term-validator validate-data $files -s schemas/sssom-profile.yaml -t MappingSet \
+    -c src/nmdc_sfas_brcs/validators/oak_config.yaml --no-dynamic-enums --labels
+
+# Reverse generator: reconstruct the variables catalog from profiles + SSSOM. --check proves
+# round-trip identity against db/sfas-brcs.yaml (reverse(forward(variables)) == variables).
+sync-variables *ARGS:
+  uv run python schemas/generate_variables.py {{ARGS}}
+
 # Fetch all BRC datasets from API and save as individual YAML files
 fetch-brc-datasets:
   uv run python src/nmdc_sfas_brcs/scripts/fetch_brc_datasets.py --summary

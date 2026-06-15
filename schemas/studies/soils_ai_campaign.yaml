@@ -26,12 +26,49 @@ classes:
   Record:
     description: Per-record data dictionary for study soils_ai_campaign.
     slots:
+    - soil_order
+    - standardized_sampling_protocol
+    - soil_organic_carbon_indicator
     - ai_model_feature_set
     - pedotransfer_function_output
-    - soil_order
-    - soil_organic_carbon_indicator
-    - standardized_sampling_protocol
 slots:
+  soil_order:
+    title: soil order
+    description: Targeted underrepresented soil order represented by a SOILS-AI sample.
+    range: SoilOrderEnum
+    aliases:
+    - soil_order
+    - taxonomy
+    - soil_class
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil taxonomic class
+      value_type: CATEGORICAL
+  standardized_sampling_protocol:
+    title: standardized sampling protocol
+    description: MONet or SOILS-AI sampling protocol applied to generate AI-ready soil data.
+    range: string
+    aliases:
+    - sampling_protocol
+    - protocol
+    - workflow
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE
+      measured_entity: soil sampling workflow
+      value_type: CATEGORICAL
+  soil_organic_carbon_indicator:
+    title: soil organic carbon indicator
+    description: Soil organic indicator used as an AI feature or target for soil carbon dynamics modeling.
+    range: float
+    aliases:
+    - soil_organic_carbon
+    - carbon_indicator
+    - organic_indicator
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil organic carbon
+      material_or_matrix: soil
+      value_type: NUMERIC
   ai_model_feature_set:
     title: AI model feature set
     description: Integrated feature set used to train or strengthen AI models for soil carbon dynamics.
@@ -59,45 +96,6 @@ slots:
       measured_entity: continental-scale soil carbon dynamics estimate
       method: pedotransfer function
       value_type: NUMERIC
-  soil_order:
-    title: soil order
-    description: Targeted underrepresented soil order represented by a SOILS-AI sample.
-    range: SoilOrderEnum
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - soil_order
-    - taxonomy
-    - soil_class
-    annotations:
-      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: soil taxonomic class
-      value_type: CATEGORICAL
-  soil_organic_carbon_indicator:
-    title: soil organic carbon indicator
-    description: Soil organic indicator used as an AI feature or target for soil carbon dynamics modeling.
-    range: float
-    aliases:
-    - soil_organic_carbon
-    - carbon_indicator
-    - organic_indicator
-    annotations:
-      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil organic carbon
-      material_or_matrix: soil
-      value_type: NUMERIC
-  standardized_sampling_protocol:
-    title: standardized sampling protocol
-    description: MONet or SOILS-AI sampling protocol applied to generate AI-ready soil data.
-    range: string
-    aliases:
-    - sampling_protocol
-    - protocol
-    - workflow
-    annotations:
-      role: STUDY_DESIGN_CONTROLLED_VARIABLE
-      measured_entity: soil sampling workflow
-      value_type: CATEGORICAL
 enums:
   SoilOrderEnum:
     permissible_values:

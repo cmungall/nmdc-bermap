@@ -1,0 +1,97 @@
+mappings:
+- subject_id: profiles:populus_genotype
+  subject_label: Populus genotype
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000365
+  object_label: host genotype
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:populus_genotype
+  subject_label: Populus genotype
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_compartment
+  subject_label: plant compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_compartment
+  subject_label: plant compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_compartment
+  subject_label: plant compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_compartment
+  subject_label: plant compartment
+  predicate_id: skos:relatedMatch
+  object_id: ENVO:00005801
+  object_label: rhizosphere
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_sampling_depth
+  subject_label: soil sampling depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000018
+  object_label: depth
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_ph
+  subject_label: soil pH
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000882
+  object_label: soil pH
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:ammonium_nitrogen_content
+  subject_label: ammonium nitrogen content
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000306
+  object_label: total soil NH4 content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrate_nitrogen_content
+  subject_label: nitrate nitrogen content
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000307
+  object_label: total soil NO3 content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrate_plus_nitrite_nitrogen_content
+  subject_label: nitrate plus nitrite nitrogen content
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0001674
+  object_label: total soil NO3 + NO2 content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:broad_scale_environmental_context
+  subject_label: broad-scale environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000012
+  object_label: broad-scale environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:local_environmental_context
+  subject_label: local environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:environmental_medium
+  subject_label: environmental medium
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_taxon_identifier
+  subject_label: host taxon identifier
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000250
+  object_label: host taxid
+  mapping_justification: semapv:ManualMappingCuration

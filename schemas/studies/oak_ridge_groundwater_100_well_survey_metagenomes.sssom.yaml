@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:groundwater_well_identifier
+  subject_label: groundwater well identifier
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001107
+  object_label: sample name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:groundwater_well_identifier
+  subject_label: groundwater well identifier
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:environmental_stress_gradient
+  subject_label: environmental stress gradient
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:groundwater_microbial_community_composition
+  subject_label: groundwater microbial community composition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

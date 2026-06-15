@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:plant_species
+  subject_label: plant species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_species
+  subject_label: plant species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:exudation_time_point
+  subject_label: exudation time point
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:exudation_time_point
+  subject_label: exudation time point
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

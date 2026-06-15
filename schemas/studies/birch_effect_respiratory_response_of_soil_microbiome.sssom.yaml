@@ -1,0 +1,31 @@
+mappings:
+- subject_id: profiles:moisture_shift_treatment
+  subject_label: moisture shift treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:moisture_shift_treatment
+  subject_label: moisture shift treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000591
+  object_label: watering regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:moisture_shift_treatment
+  subject_label: moisture shift treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:moisture_shift_treatment
+  subject_label: moisture shift treatment
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000301
+  object_label: total soil water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:response_elapsed_time
+  subject_label: response elapsed time
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

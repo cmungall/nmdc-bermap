@@ -26,30 +26,15 @@ classes:
   Record:
     description: Per-record data dictionary for study reduced_complexity_consortia_from_brachypodium_rhizosphere.
     slots:
-    - consortium_stability
     - enrichment_generation
     - inoculum_source
     - reduced_consortium_composition
+    - consortium_stability
 slots:
-  consortium_stability:
-    title: consortium stability
-    description: Stability or reproducibility of consortium composition and function across transfers
-      or replicates.
-    range: float
-    aliases:
-    - stability_metric
-    - community_stability
-    - compositional_reproducibility
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
-      measured_entity: reduced complexity consortium
-      value_type: NUMERIC
   enrichment_generation:
     title: enrichment generation
     description: Transfer or enrichment stage used to derive reduced complexity consortia.
     range: integer
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - enrichment_generation
     - transfer_number
@@ -57,17 +42,13 @@ slots:
     annotations:
       role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: reduced complexity consortium enrichment
+      time_series: 'true'
       value_type: INTEGER
   inoculum_source:
     title: inoculum source
     description: Brachypodium rhizosphere or Angelo Coast Range Reserve soil source used to initiate the
       reduced complexity consortium.
     range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
     aliases:
     - inoculum_source
     - source_soil
@@ -91,3 +72,16 @@ slots:
       measured_entity: reduced complexity microbial consortium
       method: amplicon sequencing and metagenomics
       value_type: ARRAY
+  consortium_stability:
+    title: consortium stability
+    description: Stability or reproducibility of consortium composition and function across transfers
+      or replicates.
+    range: float
+    aliases:
+    - stability_metric
+    - community_stability
+    - compositional_reproducibility
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: reduced complexity consortium
+      value_type: NUMERIC

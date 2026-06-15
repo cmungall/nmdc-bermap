@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:sediment_sampling_location
+  subject_label: sediment sampling location
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:mercury_contamination_context
+  subject_label: mercury contamination context
+  predicate_id: skos:relatedMatch
+  object_id: CHEBI:25195
+  object_label: mercury atom
+  mapping_justification: semapv:ManualMappingCuration

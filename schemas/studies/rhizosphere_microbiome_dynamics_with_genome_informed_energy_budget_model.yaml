@@ -25,18 +25,29 @@ classes:
   Record:
     description: Per-record data dictionary for study rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model.
     slots:
+    - rhizosphere_sampling_time
     - genome_informed_trait_profile
     - predicted_energy_budget_state
     - rhizosphere_omics_profile
-    - rhizosphere_sampling_time
 slots:
+  rhizosphere_sampling_time:
+    title: rhizosphere sampling time
+    description: Sampling point used to represent temporal dynamics in the Avena rhizosphere microbiome.
+    range: string
+    aliases:
+    - time_point
+    - sampling_time
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: rhizosphere sampling event
+      time_series: 'true'
+      value_type: CATEGORICAL
   genome_informed_trait_profile:
     title: genome-informed trait profile
     description: Genome-derived microbial traits used as inputs to the energy budget model.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - genome_trait
     - trait_profile
@@ -65,9 +76,6 @@ slots:
     description: Metagenomic and metatranscriptomic profile used to fit or evaluate microbiome dynamics.
     multivalued: true
     range: string
-    exact_mappings:
-    - ENVO:00005801
-    slot_uri: ENVO:00005801
     aliases:
     - metagenome_profile
     - metatranscriptome_profile
@@ -78,19 +86,3 @@ slots:
       material_or_matrix: rhizosphere
       method: metagenomics and metatranscriptomics
       value_type: ARRAY
-  rhizosphere_sampling_time:
-    title: rhizosphere sampling time
-    description: Sampling point used to represent temporal dynamics in the Avena rhizosphere microbiome.
-    range: string
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - time_point
-    - sampling_time
-    - collection_date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: rhizosphere sampling event
-      value_type: CATEGORICAL

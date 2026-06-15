@@ -33,8 +33,6 @@ slots:
     title: geochemical condition
     description: Chemical or physical condition tested as a constraint on bacteriophage infectivity.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - geochemical_condition
     - treatment
@@ -47,8 +45,6 @@ slots:
     title: phage-host pair
     description: Host bacterium and bacteriophage combination used in the infectivity assay.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - host
     - phage

@@ -26,11 +26,40 @@ classes:
   Record:
     description: Per-record data dictionary for study poplar_rhizosphere_microbiota_assembly_dynamics.
     slots:
-    - bacterial_and_fungal_community_assembly
     - growth_day
-    - metabolite_abundance_profile
     - plant_axis_compartment
+    - bacterial_and_fungal_community_assembly
+    - metabolite_abundance_profile
 slots:
+  growth_day:
+    title: growth day
+    description: Sampling day during 30-day poplar growth experiment.
+    range: integer
+    unit:
+      descriptive_name: days
+      ucum_code: d
+    aliases:
+    - day
+    - growth_day
+    - time_point
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: growth time point
+      temporal_resolution: repeated sampling over 30 days
+      time_series: 'true'
+      value_type: INTEGER
+  plant_axis_compartment:
+    title: plant axis compartment
+    description: Rhizosphere, root, or shoot compartment sampled along the poplar root-to-shoot axis.
+    range: PlantAxisCompartmentEnum
+    aliases:
+    - compartment
+    - tissue
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: poplar-associated microbial habitat
+      value_type: CATEGORICAL
   bacterial_and_fungal_community_assembly:
     title: bacterial and fungal community assembly
     description: DNA metabarcoding profiles used to track microbial community assembly over plant growth.
@@ -46,26 +75,6 @@ slots:
       material_or_matrix: rhizosphere, root, and shoot
       method: 16S rRNA and ITS metabarcoding
       value_type: ARRAY
-  growth_day:
-    title: growth day
-    description: Sampling day during 30-day poplar growth experiment.
-    range: integer
-    unit:
-      descriptive_name: days
-      ucum_code: d
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - day
-    - growth_day
-    - time_point
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: growth time point
-      temporal_resolution: repeated sampling over 30 days
-      value_type: INTEGER
   metabolite_abundance_profile:
     title: metabolite abundance profile
     description: Metabolomic profile paired with microbiota assembly dynamics.
@@ -81,24 +90,6 @@ slots:
       material_or_matrix: rhizosphere, root, and shoot
       method: metabolomics
       value_type: ARRAY
-  plant_axis_compartment:
-    title: plant axis compartment
-    description: Rhizosphere, root, or shoot compartment sampled along the poplar root-to-shoot axis.
-    range: PlantAxisCompartmentEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    - ENVO:00005801
-    slot_uri: MIXS:0000013
-    aliases:
-    - compartment
-    - tissue
-    - sample_type
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: poplar-associated microbial habitat
-      value_type: CATEGORICAL
 enums:
   PlantAxisCompartmentEnum:
     permissible_values:

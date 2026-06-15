@@ -25,34 +25,15 @@ classes:
   Record:
     description: Per-record data dictionary for study misip_data_standard_for_stable_isotope_probing.
     slots:
-    - buoyant_density
     - isotope_label_or_substrate
     - nucleic_acid_fraction
+    - buoyant_density
     - sip_sequence_accession
 slots:
-  buoyant_density:
-    title: buoyant density
-    description: Buoyant density associated with a SIP gradient fraction.
-    range: float
-    unit:
-      descriptive_name: gram per milliliter
-      ucum_code: g/mL
-    aliases:
-    - buoyant_density
-    - density
-    - fraction_density
-    annotations:
-      role: MEASURED_VARIABLE; COVARIATE
-      measured_entity: SIP gradient fraction
-      value_type: NUMERIC
   isotope_label_or_substrate:
     title: isotope label or substrate
     description: Stable isotope label and labeled substrate used in a stable isotope probing experiment.
     range: string
-    exact_mappings:
-    - MIXS:0000751
-    - MIXS:0000008
-    slot_uri: MIXS:0000751
     aliases:
     - isotope_label
     - labeled_substrate
@@ -73,6 +54,21 @@ slots:
       role: GROUPING; IDENTIFIER
       measured_entity: SIP nucleic acid fraction
       value_type: IDENTIFIER
+  buoyant_density:
+    title: buoyant density
+    description: Buoyant density associated with a SIP gradient fraction.
+    range: float
+    unit:
+      descriptive_name: gram per milliliter
+      ucum_code: g/mL
+    aliases:
+    - buoyant_density
+    - density
+    - fraction_density
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: SIP gradient fraction
+      value_type: NUMERIC
   sip_sequence_accession:
     title: SIP sequence accession
     description: Identifier linking MISIP metadata to SIP-derived nucleic acid sequence data.

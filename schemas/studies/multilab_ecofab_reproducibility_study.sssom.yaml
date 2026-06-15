@@ -1,0 +1,7 @@
+mappings:
+- subject_id: profiles:ecofab_growth_system
+  subject_label: EcoFAB growth system
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001057
+  object_label: plant growth medium
+  mapping_justification: semapv:ManualMappingCuration

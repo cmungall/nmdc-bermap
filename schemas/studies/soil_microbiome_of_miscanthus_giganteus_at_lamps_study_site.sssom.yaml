@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:nitrogen_fertilization
+  subject_label: nitrogen fertilization
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000556
+  object_label: fertilizer regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrogen_fertilization
+  subject_label: nitrogen fertilization
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nucleic_acid_fraction
+  subject_label: nucleic acid fraction
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:active_soil_microbiome_composition
+  subject_label: active soil microbiome composition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

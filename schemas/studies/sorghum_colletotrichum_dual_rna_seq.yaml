@@ -25,11 +25,48 @@ classes:
   Record:
     description: Per-record data dictionary for study sorghum_colletotrichum_dual_rna_seq.
     slots:
-    - host_and_pathogen_transcript_abundance
     - infection_time_point
-    - infection_treatment
     - interaction_partner
+    - infection_treatment
+    - host_and_pathogen_transcript_abundance
 slots:
+  infection_time_point:
+    title: infection time point
+    description: Time point or infection stage sampled for dual RNA-seq.
+    range: string
+    aliases:
+    - infection_time
+    - time_point
+    - infection_stage
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sorghum infection sampling event
+      time_series: 'true'
+      value_type: CATEGORICAL
+  interaction_partner:
+    title: interaction partner
+    description: Organism whose transcriptome is represented in the dual RNA-seq profile.
+    range: InteractionPartnerEnum
+    aliases:
+    - organism
+    - partner
+    - transcript_source
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: plant-pathogen interaction partner
+      value_type: CATEGORICAL
+  infection_treatment:
+    title: infection treatment
+    description: Sorghum infection condition or pathogen challenge status.
+    range: string
+    aliases:
+    - infection_treatment
+    - pathogen_challenge
+    - inoculation_status
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sorghum plant tissue
+      value_type: CATEGORICAL
   host_and_pathogen_transcript_abundance:
     title: host and pathogen transcript abundance
     description: Dual RNA-seq expression profile for sorghum and Colletotrichum transcripts during infection.
@@ -44,54 +81,6 @@ slots:
       measured_entity: sorghum-Colletotrichum interaction transcriptome
       method: dual RNA-seq
       value_type: ARRAY
-  infection_time_point:
-    title: infection time point
-    description: Time point or infection stage sampled for dual RNA-seq.
-    range: string
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - infection_time
-    - time_point
-    - infection_stage
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: sorghum infection sampling event
-      value_type: CATEGORICAL
-  infection_treatment:
-    title: infection treatment
-    description: Sorghum infection condition or pathogen challenge status.
-    range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000008
-    slot_uri: MIXS:0000754
-    aliases:
-    - infection_treatment
-    - pathogen_challenge
-    - inoculation_status
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: sorghum plant tissue
-      value_type: CATEGORICAL
-  interaction_partner:
-    title: interaction partner
-    description: Organism whose transcriptome is represented in the dual RNA-seq profile.
-    range: InteractionPartnerEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
-    aliases:
-    - organism
-    - partner
-    - transcript_source
-    annotations:
-      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: plant-pathogen interaction partner
-      value_type: CATEGORICAL
 enums:
   InteractionPartnerEnum:
     permissible_values:

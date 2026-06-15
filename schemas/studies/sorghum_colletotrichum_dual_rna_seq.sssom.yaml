@@ -1,0 +1,37 @@
+mappings:
+- subject_id: profiles:infection_time_point
+  subject_label: infection time point
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:infection_time_point
+  subject_label: infection time point
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:interaction_partner
+  subject_label: interaction partner
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:interaction_partner
+  subject_label: interaction partner
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:infection_treatment
+  subject_label: infection treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:infection_treatment
+  subject_label: infection treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

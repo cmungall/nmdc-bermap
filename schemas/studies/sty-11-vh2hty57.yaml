@@ -25,51 +25,161 @@ classes:
   Record:
     description: Per-record data dictionary for study sty-11-vh2hty57.
     slots:
-    - broad_scale_environmental_context
+    - stand_age
+    - nitrogen_fertilizer_rate
+    - soil_sampling_depth
+    - soil_bacterial_community_composition
     - collection_date
-    - ecosystem
-    - ecosystem_category
-    - ecosystem_subtype
-    - ecosystem_type
+    - geographic_location_name
+    - latitude_and_longitude
     - elevation
+    - broad_scale_environmental_context
+    - local_environmental_context
     - environmental_medium
     - environmental_package
-    - geographic_location_name
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
+    - specific_ecosystem
     - growth_facility
-    - latitude_and_longitude
-    - local_environmental_context
-    - nitrogen_fertilizer_rate
     - other_experimental_factor
     - other_treatment
-    - soil_bacterial_community_composition
-    - soil_sampling_depth
-    - specific_ecosystem
-    - stand_age
 slots:
-  broad_scale_environmental_context:
-    title: broad-scale environmental context
-    description: Broad-scale environmental context recorded for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000012
-    slot_uri: MIXS:0000012
+  stand_age:
+    title: stand age
+    description: Age of the Miscanthus stand in the replicated chronosequence trial.
+    range: integer
+    unit:
+      descriptive_name: years
+      ucum_code: a
     aliases:
-    - env_broad_scale
+    - stand_age
+    - stand_age_years
+    - plot_age
     annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Miscanthus field plot
+      value_type: INTEGER
+  nitrogen_fertilizer_rate:
+    title: nitrogen fertilizer rate
+    description: Nitrogen fertilizer application rate assigned to Miscanthus field plots.
+    range: float
+    unit:
+      descriptive_name: kilogram per hectare
+      ucum_code: kg/Har
+    aliases:
+    - nitrogen_rate
+    - n_rate
+    - fertilizer_regimen
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Miscanthus field plot
+      value_type: NUMERIC
+  soil_sampling_depth:
+    title: soil sampling depth
+    description: Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+    aliases:
+    - depth
+    - soil_depth
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: soil sampling interval
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_bacterial_community_composition:
+    title: soil bacterial community composition
+    description: 16S amplicon profile of soil bacterial communities associated with Miscanthus stands.
+    multivalued: true
+    range: string
+    aliases:
+    - otu_table
+    - asv_table
+    - bacterial_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil bacterial community
+      material_or_matrix: soil
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
   collection_date:
     title: collection date
     description: Date when the NMDC biosample was collected.
     range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    slot_uri: MIXS:0000011
     aliases:
     - collection_date
     annotations:
       role: DATE_TIME_VARIABLE; COVARIATE
       value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_package:
+    title: environmental package
+    description: MIxS environmental package used for the NMDC biosample metadata.
+    range: EnvPackageEnum
+    aliases:
+    - env_package
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
   ecosystem:
     description: GOLD ecosystem classification recorded for the NMDC biosample.
     range: GoldEcosystemPathEnum
@@ -87,15 +197,6 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  ecosystem_subtype:
-    title: ecosystem subtype
-    description: GOLD ecosystem subtype recorded for the NMDC biosample.
-    range: GoldEcosystemPathEnum
-    aliases:
-    - ecosystem_subtype
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
   ecosystem_type:
     title: ecosystem type
     description: GOLD ecosystem type recorded for the NMDC biosample.
@@ -105,155 +206,15 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  elevation:
-    description: Elevation recorded for the NMDC biosample.
-    range: float
-    unit:
-      descriptive_name: m
-      ucum_code: m
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
     aliases:
-    - elev
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
-      value_type: NUMERIC
-  environmental_medium:
-    title: environmental medium
-    description: Environmental medium or material sampled for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - env_medium
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  environmental_package:
-    title: environmental package
-    description: MIxS environmental package used for the NMDC biosample metadata.
-    range: EnvPackageEnum
-    aliases:
-    - env_package
+    - ecosystem_subtype
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  geographic_location_name:
-    title: geographic location name
-    description: Geographic location name recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - geo_loc_name
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
-  growth_facility:
-    title: growth facility
-    description: Growth facility or experimental facility context recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - growth_facil
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
-  latitude_and_longitude:
-    title: latitude and longitude
-    description: Latitude and longitude coordinates recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - lat_lon
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
-  local_environmental_context:
-    title: local environmental context
-    description: Local environmental context recorded for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
-    aliases:
-    - env_local_scale
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  nitrogen_fertilizer_rate:
-    title: nitrogen fertilizer rate
-    description: Nitrogen fertilizer application rate assigned to Miscanthus field plots.
-    range: float
-    unit:
-      descriptive_name: kilogram per hectare
-      ucum_code: kg/Har
-    exact_mappings:
-    - MIXS:0000556
-    - MIXS:0000008
-    - BERVO:0000895
-    slot_uri: MIXS:0000556
-    aliases:
-    - nitrogen_rate
-    - n_rate
-    - fertilizer_regimen
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: Miscanthus field plot
-      value_type: NUMERIC
-  other_experimental_factor:
-    title: other experimental factor
-    description: Additional experimental factor recorded in NMDC biosample metadata.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - experimental_factor_other
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      value_type: CATEGORICAL
-  other_treatment:
-    title: other treatment
-    description: Additional treatment descriptor recorded in NMDC biosample metadata.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - other_treatment
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      value_type: CATEGORICAL
-  soil_bacterial_community_composition:
-    title: soil bacterial community composition
-    description: 16S amplicon profile of soil bacterial communities associated with Miscanthus stands.
-    multivalued: true
-    range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - otu_table
-    - asv_table
-    - bacterial_community_profile
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: soil bacterial community
-      material_or_matrix: soil
-      method: 16S rRNA amplicon sequencing
-      value_type: ARRAY
-  soil_sampling_depth:
-    title: soil sampling depth
-    description: Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.
-    range: float
-    unit:
-      descriptive_name: meter
-      ucum_code: m
-    exact_mappings:
-    - MIXS:0000018
-    slot_uri: MIXS:0000018
-    aliases:
-    - depth
-    - soil_depth
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      measured_entity: soil sampling interval
-      material_or_matrix: soil
-      value_type: NUMERIC
   specific_ecosystem:
     title: specific ecosystem
     description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
@@ -263,20 +224,30 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  stand_age:
-    title: stand age
-    description: Age of the Miscanthus stand in the replicated chronosequence trial.
-    range: integer
-    unit:
-      descriptive_name: years
-      ucum_code: a
-    exact_mappings:
-    - MIXS:0000008
+  growth_facility:
+    title: growth facility
+    description: Growth facility or experimental facility context recorded for the NMDC biosample.
+    range: string
     aliases:
-    - stand_age
-    - stand_age_years
-    - plot_age
+    - growth_facil
     annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Miscanthus field plot
-      value_type: INTEGER
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  other_experimental_factor:
+    title: other experimental factor
+    description: Additional experimental factor recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - experimental_factor_other
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  other_treatment:
+    title: other treatment
+    description: Additional treatment descriptor recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - other_treatment
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL

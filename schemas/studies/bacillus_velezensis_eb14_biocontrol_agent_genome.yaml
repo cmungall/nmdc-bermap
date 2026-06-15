@@ -27,24 +27,37 @@ classes:
   Record:
     description: Per-record data dictionary for study bacillus_velezensis_eb14_biocontrol_agent_genome.
     slots:
-    - antifungal_biocontrol_activity
-    - antimicrobial_biosynthetic_gene_cluster
     - bacterial_strain_identifier
     - host_isolation_source
+    - antimicrobial_biosynthetic_gene_cluster
+    - antifungal_biocontrol_activity
 slots:
-  antifungal_biocontrol_activity:
-    title: antifungal biocontrol activity
-    description: Biocontrol or antifungal activity against Sphaerulina musiva.
-    range: float
+  bacterial_strain_identifier:
+    title: bacterial strain identifier
+    description: Identifier for the Bacillus velezensis EB14 biocontrol strain.
+    range: string
     aliases:
-    - antifungal_activity
-    - inhibition_zone
-    - biocontrol_activity
+    - strain_id
+    - isolate_id
+    - organism
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: Bacillus velezensis EB14
-      method: antifungal activity assay
-      value_type: NUMERIC
+      role: IDENTIFIER
+      measured_entity: Bacillus velezensis strain
+      levels: EB14
+      value_type: IDENTIFIER
+  host_isolation_source:
+    title: host isolation source
+    description: Populus host source from which EB14 was isolated.
+    range: HostIsolationSourceEnum
+    aliases:
+    - host
+    - isolation_source
+    - host_common_name
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacterial isolation context
+      material_or_matrix: Populus endosphere
+      value_type: CATEGORICAL
   antimicrobial_biosynthetic_gene_cluster:
     title: antimicrobial biosynthetic gene cluster
     description: Predicted biosynthetic gene cluster for antimicrobial compounds such as iturin A, subtulene
@@ -60,35 +73,19 @@ slots:
       measured_entity: Bacillus velezensis genome
       method: genome annotation and biosynthetic gene cluster prediction
       value_type: ARRAY
-  bacterial_strain_identifier:
-    title: bacterial strain identifier
-    description: Identifier for the Bacillus velezensis EB14 biocontrol strain.
-    range: string
+  antifungal_biocontrol_activity:
+    title: antifungal biocontrol activity
+    description: Biocontrol or antifungal activity against Sphaerulina musiva.
+    range: float
     aliases:
-    - strain_id
-    - isolate_id
-    - organism
+    - antifungal_activity
+    - inhibition_zone
+    - biocontrol_activity
     annotations:
-      role: IDENTIFIER
-      measured_entity: Bacillus velezensis strain
-      value_type: IDENTIFIER
-  host_isolation_source:
-    title: host isolation source
-    description: Populus host source from which EB14 was isolated.
-    range: HostIsolationSourceEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
-    aliases:
-    - host
-    - isolation_source
-    - host_common_name
-    annotations:
-      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: bacterial isolation context
-      material_or_matrix: Populus endosphere
-      value_type: CATEGORICAL
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Bacillus velezensis EB14
+      method: antifungal activity assay
+      value_type: NUMERIC
 enums:
   HostIsolationSourceEnum:
     permissible_values:

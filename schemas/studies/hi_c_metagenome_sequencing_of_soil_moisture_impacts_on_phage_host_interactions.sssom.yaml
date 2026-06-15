@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:soil_moisture_condition
+  subject_label: soil moisture condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000185
+  object_label: water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_condition
+  subject_label: soil moisture condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000591
+  object_label: watering regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_condition
+  subject_label: soil moisture condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_condition
+  subject_label: soil moisture condition
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000301
+  object_label: total soil water content
+  mapping_justification: semapv:ManualMappingCuration

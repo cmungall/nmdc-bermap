@@ -27,24 +27,39 @@ classes:
   Record:
     description: Per-record data dictionary for study systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7.
     slots:
-    - cryo_em_usable_particle_density
-    - infectious_phage_titer
     - production_scale
     - purification_workflow
+    - infectious_phage_titer
+    - cryo_em_usable_particle_density
 slots:
-  cryo_em_usable_particle_density:
-    title: cryo-EM usable particle density
-    description: Usable particles per field of view or data collection efficiency for cryo-EM preparations.
+  production_scale:
+    title: production scale
+    description: Culture or production volume used for P-SSP7 cyanophage scale-up.
     range: float
+    unit:
+      descriptive_name: liter
+      ucum_code: L
     aliases:
-    - usable_particles
-    - particles_per_field
-    - data_collection_time
+    - production_volume
+    - culture_volume
+    - scale
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: cryo-EM cyanophage preparation
-      method: cryo-electron microscopy data collection
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanophage production culture
+      levels: lab volume | 40-liter scale
       value_type: NUMERIC
+  purification_workflow:
+    title: purification workflow
+    description: Purification step or workflow used to enrich usable cyanophage particles.
+    range: string
+    aliases:
+    - purification_step
+    - purification_method
+    - workflow
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanophage purification batch
+      value_type: CATEGORICAL
   infectious_phage_titer:
     title: infectious phage titer
     description: P-SSP7 infectious unit concentration or total recovered infectious units.
@@ -60,34 +75,16 @@ slots:
       measured_entity: cyanophage P-SSP7 preparation
       method: phage titer assay
       value_type: NUMERIC
-  production_scale:
-    title: production scale
-    description: Culture or production volume used for P-SSP7 cyanophage scale-up.
+  cryo_em_usable_particle_density:
+    title: cryo-EM usable particle density
+    description: Usable particles per field of view or data collection efficiency for cryo-EM preparations.
     range: float
-    unit:
-      descriptive_name: liter
-      ucum_code: L
-    exact_mappings:
-    - MIXS:0000008
     aliases:
-    - production_volume
-    - culture_volume
-    - scale
+    - usable_particles
+    - particles_per_field
+    - data_collection_time
     annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: cyanophage production culture
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: cryo-EM cyanophage preparation
+      method: cryo-electron microscopy data collection
       value_type: NUMERIC
-  purification_workflow:
-    title: purification workflow
-    description: Purification step or workflow used to enrich usable cyanophage particles.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - purification_step
-    - purification_method
-    - workflow
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: cyanophage purification batch
-      value_type: CATEGORICAL

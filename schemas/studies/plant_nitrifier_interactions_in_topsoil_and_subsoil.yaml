@@ -25,18 +25,32 @@ classes:
   Record:
     description: Per-record data dictionary for study plant_nitrifier_interactions_in_topsoil_and_subsoil.
     slots:
+    - soil_depth
     - nitrifier_community_composition
     - plant_nitrifier_interaction_mechanism
-    - soil_depth
 slots:
+  soil_depth:
+    title: soil depth
+    description: Soil profile depth interval sampled under Miscanthus.
+    range: float
+    unit:
+      descriptive_name: cm
+      ucum_code: cm
+    aliases:
+    - depth
+    - soil_depth
+    - profile_depth
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
+      measured_entity: soil profile
+      material_or_matrix: soil
+      levels: topsoil | subsoil
+      value_type: NUMERIC
   nitrifier_community_composition:
     title: nitrifier community composition
     description: 16S amplicon profile of nitrifying microorganisms across topsoil and subsoil.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - nitrifier_profile
     - asv_table
@@ -59,23 +73,3 @@ slots:
       role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
       measured_entity: plant-nitrifier interaction
       value_type: CATEGORICAL
-  soil_depth:
-    title: soil depth
-    description: Soil profile depth interval sampled under Miscanthus.
-    range: float
-    unit:
-      descriptive_name: cm
-      ucum_code: cm
-    exact_mappings:
-    - MIXS:0000018
-    - MIXS:0000008
-    slot_uri: MIXS:0000018
-    aliases:
-    - depth
-    - soil_depth
-    - profile_depth
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
-      measured_entity: soil profile
-      material_or_matrix: soil
-      value_type: NUMERIC

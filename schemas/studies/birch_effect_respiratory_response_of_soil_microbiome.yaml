@@ -25,11 +25,54 @@ classes:
   Record:
     description: Per-record data dictionary for study birch_effect_respiratory_response_of_soil_microbiome.
     slots:
-    - metabolite_response_profile
     - moisture_shift_treatment
     - response_elapsed_time
     - soil_respiration_rate
+    - metabolite_response_profile
 slots:
+  moisture_shift_treatment:
+    title: moisture shift treatment
+    description: Drying or rewetting moisture perturbation applied to soil microbiome incubations.
+    range: string
+    aliases:
+    - moisture_shift
+    - rewetting_treatment
+    - drying_rewetting
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil moisture perturbation
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  response_elapsed_time:
+    title: response elapsed time
+    description: Time after moisture shift at which respiration was measured.
+    range: float
+    unit:
+      descriptive_name: seconds or minutes
+    aliases:
+    - elapsed_time
+    - time_after_rewetting
+    - response_time
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: respiration sampling event
+      temporal_resolution: 90 seconds to 90 minutes
+      time_series: 'true'
+      value_type: NUMERIC
+  soil_respiration_rate:
+    title: soil respiration rate
+    description: Rapid respiratory response of the soil microbiome after moisture shift.
+    range: float
+    aliases:
+    - respiration_rate
+    - CO2_flux
+    - respiratory_response
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil microbial respiration
+      material_or_matrix: soil
+      method: real-time respiration measurement
+      value_type: NUMERIC
   metabolite_response_profile:
     title: metabolite response profile
     description: Metabolomic response associated with rapid soil microbiome remodeling after moisture
@@ -46,53 +89,3 @@ slots:
       material_or_matrix: soil
       method: metabolomics
       value_type: ARRAY
-  moisture_shift_treatment:
-    title: moisture shift treatment
-    description: Drying or rewetting moisture perturbation applied to soil microbiome incubations.
-    range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000591
-    - MIXS:0000008
-    - BERVO:0000301
-    slot_uri: MIXS:0000754
-    aliases:
-    - moisture_shift
-    - rewetting_treatment
-    - drying_rewetting
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: soil moisture perturbation
-      material_or_matrix: soil
-      value_type: CATEGORICAL
-  response_elapsed_time:
-    title: response elapsed time
-    description: Time after moisture shift at which respiration was measured.
-    range: float
-    unit:
-      descriptive_name: seconds or minutes
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - elapsed_time
-    - time_after_rewetting
-    - response_time
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: respiration sampling event
-      temporal_resolution: 90 seconds to 90 minutes
-      value_type: NUMERIC
-  soil_respiration_rate:
-    title: soil respiration rate
-    description: Rapid respiratory response of the soil microbiome after moisture shift.
-    range: float
-    aliases:
-    - respiration_rate
-    - CO2_flux
-    - respiratory_response
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: soil microbial respiration
-      material_or_matrix: soil
-      method: real-time respiration measurement
-      value_type: NUMERIC

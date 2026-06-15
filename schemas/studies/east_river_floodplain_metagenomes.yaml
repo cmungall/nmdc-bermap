@@ -35,10 +35,6 @@ slots:
     title: floodplain reach
     description: Watershed reach represented by each floodplain soil metagenome sample.
     range: FloodplainReachEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
     aliases:
     - reach
     - watershed_position
@@ -53,9 +49,6 @@ slots:
     description: Taxonomic and functional metagenome profile for East River floodplain soils.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - metagenome_profile
     - taxonomic_profile

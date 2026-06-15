@@ -26,19 +26,27 @@ classes:
   Record:
     description: Per-record data dictionary for study populus_variovorax_syncom28_compartment_partitioning.
     slots:
+    - variovorax_strain
     - populus_host_species
     - root_associated_compartment
     - strain_compartment_abundance
-    - variovorax_strain
 slots:
+  variovorax_strain:
+    title: Variovorax strain
+    description: Member strain of the 28-strain Populus Variovorax synthetic community.
+    range: string
+    aliases:
+    - strain_id
+    - isolate_id
+    - genome_accession
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Variovorax strain
+      value_type: IDENTIFIER
   populus_host_species:
     title: Populus host species
     description: Populus host species used for synthetic community compartment partitioning assays.
     range: PopulusHostSpeciesEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
     aliases:
     - host_species
     - host_common_name
@@ -50,12 +58,6 @@ slots:
     title: root-associated compartment
     description: Populus root-associated compartment where each Variovorax strain was quantified.
     range: RootAssociatedCompartmentEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    - ENVO:00005801
-    slot_uri: MIXS:0000013
     aliases:
     - compartment
     - sample_type
@@ -78,20 +80,6 @@ slots:
       material_or_matrix: Populus rhizosphere and endosphere
       method: strain-resolved metagenomics
       value_type: NUMERIC
-  variovorax_strain:
-    title: Variovorax strain
-    description: Member strain of the 28-strain Populus Variovorax synthetic community.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - strain_id
-    - isolate_id
-    - genome_accession
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
-      measured_entity: Variovorax strain
-      value_type: IDENTIFIER
 enums:
   PopulusHostSpeciesEnum:
     permissible_values:

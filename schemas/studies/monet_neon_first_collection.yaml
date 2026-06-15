@@ -26,44 +26,13 @@ classes:
   Record:
     description: Per-record data dictionary for study monet_neon_first_collection.
     slots:
-    - collection_date
-    - neon_ecoregion
     - neon_site_identifier
-    - soil_biological_profile
-    - soil_chemical_composition_profile
-    - soil_physical_property_profile
-slots:
-  collection_date:
-    title: collection date
-    description: Date or sampling interval for MONet-NEON soil core collection.
-    range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
+    - neon_ecoregion
     - collection_date
-    - sampling_date
-    - date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: soil core sampling event
-      temporal_resolution: September 2023 to July 2024 sampling window
-      value_type: DATETIME
-  neon_ecoregion:
-    title: NEON ecoregion
-    description: Ecoregion context represented by each MONet-NEON soil core.
-    range: string
-    exact_mappings:
-    - MIXS:0000012
-    slot_uri: MIXS:0000012
-    aliases:
-    - ecoregion
-    annotations:
-      role: SPATIAL_INDEX; GROUPING
-      measured_entity: NEON terrestrial ecoregion
-      material_or_matrix: soil
-      value_type: CATEGORICAL
+    - soil_physical_property_profile
+    - soil_chemical_composition_profile
+    - soil_biological_profile
+slots:
   neon_site_identifier:
     title: NEON site identifier
     description: NEON terrestrial site represented by each MONet soil core.
@@ -76,20 +45,44 @@ slots:
       measured_entity: NEON terrestrial sampling site
       material_or_matrix: soil
       value_type: IDENTIFIER
-  soil_biological_profile:
-    title: soil biological profile
-    description: Biological and microbial characterization of MONet-NEON soil cores.
+  neon_ecoregion:
+    title: NEON ecoregion
+    description: Ecoregion context represented by each MONet-NEON soil core.
+    range: string
+    aliases:
+    - ecoregion
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: NEON terrestrial ecoregion
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  collection_date:
+    title: collection date
+    description: Date or sampling interval for MONet-NEON soil core collection.
+    range: datetime
+    aliases:
+    - collection_date
+    - sampling_date
+    - date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil core sampling event
+      temporal_resolution: September 2023 to July 2024 sampling window
+      time_series: 'true'
+      value_type: DATETIME
+  soil_physical_property_profile:
+    title: soil physical property profile
+    description: Physical characterization of MONet-NEON soil cores.
     multivalued: true
     range: string
     aliases:
-    - biological_profile
-    - metagenome_profile
-    - microbial_biomass
+    - soil_physical_property
+    - texture
+    - pore_structure
     annotations:
       role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil biological community
+      measured_entity: soil physical properties
       material_or_matrix: soil core
-      method: metagenomics and biological assays
       value_type: ARRAY
   soil_chemical_composition_profile:
     title: soil chemical composition profile
@@ -106,17 +99,18 @@ slots:
       material_or_matrix: soil core
       method: FTICR-MS and geochemical analysis
       value_type: ARRAY
-  soil_physical_property_profile:
-    title: soil physical property profile
-    description: Physical characterization of MONet-NEON soil cores.
+  soil_biological_profile:
+    title: soil biological profile
+    description: Biological and microbial characterization of MONet-NEON soil cores.
     multivalued: true
     range: string
     aliases:
-    - soil_physical_property
-    - texture
-    - pore_structure
+    - biological_profile
+    - metagenome_profile
+    - microbial_biomass
     annotations:
       role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil physical properties
+      measured_entity: soil biological community
       material_or_matrix: soil core
+      method: metagenomics and biological assays
       value_type: ARRAY

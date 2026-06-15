@@ -1,0 +1,19 @@
+mappings:
+- subject_id: profiles:src1_inoculation
+  subject_label: SRC1 inoculation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:src1_inoculation
+  subject_label: SRC1 inoculation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:synthetic_community_strain_abundance
+  subject_label: synthetic community strain abundance
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

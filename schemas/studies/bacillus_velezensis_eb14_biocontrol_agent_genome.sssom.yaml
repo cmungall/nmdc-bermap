@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:host_isolation_source
+  subject_label: host isolation source
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_isolation_source
+  subject_label: host isolation source
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

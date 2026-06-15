@@ -1,0 +1,37 @@
+mappings:
+- subject_id: profiles:drought_treatment
+  subject_label: drought treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:drought_treatment
+  subject_label: drought treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000591
+  object_label: watering regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:drought_treatment
+  subject_label: drought treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:cropping_system
+  subject_label: cropping system
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:cropping_system
+  subject_label: cropping system
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_metagenome_profile
+  subject_label: soil metagenome profile
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

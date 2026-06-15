@@ -26,32 +26,15 @@ classes:
   Record:
     description: Per-record data dictionary for study sorghum_phyllosphere_microbiome.
     slots:
-    - bacterial_isolate_identity
     - host_crop
     - plant_associated_compartment
     - sorghum_associated_microbial_community_composition
+    - bacterial_isolate_identity
 slots:
-  bacterial_isolate_identity:
-    title: bacterial isolate identity
-    description: Identity of culturable sorghum-associated bacteria isolated from aerial root mucilage.
-    range: string
-    aliases:
-    - isolate_id
-    - strain_id
-    - genome_accession
-    annotations:
-      role: IDENTIFIER; MEASURED_VARIABLE
-      measured_entity: sorghum-associated bacterial isolate
-      method: bacterial isolation and genome sequencing
-      value_type: IDENTIFIER
   host_crop:
     title: host crop
     description: Sorghum host associated with phyllosphere, aerial root mucilage, or rhizosphere samples.
     range: HostCommonNameEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
     aliases:
     - host_common_name
     - crop
@@ -64,11 +47,6 @@ slots:
     title: plant-associated compartment
     description: Sorghum plant-associated habitat sampled for community profiling or isolate recovery.
     range: PlantAssociatedCompartmentEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
     aliases:
     - compartment
     - sample_type
@@ -93,6 +71,19 @@ slots:
       material_or_matrix: phyllosphere, aerial root mucilage, and rhizosphere
       method: amplicon sequencing, metagenomics, and metatranscriptomics
       value_type: ARRAY
+  bacterial_isolate_identity:
+    title: bacterial isolate identity
+    description: Identity of culturable sorghum-associated bacteria isolated from aerial root mucilage.
+    range: string
+    aliases:
+    - isolate_id
+    - strain_id
+    - genome_accession
+    annotations:
+      role: IDENTIFIER; MEASURED_VARIABLE
+      measured_entity: sorghum-associated bacterial isolate
+      method: bacterial isolation and genome sequencing
+      value_type: IDENTIFIER
 enums:
   PlantAssociatedCompartmentEnum:
     permissible_values:

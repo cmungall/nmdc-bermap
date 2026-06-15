@@ -27,36 +27,15 @@ classes:
   Record:
     description: Per-record data dictionary for study kbs_mcse_long_term_cropping_experiment_metagenomes.
     slots:
-    - cropping_system
     - drought_treatment
+    - cropping_system
     - microbial_stress_tolerance_allocation
     - soil_metagenome_profile
 slots:
-  cropping_system:
-    title: cropping system
-    description: Long-term KBS MCSE cropping-system treatment represented by each soil sample.
-    range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - cropping_system
-    - crop_rotation
-    - treatment
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: agricultural field plot
-      value_type: CATEGORICAL
   drought_treatment:
     title: drought treatment
     description: Field drought manipulation used to test microbial allocation to stress tolerance.
     range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000591
-    - MIXS:0000008
-    slot_uri: MIXS:0000754
     aliases:
     - drought_treatment
     - water_treatment
@@ -64,6 +43,18 @@ slots:
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: cropping-system field plot
+      value_type: CATEGORICAL
+  cropping_system:
+    title: cropping system
+    description: Long-term KBS MCSE cropping-system treatment represented by each soil sample.
+    range: string
+    aliases:
+    - cropping_system
+    - crop_rotation
+    - treatment
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: agricultural field plot
       value_type: CATEGORICAL
   microbial_stress_tolerance_allocation:
     title: microbial stress tolerance allocation
@@ -85,9 +76,6 @@ slots:
     description: Taxonomic and functional composition of soil microbial communities in KBS MCSE plots.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - metagenome_profile
     - taxonomic_profile

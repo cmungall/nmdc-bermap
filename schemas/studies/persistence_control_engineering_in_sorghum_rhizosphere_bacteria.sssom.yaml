@@ -1,0 +1,43 @@
+mappings:
+- subject_id: profiles:engineered_rhizosphere_bacterial_strain
+  subject_label: engineered rhizosphere bacterial strain
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:genome_edit_or_pathway_perturbation
+  subject_label: genome edit or pathway perturbation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:rhizosphere_environmental_context
+  subject_label: rhizosphere environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:rhizosphere_environmental_context
+  subject_label: rhizosphere environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:rhizosphere_environmental_context
+  subject_label: rhizosphere environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:rhizosphere_environmental_context
+  subject_label: rhizosphere environmental context
+  predicate_id: skos:relatedMatch
+  object_id: ENVO:00005801
+  object_label: rhizosphere
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sorghum_root_exudate_availability
+  subject_label: sorghum root exudate availability
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

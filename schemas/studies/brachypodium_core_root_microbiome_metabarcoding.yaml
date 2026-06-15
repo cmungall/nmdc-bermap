@@ -25,23 +25,21 @@ classes:
   Record:
     description: Per-record data dictionary for study brachypodium_core_root_microbiome_metabarcoding.
     slots:
-    - cultured_isolate_recovery
-    - root_associated_bacterial_community_composition
     - soil_origin
+    - root_associated_bacterial_community_composition
+    - cultured_isolate_recovery
 slots:
-  cultured_isolate_recovery:
-    title: cultured isolate recovery
-    description: Culture-dependent recovery status or isolate set used to compare cultured and metabarcoded
-      taxa.
-    range: string
+  soil_origin:
+    title: soil origin
+    description: Source soil used to grow Brachypodium distachyon for core root microbiome analysis.
+    range: SoilOriginEnum
     aliases:
-    - isolate_recovered
-    - culture_status
-    - isolate_id
+    - soil_origin
+    - soil_type
+    - growth_soil
     annotations:
-      role: MEASURED_VARIABLE; DERIVED
-      measured_entity: root-associated bacterial taxon
-      method: bacterial isolation and culture comparison
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: plant growth soil
       value_type: CATEGORICAL
   root_associated_bacterial_community_composition:
     title: root-associated bacterial community composition
@@ -58,22 +56,19 @@ slots:
       material_or_matrix: root-associated microbiome samples
       method: 16S rRNA amplicon sequencing
       value_type: ARRAY
-  soil_origin:
-    title: soil origin
-    description: Source soil used to grow Brachypodium distachyon for core root microbiome analysis.
-    range: SoilOriginEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
+  cultured_isolate_recovery:
+    title: cultured isolate recovery
+    description: Culture-dependent recovery status or isolate set used to compare cultured and metabarcoded
+      taxa.
+    range: string
     aliases:
-    - soil_origin
-    - soil_type
-    - growth_soil
+    - isolate_recovered
+    - culture_status
+    - isolate_id
     annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: plant growth soil
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: root-associated bacterial taxon
+      method: bacterial isolation and culture comparison
       value_type: CATEGORICAL
 enums:
   SoilOriginEnum:

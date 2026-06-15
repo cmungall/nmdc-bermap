@@ -27,43 +27,20 @@ classes:
   Record:
     description: Per-record data dictionary for study 1000_soils_pilot.
     slots:
-    - microbial_biomass_carbon
     - sampling_ecoregion
     - soil_core_depth
-    - soil_metagenome_profile
     - soil_organic_matter_molecular_composition
-    - soil_ph
     - soil_pore_network_structure
-    - soil_respiration
+    - soil_metagenome_profile
     - soil_water_characteristic
-slots:
-  microbial_biomass_carbon:
-    title: microbial biomass carbon
-    description: Microbial biomass carbon measured as part of MONet soil biological characterization.
-    range: float
-    unit:
-      descriptive_name: microgram per gram
-      ucum_code: ug/g
-    exact_mappings:
-    - BERVO:0000995
-    slot_uri: BERVO:0000995
-    aliases:
-    - microbial_biomass_C
+    - soil_ph
     - microbial_biomass_carbon
-    - biomass_C
-    annotations:
-      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
-      measured_entity: soil microbial biomass
-      material_or_matrix: soil
-      value_type: NUMERIC
+    - soil_respiration
+slots:
   sampling_ecoregion:
     title: sampling ecoregion
     description: US ecoregion or site context represented by the standardized soil sample.
     range: string
-    exact_mappings:
-    - MIXS:0000012
-    - MIXS:0000013
-    slot_uri: MIXS:0000012
     aliases:
     - ecoregion
     - site
@@ -80,10 +57,6 @@ slots:
     unit:
       descriptive_name: centimeter
       ucum_code: cm
-    exact_mappings:
-    - MIXS:0000018
-    - MIXS:0000008
-    slot_uri: MIXS:0000018
     aliases:
     - depth
     - soil_depth
@@ -93,24 +66,6 @@ slots:
       measured_entity: soil core
       material_or_matrix: soil
       value_type: NUMERIC
-  soil_metagenome_profile:
-    title: soil metagenome profile
-    description: Metagenomic sequence and annotation profile generated through the JGI partnership.
-    multivalued: true
-    range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - metagenome_profile
-    - taxonomic_profile
-    - functional_profile
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: soil microbial community
-      material_or_matrix: soil
-      method: metagenomic sequencing
-      value_type: ARRAY
   soil_organic_matter_molecular_composition:
     title: soil organic matter molecular composition
     description: Organic matter molecular features measured by FTICR-MS.
@@ -126,22 +81,6 @@ slots:
       material_or_matrix: soil
       method: FTICR-MS
       value_type: ARRAY
-  soil_ph:
-    title: soil pH
-    description: Soil pH measurement included in MONet geochemical characterization.
-    range: float
-    exact_mappings:
-    - BERVO:0000882
-    slot_uri: BERVO:0000882
-    aliases:
-    - soil_pH
-    - ph
-    - pH
-    annotations:
-      role: MEASURED_VARIABLE; COVARIATE
-      measured_entity: soil acidity
-      material_or_matrix: soil
-      value_type: NUMERIC
   soil_pore_network_structure:
     title: soil pore network structure
     description: Three-dimensional pore structure metrics measured by X-ray computed tomography.
@@ -157,6 +96,65 @@ slots:
       material_or_matrix: soil core
       method: X-ray computed tomography
       value_type: ARRAY
+  soil_metagenome_profile:
+    title: soil metagenome profile
+    description: Metagenomic sequence and annotation profile generated through the JGI partnership.
+    multivalued: true
+    range: string
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil
+      method: metagenomic sequencing
+      value_type: ARRAY
+  soil_water_characteristic:
+    title: soil water characteristic
+    description: Soil water-related measurement included in MONet physical and hydraulic characterization.
+    range: float
+    aliases:
+    - soil_water_content
+    - water_content
+    - hydraulic_property
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: soil water content
+      material_or_matrix: soil
+      value_type: NUMERIC
+  soil_ph:
+    title: soil pH
+    description: Soil pH measurement included in MONet geochemical characterization.
+    range: float
+    aliases:
+    - soil_pH
+    - ph
+    - pH
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: soil acidity
+      material_or_matrix: soil
+      value_type: NUMERIC
+  microbial_biomass_carbon:
+    title: microbial biomass carbon
+    description: Microbial biomass carbon measured as part of MONet soil biological characterization.
+    range: float
+    unit:
+      descriptive_name: microgram per gram
+      ucum_code: ug/g
+    aliases:
+    - microbial_biomass_C
+    - microbial_biomass_carbon
+    - biomass_C
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial biomass
+      material_or_matrix: soil
+      notes: BERVO has a generic microbial biomass chemical element term but no carbon-specific microbial
+        biomass term.
+      value_type: NUMERIC
   soil_respiration:
     title: soil respiration
     description: Soil respiration measurement included in MONet biogeochemical characterization.
@@ -169,21 +167,6 @@ slots:
       role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
       measured_entity: soil respiration
       material_or_matrix: soil
-      value_type: NUMERIC
-  soil_water_characteristic:
-    title: soil water characteristic
-    description: Soil water-related measurement included in MONet physical and hydraulic characterization.
-    range: float
-    exact_mappings:
-    - MIXS:0000185
-    - BERVO:0000301
-    slot_uri: MIXS:0000185
-    aliases:
-    - soil_water_content
-    - water_content
-    - hydraulic_property
-    annotations:
-      role: MEASURED_VARIABLE; COVARIATE
-      measured_entity: soil water content
-      material_or_matrix: soil
+      notes: Left without a BERVO primary mapping because available BERVO respiration terms are broader
+        or model-specific and not an exact fit for the measured MONet assay.
       value_type: NUMERIC

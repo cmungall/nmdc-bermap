@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:test_bacterial_species
+  subject_label: test bacterial species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:carbon_source
+  subject_label: carbon source
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

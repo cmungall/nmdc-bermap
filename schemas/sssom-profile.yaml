@@ -1,0 +1,64 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sssom-profile
+name: sssom-profile
+description: >-
+  Minimal LinkML profile of SSSOM used only to drive linkml-term-validator's binding/label
+  check over the per-schema *.sssom.tsv mapping tables: it binds object_id and marks
+  object_label as a label slot so LTV verifies object_label == ontology label of object_id.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  sssom: https://w3id.org/sssom/
+  skos: http://www.w3.org/2004/02/skos/core#
+  semapv: https://w3id.org/semapv/vocab/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  MIXS: https://w3id.org/mixs/
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  obo: http://purl.obolibrary.org/obo/
+default_range: string
+default_prefix: profiles
+imports:
+  - linkml:types
+
+classes:
+  MappingSet:
+    tree_root: true
+    slots:
+      - mappings
+  Mapping:
+    class_uri: sssom:Mapping
+    slots:
+      - subject_id
+      - subject_label
+      - predicate_id
+      - object_id
+      - object_label
+      - mapping_justification
+
+slots:
+  mappings:
+    multivalued: true
+    inlined_as_list: true
+    range: Mapping
+    bindings:
+      - binds_value_of: object_id
+        range: OntologyTermEnum
+        obligation_level: REQUIRED
+  subject_id:
+    range: uriorcurie
+  subject_label: {}
+  predicate_id:
+    range: uriorcurie
+  object_id:
+    range: uriorcurie
+  object_label:
+    slot_uri: rdfs:label
+  mapping_justification:
+    range: uriorcurie
+
+enums:
+  OntologyTermEnum:
+    description: Placeholder binding range; only object_label vs object_id is checked here.

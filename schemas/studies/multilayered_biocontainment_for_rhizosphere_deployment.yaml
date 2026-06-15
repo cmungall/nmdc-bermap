@@ -25,18 +25,28 @@ classes:
   Record:
     description: Per-record data dictionary for study multilayered_biocontainment_for_rhizosphere_deployment.
     slots:
+    - engineered_microbial_strain
     - biocontainment_design
+    - rhizosphere_deployment_context
     - containment_efficacy
     - containment_transcriptomic_response
-    - engineered_microbial_strain
-    - rhizosphere_deployment_context
 slots:
+  engineered_microbial_strain:
+    title: engineered microbial strain
+    description: Engineered environmental microbial strain or chassis carrying a containment design.
+    range: string
+    aliases:
+    - strain_id
+    - chassis
+    - engineered_strain
+    annotations:
+      role: IDENTIFIER; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: engineered environmental microorganism
+      value_type: IDENTIFIER
   biocontainment_design:
     title: biocontainment design
     description: Multilayered containment strategy including kill-switch or gene-overlap architecture.
     range: BiocontainmentDesignEnum
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - containment_design
     - kill_switch
@@ -44,6 +54,19 @@ slots:
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: biocontainment circuit
+      value_type: CATEGORICAL
+  rhizosphere_deployment_context:
+    title: rhizosphere deployment context
+    description: Soil or rhizosphere environment used to test engineered microbe containment.
+    range: string
+    aliases:
+    - deployment_context
+    - environment
+    - rhizosphere_context
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: deployment environment
+      material_or_matrix: rhizosphere
       value_type: CATEGORICAL
   containment_efficacy:
     title: containment efficacy
@@ -73,39 +96,6 @@ slots:
       measured_entity: engineered environmental microorganism
       method: transcriptomics
       value_type: ARRAY
-  engineered_microbial_strain:
-    title: engineered microbial strain
-    description: Engineered environmental microbial strain or chassis carrying a containment design.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - strain_id
-    - chassis
-    - engineered_strain
-    annotations:
-      role: IDENTIFIER; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: engineered environmental microorganism
-      value_type: IDENTIFIER
-  rhizosphere_deployment_context:
-    title: rhizosphere deployment context
-    description: Soil or rhizosphere environment used to test engineered microbe containment.
-    range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    - ENVO:00005801
-    slot_uri: MIXS:0000013
-    aliases:
-    - deployment_context
-    - environment
-    - rhizosphere_context
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: deployment environment
-      material_or_matrix: rhizosphere
-      value_type: CATEGORICAL
 enums:
   BiocontainmentDesignEnum:
     permissible_values:

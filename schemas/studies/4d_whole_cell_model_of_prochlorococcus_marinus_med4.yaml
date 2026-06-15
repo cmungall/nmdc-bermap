@@ -30,24 +30,49 @@ classes:
   Record:
     description: Per-record data dictionary for study 4d_whole_cell_model_of_prochlorococcus_marinus_med4.
     slots:
-    - central_carbon_metabolic_flux
-    - dark_complex_assembly_state
-    - intracellular_spatial_compartment
     - light_perturbation
+    - intracellular_spatial_compartment
     - simulation_time_point
+    - dark_complex_assembly_state
+    - central_carbon_metabolic_flux
 slots:
-  central_carbon_metabolic_flux:
-    title: central carbon metabolic flux
-    description: Modeled local flux through central carbon metabolism and Calvin-Benson cycle reactions.
+  light_perturbation:
+    title: light perturbation
+    description: Light condition or perturbation represented in the Prochlorococcus whole-cell model.
+    range: string
+    aliases:
+    - light_condition
+    - light_perturbation
+    - simulation_condition
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; EXPERIMENTAL_FACTOR
+      measured_entity: Prochlorococcus model state
+      value_type: CATEGORICAL
+  intracellular_spatial_compartment:
+    title: intracellular spatial compartment
+    description: Spatial region or structure represented in the 4D whole-cell simulation.
+    range: string
+    aliases:
+    - compartment
+    - spatial_region
+    - structure_id
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: Prochlorococcus intracellular structure
+      spatial_resolution: 10 nm cryo-ET structural constraint scale
+      value_type: CATEGORICAL
+  simulation_time_point:
+    title: simulation time point
+    description: Time coordinate in the 4D whole-cell model.
     range: float
     aliases:
-    - flux
-    - metabolic_flux
-    - CBC_flux
+    - simulation_time
+    - time_point
+    - model_time
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
-      measured_entity: Prochlorococcus central carbon metabolism
-      method: spatiotemporal whole-cell modeling
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: whole-cell simulation state
+      time_series: 'true'
       value_type: NUMERIC
   dark_complex_assembly_state:
     title: dark complex assembly state
@@ -63,46 +88,16 @@ slots:
       measured_entity: Calvin-Benson cycle regulatory complex
       method: Lattice Microbes whole-cell simulation
       value_type: CATEGORICAL
-  intracellular_spatial_compartment:
-    title: intracellular spatial compartment
-    description: Spatial region or structure represented in the 4D whole-cell simulation.
-    range: string
-    aliases:
-    - compartment
-    - spatial_region
-    - structure_id
-    annotations:
-      role: SPATIAL_INDEX; GROUPING
-      measured_entity: Prochlorococcus intracellular structure
-      spatial_resolution: 10 nm cryo-ET structural constraint scale
-      value_type: CATEGORICAL
-  light_perturbation:
-    title: light perturbation
-    description: Light condition or perturbation represented in the Prochlorococcus whole-cell model.
-    range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000008
-    slot_uri: MIXS:0000754
-    aliases:
-    - light_condition
-    - light_perturbation
-    - simulation_condition
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; EXPERIMENTAL_FACTOR
-      measured_entity: Prochlorococcus model state
-      value_type: CATEGORICAL
-  simulation_time_point:
-    title: simulation time point
-    description: Time coordinate in the 4D whole-cell model.
+  central_carbon_metabolic_flux:
+    title: central carbon metabolic flux
+    description: Modeled local flux through central carbon metabolism and Calvin-Benson cycle reactions.
     range: float
-    exact_mappings:
-    - MIXS:0000008
     aliases:
-    - simulation_time
-    - time_point
-    - model_time
+    - flux
+    - metabolic_flux
+    - CBC_flux
     annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: whole-cell simulation state
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: Prochlorococcus central carbon metabolism
+      method: spatiotemporal whole-cell modeling
       value_type: NUMERIC

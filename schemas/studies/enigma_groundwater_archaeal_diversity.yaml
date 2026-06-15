@@ -26,18 +26,14 @@ classes:
     description: Per-record data dictionary for study enigma_groundwater_archaeal_diversity.
     slots:
     - aquifer_sampling_context
-    - archaeal_diversity_profile
     - archaeal_genome_bin
     - archaeal_taxonomic_assignment
+    - archaeal_diversity_profile
 slots:
   aquifer_sampling_context:
     title: aquifer sampling context
     description: Subsurface aquifer context represented by each groundwater metagenome sample.
     range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    slot_uri: MIXS:0000013
     aliases:
     - aquifer
     - sampling_context
@@ -47,21 +43,6 @@ slots:
       measured_entity: aquifer sampling environment
       material_or_matrix: groundwater
       value_type: CATEGORICAL
-  archaeal_diversity_profile:
-    title: archaeal diversity profile
-    description: Genome-resolved diversity profile of archaeal lineages in groundwater subsurface samples.
-    multivalued: true
-    range: string
-    aliases:
-    - archaeal_diversity
-    - archaeal_profile
-    - genome_resolved_profile
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: groundwater archaeal community
-      material_or_matrix: groundwater
-      method: metagenomic sequencing and genome-resolved analysis
-      value_type: ARRAY
   archaeal_genome_bin:
     title: archaeal genome bin
     description: Archaeal metagenome-assembled genome recovered from genome-resolved metagenomics.
@@ -88,3 +69,18 @@ slots:
       measured_entity: archaeal genome
       method: genome-resolved taxonomic classification
       value_type: ONTOLOGY_TERM
+  archaeal_diversity_profile:
+    title: archaeal diversity profile
+    description: Genome-resolved diversity profile of archaeal lineages in groundwater subsurface samples.
+    multivalued: true
+    range: string
+    aliases:
+    - archaeal_diversity
+    - archaeal_profile
+    - genome_resolved_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: groundwater archaeal community
+      material_or_matrix: groundwater
+      method: metagenomic sequencing and genome-resolved analysis
+      value_type: ARRAY

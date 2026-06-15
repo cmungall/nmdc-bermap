@@ -26,11 +26,29 @@ classes:
   Record:
     description: Per-record data dictionary for study mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function.
     slots:
-    - barcode_to_locus_map
-    - growth_condition
-    - per_gene_fitness_value
     - test_bacterial_species
+    - growth_condition
+    - barcode_to_locus_map
+    - per_gene_fitness_value
 slots:
+  test_bacterial_species:
+    title: test bacterial species
+    description: Bacterial species used as the parent strain for RB-TnSeq library construction and fitness
+      profiling.
+    range: TestBacterialSpeciesEnum
+    annotations:
+      role: EXPERIMENTAL_FACTOR; GROUPING
+      measured_entity: bacterial species
+      value_type: CATEGORICAL
+  growth_condition:
+    title: growth condition
+    description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other
+      stressor) applied to each library aliquot.
+    range: GrowthConditionEnum
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: defined growth condition (selective agent)
+      value_type: CATEGORICAL
   barcode_to_locus_map:
     title: barcode-to-locus map
     description: Mapping from each library's random 20-bp barcodes to the transposon insertion sites in
@@ -42,17 +60,6 @@ slots:
       role: IDENTIFIER; DERIVED
       method: TnSeq (transposon-junction sequencing)
       value_type: ARRAY
-  growth_condition:
-    title: growth condition
-    description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other
-      stressor) applied to each library aliquot.
-    range: GrowthConditionEnum
-    exact_mappings:
-    - MIXS:0000008
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: defined growth condition (selective agent)
-      value_type: CATEGORICAL
   per_gene_fitness_value:
     title: per-gene fitness value
     description: log2(end-of-experiment barcode abundance / Time0 abundance) per insertion-bearing gene,
@@ -65,25 +72,7 @@ slots:
       measured_entity: bacterial gene
       method: BarSeq amplicon read counting, normalized
       value_type: NUMERIC
-  test_bacterial_species:
-    title: test bacterial species
-    description: Bacterial species used as the parent strain for RB-TnSeq library construction and fitness
-      profiling.
-    range: TestBacterialSpeciesEnum
-    exact_mappings:
-    - MIXS:0000008
-    annotations:
-      role: EXPERIMENTAL_FACTOR; GROUPING
-      measured_entity: bacterial species
-      value_type: CATEGORICAL
 enums:
-  GrowthConditionEnum:
-    permissible_values:
-      carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol): null
-      nitrogen source: null
-      metal stressor: null
-      antibiotic: null
-      other defined inhibitor: null
   TestBacterialSpeciesEnum:
     permissible_values:
       Escherichia coli BW25113:
@@ -92,3 +81,10 @@ enums:
       Shewanella oneidensis MR-1:
         meaning: NCBITaxon:211586
       (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes): null
+  GrowthConditionEnum:
+    permissible_values:
+      carbon source (e.g., D-glucose, D-xylose, L-arabinose, glycerol): null
+      nitrogen source: null
+      metal stressor: null
+      antibiotic: null
+      other defined inhibitor: null

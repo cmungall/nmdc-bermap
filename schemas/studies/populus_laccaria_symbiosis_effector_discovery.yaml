@@ -26,17 +26,27 @@ classes:
   Record:
     description: Per-record data dictionary for study populus_laccaria_symbiosis_effector_discovery.
     slots:
+    - symbiosis_partner
     - effector_or_receptor_gene
     - fungal_colonization_phenotype
     - symbiosis_omics_profile
-    - symbiosis_partner
 slots:
+  symbiosis_partner:
+    title: symbiosis partner
+    description: Plant or fungal partner represented in the Populus-Laccaria symbiosis assay.
+    range: SymbiosisPartnerEnum
+    aliases:
+    - organism
+    - partner
+    - species
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: symbiosis organism
+      value_type: CATEGORICAL
   effector_or_receptor_gene:
     title: effector or receptor gene
     description: Plant-derived effector protein, receptor, or small secreted protein implicated in symbiosis.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - gene_id
     - effector_id
@@ -44,6 +54,7 @@ slots:
     annotations:
       role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
       measured_entity: symbiosis effector or receptor
+      levels: PtLecRLK1 | small secreted proteins
       value_type: IDENTIFIER
   fungal_colonization_phenotype:
     title: fungal colonization phenotype
@@ -72,22 +83,6 @@ slots:
       measured_entity: Populus-Laccaria interaction
       method: transcriptomics and metabolomics
       value_type: ARRAY
-  symbiosis_partner:
-    title: symbiosis partner
-    description: Plant or fungal partner represented in the Populus-Laccaria symbiosis assay.
-    range: SymbiosisPartnerEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
-    aliases:
-    - organism
-    - partner
-    - species
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: symbiosis organism
-      value_type: CATEGORICAL
 enums:
   SymbiosisPartnerEnum:
     permissible_values:

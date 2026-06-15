@@ -25,11 +25,46 @@ classes:
   Record:
     description: Per-record data dictionary for study populus_holobiont_niche_and_genotype_effects.
     slots:
-    - bacterial_archaeal_and_fungal_community_composition
     - plant_habitat_class
-    - populus_genotype
     - tissue_level_niche
+    - populus_genotype
+    - bacterial_archaeal_and_fungal_community_composition
 slots:
+  plant_habitat_class:
+    title: plant habitat class
+    description: Broad Populus habitat class used to organize niche-level microbiome comparisons.
+    range: PlantHabitatClassEnum
+    aliases:
+    - habitat
+    - plant_habitat
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus-associated microbial habitat
+      value_type: CATEGORICAL
+  tissue_level_niche:
+    title: tissue-level niche
+    description: Fine-scale tissue or niche sampled within Populus plants and associated soils.
+    range: TissueLevelNicheEnum
+    aliases:
+    - niche
+    - tissue
+    - compartment
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus tissue-level microbial habitat
+      value_type: CATEGORICAL
+  populus_genotype:
+    title: Populus genotype
+    description: Host genotype used to test genotype effects on Populus-associated microbial communities.
+    range: string
+    aliases:
+    - genotype
+    - host_genotype
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus host plant
+      value_type: CATEGORICAL
   bacterial_archaeal_and_fungal_community_composition:
     title: bacterial archaeal and fungal community composition
     description: 16S and ITS profiles used to compare microbial communities across Populus niches and
@@ -47,55 +82,6 @@ slots:
       material_or_matrix: leaves, stems, roots, and soils
       method: 16S rRNA and ITS amplicon sequencing
       value_type: ARRAY
-  plant_habitat_class:
-    title: plant habitat class
-    description: Broad Populus habitat class used to organize niche-level microbiome comparisons.
-    range: PlantHabitatClassEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - habitat
-    - plant_habitat
-    - sample_type
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus-associated microbial habitat
-      value_type: CATEGORICAL
-  populus_genotype:
-    title: Populus genotype
-    description: Host genotype used to test genotype effects on Populus-associated microbial communities.
-    range: string
-    exact_mappings:
-    - MIXS:0000365
-    - MIXS:0000008
-    slot_uri: MIXS:0000365
-    aliases:
-    - genotype
-    - host_genotype
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus host plant
-      value_type: CATEGORICAL
-  tissue_level_niche:
-    title: tissue-level niche
-    description: Fine-scale tissue or niche sampled within Populus plants and associated soils.
-    range: TissueLevelNicheEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - niche
-    - tissue
-    - compartment
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus tissue-level microbial habitat
-      value_type: CATEGORICAL
 enums:
   PlantHabitatClassEnum:
     permissible_values:

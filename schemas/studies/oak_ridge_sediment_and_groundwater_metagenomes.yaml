@@ -25,25 +25,37 @@ classes:
   Record:
     description: Per-record data dictionary for study oak_ridge_sediment_and_groundwater_metagenomes.
     slots:
-    - metagenome_assembled_genome
-    - subsurface_microbial_community_composition
     - subsurface_sample_matrix
     - subsurface_spatial_scale
+    - subsurface_microbial_community_composition
+    - metagenome_assembled_genome
 slots:
-  metagenome_assembled_genome:
-    title: metagenome-assembled genome
-    description: Genome bins recovered from Oak Ridge sediment and groundwater metagenomes.
-    multivalued: true
+  subsurface_sample_matrix:
+    title: subsurface sample matrix
+    description: Material type represented by each Oak Ridge metagenome sample.
+    range: SubsurfaceSampleMatrixEnum
+    aliases:
+    - sample_matrix
+    - material
+    - environmental_medium
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: subsurface sample matrix
+      material_or_matrix: sediment and groundwater
+      value_type: CATEGORICAL
+  subsurface_spatial_scale:
+    title: subsurface spatial scale
+    description: Spatial grain or sampling scale represented by the metagenome sample.
     range: string
     aliases:
-    - mag_id
-    - genome_bin
-    - assembly_bin
+    - spatial_scale
+    - sampling_scale
+    - location
     annotations:
-      role: DERIVED; MEASURED_VARIABLE
-      measured_entity: subsurface microbial genome
-      method: metagenome assembly and binning
-      value_type: ARRAY
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: Oak Ridge subsurface sampling design
+      spatial_resolution: centimeter to field scale
+      value_type: CATEGORICAL
   subsurface_microbial_community_composition:
     title: subsurface microbial community composition
     description: Taxonomic and functional profile derived from sediment and groundwater metagenomes.
@@ -59,39 +71,20 @@ slots:
       material_or_matrix: sediment and groundwater
       method: metagenomic sequencing
       value_type: ARRAY
-  subsurface_sample_matrix:
-    title: subsurface sample matrix
-    description: Material type represented by each Oak Ridge metagenome sample.
-    range: SubsurfaceSampleMatrixEnum
-    exact_mappings:
-    - MIXS:0000014
-    - MIXS:0000008
-    slot_uri: MIXS:0000014
-    aliases:
-    - sample_matrix
-    - material
-    - environmental_medium
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: subsurface sample matrix
-      material_or_matrix: sediment and groundwater
-      value_type: CATEGORICAL
-  subsurface_spatial_scale:
-    title: subsurface spatial scale
-    description: Spatial grain or sampling scale represented by the metagenome sample.
+  metagenome_assembled_genome:
+    title: metagenome-assembled genome
+    description: Genome bins recovered from Oak Ridge sediment and groundwater metagenomes.
+    multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
     aliases:
-    - spatial_scale
-    - sampling_scale
-    - location
+    - mag_id
+    - genome_bin
+    - assembly_bin
     annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      measured_entity: Oak Ridge subsurface sampling design
-      spatial_resolution: centimeter to field scale
-      value_type: CATEGORICAL
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: subsurface microbial genome
+      method: metagenome assembly and binning
+      value_type: ARRAY
 enums:
   SubsurfaceSampleMatrixEnum:
     permissible_values:

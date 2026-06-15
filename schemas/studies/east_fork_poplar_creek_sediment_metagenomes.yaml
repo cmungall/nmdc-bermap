@@ -25,18 +25,27 @@ classes:
   Record:
     description: Per-record data dictionary for study east_fork_poplar_creek_sediment_metagenomes.
     slots:
-    - mercury_contamination_context
-    - mercury_methylation_gene_presence
-    - metagenome_assembled_genome
     - sediment_sampling_location
+    - mercury_contamination_context
+    - metagenome_assembled_genome
+    - mercury_methylation_gene_presence
 slots:
+  sediment_sampling_location:
+    title: sediment sampling location
+    description: East Fork Poplar Creek location represented by each contaminated sediment sample.
+    range: string
+    aliases:
+    - site
+    - location
+    - sampling_location
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: stream sediment sampling location
+      value_type: CATEGORICAL
   mercury_contamination_context:
     title: mercury contamination context
     description: Mercury-contaminated sediment context associated with metagenomic reconstruction.
     range: string
-    exact_mappings:
-    - CHEBI:25195
-    slot_uri: CHEBI:25195
     aliases:
     - mercury_contamination
     - hg_context
@@ -46,19 +55,6 @@ slots:
       measured_entity: mercury contamination
       material_or_matrix: stream sediment
       value_type: CATEGORICAL
-  mercury_methylation_gene_presence:
-    title: mercury methylation gene presence
-    description: Presence or annotation of hgcA and hgcB genes used to infer mercury methylator potential.
-    range: boolean
-    aliases:
-    - hgcA
-    - hgcB
-    - mercury_methylation_marker
-    annotations:
-      role: DERIVED; MEASURED_VARIABLE
-      measured_entity: mercury methylation gene marker
-      method: functional annotation of metagenome-assembled genomes
-      value_type: BOOLEAN
   metagenome_assembled_genome:
     title: metagenome-assembled genome
     description: Reconstructed MAG from mercury-contaminated East Fork Poplar Creek sediment metagenomes.
@@ -73,18 +69,16 @@ slots:
       material_or_matrix: stream sediment
       method: metagenome assembly and binning
       value_type: OBJECT
-  sediment_sampling_location:
-    title: sediment sampling location
-    description: East Fork Poplar Creek location represented by each contaminated sediment sample.
-    range: string
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
+  mercury_methylation_gene_presence:
+    title: mercury methylation gene presence
+    description: Presence or annotation of hgcA and hgcB genes used to infer mercury methylator potential.
+    range: boolean
     aliases:
-    - site
-    - location
-    - sampling_location
+    - hgcA
+    - hgcB
+    - mercury_methylation_marker
     annotations:
-      role: SPATIAL_INDEX; GROUPING
-      measured_entity: stream sediment sampling location
-      value_type: CATEGORICAL
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: mercury methylation gene marker
+      method: functional annotation of metagenome-assembled genomes
+      value_type: BOOLEAN

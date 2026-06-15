@@ -26,25 +26,36 @@ classes:
   Record:
     description: Per-record data dictionary for study bioreactor_fermentation_microbiomes.
     slots:
-    - bioreactor_metagenome_assembled_genome
-    - carboxylate_product_profile
     - dairy_coproduct_feedstock
     - fermentation_time_point
+    - carboxylate_product_profile
+    - bioreactor_metagenome_assembled_genome
 slots:
-  bioreactor_metagenome_assembled_genome:
-    title: bioreactor metagenome-assembled genome
-    description: MAGs reconstructed from anaerobic fermentation microbial communities.
-    range: string
+  dairy_coproduct_feedstock:
+    title: dairy coproduct feedstock
+    description: Dairy coproduct used as fermentation substrate.
+    range: DairyCoproductFeedstockEnum
     aliases:
-    - mag_id
-    - genome_bin
-    - assembly_accession
+    - feedstock
+    - substrate
+    - dairy_coproduct
     annotations:
-      role: DERIVED; MEASURED_VARIABLE
-      measured_entity: bioreactor microbial genome
-      material_or_matrix: anaerobic bioreactor culture
-      method: metagenome assembly and binning
-      value_type: OBJECT
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bioreactor feedstock
+      value_type: CATEGORICAL
+  fermentation_time_point:
+    title: fermentation time point
+    description: Sampling point during anaerobic fermentation operation.
+    range: datetime
+    aliases:
+    - time_point
+    - day
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bioreactor sampling event
+      time_series: 'true'
+      value_type: DATETIME
   carboxylate_product_profile:
     title: carboxylate product profile
     description: Fermentation product profile for carboxylate platform compounds.
@@ -60,36 +71,20 @@ slots:
       material_or_matrix: bioreactor culture
       method: fermentation chemistry analysis
       value_type: ARRAY
-  dairy_coproduct_feedstock:
-    title: dairy coproduct feedstock
-    description: Dairy coproduct used as fermentation substrate.
-    range: DairyCoproductFeedstockEnum
-    exact_mappings:
-    - MIXS:0000008
+  bioreactor_metagenome_assembled_genome:
+    title: bioreactor metagenome-assembled genome
+    description: MAGs reconstructed from anaerobic fermentation microbial communities.
+    range: string
     aliases:
-    - feedstock
-    - substrate
-    - dairy_coproduct
+    - mag_id
+    - genome_bin
+    - assembly_accession
     annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: bioreactor feedstock
-      value_type: CATEGORICAL
-  fermentation_time_point:
-    title: fermentation time point
-    description: Sampling point during anaerobic fermentation operation.
-    range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - time_point
-    - day
-    - collection_date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: bioreactor sampling event
-      value_type: DATETIME
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: bioreactor microbial genome
+      material_or_matrix: anaerobic bioreactor culture
+      method: metagenome assembly and binning
+      value_type: OBJECT
 enums:
   DairyCoproductFeedstockEnum:
     permissible_values:

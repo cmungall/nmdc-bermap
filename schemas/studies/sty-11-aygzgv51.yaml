@@ -26,46 +26,141 @@ classes:
   Record:
     description: Per-record data dictionary for study sty-11-aygzgv51.
     slots:
+    - vegetation_density
+    - sediment_sampling_depth
+    - sampling_time_point
+    - nitrogen_cycling_gene_abundance
+    - multi_omics_profile
+    - geographic_location_name
+    - latitude_and_longitude
     - broad_scale_environmental_context
-    - community
+    - local_environmental_context
+    - environmental_medium
     - ecosystem
     - ecosystem_category
-    - ecosystem_subtype
     - ecosystem_type
-    - environmental_medium
-    - geographic_location_name
-    - habitat
-    - latitude_and_longitude
-    - local_environmental_context
-    - multi_omics_profile
-    - nitrogen_cycling_gene_abundance
-    - sample_collection_site
-    - sampling_location
-    - sampling_time_point
-    - sediment_sampling_depth
+    - ecosystem_subtype
     - specific_ecosystem
-    - vegetation_density
+    - habitat
+    - sampling_location
+    - sample_collection_site
+    - community
 slots:
+  vegetation_density:
+    title: vegetation density
+    description: Riparian vegetation density associated with the riverbed sediment sampling location.
+    range: string
+    aliases:
+    - vegetation_density
+    - vegetation_cover
+    - riparian_vegetation_density
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE; GROUPING
+      measured_entity: river corridor sampling location
+      value_type: CATEGORICAL
+  sediment_sampling_depth:
+    title: sediment sampling depth
+    description: Depth value recorded in NMDC biosample metadata for Columbia River riverbed sediment
+      samples.
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+    aliases:
+    - depth
+    - sediment_depth
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: riverbed sediment sampling interval
+      material_or_matrix: riverbed sediment
+      value_type: NUMERIC
+  sampling_time_point:
+    title: sampling time point
+    description: Temporal sampling point for nitrogen-cycling gene diversity profiles.
+    range: datetime
+    aliases:
+    - collection_date
+    - sampling_date
+    - time_point
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sampling event
+      time_series: 'true'
+      value_type: DATETIME
+  nitrogen_cycling_gene_abundance:
+    title: nitrogen cycling gene abundance
+    description: Abundance or diversity profile for nitrogen-cycling genes in hyporheic microbiomes.
+    multivalued: true
+    range: string
+    aliases:
+    - nitrogen_cycling_gene_abundance
+    - functional_gene_profile
+    - gene_abundance
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: nitrogen cycling genes
+      material_or_matrix: riverbed sediment
+      method: metagenomics
+      value_type: ARRAY
+  multi_omics_profile:
+    title: multi-omics profile
+    description: Integrated metagenomic, metabolomic, and proteomic profiles from hyporheic zone sediment.
+    range: string
+    aliases:
+    - metagenome_profile
+    - metabolome_profile
+    - proteome_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: hyporheic microbiome
+      material_or_matrix: riverbed sediment
+      method: metagenomics, metabolomics, and proteomics
+      value_type: OBJECT
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
   broad_scale_environmental_context:
     title: broad-scale environmental context
     description: Broad-scale environmental context recorded for the NMDC biosample.
     range: uriorcurie
-    exact_mappings:
-    - MIXS:0000012
-    slot_uri: MIXS:0000012
     aliases:
     - env_broad_scale
     annotations:
       role: COVARIATE; GROUPING
       value_type: ONTOLOGY_TERM
-  community:
-    description: Ecological community descriptor recorded for the NMDC biosample.
-    range: string
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
     aliases:
-    - community
+    - env_local_scale
     annotations:
       role: COVARIATE; GROUPING
-      value_type: TEXT
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
   ecosystem:
     description: GOLD ecosystem classification recorded for the NMDC biosample.
     range: GoldEcosystemPathEnum
@@ -83,15 +178,6 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  ecosystem_subtype:
-    title: ecosystem subtype
-    description: GOLD ecosystem subtype recorded for the NMDC biosample.
-    range: GoldEcosystemPathEnum
-    aliases:
-    - ecosystem_subtype
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
   ecosystem_type:
     title: ecosystem type
     description: GOLD ecosystem type recorded for the NMDC biosample.
@@ -101,27 +187,24 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: CATEGORICAL
-  environmental_medium:
-    title: environmental medium
-    description: Environmental medium or material sampled for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
     aliases:
-    - env_medium
+    - ecosystem_subtype
     annotations:
       role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  geographic_location_name:
-    title: geographic location name
-    description: Geographic location name recorded for the NMDC biosample.
-    range: string
+      value_type: CATEGORICAL
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
     aliases:
-    - geo_loc_name
+    - specific_ecosystem
     annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
   habitat:
     description: Habitat descriptor recorded for the NMDC biosample.
     range: string
@@ -129,68 +212,6 @@ slots:
     - habitat
     annotations:
       role: COVARIATE; GROUPING
-      value_type: TEXT
-  latitude_and_longitude:
-    title: latitude and longitude
-    description: Latitude and longitude coordinates recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - lat_lon
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
-      value_type: TEXT
-  local_environmental_context:
-    title: local environmental context
-    description: Local environmental context recorded for the NMDC biosample.
-    range: uriorcurie
-    exact_mappings:
-    - MIXS:0000013
-    slot_uri: MIXS:0000013
-    aliases:
-    - env_local_scale
-    annotations:
-      role: COVARIATE; GROUPING
-      value_type: ONTOLOGY_TERM
-  multi_omics_profile:
-    title: multi-omics profile
-    description: Integrated metagenomic, metabolomic, and proteomic profiles from hyporheic zone sediment.
-    range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
-    aliases:
-    - metagenome_profile
-    - metabolome_profile
-    - proteome_profile
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: hyporheic microbiome
-      material_or_matrix: riverbed sediment
-      method: metagenomics, metabolomics, and proteomics
-      value_type: OBJECT
-  nitrogen_cycling_gene_abundance:
-    title: nitrogen cycling gene abundance
-    description: Abundance or diversity profile for nitrogen-cycling genes in hyporheic microbiomes.
-    multivalued: true
-    range: string
-    aliases:
-    - nitrogen_cycling_gene_abundance
-    - functional_gene_profile
-    - gene_abundance
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: nitrogen cycling genes
-      material_or_matrix: riverbed sediment
-      method: metagenomics
-      value_type: ARRAY
-  sample_collection_site:
-    title: sample collection site
-    description: Sample collection site descriptor recorded for the NMDC biosample.
-    range: string
-    aliases:
-    - sample_collection_site
-    annotations:
-      role: SPATIAL_INDEX; COVARIATE
       value_type: TEXT
   sampling_location:
     title: sampling location
@@ -201,63 +222,20 @@ slots:
     annotations:
       role: SPATIAL_INDEX; COVARIATE
       value_type: TEXT
-  sampling_time_point:
-    title: sampling time point
-    description: Temporal sampling point for nitrogen-cycling gene diversity profiles.
-    range: datetime
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
+  sample_collection_site:
+    title: sample collection site
+    description: Sample collection site descriptor recorded for the NMDC biosample.
+    range: string
     aliases:
-    - collection_date
-    - sampling_date
-    - time_point
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: sampling event
-      value_type: DATETIME
-  sediment_sampling_depth:
-    title: sediment sampling depth
-    description: Depth value recorded in NMDC biosample metadata for Columbia River riverbed sediment
-      samples.
-    range: float
-    unit:
-      descriptive_name: meter
-      ucum_code: m
-    exact_mappings:
-    - MIXS:0000018
-    slot_uri: MIXS:0000018
-    aliases:
-    - depth
-    - sediment_depth
+    - sample_collection_site
     annotations:
       role: SPATIAL_INDEX; COVARIATE
-      measured_entity: riverbed sediment sampling interval
-      material_or_matrix: riverbed sediment
-      value_type: NUMERIC
-  specific_ecosystem:
-    title: specific ecosystem
-    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
-    range: GoldEcosystemPathEnum
+      value_type: TEXT
+  community:
+    description: Ecological community descriptor recorded for the NMDC biosample.
+    range: string
     aliases:
-    - specific_ecosystem
+    - community
     annotations:
       role: COVARIATE; GROUPING
-      value_type: CATEGORICAL
-  vegetation_density:
-    title: vegetation density
-    description: Riparian vegetation density associated with the riverbed sediment sampling location.
-    range: string
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000008
-    slot_uri: MIXS:0000013
-    aliases:
-    - vegetation_density
-    - vegetation_cover
-    - riparian_vegetation_density
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; COVARIATE; GROUPING
-      measured_entity: river corridor sampling location
-      value_type: CATEGORICAL
+      value_type: TEXT

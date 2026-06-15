@@ -25,22 +25,21 @@ classes:
   Record:
     description: Per-record data dictionary for study novosphingobium_aromaticivorans_dap_seq_epigenomics.
     slots:
-    - aromatic_metabolism_target_gene
-    - genomic_binding_site
     - transcription_factor_bait
+    - genomic_binding_site
+    - aromatic_metabolism_target_gene
 slots:
-  aromatic_metabolism_target_gene:
-    title: aromatic metabolism target gene
-    description: Candidate target gene near DAP-seq binding sites for aromatic compound metabolism.
+  transcription_factor_bait:
+    title: transcription factor bait
+    description: Putative transcriptional regulator assayed for in vitro DNA binding.
     range: string
     aliases:
-    - target_gene
-    - locus_tag
-    - aromatic_metabolism_gene
+    - transcription_factor
+    - regulator
+    - bait_protein
     annotations:
-      role: DERIVED; MEASURED_VARIABLE
-      measured_entity: aromatic metabolism gene
-      method: binding-site annotation
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Novosphingobium aromaticivorans transcription factor
       value_type: IDENTIFIER
   genomic_binding_site:
     title: genomic binding site
@@ -55,17 +54,16 @@ slots:
       measured_entity: transcription factor binding site
       method: DNA affinity purification sequencing
       value_type: OBJECT
-  transcription_factor_bait:
-    title: transcription factor bait
-    description: Putative transcriptional regulator assayed for in vitro DNA binding.
+  aromatic_metabolism_target_gene:
+    title: aromatic metabolism target gene
+    description: Candidate target gene near DAP-seq binding sites for aromatic compound metabolism.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
-    - transcription_factor
-    - regulator
-    - bait_protein
+    - target_gene
+    - locus_tag
+    - aromatic_metabolism_gene
     annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
-      measured_entity: Novosphingobium aromaticivorans transcription factor
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: aromatic metabolism gene
+      method: binding-site annotation
       value_type: IDENTIFIER

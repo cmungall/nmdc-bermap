@@ -1,0 +1,31 @@
+mappings:
+- subject_id: profiles:root_zone
+  subject_label: root zone
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_zone
+  subject_label: root zone
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_zone
+  subject_label: root zone
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:growth_container
+  subject_label: growth container
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001057
+  object_label: plant growth medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:growth_container
+  subject_label: growth container
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

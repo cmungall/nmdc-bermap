@@ -25,18 +25,28 @@ classes:
   Record:
     description: Per-record data dictionary for study clostridium_thermocellum_strain_collection.
     slots:
+    - strain_identifier
     - engineered_genotype
     - ethanol_production_phenotype
     - ethanol_tolerance_phenotype
-    - strain_identifier
 slots:
+  strain_identifier:
+    title: strain identifier
+    description: Identifier for engineered or evolved Clostridium thermocellum strain.
+    range: string
+    aliases:
+    - strain_id
+    - isolate_id
+    - lineage_id
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: Clostridium thermocellum strain
+      value_type: IDENTIFIER
   engineered_genotype:
     title: engineered genotype
     description: Mutations or engineering changes detected in resequenced C. thermocellum strains.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - mutation
     - variant
@@ -72,15 +82,3 @@ slots:
       measured_entity: C. thermocellum growth tolerance
       method: ethanol tolerance assay
       value_type: NUMERIC
-  strain_identifier:
-    title: strain identifier
-    description: Identifier for engineered or evolved Clostridium thermocellum strain.
-    range: string
-    aliases:
-    - strain_id
-    - isolate_id
-    - lineage_id
-    annotations:
-      role: IDENTIFIER; GROUPING
-      measured_entity: Clostridium thermocellum strain
-      value_type: IDENTIFIER

@@ -27,11 +27,36 @@ classes:
   Record:
     description: Per-record data dictionary for study s_elongatus_pcc_7942_redox_proteome_under_light_disturbance.
     slots:
-    - cysteine_redox_state
     - light_disturbance_condition
     - post_disturbance_time_point
+    - cysteine_redox_state
     - transcript_abundance_response
 slots:
+  light_disturbance_condition:
+    title: light disturbance condition
+    description: Light perturbation applied to S. elongatus cultures to study carbon metabolism regulation.
+    range: string
+    aliases:
+    - light_condition
+    - light_disturbance
+    - perturbation
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanobacterial culture
+      value_type: CATEGORICAL
+  post_disturbance_time_point:
+    title: post-disturbance time point
+    description: Sampling time after light disturbance for transcriptome and redox proteome measurements.
+    range: string
+    aliases:
+    - time_point
+    - post_disturbance_time
+    - sampling_time
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanobacterial sampling event
+      time_series: 'true'
+      value_type: CATEGORICAL
   cysteine_redox_state:
     title: cysteine redox state
     description: Cysteine redox state or redox modification of regulatory proteins and metabolic enzymes.
@@ -46,36 +71,6 @@ slots:
       measured_entity: cyanobacterial protein
       method: redox proteomics
       value_type: ARRAY
-  light_disturbance_condition:
-    title: light disturbance condition
-    description: Light perturbation applied to S. elongatus cultures to study carbon metabolism regulation.
-    range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000008
-    slot_uri: MIXS:0000754
-    aliases:
-    - light_condition
-    - light_disturbance
-    - perturbation
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: cyanobacterial culture
-      value_type: CATEGORICAL
-  post_disturbance_time_point:
-    title: post-disturbance time point
-    description: Sampling time after light disturbance for transcriptome and redox proteome measurements.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - time_point
-    - post_disturbance_time
-    - sampling_time
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: cyanobacterial sampling event
-      value_type: CATEGORICAL
   transcript_abundance_response:
     title: transcript abundance response
     description: Transcript abundance response associated with carbon metabolism regulation after light

@@ -26,16 +26,21 @@ classes:
   Record:
     description: Per-record data dictionary for study rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons.
     slots:
+    - test_bacterial_species
     - carbon_source
     - per_gene_fitness_value
-    - test_bacterial_species
 slots:
+  test_bacterial_species:
+    title: test bacterial species
+    description: Parent strain used for RB-TnSeq library construction.
+    range: TestBacterialSpeciesEnum
+    annotations:
+      role: EXPERIMENTAL_FACTOR; GROUPING
+      value_type: CATEGORICAL
   carbon_source:
     title: carbon source
     description: Defined carbon source in minimal medium.
     range: CarbonSourceEnum
-    exact_mappings:
-    - MIXS:0000008
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: carbon source compound
@@ -50,19 +55,7 @@ slots:
       role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
       method: BarSeq amplicon read counting, normalized
       value_type: NUMERIC
-  test_bacterial_species:
-    title: test bacterial species
-    description: Parent strain used for RB-TnSeq library construction.
-    range: TestBacterialSpeciesEnum
-    exact_mappings:
-    - MIXS:0000008
-    annotations:
-      role: EXPERIMENTAL_FACTOR; GROUPING
-      value_type: CATEGORICAL
 enums:
-  CarbonSourceEnum:
-    permissible_values:
-      (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose): null
   TestBacterialSpeciesEnum:
     permissible_values:
       Escherichia coli K-12 (BW25113): null
@@ -71,3 +64,6 @@ enums:
       Shewanella amazonensis SB2B: null
       Shewanella oneidensis MR-1:
         meaning: NCBITaxon:211586
+  CarbonSourceEnum:
+    permissible_values:
+      (carbon-source panel; varies by organism — e.g., D-mannose, D-mannitol, glycerol, D-glucose, L-arabinose): null

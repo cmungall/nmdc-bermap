@@ -25,32 +25,16 @@ classes:
   Record:
     description: Per-record data dictionary for study corynebacterial_cell_envelope_and_phage_resistance.
     slots:
-    - bacteriophage_challenge
     - cell_envelope_component
     - host_genotype_or_perturbation
+    - bacteriophage_challenge
     - phage_resistance_phenotype
 slots:
-  bacteriophage_challenge:
-    title: bacteriophage challenge
-    description: Phage isolate or challenge condition applied to Corynebacterium strains.
-    range: string
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - phage
-    - phage_id
-    - challenge_condition
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: bacteriophage exposure
-      value_type: CATEGORICAL
   cell_envelope_component:
     title: cell envelope component
     description: Corynebacterial cell envelope gene, component, or structural feature tested for phage
       resistance effects.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - cell_envelope_gene
     - envelope_component
@@ -63,10 +47,6 @@ slots:
     title: host genotype or perturbation
     description: Corynebacterium genotype, mutation, or perturbation affecting the cell envelope.
     range: string
-    exact_mappings:
-    - MIXS:0000754
-    - MIXS:0000008
-    slot_uri: MIXS:0000754
     aliases:
     - genotype
     - perturbation
@@ -74,6 +54,18 @@ slots:
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: Corynebacterium glutamicum strain
+      value_type: CATEGORICAL
+  bacteriophage_challenge:
+    title: bacteriophage challenge
+    description: Phage isolate or challenge condition applied to Corynebacterium strains.
+    range: string
+    aliases:
+    - phage
+    - phage_id
+    - challenge_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacteriophage exposure
       value_type: CATEGORICAL
   phage_resistance_phenotype:
     title: phage resistance phenotype

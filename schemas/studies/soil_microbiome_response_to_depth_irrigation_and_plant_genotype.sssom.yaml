@@ -1,0 +1,43 @@
+mappings:
+- subject_id: profiles:soil_depth
+  subject_label: soil depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000018
+  object_label: depth
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_depth
+  subject_label: soil depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:irrigation_treatment
+  subject_label: irrigation treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000591
+  object_label: watering regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:irrigation_treatment
+  subject_label: irrigation treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_genotype
+  subject_label: plant genotype
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000365
+  object_label: host genotype
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:plant_genotype
+  subject_label: plant genotype
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_microbiome_composition
+  subject_label: soil microbiome composition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

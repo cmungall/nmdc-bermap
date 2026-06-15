@@ -25,26 +25,11 @@ classes:
   Record:
     description: Per-record data dictionary for study multilab_ecofab_reproducibility_study.
     slots:
-    - ecofab_growth_system
     - laboratory_site
+    - ecofab_growth_system
     - plant_physiology_phenotype
     - soil_metabolite_depletion
 slots:
-  ecofab_growth_system:
-    title: EcoFAB growth system
-    description: Standardized fabricated ecosystem used to grow Brachypodium for reproducibility testing.
-    range: EcofabGrowthSystemEnum
-    exact_mappings:
-    - MIXS:0001057
-    slot_uri: MIXS:0001057
-    aliases:
-    - growth_system
-    - ecofab_device
-    - device_type
-    annotations:
-      role: STUDY_DESIGN_CONTROLLED_VARIABLE
-      measured_entity: plant growth system
-      value_type: CATEGORICAL
   laboratory_site:
     title: laboratory site
     description: Laboratory where the EcoFAB reproducibility experiment was performed.
@@ -56,6 +41,18 @@ slots:
     annotations:
       role: BLOCKING_VARIABLE; GROUPING
       measured_entity: reproducibility study site
+      value_type: CATEGORICAL
+  ecofab_growth_system:
+    title: EcoFAB growth system
+    description: Standardized fabricated ecosystem used to grow Brachypodium for reproducibility testing.
+    range: EcofabGrowthSystemEnum
+    aliases:
+    - growth_system
+    - ecofab_device
+    - device_type
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE
+      measured_entity: plant growth system
       value_type: CATEGORICAL
   plant_physiology_phenotype:
     title: plant physiology phenotype
@@ -87,9 +84,9 @@ slots:
       method: metabolomics
       value_type: ARRAY
 enums:
-  EcofabGrowthSystemEnum:
-    permissible_values:
-      EcoFAB: null
   LaboratorySiteEnum:
     permissible_values:
       four participating laboratories: null
+  EcofabGrowthSystemEnum:
+    permissible_values:
+      EcoFAB: null

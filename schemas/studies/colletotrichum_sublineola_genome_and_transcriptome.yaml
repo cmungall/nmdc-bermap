@@ -26,8 +26,8 @@ classes:
     description: Per-record data dictionary for study colletotrichum_sublineola_genome_and_transcriptome.
     slots:
     - fungal_isolate_identifier
-    - fungal_transcript_abundance
     - genome_assembly_feature
+    - fungal_transcript_abundance
     - pathogenicity_candidate_gene
 slots:
   fungal_isolate_identifier:
@@ -42,21 +42,8 @@ slots:
     annotations:
       role: IDENTIFIER
       measured_entity: Colletotrichum sublineola isolate
+      levels: CsGL1
       value_type: IDENTIFIER
-  fungal_transcript_abundance:
-    title: fungal transcript abundance
-    description: Transcript abundance profile for Colletotrichum sublineola.
-    multivalued: true
-    range: string
-    aliases:
-    - transcript_abundance
-    - expression_profile
-    - RNAseq_counts
-    annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: Colletotrichum sublineola transcriptome
-      method: RNA-seq
-      value_type: ARRAY
   genome_assembly_feature:
     title: genome assembly feature
     description: Genome assembly, gene model, or annotation feature used to study fungal pathogenicity.
@@ -70,6 +57,20 @@ slots:
       role: DERIVED; MEASURED_VARIABLE
       measured_entity: Colletotrichum sublineola genome
       method: genome sequencing, assembly, and annotation
+      value_type: ARRAY
+  fungal_transcript_abundance:
+    title: fungal transcript abundance
+    description: Transcript abundance profile for Colletotrichum sublineola.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - expression_profile
+    - RNAseq_counts
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Colletotrichum sublineola transcriptome
+      method: RNA-seq
       value_type: ARRAY
   pathogenicity_candidate_gene:
     title: pathogenicity candidate gene

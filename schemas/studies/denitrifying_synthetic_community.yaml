@@ -26,17 +26,27 @@ classes:
   Record:
     description: Per-record data dictionary for study denitrifying_synthetic_community.
     slots:
+    - synthetic_community_member
     - culture_configuration
     - denitrification_intermediate_exchange
-    - synthetic_community_member
     - transcript_and_protein_abundance_profile
 slots:
+  synthetic_community_member:
+    title: synthetic community member
+    description: Rhodanobacter or Acidovorax member represented in the denitrifying synthetic community.
+    range: SyntheticCommunityMemberEnum
+    aliases:
+    - strain
+    - organism
+    - community_member
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING; IDENTIFIER
+      measured_entity: denitrifying bacterial strain
+      value_type: CATEGORICAL
   culture_configuration:
     title: culture configuration
     description: Whether the sample represents a single-member culture or two-member synthetic community.
     range: CultureConfigurationEnum
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - culture_configuration
     - coculture_condition
@@ -60,20 +70,6 @@ slots:
       material_or_matrix: culture medium
       method: metabolite or pathway analysis
       value_type: ARRAY
-  synthetic_community_member:
-    title: synthetic community member
-    description: Rhodanobacter or Acidovorax member represented in the denitrifying synthetic community.
-    range: SyntheticCommunityMemberEnum
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - strain
-    - organism
-    - community_member
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING; IDENTIFIER
-      measured_entity: denitrifying bacterial strain
-      value_type: CATEGORICAL
   transcript_and_protein_abundance_profile:
     title: transcript and protein abundance profile
     description: Expression and proteomic profiles used to characterize pathway partitioning in the denitrifying
@@ -91,11 +87,11 @@ slots:
       method: transcriptomics and proteomics
       value_type: ARRAY
 enums:
-  CultureConfigurationEnum:
-    permissible_values:
-      monoculture: null
-      co-culture: null
   SyntheticCommunityMemberEnum:
     permissible_values:
       Rhodanobacter thiooxydans FW510-R12: null
       Acidovorax sp. GW101-3H11: null
+  CultureConfigurationEnum:
+    permissible_values:
+      monoculture: null
+      co-culture: null

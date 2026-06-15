@@ -26,16 +26,14 @@ classes:
     description: Per-record data dictionary for study s_elongatus_pcc_7942_carbon_metabolism_proteomics.
     slots:
     - carbon_metabolism_condition
-    - carbon_metabolism_pathway_assignment
-    - protein_abundance
     - protein_identifier
+    - protein_abundance
+    - carbon_metabolism_pathway_assignment
 slots:
   carbon_metabolism_condition:
     title: carbon metabolism condition
     description: Experimental condition used to perturb or compare cyanobacterial carbon metabolism.
     range: string
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - condition
     - carbon_condition
@@ -44,19 +42,18 @@ slots:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: Synechococcus elongatus culture
       value_type: CATEGORICAL
-  carbon_metabolism_pathway_assignment:
-    title: carbon metabolism pathway assignment
-    description: Functional pathway assignment for proteins involved in carbon metabolism.
+  protein_identifier:
+    title: protein identifier
+    description: Protein or peptide feature identified in S. elongatus proteomics.
     range: string
     aliases:
-    - pathway
-    - carbon_pathway
-    - functional_annotation
+    - protein_id
+    - peptide_id
+    - feature_id
     annotations:
-      role: DERIVED; GROUPING
-      measured_entity: cyanobacterial carbon metabolism pathway
-      method: protein functional annotation
-      value_type: CATEGORICAL
+      role: IDENTIFIER
+      measured_entity: Synechococcus elongatus protein
+      value_type: IDENTIFIER
   protein_abundance:
     title: protein abundance
     description: Proteomics abundance measurement for carbon metabolism proteins.
@@ -70,15 +67,16 @@ slots:
       measured_entity: cyanobacterial protein
       method: mass spectrometry proteomics
       value_type: NUMERIC
-  protein_identifier:
-    title: protein identifier
-    description: Protein or peptide feature identified in S. elongatus proteomics.
+  carbon_metabolism_pathway_assignment:
+    title: carbon metabolism pathway assignment
+    description: Functional pathway assignment for proteins involved in carbon metabolism.
     range: string
     aliases:
-    - protein_id
-    - peptide_id
-    - feature_id
+    - pathway
+    - carbon_pathway
+    - functional_annotation
     annotations:
-      role: IDENTIFIER
-      measured_entity: Synechococcus elongatus protein
-      value_type: IDENTIFIER
+      role: DERIVED; GROUPING
+      measured_entity: cyanobacterial carbon metabolism pathway
+      method: protein functional annotation
+      value_type: CATEGORICAL

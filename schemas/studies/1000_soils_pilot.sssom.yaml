@@ -1,0 +1,55 @@
+mappings:
+- subject_id: profiles:sampling_ecoregion
+  subject_label: sampling ecoregion
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000012
+  object_label: broad-scale environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sampling_ecoregion
+  subject_label: sampling ecoregion
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_core_depth
+  subject_label: soil core depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000018
+  object_label: depth
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_core_depth
+  subject_label: soil core depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_metagenome_profile
+  subject_label: soil metagenome profile
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_water_characteristic
+  subject_label: soil water characteristic
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000185
+  object_label: water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_water_characteristic
+  subject_label: soil water characteristic
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000301
+  object_label: total soil water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_ph
+  subject_label: soil pH
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000882
+  object_label: soil pH
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:microbial_biomass_carbon
+  subject_label: microbial biomass carbon
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000995
+  object_label: microbial biomass chemical element
+  mapping_justification: semapv:ManualMappingCuration

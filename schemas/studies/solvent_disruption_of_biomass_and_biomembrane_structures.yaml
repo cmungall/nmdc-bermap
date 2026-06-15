@@ -26,18 +26,16 @@ classes:
     description: Per-record data dictionary for study solvent_disruption_of_biomass_and_biomembrane_structures.
     slots:
     - amphiphilic_solvent_identity
-    - biomass_deconstruction_performance
+    - solvent_concentration
     - biomass_or_biomembrane_substrate
     - biomolecular_assembly_structure
+    - biomass_deconstruction_performance
     - microbial_solvent_tolerance
-    - solvent_concentration
 slots:
   amphiphilic_solvent_identity:
     title: amphiphilic solvent identity
     description: Solvent or co-solvent used to disrupt biomass or biomembrane assemblies.
     range: AmphiphilicSolventIdentityEnum
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - solvent
     - cosolvent
@@ -46,25 +44,22 @@ slots:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: solvent treatment
       value_type: CATEGORICAL
-  biomass_deconstruction_performance:
-    title: biomass deconstruction performance
-    description: Pretreatment effectiveness measured as biomass disruption, fractionation, or sugar release.
+  solvent_concentration:
+    title: solvent concentration
+    description: Concentration or fraction of solvent used in pretreatment, membrane exposure, or simulation.
     range: float
     aliases:
-    - deconstruction_yield
-    - sugar_release
-    - lignin_solubilization
-    - fractionation_efficiency
+    - solvent_concentration
+    - cosolvent_fraction
+    - solvent_loading
     annotations:
-      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
-      measured_entity: lignocellulosic biomass
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: solvent treatment
       value_type: NUMERIC
   biomass_or_biomembrane_substrate:
     title: biomass or biomembrane substrate
     description: Plant biomass, cell-wall polymer, or microbial membrane system exposed to solvent.
     range: BiomassOrBiomembraneSubstrateEnum
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - substrate
     - biomass_type
@@ -88,6 +83,19 @@ slots:
       measured_entity: plant cell-wall or biomembrane assembly
       method: neutron scattering, NMR spectroscopy, microscopy, or molecular dynamics
       value_type: ARRAY
+  biomass_deconstruction_performance:
+    title: biomass deconstruction performance
+    description: Pretreatment effectiveness measured as biomass disruption, fractionation, or sugar release.
+    range: float
+    aliases:
+    - deconstruction_yield
+    - sugar_release
+    - lignin_solubilization
+    - fractionation_efficiency
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: lignocellulosic biomass
+      value_type: NUMERIC
   microbial_solvent_tolerance:
     title: microbial solvent tolerance
     description: Microbial growth, membrane stability, or viability under solvent exposure.
@@ -101,20 +109,6 @@ slots:
       role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
       measured_entity: fermenting microbial cell
       material_or_matrix: microbial culture
-      value_type: NUMERIC
-  solvent_concentration:
-    title: solvent concentration
-    description: Concentration or fraction of solvent used in pretreatment, membrane exposure, or simulation.
-    range: float
-    exact_mappings:
-    - MIXS:0000008
-    aliases:
-    - solvent_concentration
-    - cosolvent_fraction
-    - solvent_loading
-    annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: solvent treatment
       value_type: NUMERIC
 enums:
   AmphiphilicSolventIdentityEnum:

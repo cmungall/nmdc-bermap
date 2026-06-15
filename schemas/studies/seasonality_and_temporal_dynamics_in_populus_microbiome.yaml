@@ -25,12 +25,64 @@ classes:
   Record:
     description: Per-record data dictionary for study seasonality_and_temporal_dynamics_in_populus_microbiome.
     slots:
-    - bacterial_archaeal_and_fungal_community_composition
-    - plant_associated_habitat
-    - populus_species
     - sampling_season
     - sampling_year
+    - populus_species
+    - plant_associated_habitat
+    - bacterial_archaeal_and_fungal_community_composition
 slots:
+  sampling_season:
+    title: sampling season
+    description: Seasonal sampling interval used to test temporal dynamics in the Populus microbiome.
+    range: string
+    aliases:
+    - season
+    - collection_date
+    - sampling_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sampling event
+      temporal_resolution: four seasons across two consecutive years
+      time_series: 'true'
+      value_type: CATEGORICAL
+  sampling_year:
+    title: sampling year
+    description: Year of repeated Populus microbiome sampling used to separate seasonal and longer-term
+      dynamics.
+    range: integer
+    aliases:
+    - year
+    - sampling_year
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: sampling event
+      time_series: 'true'
+      value_type: INTEGER
+  populus_species:
+    title: Populus species
+    description: Host Populus species included in the common-garden temporal microbiome study.
+    range: PopulusSpeciesEnum
+    aliases:
+    - species
+    - host_species
+    - host_common_name
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus host plant
+      value_type: CATEGORICAL
+  plant_associated_habitat:
+    title: plant-associated habitat
+    description: Populus habitat sampled for bacterial, archaeal, and fungal microbiome profiling.
+    range: PlantAssociatedHabitatEnum
+    aliases:
+    - habitat
+    - compartment
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus-associated microbial habitat
+      value_type: CATEGORICAL
   bacterial_archaeal_and_fungal_community_composition:
     title: bacterial archaeal and fungal community composition
     description: Amplicon-derived community profiles for Populus bacterial, archaeal, and fungal communities.
@@ -47,85 +99,16 @@ slots:
       material_or_matrix: leaf endosphere, root endosphere, and rhizosphere
       method: 16S rRNA and ITS amplicon sequencing
       value_type: ARRAY
-  plant_associated_habitat:
-    title: plant-associated habitat
-    description: Populus habitat sampled for bacterial, archaeal, and fungal microbiome profiling.
-    range: PlantAssociatedHabitatEnum
-    exact_mappings:
-    - MIXS:0000013
-    - MIXS:0000014
-    - MIXS:0000008
-    - ENVO:00005801
-    slot_uri: MIXS:0000013
-    aliases:
-    - habitat
-    - compartment
-    - sample_type
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus-associated microbial habitat
-      value_type: CATEGORICAL
-  populus_species:
-    title: Populus species
-    description: Host Populus species included in the common-garden temporal microbiome study.
-    range: PopulusSpeciesEnum
-    exact_mappings:
-    - MIXS:0000248
-    - MIXS:0000008
-    slot_uri: MIXS:0000248
-    aliases:
-    - species
-    - host_species
-    - host_common_name
-    annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: Populus host plant
-      value_type: CATEGORICAL
-  sampling_season:
-    title: sampling season
-    description: Seasonal sampling interval used to test temporal dynamics in the Populus microbiome.
-    range: string
-    exact_mappings:
-    - MIXS:0000829
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000829
-    aliases:
-    - season
-    - collection_date
-    - sampling_date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: sampling event
-      temporal_resolution: four seasons across two consecutive years
-      value_type: CATEGORICAL
-  sampling_year:
-    title: sampling year
-    description: Year of repeated Populus microbiome sampling used to separate seasonal and longer-term
-      dynamics.
-    range: integer
-    exact_mappings:
-    - MIXS:0000011
-    - MIXS:0000008
-    slot_uri: MIXS:0000011
-    aliases:
-    - year
-    - sampling_year
-    - collection_date
-    annotations:
-      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
-      measured_entity: sampling event
-      value_type: INTEGER
 enums:
-  PlantAssociatedHabitatEnum:
-    permissible_values:
-      leaf endosphere: null
-      root endosphere: null
-      rhizosphere:
-        meaning: ENVO:00005801
   PopulusSpeciesEnum:
     permissible_values:
       Populus deltoides:
         meaning: NCBITaxon:3696
       Populus trichocarpa:
         meaning: NCBITaxon:3694
+  PlantAssociatedHabitatEnum:
+    permissible_values:
+      leaf endosphere: null
+      root endosphere: null
+      rhizosphere:
+        meaning: ENVO:00005801

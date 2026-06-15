@@ -27,16 +27,14 @@ classes:
     description: Per-record data dictionary for study monet_winter_soil_sampling_2024.
     slots:
     - selected_project
-    - soil_carbon_and_nutrient_profile
     - winter_sampling_context
+    - soil_carbon_and_nutrient_profile
     - winter_soil_metagenome_profile
 slots:
   selected_project:
     title: selected project
     description: MONet winter sampling project or PI-defined study context represented by the soil sample.
     range: SelectedProjectEnum
-    exact_mappings:
-    - MIXS:0000008
     aliases:
     - project
     - selected_project
@@ -44,6 +42,18 @@ slots:
     annotations:
       role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: MONet winter sampling project
+      value_type: CATEGORICAL
+  winter_sampling_context:
+    title: winter sampling context
+    description: Seasonal or management context for winter soil sampling.
+    range: string
+    aliases:
+    - season
+    - sampling_context
+    - management_context
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      measured_entity: winter soil sampling event
       value_type: CATEGORICAL
   soil_carbon_and_nutrient_profile:
     title: soil carbon and nutrient profile
@@ -59,29 +69,11 @@ slots:
       measured_entity: soil biogeochemistry
       material_or_matrix: soil
       value_type: ARRAY
-  winter_sampling_context:
-    title: winter sampling context
-    description: Seasonal or management context for winter soil sampling.
-    range: string
-    exact_mappings:
-    - MIXS:0000829
-    slot_uri: MIXS:0000829
-    aliases:
-    - season
-    - sampling_context
-    - management_context
-    annotations:
-      role: DATE_TIME_VARIABLE; COVARIATE
-      measured_entity: winter soil sampling event
-      value_type: CATEGORICAL
   winter_soil_metagenome_profile:
     title: winter soil metagenome profile
     description: Microbial community metagenomic profile from winter MONet soil samples.
     multivalued: true
     range: string
-    exact_mappings:
-    - MIXS:0000014
-    slot_uri: MIXS:0000014
     aliases:
     - metagenome_profile
     - taxonomic_profile

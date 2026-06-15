@@ -14,6 +14,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "db" / "sfas-brcs.yaml"
 OUT_STUDIES = ROOT / "schemas" / "studies"
+INDEX_PATH = ROOT / "schemas" / "variable-index.yaml"
 PROG_KEYS = [
     "bioenergy_research_centers", "genomic_science_sfas", "environmental_system_science_sfas",
     "user_facilities", "ai_projects", "other_programs",
@@ -106,7 +107,54 @@ def _norm(v):
     return {k: v[k] for k in sorted(v)}
 
 
+def build_index() -> dict:
+    """The intermediate indexing product the browser consumes: variables reconstructed from
+    study metadata (profiles + SSSOM), plus a `by_term` inverted index (ontology CURIE ->
+    studies/variables) for cross-study harmonization.
+    """
+    db = yaml.safe_load(DB_PATH.read_text())
+    studies, by_term = {}, {}
+    for pk in PROG_KEYS:
+        for p in db.get(pk) or []:
+            pid = p.get("id")
+            for s in p.get("studies") or []:
+                if not s.get("variables"):
+                    continue
+                sid = study_id(s)
+                profile = yaml.safe_load((OUT_STUDIES / f"{sid}.yaml").read_text())
+                enums = profile.get("enums") or {}
+                variables = reconstruct_study(sid)
+                studies[sid] = {"program": pid, "name": s.get("name"), "variables": variables}
+                for v in variables:
+                    maps = list(v.get("mixs_terms") or [])
+                    if v.get("bervo_term"):
+                        maps.append(v["bervo_term"])
+                    if v.get("unit_term"):
+                        maps.append(v["unit_term"])
+                    maps += list(v.get("ontology_mappings") or [])
+                    for m in maps:
+                        by_term.setdefault(m["id"], []).append(
+                            {"study": sid, "variable": v["name"], "via": "mapping"})
+                for sname in profile["classes"]["Record"]["slots"]:
+                    rng = profile["slots"][sname].get("range")
+                    if rng in enums:
+                        for lv, meta in (enums[rng].get("permissible_values") or {}).items():
+                            if meta and meta.get("meaning"):
+                                by_term.setdefault(meta["meaning"], []).append(
+                                    {"study": sid, "variable": profile["slots"][sname].get("title") or sname,
+                                     "level": lv, "via": "level"})
+    return {"studies": studies, "by_term": dict(sorted(by_term.items()))}
+
+
 def main() -> int:
+    if "--index" in sys.argv:
+        index = build_index()
+        INDEX_PATH.write_text(yaml.safe_dump(index, sort_keys=False, allow_unicode=True, width=100))
+        nvar = sum(len(s["variables"]) for s in index["studies"].values())
+        print(f"Wrote {INDEX_PATH.relative_to(ROOT)} "
+              f"({len(index['studies'])} studies, {nvar} variables, {len(index['by_term'])} indexed terms)")
+        return 0
+
     check = "--check" in sys.argv
     db = yaml.safe_load(DB_PATH.read_text())
     studies = [(study_id(s), s) for pk in PROG_KEYS for p in db.get(pk) or []

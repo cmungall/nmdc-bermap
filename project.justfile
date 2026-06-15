@@ -51,8 +51,12 @@ cache-ref REF:
 validate-refs-verbose:
   uv run linkml-reference-validator validate data db/sfas-brcs.yaml --schema src/nmdc_sfas_brcs/schema/nmdc_sfas_brcs.yaml --verbose
 
-# Generate interactive HTML browser for the database
-gen-browser:
+# Build the intermediate variable index (profiles + SSSOM -> schemas/variable-index.yaml)
+gen-variable-index:
+  uv run python schemas/generate_variables.py --index
+
+# Generate interactive HTML browser for the database (study variables sourced from the index)
+gen-browser: gen-variable-index
   uv run python scripts/generate_html_browser.py
 
 # Generate per-study/-site LinkML data-dictionary profiles (schemas/studies, schemas/sites)

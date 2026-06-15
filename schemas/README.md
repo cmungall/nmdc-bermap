@@ -60,6 +60,14 @@ is what makes flipping the Source of Truth (edit profiles → regenerate the DB 
 `base.yaml` is hand-authored and never overwritten. Level `meaning:` groundings are harvested from
 the DB's own `ontology_mappings`/`bervo_term` plus the curated `level_meanings.yaml`.
 
+The HTML browser already derives its **study variables from study metadata**: `just gen-variable-index`
+writes `schemas/variable-index.yaml` (study-keyed variables reconstructed from profiles + SSSOM,
+plus a `by_term` inverted index for cross-study harmonization), and `generate_html_browser.py`
+sources study variables from it (falling back to inline `db.variables` only if the index is
+absent). Switching that source left `docs/browser.html`/`variables.html` byte-for-byte identical.
+Inline `db.variables` is retained as a mirror for now (decision 2b); dataset-level variables (3)
+are still read from the DB.
+
 ## Regenerate / validate
 
 ```bash

@@ -274,6 +274,12 @@ footer {
 .chip.phenotype-assay { background: #fff8e1; color: #f57f17; }
 .chip.variable-role { background: #eef7f4; color: #00695c; }
 .chip.value-type { background: #f1f3f4; color: #37474f; }
+.chip.enum-static { background: #e8eaf6; color: #303f9f; }
+.chip.enum-dynamic { background: #e0f2f1; color: #00695c; }
+
+.level-badges { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.level-plain { background: #f1f3f4; color: #37474f; border-radius: 4px; padding: 1px 6px; font-size: 0.85em; }
+.shared-count { margin-left: 6px; font-size: 0.78em; color: #5f6368; background: #f5f5f5; border-radius: 8px; padding: 0 6px; white-space: nowrap; }
 
 .count-badge {
     display: inline-block;
@@ -1106,10 +1112,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000829" target="_blank" class="ontology-term">season <span>MIXS:0000829</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1137,8 +1146,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1190,6 +1201,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0001370" target="_blank" class="ontology-term">air temperature <span>BERVO:0001370</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1260,6 +1272,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1346,6 +1359,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1370,6 +1384,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1394,6 +1409,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1558,8 +1574,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1584,6 +1602,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1878,10 +1897,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000895" target="_blank" class="ontology-term">total fertilizer N amendment <span>BERVO:0000895</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1907,6 +1929,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1934,6 +1957,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1961,6 +1985,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -1985,6 +2010,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2071,6 +2097,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2095,6 +2122,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2119,6 +2147,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2283,6 +2312,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2307,6 +2337,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2489,8 +2520,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2517,10 +2550,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2722,8 +2758,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2751,10 +2789,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2781,10 +2822,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000829" target="_blank" class="ontology-term">season <span>MIXS:0000829</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2811,10 +2855,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000895" target="_blank" class="ontology-term">total fertilizer N amendment <span>BERVO:0000895</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -2992,8 +3039,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3020,10 +3069,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3207,8 +3259,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000751" target="_blank" class="ontology-term">chemical administration <span>MIXS:0000751</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3233,8 +3287,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000751" target="_blank" class="ontology-term">chemical administration <span>MIXS:0000751</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3261,8 +3317,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3444,10 +3502,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3473,8 +3534,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3525,6 +3588,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3677,8 +3741,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3704,6 +3770,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3732,10 +3799,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000301" target="_blank" class="ontology-term">total soil water content <span>BERVO:0000301</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000185" target="_blank" class="ontology-term">water content <span>MIXS:0000185</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3763,6 +3833,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3908,6 +3979,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -3934,8 +4006,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -4140,6 +4214,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -4311,6 +4386,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -4337,8 +4413,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -4365,12 +4443,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -5104,8 +5186,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5131,8 +5215,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5160,6 +5246,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5184,6 +5271,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5270,6 +5358,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5294,6 +5383,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5318,6 +5408,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5482,6 +5573,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5610,8 +5702,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -5639,6 +5733,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6353,6 +6448,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6379,10 +6475,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000895" target="_blank" class="ontology-term">total fertilizer N amendment <span>BERVO:0000895</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6410,6 +6509,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6437,6 +6537,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6461,6 +6562,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6547,6 +6649,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6571,6 +6674,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6595,6 +6699,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6759,6 +6864,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6783,6 +6889,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6919,8 +7026,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -6947,12 +7056,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -6978,6 +7091,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7137,8 +7251,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7164,6 +7280,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7191,6 +7308,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7332,10 +7450,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000895" target="_blank" class="ontology-term">total fertilizer N amendment <span>BERVO:0000895</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000556" target="_blank" class="ontology-term">fertilizer regimen <span>MIXS:0000556</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7363,8 +7484,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7393,6 +7516,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000871" target="_blank" class="ontology-term">current nitrification inhibition activity <span>BERVO:0000871</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7420,6 +7544,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7551,10 +7676,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7581,12 +7709,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -7742,8 +7874,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -7771,6 +7905,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8185,10 +8320,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8214,8 +8352,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8242,12 +8382,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -8275,6 +8419,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8322,6 +8467,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8408,6 +8554,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8432,6 +8579,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8456,6 +8604,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8520,6 +8669,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8660,8 +8810,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -8688,12 +8840,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -8871,6 +9027,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9397,8 +9554,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001107" target="_blank" class="ontology-term">sample name <span>MIXS:0001107</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9426,6 +9585,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9453,6 +9613,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9605,8 +9766,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9633,6 +9796,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -9801,8 +9965,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10006,6 +10172,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10032,6 +10199,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10217,6 +10385,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10242,6 +10411,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10416,6 +10586,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10441,6 +10612,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10932,8 +11104,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001107" target="_blank" class="ontology-term">sample name <span>MIXS:0001107</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10961,6 +11135,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -10986,8 +11161,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11015,6 +11192,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11061,6 +11239,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11147,6 +11326,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11171,6 +11351,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11195,6 +11376,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11490,6 +11672,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001057" target="_blank" class="ontology-term">plant growth medium <span>MIXS:0001057</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11558,6 +11741,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11644,6 +11828,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11668,6 +11853,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11692,6 +11878,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11836,6 +12023,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11860,8 +12048,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11886,6 +12076,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11930,6 +12121,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -11954,6 +12146,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000250" target="_blank" class="ontology-term">host taxid <span>MIXS:0000250</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12171,10 +12364,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12345,10 +12541,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12376,8 +12575,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001057" target="_blank" class="ontology-term">plant growth medium <span>MIXS:0001057</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12550,8 +12751,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12625,6 +12828,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -12750,8 +12954,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12778,8 +12984,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12951,6 +13159,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -12977,10 +13186,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13176,6 +13388,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001057" target="_blank" class="ontology-term">plant growth medium <span>MIXS:0001057</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13591,8 +13804,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13619,8 +13834,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13648,6 +13865,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13717,6 +13935,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13781,6 +14000,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13805,6 +14025,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -13829,6 +14050,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14108,8 +14330,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14136,6 +14360,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14185,6 +14410,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -14303,6 +14529,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14355,6 +14582,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000995" target="_blank" class="ontology-term">microbial biomass chemical element <span>BERVO:0000995</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14479,8 +14707,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000751" target="_blank" class="ontology-term">chemical administration <span>MIXS:0000751</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14682,8 +14912,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000185" target="_blank" class="ontology-term">water content <span>MIXS:0000185</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -14709,8 +14941,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000751" target="_blank" class="ontology-term">chemical administration <span>MIXS:0000751</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15107,12 +15341,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000301" target="_blank" class="ontology-term">total soil water content <span>BERVO:0000301</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000185" target="_blank" class="ontology-term">water content <span>MIXS:0000185</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15300,8 +15538,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15327,8 +15567,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15354,8 +15596,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15383,6 +15627,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15523,12 +15768,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000301" target="_blank" class="ontology-term">total soil water content <span>BERVO:0000301</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000591" target="_blank" class="ontology-term">watering regimen <span>MIXS:0000591</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15556,6 +15805,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15714,6 +15964,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -15785,6 +16036,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18322,6 +18574,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18347,6 +18600,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18373,6 +18627,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18877,6 +19132,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18902,6 +19158,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -18929,12 +19186,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -18961,6 +19222,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -19469,12 +19731,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -19502,6 +19768,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -19591,6 +19858,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -19655,6 +19923,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -19679,6 +19948,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -19703,6 +19973,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20049,8 +20320,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20077,12 +20350,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -20110,6 +20387,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20182,6 +20460,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000882" target="_blank" class="ontology-term">soil pH <span>BERVO:0000882</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20209,6 +20488,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000306" target="_blank" class="ontology-term">total soil NH4 content <span>BERVO:0000306</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20236,6 +20516,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000307" target="_blank" class="ontology-term">total soil NO3 content <span>BERVO:0000307</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20263,6 +20544,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0001674" target="_blank" class="ontology-term">total soil NO3 + NO2 content <span>BERVO:0001674</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20310,6 +20592,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20396,6 +20679,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20420,6 +20704,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20444,6 +20729,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20668,6 +20954,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000250" target="_blank" class="ontology-term">host taxid <span>MIXS:0000250</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20960,10 +21247,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000829" target="_blank" class="ontology-term">season <span>MIXS:0000829</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -20991,8 +21281,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21019,8 +21311,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21047,12 +21341,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -21219,10 +21517,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21249,10 +21550,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21278,8 +21582,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21446,10 +21752,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21659,10 +21968,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21688,8 +22000,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21717,6 +22031,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21765,6 +22080,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21888,6 +22204,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21913,8 +22230,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001057" target="_blank" class="ontology-term">plant growth medium <span>MIXS:0001057</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -21941,6 +22260,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22516,8 +22836,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22688,8 +23010,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22716,6 +23040,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22884,6 +23209,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22909,6 +23235,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -22934,6 +23261,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -23428,6 +23756,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -23454,6 +23783,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -23480,12 +23810,16 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -23927,8 +24261,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -23956,6 +24292,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24120,10 +24457,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000829" target="_blank" class="ontology-term">season <span>MIXS:0000829</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24150,8 +24490,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000301" target="_blank" class="ontology-term">total soil water content <span>BERVO:0000301</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000185" target="_blank" class="ontology-term">water content <span>MIXS:0000185</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24751,8 +25093,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24780,6 +25124,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24806,8 +25151,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24858,6 +25205,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24922,6 +25270,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24946,6 +25295,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -24970,6 +25320,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -25267,6 +25618,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -25291,6 +25643,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -25341,6 +25694,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -25844,6 +26198,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -25869,7 +26224,8 @@ DOE BER
                         <div class="variable-meta"><span class="mini-label">Fields</span> mercury_contamination, hg_context, contaminant_context</div>
                     </td>
                     <td><div class="ontology-list">
-    <div><span class="mini-label">Map</span> <span class="ontology-term">mercury atom <span>CHEBI:25195</span></span>
+    <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/CHEBI_25195" target="_blank" class="ontology-term">mercury atom <span>CHEBI:25195</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -26033,6 +26389,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -26058,10 +26415,13 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000751" target="_blank" class="ontology-term">chemical administration <span>MIXS:0000751</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
-    <div><span class="mini-label">Map</span> <span class="ontology-term">mercury atom <span>CHEBI:25195</span></span>
+    <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/CHEBI_25195" target="_blank" class="ontology-term">mercury atom <span>CHEBI:25195</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -26087,7 +26447,8 @@ DOE BER
                         <div class="variable-meta"><span class="mini-label">Fields</span> methylmercury, methylmercury_production, mercury_methylation_rate</div>
                     </td>
                     <td><div class="ontology-list">
-    <div><span class="mini-label">Map</span> <span class="ontology-term">methylmercury compound <span>CHEBI:25322</span></span>
+    <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/CHEBI_25322" target="_blank" class="ontology-term">methylmercury compound <span>CHEBI:25322</span></a>
+<span class="mapping-relation">relatedmatch</span>
 </div>
 </div>
 </td>
@@ -29908,8 +30269,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -29936,6 +30299,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -29963,6 +30327,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -29989,6 +30354,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -30874,8 +31240,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -30902,8 +31270,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -30929,8 +31299,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -31418,6 +31790,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -31612,6 +31985,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -31791,6 +32165,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -31816,6 +32191,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -31982,6 +32358,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32007,6 +32384,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32175,8 +32553,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32203,6 +32583,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32365,8 +32746,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32415,6 +32798,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32848,8 +33232,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32876,6 +33262,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -32901,6 +33288,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -33042,6 +33430,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -33067,6 +33456,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -33215,6 +33605,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -33240,8 +33631,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000754" target="_blank" class="ontology-term">perturbation <span>MIXS:0000754</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -33267,6 +33660,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34475,8 +34869,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34504,8 +34900,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34579,6 +34977,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34605,8 +35004,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000301" target="_blank" class="ontology-term">total soil water content <span>BERVO:0000301</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000185" target="_blank" class="ontology-term">water content <span>MIXS:0000185</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34633,6 +35034,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000882" target="_blank" class="ontology-term">soil pH <span>BERVO:0000882</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34661,6 +35063,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000995" target="_blank" class="ontology-term">microbial biomass chemical element <span>BERVO:0000995</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34829,6 +35232,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000012" target="_blank" class="ontology-term">broad-scale environmental context <span>MIXS:0000012</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -34855,8 +35259,10 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35046,6 +35452,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0001107" target="_blank" class="ontology-term">sample name <span>MIXS:0001107</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35094,6 +35501,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35243,6 +35651,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35268,6 +35677,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000829" target="_blank" class="ontology-term">season <span>MIXS:0000829</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35317,6 +35727,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>
@@ -35441,6 +35852,7 @@ DOE BER
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
 </div>
 </div>
 </td>

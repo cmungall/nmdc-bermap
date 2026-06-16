@@ -128,6 +128,10 @@ def variable_record(
         "temporal_resolution": variable.get("temporal_resolution"),
         "spatial_resolution": variable.get("spatial_resolution"),
         "levels": variable.get("levels") or [],
+        "level_terms": variable.get("level_terms") or [],
+        "enum_kind": variable.get("enum_kind"),
+        "enum_source": variable.get("enum_source"),
+        "shared": variable.get("shared") or {},
         "source_field_names": variable.get("source_field_names") or [],
         "mappings": {
             "bervo": bervo_term,

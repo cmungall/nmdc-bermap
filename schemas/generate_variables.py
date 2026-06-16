@@ -107,12 +107,28 @@ def _norm(v):
     return {k: v[k] for k in sorted(v)}
 
 
+def dynamic_enum_names() -> set:
+    base = yaml.safe_load((ROOT / "schemas" / "base.yaml").read_text())
+    return {n for n, e in (base.get("enums") or {}).items()
+            if e.get("reachable_from") or ((e.get("annotations") or {}).get("source"))}
+
+
+def term_ids(v: dict) -> set:
+    ids = {t["id"] for t in (v.get("mixs_terms") or []) + (v.get("ontology_mappings") or [])}
+    if v.get("bervo_term"):
+        ids.add(v["bervo_term"]["id"])
+    ids |= {lt["id"] for lt in v.get("level_terms") or [] if lt.get("id")}
+    return ids
+
+
 def build_index() -> dict:
     """The intermediate indexing product the browser consumes: variables reconstructed from
-    study metadata (profiles + SSSOM), plus a `by_term` inverted index (ontology CURIE ->
+    study metadata (profiles + SSSOM), enriched for the variable pages (enum kind, level->CURIE
+    badges, mapping predicates), plus a `by_term` inverted index (ontology CURIE ->
     studies/variables) for cross-study harmonization.
     """
     db = yaml.safe_load(DB_PATH.read_text())
+    dynamic = dynamic_enum_names()
     studies, by_term = {}, {}
     for pk in PROG_KEYS:
         for p in db.get(pk) or []:
@@ -123,26 +139,36 @@ def build_index() -> dict:
                 sid = study_id(s)
                 profile = yaml.safe_load((OUT_STUDIES / f"{sid}.yaml").read_text())
                 enums = profile.get("enums") or {}
+                slot_order = profile["classes"]["Record"]["slots"]
+                rows = sssom_by_subject(OUT_STUDIES / f"{sid}.sssom.yaml")
                 variables = reconstruct_study(sid)
-                studies[sid] = {"program": pid, "name": s.get("name"), "variables": variables}
-                for v in variables:
-                    maps = list(v.get("mixs_terms") or [])
-                    if v.get("bervo_term"):
-                        maps.append(v["bervo_term"])
-                    if v.get("unit_term"):
-                        maps.append(v["unit_term"])
-                    maps += list(v.get("ontology_mappings") or [])
-                    for m in maps:
-                        by_term.setdefault(m["id"], []).append(
-                            {"study": sid, "variable": v["name"], "via": "mapping"})
-                for sname in profile["classes"]["Record"]["slots"]:
+                for v, sname in zip(variables, slot_order):
                     rng = profile["slots"][sname].get("range")
+                    pred = {r["object_id"]: r["predicate_id"].split(":")[-1]
+                            for r in rows.get(f"profiles:{sname}", [])}
                     if rng in enums:
-                        for lv, meta in (enums[rng].get("permissible_values") or {}).items():
-                            if meta and meta.get("meaning"):
-                                by_term.setdefault(meta["meaning"], []).append(
-                                    {"study": sid, "variable": profile["slots"][sname].get("title") or sname,
-                                     "level": lv, "via": "level"})
+                        v["enum_kind"] = "static"
+                        v["level_terms"] = [{"value": lv, "id": (meta or {}).get("meaning")}
+                                            for lv, meta in (enums[rng].get("permissible_values") or {}).items()]
+                    elif rng in dynamic:
+                        v["enum_kind"] = "dynamic"
+                        v["enum_source"] = rng
+                    for t in (v.get("mixs_terms") or []) + (v.get("ontology_mappings") or []):
+                        if t["id"] in pred:
+                            t["mapping_relation"] = pred[t["id"]]
+                    if v.get("bervo_term") and v["bervo_term"]["id"] in pred:
+                        v["bervo_term"]["mapping_relation"] = pred[v["bervo_term"]["id"]]
+                    for tid in term_ids(v):
+                        by_term.setdefault(tid, []).append({"study": sid, "variable": v["name"]})
+                studies[sid] = {"program": pid, "name": s.get("name"), "variables": variables}
+
+    studied_by = {t: {o["study"] for o in occ} for t, occ in by_term.items()}
+    for sid, entry in studies.items():
+        for v in entry["variables"]:
+            shared = {tid: len(studied_by.get(tid, set()) - {sid}) for tid in term_ids(v)}
+            shared = {k: n for k, n in shared.items() if n > 0}
+            if shared:
+                v["shared"] = shared
     return {"studies": studies, "by_term": dict(sorted(by_term.items()))}
 
 

@@ -56,7 +56,7 @@
 <a href="https://w3id.org/bervo/BERVO_{{ local_id }}" target="_blank" class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></a>
 {% elif prefix == 'MIXS' %}
 <a href="https://w3id.org/mixs/{{ local_id }}" target="_blank" class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></a>
-{% elif prefix in ['OBI', 'STATO', 'EFO', 'ENVO', 'UO', 'NCBITaxon', 'PO', 'PATO'] %}
+{% elif prefix in ['OBI', 'STATO', 'EFO', 'ENVO', 'UO', 'NCBITaxon', 'PO', 'PATO', 'CHEBI', 'GO'] %}
 <a href="http://purl.obolibrary.org/obo/{{ prefix }}_{{ local_id }}" target="_blank" class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></a>
 {% else %}
 <span class="ontology-term">{{ term_label }} <span>{{ term_id }}</span></span>

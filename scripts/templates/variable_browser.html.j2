@@ -28,6 +28,9 @@
         {% if variable.value_type %}
         <span class="chip value-type">{{ variable.value_type | replace('_', ' ') | title }}</span>
         {% endif %}
+        {% if variable.enum_kind %}
+        <span class="chip enum-kind enum-{{ variable.enum_kind }}" title="{{ variable.enum_source or 'study-specific enumeration' }}">{{ variable.enum_kind }} enum{% if variable.enum_source %} · {{ variable.enum_source }}{% endif %}</span>
+        {% endif %}
     </header>
 
     {% if variable.description %}
@@ -54,7 +57,13 @@
         {% elif variable.temporal_resolution %}
         <div><dt>Temporal</dt><dd>{{ variable.temporal_resolution }}</dd></div>
         {% endif %}
-        {% if variable.levels %}
+        {% if variable.level_terms %}
+        <div><dt>Levels</dt><dd class="level-badges">
+        {% for lt in variable.level_terms %}
+            {% if lt.id %}{{ ontology_term_link({'id': lt.id, 'label': lt.value}) }}{% else %}<span class="level-plain">{{ lt.value }}</span>{% endif %}
+        {% endfor %}
+        </dd></div>
+        {% elif variable.levels %}
         <div><dt>Levels</dt><dd>{{ variable.levels | join(', ') }}</dd></div>
         {% endif %}
         {% if variable.source_field_names %}
@@ -64,16 +73,16 @@
 
     <div class="ontology-list variable-index-mappings">
         {% if variable.mappings.bervo %}
-        <div><span class="mini-label">BERVO</span> {{ ontology_term_link(variable.mappings.bervo) }}</div>
+        <div><span class="mini-label">BERVO</span> {{ ontology_term_link(variable.mappings.bervo) }}{% if variable.shared[variable.mappings.bervo.id] %}<span class="shared-count" title="other studies mapping this term">+{{ variable.shared[variable.mappings.bervo.id] }} studies</span>{% endif %}</div>
         {% endif %}
         {% for term in variable.mappings.mixs %}
-        <div><span class="mini-label">MIxS</span> {{ ontology_term_link(term) }}</div>
+        <div><span class="mini-label">MIxS</span> {{ ontology_term_link(term) }}{% if variable.shared[term.id] %}<span class="shared-count" title="other studies mapping this term">+{{ variable.shared[term.id] }} studies</span>{% endif %}</div>
         {% endfor %}
         {% if variable.mappings.unit %}
         <div><span class="mini-label">Unit</span> {{ ontology_term_link(variable.mappings.unit) }}</div>
         {% endif %}
         {% for term in variable.mappings.other %}
-        <div><span class="mini-label">Map</span> {{ ontology_term_link(term) }}</div>
+        <div><span class="mini-label">Map</span> {{ ontology_term_link(term) }}{% if variable.shared[term.id] %}<span class="shared-count" title="other studies mapping this term">+{{ variable.shared[term.id] }} studies</span>{% endif %}</div>
         {% endfor %}
     </div>
 </article>

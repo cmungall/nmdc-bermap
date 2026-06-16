@@ -348,6 +348,8 @@ def generate():
 
     print(f"Wrote {n_study} study profiles ({n_slot} slots, {n_enum} static enums) "
           f"and {n_site} site profiles to {SCHEMAS}")
+    print("NOTE: this is the BOOTSTRAP direction (db.variables -> profiles) and overwrites any "
+          "hand edits to profiles. Post-flip, edit profiles and run `just sync-variables` instead.")
 
 
 if __name__ == "__main__":

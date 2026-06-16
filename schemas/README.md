@@ -50,13 +50,20 @@ else→ontology_mappings).
   = source field names, `annotations.role`/`value_type`/`time_series`/etc.); ontology mappings
   go to the SSSOM table. See the spec for the full mapping table.
 
-## Source of truth
+## Source of truth — the profiles + SSSOM (flipped)
 
-The inline `variables` catalog in `db/sfas-brcs.yaml` remains authoritative for now (decision
-i-a, "coexist"), but the **reverse generator proves the profiles + SSSOM are a complete,
-lossless representation**: `just sync-variables --check` reconstructs every study's `variables`
-from `profiles + SSSOM` and confirms **81/81 studies are byte-for-byte identical** to the DB. That
-is what makes flipping the Source of Truth (edit profiles → regenerate the DB block) provably safe.
+**Edit the profiles + SSSOM here; they are the Source of Truth.** `db/sfas-brcs.yaml`'s inline
+`variables` is now an **auto-mirror**: `just sync-variables` rewrites a study's `variables` block
+*only when* it differs from what the profile reconstructs (ruamel line-surgery, so untouched
+studies stay byte-identical — a no-op when nothing changed). `just sync-variables --check` proves
+the round-trip (currently **81/81 studies identical**).
+
+> `gen-profiles` is the **bootstrap** direction (db → profiles); it regenerates profiles *from*
+> `db.variables` and will overwrite hand edits. After the flip, edit profiles and run
+> `sync-variables` to mirror to the DB — don't run `gen-profiles` unless re-bootstrapping.
+
+The reverse generator proves the profiles + SSSOM are a complete, lossless representation, which
+is what makes the flip safe.
 `base.yaml` is hand-authored and never overwritten. Level `meaning:` groundings are harvested from
 the DB's own `ontology_mappings`/`bervo_term` plus the curated `level_meanings.yaml`.
 

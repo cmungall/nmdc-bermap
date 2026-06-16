@@ -146,24 +146,10 @@ def build_index() -> dict:
     return {"studies": studies, "by_term": dict(sorted(by_term.items()))}
 
 
-def main() -> int:
-    if "--index" in sys.argv:
-        index = build_index()
-        INDEX_PATH.write_text(yaml.safe_dump(index, sort_keys=False, allow_unicode=True, width=100))
-        nvar = sum(len(s["variables"]) for s in index["studies"].values())
-        print(f"Wrote {INDEX_PATH.relative_to(ROOT)} "
-              f"({len(index['studies'])} studies, {nvar} variables, {len(index['by_term'])} indexed terms)")
-        return 0
-
-    check = "--check" in sys.argv
+def roundtrip_check() -> int:
     db = yaml.safe_load(DB_PATH.read_text())
     studies = [(study_id(s), s) for pk in PROG_KEYS for p in db.get(pk) or []
                for s in p.get("studies") or [] if s.get("variables")]
-
-    if not check:
-        print(f"Reconstructed variables for {len(studies)} studies (use --check to verify).")
-        return 0
-
     mismatches = 0
     for sid, study in studies:
         original = study.get("variables") or []
@@ -173,14 +159,79 @@ def main() -> int:
             print(f"❌ {sid}: variables differ")
             for i, (a, b) in enumerate(zip(original, rebuilt)):
                 if _norm(a) != _norm(b):
-                    da = {k: a.get(k) for k in set(a) | set(b) if a.get(k) != b.get(k)}
-                    db_ = {k: b.get(k) for k in set(a) | set(b) if a.get(k) != b.get(k)}
-                    print(f"    var[{i}] {a.get('name')!r}: DB={da}  REBUILT={db_}")
+                    keys = {k for k in set(a) | set(b) if a.get(k) != b.get(k)}
+                    print(f"    var[{i}] {a.get('name')!r}: "
+                          f"DB={ {k: a.get(k) for k in keys} }  REBUILT={ {k: b.get(k) for k in keys} }")
             if len(original) != len(rebuilt):
                 print(f"    length differs: DB={len(original)} REBUILT={len(rebuilt)}")
     total = len(studies)
     print(f"\nRound-trip: {total - mismatches}/{total} studies identical.")
     return 1 if mismatches else 0
+
+
+def write_back() -> int:
+    """Mirror the profiles + SSSOM back into db/sfas-brcs.yaml: rewrite a study's `variables`
+    block only when it differs from what the profile reconstructs. Uses ruamel line numbers +
+    raw line-surgery so untouched studies stay byte-identical (no dumper reflow)."""
+    from ruamel.yaml import YAML
+    text = DB_PATH.read_text()
+    raw = text.splitlines(keepends=True)
+    rdata = YAML().load(text)
+    plain = yaml.safe_load(text)
+
+    def indent(line):
+        s = line.rstrip("\n")
+        return len(s) - len(s.lstrip(" ")) if s.strip() else 10 ** 9
+
+    edits, changed = [], []
+    for pk in PROG_KEYS:
+        for pp, rp in zip(plain.get(pk) or [], rdata.get(pk) or []):
+            for ps, rs in zip(pp.get("studies") or [], rp.get("studies") or []):
+                if not ps.get("variables"):
+                    continue
+                sid = study_id(ps)
+                rebuilt = reconstruct_study(sid)
+                if [_norm(v) for v in ps["variables"]] == [_norm(v) for v in rebuilt]:
+                    continue
+                changed.append(sid)
+                vline = rs.lc.key("variables")[0]
+                end = vline + 1
+                while end < len(raw):
+                    if not raw[end].strip():
+                        end += 1
+                        continue
+                    ind = indent(raw[end])
+                    if ind > 4 or (ind == 4 and raw[end].lstrip().startswith("- ")):
+                        end += 1
+                        continue
+                    break
+                block = yaml.safe_dump(rebuilt, sort_keys=False, allow_unicode=True,
+                                       width=100, default_flow_style=False)
+                new_lines = ["    " + ln if ln.strip() else ln
+                             for ln in block.splitlines(keepends=True)]
+                edits.append((vline + 1, end, new_lines))
+
+    if not edits:
+        print("sync-variables: db/sfas-brcs.yaml already mirrors profiles + SSSOM (no changes).")
+        return 0
+    for start, end, lines in sorted(edits, key=lambda e: e[0], reverse=True):
+        raw[start:end] = lines
+    DB_PATH.write_text("".join(raw))
+    print(f"sync-variables: rewrote {len(changed)} study variables block(s): {', '.join(changed)}")
+    return 0
+
+
+def main() -> int:
+    if "--index" in sys.argv:
+        index = build_index()
+        INDEX_PATH.write_text(yaml.safe_dump(index, sort_keys=False, allow_unicode=True, width=100))
+        nvar = sum(len(s["variables"]) for s in index["studies"].values())
+        print(f"Wrote {INDEX_PATH.relative_to(ROOT)} "
+              f"({len(index['studies'])} studies, {nvar} variables, {len(index['by_term'])} indexed terms)")
+        return 0
+    if "--check" in sys.argv:
+        return roundtrip_check()
+    return write_back()
 
 
 if __name__ == "__main__":

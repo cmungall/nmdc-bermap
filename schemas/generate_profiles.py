@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "db" / "sfas-brcs.yaml"
 SCHEMAS = ROOT / "schemas"
 OUT_STUDIES = SCHEMAS / "studies"
+OUT_DATASETS = SCHEMAS / "datasets"
 OUT_SITES = SCHEMAS / "sites"
 BASE_URI = "https://w3id.org/nmdc-sfas-brcs/profiles"
 
@@ -139,24 +140,37 @@ def harvest_meanings(db: dict) -> dict:
     return out
 
 
+# DB OntologyMappingRelation <-> SSSOM predicate, and the default predicate per source bucket.
+REL_TO_SKOS = {"EXACT_MATCH": "skos:exactMatch", "CLOSE_MATCH": "skos:closeMatch",
+               "RELATED_MATCH": "skos:relatedMatch", "BROAD_MATCH": "skos:broadMatch",
+               "NARROW_MATCH": "skos:narrowMatch"}
+DEFAULT_PREDICATE = {"mixs": "skos:exactMatch", "bervo": "skos:exactMatch",
+                     "unit": "skos:closeMatch", "onto": "skos:relatedMatch"}
+
+
 def slot_mappings(v: dict) -> list:
-    """Slot -> ontology mappings as (object_id, object_label, predicate), emitted to SSSOM
-    (not inline in the schema). Source bucket is recoverable from the object CURIE prefix on
-    the reverse trip: MIXS->mixs_terms, BERVO->bervo_term, UO->unit_term, else->ontology_mappings.
+    """Slot -> ontology mappings as (object_id, object_label, predicate, comment), emitted to
+    SSSOM (not inline in the schema). Source bucket is recoverable from the object CURIE prefix
+    on reverse: MIXS->mixs_terms, BERVO->bervo_term, UO->unit_term, else->ontology_mappings.
+    Predicate reflects the term's `mapping_relation` if set (else the bucket default); any
+    `mapping_note` rides along as the SSSOM comment.
     """
     out = []
+
+    def emit(t, bucket):
+        if not t.get("id"):
+            return
+        pred = REL_TO_SKOS.get(t.get("mapping_relation"), DEFAULT_PREDICATE[bucket])
+        out.append((t["id"], t.get("label"), pred, t.get("mapping_note")))
+
     for m in v.get("mixs_terms") or []:
-        if m.get("id"):
-            out.append((m["id"], m.get("label"), "skos:exactMatch"))
-    bv = v.get("bervo_term")
-    if bv and bv.get("id"):
-        out.append((bv["id"], bv.get("label"), "skos:exactMatch"))
-    ut = v.get("unit_term")
-    if ut and ut.get("id"):
-        out.append((ut["id"], ut.get("label"), "skos:closeMatch"))
+        emit(m, "mixs")
+    if v.get("bervo_term"):
+        emit(v["bervo_term"], "bervo")
+    if v.get("unit_term"):
+        emit(v["unit_term"], "unit")
     for m in v.get("ontology_mappings") or []:
-        if m.get("id"):
-            out.append((m["id"], m.get("label"), "skos:relatedMatch"))
+        emit(m, "onto")
     return out
 
 
@@ -239,6 +253,56 @@ def study_id(study: dict) -> str:
     return slugify(study.get("name"))
 
 
+def dataset_id(dataset: dict) -> str:
+    return slugify(dataset.get("name"))
+
+
+def build_owner_profile(owner: dict, kind: str, oid: str, meanings: dict):
+    """Build a data-dictionary profile + its SSSOM mappings for a variable owner (study or
+    dataset). Returns (profile_dict, mappings)."""
+    slots, enums, mappings = {}, {}, []
+    for v in owner.get("variables") or []:
+        sname, sdict, vmaps = build_variable(v, enums, meanings)
+        slots[sname] = sdict
+        for oid_, olabel, pred, comment in vmaps:
+            row = {
+                "subject_id": f"profiles:{sname}",
+                "subject_label": v.get("name"),
+                "predicate_id": pred,
+                "object_id": oid_,
+                "object_label": olabel,
+                "mapping_justification": "semapv:ManualMappingCuration",
+            }
+            if comment:
+                row["comment"] = comment
+            mappings.append(row)
+    imports = ["../base"]
+    if kind == "study":
+        for fs in owner.get("field_site_ids") or []:
+            imports.append("../sites/" + fs.split(":")[-1])
+    plural = {"study": "studies", "dataset": "datasets"}[kind]
+    profile = {
+        "id": f"{BASE_URI}/{plural}/{oid}",
+        "name": ncname(slugify(owner.get("name")) or oid),
+        "title": owner.get("name"),
+        "description": (owner.get("description") or "").strip() or None,
+        "prefixes": PREFIXES,
+        "default_prefix": "profiles",
+        "default_range": "string",
+        "imports": imports,
+        "classes": {
+            "Record": {
+                "description": f"Per-record data dictionary for {kind} {oid}.",
+                "slots": list(slots.keys()),
+            }
+        },
+        "slots": dict(slots),
+    }
+    if enums:
+        profile["enums"] = dict(enums)
+    return {k: v for k, v in profile.items() if v is not None}, mappings
+
+
 def dump(path: Path, data: dict):
     text = yaml.safe_dump(data, sort_keys=False, default_flow_style=False,
                           allow_unicode=True, width=100)
@@ -249,58 +313,34 @@ def generate():
     db = yaml.safe_load(DB_PATH.read_text())
     meanings = harvest_meanings(db)
     OUT_STUDIES.mkdir(parents=True, exist_ok=True)
+    OUT_DATASETS.mkdir(parents=True, exist_ok=True)
     OUT_SITES.mkdir(parents=True, exist_ok=True)
 
-    n_study = n_slot = n_enum = 0
+    n_study = n_dataset = n_slot = n_enum = 0
     for prog_key in PROG_KEYS:
         for prog in db.get(prog_key) or []:
             for study in prog.get("studies") or []:
-                variables = study.get("variables") or []
-                if not variables:
+                if not (study.get("variables") or []):
                     continue
                 sid = study_id(study)
-                slots, enums, mappings = {}, {}, []
-                for v in variables:
-                    sname, sdict, vmaps = build_variable(v, enums, meanings)
-                    slots[sname] = sdict
-                    for oid, olabel, pred in vmaps:
-                        mappings.append({
-                            "subject_id": f"profiles:{sname}",
-                            "subject_label": v.get("name"),
-                            "predicate_id": pred,
-                            "object_id": oid,
-                            "object_label": olabel,
-                            "mapping_justification": "semapv:ManualMappingCuration",
-                        })
-                imports = ["../base"]
-                for fs in study.get("field_site_ids") or []:
-                    imports.append("../sites/" + fs.split(":")[-1])
-                profile = {
-                    "id": f"{BASE_URI}/studies/{sid}",
-                    "name": ncname(slugify(study.get("name")) or sid),
-                    "title": study.get("name"),
-                    "description": (study.get("description") or "").strip() or None,
-                    "prefixes": PREFIXES,
-                    "default_prefix": "profiles",
-                    "default_range": "string",
-                    "imports": imports,
-                    "classes": {
-                        "Record": {
-                            "description": f"Per-record data dictionary for study {sid}.",
-                            "slots": list(slots.keys()),
-                        }
-                    },
-                    "slots": dict(slots),
-                }
-                if enums:
-                    profile["enums"] = dict(enums)
-                profile = {k: v for k, v in profile.items() if v is not None}
+                profile, mappings = build_owner_profile(study, "study", sid, meanings)
                 dump(OUT_STUDIES / f"{sid}.yaml", profile)
                 if mappings:
                     dump(OUT_STUDIES / f"{sid}.sssom.yaml", {"mappings": mappings})
                 n_study += 1
-                n_slot += len(slots)
-                n_enum += len(enums)
+                n_slot += len(profile.get("slots") or {})
+                n_enum += len(profile.get("enums") or {})
+            for dataset in prog.get("datasets") or []:
+                if not (dataset.get("variables") or []):
+                    continue
+                did = dataset_id(dataset)
+                profile, mappings = build_owner_profile(dataset, "dataset", did, meanings)
+                dump(OUT_DATASETS / f"{did}.yaml", profile)
+                if mappings:
+                    dump(OUT_DATASETS / f"{did}.sssom.yaml", {"mappings": mappings})
+                n_dataset += 1
+                n_slot += len(profile.get("slots") or {})
+                n_enum += len(profile.get("enums") or {})
 
     n_site = 0
     for site in db.get("sites") or []:
@@ -346,8 +386,8 @@ def generate():
         dump(OUT_SITES / f"{sid}.yaml", profile)
         n_site += 1
 
-    print(f"Wrote {n_study} study profiles ({n_slot} slots, {n_enum} static enums) "
-          f"and {n_site} site profiles to {SCHEMAS}")
+    print(f"Wrote {n_study} study + {n_dataset} dataset profiles ({n_slot} slots, "
+          f"{n_enum} static enums) and {n_site} site profiles to {SCHEMAS}")
     print("NOTE: this is the BOOTSTRAP direction (db.variables -> profiles) and overwrites any "
           "hand edits to profiles. Post-flip, edit profiles and run `just sync-variables` instead.")
 

@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:drought_and_wet_up_treatment
+  subject_label: drought and wet-up treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:drought_and_wet_up_treatment
+  subject_label: drought and wet-up treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000591
+  object_label: watering regimen
+  mapping_justification: semapv:ManualMappingCuration

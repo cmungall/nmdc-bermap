@@ -38,8 +38,8 @@ studies:
         id: null
       shared:
         MIXS:0000011: 24
-        MIXS:0000829: 4
         MIXS:0000008: 73
+        MIXS:0000829: 4
     - name: host crop
       description: Perennial bioenergy crop host sampled for phyllosphere community profiling.
       roles:
@@ -68,8 +68,8 @@ studies:
       - value: miscanthus
         id: NCBITaxon:62336
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: phyllosphere transcript activity
       description: Microbial transcript abundance profiles used to infer seasonal activity of phyllosphere
         taxa.
@@ -685,8 +685,8 @@ studies:
       enum_kind: dynamic
       enum_source: HostCommonNameEnum
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: plant-associated compartment
       description: Sorghum plant-associated habitat sampled for community profiling or isolate recovery.
       roles:
@@ -721,9 +721,9 @@ studies:
       - value: rhizosphere
         id: ENVO:00005801
       shared:
-        MIXS:0000014: 42
         ENVO:00005801: 12
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: sorghum-associated microbial community composition
       description: Amplicon, metagenomic, or metatranscriptomic profiles of sorghum-associated microbial
@@ -827,11 +827,11 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
-        PO:0009005: 4
+        ENVO:00005802: 4
         MIXS:0000014: 42
         MIXS:0000008: 73
+        PO:0009005: 4
         MIXS:0000013: 36
-        ENVO:00005802: 4
     - name: collection date
       description: Date or seasonal sampling point used to evaluate intra-annual microbiome dynamics.
       roles:
@@ -857,8 +857,8 @@ studies:
       - date
       shared:
         MIXS:0000011: 24
-        MIXS:0000829: 4
         MIXS:0000008: 73
+        MIXS:0000829: 4
     - name: nitrogen addition
       description: Nitrogen addition treatment evaluated as a possible driver of switchgrass microbiome
         structure.
@@ -979,12 +979,12 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
-        PO:0009005: 4
-        PO:0025034: 2
-        MIXS:0000014: 42
-        MIXS:0000008: 73
-        MIXS:0000013: 36
         ENVO:00001998: 2
+        MIXS:0000014: 42
+        PO:0025034: 2
+        MIXS:0000008: 73
+        PO:0009005: 4
+        MIXS:0000013: 36
     - name: bacterial and fungal community composition
       description: 16S and ITS amplicon profiles used to evaluate transgenic effects on switchgrass microbiomes.
       roles:
@@ -1122,9 +1122,9 @@ studies:
       - water_treatment
       - perturbation
       shared:
-        MIXS:0000591: 5
+        MIXS:0000591: 6
+        MIXS:0000754: 12
         MIXS:0000008: 73
-        MIXS:0000754: 11
     - name: cropping system
       description: Long-term KBS MCSE cropping-system treatment represented by each soil sample.
       roles:
@@ -1203,8 +1203,8 @@ studies:
       enum_kind: dynamic
       enum_source: HostCommonNameEnum
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: soil pore size
       description: Micro-scale soil physical environment represented by pore-size treatment or fraction.
       roles:
@@ -1441,10 +1441,10 @@ studies:
       - value: Populus trichocarpa
         id: NCBITaxon:3694
       shared:
-        NCBITaxon:3694: 2
+        MIXS:0000248: 11
         MIXS:0000008: 73
         NCBITaxon:3696: 1
-        MIXS:0000248: 11
+        NCBITaxon:3694: 2
     - name: root-associated compartment
       description: Populus root-associated compartment where each Variovorax strain was quantified.
       roles:
@@ -1481,9 +1481,9 @@ studies:
         id: null
       shared:
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00005801: 12
     - name: strain compartment abundance
       description: Strain-resolved abundance used to infer rhizosphere versus endosphere specialization.
       roles:
@@ -1529,8 +1529,8 @@ studies:
       - value: drought-stressed
         id: null
       shared:
+        MIXS:0000591: 6
         MIXS:0000008: 73
-        MIXS:0000591: 5
     - name: bioenergy trait modulation
       description: Host plant bioenergy trait state or line associated with the sorghum sample.
       roles:
@@ -1768,7 +1768,7 @@ studies:
         id: null
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: synthetic community strain abundance
       description: Strain or member abundance of SRC1 bacteria after field colonization.
       roles:
@@ -2109,8 +2109,8 @@ studies:
       - value: Miscanthus floridulus
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: root-associated compartment
       description: Root-associated habitat distinguishing rhizosphere soil from root endophytic samples.
       roles:
@@ -2147,9 +2147,9 @@ studies:
         id: null
       shared:
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00005801: 12
     - name: collection site
       description: Taiwanese site or locality representing the biogeographical and ecological gradient.
       roles:
@@ -2380,9 +2380,9 @@ studies:
       - value: oilcane
         id: null
       shared:
-        MIXS:0000365: 7
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
+        MIXS:0000365: 7
     - name: plant compartment
       description: Plant or soil compartment sampled for sugarcane and oilcane microbiome profiling.
       roles:
@@ -2427,14 +2427,14 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
-        PO:0009005: 4
-        PO:0025034: 2
-        MIXS:0000013: 36
-        MIXS:0000014: 42
-        MIXS:0000008: 73
-        PO:0009047: 1
-        ENVO:00005802: 4
         ENVO:00005801: 12
+        PO:0025034: 2
+        MIXS:0000008: 73
+        ENVO:00005802: 4
+        MIXS:0000013: 36
+        PO:0009047: 1
+        MIXS:0000014: 42
+        PO:0009005: 4
     - name: bacterial and fungal community composition
       description: 16S and ITS amplicon profiles used to compare sugarcane and oilcane microbiomes.
       roles:
@@ -2477,8 +2477,8 @@ studies:
       - soil_depth
       - profile_depth
       shared:
-        MIXS:0000018: 10
         MIXS:0000008: 73
+        MIXS:0000018: 10
     - name: nitrifier community composition
       description: 16S amplicon profile of nitrifying microorganisms across topsoil and subsoil.
       roles:
@@ -2535,9 +2535,9 @@ studies:
       - water_treatment
       - watering_regimen
       shared:
-        MIXS:0000754: 11
+        MIXS:0000591: 6
+        MIXS:0000754: 12
         MIXS:0000008: 73
-        MIXS:0000591: 5
     - name: Populus genotype
       description: Host genotype of Populus trichocarpa sampled under drought.
       roles:
@@ -2596,11 +2596,11 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
+        ENVO:00005802: 4
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00005802: 4
-        ENVO:00005801: 12
     - name: soil sampling depth
       description: Depth interval for belowground Populus samples recorded in NMDC biosample metadata.
       roles:
@@ -2812,11 +2812,11 @@ studies:
       - value: shoot
         id: null
       shared:
-        PO:0009005: 4
         MIXS:0000014: 42
-        MIXS:0000008: 73
-        MIXS:0000013: 36
         ENVO:00005801: 12
+        MIXS:0000008: 73
+        PO:0009005: 4
+        MIXS:0000013: 36
     - name: bacterial and fungal community assembly
       description: DNA metabarcoding profiles used to track microbial community assembly over plant growth.
       roles:
@@ -3012,8 +3012,8 @@ studies:
       - value: groundwater
         id: ENVO:01001004
       shared:
-        MIXS:0000014: 42
         MIXS:0000008: 73
+        MIXS:0000014: 42
     - name: subsurface spatial scale
       description: Spatial grain or sampling scale represented by the metagenome sample.
       roles:
@@ -3236,8 +3236,8 @@ studies:
       - value: (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)
         id: null
       shared:
-        NCBITaxon:211586: 1
         MIXS:0000008: 73
+        NCBITaxon:211586: 1
     - name: growth condition
       description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other
         stressor) applied to each library aliquot.
@@ -3323,8 +3323,8 @@ studies:
       - value: Shewanella oneidensis MR-1
         id: NCBITaxon:211586
       shared:
-        NCBITaxon:211586: 1
         MIXS:0000008: 73
+        NCBITaxon:211586: 1
     - name: carbon source
       description: Defined carbon source in minimal medium.
       roles:
@@ -3418,7 +3418,7 @@ studies:
       - experimental_factor
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: meadow soil metagenome profile
       description: Assembled metagenomic composition and functional potential from Angelo meadow soils.
       roles:
@@ -3836,7 +3836,7 @@ studies:
       - perturbation
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: biotic regimen
       description: Biotic regimen recorded in NMDC biosample metadata.
       roles:
@@ -3954,8 +3954,8 @@ studies:
       - value: four distinct soils
         id: null
       shared:
-        MIXS:0000014: 42
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: root-associated bacterial community composition
       description: 16S metabarcoding profile used to define the Brachypodium core root microbiome.
@@ -4022,9 +4022,9 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
+        MIXS:0000008: 73
         ENVO:00005802: 4
         MIXS:0000014: 42
-        MIXS:0000008: 73
         MIXS:0000013: 36
     - name: growth container
       description: Experimental growth system used for Brachypodium root microbiome sampling.
@@ -4058,8 +4058,8 @@ studies:
       - value: tube
         id: null
       shared:
-        MIXS:0001057: 3
         MIXS:0000008: 73
+        MIXS:0001057: 3
     - name: rhizosphere bacterial community composition
       description: 16S profile used to measure early differentiation of root-associated communities from
         bulk soil.
@@ -4194,8 +4194,8 @@ studies:
       - value: Microbotryum
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: exudation time point
       description: Time point or growth interval for root exudate collection.
       roles:
@@ -4290,8 +4290,8 @@ studies:
       - source_soil
       - source_rhizosphere
       shared:
-        MIXS:0000014: 42
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: reduced consortium composition
       description: Microbial composition of the reduced complexity consortium after enrichment.
@@ -4409,7 +4409,7 @@ studies:
       - perturbation
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: tropical soil source
       description: Luquillo Experimental Forest soil source represented in the enrichment experiment.
       roles:
@@ -4920,9 +4920,9 @@ studies:
       - moisture_condition
       shared:
         BERVO:0000301: 4
-        MIXS:0000591: 5
-        MIXS:0000008: 73
+        MIXS:0000591: 6
         MIXS:0000185: 4
+        MIXS:0000008: 73
     - name: Hi-C contact signal
       description: Chromosomal conformation capture contact evidence used to link viral and host sequences.
       roles:
@@ -4985,8 +4985,8 @@ studies:
       - depth
       - soil_depth
       shared:
-        MIXS:0000018: 10
         MIXS:0000008: 73
+        MIXS:0000018: 10
     - name: irrigation treatment
       description: Watering or irrigation condition applied to the soil and plant system.
       roles:
@@ -5006,8 +5006,8 @@ studies:
       - irrigation_treatment
       - watering_regimen
       shared:
+        MIXS:0000591: 6
         MIXS:0000008: 73
-        MIXS:0000591: 5
     - name: plant genotype
       description: Host plant genotype associated with each soil multi-omics sample.
       roles:
@@ -5093,9 +5093,9 @@ studies:
       - drying_rewetting
       shared:
         BERVO:0000301: 4
-        MIXS:0000591: 5
+        MIXS:0000591: 6
+        MIXS:0000754: 12
         MIXS:0000008: 73
-        MIXS:0000754: 11
     - name: response elapsed time
       description: Time after moisture shift at which respiration was measured.
       roles:
@@ -5417,11 +5417,11 @@ studies:
       - value: microbial necromass
         id: null
       shared:
+        ENVO:00005802: 4
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00005802: 4
-        ENVO:00005801: 12
     - name: sorghum root exudate availability
       description: Presence or concentration of sorghum-derived root exudates used to create synthetic
         metabolic dependency.
@@ -5499,9 +5499,9 @@ studies:
       - root_compartment
       - sample_type
       shared:
-        MIXS:0000014: 42
         ENVO:00005801: 12
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: soil sampling depth
       description: Depth value recorded in NMDC biosample metadata for Populus root-associated samples.
@@ -5787,11 +5787,11 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
+        ENVO:00001998: 2
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00001998: 2
-        ENVO:00005801: 12
     - name: soil sampling depth
       description: Soil or rhizosphere sampling depth recorded in NMDC biosample metadata when available.
       roles:
@@ -6195,8 +6195,8 @@ studies:
       - sampling_date
       shared:
         MIXS:0000011: 24
-        MIXS:0000829: 4
         MIXS:0000008: 73
+        MIXS:0000829: 4
     - name: sampling year
       description: Year of repeated Populus microbiome sampling used to separate seasonal and longer-term
         dynamics.
@@ -6249,10 +6249,10 @@ studies:
       - value: Populus trichocarpa
         id: NCBITaxon:3694
       shared:
-        NCBITaxon:3694: 2
+        MIXS:0000248: 11
         MIXS:0000008: 73
         NCBITaxon:3696: 1
-        MIXS:0000248: 11
+        NCBITaxon:3694: 2
     - name: plant-associated habitat
       description: Populus habitat sampled for bacterial, archaeal, and fungal microbiome profiling.
       roles:
@@ -6292,9 +6292,9 @@ studies:
         id: ENVO:00005801
       shared:
         MIXS:0000014: 42
+        ENVO:00005801: 12
         MIXS:0000008: 73
         MIXS:0000013: 36
-        ENVO:00005801: 12
     - name: bacterial archaeal and fungal community composition
       description: Amplicon-derived community profiles for Populus bacterial, archaeal, and fungal communities.
       roles:
@@ -6350,13 +6350,13 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
-        PO:0009005: 4
-        PO:0025034: 2
-        MIXS:0000014: 42
-        MIXS:0000008: 73
-        MIXS:0000013: 36
-        PO:0009047: 1
         ENVO:00001998: 2
+        PO:0009047: 1
+        MIXS:0000014: 42
+        PO:0025034: 2
+        MIXS:0000008: 73
+        PO:0009005: 4
+        MIXS:0000013: 36
     - name: tissue-level niche
       description: Fine-scale tissue or niche sampled within Populus plants and associated soils.
       roles:
@@ -6385,8 +6385,8 @@ studies:
       - value: approximately 30 tissue-level niches
         id: null
       shared:
-        MIXS:0000014: 42
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: Populus genotype
       description: Host genotype used to test genotype effects on Populus-associated microbial communities.
@@ -6451,8 +6451,8 @@ studies:
       - sample_type
       - compartment
       shared:
-        MIXS:0000014: 42
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: bacterial isolate identifier
       description: Identifier for culturable bacterial isolates recovered from Populus roots.
@@ -6518,8 +6518,8 @@ studies:
       - climate_origin
       - source_location
       shared:
-        MIXS:0000012: 13
         MIXS:0000008: 73
+        MIXS:0000012: 13
         MIXS:0000013: 36
     - name: Populus angustifolia genotype
       description: Host tree genotype used to evaluate conditioning of the soil microbiome.
@@ -6637,8 +6637,8 @@ studies:
       - growth_medium
       - culture_condition
       shared:
-        MIXS:0001057: 3
         MIXS:0000008: 73
+        MIXS:0001057: 3
     - name: assembly time point
       description: Time point during PD10 community assembly and stable community formation.
       roles:
@@ -6726,8 +6726,8 @@ studies:
       - value: Populus x jackii
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: antimicrobial biosynthetic gene cluster
       description: Predicted biosynthetic gene cluster for antimicrobial compounds such as iturin A, subtulene
         A, or fengycin.
@@ -6785,9 +6785,9 @@ studies:
       - value: Laccaria bicolor
         id: NCBITaxon:29883
       shared:
-        NCBITaxon:3694: 2
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
+        NCBITaxon:3694: 2
     - name: effector or receptor gene
       description: Plant-derived effector protein, receptor, or small secreted protein implicated in symbiosis.
       roles:
@@ -6994,9 +6994,9 @@ studies:
       - environment
       - rhizosphere_context
       shared:
-        MIXS:0000014: 42
         ENVO:00005801: 12
         MIXS:0000008: 73
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: containment efficacy
       description: Performance of the containment design in limiting persistence or escape of engineered
@@ -7134,8 +7134,8 @@ studies:
       - collection_date
       shared:
         MIXS:0000011: 24
-        MIXS:0000829: 4
         MIXS:0000008: 73
+        MIXS:0000829: 4
     - name: soil water content
       description: Soil moisture context associated with snowmelt-driven viral and host dynamics.
       roles:
@@ -7899,8 +7899,8 @@ studies:
       - value: Colletotrichum sublineola
         id: NCBITaxon:1173701
       shared:
-        MIXS:0000008: 73
         MIXS:0000248: 11
+        MIXS:0000008: 73
     - name: infection treatment
       description: Sorghum infection condition or pathogen challenge status.
       roles:
@@ -7921,7 +7921,7 @@ studies:
       - inoculation_status
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: host and pathogen transcript abundance
       description: Dual RNA-seq expression profile for sorghum and Colletotrichum transcripts during infection.
       roles:
@@ -8198,7 +8198,7 @@ studies:
       - perturbation
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: post-disturbance time point
       description: Sampling time after light disturbance for transcriptome and redox proteome measurements.
       roles:
@@ -8266,7 +8266,7 @@ studies:
       - simulation_condition
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: intracellular spatial compartment
       description: Spatial region or structure represented in the 4D whole-cell simulation.
       roles:
@@ -8348,7 +8348,7 @@ studies:
       - overexpression_construct
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: perturbation library type
       description: Genetic library class used to generate E. coli perturbations.
       roles:
@@ -8499,7 +8499,7 @@ studies:
       - mutant_id
       shared:
         MIXS:0000008: 73
-        MIXS:0000754: 11
+        MIXS:0000754: 12
     - name: bacteriophage challenge
       description: Phage isolate or challenge condition applied to Corynebacterium strains.
       roles:
@@ -8576,8 +8576,8 @@ studies:
       - soil_depth
       - core_depth
       shared:
-        MIXS:0000018: 10
         MIXS:0000008: 73
+        MIXS:0000018: 10
     - name: soil organic matter molecular composition
       description: Organic matter molecular features measured by FTICR-MS.
       roles:
@@ -9015,950 +9015,1109 @@ studies:
       - pedotransfer_output
       - upscaled_estimate
       - soil_property_prediction
+datasets:
+  kbs_lux_arbor_reserve_switchgrass_flux_data:
+    program: nmdc_sfas_brcs:glbrc
+    name: KBS Lux Arbor Reserve Switchgrass Flux Data
+    variables:
+    - name: net ecosystem carbon dioxide exchange
+      description: Ecosystem-atmosphere carbon dioxide exchange measured by eddy covariance.
+      roles:
+      - MEASURED_VARIABLE
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      value_type: NUMERIC
+      units: umol CO2 m-2 s-1
+      bervo_term:
+        id: BERVO:0000326
+        label: total canopy net CO2 exchange
+        mapping_relation: closeMatch
+        mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here are treated as
+          ecosystem-atmosphere carbon dioxide exchange.
+      measured_entity: switchgrass ecosystem-atmosphere carbon exchange
+      method: eddy covariance flux tower
+      temporal_resolution: sub-daily tower observations
+      time_series: true
+      source_field_names:
+      - NEE
+      - FC
+    - name: total evaporation
+      description: Water loss from the ecosystem inferred from flux tower observations.
+      roles:
+      - MEASURED_VARIABLE
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      value_type: NUMERIC
+      units: mm
+      bervo_term:
+        id: BERVO:0000315
+        label: total evaporation
+        mapping_relation: exactMatch
+      measured_entity: switchgrass ecosystem water exchange
+      method: eddy covariance flux tower
+      temporal_resolution: sub-daily tower observations
+      time_series: true
+      source_field_names:
+      - ET
+      - LE
+    - name: soil temperature
+      description: Soil temperature recorded as an environmental covariate for interpreting fluxes.
+      roles:
+      - MEASURED_VARIABLE
+      - COVARIATE
+      value_type: NUMERIC
+      units: degree Celsius
+      bervo_term:
+        id: BERVO:0001477
+        label: soil temperature
+        mapping_relation: exactMatch
+      mixs_terms:
+      - id: MIXS:0001163
+        label: soil temperature
+        mapping_relation: exactMatch
+      measured_entity: soil environment
+      material_or_matrix: soil
+      method: flux tower meteorological sensor
+      temporal_resolution: sub-daily tower observations
+      time_series: true
+      source_field_names:
+      - TS
+      - soil_temperature
+  gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa:
+    program: nmdc_sfas_brcs:pnnl_soil_microbiome
+    name: GNPS- Influence of drought and wet-up on the soil lipidome (PNNL Soils SFA)
+    variables:
+    - name: drought and wet-up treatment
+      description: Moisture perturbation treatment associated with soil lipidomics samples.
+      roles:
+      - EXPERIMENTAL_FACTOR
+      - STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+      levels:
+      - drought
+      - wet-up
+      mixs_terms:
+      - id: MIXS:0000754
+        label: perturbation
+        mapping_relation: exactMatch
+      - id: MIXS:0000591
+        label: watering regimen
+        mapping_relation: exactMatch
+      measured_entity: soil moisture perturbation
+      material_or_matrix: soil
+      source_field_names:
+      - moisture_treatment
+      - drought_wetup_treatment
+      - perturbation
+      enum_kind: static
+      level_terms:
+      - value: drought
+        id: null
+      - value: wet-up
+        id: null
+      shared:
+        MIXS:0000591: 6
+        MIXS:0000754: 12
+    - name: soil lipid feature abundance
+      description: GNPS molecular networking feature abundances for soil lipidomics.
+      roles:
+      - STUDY_DESIGN_DEPENDENT_VARIABLE
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: soil lipidome
+      material_or_matrix: soil
+      method: mass spectrometry metabolomics
+      source_field_names:
+      - lipid_feature_abundance
+      - gnps_feature_table
+      - molecular_network_features
+  compass_ess_dive_data_portal:
+    program: nmdc_sfas_brcs:compass_fme
+    name: COMPASS ESS-DIVE Data Portal
+    variables:
+    - name: in situ sensor observation
+      description: Automated soil, water, and plant sensor measurements available through the COMPASS
+        portal.
+      roles:
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: coastal TAI sensor network
+      time_series: true
+      source_field_names:
+      - sensor_observation
+      - timestamp
+      - water_level
+      - soil_moisture
+    - name: discrete sample characterization
+      description: Chemical, biochemical, molecular, microbial, or plant characterization of collected
+        coastal samples.
+      roles:
+      - MEASURED_VARIABLE
+      value_type: ARRAY
+      measured_entity: coastal TAI sample
+      source_field_names:
+      - chemistry_measurement
+      - molecular_characterization
+      - microbial_profile
+      - plant_trait
 by_term:
   BERVO:0000301:
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: soil moisture content
-  - study: hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+  - owner: study:hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
     variable: soil moisture condition
-  - study: birch_effect_respiratory_response_of_soil_microbiome
+  - owner: study:birch_effect_respiratory_response_of_soil_microbiome
     variable: moisture shift treatment
-  - study: east_river_virome_and_microbial_dynamics
+  - owner: study:east_river_virome_and_microbial_dynamics
     variable: soil water content
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil water characteristic
   BERVO:0000306:
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: ammonium nitrogen content
   BERVO:0000307:
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: nitrate nitrogen content
+  BERVO:0000315:
+  - owner: dataset:kbs_lux_arbor_reserve_switchgrass_flux_data
+    variable: total evaporation
+  BERVO:0000326:
+  - owner: dataset:kbs_lux_arbor_reserve_switchgrass_flux_data
+    variable: net ecosystem carbon dioxide exchange
   BERVO:0000871:
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: nitrification activity
   BERVO:0000882:
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: soil pH
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil pH
   BERVO:0000895:
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: nitrogen treatment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: nitrogen addition
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: nitrogen fertilizer rate
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: fertilizer treatment
   BERVO:0000995:
-  - study: radiocarbon_analysis_of_soil_microbial_biomass
+  - owner: study:radiocarbon_analysis_of_soil_microbial_biomass
     variable: microbial biomass carbon
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: microbial biomass carbon
   BERVO:0001370:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: air temperature
+  BERVO:0001477:
+  - owner: dataset:kbs_lux_arbor_reserve_switchgrass_flux_data
+    variable: soil temperature
   BERVO:0001674:
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: nitrate plus nitrite nitrogen content
   CHEBI:16236:
-  - study: solvent_disruption_of_biomass_and_biomembrane_structures
+  - owner: study:solvent_disruption_of_biomass_and_biomembrane_structures
     variable: amphiphilic solvent identity
   CHEBI:17580:
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene treatment
   CHEBI:25195:
-  - study: east_fork_poplar_creek_sediment_metagenomes
+  - owner: study:east_fork_poplar_creek_sediment_metagenomes
     variable: mercury contamination context
-  - study: archaeal_mercury_methylators_in_freshwater_sediments
+  - owner: study:archaeal_mercury_methylators_in_freshwater_sediments
     variable: mercury amendment
   CHEBI:25322:
-  - study: archaeal_mercury_methylators_in_freshwater_sediments
+  - owner: study:archaeal_mercury_methylators_in_freshwater_sediments
     variable: methylmercury production
   CHEBI:27961:
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene treatment
   CHEBI:6457:
-  - study: solvent_disruption_of_biomass_and_biomembrane_structures
+  - owner: study:solvent_disruption_of_biomass_and_biomembrane_structures
     variable: biomass or biomembrane substrate
   CHEBI:7524:
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene treatment
   ENVO:00001998:
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: plant compartment
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
   ENVO:00002007:
-  - study: oak_ridge_sediment_and_groundwater_metagenomes
+  - owner: study:oak_ridge_sediment_and_groundwater_metagenomes
     variable: subsurface sample matrix
   ENVO:00005801:
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: plant-associated compartment
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: root-associated compartment
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: root-associated compartment
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: belowground compartment
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: plant axis compartment
-  - study: dynamic_root_exudate_chemistry_and_microbial_assembly
+  - owner: study:dynamic_root_exudate_chemistry_and_microbial_assembly
     variable: rhizosphere microbial community assembly
-  - study: rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+  - owner: study:rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
     variable: rhizosphere omics profile
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: rhizosphere environmental context
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: Populus root-associated compartment
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: plant compartment
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: plant-associated habitat
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: rhizosphere deployment context
   ENVO:00005802:
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sample compartment
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: belowground compartment
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: root zone
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: rhizosphere environmental context
   ENVO:01001004:
-  - study: oak_ridge_sediment_and_groundwater_metagenomes
+  - owner: study:oak_ridge_sediment_and_groundwater_metagenomes
     variable: subsurface sample matrix
   MIXS:0000008:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: sampling season
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: host crop
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: fertilizer regimen
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: nitrogen treatment
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: other experimental factor
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: agrochemical addition
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: host crop
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: plant-associated compartment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sampling site
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sample compartment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: collection date
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: nitrogen addition
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: QsuB transgenic status
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene treatment
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene dose
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: sampling time point
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: drought treatment
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: cropping system
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: leaf litter plant species
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: soil pore size
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: soil moisture content
-  - study: bioreactor_fermentation_microbiomes
+  - owner: study:bioreactor_fermentation_microbiomes
     variable: dairy coproduct feedstock
-  - study: bioreactor_fermentation_microbiomes
+  - owner: study:bioreactor_fermentation_microbiomes
     variable: fermentation time point
-  - study: novosphingobium_aromaticivorans_dap_seq_epigenomics
+  - owner: study:novosphingobium_aromaticivorans_dap_seq_epigenomics
     variable: transcription factor bait
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: Variovorax strain
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: Populus host species
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: root-associated compartment
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: watering condition
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: bioenergy trait modulation
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: experimental factor
-  - study: sorghum_synthetic_rhizosphere_community_src1
+  - owner: study:sorghum_synthetic_rhizosphere_community_src1
     variable: SRC1 inoculation
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: stand age
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: nitrogen fertilizer rate
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: other experimental factor
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: other treatment
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: Miscanthus species
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: root-associated compartment
-  - study: soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
+  - owner: study:soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
     variable: nitrogen fertilization
-  - study: soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
+  - owner: study:soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
     variable: nucleic acid fraction
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: fertilizer treatment
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: sampling year
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: crop accession type
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: plant_nitrifier_interactions_in_topsoil_and_subsoil
+  - owner: study:plant_nitrifier_interactions_in_topsoil_and_subsoil
     variable: soil depth
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: drought treatment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: Populus genotype
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: belowground compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: other treatment
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: growth day
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: plant axis compartment
-  - study: clostridium_thermocellum_strain_collection
+  - owner: study:clostridium_thermocellum_strain_collection
     variable: engineered genotype
-  - study: oak_ridge_groundwater_100_well_survey_metagenomes
+  - owner: study:oak_ridge_groundwater_100_well_survey_metagenomes
     variable: environmental stress gradient
-  - study: oak_ridge_sediment_and_groundwater_metagenomes
+  - owner: study:oak_ridge_sediment_and_groundwater_metagenomes
     variable: subsurface sample matrix
-  - study: denitrifying_synthetic_community
+  - owner: study:denitrifying_synthetic_community
     variable: synthetic community member
-  - study: denitrifying_synthetic_community
+  - owner: study:denitrifying_synthetic_community
     variable: culture configuration
-  - study: mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+  - owner: study:mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
     variable: test bacterial species
-  - study: mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+  - owner: study:mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
     variable: growth condition
-  - study: rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
+  - owner: study:rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
     variable: test bacterial species
-  - study: rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
+  - owner: study:rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
     variable: carbon source
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: climate change experiment treatment
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: experimental factor
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: perturbation
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: biotic regimen
-  - study: brachypodium_core_root_microbiome_metabarcoding
+  - owner: study:brachypodium_core_root_microbiome_metabarcoding
     variable: soil origin
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: root zone
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: growth container
-  - study: dynamic_root_exudate_chemistry_and_microbial_assembly
+  - owner: study:dynamic_root_exudate_chemistry_and_microbial_assembly
     variable: plant developmental time point
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: plant species
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: exudation time point
-  - study: reduced_complexity_consortia_from_brachypodium_rhizosphere
+  - owner: study:reduced_complexity_consortia_from_brachypodium_rhizosphere
     variable: enrichment generation
-  - study: reduced_complexity_consortia_from_brachypodium_rhizosphere
+  - owner: study:reduced_complexity_consortia_from_brachypodium_rhizosphere
     variable: inoculum source
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: redox fluctuation treatment
-  - study: rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+  - owner: study:rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
     variable: rhizosphere sampling time
-  - study: rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+  - owner: study:rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
     variable: genome-informed trait profile
-  - study: radiocarbon_analysis_of_soil_microbial_biomass
+  - owner: study:radiocarbon_analysis_of_soil_microbial_biomass
     variable: extraction fraction
-  - study: misip_data_standard_for_stable_isotope_probing
+  - owner: study:misip_data_standard_for_stable_isotope_probing
     variable: isotope label or substrate
-  - study: california_grassland_qsip_metagenomes
+  - owner: study:california_grassland_qsip_metagenomes
     variable: soil moisture
-  - study: california_grassland_qsip_metagenomes
+  - owner: study:california_grassland_qsip_metagenomes
     variable: stable isotope amendment
-  - study: hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+  - owner: study:hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
     variable: soil moisture condition
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: soil depth
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: irrigation treatment
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: plant genotype
-  - study: birch_effect_respiratory_response_of_soil_microbiome
+  - owner: study:birch_effect_respiratory_response_of_soil_microbiome
     variable: moisture shift treatment
-  - study: birch_effect_respiratory_response_of_soil_microbiome
+  - owner: study:birch_effect_respiratory_response_of_soil_microbiome
     variable: response elapsed time
-  - study: solvent_disruption_of_biomass_and_biomembrane_structures
+  - owner: study:solvent_disruption_of_biomass_and_biomembrane_structures
     variable: amphiphilic solvent identity
-  - study: solvent_disruption_of_biomass_and_biomembrane_structures
+  - owner: study:solvent_disruption_of_biomass_and_biomembrane_structures
     variable: solvent concentration
-  - study: solvent_disruption_of_biomass_and_biomembrane_structures
+  - owner: study:solvent_disruption_of_biomass_and_biomembrane_structures
     variable: biomass or biomembrane substrate
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: engineered rhizosphere bacterial strain
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: genome edit or pathway perturbation
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: rhizosphere environmental context
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: sorghum root exudate availability
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: Populus root-associated compartment
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: Populus genotype
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: plant compartment
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: sampling season
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: sampling year
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: Populus species
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: plant-associated habitat
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: tissue-level niche
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: Populus genotype
-  - study: cultivating_bacterial_microbiota_of_populus_roots
+  - owner: study:cultivating_bacterial_microbiota_of_populus_roots
     variable: Populus root source
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: climate or geographic origin
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: Populus angustifolia genotype
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: Variovorax validation strain
-  - study: populus_rhizosphere_pd10_synthetic_community
+  - owner: study:populus_rhizosphere_pd10_synthetic_community
     variable: PD10 member strain
-  - study: populus_rhizosphere_pd10_synthetic_community
+  - owner: study:populus_rhizosphere_pd10_synthetic_community
     variable: growth medium
-  - study: populus_rhizosphere_pd10_synthetic_community
+  - owner: study:populus_rhizosphere_pd10_synthetic_community
     variable: assembly time point
-  - study: bacillus_velezensis_eb14_biocontrol_agent_genome
+  - owner: study:bacillus_velezensis_eb14_biocontrol_agent_genome
     variable: host isolation source
-  - study: populus_laccaria_symbiosis_effector_discovery
+  - owner: study:populus_laccaria_symbiosis_effector_discovery
     variable: symbiosis partner
-  - study: populus_laccaria_symbiosis_effector_discovery
+  - owner: study:populus_laccaria_symbiosis_effector_discovery
     variable: effector or receptor gene
-  - study: crispri_high_throughput_screens_in_non_model_bacteria
+  - owner: study:crispri_high_throughput_screens_in_non_model_bacteria
     variable: non-model bacterial strain
-  - study: crispri_high_throughput_screens_in_non_model_bacteria
+  - owner: study:crispri_high_throughput_screens_in_non_model_bacteria
     variable: transformation workflow condition
-  - study: crispri_high_throughput_screens_in_non_model_bacteria
+  - owner: study:crispri_high_throughput_screens_in_non_model_bacteria
     variable: guide RNA target
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: engineered microbial strain
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: biocontainment design
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: rhizosphere deployment context
-  - study: east_river_floodplain_metagenomes
+  - owner: study:east_river_floodplain_metagenomes
     variable: floodplain reach
-  - study: east_river_virome_and_microbial_dynamics
+  - owner: study:east_river_virome_and_microbial_dynamics
     variable: snowmelt phase
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: vegetation density
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: sampling time point
-  - study: archaeal_mercury_methylators_in_freshwater_sediments
+  - owner: study:archaeal_mercury_methylators_in_freshwater_sediments
     variable: archaeal taxon
-  - study: archaeal_mercury_methylators_in_freshwater_sediments
+  - owner: study:archaeal_mercury_methylators_in_freshwater_sediments
     variable: mercury amendment
-  - study: coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
+  - owner: study:coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
     variable: terrestrial-aquatic interface position
-  - study: coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
+  - owner: study:coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
     variable: flooding regime
-  - study: coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
+  - owner: study:coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
     variable: salinity condition
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: infection time point
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: interaction partner
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: infection treatment
-  - study: s_elongatus_pcc_7942_carbon_metabolism_proteomics
+  - owner: study:s_elongatus_pcc_7942_carbon_metabolism_proteomics
     variable: carbon metabolism condition
-  - study: s_elongatus_pcc_7942_circadian_control_proteomics
+  - owner: study:s_elongatus_pcc_7942_circadian_control_proteomics
     variable: circadian phase
-  - study: cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
+  - owner: study:cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
     variable: phage metabolic hijacking scenario
-  - study: cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
+  - owner: study:cyanophage_p_hm2_amg_metabolic_flux_analysis_in_med4
     variable: auxiliary metabolic gene
-  - study: systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
+  - owner: study:systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
     variable: production scale
-  - study: systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
+  - owner: study:systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
     variable: purification workflow
-  - study: s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
+  - owner: study:s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
     variable: light disturbance condition
-  - study: s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
+  - owner: study:s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
     variable: post-disturbance time point
-  - study: 4d_whole_cell_model_of_prochlorococcus_marinus_med4
+  - owner: study:4d_whole_cell_model_of_prochlorococcus_marinus_med4
     variable: light perturbation
-  - study: 4d_whole_cell_model_of_prochlorococcus_marinus_med4
+  - owner: study:4d_whole_cell_model_of_prochlorococcus_marinus_med4
     variable: simulation time point
-  - study: e_coli_phage_resistance_landscape
+  - owner: study:e_coli_phage_resistance_landscape
     variable: host gene perturbation
-  - study: e_coli_phage_resistance_landscape
+  - owner: study:e_coli_phage_resistance_landscape
     variable: perturbation library type
-  - study: e_coli_phage_resistance_landscape
+  - owner: study:e_coli_phage_resistance_landscape
     variable: bacteriophage challenge
-  - study: geochemical_constraints_on_phage_infectivity
+  - owner: study:geochemical_constraints_on_phage_infectivity
     variable: geochemical condition
-  - study: geochemical_constraints_on_phage_infectivity
+  - owner: study:geochemical_constraints_on_phage_infectivity
     variable: phage-host pair
-  - study: corynebacterial_cell_envelope_and_phage_resistance
+  - owner: study:corynebacterial_cell_envelope_and_phage_resistance
     variable: cell envelope component
-  - study: corynebacterial_cell_envelope_and_phage_resistance
+  - owner: study:corynebacterial_cell_envelope_and_phage_resistance
     variable: host genotype or perturbation
-  - study: corynebacterial_cell_envelope_and_phage_resistance
+  - owner: study:corynebacterial_cell_envelope_and_phage_resistance
     variable: bacteriophage challenge
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil core depth
-  - study: monet_neon_first_collection
+  - owner: study:monet_neon_first_collection
     variable: collection date
-  - study: monet_winter_soil_sampling_2024
+  - owner: study:monet_winter_soil_sampling_2024
     variable: selected project
-  - study: soils_ai_campaign
+  - owner: study:soils_ai_campaign
     variable: soil order
   MIXS:0000011:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: sampling season
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: collection date
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: collection date
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: collection date
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: sampling time point
-  - study: bioreactor_fermentation_microbiomes
+  - owner: study:bioreactor_fermentation_microbiomes
     variable: fermentation time point
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: collection date
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: collection date
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: sampling year
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: collection date
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: growth day
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: collection date
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: collection date
-  - study: dynamic_root_exudate_chemistry_and_microbial_assembly
+  - owner: study:dynamic_root_exudate_chemistry_and_microbial_assembly
     variable: plant developmental time point
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: exudation time point
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: collection date
-  - study: rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
+  - owner: study:rhizosphere_microbiome_dynamics_with_genome_informed_energy_budget_model
     variable: rhizosphere sampling time
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: collection date
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: collection date
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: sampling season
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: sampling year
-  - study: east_river_virome_and_microbial_dynamics
+  - owner: study:east_river_virome_and_microbial_dynamics
     variable: snowmelt phase
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: sampling time point
-  - study: functional_microbiome_catalogue_from_north_american_rivers
+  - owner: study:functional_microbiome_catalogue_from_north_american_rivers
     variable: collection date
-  - study: coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
+  - owner: study:coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
     variable: sample collection date
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: infection time point
-  - study: monet_neon_first_collection
+  - owner: study:monet_neon_first_collection
     variable: collection date
   MIXS:0000012:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: broad-scale environmental context
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: broad-scale environmental context
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: broad-scale environmental context
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: broad-scale environmental context
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: broad-scale environmental context
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: broad-scale environmental context
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: broad-scale environmental context
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: broad-scale environmental context
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: broad-scale environmental context
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: broad-scale environmental context
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: climate or geographic origin
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: broad-scale environmental context
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: sampling ecoregion
-  - study: monet_neon_first_collection
+  - owner: study:monet_neon_first_collection
     variable: NEON ecoregion
   MIXS:0000013:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: local environmental context
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: field location
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: local environmental context
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: plant-associated compartment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sampling site
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sample compartment
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: cropping system
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: root-associated compartment
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: local environmental context
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: local environmental context
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: root-associated compartment
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: collection site
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: belowground compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: local environmental context
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: plant axis compartment
-  - study: oak_ridge_groundwater_100_well_survey_metagenomes
+  - owner: study:oak_ridge_groundwater_100_well_survey_metagenomes
     variable: groundwater well identifier
-  - study: oak_ridge_sediment_and_groundwater_metagenomes
+  - owner: study:oak_ridge_sediment_and_groundwater_metagenomes
     variable: subsurface spatial scale
-  - study: enigma_groundwater_archaeal_diversity
+  - owner: study:enigma_groundwater_archaeal_diversity
     variable: aquifer sampling context
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: meadow soil plot
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: local environmental context
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: local environmental context
-  - study: brachypodium_core_root_microbiome_metabarcoding
+  - owner: study:brachypodium_core_root_microbiome_metabarcoding
     variable: soil origin
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: root zone
-  - study: reduced_complexity_consortia_from_brachypodium_rhizosphere
+  - owner: study:reduced_complexity_consortia_from_brachypodium_rhizosphere
     variable: inoculum source
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: tropical soil source
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: local environmental context
-  - study: viral_contributions_to_soil_carbon_dynamics
+  - owner: study:viral_contributions_to_soil_carbon_dynamics
     variable: soil sample context
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: rhizosphere environmental context
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: Populus root-associated compartment
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: local environmental context
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: plant compartment
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: local environmental context
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: plant-associated habitat
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: tissue-level niche
-  - study: cultivating_bacterial_microbiota_of_populus_roots
+  - owner: study:cultivating_bacterial_microbiota_of_populus_roots
     variable: Populus root source
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: climate or geographic origin
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: rhizosphere deployment context
-  - study: east_river_floodplain_metagenomes
+  - owner: study:east_river_floodplain_metagenomes
     variable: floodplain reach
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: vegetation density
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: local environmental context
-  - study: functional_microbiome_catalogue_from_north_american_rivers
+  - owner: study:functional_microbiome_catalogue_from_north_american_rivers
     variable: river system
-  - study: east_fork_poplar_creek_sediment_metagenomes
+  - owner: study:east_fork_poplar_creek_sediment_metagenomes
     variable: sediment sampling location
-  - study: coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
+  - owner: study:coastal_terrestrial_aquatic_interface_flooding_and_salinization_experiments
     variable: terrestrial-aquatic interface position
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: sampling ecoregion
   MIXS:0000014:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: environmental medium
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: rhizosphere bacterial community composition
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: environmental medium
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: plant-associated compartment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sample compartment
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: soil metagenome profile
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: decomposition microbiome composition
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: root-associated compartment
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: rhizosphere bacterial community composition
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: environmental medium
-  - study: sorghum_synthetic_rhizosphere_community_src1
+  - owner: study:sorghum_synthetic_rhizosphere_community_src1
     variable: synthetic community strain abundance
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: soil bacterial community composition
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: environmental medium
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: root-associated compartment
-  - study: soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
+  - owner: study:soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
     variable: active soil microbiome composition
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: rhizosphere microbial community composition
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: plant_nitrifier_interactions_in_topsoil_and_subsoil
+  - owner: study:plant_nitrifier_interactions_in_topsoil_and_subsoil
     variable: nitrifier community composition
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: belowground compartment
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: environmental medium
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: plant axis compartment
-  - study: oak_ridge_groundwater_100_well_survey_metagenomes
+  - owner: study:oak_ridge_groundwater_100_well_survey_metagenomes
     variable: groundwater microbial community composition
-  - study: oak_ridge_sediment_and_groundwater_metagenomes
+  - owner: study:oak_ridge_sediment_and_groundwater_metagenomes
     variable: subsurface sample matrix
-  - study: enigma_groundwater_archaeal_diversity
+  - owner: study:enigma_groundwater_archaeal_diversity
     variable: aquifer sampling context
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: meadow soil metagenome profile
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: environmental medium
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: environmental medium
-  - study: brachypodium_core_root_microbiome_metabarcoding
+  - owner: study:brachypodium_core_root_microbiome_metabarcoding
     variable: soil origin
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: root zone
-  - study: reduced_complexity_consortia_from_brachypodium_rhizosphere
+  - owner: study:reduced_complexity_consortia_from_brachypodium_rhizosphere
     variable: inoculum source
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: tropical soil source
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: environmental medium
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: soil microbiome composition
-  - study: viral_contributions_to_soil_carbon_dynamics
+  - owner: study:viral_contributions_to_soil_carbon_dynamics
     variable: soil virus abundance or diversity
-  - study: persistence_control_engineering_in_sorghum_rhizosphere_bacteria
+  - owner: study:persistence_control_engineering_in_sorghum_rhizosphere_bacteria
     variable: rhizosphere environmental context
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: Populus root-associated compartment
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: environmental medium
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: plant compartment
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: environmental medium
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: plant-associated habitat
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: tissue-level niche
-  - study: cultivating_bacterial_microbiota_of_populus_roots
+  - owner: study:cultivating_bacterial_microbiota_of_populus_roots
     variable: Populus root source
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: soil microbiome composition
-  - study: multilayered_biocontainment_for_rhizosphere_deployment
+  - owner: study:multilayered_biocontainment_for_rhizosphere_deployment
     variable: rhizosphere deployment context
-  - study: east_river_floodplain_metagenomes
+  - owner: study:east_river_floodplain_metagenomes
     variable: floodplain soil metagenome profile
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: multi-omics profile
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: environmental medium
-  - study: functional_microbiome_catalogue_from_north_american_rivers
+  - owner: study:functional_microbiome_catalogue_from_north_american_rivers
     variable: microbial functional expression profile
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil metagenome profile
-  - study: monet_soil_function_call
+  - owner: study:monet_soil_function_call
     variable: metagenome sequencing product
-  - study: monet_winter_soil_sampling_2024
+  - owner: study:monet_winter_soil_sampling_2024
     variable: winter soil metagenome profile
   MIXS:0000018:
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: soil sampling depth
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: soil sampling depth
-  - study: plant_nitrifier_interactions_in_topsoil_and_subsoil
+  - owner: study:plant_nitrifier_interactions_in_topsoil_and_subsoil
     variable: soil depth
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: soil sampling depth
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: soil sampling depth
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: soil sampling depth
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: soil depth
-  - study: sty-11-1t150432
+  - owner: study:sty-11-1t150432
     variable: soil sampling depth
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: soil sampling depth
-  - study: sty-11-aygzgv51
+  - owner: study:sty-11-aygzgv51
     variable: sediment sampling depth
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil core depth
   MIXS:0000185:
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: soil moisture content
-  - study: california_grassland_qsip_metagenomes
+  - owner: study:california_grassland_qsip_metagenomes
     variable: soil moisture
-  - study: hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+  - owner: study:hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
     variable: soil moisture condition
-  - study: east_river_virome_and_microbial_dynamics
+  - owner: study:east_river_virome_and_microbial_dynamics
     variable: soil water content
-  - study: 1000_soils_pilot
+  - owner: study:1000_soils_pilot
     variable: soil water characteristic
   MIXS:0000248:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: host crop
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: host common name
-  - study: sorghum_phyllosphere_microbiome
+  - owner: study:sorghum_phyllosphere_microbiome
     variable: host crop
-  - study: soil_pore_space_decomposition_microbiome
+  - owner: study:soil_pore_space_decomposition_microbiome
     variable: leaf litter plant species
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: Populus host species
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: Miscanthus species
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: crop accession type
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: host common name
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: plant species
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: Populus species
-  - study: bacillus_velezensis_eb14_biocontrol_agent_genome
+  - owner: study:bacillus_velezensis_eb14_biocontrol_agent_genome
     variable: host isolation source
-  - study: populus_laccaria_symbiosis_effector_discovery
+  - owner: study:populus_laccaria_symbiosis_effector_discovery
     variable: symbiosis partner
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: interaction partner
   MIXS:0000250:
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: host taxon identifier
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: host taxon identifier
   MIXS:0000365:
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: QsuB transgenic status
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: bioenergy trait modulation
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: crop accession type
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: Populus genotype
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: plant genotype
-  - study: sty-11-r2h77870
+  - owner: study:sty-11-r2h77870
     variable: Populus genotype
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: Populus genotype
-  - study: climate_driven_divergence_in_plant_microbiome_interactions
+  - owner: study:climate_driven_divergence_in_plant_microbiome_interactions
     variable: Populus angustifolia genotype
   MIXS:0000556:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: fertilizer regimen
-  - study: sty-11-wbc14h22
+  - owner: study:sty-11-wbc14h22
     variable: nitrogen treatment
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: nitrogen addition
-  - study: sty-11-vh2hty57
+  - owner: study:sty-11-vh2hty57
     variable: nitrogen fertilizer rate
-  - study: soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
+  - owner: study:soil_microbiome_of_miscanthus_giganteus_at_lamps_study_site
     variable: nitrogen fertilization
-  - study: sorghum_rhizosphere_nitrification_study
+  - owner: study:sorghum_rhizosphere_nitrification_study
     variable: fertilizer treatment
   MIXS:0000591:
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: drought treatment
-  - study: sty-11-n7mtj961
+  - owner: study:sty-11-n7mtj961
     variable: watering condition
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: drought treatment
-  - study: hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
+  - owner: study:hi_c_metagenome_sequencing_of_soil_moisture_impacts_on_phage_host_interactions
     variable: soil moisture condition
-  - study: soil_microbiome_response_to_depth_irrigation_and_plant_genotype
+  - owner: study:soil_microbiome_response_to_depth_irrigation_and_plant_genotype
     variable: irrigation treatment
-  - study: birch_effect_respiratory_response_of_soil_microbiome
+  - owner: study:birch_effect_respiratory_response_of_soil_microbiome
     variable: moisture shift treatment
+  - owner: dataset:gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa
+    variable: drought and wet-up treatment
   MIXS:0000751:
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene treatment
-  - study: terpene_effects_on_sorghum_microbiome
+  - owner: study:terpene_effects_on_sorghum_microbiome
     variable: terpene dose
-  - study: misip_data_standard_for_stable_isotope_probing
+  - owner: study:misip_data_standard_for_stable_isotope_probing
     variable: isotope label or substrate
-  - study: california_grassland_qsip_metagenomes
+  - owner: study:california_grassland_qsip_metagenomes
     variable: stable isotope amendment
-  - study: archaeal_mercury_methylators_in_freshwater_sediments
+  - owner: study:archaeal_mercury_methylators_in_freshwater_sediments
     variable: mercury amendment
   MIXS:0000754:
-  - study: kbs_mcse_long_term_cropping_experiment_metagenomes
+  - owner: study:kbs_mcse_long_term_cropping_experiment_metagenomes
     variable: drought treatment
-  - study: sorghum_synthetic_rhizosphere_community_src1
+  - owner: study:sorghum_synthetic_rhizosphere_community_src1
     variable: SRC1 inoculation
-  - study: sty-11-kfvmk798
+  - owner: study:sty-11-kfvmk798
     variable: drought treatment
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: climate change experiment treatment
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: perturbation
-  - study: sty-11-076c9980
+  - owner: study:sty-11-076c9980
     variable: redox fluctuation treatment
-  - study: birch_effect_respiratory_response_of_soil_microbiome
+  - owner: study:birch_effect_respiratory_response_of_soil_microbiome
     variable: moisture shift treatment
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: dataset:gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa
+    variable: drought and wet-up treatment
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: infection treatment
-  - study: s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
+  - owner: study:s_elongatus_pcc_7942_redox_proteome_under_light_disturbance
     variable: light disturbance condition
-  - study: 4d_whole_cell_model_of_prochlorococcus_marinus_med4
+  - owner: study:4d_whole_cell_model_of_prochlorococcus_marinus_med4
     variable: light perturbation
-  - study: e_coli_phage_resistance_landscape
+  - owner: study:e_coli_phage_resistance_landscape
     variable: host gene perturbation
-  - study: corynebacterial_cell_envelope_and_phage_resistance
+  - owner: study:corynebacterial_cell_envelope_and_phage_resistance
     variable: host genotype or perturbation
   MIXS:0000829:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: sampling season
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: collection date
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: sampling season
-  - study: east_river_virome_and_microbial_dynamics
+  - owner: study:east_river_virome_and_microbial_dynamics
     variable: snowmelt phase
-  - study: monet_winter_soil_sampling_2024
+  - owner: study:monet_winter_soil_sampling_2024
     variable: winter sampling context
   MIXS:0001057:
-  - study: sty-11-ev70y104
+  - owner: study:sty-11-ev70y104
     variable: EcoFAB device
-  - study: fine_scale_rhizosphere_spatial_heterogeneity
+  - owner: study:fine_scale_rhizosphere_spatial_heterogeneity
     variable: growth container
-  - study: multilab_ecofab_reproducibility_study
+  - owner: study:multilab_ecofab_reproducibility_study
     variable: EcoFAB growth system
-  - study: populus_rhizosphere_pd10_synthetic_community
+  - owner: study:populus_rhizosphere_pd10_synthetic_community
     variable: growth medium
   MIXS:0001107:
-  - study: oak_ridge_groundwater_100_well_survey_metagenomes
+  - owner: study:oak_ridge_groundwater_100_well_survey_metagenomes
     variable: groundwater well identifier
-  - study: sty-11-zs2syx06
+  - owner: study:sty-11-zs2syx06
     variable: meadow soil plot
-  - study: monet_soil_function_call
+  - owner: study:monet_soil_function_call
     variable: submitted project identifier
+  MIXS:0001163:
+  - owner: dataset:kbs_lux_arbor_reserve_switchgrass_flux_data
+    variable: soil temperature
   NCBITaxon:1173701:
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: interaction partner
   NCBITaxon:146530:
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: plant species
   NCBITaxon:15368:
-  - study: core_metabolome_and_root_exudation_dynamics
+  - owner: study:core_metabolome_and_root_exudation_dynamics
     variable: plant species
   NCBITaxon:211586:
-  - study: mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+  - owner: study:mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
     variable: test bacterial species
-  - study: rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
+  - owner: study:rapid_quantification_of_mutant_fitness_in_diverse_bacteria_by_sequencing_randomly_bar_coded_transposons
     variable: test bacterial species
   NCBITaxon:29883:
-  - study: populus_laccaria_symbiosis_effector_discovery
+  - owner: study:populus_laccaria_symbiosis_effector_discovery
     variable: symbiosis partner
   NCBITaxon:3694:
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: Populus host species
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: Populus species
-  - study: populus_laccaria_symbiosis_effector_discovery
+  - owner: study:populus_laccaria_symbiosis_effector_discovery
     variable: symbiosis partner
   NCBITaxon:3696:
-  - study: populus_variovorax_syncom28_compartment_partitioning
+  - owner: study:populus_variovorax_syncom28_compartment_partitioning
     variable: Populus host species
-  - study: seasonality_and_temporal_dynamics_in_populus_microbiome
+  - owner: study:seasonality_and_temporal_dynamics_in_populus_microbiome
     variable: Populus species
   NCBITaxon:4558:
-  - study: sorghum_colletotrichum_dual_rna_seq
+  - owner: study:sorghum_colletotrichum_dual_rna_seq
     variable: interaction partner
   NCBITaxon:62336:
-  - study: sty-11-e4yb9z58
+  - owner: study:sty-11-e4yb9z58
     variable: host crop
   NCBITaxon:62337:
-  - study: native_miscanthus_rhizosphere_and_endophytic_microbiome
+  - owner: study:native_miscanthus_rhizosphere_and_endophytic_microbiome
     variable: Miscanthus species
   NCBITaxon:679895:
-  - study: mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
+  - owner: study:mutant_phenotypes_for_thousands_of_bacterial_genes_of_unknown_function
     variable: test bacterial species
   PO:0009005:
-  - study: switchgrass_root_and_soil_microbiome
+  - owner: study:switchgrass_root_and_soil_microbiome
     variable: sample compartment
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: poplar_rhizosphere_microbiota_assembly_dynamics
+  - owner: study:poplar_rhizosphere_microbiota_assembly_dynamics
     variable: plant axis compartment
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
   PO:0009047:
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class
   PO:0025034:
-  - study: transgenic_switchgrass_microbiome_effects
+  - owner: study:transgenic_switchgrass_microbiome_effects
     variable: plant compartment
-  - study: sugarcane_and_oilcane_microbiome_differences
+  - owner: study:sugarcane_and_oilcane_microbiome_differences
     variable: plant compartment
-  - study: populus_holobiont_niche_and_genotype_effects
+  - owner: study:populus_holobiont_niche_and_genotype_effects
     variable: plant habitat class

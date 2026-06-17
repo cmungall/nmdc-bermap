@@ -1,0 +1,61 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/datasets/compass_ess_dive_data_portal
+name: compass_ess_dive_data_portal
+title: COMPASS ESS-DIVE Data Portal
+description: ESS-DIVE portal for COMPASS-FME datasets, including in situ sensor data, campaign field collections,
+  community science data, synthesis datasets, and chemical, biochemical, molecular, water, soil, sediment,
+  microbial, and plant sample characterizations.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for dataset compass_ess_dive_data_portal.
+    slots:
+    - in_situ_sensor_observation
+    - discrete_sample_characterization
+slots:
+  in_situ_sensor_observation:
+    title: in situ sensor observation
+    description: Automated soil, water, and plant sensor measurements available through the COMPASS portal.
+    multivalued: true
+    range: string
+    aliases:
+    - sensor_observation
+    - timestamp
+    - water_level
+    - soil_moisture
+    annotations:
+      role: MEASURED_VARIABLE
+      measured_entity: coastal TAI sensor network
+      time_series: 'true'
+      value_type: ARRAY
+  discrete_sample_characterization:
+    title: discrete sample characterization
+    description: Chemical, biochemical, molecular, microbial, or plant characterization of collected coastal
+      samples.
+    multivalued: true
+    range: string
+    aliases:
+    - chemistry_measurement
+    - molecular_characterization
+    - microbial_profile
+    - plant_trait
+    annotations:
+      role: MEASURED_VARIABLE
+      measured_entity: coastal TAI sample
+      value_type: ARRAY

@@ -1,0 +1,61 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/datasets/gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa
+name: gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa
+title: GNPS- Influence of drought and wet-up on the soil lipidome (PNNL Soils SFA)
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for dataset gnps_influence_of_drought_and_wet_up_on_the_soil_lipidome_pnnl_soils_sfa.
+    slots:
+    - drought_and_wet_up_treatment
+    - soil_lipid_feature_abundance
+slots:
+  drought_and_wet_up_treatment:
+    title: drought and wet-up treatment
+    description: Moisture perturbation treatment associated with soil lipidomics samples.
+    range: DroughtAndWetUpTreatmentEnum
+    aliases:
+    - moisture_treatment
+    - drought_wetup_treatment
+    - perturbation
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil moisture perturbation
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  soil_lipid_feature_abundance:
+    title: soil lipid feature abundance
+    description: GNPS molecular networking feature abundances for soil lipidomics.
+    multivalued: true
+    range: string
+    aliases:
+    - lipid_feature_abundance
+    - gnps_feature_table
+    - molecular_network_features
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil lipidome
+      material_or_matrix: soil
+      method: mass spectrometry metabolomics
+      value_type: ARRAY
+enums:
+  DroughtAndWetUpTreatmentEnum:
+    permissible_values:
+      drought: null
+      wet-up: null

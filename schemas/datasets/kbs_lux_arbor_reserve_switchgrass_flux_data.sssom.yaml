@@ -1,0 +1,27 @@
+mappings:
+- subject_id: profiles:net_ecosystem_carbon_dioxide_exchange
+  subject_label: net ecosystem carbon dioxide exchange
+  predicate_id: skos:closeMatch
+  object_id: BERVO:0000326
+  object_label: total canopy net CO2 exchange
+  mapping_justification: semapv:ManualMappingCuration
+  comment: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here are treated as ecosystem-atmosphere
+    carbon dioxide exchange.
+- subject_id: profiles:total_evaporation
+  subject_label: total evaporation
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000315
+  object_label: total evaporation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_temperature
+  subject_label: soil temperature
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001163
+  object_label: soil temperature
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_temperature
+  subject_label: soil temperature
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0001477
+  object_label: soil temperature
+  mapping_justification: semapv:ManualMappingCuration

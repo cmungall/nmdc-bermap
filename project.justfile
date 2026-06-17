@@ -71,7 +71,7 @@ validate-profiles:
 validate-profile-terms:
   #!/usr/bin/env bash
   set -euo pipefail
-  for f in schemas/base.yaml $(grep -l 'meaning:' schemas/studies/*.yaml); do
+  for f in schemas/base.yaml $(grep -l 'meaning:' schemas/studies/*.yaml schemas/datasets/*.yaml); do
     echo "== $f =="
     uv run linkml-term-validator validate-schema "$f" -c src/nmdc_sfas_brcs/validators/oak_config.yaml --strict
   done

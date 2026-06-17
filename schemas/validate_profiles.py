@@ -19,6 +19,7 @@ BUILTIN = {
 
 def main() -> int:
     files = sorted(f for f in glob.glob(str(SCHEMAS / "studies" / "*.yaml")) +
+                   glob.glob(str(SCHEMAS / "datasets" / "*.yaml")) +
                    glob.glob(str(SCHEMAS / "sites" / "*.yaml"))
                    if not f.endswith(".sssom.yaml"))
     problems = []

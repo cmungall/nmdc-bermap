@@ -37,6 +37,7 @@ classes:
       - object_id
       - object_label
       - mapping_justification
+      - comment
 
 slots:
   mappings:
@@ -58,6 +59,7 @@ slots:
     slot_uri: rdfs:label
   mapping_justification:
     range: uriorcurie
+  comment: {}
 
 enums:
   OntologyTermEnum:

@@ -6,6 +6,7 @@ enriches it for the variable pages, and adds a `by_term` inverted index for harm
 Run with: just gen-variable-index
 """
 
+import re
 import sys
 from pathlib import Path
 
@@ -38,25 +39,32 @@ def dataset_id(dataset: dict) -> str:
     return _slug(dataset.get("name"))
 
 
+def make_anchor_id(value: str) -> str:
+    """HTML anchor slug — kept identical to the browser so variable-page links match program pages."""
+    return re.sub(r"[^a-z0-9_-]+", "-", (value or "").lower()).strip("-")
+
+
+def owner_anchor(program_id: str, kind: str, name: str) -> str:
+    return make_anchor_id(f"{program_id}-{kind}-{name}")
+
+
 def owners(db: dict):
-    """Yield (kind, oid, out_dir, program_id, owner) for every study/dataset that has a profile.
-    Gated on profile-file existence (not db.variables), since the profiles are now the Source of
-    Truth and the inline db.variables catalog has been dropped."""
+    """Yield (kind, oid, out_dir, collection_key, program, owner) for every study/dataset that has
+    a profile. Gated on profile-file existence (not db.variables), since the profiles are now the
+    Source of Truth and the inline db.variables catalog has been dropped."""
     for pk in PROG_KEYS:
         for p in db.get(pk) or []:
-            pid = p.get("id")
             for s in p.get("studies") or []:
                 oid = study_id(s)
                 if (OUT_STUDIES / f"{oid}.yaml").exists():
-                    yield "study", oid, OUT_STUDIES, pid, s
+                    yield "study", oid, OUT_STUDIES, pk, p, s
             for d in p.get("datasets") or []:
                 oid = dataset_id(d)
                 if (OUT_DATASETS / f"{oid}.yaml").exists():
-                    yield "dataset", oid, OUT_DATASETS, pid, d
+                    yield "dataset", oid, OUT_DATASETS, pk, p, d
 
 
 def _slug(name):
-    import re
     s = re.sub(r"[^0-9a-zA-Z]+", "_", (name or "").lower())
     return re.sub(r"_+", "_", s).strip("_")
 
@@ -182,30 +190,116 @@ def _enriched_variables(kind: str, oid: str, out_dir: Path, dynamic: set, by_ter
     return variables
 
 
+def variable_record(variable: dict, program: dict, collection_key: str, kind: str, owner: dict) -> dict:
+    """Flatten one variable into the record the variable pages render (owner/program context +
+    HTML anchors + enrichment). Kept structurally identical to what the browser produced."""
+    owner_name = owner.get("name", "unknown")
+    program_id = program.get("id") or make_anchor_id(program.get("name", "program"))
+    return {
+        "id": make_anchor_id(f"{program_id}-{kind}-{owner_name}-{variable.get('name', 'variable')}"),
+        "name": variable.get("name"),
+        "description": variable.get("description"),
+        "roles": variable.get("roles") or [],
+        "value_type": variable.get("value_type"),
+        "units": variable.get("units"),
+        "measured_entity": variable.get("measured_entity"),
+        "material_or_matrix": variable.get("material_or_matrix"),
+        "method": variable.get("method"),
+        "time_series": variable.get("time_series"),
+        "temporal_resolution": variable.get("temporal_resolution"),
+        "spatial_resolution": variable.get("spatial_resolution"),
+        "levels": variable.get("levels") or [],
+        "level_terms": variable.get("level_terms") or [],
+        "enum_kind": variable.get("enum_kind"),
+        "enum_source": variable.get("enum_source"),
+        "shared": variable.get("shared") or {},
+        "source_field_names": variable.get("source_field_names") or [],
+        "mappings": {
+            "bervo": variable.get("bervo_term"),
+            "mixs": variable.get("mixs_terms") or [],
+            "other": variable.get("ontology_mappings") or [],
+            "unit": variable.get("unit_term"),
+        },
+        "owner": {
+            "type": kind,
+            "name": owner_name,
+            "anchor_id": owner_anchor(program_id, kind, owner_name),
+            "nmdc_study_id": owner.get("nmdc_study_id"),
+            "bioproject_ids": owner.get("bioproject_ids") or [],
+            "doi": owner.get("doi"),
+            "url": owner.get("url"),
+            "primary_reference": owner.get("primary_reference_info", {}).get("reference", {}).get("id"),
+        },
+        "program": {
+            "collection": collection_key,
+            "id": program.get("id"),
+            "name": program.get("name"),
+            "acronym": program.get("acronym"),
+            "anchor_id": program_id,
+        },
+    }
+
+
+def build_variable_view(records: list) -> dict:
+    """The flat, BERVO/MIxS-grouped variable index the variable pages render."""
+    records = sorted(records, key=lambda r: (r["name"] or "").lower())
+    by_bervo, by_mixs = {}, {}
+    for r in records:
+        bervo = r["mappings"].get("bervo")
+        if bervo:
+            by_bervo.setdefault(bervo["id"], {"term": bervo, "variable_ids": []})["variable_ids"].append(r["id"])
+        for mixs in r["mappings"].get("mixs") or []:
+            by_mixs.setdefault(mixs["id"], {"term": mixs, "variable_ids": []})["variable_ids"].append(r["id"])
+    key = lambda g: (g["term"].get("label") or g["term"]["id"]).lower()
+    without_bervo = [r["id"] for r in records if not r["mappings"].get("bervo")]
+    return {
+        "summary": {
+            "variable_count": len(records),
+            "study_variable_count": sum(1 for r in records if r["owner"]["type"] == "study"),
+            "dataset_variable_count": sum(1 for r in records if r["owner"]["type"] == "dataset"),
+            "bervo_mapped_variable_count": len(records) - len(without_bervo),
+            "bervo_term_count": len(by_bervo),
+            "mixs_term_count": len(by_mixs),
+            "without_bervo_count": len(without_bervo),
+        },
+        "records": records,
+        "records_by_id": {r["id"]: r for r in records},
+        "by_bervo": sorted(by_bervo.values(), key=key),
+        "by_mixs": sorted(by_mixs.values(), key=key),
+        "without_bervo": without_bervo,
+    }
+
+
 def build_index() -> dict:
-    """The intermediate indexing product the browser consumes: variables for every study and
-    dataset reconstructed from their profiles + SSSOM, enriched for the variable pages (enum
-    kind, level->CURIE badges, mapping predicates), plus a `by_term` inverted index (ontology
-    CURIE -> owners/variables) for cross-owner harmonization.
+    """The single producer of all variable-derived data the HTML consumes: per-owner variables
+    (for the program pages) reconstructed from profiles + SSSOM and enriched (enum kind,
+    level->CURIE badges, mapping predicates, shared counts); a `by_term` inverted index; and the
+    flat `variable_index` view (records + BERVO/MIxS groupings) for the variable pages. The browser
+    is a thin renderer of union(db, this index).
     """
     db = yaml.safe_load(DB_PATH.read_text())
     dynamic = dynamic_enum_names()
-    studies, datasets, by_term = {}, {}, {}
-    for kind, oid, out_dir, pid, owner in owners(db):
-        entry = {"program": pid, "name": owner.get("name"),
+    studies, datasets, by_term, contexts = {}, {}, {}, []
+    for kind, oid, out_dir, ck, program, owner in owners(db):
+        entry = {"program": program.get("id"), "name": owner.get("name"),
                  "variables": _enriched_variables(kind, oid, out_dir, dynamic, by_term)}
         (studies if kind == "study" else datasets)[oid] = entry
+        contexts.append((kind, ck, program, owner, entry["variables"]))
 
     owned_by = {t: {o["owner"] for o in occ} for t, occ in by_term.items()}
     for kind, group in (("study", studies), ("dataset", datasets)):
         for oid, entry in group.items():
             self_key = f"{kind}:{oid}"
             for v in entry["variables"]:
-                shared = {tid: len(owned_by.get(tid, set()) - {self_key}) for tid in term_ids(v)}
+                shared = {tid: len(owned_by.get(tid, set()) - {self_key}) for tid in sorted(term_ids(v))}
                 shared = {k: n for k, n in shared.items() if n > 0}
                 if shared:
                     v["shared"] = shared
-    return {"studies": studies, "datasets": datasets, "by_term": dict(sorted(by_term.items()))}
+
+    records = [variable_record(v, program, ck, kind, owner)
+               for kind, ck, program, owner, variables in contexts for v in variables]
+    return {"studies": studies, "datasets": datasets,
+            "by_term": dict(sorted(by_term.items())), "variable_index": build_variable_view(records)}
 
 
 def main() -> int:

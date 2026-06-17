@@ -83,11 +83,16 @@ def study_index_key(study: dict) -> str:
     return sid.split(":")[-1] if sid else _name_slug(study.get("name"))
 
 
-def overlay_index_variables(db: dict) -> dict:
-    """Source study and dataset variables from the generated variable-index (profiles + SSSOM)
-    instead of the inline db.variables, decoupling the browser from the DB catalog. Owners absent
-    from the index keep their inline variables."""
+def union_with_index(db: dict) -> dict:
+    """All HTML is rendered from the union of db/sfas-brcs.yaml (programs/studies/datasets/sites)
+    and schemas/variable-index.yaml — the single LinkML-derived product (built by
+    schemas/generate_variables.py). This attaches each owner's variables (for the program pages)
+    and the flat `variable_index` view (for the variable pages); the browser derives no variable
+    structures of its own."""
+    empty_view = {"summary": {}, "records": [], "records_by_id": {},
+                  "by_bervo": [], "by_mixs": [], "without_bervo": []}
     if not VARIABLE_INDEX_INPUT.exists():
+        db["variable_index"] = empty_view
         return db
     index = yaml.safe_load(VARIABLE_INDEX_INPUT.read_text()) or {}
     studies_idx = index.get("studies") or {}
@@ -101,156 +106,8 @@ def overlay_index_variables(db: dict) -> dict:
             entry = datasets_idx.get(_name_slug(dataset.get("name")))
             if entry is not None:
                 dataset["variables"] = entry["variables"]
+    db["variable_index"] = index.get("variable_index") or empty_view
     return db
-
-
-def variable_record(
-    variable: dict,
-    *,
-    program: dict,
-    collection_key: str,
-    owner: dict,
-    owner_type: str,
-) -> dict:
-    """Build a flattened variable record for the derived variable index."""
-    owner_name = owner.get("name", "unknown")
-    program_id = program.get("id") or make_anchor_id(program.get("name", "program"))
-    owner_anchor = owner.get("anchor_id") or make_anchor_id(f"{program_id}-{owner_type}-{owner_name}")
-    variable_id = make_anchor_id(f"{program_id}-{owner_type}-{owner_name}-{variable.get('name', 'variable')}")
-    bervo_term = variable.get("bervo_term")
-    mixs_terms = variable.get("mixs_terms") or []
-    ontology_mappings = variable.get("ontology_mappings") or []
-
-    return {
-        "id": variable_id,
-        "name": variable.get("name"),
-        "description": variable.get("description"),
-        "roles": variable.get("roles") or [],
-        "value_type": variable.get("value_type"),
-        "units": variable.get("units"),
-        "measured_entity": variable.get("measured_entity"),
-        "material_or_matrix": variable.get("material_or_matrix"),
-        "method": variable.get("method"),
-        "time_series": variable.get("time_series"),
-        "temporal_resolution": variable.get("temporal_resolution"),
-        "spatial_resolution": variable.get("spatial_resolution"),
-        "levels": variable.get("levels") or [],
-        "level_terms": variable.get("level_terms") or [],
-        "enum_kind": variable.get("enum_kind"),
-        "enum_source": variable.get("enum_source"),
-        "shared": variable.get("shared") or {},
-        "source_field_names": variable.get("source_field_names") or [],
-        "mappings": {
-            "bervo": bervo_term,
-            "mixs": mixs_terms,
-            "other": ontology_mappings,
-            "unit": variable.get("unit_term"),
-        },
-        "owner": {
-            "type": owner_type,
-            "name": owner_name,
-            "anchor_id": owner_anchor,
-            "nmdc_study_id": owner.get("nmdc_study_id"),
-            "bioproject_ids": owner.get("bioproject_ids") or [],
-            "doi": owner.get("doi"),
-            "url": owner.get("url"),
-            "primary_reference": (
-                owner.get("primary_reference_info", {})
-                .get("reference", {})
-                .get("id")
-            ),
-        },
-        "program": {
-            "collection": collection_key,
-            "id": program.get("id"),
-            "name": program.get("name"),
-            "acronym": program.get("acronym"),
-            "anchor_id": program_id,
-        },
-    }
-
-
-def build_variable_index(db: dict) -> dict:
-    """Create a flattened, BERVO-oriented index of study and dataset variables."""
-    records = []
-    by_bervo_map = {}
-    by_mixs_map = {}
-
-    for collection_key, program in iter_programs(db):
-        for study in program.get("studies", []) or []:
-            for variable in study.get("variables", []) or []:
-                records.append(
-                    variable_record(
-                        variable,
-                        program=program,
-                        collection_key=collection_key,
-                        owner=study,
-                        owner_type="study",
-                    )
-                )
-        for dataset in program.get("datasets", []) or []:
-            for variable in dataset.get("variables", []) or []:
-                records.append(
-                    variable_record(
-                        variable,
-                        program=program,
-                        collection_key=collection_key,
-                        owner=dataset,
-                        owner_type="dataset",
-                    )
-                )
-
-    records = sorted(records, key=lambda record: (record["name"] or "").lower())
-    record_by_id = {record["id"]: record for record in records}
-
-    for record in records:
-        bervo_term = record["mappings"].get("bervo")
-        if bervo_term:
-            term_id = bervo_term["id"]
-            by_bervo_map.setdefault(
-                term_id,
-                {
-                    "term": bervo_term,
-                    "variable_ids": [],
-                },
-            )["variable_ids"].append(record["id"])
-
-        for mixs_term in record["mappings"].get("mixs") or []:
-            term_id = mixs_term["id"]
-            by_mixs_map.setdefault(
-                term_id,
-                {
-                    "term": mixs_term,
-                    "variable_ids": [],
-                },
-            )["variable_ids"].append(record["id"])
-
-    by_bervo = sorted(
-        by_bervo_map.values(),
-        key=lambda group: (group["term"].get("label") or group["term"]["id"]).lower(),
-    )
-    by_mixs = sorted(
-        by_mixs_map.values(),
-        key=lambda group: (group["term"].get("label") or group["term"]["id"]).lower(),
-    )
-    without_bervo = [record["id"] for record in records if not record["mappings"].get("bervo")]
-
-    return {
-        "summary": {
-            "variable_count": len(records),
-            "study_variable_count": sum(1 for record in records if record["owner"]["type"] == "study"),
-            "dataset_variable_count": sum(1 for record in records if record["owner"]["type"] == "dataset"),
-            "bervo_mapped_variable_count": len(records) - len(without_bervo),
-            "bervo_term_count": len(by_bervo),
-            "mixs_term_count": len(by_mixs),
-            "without_bervo_count": len(without_bervo),
-        },
-        "records": records,
-        "records_by_id": record_by_id,
-        "by_bervo": by_bervo,
-        "by_mixs": by_mixs,
-        "without_bervo": without_bervo,
-    }
 
 
 def enrich_db(db: dict) -> dict:
@@ -281,7 +138,6 @@ def enrich_db(db: dict) -> dict:
             dataset["anchor_id"] = make_anchor_id(f"{program_id}-dataset-{dataset.get('name', 'dataset')}")
 
     db["sites"] = sorted(db.get("sites", []), key=lambda site: site.get("name", ""))
-    db["variable_index"] = build_variable_index(db)
     return db
 
 
@@ -330,7 +186,7 @@ def main():
     """Main entry point."""
     print(f"Loading database from {DB_PATH}")
     db = load_db()
-    db = overlay_index_variables(db)
+    db = union_with_index(db)
     db = enrich_db(db)
 
     print("Generating HTML from templates...")

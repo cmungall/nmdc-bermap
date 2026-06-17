@@ -61,8 +61,13 @@ else→ontology_mappings).
 - a **program / study / dataset / site** (structure, descriptions, PIs) → edit `db/sfas-brcs.yaml`.
 
 Every study and dataset that has variables gets a profile (81 + 3). `base.yaml` is hand-authored.
-Consumers read variables from the generated `schemas/variable-index.yaml`: the HTML browser
-(`generate_html_browser.py`) and the NMDC sample-attribute validator both source variables from it.
+
+`schemas/variable-index.yaml` is the **single producer** of all variable-derived data:
+per-owner variables (`studies`/`datasets`), a `by_term` inverted index, and the flat
+`variable_index` view (records + BERVO/MIxS groupings) the variable pages render. **All HTML is a
+render of the union of `db/sfas-brcs.yaml` (programs/studies/datasets/sites) and this index** —
+`generate_html_browser.py` derives no variable structures of its own. The NMDC sample-attribute
+validator also sources study variables from the index.
 
 > `gen-profiles` was the one-time **bootstrap** (db.variables → profiles). It now refuses to run
 > (the DB has no inline variables) so it can't clobber the hand-authored profiles. Don't run it.

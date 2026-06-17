@@ -1436,10 +1436,10 @@ records:
   enum_kind: static
   enum_source: null
   shared:
+    ENVO:00005802: 4
     MIXS:0000014: 42
     MIXS:0000008: 73
     MIXS:0000013: 36
-    ENVO:00005802: 4
     ENVO:00005801: 12
   source_field_names:
   - compartment
@@ -1655,8 +1655,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - host_line
   - trait_modulation
@@ -3009,8 +3009,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - climate_treatment
   - field_treatment
@@ -3308,8 +3308,8 @@ records:
   enum_source: null
   shared:
     MIXS:0000011: 24
-    MIXS:0000829: 4
     MIXS:0000008: 73
+    MIXS:0000829: 4
   source_field_names:
   - collection_date
   - sampling_date
@@ -4277,9 +4277,9 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000365: 7
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - accession_type
   - crop_type
@@ -4987,10 +4987,16 @@ records:
   levels:
   - drought
   - wet-up
-  level_terms: []
-  enum_kind: null
+  level_terms:
+  - value: drought
+    id: null
+  - value: wet-up
+    id: null
+  enum_kind: static
   enum_source: null
-  shared: {}
+  shared:
+    MIXS:0000754: 12
+    MIXS:0000591: 6
   source_field_names:
   - moisture_treatment
   - drought_wetup_treatment
@@ -5000,8 +5006,10 @@ records:
     mixs:
     - id: MIXS:0000754
       label: perturbation
+      mapping_relation: exactMatch
     - id: MIXS:0000591
       label: watering regimen
+      mapping_relation: exactMatch
     other: []
     unit: null
   owner:
@@ -5039,9 +5047,9 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000591: 5
+    MIXS:0000754: 12
+    MIXS:0000591: 6
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - drought_treatment
   - water_treatment
@@ -5095,9 +5103,9 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000754: 11
+    MIXS:0000754: 12
+    MIXS:0000591: 6
     MIXS:0000008: 73
-    MIXS:0000591: 5
   source_field_names:
   - drought_treatment
   - water_treatment
@@ -8659,8 +8667,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - fertilizer_regm
   mappings:
@@ -8709,8 +8717,8 @@ records:
   enum_source: null
   shared:
     BERVO:0000895: 3
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - fertilizer_treatment
   - n_treatment
@@ -10065,8 +10073,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0001057: 3
     MIXS:0000008: 73
+    MIXS:0001057: 3
   source_field_names:
   - container
   - growth_container
@@ -10388,8 +10396,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0001057: 3
     MIXS:0000008: 73
+    MIXS:0001057: 3
   source_field_names:
   - medium
   - growth_medium
@@ -10966,8 +10974,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - host_species
   - crop
@@ -11017,8 +11025,8 @@ records:
   enum_kind: dynamic
   enum_source: HostCommonNameEnum
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - host_common_name
   - crop
@@ -11112,8 +11120,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - gene
   - perturbation
@@ -11167,8 +11175,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - genotype
   - perturbation
@@ -11264,8 +11272,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - host
   - isolation_source
@@ -11673,8 +11681,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - infection_treatment
   - pathogen_challenge
@@ -11834,8 +11842,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - organism
   - partner
@@ -11932,8 +11940,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000591: 6
     MIXS:0000008: 73
-    MIXS:0000591: 5
   source_field_names:
   - irrigation
   - irrigation_treatment
@@ -11984,8 +11992,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000751: 3
     MIXS:0000008: 73
+    MIXS:0000751: 3
   source_field_names:
   - isotope_label
   - labeled_substrate
@@ -12631,8 +12639,8 @@ records:
   enum_kind: dynamic
   enum_source: HostCommonNameEnum
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - plant_species
   - litter_species
@@ -12684,8 +12692,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - light_condition
   - light_disturbance
@@ -12737,8 +12745,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - light_condition
   - light_perturbation
@@ -13571,9 +13579,9 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000751: 3
-    MIXS:0000008: 73
     CHEBI:25195: 1
+    MIXS:0000008: 73
+    MIXS:0000751: 3
   source_field_names:
   - mercury_amendment
   - mercury_exposure
@@ -14903,8 +14911,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - species
   - host_species
@@ -14956,10 +14964,10 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    BERVO:0000301: 4
-    MIXS:0000591: 5
+    MIXS:0000754: 12
+    MIXS:0000591: 6
     MIXS:0000008: 73
-    MIXS:0000754: 11
+    BERVO:0000301: 4
   source_field_names:
   - moisture_shift
   - rewetting_treatment
@@ -15202,7 +15210,7 @@ records:
     bervo:
       id: BERVO:0000326
       label: total canopy net CO2 exchange
-      mapping_relation: CLOSE_MATCH
+      mapping_relation: closeMatch
       mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields
         here are treated as ecosystem-atmosphere carbon dioxide exchange.
     mixs: []
@@ -15443,8 +15451,8 @@ records:
   enum_source: null
   shared:
     BERVO:0000895: 3
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - nitrogen_addition
   - n_addition
@@ -15543,8 +15551,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - nitrogen_fertilization
   - n_treatment
@@ -15596,8 +15604,8 @@ records:
   enum_source: null
   shared:
     BERVO:0000895: 3
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - nitrogen_rate
   - n_rate
@@ -15660,8 +15668,8 @@ records:
   enum_source: null
   shared:
     BERVO:0000895: 3
-    MIXS:0000556: 5
     MIXS:0000008: 73
+    MIXS:0000556: 5
   source_field_names:
   - nitrogen_treatment
   - n_treatment
@@ -16363,8 +16371,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - perturbation
   mappings:
@@ -16842,10 +16850,10 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    PO:0009005: 4
     MIXS:0000014: 42
     MIXS:0000008: 73
     MIXS:0000013: 36
+    PO:0009005: 4
     ENVO:00005801: 12
   source_field_names:
   - compartment
@@ -16912,12 +16920,12 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    PO:0009005: 4
     PO:0025034: 2
     MIXS:0000014: 42
     MIXS:0000008: 73
-    MIXS:0000013: 36
     ENVO:00001998: 2
+    MIXS:0000013: 36
+    PO:0009005: 4
   source_field_names:
   - compartment
   - tissue
@@ -16988,13 +16996,13 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    PO:0009005: 4
     PO:0025034: 2
-    MIXS:0000013: 36
-    MIXS:0000014: 42
-    MIXS:0000008: 73
-    PO:0009047: 1
     ENVO:00005802: 4
+    MIXS:0000014: 42
+    PO:0009005: 4
+    PO:0009047: 1
+    MIXS:0000008: 73
+    MIXS:0000013: 36
     ENVO:00005801: 12
   source_field_names:
   - compartment
@@ -17175,8 +17183,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - plant_genotype
   - host_genotype
@@ -17238,13 +17246,13 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    PO:0009005: 4
     PO:0025034: 2
+    PO:0009047: 1
     MIXS:0000014: 42
     MIXS:0000008: 73
-    MIXS:0000013: 36
-    PO:0009047: 1
     ENVO:00001998: 2
+    MIXS:0000013: 36
+    PO:0009005: 4
   source_field_names:
   - habitat
   - plant_habitat
@@ -17352,8 +17360,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
   source_field_names:
   - species
   - host_common_name
@@ -17671,8 +17679,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - genotype
   - host_genotype
@@ -17723,8 +17731,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - genotype
   - host_genotype
@@ -17778,8 +17786,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - genotype
   - host_genotype
@@ -17831,8 +17839,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - genotype
   - host_genotype
@@ -17890,10 +17898,10 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    NCBITaxon:3694: 2
+    MIXS:0000248: 11
     MIXS:0000008: 73
     NCBITaxon:3696: 1
-    MIXS:0000248: 11
+    NCBITaxon:3694: 2
   source_field_names:
   - host_species
   - host_common_name
@@ -18067,10 +18075,10 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    NCBITaxon:3694: 2
+    MIXS:0000248: 11
     MIXS:0000008: 73
     NCBITaxon:3696: 1
-    MIXS:0000248: 11
+    NCBITaxon:3694: 2
   source_field_names:
   - species
   - host_species
@@ -18537,8 +18545,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000365: 7
     MIXS:0000008: 73
+    MIXS:0000365: 7
   source_field_names:
   - transgenic_status
   - genotype
@@ -18680,8 +18688,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - redox_treatment
   - redox_fluctuation
@@ -19081,10 +19089,10 @@ records:
   enum_kind: static
   enum_source: null
   shared:
+    ENVO:00005802: 4
     MIXS:0000014: 42
     MIXS:0000008: 73
     MIXS:0000013: 36
-    ENVO:00005802: 4
     ENVO:00005801: 12
   source_field_names:
   - environment
@@ -20118,11 +20126,11 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    PO:0009005: 4
+    ENVO:00005802: 4
     MIXS:0000014: 42
     MIXS:0000008: 73
     MIXS:0000013: 36
-    ENVO:00005802: 4
+    PO:0009005: 4
   source_field_names:
   - compartment
   - sample_type
@@ -20446,8 +20454,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000011: 24
     MIXS:0000829: 4
+    MIXS:0000011: 24
     MIXS:0000008: 73
   source_field_names:
   - season
@@ -20501,8 +20509,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000011: 24
     MIXS:0000829: 4
+    MIXS:0000011: 24
     MIXS:0000008: 73
   source_field_names:
   - season
@@ -21177,8 +21185,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000011: 24
     MIXS:0000829: 4
+    MIXS:0000011: 24
     MIXS:0000008: 73
   source_field_names:
   - snowmelt_phase
@@ -21456,8 +21464,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000018: 10
     MIXS:0000008: 73
+    MIXS:0000018: 10
   source_field_names:
   - depth
   - soil_depth
@@ -21509,8 +21517,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000018: 10
     MIXS:0000008: 73
+    MIXS:0000018: 10
   source_field_names:
   - depth
   - soil_depth
@@ -21561,8 +21569,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000018: 10
     MIXS:0000008: 73
+    MIXS:0000018: 10
   source_field_names:
   - depth
   - soil_depth
@@ -21987,9 +21995,9 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    BERVO:0000301: 4
-    MIXS:0000591: 5
+    MIXS:0000591: 6
     MIXS:0000008: 73
+    BERVO:0000301: 4
     MIXS:0000185: 4
   source_field_names:
   - soil_moisture
@@ -22047,8 +22055,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    BERVO:0000301: 4
     MIXS:0000008: 73
+    BERVO:0000301: 4
     MIXS:0000185: 4
   source_field_names:
   - soil_moisture
@@ -23011,9 +23019,11 @@ records:
     bervo:
       id: BERVO:0001477
       label: soil temperature
+      mapping_relation: exactMatch
     mixs:
     - id: MIXS:0001163
       label: soil temperature
+      mapping_relation: exactMatch
     other: []
     unit: null
   owner:
@@ -23767,8 +23777,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
+    MIXS:0000754: 12
     MIXS:0000008: 73
-    MIXS:0000754: 11
   source_field_names:
   - inoculation_treatment
   - syncom_treatment
@@ -23819,8 +23829,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000751: 3
     MIXS:0000008: 73
+    MIXS:0000751: 3
   source_field_names:
   - isotope_label
   - isotope_amendment
@@ -24343,9 +24353,9 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    NCBITaxon:3694: 2
-    MIXS:0000008: 73
     MIXS:0000248: 11
+    MIXS:0000008: 73
+    NCBITaxon:3694: 2
   source_field_names:
   - organism
   - partner
@@ -24540,8 +24550,8 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    MIXS:0000751: 3
     MIXS:0000008: 73
+    MIXS:0000751: 3
   source_field_names:
   - dose
   - concentration
@@ -24605,8 +24615,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    MIXS:0000751: 3
     MIXS:0000008: 73
+    MIXS:0000751: 3
   source_field_names:
   - terpene
   - terpene_treatment
@@ -24736,8 +24746,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    NCBITaxon:211586: 1
     MIXS:0000008: 73
+    NCBITaxon:211586: 1
   source_field_names: []
   mappings:
     bervo: null
@@ -24796,8 +24806,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    NCBITaxon:211586: 1
     MIXS:0000008: 73
+    NCBITaxon:211586: 1
   source_field_names: []
   mappings:
     bervo: null
@@ -24951,6 +24961,7 @@ records:
     bervo:
       id: BERVO:0000315
       label: total evaporation
+      mapping_relation: exactMatch
     mixs: []
     other: []
     unit: null
@@ -25643,8 +25654,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
+    MIXS:0000591: 6
     MIXS:0000008: 73
-    MIXS:0000591: 5
   source_field_names:
   - watering_condition
   - drought_treatment
@@ -25970,12 +25981,13 @@ by_bervo:
 - term:
     id: BERVO:0001477
     label: soil temperature
+    mapping_relation: exactMatch
   variable_ids:
   - nmdc_sfas_brcs-glbrc-dataset-kbs-lux-arbor-reserve-switchgrass-flux-data-soil-temperature
 - term:
     id: BERVO:0000326
     label: total canopy net CO2 exchange
-    mapping_relation: CLOSE_MATCH
+    mapping_relation: closeMatch
     mapping_note: BERVO term uses canopy framing, while AmeriFlux NEE/FC fields here
       are treated as ecosystem-atmosphere carbon dioxide exchange.
   variable_ids:
@@ -25983,6 +25995,7 @@ by_bervo:
 - term:
     id: BERVO:0000315
     label: total evaporation
+    mapping_relation: exactMatch
   variable_ids:
   - nmdc_sfas_brcs-glbrc-dataset-kbs-lux-arbor-reserve-switchgrass-flux-data-total-evaporation
 - term:
@@ -26464,6 +26477,7 @@ by_mixs:
 - term:
     id: MIXS:0001163
     label: soil temperature
+    mapping_relation: exactMatch
   variable_ids:
   - nmdc_sfas_brcs-glbrc-dataset-kbs-lux-arbor-reserve-switchgrass-flux-data-soil-temperature
 - term:
@@ -26479,6 +26493,7 @@ by_mixs:
 - term:
     id: MIXS:0000591
     label: watering regimen
+    mapping_relation: exactMatch
   variable_ids:
   - nmdc_sfas_brcs-pnnl_soil_microbiome-dataset-gnps--influence-of-drought-and-wet-up-on-the-soil-lipidome-pnnl-soils-sfa--drought-and-wet-up-treatment
   - nmdc_sfas_brcs-glbrc-study-kbs-mcse-long-term-cropping-experiment-metagenomes-drought-treatment

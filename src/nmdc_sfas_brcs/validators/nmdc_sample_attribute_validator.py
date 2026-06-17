@@ -257,7 +257,25 @@ def load_database(path: Path) -> Mapping[str, Any]:
     if not isinstance(data, Mapping):
         msg = f"Expected mapping at database root: {path}"
         raise ValueError(msg)
+    _overlay_index_variables(data, path)
     return data
+
+
+def _overlay_index_variables(data: Mapping[str, Any], db_path: Path) -> None:
+    """Source study variables from schemas/variable-index.yaml (profiles + SSSOM) when present,
+    so this validator works after the inline db.variables catalog is dropped (single Source of
+    Truth). Studies absent from the index keep whatever inline variables they have."""
+    index_path = db_path.parent.parent / "schemas" / "variable-index.yaml"
+    if not index_path.exists():
+        return
+    studies_idx = (yaml.safe_load(index_path.read_text()) or {}).get("studies") or {}
+    for collection_key in PROGRAM_COLLECTION_KEYS:
+        for program in data.get(collection_key) or []:
+            for study in program.get("studies") or []:
+                sid = study.get("nmdc_study_id")
+                key = sid.split(":")[-1] if sid else None
+                if key and key in studies_idx:
+                    study["variables"] = studies_idx[key]["variables"]
 
 
 def iter_nmdc_studies(

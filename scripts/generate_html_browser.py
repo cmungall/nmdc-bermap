@@ -73,27 +73,34 @@ def iter_programs(db: dict):
             yield collection_key, program
 
 
+def _name_slug(name: str) -> str:
+    return re.sub(r"_+", "_", re.sub(r"[^0-9a-z]+", "_", (name or "").lower())).strip("_")
+
+
 def study_index_key(study: dict) -> str:
     """Match a db study to its key in the variable index (NMDC id local part, else name slug)."""
     sid = study.get("nmdc_study_id")
-    if sid:
-        return sid.split(":")[-1]
-    name = (study.get("name") or "").lower()
-    return re.sub(r"_+", "_", re.sub(r"[^0-9a-z]+", "_", name)).strip("_")
+    return sid.split(":")[-1] if sid else _name_slug(study.get("name"))
 
 
 def overlay_index_variables(db: dict) -> dict:
-    """Source study variables from the generated variable-index (profiles + SSSOM) instead of the
-    inline db.variables, decoupling the browser from the DB catalog. Studies absent from the
-    index keep their inline variables; dataset variables are untouched."""
+    """Source study and dataset variables from the generated variable-index (profiles + SSSOM)
+    instead of the inline db.variables, decoupling the browser from the DB catalog. Owners absent
+    from the index keep their inline variables."""
     if not VARIABLE_INDEX_INPUT.exists():
         return db
-    studies_idx = (yaml.safe_load(VARIABLE_INDEX_INPUT.read_text()) or {}).get("studies") or {}
+    index = yaml.safe_load(VARIABLE_INDEX_INPUT.read_text()) or {}
+    studies_idx = index.get("studies") or {}
+    datasets_idx = index.get("datasets") or {}
     for _key, program in iter_programs(db):
         for study in program.get("studies", []) or []:
             entry = studies_idx.get(study_index_key(study))
             if entry is not None:
                 study["variables"] = entry["variables"]
+        for dataset in program.get("datasets", []) or []:
+            entry = datasets_idx.get(_name_slug(dataset.get("name")))
+            if entry is not None:
+                dataset["variables"] = entry["variables"]
     return db
 
 

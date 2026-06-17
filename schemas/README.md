@@ -50,36 +50,31 @@ else→ontology_mappings).
   = source field names, `annotations.role`/`value_type`/`time_series`/etc.); ontology mappings
   go to the SSSOM table. See the spec for the full mapping table.
 
-## Source of truth — the profiles + SSSOM (flipped)
+## Source of truth — the profiles + SSSOM (single SoT)
 
-**Edit the profiles + SSSOM here; they are the Source of Truth.** `db/sfas-brcs.yaml`'s inline
-`variables` is now an **auto-mirror**: `just sync-variables` rewrites a study's `variables` block
-*only when* it differs from what the profile reconstructs (ruamel line-surgery, so untouched
-studies stay byte-identical — a no-op when nothing changed). `just sync-variables --check` proves
-the round-trip (currently **81/81 studies identical**).
+**Variables live ONLY here.** The inline `db.variables` catalog has been dropped (DB shrank by
+~7,250 lines), so there is exactly one place to edit each kind of data:
 
-> `gen-profiles` is the **bootstrap** direction (db → profiles); it regenerates profiles *from*
-> `db.variables` and will overwrite hand edits. After the flip, edit profiles and run
-> `sync-variables` to mirror to the DB — don't run `gen-profiles` unless re-bootstrapping.
+- a study/dataset **variable** (its mappings, levels, groundings) → edit `schemas/{studies,datasets}/<id>.yaml`
+  (+ `<id>.sssom.yaml` for ontology mappings, `level_meanings.yaml` for level groundings), then
+  `just gen-variable-index`;
+- a **program / study / dataset / site** (structure, descriptions, PIs) → edit `db/sfas-brcs.yaml`.
 
-The reverse generator proves the profiles + SSSOM are a complete, lossless representation, which
-is what makes the flip safe.
-`base.yaml` is hand-authored and never overwritten. Level `meaning:` groundings are harvested from
-the DB's own `ontology_mappings`/`bervo_term` plus the curated `level_meanings.yaml`.
+Every study and dataset that has variables gets a profile (81 + 3). `base.yaml` is hand-authored.
+Consumers read variables from the generated `schemas/variable-index.yaml`: the HTML browser
+(`generate_html_browser.py`) and the NMDC sample-attribute validator both source variables from it.
 
-The HTML browser already derives its **study variables from study metadata**: `just gen-variable-index`
-writes `schemas/variable-index.yaml` (study-keyed variables reconstructed from profiles + SSSOM,
-plus a `by_term` inverted index for cross-study harmonization), and `generate_html_browser.py`
-sources study variables from it (falling back to inline `db.variables` only if the index is
-absent). Switching that source left `docs/browser.html`/`variables.html` byte-for-byte identical.
-Inline `db.variables` is retained as a mirror for now (decision 2b); dataset-level variables (3)
-are still read from the DB.
+> `gen-profiles` was the one-time **bootstrap** (db.variables → profiles). It now refuses to run
+> (the DB has no inline variables) so it can't clobber the hand-authored profiles. Don't run it.
+
+How we got here safely: the reverse generator reconstructed every owner's `variables` from
+profiles + SSSOM and proved **84/84 owners byte-identical** to the DB before the drop.
 
 ## Regenerate / validate
 
 ```bash
-just gen-profiles              # forward: rebuild profiles + *.sssom.yaml from the DB
-just sync-variables --check    # reverse: prove profiles + SSSOM round-trip to the DB variables
+just gen-variable-index        # build schemas/variable-index.yaml from the profiles + SSSOM (SoT)
+just gen-browser               # re-render docs (reads the index)
 just validate-profiles         # load every profile via SchemaView; verify imports + ranges resolve
 just validate-profile-terms    # vet enum permissible-value meaning: CURIEs against ontologies (OAK)
 just validate-profile-mappings # vet every SSSOM object_label against object_id's ontology label
@@ -94,7 +89,7 @@ match a term label; common names like `switchgrass` are left to the dynamic `Hos
 
 ## Current coverage
 
-81 study profiles (540 slots, 54 static enums, 145 permissible values) + 40 site profiles.
-60 slots bind to the shared dynamic enums; **48 of 145 permissible values carry an ontology
-`meaning:`** (across NCBITaxon/ENVO/PO/CHEBI), every one passing `just validate-profile-terms`.
-Grounding grows by extending the curated, verified `level_meanings.yaml`.
+81 study + 3 dataset profiles (547 slots, 547 variables, 55 static enums) + 40 site profiles.
+Slots bind to the shared dynamic enums; **~48 permissible values carry an ontology `meaning:`**
+(across NCBITaxon/ENVO/PO/CHEBI), every one passing `just validate-profile-terms`. Grounding grows
+by extending the curated, verified `level_meanings.yaml`.

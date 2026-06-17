@@ -311,6 +311,13 @@ def dump(path: Path, data: dict):
 
 def generate():
     db = yaml.safe_load(DB_PATH.read_text())
+    has_vars = any(o.get("variables") for pk in PROG_KEYS for p in db.get(pk) or []
+                   for o in (p.get("studies") or []) + (p.get("datasets") or []))
+    if not has_vars:
+        raise SystemExit(
+            "gen-profiles is a one-time BOOTSTRAP (db.variables -> profiles), but db/sfas-brcs.yaml "
+            "no longer has inline variables — the profiles are now the hand-edited Source of Truth. "
+            "Edit schemas/ directly and run `just gen-variable-index`; do not run gen-profiles.")
     meanings = harvest_meanings(db)
     OUT_STUDIES.mkdir(parents=True, exist_ok=True)
     OUT_DATASETS.mkdir(parents=True, exist_ok=True)
@@ -388,8 +395,8 @@ def generate():
 
     print(f"Wrote {n_study} study + {n_dataset} dataset profiles ({n_slot} slots, "
           f"{n_enum} static enums) and {n_site} site profiles to {SCHEMAS}")
-    print("NOTE: this is the BOOTSTRAP direction (db.variables -> profiles) and overwrites any "
-          "hand edits to profiles. Post-flip, edit profiles and run `just sync-variables` instead.")
+    print("NOTE: this is the one-time BOOTSTRAP (db.variables -> profiles). The profiles are now "
+          "the Source of Truth; edit schemas/ directly and run `just gen-variable-index`.")
 
 
 if __name__ == "__main__":

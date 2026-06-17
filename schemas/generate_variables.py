@@ -1,9 +1,9 @@
-"""Reverse generator: reconstruct each study's `variables` catalog from its LinkML profile
-(schemas/studies/<id>.yaml) + its SSSOM mapping table (schemas/studies/<id>.sssom.yaml).
+"""Build the variable index (schemas/variable-index.yaml) from the per-owner LinkML profiles +
+SSSOM mapping tables (schemas/{studies,datasets}/<id>.yaml + .sssom.yaml), which are now the
+single Source of Truth for variables. Reconstructs each study's/dataset's variable catalog,
+enriches it for the variable pages, and adds a `by_term` inverted index for harmonization.
 
-This is the Source-of-Truth flip: profiles + SSSOM -> variables. Run with `--check` to prove
-round-trip identity against the current db/sfas-brcs.yaml (reverse(forward(variables)) == variables).
-Run with: just sync-variables [--check]
+Run with: just gen-variable-index
 """
 
 import sys
@@ -39,16 +39,20 @@ def dataset_id(dataset: dict) -> str:
 
 
 def owners(db: dict):
-    """Yield (kind, oid, out_dir, program_id, owner) for every variable-bearing study/dataset."""
+    """Yield (kind, oid, out_dir, program_id, owner) for every study/dataset that has a profile.
+    Gated on profile-file existence (not db.variables), since the profiles are now the Source of
+    Truth and the inline db.variables catalog has been dropped."""
     for pk in PROG_KEYS:
         for p in db.get(pk) or []:
             pid = p.get("id")
             for s in p.get("studies") or []:
-                if s.get("variables"):
-                    yield "study", study_id(s), OUT_STUDIES, pid, s
+                oid = study_id(s)
+                if (OUT_STUDIES / f"{oid}.yaml").exists():
+                    yield "study", oid, OUT_STUDIES, pid, s
             for d in p.get("datasets") or []:
-                if d.get("variables"):
-                    yield "dataset", dataset_id(d), OUT_DATASETS, pid, d
+                oid = dataset_id(d)
+                if (OUT_DATASETS / f"{oid}.yaml").exists():
+                    yield "dataset", oid, OUT_DATASETS, pid, d
 
 
 def _slug(name):
@@ -204,93 +208,17 @@ def build_index() -> dict:
     return {"studies": studies, "datasets": datasets, "by_term": dict(sorted(by_term.items()))}
 
 
-def roundtrip_check() -> int:
-    db = yaml.safe_load(DB_PATH.read_text())
-    items = list(owners(db))
-    mismatches = 0
-    for kind, oid, out_dir, _pid, owner in items:
-        original = owner.get("variables") or []
-        rebuilt = reconstruct_owner(out_dir, oid)
-        if [_norm(v) for v in original] != [_norm(v) for v in rebuilt]:
-            mismatches += 1
-            print(f"❌ {kind} {oid}: variables differ")
-            for i, (a, b) in enumerate(zip(original, rebuilt)):
-                if _norm(a) != _norm(b):
-                    keys = {k for k in set(a) | set(b) if a.get(k) != b.get(k)}
-                    print(f"    var[{i}] {a.get('name')!r}: "
-                          f"DB={ {k: a.get(k) for k in keys} }  REBUILT={ {k: b.get(k) for k in keys} }")
-            if len(original) != len(rebuilt):
-                print(f"    length differs: DB={len(original)} REBUILT={len(rebuilt)}")
-    total = len(items)
-    print(f"\nRound-trip: {total - mismatches}/{total} owners (studies + datasets) identical.")
-    return 1 if mismatches else 0
-
-
-def write_back() -> int:
-    """Mirror the profiles + SSSOM back into db/sfas-brcs.yaml: rewrite a study's `variables`
-    block only when it differs from what the profile reconstructs. Uses ruamel line numbers +
-    raw line-surgery so untouched studies stay byte-identical (no dumper reflow)."""
-    from ruamel.yaml import YAML
-    text = DB_PATH.read_text()
-    raw = text.splitlines(keepends=True)
-    rdata = YAML().load(text)
-    plain = yaml.safe_load(text)
-
-    def indent(line):
-        s = line.rstrip("\n")
-        return len(s) - len(s.lstrip(" ")) if s.strip() else 10 ** 9
-
-    edits, changed = [], []
-    for pk in PROG_KEYS:
-        for pp, rp in zip(plain.get(pk) or [], rdata.get(pk) or []):
-            for ps, rs in zip(pp.get("studies") or [], rp.get("studies") or []):
-                if not ps.get("variables"):
-                    continue
-                sid = study_id(ps)
-                rebuilt = reconstruct_owner(OUT_STUDIES, sid)
-                if [_norm(v) for v in ps["variables"]] == [_norm(v) for v in rebuilt]:
-                    continue
-                changed.append(sid)
-                vline = rs.lc.key("variables")[0]
-                end = vline + 1
-                while end < len(raw):
-                    if not raw[end].strip():
-                        end += 1
-                        continue
-                    ind = indent(raw[end])
-                    if ind > 4 or (ind == 4 and raw[end].lstrip().startswith("- ")):
-                        end += 1
-                        continue
-                    break
-                block = yaml.safe_dump(rebuilt, sort_keys=False, allow_unicode=True,
-                                       width=100, default_flow_style=False)
-                new_lines = ["    " + ln if ln.strip() else ln
-                             for ln in block.splitlines(keepends=True)]
-                edits.append((vline + 1, end, new_lines))
-
-    if not edits:
-        print("sync-variables: db/sfas-brcs.yaml already mirrors profiles + SSSOM (no changes).")
-        return 0
-    for start, end, lines in sorted(edits, key=lambda e: e[0], reverse=True):
-        raw[start:end] = lines
-    DB_PATH.write_text("".join(raw))
-    print(f"sync-variables: rewrote {len(changed)} study variables block(s): {', '.join(changed)}")
-    return 0
-
-
 def main() -> int:
-    if "--index" in sys.argv:
-        index = build_index()
-        INDEX_PATH.write_text(yaml.safe_dump(index, sort_keys=False, allow_unicode=True, width=100))
-        entries = list(index["studies"].values()) + list(index.get("datasets", {}).values())
-        nvar = sum(len(e["variables"]) for e in entries)
-        print(f"Wrote {INDEX_PATH.relative_to(ROOT)} ({len(index['studies'])} studies, "
-              f"{len(index.get('datasets', {}))} datasets, {nvar} variables, "
-              f"{len(index['by_term'])} indexed terms)")
-        return 0
-    if "--check" in sys.argv:
-        return roundtrip_check()
-    return write_back()
+    """Build the variable index from the profiles + SSSOM (the Source of Truth). The inline
+    db.variables catalog has been dropped, so there is no longer a mirror/round-trip to db."""
+    index = build_index()
+    INDEX_PATH.write_text(yaml.safe_dump(index, sort_keys=False, allow_unicode=True, width=100))
+    entries = list(index["studies"].values()) + list(index.get("datasets", {}).values())
+    nvar = sum(len(e["variables"]) for e in entries)
+    print(f"Wrote {INDEX_PATH.relative_to(ROOT)} ({len(index['studies'])} studies, "
+          f"{len(index.get('datasets', {}))} datasets, {nvar} variables, "
+          f"{len(index['by_term'])} indexed terms)")
+    return 0
 
 
 if __name__ == "__main__":

@@ -409,8 +409,8 @@ studies:
       - value: high nitrogen
         id: null
       shared:
-        BERVO:0000895: 3
         MIXS:0000556: 5
+        BERVO:0000895: 3
         MIXS:0000008: 73
     - name: field location
       description: Great Lakes region field site where each switchgrass sample was collected.
@@ -722,9 +722,9 @@ studies:
         id: ENVO:00005801
       shared:
         ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: sorghum-associated microbial community composition
       description: Amplicon, metagenomic, or metatranscriptomic profiles of sorghum-associated microbial
         communities.
@@ -793,8 +793,8 @@ studies:
       - value: Rhinelander
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: sample compartment
       description: Belowground habitat sampled for switchgrass-associated microbiome profiling.
       roles:
@@ -827,10 +827,10 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
-        ENVO:00005802: 4
-        MIXS:0000014: 42
         MIXS:0000008: 73
         PO:0009005: 4
+        ENVO:00005802: 4
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: collection date
       description: Date or seasonal sampling point used to evaluate intra-annual microbiome dynamics.
@@ -892,8 +892,8 @@ studies:
       - value: nitrogen addition
         id: null
       shared:
-        BERVO:0000895: 3
         MIXS:0000556: 5
+        BERVO:0000895: 3
         MIXS:0000008: 73
     - name: bacterial and fungal community composition
       description: Amplicon-derived bacterial and fungal community profiles from switchgrass roots and
@@ -979,11 +979,11 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
-        ENVO:00001998: 2
-        MIXS:0000014: 42
-        PO:0025034: 2
         MIXS:0000008: 73
         PO:0009005: 4
+        PO:0025034: 2
+        ENVO:00001998: 2
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: bacterial and fungal community composition
       description: 16S and ITS amplicon profiles used to evaluate transgenic effects on switchgrass microbiomes.
@@ -1037,8 +1037,8 @@ studies:
       - value: nerolidol
         id: CHEBI:7524
       shared:
-        MIXS:0000751: 3
         MIXS:0000008: 73
+        MIXS:0000751: 3
     - name: terpene dose
       description: Concentration or dose level for exogenous terpene delivery.
       roles:
@@ -1122,9 +1122,9 @@ studies:
       - water_treatment
       - perturbation
       shared:
-        MIXS:0000591: 6
         MIXS:0000754: 12
         MIXS:0000008: 73
+        MIXS:0000591: 6
     - name: cropping system
       description: Long-term KBS MCSE cropping-system treatment represented by each soil sample.
       roles:
@@ -1144,8 +1144,8 @@ studies:
       - crop_rotation
       - treatment
       shared:
-        MIXS:0000008: 73
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: microbial stress tolerance allocation
       description: Metagenome-derived community trait allocation to stress tolerance under drought.
       roles:
@@ -1247,9 +1247,9 @@ studies:
       - soil_moisture
       - water_content
       shared:
+        MIXS:0000185: 4
         BERVO:0000301: 4
         MIXS:0000008: 73
-        MIXS:0000185: 4
     - name: decomposition microbiome composition
       description: Metagenomic profile of microbial communities associated with leaf litter decomposition
         in soil.
@@ -1441,10 +1441,10 @@ studies:
       - value: Populus trichocarpa
         id: NCBITaxon:3694
       shared:
+        NCBITaxon:3694: 2
+        NCBITaxon:3696: 1
         MIXS:0000248: 11
         MIXS:0000008: 73
-        NCBITaxon:3696: 1
-        NCBITaxon:3694: 2
     - name: root-associated compartment
       description: Populus root-associated compartment where each Variovorax strain was quantified.
       roles:
@@ -1480,9 +1480,9 @@ studies:
       - value: endosphere
         id: null
       shared:
-        MIXS:0000014: 42
-        ENVO:00005801: 12
         MIXS:0000008: 73
+        ENVO:00005801: 12
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: strain compartment abundance
       description: Strain-resolved abundance used to infer rhizosphere versus endosphere specialization.
@@ -1767,8 +1767,8 @@ studies:
       - value: SRC1 inoculated
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: synthetic community strain abundance
       description: Strain or member abundance of SRC1 bacteria after field colonization.
       roles:
@@ -1859,8 +1859,8 @@ studies:
       - n_rate
       - fertilizer_regimen
       shared:
-        BERVO:0000895: 3
         MIXS:0000556: 5
+        BERVO:0000895: 3
         MIXS:0000008: 73
     - name: soil sampling depth
       description: Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.
@@ -2146,9 +2146,9 @@ studies:
       - value: root endophytic compartment
         id: null
       shared:
-        MIXS:0000014: 42
-        ENVO:00005801: 12
         MIXS:0000008: 73
+        ENVO:00005801: 12
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: collection site
       description: Taiwanese site or locality representing the biogeographical and ecological gradient.
@@ -2278,8 +2278,8 @@ studies:
       - n_treatment
       - fertilizer_regimen
       shared:
-        BERVO:0000895: 3
         MIXS:0000556: 5
+        BERVO:0000895: 3
         MIXS:0000008: 73
     - name: sampling year
       description: Field season used to evaluate inter-annual variability in rhizosphere nitrification.
@@ -2380,9 +2380,9 @@ studies:
       - value: oilcane
         id: null
       shared:
+        MIXS:0000365: 7
         MIXS:0000248: 11
         MIXS:0000008: 73
-        MIXS:0000365: 7
     - name: plant compartment
       description: Plant or soil compartment sampled for sugarcane and oilcane microbiome profiling.
       roles:
@@ -2427,14 +2427,14 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
-        ENVO:00005801: 12
+        PO:0009047: 1
         PO:0025034: 2
-        MIXS:0000008: 73
         ENVO:00005802: 4
         MIXS:0000013: 36
-        PO:0009047: 1
-        MIXS:0000014: 42
+        MIXS:0000008: 73
         PO:0009005: 4
+        ENVO:00005801: 12
+        MIXS:0000014: 42
     - name: bacterial and fungal community composition
       description: 16S and ITS amplicon profiles used to compare sugarcane and oilcane microbiomes.
       roles:
@@ -2477,8 +2477,8 @@ studies:
       - soil_depth
       - profile_depth
       shared:
-        MIXS:0000008: 73
         MIXS:0000018: 10
+        MIXS:0000008: 73
     - name: nitrifier community composition
       description: 16S amplicon profile of nitrifying microorganisms across topsoil and subsoil.
       roles:
@@ -2535,8 +2535,8 @@ studies:
       - water_treatment
       - watering_regimen
       shared:
-        MIXS:0000591: 6
         MIXS:0000754: 12
+        MIXS:0000591: 6
         MIXS:0000008: 73
     - name: Populus genotype
       description: Host genotype of Populus trichocarpa sampled under drought.
@@ -2596,10 +2596,10 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
+        MIXS:0000008: 73
+        ENVO:00005801: 12
         ENVO:00005802: 4
         MIXS:0000014: 42
-        ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000013: 36
     - name: soil sampling depth
       description: Depth interval for belowground Populus samples recorded in NMDC biosample metadata.
@@ -2812,10 +2812,10 @@ studies:
       - value: shoot
         id: null
       shared:
-        MIXS:0000014: 42
-        ENVO:00005801: 12
         MIXS:0000008: 73
         PO:0009005: 4
+        ENVO:00005801: 12
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: bacterial and fungal community assembly
       description: DNA metabarcoding profiles used to track microbial community assembly over plant growth.
@@ -3012,8 +3012,8 @@ studies:
       - value: groundwater
         id: ENVO:01001004
       shared:
-        MIXS:0000008: 73
         MIXS:0000014: 42
+        MIXS:0000008: 73
     - name: subsurface spatial scale
       description: Spatial grain or sampling scale represented by the metagenome sample.
       roles:
@@ -3236,8 +3236,8 @@ studies:
       - value: (and 29 other species across Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes)
         id: null
       shared:
-        MIXS:0000008: 73
         NCBITaxon:211586: 1
+        MIXS:0000008: 73
     - name: growth condition
       description: Defined growth condition (carbon source, nitrogen source, metal, antibiotic, or other
         stressor) applied to each library aliquot.
@@ -3323,8 +3323,8 @@ studies:
       - value: Shewanella oneidensis MR-1
         id: NCBITaxon:211586
       shared:
-        MIXS:0000008: 73
         NCBITaxon:211586: 1
+        MIXS:0000008: 73
     - name: carbon source
       description: Defined carbon source in minimal medium.
       roles:
@@ -3417,8 +3417,8 @@ studies:
       - field_treatment
       - experimental_factor
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: meadow soil metagenome profile
       description: Assembled metagenomic composition and functional potential from Angelo meadow soils.
       roles:
@@ -3835,8 +3835,8 @@ studies:
       source_field_names:
       - perturbation
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: biotic regimen
       description: Biotic regimen recorded in NMDC biosample metadata.
       roles:
@@ -3954,9 +3954,9 @@ studies:
       - value: four distinct soils
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: root-associated bacterial community composition
       description: 16S metabarcoding profile used to define the Brachypodium core root microbiome.
       roles:
@@ -4022,10 +4022,10 @@ studies:
       - value: bulk soil
         id: ENVO:00005802
       shared:
-        MIXS:0000008: 73
         ENVO:00005802: 4
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: growth container
       description: Experimental growth system used for Brachypodium root microbiome sampling.
       roles:
@@ -4058,8 +4058,8 @@ studies:
       - value: tube
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0001057: 3
+        MIXS:0000008: 73
     - name: rhizosphere bacterial community composition
       description: 16S profile used to measure early differentiation of root-associated communities from
         bulk soil.
@@ -4290,9 +4290,9 @@ studies:
       - source_soil
       - source_rhizosphere
       shared:
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: reduced consortium composition
       description: Microbial composition of the reduced complexity consortium after enrichment.
       roles:
@@ -4408,8 +4408,8 @@ studies:
       - redox_fluctuation
       - perturbation
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: tropical soil source
       description: Luquillo Experimental Forest soil source represented in the enrichment experiment.
       roles:
@@ -4850,8 +4850,8 @@ studies:
       - water_content
       - volumetric_water_content
       shared:
-        MIXS:0000008: 73
         MIXS:0000185: 4
+        MIXS:0000008: 73
     - name: stable isotope amendment
       description: Isotopically labeled substrate or amendment used for quantitative stable isotope probing.
       roles:
@@ -4919,9 +4919,9 @@ studies:
       - water_content
       - moisture_condition
       shared:
-        BERVO:0000301: 4
-        MIXS:0000591: 6
         MIXS:0000185: 4
+        MIXS:0000591: 6
+        BERVO:0000301: 4
         MIXS:0000008: 73
     - name: Hi-C contact signal
       description: Chromosomal conformation capture contact evidence used to link viral and host sequences.
@@ -4985,8 +4985,8 @@ studies:
       - depth
       - soil_depth
       shared:
-        MIXS:0000008: 73
         MIXS:0000018: 10
+        MIXS:0000008: 73
     - name: irrigation treatment
       description: Watering or irrigation condition applied to the soil and plant system.
       roles:
@@ -5093,9 +5093,9 @@ studies:
       - drying_rewetting
       shared:
         BERVO:0000301: 4
-        MIXS:0000591: 6
         MIXS:0000754: 12
         MIXS:0000008: 73
+        MIXS:0000591: 6
     - name: response elapsed time
       description: Time after moisture shift at which respiration was measured.
       roles:
@@ -5417,10 +5417,10 @@ studies:
       - value: microbial necromass
         id: null
       shared:
+        MIXS:0000008: 73
+        ENVO:00005801: 12
         ENVO:00005802: 4
         MIXS:0000014: 42
-        ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000013: 36
     - name: sorghum root exudate availability
       description: Presence or concentration of sorghum-derived root exudates used to create synthetic
@@ -5500,9 +5500,9 @@ studies:
       - sample_type
       shared:
         ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: soil sampling depth
       description: Depth value recorded in NMDC biosample metadata for Populus root-associated samples.
       roles:
@@ -5787,10 +5787,10 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
+        MIXS:0000008: 73
+        ENVO:00005801: 12
         ENVO:00001998: 2
         MIXS:0000014: 42
-        ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000013: 36
     - name: soil sampling depth
       description: Soil or rhizosphere sampling depth recorded in NMDC biosample metadata when available.
@@ -6249,10 +6249,10 @@ studies:
       - value: Populus trichocarpa
         id: NCBITaxon:3694
       shared:
+        NCBITaxon:3694: 2
+        NCBITaxon:3696: 1
         MIXS:0000248: 11
         MIXS:0000008: 73
-        NCBITaxon:3696: 1
-        NCBITaxon:3694: 2
     - name: plant-associated habitat
       description: Populus habitat sampled for bacterial, archaeal, and fungal microbiome profiling.
       roles:
@@ -6291,9 +6291,9 @@ studies:
       - value: rhizosphere
         id: ENVO:00005801
       shared:
-        MIXS:0000014: 42
-        ENVO:00005801: 12
         MIXS:0000008: 73
+        ENVO:00005801: 12
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: bacterial archaeal and fungal community composition
       description: Amplicon-derived community profiles for Populus bacterial, archaeal, and fungal communities.
@@ -6350,12 +6350,12 @@ studies:
       - value: soil
         id: ENVO:00001998
       shared:
-        ENVO:00001998: 2
         PO:0009047: 1
-        MIXS:0000014: 42
-        PO:0025034: 2
         MIXS:0000008: 73
         PO:0009005: 4
+        PO:0025034: 2
+        ENVO:00001998: 2
+        MIXS:0000014: 42
         MIXS:0000013: 36
     - name: tissue-level niche
       description: Fine-scale tissue or niche sampled within Populus plants and associated soils.
@@ -6385,9 +6385,9 @@ studies:
       - value: approximately 30 tissue-level niches
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: Populus genotype
       description: Host genotype used to test genotype effects on Populus-associated microbial communities.
       roles:
@@ -6451,9 +6451,9 @@ studies:
       - sample_type
       - compartment
       shared:
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: bacterial isolate identifier
       description: Identifier for culturable bacterial isolates recovered from Populus roots.
       roles:
@@ -6518,9 +6518,9 @@ studies:
       - climate_origin
       - source_location
       shared:
-        MIXS:0000008: 73
         MIXS:0000012: 13
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: Populus angustifolia genotype
       description: Host tree genotype used to evaluate conditioning of the soil microbiome.
       roles:
@@ -6637,8 +6637,8 @@ studies:
       - growth_medium
       - culture_condition
       shared:
-        MIXS:0000008: 73
         MIXS:0001057: 3
+        MIXS:0000008: 73
     - name: assembly time point
       description: Time point during PD10 community assembly and stable community formation.
       roles:
@@ -6785,9 +6785,9 @@ studies:
       - value: Laccaria bicolor
         id: NCBITaxon:29883
       shared:
+        NCBITaxon:3694: 2
         MIXS:0000248: 11
         MIXS:0000008: 73
-        NCBITaxon:3694: 2
     - name: effector or receptor gene
       description: Plant-derived effector protein, receptor, or small secreted protein implicated in symbiosis.
       roles:
@@ -6995,9 +6995,9 @@ studies:
       - rhizosphere_context
       shared:
         ENVO:00005801: 12
-        MIXS:0000008: 73
         MIXS:0000014: 42
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: containment efficacy
       description: Performance of the containment design in limiting persistence or escape of engineered
         microbes.
@@ -7060,8 +7060,8 @@ studies:
       - value: lower reach
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: floodplain soil metagenome profile
       description: Taxonomic and functional metagenome profile for East River floodplain soils.
       roles:
@@ -7154,8 +7154,8 @@ studies:
       measured_entity: soil water
       material_or_matrix: watershed soil
       shared:
-        BERVO:0000301: 4
         MIXS:0000185: 4
+        BERVO:0000301: 4
     - name: viral community composition
       description: Viral sequence profile used to quantify virus diversity in watershed soils.
       roles:
@@ -7206,8 +7206,8 @@ studies:
       - vegetation_cover
       - riparian_vegetation_density
       shared:
-        MIXS:0000008: 73
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: sediment sampling depth
       description: Depth value recorded in NMDC biosample metadata for Columbia River riverbed sediment
         samples.
@@ -7600,8 +7600,8 @@ studies:
       - chemical_administration
       shared:
         MIXS:0000751: 3
-        MIXS:0000008: 73
         CHEBI:25195: 1
+        MIXS:0000008: 73
     - name: methylmercury production
       description: Methylmercury production response used to determine mercury methylation capacity.
       roles:
@@ -7676,8 +7676,8 @@ studies:
       - value: upland forest
         id: null
       shared:
-        MIXS:0000008: 73
         MIXS:0000013: 36
+        MIXS:0000008: 73
     - name: flooding regime
       description: Frequency, duration, depth, or source of flooding applied or observed in coastal TAI
         plots.
@@ -7920,8 +7920,8 @@ studies:
       - pathogen_challenge
       - inoculation_status
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: host and pathogen transcript abundance
       description: Dual RNA-seq expression profile for sorghum and Colletotrichum transcripts during infection.
       roles:
@@ -8197,8 +8197,8 @@ studies:
       - light_disturbance
       - perturbation
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: post-disturbance time point
       description: Sampling time after light disturbance for transcriptome and redox proteome measurements.
       roles:
@@ -8265,8 +8265,8 @@ studies:
       - light_perturbation
       - simulation_condition
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: intracellular spatial compartment
       description: Spatial region or structure represented in the 4D whole-cell simulation.
       roles:
@@ -8347,8 +8347,8 @@ studies:
       - deletion_id
       - overexpression_construct
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: perturbation library type
       description: Genetic library class used to generate E. coli perturbations.
       roles:
@@ -8498,8 +8498,8 @@ studies:
       - perturbation
       - mutant_id
       shared:
-        MIXS:0000008: 73
         MIXS:0000754: 12
+        MIXS:0000008: 73
     - name: bacteriophage challenge
       description: Phage isolate or challenge condition applied to Corynebacterium strains.
       roles:
@@ -8576,8 +8576,8 @@ studies:
       - soil_depth
       - core_depth
       shared:
-        MIXS:0000008: 73
         MIXS:0000018: 10
+        MIXS:0000008: 73
     - name: soil organic matter molecular composition
       description: Organic matter molecular features measured by FTICR-MS.
       roles:
@@ -8644,8 +8644,8 @@ studies:
       - water_content
       - hydraulic_property
       shared:
-        BERVO:0000301: 4
         MIXS:0000185: 4
+        BERVO:0000301: 4
     - name: soil pH
       description: Soil pH measurement included in MONet geochemical characterization.
       roles:
@@ -9114,8 +9114,8 @@ datasets:
       - value: wet-up
         id: null
       shared:
-        MIXS:0000591: 6
         MIXS:0000754: 12
+        MIXS:0000591: 6
     - name: soil lipid feature abundance
       description: GNPS molecular networking feature abundances for soil lipidomics.
       roles:

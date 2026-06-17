@@ -84,10 +84,6 @@ validate-profile-mappings:
   uv run linkml-term-validator validate-data $files -s schemas/sssom-profile.yaml -t MappingSet \
     -c src/nmdc_sfas_brcs/validators/oak_config.yaml --no-dynamic-enums --labels
 
-# Reverse generator: reconstruct the variables catalog from profiles + SSSOM. --check proves
-# round-trip identity against db/sfas-brcs.yaml (reverse(forward(variables)) == variables).
-sync-variables *ARGS:
-  uv run python schemas/generate_variables.py {{ARGS}}
 
 # Fetch all BRC datasets from API and save as individual YAML files
 fetch-brc-datasets:

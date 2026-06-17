@@ -1,0 +1,460 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sty-11-r2h77870
+name: bio_scales_integrated_metagenomic_metabolomic_and_transcriptomic_survey_of_populus
+title: Bio-Scales - Integrated Metagenomic, Metabolomic and Transcriptomic Survey of Populus
+description: 'Bio-Scales pilot project (PIs: Doktycz, Schadt, Mayes, Muchero, Weston) understanding how
+  plant traits modify the microbiome and how the coupled plant-soil-microbial system influences nitrogen
+  transformation. Integrated dataset of 318 metagenomes, 98 transcriptomes, and 314 metabolomic profiles
+  from 27 P. trichocarpa genotypes across Oregon field sites. Largest publicly available metagenomics
+  repository on tree endosphere.'
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sty-11-r2h77870.
+    slots:
+    - populus_genotype
+    - plant_compartment
+    - soil_sampling_depth
+    - metagenome_derived_community_composition
+    - metabolite_abundance_profile
+    - soil_ph
+    - ammonium_nitrogen_content
+    - nitrate_nitrogen_content
+    - nitrate_plus_nitrite_nitrogen_content
+    - total_nitrogen_content
+    - collection_date
+    - geographic_location_name
+    - latitude_and_longitude
+    - elevation
+    - broad_scale_environmental_context
+    - local_environmental_context
+    - environmental_medium
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
+    - specific_ecosystem
+    - habitat
+    - sampling_location
+    - sample_collection_site
+    - collected_from
+    - host_name
+    - host_taxon_identifier
+    - calcium
+    - magnesium
+    - manganese
+    - potassium
+    - zinc
+    - labile_carbon_30
+    - labile_carbon_equivalent
+slots:
+  populus_genotype:
+    title: Populus genotype
+    description: Host plant genotype associated with each multi-omics sample.
+    range: PopulusGenotypeEnum
+    aliases:
+    - genotype
+    - host_genotype
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus trichocarpa
+      value_type: CATEGORICAL
+  plant_compartment:
+    title: plant compartment
+    description: Plant-associated compartment sampled for microbiome and metabolomic profiling.
+    range: PlantCompartmentEnum
+    aliases:
+    - compartment
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus-associated microbial habitat
+      value_type: CATEGORICAL
+  soil_sampling_depth:
+    title: soil sampling depth
+    description: Soil or rhizosphere sampling depth recorded in NMDC biosample metadata when available.
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+    aliases:
+    - depth
+    - soil_depth
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: Populus-associated soil sampling interval
+      material_or_matrix: rhizosphere and soil
+      value_type: NUMERIC
+  metagenome_derived_community_composition:
+    title: metagenome-derived community composition
+    description: Microbial taxonomic and functional community profiles derived from metagenomic sequencing.
+    multivalued: true
+    range: string
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus-associated microbial community
+      material_or_matrix: root endosphere, rhizosphere, and soil
+      method: metagenomics
+      value_type: ARRAY
+  metabolite_abundance_profile:
+    title: metabolite abundance profile
+    description: Metabolomic feature abundances measured across Populus-associated samples.
+    multivalued: true
+    range: string
+    aliases:
+    - metabolite_abundance
+    - metabolomic_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus-associated metabolome
+      material_or_matrix: root endosphere, rhizosphere, and soil
+      method: metabolomics
+      value_type: ARRAY
+  soil_ph:
+    title: soil pH
+    description: Soil pH recorded in NMDC biosample metadata for Bio-Scales rhizosphere and soil samples.
+    range: float
+    aliases:
+    - ph
+    - soil_pH
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil acidity
+      material_or_matrix: soil
+      value_type: NUMERIC
+  ammonium_nitrogen_content:
+    title: ammonium nitrogen content
+    description: Ammonium nitrogen measurement recorded in NMDC biosample metadata for Bio-Scales soil
+      samples.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - ammonium_nitrogen
+    - soil_ammonium_nitrogen
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil ammonium nitrogen
+      material_or_matrix: soil
+      value_type: NUMERIC
+  nitrate_nitrogen_content:
+    title: nitrate nitrogen content
+    description: Nitrate nitrogen measurement recorded in NMDC biosample metadata for Bio-Scales soil
+      samples.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - nitrate_nitrogen
+    - soil_nitrate_nitrogen
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil nitrate nitrogen
+      material_or_matrix: soil
+      value_type: NUMERIC
+  nitrate_plus_nitrite_nitrogen_content:
+    title: nitrate plus nitrite nitrogen content
+    description: Combined nitrate and nitrite nitrogen context recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - nitrate_nitrogen
+    - nitrite_nitrogen
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil nitrate and nitrite nitrogen
+      material_or_matrix: soil
+      value_type: NUMERIC
+  total_nitrogen_content:
+    title: total nitrogen content
+    description: Total nitrogen measurement recorded in NMDC biosample metadata for Bio-Scales soil samples.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    aliases:
+    - tot_nitro
+    - total_nitrogen
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil nitrogen pool
+      material_or_matrix: soil
+      value_type: NUMERIC
+  collection_date:
+    title: collection date
+    description: Date when the NMDC biosample was collected.
+    range: datetime
+    aliases:
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  ecosystem:
+    description: GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_category:
+    title: ecosystem category
+    description: GOLD ecosystem category recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_category
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_type:
+    title: ecosystem type
+    description: GOLD ecosystem type recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_type
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_subtype
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - specific_ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  habitat:
+    description: Habitat descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - habitat
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: TEXT
+  sampling_location:
+    title: sampling location
+    description: Sampling location descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - location
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  sample_collection_site:
+    title: sample collection site
+    description: Sample collection site descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - sample_collection_site
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  collected_from:
+    title: collected from
+    description: Source location or object from which the NMDC biosample was collected.
+    range: string
+    aliases:
+    - collected_from
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  host_name:
+    title: host name
+    description: Host name or host line recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - host_name
+    annotations:
+      role: GROUPING; COVARIATE
+      value_type: TEXT
+  host_taxon_identifier:
+    title: host taxon identifier
+    description: NCBI taxon identifier for the host recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - host_taxid
+    annotations:
+      role: IDENTIFIER; COVARIATE
+      value_type: IDENTIFIER
+  calcium:
+    description: Calcium concentration or content recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - calcium
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  magnesium:
+    description: Magnesium concentration or content recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - magnesium
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  manganese:
+    description: Manganese concentration or content recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - manganese
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  potassium:
+    description: Potassium concentration or content recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - potassium
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  zinc:
+    description: Zinc concentration or content recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - zinc
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  labile_carbon_30:
+    title: labile carbon 30
+    description: Labile carbon measurement recorded in NMDC biosample metadata as lbc_thirty.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - lbc_thirty
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      notes: NMDC source field label should be refined against the source study metadata.
+      value_type: NUMERIC
+  labile_carbon_equivalent:
+    title: labile carbon equivalent
+    description: Labile carbon equivalent measurement recorded in NMDC biosample metadata as lbceq.
+    range: float
+    unit:
+      descriptive_name: milligram per kilogram
+      ucum_code: mg/kg
+    aliases:
+    - lbceq
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      notes: NMDC source field label should be refined against the source study metadata.
+      value_type: NUMERIC
+enums:
+  PopulusGenotypeEnum:
+    permissible_values:
+      27 P. trichocarpa genotypes: null
+  PlantCompartmentEnum:
+    permissible_values:
+      root endosphere: null
+      rhizosphere:
+        meaning: ENVO:00005801
+      soil:
+        meaning: ENVO:00001998

@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:extraction_fraction
+  subject_label: extraction fraction
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:microbial_biomass_carbon
+  subject_label: microbial biomass carbon
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000995
+  object_label: microbial biomass chemical element
+  mapping_justification: semapv:ManualMappingCuration

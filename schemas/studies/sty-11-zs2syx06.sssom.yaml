@@ -1,0 +1,61 @@
+mappings:
+- subject_id: profiles:meadow_soil_plot
+  subject_label: meadow soil plot
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001107
+  object_label: sample name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:meadow_soil_plot
+  subject_label: meadow soil plot
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_sampling_depth
+  subject_label: soil sampling depth
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000018
+  object_label: depth
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:climate_change_experiment_treatment
+  subject_label: climate change experiment treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:climate_change_experiment_treatment
+  subject_label: climate change experiment treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:meadow_soil_metagenome_profile
+  subject_label: meadow soil metagenome profile
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:broad_scale_environmental_context
+  subject_label: broad-scale environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000012
+  object_label: broad-scale environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:local_environmental_context
+  subject_label: local environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:environmental_medium
+  subject_label: environmental medium
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

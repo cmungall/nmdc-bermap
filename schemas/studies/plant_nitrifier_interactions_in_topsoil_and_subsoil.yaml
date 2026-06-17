@@ -1,0 +1,75 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/plant_nitrifier_interactions_in_topsoil_and_subsoil
+name: plant_nitrifier_interactions_in_topsoil_and_subsoil
+title: Plant-Nitrifier Interactions in Topsoil and Subsoil
+description: Investigation of soil microorganisms along 1 meter soil profiles in Miscanthus × giganteus,
+  examining distinct mechanisms driving plant-nitrifier interactions at different depths.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study plant_nitrifier_interactions_in_topsoil_and_subsoil.
+    slots:
+    - soil_depth
+    - nitrifier_community_composition
+    - plant_nitrifier_interaction_mechanism
+slots:
+  soil_depth:
+    title: soil depth
+    description: Soil profile depth interval sampled under Miscanthus.
+    range: float
+    unit:
+      descriptive_name: cm
+      ucum_code: cm
+    aliases:
+    - depth
+    - soil_depth
+    - profile_depth
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX
+      measured_entity: soil profile
+      material_or_matrix: soil
+      levels: topsoil | subsoil
+      value_type: NUMERIC
+  nitrifier_community_composition:
+    title: nitrifier community composition
+    description: 16S amplicon profile of nitrifying microorganisms across topsoil and subsoil.
+    multivalued: true
+    range: string
+    aliases:
+    - nitrifier_profile
+    - asv_table
+    - bacterial_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: nitrifier community
+      material_or_matrix: soil
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
+  plant_nitrifier_interaction_mechanism:
+    title: plant-nitrifier interaction mechanism
+    description: Derived mechanism class for plant-nitrifier interactions inferred across soil depths.
+    range: string
+    aliases:
+    - interaction_mechanism
+    - nitrification_mechanism
+    - depth_response_class
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: plant-nitrifier interaction
+      value_type: CATEGORICAL

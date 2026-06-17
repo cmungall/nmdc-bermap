@@ -1,0 +1,19 @@
+mappings:
+- subject_id: profiles:amphiphilic_solvent_identity
+  subject_label: amphiphilic solvent identity
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:solvent_concentration
+  subject_label: solvent concentration
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:biomass_or_biomembrane_substrate
+  subject_label: biomass or biomembrane substrate
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

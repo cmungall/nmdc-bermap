@@ -1,0 +1,100 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/fine_scale_rhizosphere_spatial_heterogeneity
+name: fine_scale_rhizosphere_spatial_heterogeneity
+title: Fine Scale Rhizosphere Spatial Heterogeneity
+description: Fine scale sampling reveals spatial heterogeneity of rhizosphere microbiome in young Brachypodium
+  plant roots using EcoFABs. Strong rhizosphere effect with Actinobacteria, Bacteroidetes, Firmicutes
+  and Proteobacteria enrichment.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study fine_scale_rhizosphere_spatial_heterogeneity.
+    slots:
+    - root_zone
+    - growth_container
+    - rhizosphere_bacterial_community_composition
+    - functional_gene_profile
+slots:
+  root_zone:
+    title: root zone
+    description: Fine-scale spatial zone along the developing primary root or bulk soil comparison region.
+    range: RootZoneEnum
+    aliases:
+    - root_zone
+    - spatial_zone
+    - sample_position
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX; GROUPING
+      measured_entity: Brachypodium root-zone habitat
+      value_type: CATEGORICAL
+  growth_container:
+    title: growth container
+    description: Experimental growth system used for Brachypodium root microbiome sampling.
+    range: GrowthContainerEnum
+    aliases:
+    - container
+    - growth_container
+    - growth_system
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: plant growth system
+      value_type: CATEGORICAL
+  rhizosphere_bacterial_community_composition:
+    title: rhizosphere bacterial community composition
+    description: 16S profile used to measure early differentiation of root-associated communities from
+      bulk soil.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - otu_table
+    - bacterial_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Brachypodium rhizosphere bacterial community
+      material_or_matrix: root-zone soil and bulk soil
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
+  functional_gene_profile:
+    title: functional gene profile
+    description: Metagenomic functional profile contrasting root tips with bulk soil.
+    multivalued: true
+    range: string
+    aliases:
+    - functional_profile
+    - gene_family_abundance
+    - pathway_abundance
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: microbial functional potential
+      material_or_matrix: root tip and bulk soil
+      method: bulk metagenomics
+      value_type: ARRAY
+enums:
+  RootZoneEnum:
+    permissible_values:
+      root tip: null
+      root base: null
+      bulk soil:
+        meaning: ENVO:00005802
+  GrowthContainerEnum:
+    permissible_values:
+      EcoFAB: null
+      pot: null
+      tube: null

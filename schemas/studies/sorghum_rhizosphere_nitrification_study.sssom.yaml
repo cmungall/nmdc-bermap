@@ -1,0 +1,43 @@
+mappings:
+- subject_id: profiles:fertilizer_treatment
+  subject_label: fertilizer treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000556
+  object_label: fertilizer regimen
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:fertilizer_treatment
+  subject_label: fertilizer treatment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:fertilizer_treatment
+  subject_label: fertilizer treatment
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000895
+  object_label: total fertilizer N amendment
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sampling_year
+  subject_label: sampling year
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sampling_year
+  subject_label: sampling year
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:nitrification_activity
+  subject_label: nitrification activity
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000871
+  object_label: current nitrification inhibition activity
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:rhizosphere_microbial_community_composition
+  subject_label: rhizosphere microbial community composition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

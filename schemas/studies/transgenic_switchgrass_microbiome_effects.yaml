@@ -1,0 +1,85 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/transgenic_switchgrass_microbiome_effects
+name: transgenic_switchgrass_microbiome_effects
+title: Transgenic Switchgrass Microbiome Effects
+description: Effects of genetic modification of the shikimate pathway (QsuB transgenic) on switchgrass-associated
+  microbiomes in different plant compartments. 16S and ITS rDNA sequencing of roots, leaves, and soil.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study transgenic_switchgrass_microbiome_effects.
+    slots:
+    - qsub_transgenic_status
+    - plant_compartment
+    - bacterial_and_fungal_community_composition
+slots:
+  qsub_transgenic_status:
+    title: QsuB transgenic status
+    description: Host plant engineering status for the shikimate pathway modification that reduces lignin
+      content.
+    range: QsubTransgenicStatusEnum
+    aliases:
+    - transgenic_status
+    - genotype
+    - qsub_status
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Panicum virgatum
+      value_type: CATEGORICAL
+  plant_compartment:
+    title: plant compartment
+    description: Switchgrass plant or soil compartment sampled for microbiome profiling.
+    range: PlantCompartmentEnum
+    aliases:
+    - compartment
+    - tissue
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: switchgrass-associated microbial habitat
+      value_type: CATEGORICAL
+  bacterial_and_fungal_community_composition:
+    title: bacterial and fungal community composition
+    description: 16S and ITS amplicon profiles used to evaluate transgenic effects on switchgrass microbiomes.
+    multivalued: true
+    range: string
+    aliases:
+    - otu_table
+    - asv_table
+    - bacterial_community_profile
+    - fungal_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: switchgrass-associated microbial community
+      material_or_matrix: roots, leaves, and soil
+      method: 16S rRNA and ITS amplicon sequencing
+      value_type: ARRAY
+enums:
+  QsubTransgenicStatusEnum:
+    permissible_values:
+      wild type: null
+      QsuB transgenic: null
+  PlantCompartmentEnum:
+    permissible_values:
+      root:
+        meaning: PO:0009005
+      leaf:
+        meaning: PO:0025034
+      soil:
+        meaning: ENVO:00001998

@@ -1,0 +1,116 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/monet_neon_first_collection
+name: monet_neon_first_collection
+title: MONet-NEON First Collection
+description: Advanced soil physical, chemical and biological characterization of soil cores from all ecoregions
+  within the United States through partnership with National Ecological Observatory Network (NEON). Observational
+  sampling September 2023 to July 2024.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study monet_neon_first_collection.
+    slots:
+    - neon_site_identifier
+    - neon_ecoregion
+    - collection_date
+    - soil_physical_property_profile
+    - soil_chemical_composition_profile
+    - soil_biological_profile
+slots:
+  neon_site_identifier:
+    title: NEON site identifier
+    description: NEON terrestrial site represented by each MONet soil core.
+    range: string
+    aliases:
+    - neon_site
+    - site_id
+    annotations:
+      role: IDENTIFIER; SPATIAL_INDEX; GROUPING
+      measured_entity: NEON terrestrial sampling site
+      material_or_matrix: soil
+      value_type: IDENTIFIER
+  neon_ecoregion:
+    title: NEON ecoregion
+    description: Ecoregion context represented by each MONet-NEON soil core.
+    range: string
+    aliases:
+    - ecoregion
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: NEON terrestrial ecoregion
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  collection_date:
+    title: collection date
+    description: Date or sampling interval for MONet-NEON soil core collection.
+    range: datetime
+    aliases:
+    - collection_date
+    - sampling_date
+    - date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: soil core sampling event
+      temporal_resolution: September 2023 to July 2024 sampling window
+      time_series: 'true'
+      value_type: DATETIME
+  soil_physical_property_profile:
+    title: soil physical property profile
+    description: Physical characterization of MONet-NEON soil cores.
+    multivalued: true
+    range: string
+    aliases:
+    - soil_physical_property
+    - texture
+    - pore_structure
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil physical properties
+      material_or_matrix: soil core
+      value_type: ARRAY
+  soil_chemical_composition_profile:
+    title: soil chemical composition profile
+    description: Chemical and molecular characterization of MONet-NEON soil cores.
+    multivalued: true
+    range: string
+    aliases:
+    - soil_chemistry
+    - organic_matter_composition
+    - geochemistry
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil chemistry
+      material_or_matrix: soil core
+      method: FTICR-MS and geochemical analysis
+      value_type: ARRAY
+  soil_biological_profile:
+    title: soil biological profile
+    description: Biological and microbial characterization of MONet-NEON soil cores.
+    multivalued: true
+    range: string
+    aliases:
+    - biological_profile
+    - metagenome_profile
+    - microbial_biomass
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil biological community
+      material_or_matrix: soil core
+      method: metagenomics and biological assays
+      value_type: ARRAY

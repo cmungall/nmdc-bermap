@@ -1,0 +1,385 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sty-11-e4yb9z58
+name: seasonal_activities_of_the_phyllosphere_microbiome_of_perennial_crops
+title: Seasonal activities of the phyllosphere microbiome of perennial crops
+description: Genome-centric approach to identify ecologically important leaf microbiome members on switchgrass
+  and miscanthus, quantifying activities over two growing seasons. Classes represented by MAGs (Actinomycetia,
+  Alpha- and Gamma-Proteobacteria, Bacteroidota) are active in late season with stress-associated pathways
+  and biosynthetic pathways for terpenes and non-ribosomal peptides.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sty-11-e4yb9z58.
+    slots:
+    - sampling_season
+    - host_crop
+    - phyllosphere_transcript_activity
+    - air_temperature
+    - sample_carbon_to_nitrogen_ratio
+    - sample_total_nitrogen_content
+    - collection_date
+    - geographic_location_name
+    - latitude_and_longitude
+    - elevation
+    - broad_scale_environmental_context
+    - local_environmental_context
+    - environmental_medium
+    - environmental_package
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
+    - specific_ecosystem
+    - growth_facility
+    - fertilizer_regimen
+    - host_common_name
+    - host_dry_mass
+    - host_height
+    - humidity
+    - photon_flux
+    - wind_direction
+    - wind_speed
+    - total_carbon
+slots:
+  sampling_season:
+    title: sampling season
+    description: Seasonal sampling point for phyllosphere microbiome activity measurements.
+    range: SamplingSeasonEnum
+    aliases:
+    - season
+    - sampling_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      temporal_resolution: seasonal sampling over two growing seasons
+      time_series: 'true'
+      value_type: CATEGORICAL
+  host_crop:
+    title: host crop
+    description: Perennial bioenergy crop host sampled for phyllosphere community profiling.
+    range: HostCropEnum
+    aliases:
+    - host_species
+    - crop
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: perennial bioenergy crop
+      material_or_matrix: leaf phyllosphere
+      value_type: CATEGORICAL
+  phyllosphere_transcript_activity:
+    title: phyllosphere transcript activity
+    description: Microbial transcript abundance profiles used to infer seasonal activity of phyllosphere
+      taxa.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - gene_expression_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: phyllosphere microbial community
+      material_or_matrix: leaf phyllosphere
+      method: metatranscriptomics
+      temporal_resolution: seasonal sampling over two growing seasons
+      time_series: 'true'
+      value_type: ARRAY
+  air_temperature:
+    title: air temperature
+    description: Average air temperature recorded in NMDC biosample metadata for the phyllosphere sampling
+      event.
+    range: float
+    unit:
+      descriptive_name: degree Celsius
+      ucum_code: Cel
+    aliases:
+    - avg_temp
+    - air_temperature
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: phyllosphere air environment
+      material_or_matrix: air
+      value_type: NUMERIC
+  sample_carbon_to_nitrogen_ratio:
+    title: sample carbon to nitrogen ratio
+    description: Carbon-to-nitrogen ratio recorded for phyllosphere samples in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: dimensionless
+      ucum_code: '1'
+    aliases:
+    - carb_nitro_ratio
+    - c_n_ratio
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: phyllosphere sample chemistry
+      material_or_matrix: leaf phyllosphere
+      value_type: NUMERIC
+  sample_total_nitrogen_content:
+    title: sample total nitrogen content
+    description: Total nitrogen content recorded for phyllosphere samples in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    aliases:
+    - tot_nitro_content
+    - total_nitrogen
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: phyllosphere sample chemistry
+      material_or_matrix: leaf phyllosphere
+      value_type: NUMERIC
+  collection_date:
+    title: collection date
+    description: Date when the NMDC biosample was collected.
+    range: datetime
+    aliases:
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_package:
+    title: environmental package
+    description: MIxS environmental package used for the NMDC biosample metadata.
+    range: EnvPackageEnum
+    aliases:
+    - env_package
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem:
+    description: GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_category:
+    title: ecosystem category
+    description: GOLD ecosystem category recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_category
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_type:
+    title: ecosystem type
+    description: GOLD ecosystem type recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_type
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_subtype
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - specific_ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  growth_facility:
+    title: growth facility
+    description: Growth facility or experimental facility context recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - growth_facil
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  fertilizer_regimen:
+    title: fertilizer regimen
+    description: Fertilizer regimen recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - fertilizer_regm
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  host_common_name:
+    title: host common name
+    description: Host common name recorded for the NMDC biosample.
+    range: HostCommonNameEnum
+    aliases:
+    - host_common_name
+    annotations:
+      role: GROUPING; COVARIATE
+      value_type: CATEGORICAL
+  host_dry_mass:
+    title: host dry mass
+    description: Host dry mass recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: gram
+      ucum_code: g
+    aliases:
+    - host_dry_mass
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  host_height:
+    title: host height
+    description: Host height recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: centimeter
+      ucum_code: cm
+    aliases:
+    - host_height
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  humidity:
+    description: Humidity recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    aliases:
+    - humidity
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  photon_flux:
+    title: photon flux
+    description: Photon flux recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: micromole per square meter per second
+      ucum_code: umol/(m2.s)
+    aliases:
+    - photon_flux
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  wind_direction:
+    title: wind direction
+    description: Wind direction recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: degree
+      ucum_code: deg
+    aliases:
+    - wind_direction
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  wind_speed:
+    title: wind speed
+    description: Wind speed recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: meter per second
+      ucum_code: m/s
+    aliases:
+    - wind_speed
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  total_carbon:
+    title: total carbon
+    description: Total carbon recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    aliases:
+    - tot_carb
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+enums:
+  SamplingSeasonEnum:
+    permissible_values:
+      early season: null
+      mid season: null
+      late season: null
+  HostCropEnum:
+    permissible_values:
+      switchgrass: null
+      miscanthus:
+        meaning: NCBITaxon:62336

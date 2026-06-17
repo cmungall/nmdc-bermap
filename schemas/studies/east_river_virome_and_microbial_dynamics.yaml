@@ -1,0 +1,87 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/east_river_virome_and_microbial_dynamics
+name: east_river_virome_and_microbial_dynamics
+title: East River Virome and Microbial Dynamics
+description: Virus diversity and activity driven by snowmelt and host dynamics in high-altitude watershed
+  soil ecosystem. Part of the Watershed Function SFA microbiome studies.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study east_river_virome_and_microbial_dynamics.
+    slots:
+    - snowmelt_phase
+    - soil_water_content
+    - viral_community_composition
+    - viral_activity
+slots:
+  snowmelt_phase:
+    title: snowmelt phase
+    description: Seasonal watershed condition relative to snowmelt timing.
+    range: string
+    aliases:
+    - snowmelt_phase
+    - season
+    - collection_date
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; DATE_TIME_VARIABLE; GROUPING
+      measured_entity: watershed soil sampling event
+      time_series: 'true'
+      value_type: CATEGORICAL
+  soil_water_content:
+    title: soil water content
+    description: Soil moisture context associated with snowmelt-driven viral and host dynamics.
+    range: float
+    unit:
+      descriptive_name: percent
+      ucum_code: '%'
+    annotations:
+      role: COVARIATE; MEASURED_VARIABLE
+      measured_entity: soil water
+      material_or_matrix: watershed soil
+      value_type: NUMERIC
+  viral_community_composition:
+    title: viral community composition
+    description: Viral sequence profile used to quantify virus diversity in watershed soils.
+    multivalued: true
+    range: string
+    aliases:
+    - viral_contig_abundance
+    - viral_community_profile
+    - virome_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil viral community
+      material_or_matrix: high-altitude watershed soil
+      method: metagenomics
+      value_type: ARRAY
+  viral_activity:
+    title: viral activity
+    description: Expression or activity signal used to infer seasonal viral activity.
+    multivalued: true
+    range: string
+    aliases:
+    - viral_transcript_abundance
+    - viral_activity_profile
+    - expression_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: soil viral community
+      material_or_matrix: high-altitude watershed soil
+      method: metatranscriptomics
+      value_type: ARRAY

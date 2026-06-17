@@ -1,0 +1,259 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sty-11-1t150432
+name: defining_the_functional_diversity_of_the_populus_root_microbiome
+title: Defining the functional diversity of the Populus root microbiome
+description: Characterization and interpretation of plant-microbe interfaces using poplar and its microbial
+  community in the context of favorable plant microbe interactions.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sty-11-1t150432.
+    slots:
+    - populus_root_associated_compartment
+    - soil_sampling_depth
+    - microbial_isolate_or_genome_identifier
+    - microbial_functional_profile
+    - plant_microbe_interaction_phenotype
+    - collection_date
+    - geographic_location_name
+    - latitude_and_longitude
+    - broad_scale_environmental_context
+    - local_environmental_context
+    - environmental_medium
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
+    - specific_ecosystem
+    - habitat
+    - sampling_location
+    - sample_collection_site
+    - community
+    - host_name
+slots:
+  populus_root_associated_compartment:
+    title: Populus root-associated compartment
+    description: Root-associated habitat or compartment represented by the sample or isolate.
+    range: string
+    aliases:
+    - compartment
+    - root_compartment
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus root microbiome habitat
+      material_or_matrix: Populus root-associated sample
+      value_type: CATEGORICAL
+  soil_sampling_depth:
+    title: soil sampling depth
+    description: Depth value recorded in NMDC biosample metadata for Populus root-associated samples.
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+    aliases:
+    - depth
+    - soil_depth
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: Populus root-associated sampling interval
+      material_or_matrix: Populus root-associated sample
+      value_type: NUMERIC
+  microbial_isolate_or_genome_identifier:
+    title: microbial isolate or genome identifier
+    description: Identifier for Populus root-associated isolate or genome used to define functional diversity.
+    range: string
+    aliases:
+    - isolate_id
+    - genome_id
+    - strain_id
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: Populus root-associated microorganism
+      value_type: IDENTIFIER
+  microbial_functional_profile:
+    title: microbial functional profile
+    description: Genome-derived functional pathways or traits of Populus root microbiome members.
+    multivalued: true
+    range: string
+    aliases:
+    - functional_profile
+    - pathway_annotation
+    - trait_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; DERIVED
+      measured_entity: Populus root microbiome genome
+      method: genome annotation and functional interpretation
+      value_type: ARRAY
+  plant_microbe_interaction_phenotype:
+    title: plant-microbe interaction phenotype
+    description: Favorable interaction phenotype or plant-beneficial trait associated with Populus root
+      microbiome members.
+    multivalued: true
+    range: string
+    aliases:
+    - interaction_phenotype
+    - plant_benefit_trait
+    - growth_promotion_assay
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: Populus-microbe interaction
+      method: isolate characterization or functional assay
+      value_type: ARRAY
+  collection_date:
+    title: collection date
+    description: Date when the NMDC biosample was collected.
+    range: datetime
+    aliases:
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  ecosystem:
+    description: GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_category:
+    title: ecosystem category
+    description: GOLD ecosystem category recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_category
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_type:
+    title: ecosystem type
+    description: GOLD ecosystem type recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_type
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_subtype
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - specific_ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  habitat:
+    description: Habitat descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - habitat
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: TEXT
+  sampling_location:
+    title: sampling location
+    description: Sampling location descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - location
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  sample_collection_site:
+    title: sample collection site
+    description: Sample collection site descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - sample_collection_site
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  community:
+    description: Ecological community descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - community
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: TEXT
+  host_name:
+    title: host name
+    description: Host name or host line recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - host_name
+    annotations:
+      role: GROUPING; COVARIATE
+      value_type: TEXT

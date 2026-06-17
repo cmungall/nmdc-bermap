@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:pd10_member_strain
+  subject_label: PD10 member strain
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:growth_medium
+  subject_label: growth medium
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:growth_medium
+  subject_label: growth medium
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001057
+  object_label: plant growth medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:assembly_time_point
+  subject_label: assembly time point
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

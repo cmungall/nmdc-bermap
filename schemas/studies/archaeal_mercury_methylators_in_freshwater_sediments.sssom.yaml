@@ -1,0 +1,31 @@
+mappings:
+- subject_id: profiles:archaeal_taxon
+  subject_label: archaeal taxon
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:mercury_amendment
+  subject_label: mercury amendment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000751
+  object_label: chemical administration
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:mercury_amendment
+  subject_label: mercury amendment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:mercury_amendment
+  subject_label: mercury amendment
+  predicate_id: skos:relatedMatch
+  object_id: CHEBI:25195
+  object_label: mercury atom
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:methylmercury_production
+  subject_label: methylmercury production
+  predicate_id: skos:relatedMatch
+  object_id: CHEBI:25322
+  object_label: methylmercury compound
+  mapping_justification: semapv:ManualMappingCuration

@@ -1,0 +1,19 @@
+mappings:
+- subject_id: profiles:selected_project
+  subject_label: selected project
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:winter_sampling_context
+  subject_label: winter sampling context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000829
+  object_label: season
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:winter_soil_metagenome_profile
+  subject_label: winter soil metagenome profile
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

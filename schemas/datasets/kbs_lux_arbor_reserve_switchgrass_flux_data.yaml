@@ -1,0 +1,81 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/datasets/kbs_lux_arbor_reserve_switchgrass_flux_data
+name: kbs_lux_arbor_reserve_switchgrass_flux_data
+title: KBS Lux Arbor Reserve Switchgrass Flux Data
+description: Eddy covariance flux tower data from switchgrass plots at the Lux Arbor Reserve. Measures
+  carbon, water, and energy exchanges between switchgrass ecosystem and atmosphere.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for dataset kbs_lux_arbor_reserve_switchgrass_flux_data.
+    slots:
+    - net_ecosystem_carbon_dioxide_exchange
+    - total_evaporation
+    - soil_temperature
+slots:
+  net_ecosystem_carbon_dioxide_exchange:
+    title: net ecosystem carbon dioxide exchange
+    description: Ecosystem-atmosphere carbon dioxide exchange measured by eddy covariance.
+    range: float
+    unit:
+      descriptive_name: umol CO2 m-2 s-1
+    aliases:
+    - NEE
+    - FC
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: switchgrass ecosystem-atmosphere carbon exchange
+      method: eddy covariance flux tower
+      temporal_resolution: sub-daily tower observations
+      time_series: 'true'
+      value_type: NUMERIC
+  total_evaporation:
+    title: total evaporation
+    description: Water loss from the ecosystem inferred from flux tower observations.
+    range: float
+    unit:
+      descriptive_name: mm
+    aliases:
+    - ET
+    - LE
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: switchgrass ecosystem water exchange
+      method: eddy covariance flux tower
+      temporal_resolution: sub-daily tower observations
+      time_series: 'true'
+      value_type: NUMERIC
+  soil_temperature:
+    title: soil temperature
+    description: Soil temperature recorded as an environmental covariate for interpreting fluxes.
+    range: float
+    unit:
+      descriptive_name: degree Celsius
+      ucum_code: Cel
+    aliases:
+    - TS
+    - soil_temperature
+    annotations:
+      role: MEASURED_VARIABLE; COVARIATE
+      measured_entity: soil environment
+      material_or_matrix: soil
+      method: flux tower meteorological sensor
+      temporal_resolution: sub-daily tower observations
+      time_series: 'true'
+      value_type: NUMERIC

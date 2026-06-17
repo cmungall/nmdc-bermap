@@ -1,0 +1,37 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_worcester_urban_soils_gradient
+name: worcester_urban_soils_gradient
+title: Worcester Urban Soils Gradient
+description: Matt Kaufman (Worcester State) examining urban soil properties across an urbanization gradient
+  to understand anthropogenic impacts on soil composition. Spring 2025 campaign.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_worcester_urban_soils_gradient.
+    slots:
+    - location
+    - site_type
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Worcester and Petersham, Massachusetts
+  site_type:
+    annotations:
+      value: URBAN

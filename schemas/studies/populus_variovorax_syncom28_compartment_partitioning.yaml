@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/populus_variovorax_syncom28_compartment_partitioning
+name: populus_variovorax_syncom28_compartment_partitioning
+title: Populus Variovorax SynCom28 Compartment Partitioning
+description: Defined 28-strain synthetic community of Variovorax isolates from Populus deltoides and Populus
+  trichocarpa roots used to identify strain-level partitioning between rhizosphere and endosphere compartments
+  and genomic traits linked to endosphere specialization.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study populus_variovorax_syncom28_compartment_partitioning.
+    slots:
+    - variovorax_strain
+    - populus_host_species
+    - root_associated_compartment
+    - strain_compartment_abundance
+slots:
+  variovorax_strain:
+    title: Variovorax strain
+    description: Member strain of the 28-strain Populus Variovorax synthetic community.
+    range: string
+    aliases:
+    - strain_id
+    - isolate_id
+    - genome_accession
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Variovorax strain
+      value_type: IDENTIFIER
+  populus_host_species:
+    title: Populus host species
+    description: Populus host species used for synthetic community compartment partitioning assays.
+    range: PopulusHostSpeciesEnum
+    aliases:
+    - host_species
+    - host_common_name
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus host plant
+      value_type: CATEGORICAL
+  root_associated_compartment:
+    title: root-associated compartment
+    description: Populus root-associated compartment where each Variovorax strain was quantified.
+    range: RootAssociatedCompartmentEnum
+    aliases:
+    - compartment
+    - sample_type
+    - niche
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus root-associated microbial habitat
+      value_type: CATEGORICAL
+  strain_compartment_abundance:
+    title: strain compartment abundance
+    description: Strain-resolved abundance used to infer rhizosphere versus endosphere specialization.
+    range: float
+    aliases:
+    - strain_abundance
+    - relative_abundance
+    - compartment_partitioning_score
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Variovorax strain abundance
+      material_or_matrix: Populus rhizosphere and endosphere
+      method: strain-resolved metagenomics
+      value_type: NUMERIC
+enums:
+  PopulusHostSpeciesEnum:
+    permissible_values:
+      Populus deltoides:
+        meaning: NCBITaxon:3696
+      Populus trichocarpa:
+        meaning: NCBITaxon:3694
+  RootAssociatedCompartmentEnum:
+    permissible_values:
+      rhizosphere:
+        meaning: ENVO:00005801
+      endosphere: null

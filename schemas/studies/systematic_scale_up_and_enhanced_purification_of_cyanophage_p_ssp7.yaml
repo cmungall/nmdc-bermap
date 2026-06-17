@@ -1,0 +1,90 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
+name: systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7
+title: Systematic Scale-Up and Enhanced Purification of Cyanophage P-SSP7
+description: Methodology for scaling P-SSP7 cyanophage production from lab volumes to 40-liter scale with
+  enhanced purification. Achieves phage titers exceeding 3e12 units/mL with recoverable yields of 1e13
+  total infectious units and 60-fold reduction in cryo-EM data collection time by increasing usable particles
+  per field of view.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study systematic_scale_up_and_enhanced_purification_of_cyanophage_p_ssp7.
+    slots:
+    - production_scale
+    - purification_workflow
+    - infectious_phage_titer
+    - cryo_em_usable_particle_density
+slots:
+  production_scale:
+    title: production scale
+    description: Culture or production volume used for P-SSP7 cyanophage scale-up.
+    range: float
+    unit:
+      descriptive_name: liter
+      ucum_code: L
+    aliases:
+    - production_volume
+    - culture_volume
+    - scale
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanophage production culture
+      levels: lab volume | 40-liter scale
+      value_type: NUMERIC
+  purification_workflow:
+    title: purification workflow
+    description: Purification step or workflow used to enrich usable cyanophage particles.
+    range: string
+    aliases:
+    - purification_step
+    - purification_method
+    - workflow
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: cyanophage purification batch
+      value_type: CATEGORICAL
+  infectious_phage_titer:
+    title: infectious phage titer
+    description: P-SSP7 infectious unit concentration or total recovered infectious units.
+    range: float
+    unit:
+      descriptive_name: infectious units per milliliter
+    aliases:
+    - phage_titer
+    - infectious_units
+    - recovered_yield
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: cyanophage P-SSP7 preparation
+      method: phage titer assay
+      value_type: NUMERIC
+  cryo_em_usable_particle_density:
+    title: cryo-EM usable particle density
+    description: Usable particles per field of view or data collection efficiency for cryo-EM preparations.
+    range: float
+    aliases:
+    - usable_particles
+    - particles_per_field
+    - data_collection_time
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: cryo-EM cyanophage preparation
+      method: cryo-electron microscopy data collection
+      value_type: NUMERIC

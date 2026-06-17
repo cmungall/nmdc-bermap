@@ -1,0 +1,43 @@
+mappings:
+- subject_id: profiles:leaf_litter_plant_species
+  subject_label: leaf litter plant species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:leaf_litter_plant_species
+  subject_label: leaf litter plant species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_pore_size
+  subject_label: soil pore size
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_content
+  subject_label: soil moisture content
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000185
+  object_label: water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_content
+  subject_label: soil moisture content
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture_content
+  subject_label: soil moisture content
+  predicate_id: skos:exactMatch
+  object_id: BERVO:0000301
+  object_label: total soil water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:decomposition_microbiome_composition
+  subject_label: decomposition microbiome composition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration

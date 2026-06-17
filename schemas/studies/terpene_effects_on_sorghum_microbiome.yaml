@@ -1,0 +1,96 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/terpene_effects_on_sorghum_microbiome
+name: terpene_effects_on_sorghum_microbiome
+title: Terpene Effects on Sorghum Microbiome
+description: Examining the effects of terpene addition on the microbial community in Sorghum belowground
+  compartments via amplicon sequencing.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study terpene_effects_on_sorghum_microbiome.
+    slots:
+    - terpene_treatment
+    - terpene_dose
+    - sampling_time_point
+    - belowground_microbiome_composition
+slots:
+  terpene_treatment:
+    title: terpene treatment
+    description: Exogenous terpene supplied belowground to test effects on sorghum rhizobiome communities.
+    range: TerpeneTreatmentEnum
+    aliases:
+    - terpene
+    - terpene_treatment
+    - chemical_administration
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sorghum rhizosphere
+      value_type: CATEGORICAL
+  terpene_dose:
+    title: terpene dose
+    description: Concentration or dose level for exogenous terpene delivery.
+    range: float
+    aliases:
+    - dose
+    - concentration
+    - terpene_concentration
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: terpene amendment
+      value_type: NUMERIC
+  sampling_time_point:
+    title: sampling time point
+    description: Sampling point relative to terpene application and plant growth.
+    range: string
+    aliases:
+    - time_point
+    - sampling_time
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sampling event
+      temporal_resolution: pre-treatment and post-treatment belowground sampling
+      time_series: 'true'
+      value_type: CATEGORICAL
+  belowground_microbiome_composition:
+    title: belowground microbiome composition
+    description: Bacterial and fungal community profiles from sorghum root-associated belowground compartments.
+    multivalued: true
+    range: string
+    aliases:
+    - bacterial_community_profile
+    - fungal_community_profile
+    - otu_table
+    - asv_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sorghum rhizobiome
+      material_or_matrix: root-associated soil and rhizosphere compartments
+      method: 16S rRNA and ITS amplicon sequencing
+      value_type: ARRAY
+enums:
+  TerpeneTreatmentEnum:
+    permissible_values:
+      control: null
+      1,8-cineole:
+        meaning: CHEBI:27961
+      linalool:
+        meaning: CHEBI:17580
+      nerolidol:
+        meaning: CHEBI:7524

@@ -1,0 +1,39 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_msu_bioenergy_cropping_systems
+name: msu_bioenergy_cropping_systems
+title: MSU Bioenergy Cropping Systems
+description: Alexandra Kravchenko (MSU) sampling energy sorghum, switchgrass (perennial monoculture),
+  restored prairie (perennial polyculture), and poplar (fast-growing woody species) to obtain high-resolution
+  molecular, microbial, and structural soil data. Goal is understanding microscale interactions leading
+  to soil carbon accrual under long-term bioenergy cropping systems. Spring 2025 campaign.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_msu_bioenergy_cropping_systems.
+    slots:
+    - location
+    - site_type
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Hickory Corners, Michigan
+  site_type:
+    annotations:
+      value: RESEARCH_STATION

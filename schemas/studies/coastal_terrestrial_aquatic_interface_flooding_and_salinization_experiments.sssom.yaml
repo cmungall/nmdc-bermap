@@ -1,0 +1,31 @@
+mappings:
+- subject_id: profiles:terrestrial_aquatic_interface_position
+  subject_label: terrestrial-aquatic interface position
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:terrestrial_aquatic_interface_position
+  subject_label: terrestrial-aquatic interface position
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:flooding_regime
+  subject_label: flooding regime
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:salinity_condition
+  subject_label: salinity condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:sample_collection_date
+  subject_label: sample collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration

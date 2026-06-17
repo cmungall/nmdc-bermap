@@ -1,0 +1,82 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/corynebacterial_cell_envelope_and_phage_resistance
+name: corynebacterial_cell_envelope_and_phage_resistance
+title: Corynebacterial Cell Envelope and Phage Resistance
+description: Study of corynebacterial cell envelope components and their role in phage resistance. Extends
+  phage resistance mapping to Gram-positive bacteria with complex cell envelopes.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study corynebacterial_cell_envelope_and_phage_resistance.
+    slots:
+    - cell_envelope_component
+    - host_genotype_or_perturbation
+    - bacteriophage_challenge
+    - phage_resistance_phenotype
+slots:
+  cell_envelope_component:
+    title: cell envelope component
+    description: Corynebacterial cell envelope gene, component, or structural feature tested for phage
+      resistance effects.
+    range: string
+    aliases:
+    - cell_envelope_gene
+    - envelope_component
+    - gene_id
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Corynebacterium cell envelope
+      value_type: IDENTIFIER
+  host_genotype_or_perturbation:
+    title: host genotype or perturbation
+    description: Corynebacterium genotype, mutation, or perturbation affecting the cell envelope.
+    range: string
+    aliases:
+    - genotype
+    - perturbation
+    - mutant_id
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: Corynebacterium glutamicum strain
+      value_type: CATEGORICAL
+  bacteriophage_challenge:
+    title: bacteriophage challenge
+    description: Phage isolate or challenge condition applied to Corynebacterium strains.
+    range: string
+    aliases:
+    - phage
+    - phage_id
+    - challenge_condition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bacteriophage exposure
+      value_type: CATEGORICAL
+  phage_resistance_phenotype:
+    title: phage resistance phenotype
+    description: Resistance, susceptibility, or fitness phenotype after phage challenge.
+    range: float
+    aliases:
+    - resistance_score
+    - susceptibility
+    - growth_score
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Corynebacterium phage resistance
+      method: phage challenge assay
+      value_type: NUMERIC

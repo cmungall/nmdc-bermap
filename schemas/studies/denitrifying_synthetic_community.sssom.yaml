@@ -1,0 +1,13 @@
+mappings:
+- subject_id: profiles:synthetic_community_member
+  subject_label: synthetic community member
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:culture_configuration
+  subject_label: culture configuration
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

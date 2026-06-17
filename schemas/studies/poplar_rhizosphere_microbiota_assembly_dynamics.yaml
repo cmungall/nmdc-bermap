@@ -1,0 +1,100 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/poplar_rhizosphere_microbiota_assembly_dynamics
+name: poplar_rhizosphere_microbiota_assembly_dynamics
+title: Poplar Rhizosphere Microbiota Assembly Dynamics
+description: Characterization of fungal and bacterial community assembly from root to shoot axis in poplar
+  (P. tremula x tremuloides) over 30 days of growth, tracking changes in rhizosphere, root and shoot by
+  DNA metabarcoding alongside metabolomics.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study poplar_rhizosphere_microbiota_assembly_dynamics.
+    slots:
+    - growth_day
+    - plant_axis_compartment
+    - bacterial_and_fungal_community_assembly
+    - metabolite_abundance_profile
+slots:
+  growth_day:
+    title: growth day
+    description: Sampling day during 30-day poplar growth experiment.
+    range: integer
+    unit:
+      descriptive_name: days
+      ucum_code: d
+    aliases:
+    - day
+    - growth_day
+    - time_point
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: growth time point
+      temporal_resolution: repeated sampling over 30 days
+      time_series: 'true'
+      value_type: INTEGER
+  plant_axis_compartment:
+    title: plant axis compartment
+    description: Rhizosphere, root, or shoot compartment sampled along the poplar root-to-shoot axis.
+    range: PlantAxisCompartmentEnum
+    aliases:
+    - compartment
+    - tissue
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: poplar-associated microbial habitat
+      value_type: CATEGORICAL
+  bacterial_and_fungal_community_assembly:
+    title: bacterial and fungal community assembly
+    description: DNA metabarcoding profiles used to track microbial community assembly over plant growth.
+    multivalued: true
+    range: string
+    aliases:
+    - asv_table
+    - bacterial_community_profile
+    - fungal_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: poplar-associated microbial community
+      material_or_matrix: rhizosphere, root, and shoot
+      method: 16S rRNA and ITS metabarcoding
+      value_type: ARRAY
+  metabolite_abundance_profile:
+    title: metabolite abundance profile
+    description: Metabolomic profile paired with microbiota assembly dynamics.
+    multivalued: true
+    range: string
+    aliases:
+    - metabolite_abundance
+    - metabolomic_profile
+    - feature_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: poplar-associated metabolome
+      material_or_matrix: rhizosphere, root, and shoot
+      method: metabolomics
+      value_type: ARRAY
+enums:
+  PlantAxisCompartmentEnum:
+    permissible_values:
+      rhizosphere:
+        meaning: ENVO:00005801
+      root:
+        meaning: PO:0009005
+      shoot: null

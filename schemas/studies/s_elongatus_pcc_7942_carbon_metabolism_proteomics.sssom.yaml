@@ -1,0 +1,7 @@
+mappings:
+- subject_id: profiles:carbon_metabolism_condition
+  subject_label: carbon metabolism condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

@@ -1,0 +1,102 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/climate_driven_divergence_in_plant_microbiome_interactions
+name: climate_driven_divergence_in_plant_microbiome_interactions
+title: Climate-driven Divergence in Plant-Microbiome Interactions
+description: Range-wide survey examining how tree genotypes condition their soil microbiomes across the
+  geographic distribution of Populus angustifolia. Demonstrates that warming-adapted microbiomes can transmit
+  thermotolerance to axenic laboratory-grown plants. PMI Variovorax collection (n=190 strains) used for
+  functional validation of microbially-mediated thermotolerance.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study climate_driven_divergence_in_plant_microbiome_interactions.
+    slots:
+    - climate_or_geographic_origin
+    - populus_angustifolia_genotype
+    - soil_microbiome_composition
+    - microbially_mediated_thermotolerance
+    - variovorax_validation_strain
+slots:
+  climate_or_geographic_origin:
+    title: climate or geographic origin
+    description: Geographic or climate origin of Populus angustifolia genotype or microbiome source.
+    range: string
+    aliases:
+    - geographic_origin
+    - climate_origin
+    - source_location
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; SPATIAL_INDEX; GROUPING
+      measured_entity: Populus-microbiome source environment
+      value_type: CATEGORICAL
+  populus_angustifolia_genotype:
+    title: Populus angustifolia genotype
+    description: Host tree genotype used to evaluate conditioning of the soil microbiome.
+    range: string
+    aliases:
+    - genotype
+    - host_genotype
+    - tree_genotype
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Populus angustifolia
+      value_type: CATEGORICAL
+  soil_microbiome_composition:
+    title: soil microbiome composition
+    description: Bacterial and fungal community composition associated with Populus genotypes across the
+      species range.
+    multivalued: true
+    range: string
+    aliases:
+    - bacterial_community_profile
+    - fungal_community_profile
+    - asv_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Populus-associated soil microbiome
+      material_or_matrix: soil
+      method: 16S and ITS amplicon sequencing
+      value_type: ARRAY
+  microbially_mediated_thermotolerance:
+    title: microbially mediated thermotolerance
+    description: Thermotolerance phenotype transmitted to axenic plants by warming-adapted microbiomes
+      or Variovorax validation strains.
+    range: float
+    aliases:
+    - thermotolerance
+    - heat_tolerance
+    - plant_growth_under_warming
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: axenic Populus plant
+      method: plant thermotolerance assay
+      value_type: NUMERIC
+  variovorax_validation_strain:
+    title: Variovorax validation strain
+    description: Variovorax strain used for functional validation of microbially mediated thermotolerance.
+    range: string
+    aliases:
+    - variovorax_strain
+    - strain_id
+    - isolate_id
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Variovorax strain
+      levels: PMI Variovorax collection strains
+      value_type: IDENTIFIER

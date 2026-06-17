@@ -1,0 +1,86 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/enigma_groundwater_archaeal_diversity
+name: enigma_groundwater_archaeal_diversity
+title: ENIGMA Groundwater Archaeal Diversity
+description: Genome-resolved metagenomic analysis of archaeal diversity in subsurface environments. Identified
+  two new phyla (DPANN superphylum) from aquifer adjacent to Colorado River.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study enigma_groundwater_archaeal_diversity.
+    slots:
+    - aquifer_sampling_context
+    - archaeal_genome_bin
+    - archaeal_taxonomic_assignment
+    - archaeal_diversity_profile
+slots:
+  aquifer_sampling_context:
+    title: aquifer sampling context
+    description: Subsurface aquifer context represented by each groundwater metagenome sample.
+    range: string
+    aliases:
+    - aquifer
+    - sampling_context
+    - local_environmental_context
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: aquifer sampling environment
+      material_or_matrix: groundwater
+      value_type: CATEGORICAL
+  archaeal_genome_bin:
+    title: archaeal genome bin
+    description: Archaeal metagenome-assembled genome recovered from genome-resolved metagenomics.
+    range: string
+    aliases:
+    - archaeal_mag_id
+    - genome_bin
+    - bin_id
+    annotations:
+      role: IDENTIFIER; DERIVED
+      measured_entity: archaeal genome
+      method: metagenome assembly and binning
+      value_type: IDENTIFIER
+  archaeal_taxonomic_assignment:
+    title: archaeal taxonomic assignment
+    description: Taxonomic placement of recovered archaeal genomes, including DPANN superphylum phyla.
+    range: uriorcurie
+    aliases:
+    - taxonomy
+    - archaeal_phylum
+    - DPANN_assignment
+    annotations:
+      role: MEASURED_VARIABLE; DERIVED
+      measured_entity: archaeal genome
+      method: genome-resolved taxonomic classification
+      value_type: ONTOLOGY_TERM
+  archaeal_diversity_profile:
+    title: archaeal diversity profile
+    description: Genome-resolved diversity profile of archaeal lineages in groundwater subsurface samples.
+    multivalued: true
+    range: string
+    aliases:
+    - archaeal_diversity
+    - archaeal_profile
+    - genome_resolved_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: groundwater archaeal community
+      material_or_matrix: groundwater
+      method: metagenomic sequencing and genome-resolved analysis
+      value_type: ARRAY

@@ -1,0 +1,69 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/novosphingobium_aromaticivorans_dap_seq_epigenomics
+name: novosphingobium_aromaticivorans_dap_seq_epigenomics
+title: Novosphingobium aromaticivorans DAP-seq Epigenomics
+description: DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional regulators
+  of aromatic metabolism in Novosphingobium aromaticivorans DSM 12444.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study novosphingobium_aromaticivorans_dap_seq_epigenomics.
+    slots:
+    - transcription_factor_bait
+    - genomic_binding_site
+    - aromatic_metabolism_target_gene
+slots:
+  transcription_factor_bait:
+    title: transcription factor bait
+    description: Putative transcriptional regulator assayed for in vitro DNA binding.
+    range: string
+    aliases:
+    - transcription_factor
+    - regulator
+    - bait_protein
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; IDENTIFIER
+      measured_entity: Novosphingobium aromaticivorans transcription factor
+      value_type: IDENTIFIER
+  genomic_binding_site:
+    title: genomic binding site
+    description: Genomic interval enriched by DAP-seq for a candidate transcriptional regulator.
+    range: string
+    aliases:
+    - peak_id
+    - binding_site
+    - genomic_interval
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: transcription factor binding site
+      method: DNA affinity purification sequencing
+      value_type: OBJECT
+  aromatic_metabolism_target_gene:
+    title: aromatic metabolism target gene
+    description: Candidate target gene near DAP-seq binding sites for aromatic compound metabolism.
+    range: string
+    aliases:
+    - target_gene
+    - locus_tag
+    - aromatic_metabolism_gene
+    annotations:
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: aromatic metabolism gene
+      method: binding-site annotation
+      value_type: IDENTIFIER

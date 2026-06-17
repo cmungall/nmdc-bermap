@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:soil_moisture
+  subject_label: soil moisture
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000185
+  object_label: water content
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:soil_moisture
+  subject_label: soil moisture
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:stable_isotope_amendment
+  subject_label: stable isotope amendment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000751
+  object_label: chemical administration
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:stable_isotope_amendment
+  subject_label: stable isotope amendment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

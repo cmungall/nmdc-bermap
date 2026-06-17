@@ -51,9 +51,39 @@ cache-ref REF:
 validate-refs-verbose:
   uv run linkml-reference-validator validate data db/sfas-brcs.yaml --schema src/nmdc_sfas_brcs/schema/nmdc_sfas_brcs.yaml --verbose
 
-# Generate interactive HTML browser for the database
-gen-browser:
+# Build the intermediate variable index (profiles + SSSOM -> schemas/variable-index.yaml)
+gen-variable-index:
+  uv run python schemas/generate_variables.py --index
+
+# Generate interactive HTML browser for the database (study variables sourced from the index)
+gen-browser: gen-variable-index
   uv run python scripts/generate_html_browser.py
+
+# Generate per-study/-site LinkML data-dictionary profiles (schemas/studies, schemas/sites)
+gen-profiles:
+  uv run python schemas/generate_profiles.py
+
+# Validate the generated LinkML profiles (load, imports, range resolution)
+validate-profiles:
+  uv run python schemas/validate_profiles.py
+
+# Vet the ontology CURIEs in profile enum permissible values (linkml-term-validator)
+validate-profile-terms:
+  #!/usr/bin/env bash
+  set -euo pipefail
+  for f in schemas/base.yaml $(grep -l 'meaning:' schemas/studies/*.yaml schemas/datasets/*.yaml); do
+    echo "== $f =="
+    uv run linkml-term-validator validate-schema "$f" -c src/nmdc_sfas_brcs/validators/oak_config.yaml --strict
+  done
+
+# Vet the per-schema SSSOM mapping tables: object_label must match object_id's ontology label
+validate-profile-mappings:
+  #!/usr/bin/env bash
+  set -euo pipefail
+  files=$(find schemas -name '*.sssom.yaml' | sort)
+  uv run linkml-term-validator validate-data $files -s schemas/sssom-profile.yaml -t MappingSet \
+    -c src/nmdc_sfas_brcs/validators/oak_config.yaml --no-dynamic-enums --labels
+
 
 # Fetch all BRC datasets from API and save as individual YAML files
 fetch-brc-datasets:

@@ -1,0 +1,25 @@
+mappings:
+- subject_id: profiles:cell_envelope_component
+  subject_label: cell envelope component
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_genotype_or_perturbation
+  subject_label: host genotype or perturbation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_genotype_or_perturbation
+  subject_label: host genotype or perturbation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:bacteriophage_challenge
+  subject_label: bacteriophage challenge
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

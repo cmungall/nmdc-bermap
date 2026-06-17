@@ -1,0 +1,37 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_ornl_bioenergy_plant_soil_site
+name: ornl_bioenergy_plant_soil_site
+title: ORNL Bioenergy Plant-Soil Site
+description: Udaya Kalluri (ORNL) characterizing bioenergy plant-soil interactions and soil health under
+  field conditions. Spring 2025 campaign.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_ornl_bioenergy_plant_soil_site.
+    slots:
+    - location
+    - site_type
+slots:
+  location:
+    description: Geographic location of the site.
+    annotations:
+      value: Midland, Oregon
+  site_type:
+    annotations:
+      value: RESEARCH_SITE

@@ -1,0 +1,43 @@
+mappings:
+- subject_id: profiles:miscanthus_species
+  subject_label: Miscanthus species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:miscanthus_species
+  subject_label: Miscanthus species
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_associated_compartment
+  subject_label: root-associated compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_associated_compartment
+  subject_label: root-associated compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_associated_compartment
+  subject_label: root-associated compartment
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:root_associated_compartment
+  subject_label: root-associated compartment
+  predicate_id: skos:relatedMatch
+  object_id: ENVO:00005801
+  object_label: rhizosphere
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_site
+  subject_label: collection site
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration

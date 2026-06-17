@@ -1,0 +1,89 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/colletotrichum_sublineola_genome_and_transcriptome
+name: colletotrichum_sublineola_genome_and_transcriptome
+title: Colletotrichum sublineola Genome and Transcriptome
+description: Genome assembly and transcriptome of Colletotrichum sublineola CsGL1 to study anthracnose
+  disease in sorghum. Provides resources for understanding fungal pathogenicity.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study colletotrichum_sublineola_genome_and_transcriptome.
+    slots:
+    - fungal_isolate_identifier
+    - genome_assembly_feature
+    - fungal_transcript_abundance
+    - pathogenicity_candidate_gene
+slots:
+  fungal_isolate_identifier:
+    title: fungal isolate identifier
+    description: Identifier for the Colletotrichum sublineola isolate used for genome and transcriptome
+      analysis.
+    range: string
+    aliases:
+    - isolate_id
+    - strain_id
+    - fungal_isolate
+    annotations:
+      role: IDENTIFIER
+      measured_entity: Colletotrichum sublineola isolate
+      levels: CsGL1
+      value_type: IDENTIFIER
+  genome_assembly_feature:
+    title: genome assembly feature
+    description: Genome assembly, gene model, or annotation feature used to study fungal pathogenicity.
+    multivalued: true
+    range: string
+    aliases:
+    - gene_model
+    - genome_feature
+    - annotation
+    annotations:
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: Colletotrichum sublineola genome
+      method: genome sequencing, assembly, and annotation
+      value_type: ARRAY
+  fungal_transcript_abundance:
+    title: fungal transcript abundance
+    description: Transcript abundance profile for Colletotrichum sublineola.
+    multivalued: true
+    range: string
+    aliases:
+    - transcript_abundance
+    - expression_profile
+    - RNAseq_counts
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: Colletotrichum sublineola transcriptome
+      method: RNA-seq
+      value_type: ARRAY
+  pathogenicity_candidate_gene:
+    title: pathogenicity candidate gene
+    description: Candidate virulence, effector, or pathogenicity-associated gene identified from genome
+      and transcriptome resources.
+    multivalued: true
+    range: string
+    aliases:
+    - effector_candidate
+    - virulence_gene
+    - pathogenicity_gene
+    annotations:
+      role: DERIVED; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: Colletotrichum sublineola pathogenicity
+      method: comparative genome and transcriptome interpretation
+      value_type: ARRAY

@@ -1,0 +1,84 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/clostridium_thermocellum_strain_collection
+name: clostridium_thermocellum_strain_collection
+title: Clostridium thermocellum Strain Collection
+description: Whole genome resequencing data for hundreds of Clostridium thermocellum strains engineered
+  for increased ethanol production and tolerance, with mutation and lineage metadata.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study clostridium_thermocellum_strain_collection.
+    slots:
+    - strain_identifier
+    - engineered_genotype
+    - ethanol_production_phenotype
+    - ethanol_tolerance_phenotype
+slots:
+  strain_identifier:
+    title: strain identifier
+    description: Identifier for engineered or evolved Clostridium thermocellum strain.
+    range: string
+    aliases:
+    - strain_id
+    - isolate_id
+    - lineage_id
+    annotations:
+      role: IDENTIFIER; GROUPING
+      measured_entity: Clostridium thermocellum strain
+      value_type: IDENTIFIER
+  engineered_genotype:
+    title: engineered genotype
+    description: Mutations or engineering changes detected in resequenced C. thermocellum strains.
+    multivalued: true
+    range: string
+    aliases:
+    - mutation
+    - variant
+    - genotype
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: C. thermocellum genome
+      method: whole genome resequencing and variant calling
+      value_type: ARRAY
+  ethanol_production_phenotype:
+    title: ethanol production phenotype
+    description: Ethanol production level associated with engineered or evolved strains.
+    range: float
+    aliases:
+    - ethanol_titer
+    - ethanol_yield
+    - production_phenotype
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: fermentation product
+      method: fermentation assay
+      value_type: NUMERIC
+  ethanol_tolerance_phenotype:
+    title: ethanol tolerance phenotype
+    description: Ethanol tolerance or growth response phenotype associated with strain lineage.
+    range: float
+    aliases:
+    - ethanol_tolerance
+    - growth_rate
+    - tolerance_phenotype
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: C. thermocellum growth tolerance
+      method: ethanol tolerance assay
+      value_type: NUMERIC

@@ -1,0 +1,94 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/monet_winter_soil_sampling_2024
+name: monet_winter_soil_sampling_2024
+title: MONet Winter Soil Sampling 2024
+description: 'Five selected projects: Douglas-fir forest function (Lutz, Utah State), potato cropland
+  management (Griffin-LaHue, WSU), vegetable cropping nitrogen (Jackson, Stanford), snowpack decline effects
+  (Carbone, NAU), sage scrub recovery (Keller, Claremont McKenna).'
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study monet_winter_soil_sampling_2024.
+    slots:
+    - selected_project
+    - winter_sampling_context
+    - soil_carbon_and_nutrient_profile
+    - winter_soil_metagenome_profile
+slots:
+  selected_project:
+    title: selected project
+    description: MONet winter sampling project or PI-defined study context represented by the soil sample.
+    range: SelectedProjectEnum
+    aliases:
+    - project
+    - selected_project
+    - study_context
+    annotations:
+      role: GROUPING; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: MONet winter sampling project
+      value_type: CATEGORICAL
+  winter_sampling_context:
+    title: winter sampling context
+    description: Seasonal or management context for winter soil sampling.
+    range: string
+    aliases:
+    - season
+    - sampling_context
+    - management_context
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      measured_entity: winter soil sampling event
+      value_type: CATEGORICAL
+  soil_carbon_and_nutrient_profile:
+    title: soil carbon and nutrient profile
+    description: Carbon, nitrogen, or nutrient measurements generated from winter soil samples.
+    multivalued: true
+    range: string
+    aliases:
+    - soil_carbon
+    - soil_nitrogen
+    - nutrient_profile
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil biogeochemistry
+      material_or_matrix: soil
+      value_type: ARRAY
+  winter_soil_metagenome_profile:
+    title: winter soil metagenome profile
+    description: Microbial community metagenomic profile from winter MONet soil samples.
+    multivalued: true
+    range: string
+    aliases:
+    - metagenome_profile
+    - taxonomic_profile
+    - functional_profile
+    annotations:
+      role: MEASURED_VARIABLE; STUDY_DESIGN_DEPENDENT_VARIABLE
+      measured_entity: soil microbial community
+      material_or_matrix: soil
+      method: metagenomic sequencing
+      value_type: ARRAY
+enums:
+  SelectedProjectEnum:
+    permissible_values:
+      Douglas-fir forest function: null
+      potato cropland management: null
+      vegetable cropping nitrogen: null
+      snowpack decline effects: null
+      sage scrub recovery: null

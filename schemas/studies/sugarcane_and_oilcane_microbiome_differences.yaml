@@ -1,0 +1,88 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sugarcane_and_oilcane_microbiome_differences
+name: sugarcane_and_oilcane_microbiome_differences
+title: Sugarcane and Oilcane Microbiome Differences
+description: Study of bacterial and fungal microbiome structure and potential functions in leaves, stems,
+  roots, rhizospheres, and bulk soils of sugarcane and metabolically engineered oilcane grown in greenhouses.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sugarcane_and_oilcane_microbiome_differences.
+    slots:
+    - crop_accession_type
+    - plant_compartment
+    - bacterial_and_fungal_community_composition
+slots:
+  crop_accession_type:
+    title: crop accession type
+    description: Host plant type contrasting sugarcane with metabolically engineered oilcane accessions.
+    range: CropAccessionTypeEnum
+    aliases:
+    - accession_type
+    - crop_type
+    - host_common_name
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Saccharum host plant
+      value_type: CATEGORICAL
+  plant_compartment:
+    title: plant compartment
+    description: Plant or soil compartment sampled for sugarcane and oilcane microbiome profiling.
+    range: PlantCompartmentEnum
+    aliases:
+    - compartment
+    - tissue
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: sugarcane-associated microbial habitat
+      value_type: CATEGORICAL
+  bacterial_and_fungal_community_composition:
+    title: bacterial and fungal community composition
+    description: 16S and ITS amplicon profiles used to compare sugarcane and oilcane microbiomes.
+    multivalued: true
+    range: string
+    aliases:
+    - bacterial_community_profile
+    - fungal_community_profile
+    - asv_table
+    - otu_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sugarcane-associated microbial community
+      material_or_matrix: leaves, stems, roots, rhizosphere, and bulk soil
+      method: 16S rRNA and ITS amplicon sequencing
+      value_type: ARRAY
+enums:
+  CropAccessionTypeEnum:
+    permissible_values:
+      sugarcane: null
+      oilcane: null
+  PlantCompartmentEnum:
+    permissible_values:
+      leaf:
+        meaning: PO:0025034
+      stem:
+        meaning: PO:0009047
+      root:
+        meaning: PO:0009005
+      rhizosphere:
+        meaning: ENVO:00005801
+      bulk soil:
+        meaning: ENVO:00005802

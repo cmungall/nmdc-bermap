@@ -1,0 +1,271 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sty-11-wbc14h22
+name: switchgrass_cropping_systems_on_marginal_lands
+title: Switchgrass cropping systems on marginal lands
+description: Understanding how rhizosphere microbiome influences soil nitrogen transformations under low-
+  and high-N conditions across five locations in the Great Lakes Region.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sty-11-wbc14h22.
+    slots:
+    - nitrogen_treatment
+    - field_location
+    - soil_sampling_depth
+    - rhizosphere_bacterial_community_composition
+    - collection_date
+    - geographic_location_name
+    - latitude_and_longitude
+    - elevation
+    - broad_scale_environmental_context
+    - local_environmental_context
+    - environmental_medium
+    - environmental_package
+    - ecosystem
+    - ecosystem_category
+    - ecosystem_type
+    - ecosystem_subtype
+    - specific_ecosystem
+    - growth_facility
+    - other_experimental_factor
+    - agrochemical_addition
+    - sieving
+    - current_vegetation
+slots:
+  nitrogen_treatment:
+    title: nitrogen treatment
+    description: Low- versus high-nitrogen cropping system condition for switchgrass plots.
+    range: NitrogenTreatmentEnum
+    aliases:
+    - nitrogen_treatment
+    - n_treatment
+    - fertilizer_regimen
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: switchgrass cropping system
+      value_type: CATEGORICAL
+  field_location:
+    title: field location
+    description: Great Lakes region field site where each switchgrass sample was collected.
+    range: string
+    aliases:
+    - location
+    - site
+    - field_site
+    annotations:
+      role: GROUPING; SPATIAL_INDEX
+      measured_entity: field site
+      value_type: CATEGORICAL
+  soil_sampling_depth:
+    title: soil sampling depth
+    description: Depth interval for switchgrass soil samples recorded in NMDC biosample metadata.
+    range: float
+    unit:
+      descriptive_name: meter
+      ucum_code: m
+    aliases:
+    - depth
+    - soil_depth
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      measured_entity: soil sampling interval
+      material_or_matrix: soil
+      value_type: NUMERIC
+  rhizosphere_bacterial_community_composition:
+    title: rhizosphere bacterial community composition
+    description: 16S amplicon profile of switchgrass rhizosphere bacterial communities.
+    multivalued: true
+    range: string
+    aliases:
+    - otu_table
+    - asv_table
+    - bacterial_community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: rhizosphere bacterial community
+      material_or_matrix: rhizosphere soil
+      method: 16S rRNA amplicon sequencing
+      value_type: ARRAY
+  collection_date:
+    title: collection date
+    description: Date when the NMDC biosample was collected.
+    range: datetime
+    aliases:
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; COVARIATE
+      value_type: DATETIME
+  geographic_location_name:
+    title: geographic location name
+    description: Geographic location name recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - geo_loc_name
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  latitude_and_longitude:
+    title: latitude and longitude
+    description: Latitude and longitude coordinates recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - lat_lon
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE
+      value_type: TEXT
+  elevation:
+    description: Elevation recorded for the NMDC biosample.
+    range: float
+    unit:
+      descriptive_name: m
+      ucum_code: m
+    aliases:
+    - elev
+    annotations:
+      role: SPATIAL_INDEX; COVARIATE; MEASURED_VARIABLE
+      value_type: NUMERIC
+  broad_scale_environmental_context:
+    title: broad-scale environmental context
+    description: Broad-scale environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_broad_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  local_environmental_context:
+    title: local environmental context
+    description: Local environmental context recorded for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_local_scale
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_medium:
+    title: environmental medium
+    description: Environmental medium or material sampled for the NMDC biosample.
+    range: uriorcurie
+    aliases:
+    - env_medium
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: ONTOLOGY_TERM
+  environmental_package:
+    title: environmental package
+    description: MIxS environmental package used for the NMDC biosample metadata.
+    range: EnvPackageEnum
+    aliases:
+    - env_package
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem:
+    description: GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_category:
+    title: ecosystem category
+    description: GOLD ecosystem category recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_category
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_type:
+    title: ecosystem type
+    description: GOLD ecosystem type recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_type
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  ecosystem_subtype:
+    title: ecosystem subtype
+    description: GOLD ecosystem subtype recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - ecosystem_subtype
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  specific_ecosystem:
+    title: specific ecosystem
+    description: Specific GOLD ecosystem classification recorded for the NMDC biosample.
+    range: GoldEcosystemPathEnum
+    aliases:
+    - specific_ecosystem
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  growth_facility:
+    title: growth facility
+    description: Growth facility or experimental facility context recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - growth_facil
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: CATEGORICAL
+  other_experimental_factor:
+    title: other experimental factor
+    description: Additional experimental factor recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - experimental_factor_other
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  agrochemical_addition:
+    title: agrochemical addition
+    description: Agrochemical addition recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - agrochem_addition
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      value_type: CATEGORICAL
+  sieving:
+    description: Sieving protocol or size fraction recorded in NMDC biosample metadata.
+    range: string
+    aliases:
+    - sieving
+    annotations:
+      role: STUDY_DESIGN_CONTROLLED_VARIABLE; COVARIATE
+      value_type: CATEGORICAL
+  current_vegetation:
+    title: current vegetation
+    description: Current vegetation descriptor recorded for the NMDC biosample.
+    range: string
+    aliases:
+    - cur_vegetation
+    annotations:
+      role: COVARIATE; GROUPING
+      value_type: TEXT
+enums:
+  NitrogenTreatmentEnum:
+    permissible_values:
+      low nitrogen: null
+      high nitrogen: null

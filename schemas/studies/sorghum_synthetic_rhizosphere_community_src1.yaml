@@ -1,0 +1,95 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/sorghum_synthetic_rhizosphere_community_src1
+name: sorghum_synthetic_rhizosphere_community_src1
+title: Sorghum Synthetic Rhizosphere Community (SRC1)
+description: Defined synthetic microbial community (SRC1) of 16-20 bacterial strains assembled from sorghum
+  rhizosphere isolates to enhance bioenergy crop productivity. Field-tested with increased shoot biomass
+  correlating with transcriptional dampening of lignin biosynthesis.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study sorghum_synthetic_rhizosphere_community_src1.
+    slots:
+    - src1_inoculation
+    - synthetic_community_strain_abundance
+    - shoot_biomass
+    - lignin_biosynthesis_transcript_abundance
+slots:
+  src1_inoculation:
+    title: SRC1 inoculation
+    description: Defined sorghum rhizosphere synthetic community treatment applied to field-grown plants.
+    range: Src1InoculationEnum
+    aliases:
+    - inoculation_treatment
+    - syncom_treatment
+    - SRC1
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: sorghum rhizosphere inoculation treatment
+      value_type: CATEGORICAL
+  synthetic_community_strain_abundance:
+    title: synthetic community strain abundance
+    description: Strain or member abundance of SRC1 bacteria after field colonization.
+    multivalued: true
+    range: string
+    aliases:
+    - strain_abundance
+    - syncom_member_abundance
+    - community_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: SRC1 bacterial community
+      material_or_matrix: sorghum rhizosphere
+      method: amplicon sequencing and metagenomics
+      value_type: ARRAY
+  shoot_biomass:
+    title: shoot biomass
+    description: Sorghum shoot biomass response associated with SRC1 colonization.
+    range: float
+    unit:
+      descriptive_name: gram
+      ucum_code: g
+    aliases:
+    - shoot_biomass
+    - aboveground_biomass
+    - biomass
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sorghum shoot
+      method: field biomass phenotyping
+      value_type: NUMERIC
+  lignin_biosynthesis_transcript_abundance:
+    title: lignin biosynthesis transcript abundance
+    description: Host transcriptional response for lignin biosynthesis associated with SRC1 field colonization.
+    multivalued: true
+    range: string
+    aliases:
+    - lignin_biosynthesis_expression
+    - transcript_abundance
+    - gene_expression_profile
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: sorghum lignin biosynthesis genes
+      method: plant transcript profiling
+      value_type: ARRAY
+enums:
+  Src1InoculationEnum:
+    permissible_values:
+      non-inoculated control: null
+      SRC1 inoculated: null

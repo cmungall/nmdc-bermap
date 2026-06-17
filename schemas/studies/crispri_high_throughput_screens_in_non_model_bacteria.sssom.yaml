@@ -1,0 +1,19 @@
+mappings:
+- subject_id: profiles:non_model_bacterial_strain
+  subject_label: non-model bacterial strain
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:transformation_workflow_condition
+  subject_label: transformation workflow condition
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:guide_rna_target
+  subject_label: guide RNA target
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration

@@ -1,0 +1,92 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/bioreactor_fermentation_microbiomes
+name: bioreactor_fermentation_microbiomes
+title: Bioreactor Fermentation Microbiomes
+description: Metagenome-assembled genomes from anaerobic bioreactor microbial communities fermenting dairy
+  coproducts (UltraFiltered Milk Permeate and Cottage cheese Acid Whey). Characterization of carboxylate
+  platform fermentation systems.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study bioreactor_fermentation_microbiomes.
+    slots:
+    - dairy_coproduct_feedstock
+    - fermentation_time_point
+    - carboxylate_product_profile
+    - bioreactor_metagenome_assembled_genome
+slots:
+  dairy_coproduct_feedstock:
+    title: dairy coproduct feedstock
+    description: Dairy coproduct used as fermentation substrate.
+    range: DairyCoproductFeedstockEnum
+    aliases:
+    - feedstock
+    - substrate
+    - dairy_coproduct
+    annotations:
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bioreactor feedstock
+      value_type: CATEGORICAL
+  fermentation_time_point:
+    title: fermentation time point
+    description: Sampling point during anaerobic fermentation operation.
+    range: datetime
+    aliases:
+    - time_point
+    - day
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      measured_entity: bioreactor sampling event
+      time_series: 'true'
+      value_type: DATETIME
+  carboxylate_product_profile:
+    title: carboxylate product profile
+    description: Fermentation product profile for carboxylate platform compounds.
+    multivalued: true
+    range: string
+    aliases:
+    - carboxylate_profile
+    - fermentation_products
+    - product_concentration
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: fermentation products
+      material_or_matrix: bioreactor culture
+      method: fermentation chemistry analysis
+      value_type: ARRAY
+  bioreactor_metagenome_assembled_genome:
+    title: bioreactor metagenome-assembled genome
+    description: MAGs reconstructed from anaerobic fermentation microbial communities.
+    range: string
+    aliases:
+    - mag_id
+    - genome_bin
+    - assembly_accession
+    annotations:
+      role: DERIVED; MEASURED_VARIABLE
+      measured_entity: bioreactor microbial genome
+      material_or_matrix: anaerobic bioreactor culture
+      method: metagenome assembly and binning
+      value_type: OBJECT
+enums:
+  DairyCoproductFeedstockEnum:
+    permissible_values:
+      ultrafiltered milk permeate: null
+      cottage cheese acid whey: null

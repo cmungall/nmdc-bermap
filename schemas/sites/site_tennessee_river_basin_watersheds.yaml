@@ -1,0 +1,28 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/sites/site_tennessee_river_basin_watersheds
+name: tennessee_river_basin_watersheds
+title: Tennessee River Basin Watersheds
+description: Three mid-order watersheds broadly representative of the Tennessee River Basin, studied successively
+  over 9-year plan. Most intensively used freshwater resource region in contiguous US, supporting ~4.5
+  million people with >280,000 gallons/day/sq mi withdrawals.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  SiteContext:
+    description: Environmental context for site site_tennessee_river_basin_watersheds.
+    slots: []

@@ -1,0 +1,67 @@
+mappings:
+- subject_id: profiles:ecofab_device
+  subject_label: EcoFAB device
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0001057
+  object_label: plant growth medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:collection_date
+  subject_label: collection date
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000011
+  object_label: collection date
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:broad_scale_environmental_context
+  subject_label: broad-scale environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000012
+  object_label: broad-scale environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:local_environmental_context
+  subject_label: local environmental context
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000013
+  object_label: local environmental context
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:environmental_medium
+  subject_label: environmental medium
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000014
+  object_label: environmental medium
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:experimental_factor
+  subject_label: experimental factor
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:perturbation
+  subject_label: perturbation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000754
+  object_label: perturbation
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:perturbation
+  subject_label: perturbation
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:biotic_regimen
+  subject_label: biotic regimen
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000008
+  object_label: experimental factor
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_common_name
+  subject_label: host common name
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000248
+  object_label: host common name
+  mapping_justification: semapv:ManualMappingCuration
+- subject_id: profiles:host_taxon_identifier
+  subject_label: host taxon identifier
+  predicate_id: skos:exactMatch
+  object_id: MIXS:0000250
+  object_label: host taxid
+  mapping_justification: semapv:ManualMappingCuration

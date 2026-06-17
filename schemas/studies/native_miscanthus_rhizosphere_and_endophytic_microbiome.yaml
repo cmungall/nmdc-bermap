@@ -1,0 +1,96 @@
+id: https://w3id.org/nmdc-sfas-brcs/profiles/studies/native_miscanthus_rhizosphere_and_endophytic_microbiome
+name: native_miscanthus_rhizosphere_and_endophytic_microbiome
+title: Native Miscanthus Rhizosphere and Endophytic Microbiome
+description: Survey of the native Miscanthus rhizosphere and endophytic microbiome in Taiwan, with particular
+  attention to the diazotrophic community across strong biogeographical and ecological gradients in Miscanthus
+  sinensis and M. floridulus.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  profiles: https://w3id.org/nmdc-sfas-brcs/profiles/
+  MIXS: https://w3id.org/mixs/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  PO: http://purl.obolibrary.org/obo/PO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  obo: http://purl.obolibrary.org/obo/
+  nmdc: https://w3id.org/nmdc/
+  GOLD: https://gold.jgi.doe.gov/
+default_prefix: profiles
+default_range: string
+imports:
+- ../base
+classes:
+  Record:
+    description: Per-record data dictionary for study native_miscanthus_rhizosphere_and_endophytic_microbiome.
+    slots:
+    - miscanthus_species
+    - root_associated_compartment
+    - collection_site
+    - diazotrophic_community_composition
+slots:
+  miscanthus_species:
+    title: Miscanthus species
+    description: Host Miscanthus species associated with each root or rhizosphere microbiome sample.
+    range: MiscanthusSpeciesEnum
+    aliases:
+    - species
+    - host_species
+    - host_common_name
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Miscanthus host plant
+      value_type: CATEGORICAL
+  root_associated_compartment:
+    title: root-associated compartment
+    description: Root-associated habitat distinguishing rhizosphere soil from root endophytic samples.
+    range: RootAssociatedCompartmentEnum
+    aliases:
+    - compartment
+    - sample_type
+    - niche
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: Miscanthus root-associated microbial habitat
+      value_type: CATEGORICAL
+  collection_site:
+    title: collection site
+    description: Taiwanese site or locality representing the biogeographical and ecological gradient.
+    range: string
+    aliases:
+    - site
+    - locality
+    - collection_site
+    annotations:
+      role: SPATIAL_INDEX; GROUPING
+      measured_entity: field site
+      value_type: CATEGORICAL
+  diazotrophic_community_composition:
+    title: diazotrophic community composition
+    description: Nitrogen-fixing microbial community profile associated with native Miscanthus roots and
+      rhizospheres.
+    multivalued: true
+    range: string
+    aliases:
+    - diazotroph_profile
+    - nitrogen_fixing_community
+    - asv_table
+    annotations:
+      role: STUDY_DESIGN_DEPENDENT_VARIABLE; MEASURED_VARIABLE
+      measured_entity: diazotrophic microbial community
+      material_or_matrix: rhizosphere and root endophytic compartments
+      method: 16S rRNA amplicon sequencing with diazotroph-focused analysis
+      value_type: ARRAY
+enums:
+  MiscanthusSpeciesEnum:
+    permissible_values:
+      Miscanthus sinensis:
+        meaning: NCBITaxon:62337
+      Miscanthus floridulus: null
+  RootAssociatedCompartmentEnum:
+    permissible_values:
+      rhizosphere:
+        meaning: ENVO:00005801
+      root endophytic compartment: null

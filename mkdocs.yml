@@ -1,5 +1,6 @@
 ---
-site_name: "nmdc-sfas-brcs"
+site_name: "NMDC BERmap"
+site_description: "Browse DOE BER research programs (BRCs, SFAs, User Facilities), their studies, datasets, and variables."
 theme:
   name: material
   # palette:
@@ -26,14 +27,24 @@ watch:
 
 nav:
   - Home: index.md
-  - Schema: elements/index.md
+  - Program Browser: browser.html
+  - Variable Browser: variables.html
+  - Associations: associations.html
   - About: about.md
+  - Schema reference: elements/index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 exclude_docs: |
   /templates-linkml/
 
-site_url: https://my-org.github.io/nmdc-sfas-brcs
-repo_url: https://github.com/my-org/nmdc-sfas-brcs
+site_url: https://cmungall.github.io/nmdc-bermap
+repo_url: https://github.com/cmungall/nmdc-bermap
 
 # Uncomment this block to enable use of Google Analytics.
 # Replace the property value with your own ID.

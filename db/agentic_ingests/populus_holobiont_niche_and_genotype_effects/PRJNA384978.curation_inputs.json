@@ -1,0 +1,5521 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-5bcc8f25",
+    "name": "plant metagenome",
+    "title": "fungal communities associated with Populus deltoides and Populus trichocarpa x deltoides",
+    "description": "Thirty different niches across trees (leaf, stem, roots, soil) for P. deltoides and P. trichocarpa x deltoides genotypes were sampled.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-ba39eb83": {
+      "ncbi_accession": "SAMN07210310",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMTD-5"
+      }
+    },
+    "nmdc:bsm-99-82cff15e": {
+      "ncbi_accession": "SAMN07210309",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMTD-4"
+      }
+    },
+    "nmdc:bsm-99-10e901ea": {
+      "ncbi_accession": "SAMN07210308",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMTD-3"
+      }
+    },
+    "nmdc:bsm-99-b7d6e390": {
+      "ncbi_accession": "SAMN07210307",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMTD-2"
+      }
+    },
+    "nmdc:bsm-99-f6b4a318": {
+      "ncbi_accession": "SAMN07210306",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMTD-1"
+      }
+    },
+    "nmdc:bsm-99-f661bd15": {
+      "ncbi_accession": "SAMN07210305",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMDD-5"
+      }
+    },
+    "nmdc:bsm-99-bc08e2d1": {
+      "ncbi_accession": "SAMN07210304",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMDD-4"
+      }
+    },
+    "nmdc:bsm-99-dacdaed2": {
+      "ncbi_accession": "SAMN07210303",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMDD-3"
+      }
+    },
+    "nmdc:bsm-99-adeea2ab": {
+      "ncbi_accession": "SAMN07210302",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMDD-2"
+      }
+    },
+    "nmdc:bsm-99-1f9581b9": {
+      "ncbi_accession": "SAMN07210301",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "UPMDD-1"
+      }
+    },
+    "nmdc:bsm-99-0e2661f9": {
+      "ncbi_accession": "SAMN07210300",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRTD-5"
+      }
+    },
+    "nmdc:bsm-99-cb7eebe4": {
+      "ncbi_accession": "SAMN07210299",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRTD-4"
+      }
+    },
+    "nmdc:bsm-99-198c00ec": {
+      "ncbi_accession": "SAMN07210298",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRTD-3"
+      }
+    },
+    "nmdc:bsm-99-f84849e1": {
+      "ncbi_accession": "SAMN07210297",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRTD-2"
+      }
+    },
+    "nmdc:bsm-99-b8db6bd0": {
+      "ncbi_accession": "SAMN07210296",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRTD-1"
+      }
+    },
+    "nmdc:bsm-99-fd8ac655": {
+      "ncbi_accession": "SAMN07210295",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRDD-5"
+      }
+    },
+    "nmdc:bsm-99-0f0f316c": {
+      "ncbi_accession": "SAMN07210294",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRDD-4"
+      }
+    },
+    "nmdc:bsm-99-5fc66919": {
+      "ncbi_accession": "SAMN07210293",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRDD-3"
+      }
+    },
+    "nmdc:bsm-99-53291e53": {
+      "ncbi_accession": "SAMN07210292",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRDD-2"
+      }
+    },
+    "nmdc:bsm-99-fff91b9a": {
+      "ncbi_accession": "SAMN07210291",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SSRDD-1"
+      }
+    },
+    "nmdc:bsm-99-18ab259b": {
+      "ncbi_accession": "SAMN07210290",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZTD-5"
+      }
+    },
+    "nmdc:bsm-99-b9e264f4": {
+      "ncbi_accession": "SAMN07210289",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZTD-4"
+      }
+    },
+    "nmdc:bsm-99-4f838097": {
+      "ncbi_accession": "SAMN07210288",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZTD-3"
+      }
+    },
+    "nmdc:bsm-99-b0cbbc2a": {
+      "ncbi_accession": "SAMN07210287",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZTD-2"
+      }
+    },
+    "nmdc:bsm-99-aa7523be": {
+      "ncbi_accession": "SAMN07210286",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZTD-1"
+      }
+    },
+    "nmdc:bsm-99-efd117d5": {
+      "ncbi_accession": "SAMN07210285",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZDD-5"
+      }
+    },
+    "nmdc:bsm-99-ecc2ccbb": {
+      "ncbi_accession": "SAMN07210284",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZDD-4"
+      }
+    },
+    "nmdc:bsm-99-25b3afd8": {
+      "ncbi_accession": "SAMN07210283",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZDD-3"
+      }
+    },
+    "nmdc:bsm-99-034724d2": {
+      "ncbi_accession": "SAMN07210282",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZDD-2"
+      }
+    },
+    "nmdc:bsm-99-0a67ba6d": {
+      "ncbi_accession": "SAMN07210281",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRZDD-1"
+      }
+    },
+    "nmdc:bsm-99-3de24b89": {
+      "ncbi_accession": "SAMN07210280",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXTD-5"
+      }
+    },
+    "nmdc:bsm-99-9db70451": {
+      "ncbi_accession": "SAMN07210279",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXTD-4"
+      }
+    },
+    "nmdc:bsm-99-3747e6e1": {
+      "ncbi_accession": "SAMN07210278",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXTD-3"
+      }
+    },
+    "nmdc:bsm-99-90c0c3b9": {
+      "ncbi_accession": "SAMN07210277",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXTD-2"
+      }
+    },
+    "nmdc:bsm-99-5aeb4641": {
+      "ncbi_accession": "SAMN07210276",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXTD-1"
+      }
+    },
+    "nmdc:bsm-99-300bf101": {
+      "ncbi_accession": "SAMN07210275",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXDD-5"
+      }
+    },
+    "nmdc:bsm-99-1ee06070": {
+      "ncbi_accession": "SAMN07210274",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXDD-4"
+      }
+    },
+    "nmdc:bsm-99-9b59b9b7": {
+      "ncbi_accession": "SAMN07210273",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXDD-3"
+      }
+    },
+    "nmdc:bsm-99-650a0975": {
+      "ncbi_accession": "SAMN07210272",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXDD-2"
+      }
+    },
+    "nmdc:bsm-99-3602bcea": {
+      "ncbi_accession": "SAMN07210271",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SHXDD-1"
+      }
+    },
+    "nmdc:bsm-99-7355cf08": {
+      "ncbi_accession": "SAMN07210270",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRTD-5"
+      }
+    },
+    "nmdc:bsm-99-dd58e34c": {
+      "ncbi_accession": "SAMN07210269",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRTD-4"
+      }
+    },
+    "nmdc:bsm-99-ca77e1dc": {
+      "ncbi_accession": "SAMN07210268",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRTD-3"
+      }
+    },
+    "nmdc:bsm-99-550b3213": {
+      "ncbi_accession": "SAMN07210267",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRTD-2"
+      }
+    },
+    "nmdc:bsm-99-8db2cee7": {
+      "ncbi_accession": "SAMN07210266",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRTD-1"
+      }
+    },
+    "nmdc:bsm-99-7f65289f": {
+      "ncbi_accession": "SAMN07210265",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRDD-5"
+      }
+    },
+    "nmdc:bsm-99-8051d8d5": {
+      "ncbi_accession": "SAMN07210264",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRDD-4"
+      }
+    },
+    "nmdc:bsm-99-027cf499": {
+      "ncbi_accession": "SAMN07210263",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRDD-3"
+      }
+    },
+    "nmdc:bsm-99-9d25a21e": {
+      "ncbi_accession": "SAMN07210262",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRDD-2"
+      }
+    },
+    "nmdc:bsm-99-46c07849": {
+      "ncbi_accession": "SAMN07210261",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SFRDD-1"
+      }
+    },
+    "nmdc:bsm-99-178e9966": {
+      "ncbi_accession": "SAMN07210260",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXTD-5"
+      }
+    },
+    "nmdc:bsm-99-a2dc3acf": {
+      "ncbi_accession": "SAMN07210259",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXTD-4"
+      }
+    },
+    "nmdc:bsm-99-9bc2231e": {
+      "ncbi_accession": "SAMN07210258",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXTD-3"
+      }
+    },
+    "nmdc:bsm-99-e6f69e07": {
+      "ncbi_accession": "SAMN07210257",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXTD-2"
+      }
+    },
+    "nmdc:bsm-99-253a31b7": {
+      "ncbi_accession": "SAMN07210256",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXTD-1"
+      }
+    },
+    "nmdc:bsm-99-0597ce78": {
+      "ncbi_accession": "SAMN07210255",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXDD-5"
+      }
+    },
+    "nmdc:bsm-99-4717b70b": {
+      "ncbi_accession": "SAMN07210254",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXDD-4"
+      }
+    },
+    "nmdc:bsm-99-96869478": {
+      "ncbi_accession": "SAMN07210253",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXDD-3"
+      }
+    },
+    "nmdc:bsm-99-16f7bdad": {
+      "ncbi_accession": "SAMN07210252",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXDD-2"
+      }
+    },
+    "nmdc:bsm-99-bdc112a9": {
+      "ncbi_accession": "SAMN07210251",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SRXDD-1"
+      }
+    },
+    "nmdc:bsm-99-942160e2": {
+      "ncbi_accession": "SAMN07210250",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBTD-5"
+      }
+    },
+    "nmdc:bsm-99-2e1d9301": {
+      "ncbi_accession": "SAMN07210249",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBTD-4"
+      }
+    },
+    "nmdc:bsm-99-2dcc151c": {
+      "ncbi_accession": "SAMN07210248",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBTD-3"
+      }
+    },
+    "nmdc:bsm-99-6f411496": {
+      "ncbi_accession": "SAMN07210247",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBTD-2"
+      }
+    },
+    "nmdc:bsm-99-2372293d": {
+      "ncbi_accession": "SAMN07210246",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBTD-1"
+      }
+    },
+    "nmdc:bsm-99-6d9ec931": {
+      "ncbi_accession": "SAMN07210245",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBDD-5"
+      }
+    },
+    "nmdc:bsm-99-68fa3e37": {
+      "ncbi_accession": "SAMN07210244",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBDD-4"
+      }
+    },
+    "nmdc:bsm-99-1085e334": {
+      "ncbi_accession": "SAMN07210243",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBDD-3"
+      }
+    },
+    "nmdc:bsm-99-286bca04": {
+      "ncbi_accession": "SAMN07210242",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBDD-2"
+      }
+    },
+    "nmdc:bsm-99-1eb45863": {
+      "ncbi_accession": "SAMN07210241",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SCBDD-1"
+      }
+    },
+    "nmdc:bsm-99-a6c1df79": {
+      "ncbi_accession": "SAMN07210240",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSTD-5"
+      }
+    },
+    "nmdc:bsm-99-6a375a35": {
+      "ncbi_accession": "SAMN07210239",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSTD-4"
+      }
+    },
+    "nmdc:bsm-99-525e3f90": {
+      "ncbi_accession": "SAMN07210238",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSTD-3"
+      }
+    },
+    "nmdc:bsm-99-5a32e606": {
+      "ncbi_accession": "SAMN07210237",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSTD-2"
+      }
+    },
+    "nmdc:bsm-99-6fa26792": {
+      "ncbi_accession": "SAMN07210236",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSTD-1"
+      }
+    },
+    "nmdc:bsm-99-2683f0b0": {
+      "ncbi_accession": "SAMN07210235",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSDD-5"
+      }
+    },
+    "nmdc:bsm-99-841b70c6": {
+      "ncbi_accession": "SAMN07210234",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSDD-4"
+      }
+    },
+    "nmdc:bsm-99-c5c2d66b": {
+      "ncbi_accession": "SAMN07210233",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSDD-3"
+      }
+    },
+    "nmdc:bsm-99-33adb9fe": {
+      "ncbi_accession": "SAMN07210232",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSDD-2"
+      }
+    },
+    "nmdc:bsm-99-18638dec": {
+      "ncbi_accession": "SAMN07210231",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "SBSDD-1"
+      }
+    },
+    "nmdc:bsm-99-e2026fcc": {
+      "ncbi_accession": "SAMN07210230",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMTD-5"
+      }
+    },
+    "nmdc:bsm-99-ddc30d0f": {
+      "ncbi_accession": "SAMN07210229",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMTD-4"
+      }
+    },
+    "nmdc:bsm-99-231539c2": {
+      "ncbi_accession": "SAMN07210228",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMTD-3"
+      }
+    },
+    "nmdc:bsm-99-99c8ff90": {
+      "ncbi_accession": "SAMN07210227",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMTD-2"
+      }
+    },
+    "nmdc:bsm-99-ab42ecd6": {
+      "ncbi_accession": "SAMN07210226",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMTD-1"
+      }
+    },
+    "nmdc:bsm-99-eb516c39": {
+      "ncbi_accession": "SAMN07210225",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMDD-5"
+      }
+    },
+    "nmdc:bsm-99-9a7c1d44": {
+      "ncbi_accession": "SAMN07210224",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMDD-4"
+      }
+    },
+    "nmdc:bsm-99-daabb38f": {
+      "ncbi_accession": "SAMN07210223",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMDD-3"
+      }
+    },
+    "nmdc:bsm-99-76ea93fd": {
+      "ncbi_accession": "SAMN07210222",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMDD-2"
+      }
+    },
+    "nmdc:bsm-99-3b1a9fb0": {
+      "ncbi_accession": "SAMN07210221",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEMDD-1"
+      }
+    },
+    "nmdc:bsm-99-bcd9ff2c": {
+      "ncbi_accession": "SAMN07210220",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDTD-5"
+      }
+    },
+    "nmdc:bsm-99-8e27ff11": {
+      "ncbi_accession": "SAMN07210219",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDTD-4"
+      }
+    },
+    "nmdc:bsm-99-cc6b0bb6": {
+      "ncbi_accession": "SAMN07210218",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDTD-3"
+      }
+    },
+    "nmdc:bsm-99-b98f46a1": {
+      "ncbi_accession": "SAMN07210217",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDTD-2"
+      }
+    },
+    "nmdc:bsm-99-e230819d": {
+      "ncbi_accession": "SAMN07210216",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDTD-1"
+      }
+    },
+    "nmdc:bsm-99-2d50b13f": {
+      "ncbi_accession": "SAMN07210215",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDDD-5"
+      }
+    },
+    "nmdc:bsm-99-eaa27a5d": {
+      "ncbi_accession": "SAMN07210214",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDDD-4"
+      }
+    },
+    "nmdc:bsm-99-146e3368": {
+      "ncbi_accession": "SAMN07210213",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDDD-3"
+      }
+    },
+    "nmdc:bsm-99-1c096cff": {
+      "ncbi_accession": "SAMN07210212",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDDD-2"
+      }
+    },
+    "nmdc:bsm-99-eff2fa18": {
+      "ncbi_accession": "SAMN07210211",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "PEDDD-1"
+      }
+    },
+    "nmdc:bsm-99-60630572": {
+      "ncbi_accession": "SAMN07210210",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLTD-5"
+      }
+    },
+    "nmdc:bsm-99-fec9d430": {
+      "ncbi_accession": "SAMN07210209",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLTD-4"
+      }
+    },
+    "nmdc:bsm-99-e15e841b": {
+      "ncbi_accession": "SAMN07210208",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLTD-3"
+      }
+    },
+    "nmdc:bsm-99-148419b5": {
+      "ncbi_accession": "SAMN07210207",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLTD-2"
+      }
+    },
+    "nmdc:bsm-99-1aa3e8fb": {
+      "ncbi_accession": "SAMN07210206",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLTD-1"
+      }
+    },
+    "nmdc:bsm-99-fdf26d40": {
+      "ncbi_accession": "SAMN07210205",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLDD-5"
+      }
+    },
+    "nmdc:bsm-99-37e127ec": {
+      "ncbi_accession": "SAMN07210204",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLDD-4"
+      }
+    },
+    "nmdc:bsm-99-acd3d9ad": {
+      "ncbi_accession": "SAMN07210203",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLDD-3"
+      }
+    },
+    "nmdc:bsm-99-f0d18147": {
+      "ncbi_accession": "SAMN07210202",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLDD-2"
+      }
+    },
+    "nmdc:bsm-99-8e86f614": {
+      "ncbi_accession": "SAMN07210201",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "MWLDD-1"
+      }
+    },
+    "nmdc:bsm-99-8dd656e5": {
+      "ncbi_accession": "SAMN07210200",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMTD-5"
+      }
+    },
+    "nmdc:bsm-99-a6aee00a": {
+      "ncbi_accession": "SAMN07210199",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMTD-4"
+      }
+    },
+    "nmdc:bsm-99-d2d11022": {
+      "ncbi_accession": "SAMN07210198",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMTD-3"
+      }
+    },
+    "nmdc:bsm-99-46114e9c": {
+      "ncbi_accession": "SAMN07210197",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMTD-2"
+      }
+    },
+    "nmdc:bsm-99-e6e0beb9": {
+      "ncbi_accession": "SAMN07210196",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMTD-1"
+      }
+    },
+    "nmdc:bsm-99-33fc9cc3": {
+      "ncbi_accession": "SAMN07210195",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMDD-5"
+      }
+    },
+    "nmdc:bsm-99-ec394c85": {
+      "ncbi_accession": "SAMN07210194",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMDD-4"
+      }
+    },
+    "nmdc:bsm-99-fb324a75": {
+      "ncbi_accession": "SAMN07210193",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMDD-3"
+      }
+    },
+    "nmdc:bsm-99-7a0b3ef9": {
+      "ncbi_accession": "SAMN07210192",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMDD-2"
+      }
+    },
+    "nmdc:bsm-99-2a40f0df": {
+      "ncbi_accession": "SAMN07210191",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPMDD-1"
+      }
+    },
+    "nmdc:bsm-99-ccca4f25": {
+      "ncbi_accession": "SAMN07210190",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDTD-5"
+      }
+    },
+    "nmdc:bsm-99-f59b0e90": {
+      "ncbi_accession": "SAMN07210189",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDTD-4"
+      }
+    },
+    "nmdc:bsm-99-b46023fa": {
+      "ncbi_accession": "SAMN07210188",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDTD-3"
+      }
+    },
+    "nmdc:bsm-99-b93ee2cb": {
+      "ncbi_accession": "SAMN07210187",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDTD-2"
+      }
+    },
+    "nmdc:bsm-99-1dd32de8": {
+      "ncbi_accession": "SAMN07210186",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDTD-1"
+      }
+    },
+    "nmdc:bsm-99-b36ed1dc": {
+      "ncbi_accession": "SAMN07210185",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDDD-5"
+      }
+    },
+    "nmdc:bsm-99-eac8976a": {
+      "ncbi_accession": "SAMN07210184",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDDD-4"
+      }
+    },
+    "nmdc:bsm-99-bc8b08e1": {
+      "ncbi_accession": "SAMN07210183",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDDD-3"
+      }
+    },
+    "nmdc:bsm-99-51483c87": {
+      "ncbi_accession": "SAMN07210182",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDDD-2"
+      }
+    },
+    "nmdc:bsm-99-9ed321b4": {
+      "ncbi_accession": "SAMN07210181",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LPDDD-1"
+      }
+    },
+    "nmdc:bsm-99-ee36ce25": {
+      "ncbi_accession": "SAMN07210180",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMTD-5"
+      }
+    },
+    "nmdc:bsm-99-51ad2f32": {
+      "ncbi_accession": "SAMN07210179",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMTD-4"
+      }
+    },
+    "nmdc:bsm-99-f1bbaad6": {
+      "ncbi_accession": "SAMN07210178",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMTD-3"
+      }
+    },
+    "nmdc:bsm-99-ad679f1b": {
+      "ncbi_accession": "SAMN07210177",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMTD-2"
+      }
+    },
+    "nmdc:bsm-99-a2c8b062": {
+      "ncbi_accession": "SAMN07210176",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMTD-1"
+      }
+    },
+    "nmdc:bsm-99-5b65926f": {
+      "ncbi_accession": "SAMN07210175",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMDD-5"
+      }
+    },
+    "nmdc:bsm-99-728cc735": {
+      "ncbi_accession": "SAMN07210174",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMDD-4"
+      }
+    },
+    "nmdc:bsm-99-d10b1af4": {
+      "ncbi_accession": "SAMN07210173",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMDD-3"
+      }
+    },
+    "nmdc:bsm-99-b00c54c4": {
+      "ncbi_accession": "SAMN07210172",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMDD-2"
+      }
+    },
+    "nmdc:bsm-99-bbdbcef2": {
+      "ncbi_accession": "SAMN07210171",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEMDD-1"
+      }
+    },
+    "nmdc:bsm-99-2d8a29c5": {
+      "ncbi_accession": "SAMN07210170",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDTD-5"
+      }
+    },
+    "nmdc:bsm-99-7aae021a": {
+      "ncbi_accession": "SAMN07210169",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDTD-4"
+      }
+    },
+    "nmdc:bsm-99-027706da": {
+      "ncbi_accession": "SAMN07210168",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDTD-3"
+      }
+    },
+    "nmdc:bsm-99-5132baec": {
+      "ncbi_accession": "SAMN07210167",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDTD-2"
+      }
+    },
+    "nmdc:bsm-99-f1daba36": {
+      "ncbi_accession": "SAMN07210166",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDTD-1"
+      }
+    },
+    "nmdc:bsm-99-b3a0f91f": {
+      "ncbi_accession": "SAMN07210165",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDDD-5"
+      }
+    },
+    "nmdc:bsm-99-aeb08a9d": {
+      "ncbi_accession": "SAMN07210164",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDDD-4"
+      }
+    },
+    "nmdc:bsm-99-f7664299": {
+      "ncbi_accession": "SAMN07210163",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDDD-3"
+      }
+    },
+    "nmdc:bsm-99-11858dcb": {
+      "ncbi_accession": "SAMN07210162",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDDD-2"
+      }
+    },
+    "nmdc:bsm-99-f84490b9": {
+      "ncbi_accession": "SAMN07210161",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "LEDDD-1"
+      }
+    },
+    "nmdc:bsm-99-d7928425": {
+      "ncbi_accession": "SAMN07210160",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLTD-5"
+      }
+    },
+    "nmdc:bsm-99-085f3fd2": {
+      "ncbi_accession": "SAMN07210159",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLTD-4"
+      }
+    },
+    "nmdc:bsm-99-1036173e": {
+      "ncbi_accession": "SAMN07210158",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLTD-3"
+      }
+    },
+    "nmdc:bsm-99-b5fce195": {
+      "ncbi_accession": "SAMN07210157",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLTD-2"
+      }
+    },
+    "nmdc:bsm-99-40f272db": {
+      "ncbi_accession": "SAMN07210156",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLTD-1"
+      }
+    },
+    "nmdc:bsm-99-520c57c0": {
+      "ncbi_accession": "SAMN07210155",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLDD-5"
+      }
+    },
+    "nmdc:bsm-99-e338fba3": {
+      "ncbi_accession": "SAMN07210154",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLDD-4"
+      }
+    },
+    "nmdc:bsm-99-b48c76ec": {
+      "ncbi_accession": "SAMN07210153",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLDD-3"
+      }
+    },
+    "nmdc:bsm-99-3212779e": {
+      "ncbi_accession": "SAMN07210152",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLDD-2"
+      }
+    },
+    "nmdc:bsm-99-7ac9c66a": {
+      "ncbi_accession": "SAMN07210151",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant leaves",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DWLDD-1"
+      }
+    },
+    "nmdc:bsm-99-bc423a3a": {
+      "ncbi_accession": "SAMN07210150",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRTD-5"
+      }
+    },
+    "nmdc:bsm-99-2229635c": {
+      "ncbi_accession": "SAMN07210149",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRTD-4"
+      }
+    },
+    "nmdc:bsm-99-0eb4cdf1": {
+      "ncbi_accession": "SAMN07210148",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRTD-3"
+      }
+    },
+    "nmdc:bsm-99-aaf3e645": {
+      "ncbi_accession": "SAMN07210147",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRTD-2"
+      }
+    },
+    "nmdc:bsm-99-ea53a321": {
+      "ncbi_accession": "SAMN07210146",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRTD-1"
+      }
+    },
+    "nmdc:bsm-99-b67554c3": {
+      "ncbi_accession": "SAMN07210145",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRDD-5"
+      }
+    },
+    "nmdc:bsm-99-16b45d30": {
+      "ncbi_accession": "SAMN07210144",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRDD-4"
+      }
+    },
+    "nmdc:bsm-99-f9ca482b": {
+      "ncbi_accession": "SAMN07210143",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRDD-3"
+      }
+    },
+    "nmdc:bsm-99-ad5c6a1d": {
+      "ncbi_accession": "SAMN07210142",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRDD-2"
+      }
+    },
+    "nmdc:bsm-99-70944b27": {
+      "ncbi_accession": "SAMN07210141",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DSRDD-1"
+      }
+    },
+    "nmdc:bsm-99-793ffb04": {
+      "ncbi_accession": "SAMN07210140",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZTD-5"
+      }
+    },
+    "nmdc:bsm-99-0168c9f4": {
+      "ncbi_accession": "SAMN07210139",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZTD-4"
+      }
+    },
+    "nmdc:bsm-99-7e1e7e9d": {
+      "ncbi_accession": "SAMN07210138",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZTD-3"
+      }
+    },
+    "nmdc:bsm-99-9010582a": {
+      "ncbi_accession": "SAMN07210137",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZTD-2"
+      }
+    },
+    "nmdc:bsm-99-ce1f411d": {
+      "ncbi_accession": "SAMN07210136",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZTD-1"
+      }
+    },
+    "nmdc:bsm-99-fb8254f8": {
+      "ncbi_accession": "SAMN07210135",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZDD-5"
+      }
+    },
+    "nmdc:bsm-99-47b0cc96": {
+      "ncbi_accession": "SAMN07210134",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZDD-4"
+      }
+    },
+    "nmdc:bsm-99-2eefb28a": {
+      "ncbi_accession": "SAMN07210133",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZDD-3"
+      }
+    },
+    "nmdc:bsm-99-d2cfe1a2": {
+      "ncbi_accession": "SAMN07210132",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZDD-2"
+      }
+    },
+    "nmdc:bsm-99-fc564ee9": {
+      "ncbi_accession": "SAMN07210131",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DRZDD-1"
+      }
+    },
+    "nmdc:bsm-99-448a3669": {
+      "ncbi_accession": "SAMN07210130",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRTD-5"
+      }
+    },
+    "nmdc:bsm-99-83665a5c": {
+      "ncbi_accession": "SAMN07210129",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRTD-4"
+      }
+    },
+    "nmdc:bsm-99-9188789b": {
+      "ncbi_accession": "SAMN07210128",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRTD-3"
+      }
+    },
+    "nmdc:bsm-99-e8e3be0f": {
+      "ncbi_accession": "SAMN07210127",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRTD-2"
+      }
+    },
+    "nmdc:bsm-99-40a47834": {
+      "ncbi_accession": "SAMN07210126",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRTD-1"
+      }
+    },
+    "nmdc:bsm-99-649bb3bf": {
+      "ncbi_accession": "SAMN07210125",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRDD-5"
+      }
+    },
+    "nmdc:bsm-99-1755e120": {
+      "ncbi_accession": "SAMN07210124",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRDD-4"
+      }
+    },
+    "nmdc:bsm-99-d571e8d3": {
+      "ncbi_accession": "SAMN07210123",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRDD-3"
+      }
+    },
+    "nmdc:bsm-99-d4adc477": {
+      "ncbi_accession": "SAMN07210122",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRDD-2"
+      }
+    },
+    "nmdc:bsm-99-a09f03e2": {
+      "ncbi_accession": "SAMN07210121",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant roots",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DFRDD-1"
+      }
+    },
+    "nmdc:bsm-99-3093bdf9": {
+      "ncbi_accession": "SAMN07210120",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSTD-5"
+      }
+    },
+    "nmdc:bsm-99-36a7e49b": {
+      "ncbi_accession": "SAMN07210119",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSTD-4"
+      }
+    },
+    "nmdc:bsm-99-3a3edce9": {
+      "ncbi_accession": "SAMN07210118",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSTD-3"
+      }
+    },
+    "nmdc:bsm-99-812fcbc9": {
+      "ncbi_accession": "SAMN07210117",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSTD-2"
+      }
+    },
+    "nmdc:bsm-99-b41e88e7": {
+      "ncbi_accession": "SAMN07210116",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSTD-1"
+      }
+    },
+    "nmdc:bsm-99-c4759c73": {
+      "ncbi_accession": "SAMN07210115",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSDD-5"
+      }
+    },
+    "nmdc:bsm-99-1922569b": {
+      "ncbi_accession": "SAMN07210114",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSDD-4"
+      }
+    },
+    "nmdc:bsm-99-6997cfbd": {
+      "ncbi_accession": "SAMN07210113",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSDD-3"
+      }
+    },
+    "nmdc:bsm-99-8404f756": {
+      "ncbi_accession": "SAMN07210112",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSDD-2"
+      }
+    },
+    "nmdc:bsm-99-55b039fe": {
+      "ncbi_accession": "SAMN07210111",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "soil",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "DBSDD-1"
+      }
+    },
+    "nmdc:bsm-99-5ca451af": {
+      "ncbi_accession": "SAMN07210110",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXTD-5"
+      }
+    },
+    "nmdc:bsm-99-9096a6c1": {
+      "ncbi_accession": "SAMN07210109",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXTD-4"
+      }
+    },
+    "nmdc:bsm-99-de76e3b0": {
+      "ncbi_accession": "SAMN07210108",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXTD-3"
+      }
+    },
+    "nmdc:bsm-99-0cdf7cc7": {
+      "ncbi_accession": "SAMN07210107",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXTD-2"
+      }
+    },
+    "nmdc:bsm-99-5b1de212": {
+      "ncbi_accession": "SAMN07210106",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXTD-1"
+      }
+    },
+    "nmdc:bsm-99-b26cc0fa": {
+      "ncbi_accession": "SAMN07210105",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXDD-5"
+      }
+    },
+    "nmdc:bsm-99-24d1e5e0": {
+      "ncbi_accession": "SAMN07210104",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXDD-4"
+      }
+    },
+    "nmdc:bsm-99-847beefd": {
+      "ncbi_accession": "SAMN07210103",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXDD-3"
+      }
+    },
+    "nmdc:bsm-99-0680f991": {
+      "ncbi_accession": "SAMN07210102",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXDD-2"
+      }
+    },
+    "nmdc:bsm-99-35a48031": {
+      "ncbi_accession": "SAMN07210101",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3HXDD-1"
+      }
+    },
+    "nmdc:bsm-99-f67ccc15": {
+      "ncbi_accession": "SAMN07210100",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXTD-5"
+      }
+    },
+    "nmdc:bsm-99-a953d834": {
+      "ncbi_accession": "SAMN07210099",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXTD-4"
+      }
+    },
+    "nmdc:bsm-99-4ff7311a": {
+      "ncbi_accession": "SAMN07210098",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXTD-3"
+      }
+    },
+    "nmdc:bsm-99-54152283": {
+      "ncbi_accession": "SAMN07210097",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXTD-2"
+      }
+    },
+    "nmdc:bsm-99-f320484f": {
+      "ncbi_accession": "SAMN07210096",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXTD-1"
+      }
+    },
+    "nmdc:bsm-99-10c905b6": {
+      "ncbi_accession": "SAMN07210095",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXDD-5"
+      }
+    },
+    "nmdc:bsm-99-dd89a8a2": {
+      "ncbi_accession": "SAMN07210094",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXDD-4"
+      }
+    },
+    "nmdc:bsm-99-00075050": {
+      "ncbi_accession": "SAMN07210093",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXDD-3"
+      }
+    },
+    "nmdc:bsm-99-77b3b4d0": {
+      "ncbi_accession": "SAMN07210092",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXDD-2"
+      }
+    },
+    "nmdc:bsm-99-a23dcb5c": {
+      "ncbi_accession": "SAMN07210091",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3SXDD-1"
+      }
+    },
+    "nmdc:bsm-99-9d4e0ba6": {
+      "ncbi_accession": "SAMN07210090",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBTD-5"
+      }
+    },
+    "nmdc:bsm-99-012f79e8": {
+      "ncbi_accession": "SAMN07210089",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBTD-4"
+      }
+    },
+    "nmdc:bsm-99-11ed6a7d": {
+      "ncbi_accession": "SAMN07210088",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBTD-3"
+      }
+    },
+    "nmdc:bsm-99-0320ddfb": {
+      "ncbi_accession": "SAMN07210087",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBTD-2"
+      }
+    },
+    "nmdc:bsm-99-be547fe4": {
+      "ncbi_accession": "SAMN07210086",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBTD-1"
+      }
+    },
+    "nmdc:bsm-99-57d940cf": {
+      "ncbi_accession": "SAMN07210085",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBDD-5"
+      }
+    },
+    "nmdc:bsm-99-b9f56d8c": {
+      "ncbi_accession": "SAMN07210084",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBDD-4"
+      }
+    },
+    "nmdc:bsm-99-f5cd81dd": {
+      "ncbi_accession": "SAMN07210083",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBDD-3"
+      }
+    },
+    "nmdc:bsm-99-18587981": {
+      "ncbi_accession": "SAMN07210082",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBDD-2"
+      }
+    },
+    "nmdc:bsm-99-abe07f92": {
+      "ncbi_accession": "SAMN07210081",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "3CBDD-1"
+      }
+    },
+    "nmdc:bsm-99-c1cec9e7": {
+      "ncbi_accession": "SAMN07210080",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXTD-5"
+      }
+    },
+    "nmdc:bsm-99-487d4b41": {
+      "ncbi_accession": "SAMN07210079",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXTD-4"
+      }
+    },
+    "nmdc:bsm-99-9b90e6ba": {
+      "ncbi_accession": "SAMN07210078",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXTD-3"
+      }
+    },
+    "nmdc:bsm-99-da61cecc": {
+      "ncbi_accession": "SAMN07210077",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXTD-2"
+      }
+    },
+    "nmdc:bsm-99-97f7f07b": {
+      "ncbi_accession": "SAMN07210076",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXTD-1"
+      }
+    },
+    "nmdc:bsm-99-bcbdc663": {
+      "ncbi_accession": "SAMN07210075",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXDD-5"
+      }
+    },
+    "nmdc:bsm-99-aaf0a37f": {
+      "ncbi_accession": "SAMN07210074",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXDD-4"
+      }
+    },
+    "nmdc:bsm-99-e426aea0": {
+      "ncbi_accession": "SAMN07210073",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXDD-3"
+      }
+    },
+    "nmdc:bsm-99-ede42e63": {
+      "ncbi_accession": "SAMN07210072",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXDD-2"
+      }
+    },
+    "nmdc:bsm-99-6b4c1a70": {
+      "ncbi_accession": "SAMN07210071",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2HXDD-1"
+      }
+    },
+    "nmdc:bsm-99-fa22e0e1": {
+      "ncbi_accession": "SAMN07210070",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXTD-5"
+      }
+    },
+    "nmdc:bsm-99-14700a64": {
+      "ncbi_accession": "SAMN07210069",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXTD-4"
+      }
+    },
+    "nmdc:bsm-99-4b6fa7fd": {
+      "ncbi_accession": "SAMN07210068",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXTD-3"
+      }
+    },
+    "nmdc:bsm-99-5711bd39": {
+      "ncbi_accession": "SAMN07210067",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXTD-2"
+      }
+    },
+    "nmdc:bsm-99-f9534cdf": {
+      "ncbi_accession": "SAMN07210066",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXTD-1"
+      }
+    },
+    "nmdc:bsm-99-5704e7ec": {
+      "ncbi_accession": "SAMN07210065",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXDD-5"
+      }
+    },
+    "nmdc:bsm-99-7750ac2e": {
+      "ncbi_accession": "SAMN07210064",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXDD-4"
+      }
+    },
+    "nmdc:bsm-99-3a3429c8": {
+      "ncbi_accession": "SAMN07210063",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXDD-3"
+      }
+    },
+    "nmdc:bsm-99-a8d8a356": {
+      "ncbi_accession": "SAMN07210062",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXDD-2"
+      }
+    },
+    "nmdc:bsm-99-c085ba7e": {
+      "ncbi_accession": "SAMN07210061",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2SXDD-1"
+      }
+    },
+    "nmdc:bsm-99-56608685": {
+      "ncbi_accession": "SAMN07210060",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBTD-5"
+      }
+    },
+    "nmdc:bsm-99-a302790a": {
+      "ncbi_accession": "SAMN07210059",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBTD-4"
+      }
+    },
+    "nmdc:bsm-99-6cdf62f2": {
+      "ncbi_accession": "SAMN07210058",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBTD-3"
+      }
+    },
+    "nmdc:bsm-99-dae484ff": {
+      "ncbi_accession": "SAMN07210057",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBTD-2"
+      }
+    },
+    "nmdc:bsm-99-dca79887": {
+      "ncbi_accession": "SAMN07210056",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBTD-1"
+      }
+    },
+    "nmdc:bsm-99-c37ce4f5": {
+      "ncbi_accession": "SAMN07210055",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBDD-5"
+      }
+    },
+    "nmdc:bsm-99-cd1087dc": {
+      "ncbi_accession": "SAMN07210054",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBDD-4"
+      }
+    },
+    "nmdc:bsm-99-684ffc54": {
+      "ncbi_accession": "SAMN07210053",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBDD-3"
+      }
+    },
+    "nmdc:bsm-99-bb7c6a34": {
+      "ncbi_accession": "SAMN07210052",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBDD-2"
+      }
+    },
+    "nmdc:bsm-99-5e86c610": {
+      "ncbi_accession": "SAMN07210051",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "2CBDD-1"
+      }
+    },
+    "nmdc:bsm-99-3c26959f": {
+      "ncbi_accession": "SAMN07210050",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXTD-5"
+      }
+    },
+    "nmdc:bsm-99-e608ebd2": {
+      "ncbi_accession": "SAMN07210049",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXTD-4"
+      }
+    },
+    "nmdc:bsm-99-7fe48e2d": {
+      "ncbi_accession": "SAMN07210048",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXTD-3"
+      }
+    },
+    "nmdc:bsm-99-523d53e4": {
+      "ncbi_accession": "SAMN07210047",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXTD-2"
+      }
+    },
+    "nmdc:bsm-99-ae38b8a9": {
+      "ncbi_accession": "SAMN07210046",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXTD-1"
+      }
+    },
+    "nmdc:bsm-99-a0d42ca4": {
+      "ncbi_accession": "SAMN07210045",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXDD-5"
+      }
+    },
+    "nmdc:bsm-99-9432b7fa": {
+      "ncbi_accession": "SAMN07210044",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXDD-4"
+      }
+    },
+    "nmdc:bsm-99-ed12f6ab": {
+      "ncbi_accession": "SAMN07210043",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXDD-3"
+      }
+    },
+    "nmdc:bsm-99-bf97ec3e": {
+      "ncbi_accession": "SAMN07210042",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXDD-2"
+      }
+    },
+    "nmdc:bsm-99-ed85a981": {
+      "ncbi_accession": "SAMN07210041",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1HXDD-1"
+      }
+    },
+    "nmdc:bsm-99-e44e6c00": {
+      "ncbi_accession": "SAMN07210040",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXTD-5"
+      }
+    },
+    "nmdc:bsm-99-36d03d14": {
+      "ncbi_accession": "SAMN07210039",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXTD-4"
+      }
+    },
+    "nmdc:bsm-99-de16642f": {
+      "ncbi_accession": "SAMN07210038",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXTD-3"
+      }
+    },
+    "nmdc:bsm-99-1213bc12": {
+      "ncbi_accession": "SAMN07210037",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXTD-2"
+      }
+    },
+    "nmdc:bsm-99-9ac17d0e": {
+      "ncbi_accession": "SAMN07210036",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXTD-1"
+      }
+    },
+    "nmdc:bsm-99-508fc5ee": {
+      "ncbi_accession": "SAMN07210035",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXDD-5"
+      }
+    },
+    "nmdc:bsm-99-e50d8633": {
+      "ncbi_accession": "SAMN07210034",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXDD-4"
+      }
+    },
+    "nmdc:bsm-99-cbf1a9f5": {
+      "ncbi_accession": "SAMN07210033",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXDD-3"
+      }
+    },
+    "nmdc:bsm-99-58a210d7": {
+      "ncbi_accession": "SAMN07210032",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXDD-2"
+      }
+    },
+    "nmdc:bsm-99-aa0ad2ba": {
+      "ncbi_accession": "SAMN07210031",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1SXDD-1"
+      }
+    },
+    "nmdc:bsm-99-e27bcf61": {
+      "ncbi_accession": "SAMN07210030",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBTD-5"
+      }
+    },
+    "nmdc:bsm-99-8888c105": {
+      "ncbi_accession": "SAMN07210029",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBTD-4"
+      }
+    },
+    "nmdc:bsm-99-682fb2ad": {
+      "ncbi_accession": "SAMN07210028",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBTD-3"
+      }
+    },
+    "nmdc:bsm-99-b35defef": {
+      "ncbi_accession": "SAMN07210027",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBTD-2"
+      }
+    },
+    "nmdc:bsm-99-bedcc105": {
+      "ncbi_accession": "SAMN07210026",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus trichocarpa x deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBTD-1"
+      }
+    },
+    "nmdc:bsm-99-a68eecef": {
+      "ncbi_accession": "SAMN07210025",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBDD-5"
+      }
+    },
+    "nmdc:bsm-99-68843a96": {
+      "ncbi_accession": "SAMN07210024",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBDD-4"
+      }
+    },
+    "nmdc:bsm-99-3acf6416": {
+      "ncbi_accession": "SAMN07210023",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBDD-3"
+      }
+    },
+    "nmdc:bsm-99-169712e6": {
+      "ncbi_accession": "SAMN07210022",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBDD-2"
+      }
+    },
+    "nmdc:bsm-99-0b8e981f": {
+      "ncbi_accession": "SAMN07210021",
+      "ncbi_title": "MIMARKS Survey related sample from plant metagenome",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2014-08",
+        "env_broad_scale": "deciduous forest",
+        "env_local_scale": "plantation",
+        "env_medium": "plant stem",
+        "geo_loc_name": "USA: Knoxville",
+        "host": "Populus deltoides",
+        "lat_lon": "35.84 N 83.96 W",
+        "Biological Replicate": "1CBDD-1"
+      }
+    }
+  }
+}

@@ -1,0 +1,2981 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-362f6ab9",
+    "name": "",
+    "title": "Microbial communities of Corvallis and Clatskanie Populus trichocarpa Common Gardens",
+    "description": "Common gardens at Corvallis and Clatskanie were used to assess microbiome diversity in the rhizosphere, endosphere and soil between Populus trichocarpa individual clones",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-8325a89e": {
+      "ncbi_accession": "SAMN16283545",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-c1e14712": {
+      "ncbi_accession": "SAMN16283544",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-3001f5e2": {
+      "ncbi_accession": "SAMN16283543",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-bc83c384": {
+      "ncbi_accession": "SAMN16283542",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d10ecf87": {
+      "ncbi_accession": "SAMN16283541",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-cb7c8296": {
+      "ncbi_accession": "SAMN16283540",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-b4b568d5": {
+      "ncbi_accession": "SAMN16283539",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-85ffb06a": {
+      "ncbi_accession": "SAMN16283538",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-857f8ab7": {
+      "ncbi_accession": "SAMN16283537",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-349fd1fc": {
+      "ncbi_accession": "SAMN16283536",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-86bf4283": {
+      "ncbi_accession": "SAMN16283535",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-7934b37b": {
+      "ncbi_accession": "SAMN16283534",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-34b20156": {
+      "ncbi_accession": "SAMN16283533",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-c81c2190": {
+      "ncbi_accession": "SAMN16283532",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-b6dfe20d": {
+      "ncbi_accession": "SAMN16283531",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-dcfc9646": {
+      "ncbi_accession": "SAMN16283530",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ec5a6e96": {
+      "ncbi_accession": "SAMN16283529",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-36d93c11": {
+      "ncbi_accession": "SAMN16283528",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4d4305f1": {
+      "ncbi_accession": "SAMN16283527",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4b452c6c": {
+      "ncbi_accession": "SAMN16283526",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-fa0a538e": {
+      "ncbi_accession": "SAMN16283525",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-821325a3": {
+      "ncbi_accession": "SAMN16283524",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d394abef": {
+      "ncbi_accession": "SAMN16283523",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-5d0335d5": {
+      "ncbi_accession": "SAMN16283522",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4c32ddd9": {
+      "ncbi_accession": "SAMN16283521",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-5bd9ac60": {
+      "ncbi_accession": "SAMN16283520",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ba07b9ba": {
+      "ncbi_accession": "SAMN16283519",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-57f36d1c": {
+      "ncbi_accession": "SAMN16283518",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-e43ef1e4": {
+      "ncbi_accession": "SAMN16283517",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-23646d91": {
+      "ncbi_accession": "SAMN16283516",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-bde5bbdb": {
+      "ncbi_accession": "SAMN16283515",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8a3bc871": {
+      "ncbi_accession": "SAMN16283514",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-9e717b35": {
+      "ncbi_accession": "SAMN16283513",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-39bd45d4": {
+      "ncbi_accession": "SAMN16283512",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-895dc33d": {
+      "ncbi_accession": "SAMN16283511",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-60a80e0e": {
+      "ncbi_accession": "SAMN16283510",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d862b42f": {
+      "ncbi_accession": "SAMN16283509",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-9bea3574": {
+      "ncbi_accession": "SAMN16283508",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ccffd55c": {
+      "ncbi_accession": "SAMN16283507",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-af659c75": {
+      "ncbi_accession": "SAMN16283506",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ed258b46": {
+      "ncbi_accession": "SAMN16283505",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d721432d": {
+      "ncbi_accession": "SAMN16283504",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-9c22c993": {
+      "ncbi_accession": "SAMN16283503",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ba70a12b": {
+      "ncbi_accession": "SAMN16283502",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-f862fadb": {
+      "ncbi_accession": "SAMN16283501",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-f48d9c6a": {
+      "ncbi_accession": "SAMN16283500",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-35687a35": {
+      "ncbi_accession": "SAMN16283499",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ddad85a4": {
+      "ncbi_accession": "SAMN16283498",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d0c952ca": {
+      "ncbi_accession": "SAMN16283497",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-c22d415f": {
+      "ncbi_accession": "SAMN16283496",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4c217c42": {
+      "ncbi_accession": "SAMN16283495",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-5f26acf4": {
+      "ncbi_accession": "SAMN16283494",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-341f3ca8": {
+      "ncbi_accession": "SAMN16283493",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-e97d2542": {
+      "ncbi_accession": "SAMN16283492",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-265500f2": {
+      "ncbi_accession": "SAMN16283491",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d45464de": {
+      "ncbi_accession": "SAMN16283490",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-2aa264ea": {
+      "ncbi_accession": "SAMN16283489",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-81d22de6": {
+      "ncbi_accession": "SAMN16283488",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-212bd7d7": {
+      "ncbi_accession": "SAMN16283487",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-b5e8caee": {
+      "ncbi_accession": "SAMN16283486",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4d3a5b48": {
+      "ncbi_accession": "SAMN16283485",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-c07b576f": {
+      "ncbi_accession": "SAMN16283484",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8485bf8a": {
+      "ncbi_accession": "SAMN16283483",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d332656a": {
+      "ncbi_accession": "SAMN16283482",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8463ed94": {
+      "ncbi_accession": "SAMN16283481",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-e8ce8ce1": {
+      "ncbi_accession": "SAMN16283480",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-a797e227": {
+      "ncbi_accession": "SAMN16283479",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-3ffc4917": {
+      "ncbi_accession": "SAMN16283478",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-b633cfe3": {
+      "ncbi_accession": "SAMN16283477",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-3d96ae51": {
+      "ncbi_accession": "SAMN16283476",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8e179335": {
+      "ncbi_accession": "SAMN16283475",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4d7a6f0b": {
+      "ncbi_accession": "SAMN16283474",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-d9adaa69": {
+      "ncbi_accession": "SAMN16283473",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-610d2e51": {
+      "ncbi_accession": "SAMN16283472",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-a9c38450": {
+      "ncbi_accession": "SAMN16283471",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-9856c9ba": {
+      "ncbi_accession": "SAMN16283470",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-fc0a53c2": {
+      "ncbi_accession": "SAMN16283469",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-e59af44a": {
+      "ncbi_accession": "SAMN16283468",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-0344f591": {
+      "ncbi_accession": "SAMN16283467",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-99f36d3d": {
+      "ncbi_accession": "SAMN16283466",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-6c820b45": {
+      "ncbi_accession": "SAMN16283465",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8fa43d07": {
+      "ncbi_accession": "SAMN16283464",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-44791028": {
+      "ncbi_accession": "SAMN16283463",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-89c2efce": {
+      "ncbi_accession": "SAMN16283462",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-be5023a1": {
+      "ncbi_accession": "SAMN16283461",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8d2edf29": {
+      "ncbi_accession": "SAMN16283460",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-11a66b4a": {
+      "ncbi_accession": "SAMN16283459",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-4333b6eb": {
+      "ncbi_accession": "SAMN16283458",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-67a51def": {
+      "ncbi_accession": "SAMN16283457",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-1c83435d": {
+      "ncbi_accession": "SAMN16283456",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-91fcf6a9": {
+      "ncbi_accession": "SAMN16283455",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-99bff43b": {
+      "ncbi_accession": "SAMN16283454",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-969cc6bf": {
+      "ncbi_accession": "SAMN16283453",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ced2975c": {
+      "ncbi_accession": "SAMN16283452",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-56e5f510": {
+      "ncbi_accession": "SAMN16283451",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-a265d865": {
+      "ncbi_accession": "SAMN16283450",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-03fd67b6": {
+      "ncbi_accession": "SAMN16283449",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-b68e3fc4": {
+      "ncbi_accession": "SAMN16283448",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-ffc940dd": {
+      "ncbi_accession": "SAMN16283447",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-11",
+        "geo_loc_name": "USA: Corvallis GWAS Site",
+        "lat_lon": "44.5880 N 123.1935 W"
+      }
+    },
+    "nmdc:bsm-99-8f713bd7": {
+      "ncbi_accession": "SAMN16283446",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-afc54f9c": {
+      "ncbi_accession": "SAMN16283445",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-c37743fe": {
+      "ncbi_accession": "SAMN16283444",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a702e01b": {
+      "ncbi_accession": "SAMN16283443",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-af8c32cd": {
+      "ncbi_accession": "SAMN16283442",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-ed78f601": {
+      "ncbi_accession": "SAMN16283441",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a5bb611e": {
+      "ncbi_accession": "SAMN16283440",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-8cfa7c9a": {
+      "ncbi_accession": "SAMN16283439",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a6a600e3": {
+      "ncbi_accession": "SAMN16283438",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-0c436ac3": {
+      "ncbi_accession": "SAMN16283437",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a2ee2870": {
+      "ncbi_accession": "SAMN16283436",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-beb710eb": {
+      "ncbi_accession": "SAMN16283435",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-fd5fd2ce": {
+      "ncbi_accession": "SAMN16283434",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-b3618c54": {
+      "ncbi_accession": "SAMN16283433",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-46cb4c29": {
+      "ncbi_accession": "SAMN16283432",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-563501c6": {
+      "ncbi_accession": "SAMN16283431",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-4c48a578": {
+      "ncbi_accession": "SAMN16283430",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-c3ed9628": {
+      "ncbi_accession": "SAMN16283429",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-9ac0ed36": {
+      "ncbi_accession": "SAMN16283428",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-0041761e": {
+      "ncbi_accession": "SAMN16283427",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-15b60ef6": {
+      "ncbi_accession": "SAMN16283426",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-72293f84": {
+      "ncbi_accession": "SAMN16283425",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-5c6186d4": {
+      "ncbi_accession": "SAMN16283424",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-427b5fe9": {
+      "ncbi_accession": "SAMN16283423",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-7a2e410d": {
+      "ncbi_accession": "SAMN16283422",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-8b13ba1e": {
+      "ncbi_accession": "SAMN16283421",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-d162a4ab": {
+      "ncbi_accession": "SAMN16283420",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-957f9cd0": {
+      "ncbi_accession": "SAMN16283419",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-beb2822d": {
+      "ncbi_accession": "SAMN16283418",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-b8721574": {
+      "ncbi_accession": "SAMN16283417",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-edc03bf8": {
+      "ncbi_accession": "SAMN16283416",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-57873a3d": {
+      "ncbi_accession": "SAMN16283415",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-c092350d": {
+      "ncbi_accession": "SAMN16283414",
+      "ncbi_title": "Metagenome or environmental sample from soil metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "soil",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-488872eb": {
+      "ncbi_accession": "SAMN16283413",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-fb73ab25": {
+      "ncbi_accession": "SAMN16283412",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-9c3d93c0": {
+      "ncbi_accession": "SAMN16283411",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-6c3b10e7": {
+      "ncbi_accession": "SAMN16283410",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-2960edb5": {
+      "ncbi_accession": "SAMN16283409",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-844fdec7": {
+      "ncbi_accession": "SAMN16283408",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-34f0cef0": {
+      "ncbi_accession": "SAMN16283407",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-662178e8": {
+      "ncbi_accession": "SAMN16283406",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-7102cc1d": {
+      "ncbi_accession": "SAMN16283405",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-cb90fd91": {
+      "ncbi_accession": "SAMN16283404",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-9dbe49b7": {
+      "ncbi_accession": "SAMN16283403",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-d82b6014": {
+      "ncbi_accession": "SAMN16283402",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-91be96d2": {
+      "ncbi_accession": "SAMN16283401",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-ece9ce48": {
+      "ncbi_accession": "SAMN16283400",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-98946a24": {
+      "ncbi_accession": "SAMN16283399",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-2bb4c7c2": {
+      "ncbi_accession": "SAMN16283398",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-7c087a57": {
+      "ncbi_accession": "SAMN16283397",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-fd8cf16c": {
+      "ncbi_accession": "SAMN16283396",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-07d9e1a4": {
+      "ncbi_accession": "SAMN16283395",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-2178679f": {
+      "ncbi_accession": "SAMN16283394",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-26742613": {
+      "ncbi_accession": "SAMN16283393",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-2937e368": {
+      "ncbi_accession": "SAMN16283392",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-f0d372d0": {
+      "ncbi_accession": "SAMN16283391",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-25915ca0": {
+      "ncbi_accession": "SAMN16283390",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-6319f0f6": {
+      "ncbi_accession": "SAMN16283389",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-e1421a08": {
+      "ncbi_accession": "SAMN16283388",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-d4169121": {
+      "ncbi_accession": "SAMN16283387",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-2999b086": {
+      "ncbi_accession": "SAMN16283386",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-15aa14f2": {
+      "ncbi_accession": "SAMN16283385",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-6703a923": {
+      "ncbi_accession": "SAMN16283384",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-4c71b6b7": {
+      "ncbi_accession": "SAMN16283383",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-f5c30471": {
+      "ncbi_accession": "SAMN16283382",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-fe94b208": {
+      "ncbi_accession": "SAMN16283381",
+      "ncbi_title": "Metagenome or environmental sample from rhizosphere metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "Root Rhizosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-afe3d56e": {
+      "ncbi_accession": "SAMN16283380",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.5",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-9766da45": {
+      "ncbi_accession": "SAMN16283379",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMC.25.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-5109de8c": {
+      "ncbi_accession": "SAMN16283378",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SQMA.25.2",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-53c25e9c": {
+      "ncbi_accession": "SAMN16283377",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa SKWD.24.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-4645ddcb": {
+      "ncbi_accession": "SAMN16283376",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa LILB.26.5",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-efaafd2e": {
+      "ncbi_accession": "SAMN16283375",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KTMA.12.2",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-ea054aa6": {
+      "ncbi_accession": "SAMN16283374",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa KLNG.20.1",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-b0690fcf": {
+      "ncbi_accession": "SAMN16283373",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa HOMC.21.3",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-68087179": {
+      "ncbi_accession": "SAMN16283372",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa CNYH.28.3",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-9f75fd8d": {
+      "ncbi_accession": "SAMN16283371",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.890",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-4ab822f3": {
+      "ncbi_accession": "SAMN16283370",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.869",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-f843232d": {
+      "ncbi_accession": "SAMN16283369",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.86",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-311ac094": {
+      "ncbi_accession": "SAMN16283368",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.833",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-73e96094": {
+      "ncbi_accession": "SAMN16283367",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.815",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-3c10bae2": {
+      "ncbi_accession": "SAMN16283366",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.803",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-5b7942ba": {
+      "ncbi_accession": "SAMN16283365",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.80",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-90388ae3": {
+      "ncbi_accession": "SAMN16283364",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.421",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-f39a11f9": {
+      "ncbi_accession": "SAMN16283363",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.42",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-004152a4": {
+      "ncbi_accession": "SAMN16283362",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.4",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-51e74c76": {
+      "ncbi_accession": "SAMN16283361",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.351",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-353088cd": {
+      "ncbi_accession": "SAMN16283360",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.319",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-bfc35b55": {
+      "ncbi_accession": "SAMN16283359",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.294",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-080ac4fa": {
+      "ncbi_accession": "SAMN16283358",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.290",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-17ebdeac": {
+      "ncbi_accession": "SAMN16283357",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.29",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a55777f7": {
+      "ncbi_accession": "SAMN16283356",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.258",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-baed73ef": {
+      "ncbi_accession": "SAMN16283355",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.246",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-541dc735": {
+      "ncbi_accession": "SAMN16283354",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.211",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-64292059": {
+      "ncbi_accession": "SAMN16283353",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.196",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-e3019bc9": {
+      "ncbi_accession": "SAMN16283352",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.184",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-363692c2": {
+      "ncbi_accession": "SAMN16283351",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.15",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-215acfbf": {
+      "ncbi_accession": "SAMN16283350",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.137",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-3a4b210c": {
+      "ncbi_accession": "SAMN16283349",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.103",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    },
+    "nmdc:bsm-99-a5ec4fda": {
+      "ncbi_accession": "SAMN16283348",
+      "ncbi_title": "Metagenome or environmental sample from root metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC.102",
+        "isolation_source": "Root Endosphere",
+        "collection_date": "2012-05-08",
+        "geo_loc_name": "USA: Clatskanie GWAS Site",
+        "lat_lon": "46.1212 N 123.2706 W"
+      }
+    }
+  }
+}

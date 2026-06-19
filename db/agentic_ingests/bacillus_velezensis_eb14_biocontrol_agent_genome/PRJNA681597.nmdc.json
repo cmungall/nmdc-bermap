@@ -1,0 +1,99 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-bcc483a0",
+      "type": "nmdc:Biosample",
+      "name": "MIGS Cultured Bacterial/Archaeal sample from Bacillus velezensis",
+      "associated_studies": [
+        "nmdc:sty-99-2d135b8e"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "Populus microbiome",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "Populus microbiome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "Leaf microbiome",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "Leaf microbiome"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "endophytes",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "endophytes"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:35:48.607578+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:35:48.607578+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN16961582"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-10"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "MIGS.ba.host-associated.6.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Canada: Montreal"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 45.552222,
+        "longitude": -73.150833
+      },
+      "samp_name": "DayaEB142017",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:492670",
+          "type": "nmdc:OntologyClass",
+          "name": "Bacillus velezensis"
+        }
+      },
+      "host_name": "Populus x jackii"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-2d135b8e",
+      "type": "nmdc:Study",
+      "name": "Bacillus velezensis strain:EB14 Genome sequencing",
+      "description": "Endophytic bacteria isolated from a leaf of Poplar trees with antagonistic activity against Sphaerulina musiva",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA681597"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:35:48.607578+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:35:48.607578+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Bacillus velezensis strain:EB14 Genome sequencing"
+    }
+  ],
+  "@type": "Database"
+}

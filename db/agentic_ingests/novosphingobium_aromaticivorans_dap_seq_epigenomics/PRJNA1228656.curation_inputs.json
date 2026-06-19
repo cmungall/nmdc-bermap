@@ -1,0 +1,29 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-3e5ac559",
+    "name": "Novosphingobium aromaticivorans DSM 12444 isolate:DSM 12444",
+    "title": "Novosphingobium aromaticivorans DSM 12444 DAP Seq epigenomics",
+    "description": "DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional regulators of aromatic metabolism in Novosphingobium aromaticivorans",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-02191a34": {
+      "ncbi_accession": "SAMN47109753",
+      "ncbi_title": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "collection_date": "missing",
+        "geo_loc_name": "USA:Savannah River Site in South Carolina",
+        "sample_type": "whole organism",
+        "strain": "DSM 12444",
+        "host": "not applicable",
+        "lat_lon": "33.2842 N 81.7263 W",
+        "culture_collection": "DSM:12444",
+        "type-material": "type strain of Sphingomonas aromaticivorans"
+      }
+    }
+  }
+}

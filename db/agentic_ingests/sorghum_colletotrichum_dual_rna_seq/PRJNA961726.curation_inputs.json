@@ -1,0 +1,1673 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-8744d904",
+    "name": "",
+    "title": "Molecular basis of anthracnose resistance in sorghum",
+    "description": "This study was aimed at identifying the molecular basis of the resistance of select sorghum accessions against the pathogenic fungus Colletotrichum sublineola, the causal agent of anthracnose. An RNA-seq experiment was conducted to monitor changes in gene expression in seedlings during the initial days after infection, relative to mock-inoculated plants.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-0c82adf6": {
+      "ncbi_accession": "SAMN34367380",
+      "ncbi_title": "SC1330-Inoc5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-2f5f1b90": {
+      "ncbi_accession": "SAMN34367379",
+      "ncbi_title": "SC1330-Inoc5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-48e8e360": {
+      "ncbi_accession": "SAMN34367378",
+      "ncbi_title": "SC1330-Inoc5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-b8e8cd7d": {
+      "ncbi_accession": "SAMN34367377",
+      "ncbi_title": "SC1330-Inoc5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-5cdea56a": {
+      "ncbi_accession": "SAMN34367376",
+      "ncbi_title": "SC1330-Inoc3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-0952f932": {
+      "ncbi_accession": "SAMN34367375",
+      "ncbi_title": "SC1330-Inoc3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-9557f033": {
+      "ncbi_accession": "SAMN34367374",
+      "ncbi_title": "SC1330-Inoc3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-b358822b": {
+      "ncbi_accession": "SAMN34367373",
+      "ncbi_title": "SC1330-Inoc3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-ff7e978f": {
+      "ncbi_accession": "SAMN34367372",
+      "ncbi_title": "SC1330-Inoc1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-14c0df45": {
+      "ncbi_accession": "SAMN34367371",
+      "ncbi_title": "SC1330-Inoc1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-425a9203": {
+      "ncbi_accession": "SAMN34367370",
+      "ncbi_title": "SC1330-Inoc1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-3503af9b": {
+      "ncbi_accession": "SAMN34367369",
+      "ncbi_title": "SC1330-Inoc1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-afc7b2ba": {
+      "ncbi_accession": "SAMN34367368",
+      "ncbi_title": "SC1330-Mock5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-b7a7a675": {
+      "ncbi_accession": "SAMN34367367",
+      "ncbi_title": "SC1330-Mock5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-b95a536f": {
+      "ncbi_accession": "SAMN34367366",
+      "ncbi_title": "SC1330-Mock5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-27553ca1": {
+      "ncbi_accession": "SAMN34367365",
+      "ncbi_title": "SC1330-Mock5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-86824de9": {
+      "ncbi_accession": "SAMN34367364",
+      "ncbi_title": "SC1330-Mock3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-99f3898b": {
+      "ncbi_accession": "SAMN34367363",
+      "ncbi_title": "SC1330-Mock3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-4c09793c": {
+      "ncbi_accession": "SAMN34367362",
+      "ncbi_title": "SC1330-Mock3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-b91f87ed": {
+      "ncbi_accession": "SAMN34367361",
+      "ncbi_title": "SC1330-Mock3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-7a10c12b": {
+      "ncbi_accession": "SAMN34367360",
+      "ncbi_title": "SC1330-Mock1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-8630a0a3": {
+      "ncbi_accession": "SAMN34367359",
+      "ncbi_title": "SC1330-Mock1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-61a1c26b": {
+      "ncbi_accession": "SAMN34367358",
+      "ncbi_title": "SC1330-Mock1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-09ce5faf": {
+      "ncbi_accession": "SAMN34367357",
+      "ncbi_title": "SC1330-Mock1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1330",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-f424975c": {
+      "ncbi_accession": "SAMN34367356",
+      "ncbi_title": "SC1033-Inoc5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-7788df91": {
+      "ncbi_accession": "SAMN34367355",
+      "ncbi_title": "SC1033-Inoc5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-059e865d": {
+      "ncbi_accession": "SAMN34367354",
+      "ncbi_title": "SC1033-Inoc5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-ff5491a8": {
+      "ncbi_accession": "SAMN34367353",
+      "ncbi_title": "SC1033-Inoc5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-85fe0bae": {
+      "ncbi_accession": "SAMN34367352",
+      "ncbi_title": "SC1033-Inoc3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-e0a09bf8": {
+      "ncbi_accession": "SAMN34367351",
+      "ncbi_title": "SC1033-Inoc3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-be94dcbe": {
+      "ncbi_accession": "SAMN34367350",
+      "ncbi_title": "SC1033-Inoc3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-186b253e": {
+      "ncbi_accession": "SAMN34367349",
+      "ncbi_title": "SC1033-Inoc3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-75fcc4ec": {
+      "ncbi_accession": "SAMN34367348",
+      "ncbi_title": "SC1033-Inoc1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-d36a05f6": {
+      "ncbi_accession": "SAMN34367347",
+      "ncbi_title": "SC1033-Inoc1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-f004c65f": {
+      "ncbi_accession": "SAMN34367346",
+      "ncbi_title": "SC1033-Inoc1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-5430d192": {
+      "ncbi_accession": "SAMN34367345",
+      "ncbi_title": "SC1033-Inoc1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-0222f44b": {
+      "ncbi_accession": "SAMN34367344",
+      "ncbi_title": "SC1033-Mock5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-c900d1e6": {
+      "ncbi_accession": "SAMN34367343",
+      "ncbi_title": "SC1033-Mock5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-981550eb": {
+      "ncbi_accession": "SAMN34367342",
+      "ncbi_title": "SC1033-Mock5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-683d3926": {
+      "ncbi_accession": "SAMN34367341",
+      "ncbi_title": "SC1033-Mock5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-aa9d3618": {
+      "ncbi_accession": "SAMN34367340",
+      "ncbi_title": "SC1033-Mock3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-d8b4c598": {
+      "ncbi_accession": "SAMN34367339",
+      "ncbi_title": "SC1033-Mock3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-1edd5bc6": {
+      "ncbi_accession": "SAMN34367338",
+      "ncbi_title": "SC1033-Mock3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-7ca03a04": {
+      "ncbi_accession": "SAMN34367337",
+      "ncbi_title": "SC1033-Mock3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-a272e1f3": {
+      "ncbi_accession": "SAMN34367336",
+      "ncbi_title": "SC1033-Mock1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-516fc27b": {
+      "ncbi_accession": "SAMN34367335",
+      "ncbi_title": "SC1033-Mock1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-6319ba02": {
+      "ncbi_accession": "SAMN34367334",
+      "ncbi_title": "SC1033-Mock1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-d062756a": {
+      "ncbi_accession": "SAMN34367333",
+      "ncbi_title": "SC1033-Mock1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC1033",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-91a84336": {
+      "ncbi_accession": "SAMN34367332",
+      "ncbi_title": "SC110-Inoc5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-92135346": {
+      "ncbi_accession": "SAMN34367331",
+      "ncbi_title": "SC110-Inoc5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-1b963bd7": {
+      "ncbi_accession": "SAMN34367330",
+      "ncbi_title": "SC110-Inoc5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-6fbd882c": {
+      "ncbi_accession": "SAMN34367329",
+      "ncbi_title": "SC110-Inoc5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-55fc6d80": {
+      "ncbi_accession": "SAMN34367328",
+      "ncbi_title": "SC110-Inoc3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-34f51ab3": {
+      "ncbi_accession": "SAMN34367327",
+      "ncbi_title": "SC110-Inoc3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-df9edccb": {
+      "ncbi_accession": "SAMN34367326",
+      "ncbi_title": "SC110-Inoc3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-cc45ed07": {
+      "ncbi_accession": "SAMN34367325",
+      "ncbi_title": "SC110-Inoc3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-ec40c7d9": {
+      "ncbi_accession": "SAMN34367324",
+      "ncbi_title": "SC110-Inoc1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-720488c3": {
+      "ncbi_accession": "SAMN34367323",
+      "ncbi_title": "SC110-Inoc1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-f94cafbd": {
+      "ncbi_accession": "SAMN34367322",
+      "ncbi_title": "SC110-Inoc1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-2d39f231": {
+      "ncbi_accession": "SAMN34367321",
+      "ncbi_title": "SC110-Inoc1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-e769639b": {
+      "ncbi_accession": "SAMN34367320",
+      "ncbi_title": "SC110-Mock5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-cecb9ec0": {
+      "ncbi_accession": "SAMN34367319",
+      "ncbi_title": "SC110-Mock5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-ca14a626": {
+      "ncbi_accession": "SAMN34367318",
+      "ncbi_title": "SC110-Mock5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-66b29662": {
+      "ncbi_accession": "SAMN34367317",
+      "ncbi_title": "SC110-Mock5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-b0bad970": {
+      "ncbi_accession": "SAMN34367316",
+      "ncbi_title": "SC110-Mock3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-a866d16e": {
+      "ncbi_accession": "SAMN34367315",
+      "ncbi_title": "SC110-Mock3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-ce86b194": {
+      "ncbi_accession": "SAMN34367314",
+      "ncbi_title": "SC110-Mock3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-7ca4673e": {
+      "ncbi_accession": "SAMN34367313",
+      "ncbi_title": "SC110-Mock3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-358c73d8": {
+      "ncbi_accession": "SAMN34367312",
+      "ncbi_title": "SC110-Mock1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-b430ef18": {
+      "ncbi_accession": "SAMN34367311",
+      "ncbi_title": "SC110-Mock1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-6ca78910": {
+      "ncbi_accession": "SAMN34367310",
+      "ncbi_title": "SC110-Mock1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-5316a7a7": {
+      "ncbi_accession": "SAMN34367309",
+      "ncbi_title": "SC110-Mock1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC110",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-382136b1": {
+      "ncbi_accession": "SAMN34367308",
+      "ncbi_title": "SC17-Inoc5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-fed77294": {
+      "ncbi_accession": "SAMN34367307",
+      "ncbi_title": "SC17-Inoc5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-4b20b20f": {
+      "ncbi_accession": "SAMN34367306",
+      "ncbi_title": "SC17-Inoc5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-c559679b": {
+      "ncbi_accession": "SAMN34367305",
+      "ncbi_title": "SC17-Inoc5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-83603f65": {
+      "ncbi_accession": "SAMN34367304",
+      "ncbi_title": "SC17-Inoc3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-6d989af7": {
+      "ncbi_accession": "SAMN34367303",
+      "ncbi_title": "SC17-Inoc3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-9e83581a": {
+      "ncbi_accession": "SAMN34367302",
+      "ncbi_title": "SC17-Inoc3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-6fb8f22a": {
+      "ncbi_accession": "SAMN34367301",
+      "ncbi_title": "SC17-Inoc1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-8bc1304d": {
+      "ncbi_accession": "SAMN34367300",
+      "ncbi_title": "SC17-Inoc1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-aacf0940": {
+      "ncbi_accession": "SAMN34367299",
+      "ncbi_title": "SC17-Inoc1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-d21092a8": {
+      "ncbi_accession": "SAMN34367298",
+      "ncbi_title": "SC17-Inoc1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease": "Anthracnose",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Inoculated"
+      }
+    },
+    "nmdc:bsm-99-3321d6d1": {
+      "ncbi_accession": "SAMN34367297",
+      "ncbi_title": "SC17-Mock5_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-306767c8": {
+      "ncbi_accession": "SAMN34367296",
+      "ncbi_title": "SC17-Mock5_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-ac8c7960": {
+      "ncbi_accession": "SAMN34367295",
+      "ncbi_title": "SC17-Mock5_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-e103d7ed": {
+      "ncbi_accession": "SAMN34367294",
+      "ncbi_title": "SC17-Mock5_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "5 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-476e9158": {
+      "ncbi_accession": "SAMN34367293",
+      "ncbi_title": "SC17-Mock3_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-d137d995": {
+      "ncbi_accession": "SAMN34367292",
+      "ncbi_title": "SC17-Mock3_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-00e643de": {
+      "ncbi_accession": "SAMN34367291",
+      "ncbi_title": "SC17-Mock3_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-50db322e": {
+      "ncbi_accession": "SAMN34367290",
+      "ncbi_title": "SC17-Mock3_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "3 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-5aa4c6a4": {
+      "ncbi_accession": "SAMN34367289",
+      "ncbi_title": "SC17-Mock1_4",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 4",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-19a5ba6a": {
+      "ncbi_accession": "SAMN34367288",
+      "ncbi_title": "SC17-Mock1_3",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 3",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-ddff6c2c": {
+      "ncbi_accession": "SAMN34367287",
+      "ncbi_title": "SC17-Mock1_2",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 2",
+        "treatment": "Control"
+      }
+    },
+    "nmdc:bsm-99-3cb543ab": {
+      "ncbi_accession": "SAMN34367286",
+      "ncbi_title": "SC17-Mock1_1",
+      "package": "Plant.1.0",
+      "models": [
+        "Plant"
+      ],
+      "attributes": {
+        "cultivar": "SC17",
+        "dev_stage": "fifth-leaf stage",
+        "geo_loc_name": "USA: Gainesville, FL",
+        "tissue": "leaf",
+        "disease_stage": "1 dpi",
+        "replicate": "biological replicate 1",
+        "treatment": "Control"
+      }
+    }
+  }
+}

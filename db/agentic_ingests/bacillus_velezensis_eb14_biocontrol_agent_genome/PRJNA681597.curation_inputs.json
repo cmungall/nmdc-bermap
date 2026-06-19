@@ -1,0 +1,33 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-2d135b8e",
+    "name": "Bacillus velezensis strain:EB14",
+    "title": "Bacillus velezensis strain:EB14 Genome sequencing",
+    "description": "Endophytic bacteria isolated from a leaf of Poplar trees with antagonistic activity against Sphaerulina musiva",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-bcc483a0": {
+      "ncbi_accession": "SAMN16961582",
+      "ncbi_title": "MIGS Cultured Bacterial/Archaeal sample from Bacillus velezensis",
+      "package": "MIGS.ba.host-associated.6.0",
+      "models": [
+        "MIGS.ba",
+        "MIGS/MIMS/MIMARKS.host-associated"
+      ],
+      "attributes": {
+        "strain": "EB14",
+        "collection_date": "2016-10",
+        "env_broad_scale": "Populus microbiome",
+        "env_local_scale": "Leaf microbiome",
+        "env_medium": "endophytes",
+        "geo_loc_name": "Canada: Montreal",
+        "host": "Populus x jackii",
+        "isol_growth_condt": "hhh",
+        "lat_lon": "45.552222 N 73.150833 W",
+        "num_replicons": "0",
+        "ref_biomaterial": "photo"
+      }
+    }
+  }
+}

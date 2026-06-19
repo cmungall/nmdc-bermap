@@ -1,0 +1,2979 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-64937137",
+    "name": "",
+    "title": "Long Term Ecological Research Main Cropping System Experiment",
+    "description": "We leverage the Kellogg Biological Station Long Term Ecological Research Main Cropping System Experiment (KBS MCSE) field experiment to test trade-offs among high growth yield (Y), resource acquisition (A), and stress tolerance (S) traits using metagenomic data from plots with different land use, drought manipulation, and C addition.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-1d829867": {
+      "ncbi_accession": "SAMN43487059",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Control",
+        "lat_lon": "not applicable",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "C-",
+        "Replicate": "C-",
+        "Footprint": "C-",
+        "FootprintDescription": "SequencingControls",
+        "Subplot": "C-",
+        "meta.order": "C-",
+        "RainTreat": "SequencingControls",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-66d59fbb": {
+      "ncbi_accession": "SAMN43487058",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Control",
+        "lat_lon": "not applicable",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "C-",
+        "Replicate": "C-",
+        "Footprint": "C-",
+        "FootprintDescription": "SequencingControls",
+        "Subplot": "C-",
+        "meta.order": "C-",
+        "RainTreat": "SequencingControls",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-ba2eea5d": {
+      "ncbi_accession": "SAMN43487057",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S52",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-e7b01fce": {
+      "ncbi_accession": "SAMN43487056",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.411639 N 85.372194 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S51",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-260b8a3a": {
+      "ncbi_accession": "SAMN43487055",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S50",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-ed82731d": {
+      "ncbi_accession": "SAMN43487054",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.413556 N 85.370028 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R5",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S49",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-53a479ed": {
+      "ncbi_accession": "SAMN43487053",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.413556 N 85.370028 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R5",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S48",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-082682e3": {
+      "ncbi_accession": "SAMN43487052",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S47",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-754dcbac": {
+      "ncbi_accession": "SAMN43487051",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S46",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-2a0e77b3": {
+      "ncbi_accession": "SAMN43487050",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S45",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-0d47ad96": {
+      "ncbi_accession": "SAMN43487049",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.410667 N 85.369861 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S44",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-d9835847": {
+      "ncbi_accession": "SAMN43487048",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S43",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-e84995b3": {
+      "ncbi_accession": "SAMN43487047",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S42",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-859706c4": {
+      "ncbi_accession": "SAMN43487046",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S41",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-33eb5baa": {
+      "ncbi_accession": "SAMN43487045",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S40",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-f49ee49e": {
+      "ncbi_accession": "SAMN43487044",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S39",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-9c4fdff5": {
+      "ncbi_accession": "SAMN43487043",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S38",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-983b3757": {
+      "ncbi_accession": "SAMN43487042",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "F",
+        "meta.order": "S37",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-f7321f6d": {
+      "ncbi_accession": "SAMN43487041",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "F",
+        "meta.order": "S36",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-d094acbb": {
+      "ncbi_accession": "SAMN43487040",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S35",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-8557e07c": {
+      "ncbi_accession": "SAMN43487039",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S34",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-2098d9f2": {
+      "ncbi_accession": "SAMN43487038",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S33",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-bc48a4bf": {
+      "ncbi_accession": "SAMN43487037",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S32",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-4ad7120c": {
+      "ncbi_accession": "SAMN43487036",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S31",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-845563fc": {
+      "ncbi_accession": "SAMN43487035",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S30",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-2cc28d25": {
+      "ncbi_accession": "SAMN43487034",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S29",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-c0905bfb": {
+      "ncbi_accession": "SAMN43487033",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.410667 N 85.369861 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S28",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-47bc8288": {
+      "ncbi_accession": "SAMN43487032",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S27",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-b0572610": {
+      "ncbi_accession": "SAMN43487031",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.408694 N 85.376944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S26",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-1620ec81": {
+      "ncbi_accession": "SAMN43487030",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S25",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-61543474": {
+      "ncbi_accession": "SAMN43487029",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S24",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-90f5791b": {
+      "ncbi_accession": "SAMN43487028",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S23",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-83afbbeb": {
+      "ncbi_accession": "SAMN43487027",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.406528 N 85.370917 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R2",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S22",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-6ced1303": {
+      "ncbi_accession": "SAMN43487026",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S21",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-77c53e78": {
+      "ncbi_accession": "SAMN43487025",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S20",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-941e70b3": {
+      "ncbi_accession": "SAMN43487024",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S19",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-c1319a4e": {
+      "ncbi_accession": "SAMN43487023",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S18",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-c86b6843": {
+      "ncbi_accession": "SAMN43487022",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S17",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-9fd8ce28": {
+      "ncbi_accession": "SAMN43487021",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S16",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-1bde36c9": {
+      "ncbi_accession": "SAMN43487020",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.411639 N 85.372194 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S15",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-26c30883": {
+      "ncbi_accession": "SAMN43487019",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "F",
+        "meta.order": "S14",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-cfa11e7b": {
+      "ncbi_accession": "SAMN43487018",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S13",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-0c04fc46": {
+      "ncbi_accession": "SAMN43487017",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S12",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-278aad25": {
+      "ncbi_accession": "SAMN43487016",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S11",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-df7cce13": {
+      "ncbi_accession": "SAMN43487015",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.408694 N 85.376944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R6",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S10",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-8fdbb77e": {
+      "ncbi_accession": "SAMN43487014",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "S",
+        "meta.order": "S9",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-d06f6357": {
+      "ncbi_accession": "SAMN43487013",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S8",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-67a16732": {
+      "ncbi_accession": "SAMN43487012",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S7",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-a3b13ef9": {
+      "ncbi_accession": "SAMN43487011",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "F",
+        "meta.order": "S6",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-4ac8644b": {
+      "ncbi_accession": "SAMN43487010",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.407639 N 85.368500 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S5",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-d304ea1a": {
+      "ncbi_accession": "SAMN43487009",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S4",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-d8d67014": {
+      "ncbi_accession": "SAMN43487008",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.406528 N 85.370917 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S3",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-0277691a": {
+      "ncbi_accession": "SAMN43487007",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S2",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-e6ea90a0": {
+      "ncbi_accession": "SAMN43487006",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2022-08-02",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.407639 N 85.368500 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R4",
+        "Footprint": "D2",
+        "FootprintDescription": "Drought in year 2",
+        "Subplot": "C",
+        "meta.order": "S1",
+        "RainTreat": "Drought in either year",
+        "year": "2022"
+      }
+    },
+    "nmdc:bsm-99-300d8221": {
+      "ncbi_accession": "SAMN43487005",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "F",
+        "meta.order": "S52",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-ec6eee13": {
+      "ncbi_accession": "SAMN43487004",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.410667 N 85.369861 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S51",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-b733a1df": {
+      "ncbi_accession": "SAMN43487003",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S50",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-a1a3e186": {
+      "ncbi_accession": "SAMN43487002",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S49",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-4d39f2b2": {
+      "ncbi_accession": "SAMN43487001",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S48",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-2f92b122": {
+      "ncbi_accession": "SAMN43487000",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S47",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-d2be71ee": {
+      "ncbi_accession": "SAMN43486999",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.410667 N 85.369861 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S46",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-950a663e": {
+      "ncbi_accession": "SAMN43486998",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S45",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-e5415cde": {
+      "ncbi_accession": "SAMN43486997",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S44",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-3278c03b": {
+      "ncbi_accession": "SAMN43486996",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.413556 N 85.370028 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R5",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S43",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-23617907": {
+      "ncbi_accession": "SAMN43486995",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S42",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-cb77e7d8": {
+      "ncbi_accession": "SAMN43486994",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.407639 N 85.368500 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S41",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-a7578ff1": {
+      "ncbi_accession": "SAMN43486993",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S40",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-a5b3b60f": {
+      "ncbi_accession": "SAMN43486992",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S39",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-2310a0c8": {
+      "ncbi_accession": "SAMN43486991",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.406528 N 85.370917 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R2",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S38",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-c9e5a743": {
+      "ncbi_accession": "SAMN43486990",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S37",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-7e2dd5a5": {
+      "ncbi_accession": "SAMN43486989",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S36",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-1f40fd1b": {
+      "ncbi_accession": "SAMN43486988",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.408694 N 85.376944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R6",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S35",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-8ed6aee8": {
+      "ncbi_accession": "SAMN43486987",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S34",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-dc8c6e51": {
+      "ncbi_accession": "SAMN43486986",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S33",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-951f1231": {
+      "ncbi_accession": "SAMN43486985",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S32",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-2f4092c1": {
+      "ncbi_accession": "SAMN43486984",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.409639 N 85.374611 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S31",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-c73c4f04": {
+      "ncbi_accession": "SAMN43486983",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.408694 N 85.376944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S30",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-7864dbb9": {
+      "ncbi_accession": "SAMN43486982",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S29",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-18bef865": {
+      "ncbi_accession": "SAMN43486981",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S28",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-f0d881db": {
+      "ncbi_accession": "SAMN43486980",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.406583 N 85.369722 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S27",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-be80f42e": {
+      "ncbi_accession": "SAMN43486979",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.411639 N 85.372194 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S26",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-e54a43b1": {
+      "ncbi_accession": "SAMN43486978",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S25",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-987a9e37": {
+      "ncbi_accession": "SAMN43486977",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S24",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-69f4e1b7": {
+      "ncbi_accession": "SAMN43486976",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.410639 N 85.368639 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S23",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-5ad86fdf": {
+      "ncbi_accession": "SAMN43486975",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.407639 N 85.368500 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S22",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-9ee14d8a": {
+      "ncbi_accession": "SAMN43486974",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S21",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-958413b9": {
+      "ncbi_accession": "SAMN43486973",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S20",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-70b2d312": {
+      "ncbi_accession": "SAMN43486972",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S19",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-55af9fea": {
+      "ncbi_accession": "SAMN43486971",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "C",
+        "meta.order": "S18",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-67f68bc6": {
+      "ncbi_accession": "SAMN43486970",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "F",
+        "meta.order": "S17",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-1c7a8718": {
+      "ncbi_accession": "SAMN43486969",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S16",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-b07f8a17": {
+      "ncbi_accession": "SAMN43486968",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.412750 N 85.369833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R3",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S15",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-b0367979": {
+      "ncbi_accession": "SAMN43486967",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S14",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-a28e6750": {
+      "ncbi_accession": "SAMN43486966",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S13",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-aa6e8c66": {
+      "ncbi_accession": "SAMN43486965",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.411639 N 85.372194 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S12",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-21391689": {
+      "ncbi_accession": "SAMN43486964",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407556 N 85.372083 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S11",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-6ac8f07f": {
+      "ncbi_accession": "SAMN43486963",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.413556 N 85.370028 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R5",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S10",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-32769b9d": {
+      "ncbi_accession": "SAMN43486962",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.407639 N 85.375806 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S9",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-e561855c": {
+      "ncbi_accession": "SAMN43486961",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.408639 N 85.370944 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S8",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-5f081e30": {
+      "ncbi_accession": "SAMN43486960",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.411694 N 85.368667 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R4",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "F",
+        "meta.order": "S7",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-866a5a4e": {
+      "ncbi_accession": "SAMN43486959",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.4075556 N 85.3720833 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R1",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "F",
+        "meta.order": "S6",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-9fb95764": {
+      "ncbi_accession": "SAMN43486958",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.4076389 N 85.3758056 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R1",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S5",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-d651bbfe": {
+      "ncbi_accession": "SAMN43486957",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Conventional corn/soybean/wheat",
+        "lat_lon": "42.4086389 N 85.3709444 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T1",
+        "Replicate": "R2",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "S",
+        "meta.order": "S4",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-53732a2c": {
+      "ncbi_accession": "SAMN43486956",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.4096389 N 85.3746111 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "D1",
+        "FootprintDescription": "Drought in year 1",
+        "Subplot": "F",
+        "meta.order": "S3",
+        "RainTreat": "Drought in either year",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-b34eb652": {
+      "ncbi_accession": "SAMN43486955",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "No-till corn/soybean/wheat",
+        "lat_lon": "42.4096389 N 85.3746111 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T2",
+        "Replicate": "R6",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "S",
+        "meta.order": "S2",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    },
+    "nmdc:bsm-99-98142796": {
+      "ncbi_accession": "SAMN43486954",
+      "ncbi_title": "MIMS Environmental/Metagenome sample from soil metagenome",
+      "package": "MIMS.me.soil.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-18",
+        "env_broad_scale": "ENVO:01000352",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00005755",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Early Successional community",
+        "lat_lon": "42.406530 N 85.370920 W",
+        "depth": "not applicable",
+        "elev": "not applicable",
+        "Plot": "T7",
+        "Replicate": "R2",
+        "Footprint": "IR",
+        "FootprintDescription": "Control (Irrigated)",
+        "Subplot": "C",
+        "meta.order": "S1",
+        "RainTreat": "Control (Irrigated)",
+        "year": "2021"
+      }
+    }
+  }
+}

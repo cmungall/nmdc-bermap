@@ -1,0 +1,98 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-adf9f04f",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from sediment metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-81c2d646"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:35:58.048944+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:35:58.048944+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN16523180"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2018-01-19"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Oak Ridge National Lab East Fork Poplar Creek (EFPC) study site"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.97,
+        "longitude": -84.36
+      },
+      "samp_name": "EFPC",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:749907",
+          "type": "nmdc:OntologyClass",
+          "name": "sediment metagenome"
+        }
+      }
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-81c2d646",
+      "type": "nmdc:Study",
+      "name": "Sediment core from Oak Ridge National Lab East Fork Poplar Creek Raw sequence reads",
+      "description": "metagenomes of sediments from Oak Ridge National Lab East Fork Poplar Creek (EFPC) study site, a natural stream that has been contaminated with Hg from upstream sources",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA670906"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:35:58.048944+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:35:58.048944+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Sediment core from Oak Ridge National Lab East Fork Poplar Creek Raw sequence reads"
+    }
+  ],
+  "@type": "Database"
+}

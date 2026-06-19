@@ -1,0 +1,10 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-35a7aa01",
+    "name": "UFMP and CAW Bioreactor",
+    "title": "UFMP and CAW Bioreactor Metagenome",
+    "description": "CSTR anaerobic bioreactors fed UltraFiltered Milk Permeate (UFMP) and Cottage cheese Acid Whey (CAW) were inoculated with acid sludge microbial communities and monitored overtime for lactic acid production. Samples were taken for metagenomics analyses.",
+    "publications": []
+  },
+  "biosamples": {}
+}

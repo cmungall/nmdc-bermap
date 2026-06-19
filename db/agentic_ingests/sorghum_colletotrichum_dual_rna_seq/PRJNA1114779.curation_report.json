@@ -1,0 +1,184 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-7762ece3",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "in vitro culture on potato dextrose agar",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7762ece3",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7762ece3",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7d71cf61",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "in vitro culture on potato dextrose agar",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7d71cf61",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7d71cf61",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-202b6561",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "in vitro culture on potato dextrose agar",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-202b6561",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-202b6561",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9f206b4b",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "in vitro culture on potato dextrose agar",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9f206b4b",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9f206b4b",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

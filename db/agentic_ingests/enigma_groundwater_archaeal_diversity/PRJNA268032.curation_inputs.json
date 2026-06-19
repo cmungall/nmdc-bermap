@@ -1,0 +1,267 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-7affccee",
+    "name": "groundwater metagenome",
+    "title": "Reconstruction of novel archaeal genomes from metagenomic groundwater sample",
+    "description": "We used genome-resolved metagenomic analyses to investigate the diversity, genomes sizes, metabolic capacities and potential roles of Archaea in terrestrial subsurface biogeochemical cycles. We sequenced DNA from complex sediment and planktonic consortia from an aquifer adjacent to the Colorado River, USA, and reconstructed the first complete genomes for Archaea using cultivation-independent methods. We resolved two new phyla within a major, apparently deep-branching group of phyla (a superphylum). The organisms have small genomes and metabolic predictions indicate that their primary contributions to Earth\u2019s biogeochemical cycles involve carbon and hydrogen metabolism, probably associated with symbiotic and/or fermentation-based lifestyles.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-89819cab": {
+      "ncbi_accession": "SAMN03217315",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR21",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-546d5310": {
+      "ncbi_accession": "SAMN03217314",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR20",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-82cd634c": {
+      "ncbi_accession": "SAMN03217313",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR19",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-db3fdaf0": {
+      "ncbi_accession": "SAMN03217312",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR18",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-42152915": {
+      "ncbi_accession": "SAMN03217311",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR17",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-810f55bb": {
+      "ncbi_accession": "SAMN03217310",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR16",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-375002e1": {
+      "ncbi_accession": "SAMN03217309",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR15",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-4a10850d": {
+      "ncbi_accession": "SAMN03217308",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR13",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-6340e039": {
+      "ncbi_accession": "SAMN03217307",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR11",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-73a48bee": {
+      "ncbi_accession": "SAMN03217306",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR10",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-c9b1e74f": {
+      "ncbi_accession": "SAMN03217305",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR9",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-17c34993": {
+      "ncbi_accession": "SAMN03217304",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR6",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-22db0738": {
+      "ncbi_accession": "SAMN03217303",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR5",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-8f9c77d3": {
+      "ncbi_accession": "SAMN03217302",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR4",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-50c178b4": {
+      "ncbi_accession": "SAMN03217301",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR3",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03202995",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    },
+    "nmdc:bsm-99-9ebc6195": {
+      "ncbi_accession": "SAMN03217300",
+      "ncbi_title": "Metagenome or environmental sample from archaeon GW2011_AR1",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "lat_lon": "39.5369 N 107.7828 W",
+        "collection_date": "2011-06",
+        "note": "This biosample is a metagenomic assembly obtained from the groundwater metagenome sample SAMN03203002",
+        "geo_loc_name": "USA: Rifle, CO",
+        "isolation_source": "Rifle groundwater metagenome at time 5 / E; 0.1 micron filter",
+        "metagenome_source": "groundwater metagenome"
+      }
+    }
+  }
+}

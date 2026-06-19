@@ -1,0 +1,31 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-671ee2a2",
+    "name": "",
+    "title": "Colletotrichum sublineola genome sequencing",
+    "description": "Colletotrichum sublineola genome sequencing",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-5ec2236c": {
+      "ncbi_accession": "SAMN15923890",
+      "ncbi_title": "MIGS Eukaryotic sample from Colletotrichum sublineola",
+      "package": "MIGS.eu.plant-associated.6.0",
+      "models": [
+        "MIGS.eu",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "strain": "CsGL1",
+        "collection_date": "2020-07",
+        "env_broad_scale": "not applicable",
+        "env_local_scale": "not applicable",
+        "env_medium": "not applicable",
+        "geo_loc_name": "not applicable",
+        "host": "Sorghum bicolor",
+        "isol_growth_condt": "The fungus was grown in the lab, in Potato Dextrose Agar media, at room temperature",
+        "lat_lon": "not applicable"
+      }
+    }
+  }
+}

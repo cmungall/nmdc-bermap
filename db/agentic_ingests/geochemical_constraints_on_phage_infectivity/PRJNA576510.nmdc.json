@@ -1,0 +1,665 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-96e8acb6",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from bioreactor metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12995560"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 37.912566,
+        "longitude": -122.269194
+      },
+      "samp_name": "Jewel Lake Nitrate-reducing enrichment bioreactor metagenome",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1076179",
+          "type": "nmdc:OntologyClass",
+          "name": "bioreactor metagenome"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-3fa3e9ff",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Citrobacter sp. JL978",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12911130"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "samp_name": "Citrobacter sp. JL978",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2652398",
+          "type": "nmdc:OntologyClass",
+          "name": "Citrobacter sp. JL978"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-76293b31",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Citrobacter sp. JL976",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12911129"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "samp_name": "Citrobacter sp. JL976",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2652397",
+          "type": "nmdc:OntologyClass",
+          "name": "Citrobacter sp. JL976"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-bdf958c0",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Stutzerimonas degradans",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12911128"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "samp_name": "Pseudomonas sp. JL972",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2968968",
+          "type": "nmdc:OntologyClass",
+          "name": "Stutzerimonas degradans"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-2136532e",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Klebsiella sp. JL973",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12911127"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "samp_name": "Klebsiella sp. JL973",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2652395",
+          "type": "nmdc:OntologyClass",
+          "name": "Klebsiella sp. JL973"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-89a227b4",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Escherichia sp. JL983",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN12911126"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2016-08-01"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: California, Berkeley"
+      },
+      "samp_name": "Escherichia sp. JL983",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2652394",
+          "type": "nmdc:OntologyClass",
+          "name": "Escherichia sp. JL983"
+        }
+      }
+    }
+  ],
+  "data_generation_set": [
+    {
+      "id": "nmdc:dgns-99-13073949",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087117",
+      "has_input": [
+        "nmdc:bsm-99-96e8acb6"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-7307bf75"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087117"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-6cff0ede",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087116",
+      "has_input": [
+        "nmdc:bsm-99-3fa3e9ff"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-e476bb40"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087116"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-d970a1f2",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087115",
+      "has_input": [
+        "nmdc:bsm-99-76293b31"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-fae5d807"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087115"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-82aa1c64",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087114",
+      "has_input": [
+        "nmdc:bsm-99-bdf958c0"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-69f7fe05"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087114"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-d32856ac",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087113",
+      "has_input": [
+        "nmdc:bsm-99-2136532e"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-ce3f2224"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087113"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-0ed62476",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX7087112",
+      "has_input": [
+        "nmdc:bsm-99-89a227b4"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-d5a7f9c0"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-571422a4"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-nn4b6k72"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX7087112"
+      ]
+    }
+  ],
+  "data_object_set": [
+    {
+      "id": "nmdc:dobj-99-7307bf75",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386367",
+      "description": "SRA run SRR10386367 for experiment SRX7087117",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386367"
+    },
+    {
+      "id": "nmdc:dobj-99-e476bb40",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386368",
+      "description": "SRA run SRR10386368 for experiment SRX7087116",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386368"
+    },
+    {
+      "id": "nmdc:dobj-99-fae5d807",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386369",
+      "description": "SRA run SRR10386369 for experiment SRX7087115",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386369"
+    },
+    {
+      "id": "nmdc:dobj-99-69f7fe05",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386370",
+      "description": "SRA run SRR10386370 for experiment SRX7087114",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386370"
+    },
+    {
+      "id": "nmdc:dobj-99-ce3f2224",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386371",
+      "description": "SRA run SRR10386371 for experiment SRX7087113",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386371"
+    },
+    {
+      "id": "nmdc:dobj-99-d5a7f9c0",
+      "type": "nmdc:DataObject",
+      "name": "SRR10386372",
+      "description": "SRA run SRR10386372 for experiment SRX7087112",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR10386372"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-571422a4",
+      "type": "nmdc:Study",
+      "name": "Selective carbon sources influence the end-products of microbial nitrate respiration",
+      "description": "Microbial nitrate respiring enrichment cultures",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA576510"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:50.718301+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:50.718301+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Selective carbon sources influence the end-products of microbial nitrate respiration"
+    }
+  ],
+  "@type": "Database"
+}

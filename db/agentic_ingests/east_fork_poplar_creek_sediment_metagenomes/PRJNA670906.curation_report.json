@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-adf9f04f",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-adf9f04f",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-adf9f04f",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

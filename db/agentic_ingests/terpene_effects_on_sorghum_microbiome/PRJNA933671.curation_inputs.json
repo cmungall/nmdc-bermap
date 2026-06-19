@@ -1,0 +1,4571 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-65cc7400",
+    "name": "",
+    "title": "Terpene addition Sorghum",
+    "description": "Examining the effects of terpene addition on the microbial community in Sorghum belowground compartments",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-208d5e8e": {
+      "ncbi_accession": "SAMN33246371",
+      "ncbi_title": "TPFRI1F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-61ce1c8c": {
+      "ncbi_accession": "SAMN33246370",
+      "ncbi_title": "TPFRI1F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1371e0f9": {
+      "ncbi_accession": "SAMN33246369",
+      "ncbi_title": "TPFRI1F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bddde0b9": {
+      "ncbi_accession": "SAMN33246368",
+      "ncbi_title": "TPFRI1E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e0094526": {
+      "ncbi_accession": "SAMN33246367",
+      "ncbi_title": "TPFRI1E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7dfa0672": {
+      "ncbi_accession": "SAMN33246366",
+      "ncbi_title": "TPFRI1E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7b6d79be": {
+      "ncbi_accession": "SAMN33246365",
+      "ncbi_title": "TPFRI1D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e3c238f3": {
+      "ncbi_accession": "SAMN33246364",
+      "ncbi_title": "TPFRI1D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d42d9be3": {
+      "ncbi_accession": "SAMN33246363",
+      "ncbi_title": "TPFRI1D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-19ff142c": {
+      "ncbi_accession": "SAMN33246362",
+      "ncbi_title": "TPFRI1C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0482f926": {
+      "ncbi_accession": "SAMN33246361",
+      "ncbi_title": "TPFRI1C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-00f7cf08": {
+      "ncbi_accession": "SAMN33246360",
+      "ncbi_title": "TPFRI1C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-84fa7542": {
+      "ncbi_accession": "SAMN33246359",
+      "ncbi_title": "TPFRI1B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a4c0b135": {
+      "ncbi_accession": "SAMN33246358",
+      "ncbi_title": "TPFRI1B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c2da67a3": {
+      "ncbi_accession": "SAMN33246357",
+      "ncbi_title": "TPFRI1B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5bede1b3": {
+      "ncbi_accession": "SAMN33246356",
+      "ncbi_title": "TPFRI1A3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2da128e2": {
+      "ncbi_accession": "SAMN33246355",
+      "ncbi_title": "TPFRI1A2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7eea5026": {
+      "ncbi_accession": "SAMN33246354",
+      "ncbi_title": "TPFRI1A1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0a44e2bd": {
+      "ncbi_accession": "SAMN33246353",
+      "ncbi_title": "TPRI1F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4a999490": {
+      "ncbi_accession": "SAMN33246352",
+      "ncbi_title": "TPRI1F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-52e1c3d8": {
+      "ncbi_accession": "SAMN33246351",
+      "ncbi_title": "TPRI1F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8ce0f8ef": {
+      "ncbi_accession": "SAMN33246350",
+      "ncbi_title": "TPRI1E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-14ceecc6": {
+      "ncbi_accession": "SAMN33246349",
+      "ncbi_title": "TPRI1E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d8663f76": {
+      "ncbi_accession": "SAMN33246348",
+      "ncbi_title": "TPRI1E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-19c10c3c": {
+      "ncbi_accession": "SAMN33246347",
+      "ncbi_title": "TPRI1D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c0a2159f": {
+      "ncbi_accession": "SAMN33246346",
+      "ncbi_title": "TPRI1D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b7af7647": {
+      "ncbi_accession": "SAMN33246345",
+      "ncbi_title": "TPRI1D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-749e9634": {
+      "ncbi_accession": "SAMN33246344",
+      "ncbi_title": "TPRI1C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8b7d51b2": {
+      "ncbi_accession": "SAMN33246343",
+      "ncbi_title": "TPRI1C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-442f13ea": {
+      "ncbi_accession": "SAMN33246342",
+      "ncbi_title": "TPRI1C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a0544bd9": {
+      "ncbi_accession": "SAMN33246341",
+      "ncbi_title": "TPRI1B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6c6d80b5": {
+      "ncbi_accession": "SAMN33246340",
+      "ncbi_title": "TPRI1B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-96a2087a": {
+      "ncbi_accession": "SAMN33246339",
+      "ncbi_title": "TPRI1B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8c612718": {
+      "ncbi_accession": "SAMN33246338",
+      "ncbi_title": "TPRI0F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9b662a2e": {
+      "ncbi_accession": "SAMN33246337",
+      "ncbi_title": "TPRI0F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8eb91f35": {
+      "ncbi_accession": "SAMN33246336",
+      "ncbi_title": "TPRI0F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-158fc62e": {
+      "ncbi_accession": "SAMN33246335",
+      "ncbi_title": "TPRI0E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-263b15e5": {
+      "ncbi_accession": "SAMN33246334",
+      "ncbi_title": "TPRI0E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d44122f8": {
+      "ncbi_accession": "SAMN33246333",
+      "ncbi_title": "TPRI0E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-16527d6d": {
+      "ncbi_accession": "SAMN33246332",
+      "ncbi_title": "TPRI0D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1fc72962": {
+      "ncbi_accession": "SAMN33246331",
+      "ncbi_title": "TPRI0D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c7e9cc52": {
+      "ncbi_accession": "SAMN33246330",
+      "ncbi_title": "TPRI0D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9ac8d1bc": {
+      "ncbi_accession": "SAMN33246329",
+      "ncbi_title": "TPRI0C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1ef7e170": {
+      "ncbi_accession": "SAMN33246328",
+      "ncbi_title": "TPRI0C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3545c9fa": {
+      "ncbi_accession": "SAMN33246327",
+      "ncbi_title": "TPRI0C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f2558ffe": {
+      "ncbi_accession": "SAMN33246326",
+      "ncbi_title": "TPRI0B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3b7f9b71": {
+      "ncbi_accession": "SAMN33246325",
+      "ncbi_title": "TPRI0B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-03e93f87": {
+      "ncbi_accession": "SAMN33246324",
+      "ncbi_title": "TPRI0B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-03d2439f": {
+      "ncbi_accession": "SAMN33246323",
+      "ncbi_title": "TPB1F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-df0a11ef": {
+      "ncbi_accession": "SAMN33246322",
+      "ncbi_title": "TPB1F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-719a09cf": {
+      "ncbi_accession": "SAMN33246321",
+      "ncbi_title": "TPB1F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ba96e58d": {
+      "ncbi_accession": "SAMN33246320",
+      "ncbi_title": "TPB1E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-663c1857": {
+      "ncbi_accession": "SAMN33246319",
+      "ncbi_title": "TPB1E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5b559368": {
+      "ncbi_accession": "SAMN33246318",
+      "ncbi_title": "TPB1E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-dd058e58": {
+      "ncbi_accession": "SAMN33246317",
+      "ncbi_title": "TPB1D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-91c0e92f": {
+      "ncbi_accession": "SAMN33246316",
+      "ncbi_title": "TPB1D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6226a14f": {
+      "ncbi_accession": "SAMN33246315",
+      "ncbi_title": "TPB1D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-01da7109": {
+      "ncbi_accession": "SAMN33246314",
+      "ncbi_title": "TPB1C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-80d2cd89": {
+      "ncbi_accession": "SAMN33246313",
+      "ncbi_title": "TPB1C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-31f12f97": {
+      "ncbi_accession": "SAMN33246312",
+      "ncbi_title": "TPB1C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4df96a5b": {
+      "ncbi_accession": "SAMN33246311",
+      "ncbi_title": "TPB1B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f0a13a3c": {
+      "ncbi_accession": "SAMN33246310",
+      "ncbi_title": "TPB1B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0b010a9d": {
+      "ncbi_accession": "SAMN33246309",
+      "ncbi_title": "TPB1B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a525d62b": {
+      "ncbi_accession": "SAMN33246308",
+      "ncbi_title": "TPB1A3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f5c9807d": {
+      "ncbi_accession": "SAMN33246307",
+      "ncbi_title": "TPB1A2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2649a178": {
+      "ncbi_accession": "SAMN33246306",
+      "ncbi_title": "TPB1A1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-21b3e8a9": {
+      "ncbi_accession": "SAMN33246305",
+      "ncbi_title": "TPB0F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-64efe563": {
+      "ncbi_accession": "SAMN33246304",
+      "ncbi_title": "TPB0F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-34004375": {
+      "ncbi_accession": "SAMN33246303",
+      "ncbi_title": "TPB0F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a052a507": {
+      "ncbi_accession": "SAMN33246302",
+      "ncbi_title": "TPB0E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ba625b60": {
+      "ncbi_accession": "SAMN33246301",
+      "ncbi_title": "TPB0E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-88647150": {
+      "ncbi_accession": "SAMN33246300",
+      "ncbi_title": "TPB0E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bff88b90": {
+      "ncbi_accession": "SAMN33246299",
+      "ncbi_title": "TPB0D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e9d1f242": {
+      "ncbi_accession": "SAMN33246298",
+      "ncbi_title": "TPB0D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e6090cb9": {
+      "ncbi_accession": "SAMN33246297",
+      "ncbi_title": "TPB0D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5a5c7067": {
+      "ncbi_accession": "SAMN33246296",
+      "ncbi_title": "TPB0C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-afcd2739": {
+      "ncbi_accession": "SAMN33246295",
+      "ncbi_title": "TPB0C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4f72358a": {
+      "ncbi_accession": "SAMN33246294",
+      "ncbi_title": "TPB0C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-935646d7": {
+      "ncbi_accession": "SAMN33246293",
+      "ncbi_title": "TPB0B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-04213f37": {
+      "ncbi_accession": "SAMN33246292",
+      "ncbi_title": "TPB0B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5fd15b34": {
+      "ncbi_accession": "SAMN33246291",
+      "ncbi_title": "TPB0B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b74f5362": {
+      "ncbi_accession": "SAMN33246290",
+      "ncbi_title": "TPB0A3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-70537f66": {
+      "ncbi_accession": "SAMN33246289",
+      "ncbi_title": "TPB0A2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a450e3d2": {
+      "ncbi_accession": "SAMN33246288",
+      "ncbi_title": "TPB0A1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0e22aab5": {
+      "ncbi_accession": "SAMN33246287",
+      "ncbi_title": "TPR1F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7e83ccf9": {
+      "ncbi_accession": "SAMN33246286",
+      "ncbi_title": "TPR1F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-82ca68d0": {
+      "ncbi_accession": "SAMN33246285",
+      "ncbi_title": "TPR1F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5207bca6": {
+      "ncbi_accession": "SAMN33246284",
+      "ncbi_title": "TPR1E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-70c9fa4e": {
+      "ncbi_accession": "SAMN33246283",
+      "ncbi_title": "TPR1E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3337f471": {
+      "ncbi_accession": "SAMN33246282",
+      "ncbi_title": "TPR1E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5f7e0128": {
+      "ncbi_accession": "SAMN33246281",
+      "ncbi_title": "TPR1D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e2e1e233": {
+      "ncbi_accession": "SAMN33246280",
+      "ncbi_title": "TPR1D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-addf3815": {
+      "ncbi_accession": "SAMN33246279",
+      "ncbi_title": "TPR1D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a1c69479": {
+      "ncbi_accession": "SAMN33246278",
+      "ncbi_title": "TPR1C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-43847cae": {
+      "ncbi_accession": "SAMN33246277",
+      "ncbi_title": "TPR1C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c158058a": {
+      "ncbi_accession": "SAMN33246276",
+      "ncbi_title": "TPR1C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-dffad5be": {
+      "ncbi_accession": "SAMN33246275",
+      "ncbi_title": "TPR1B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2839c7d6": {
+      "ncbi_accession": "SAMN33246274",
+      "ncbi_title": "TPR1B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5dc567fd": {
+      "ncbi_accession": "SAMN33246273",
+      "ncbi_title": "TPR1B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f87cc928": {
+      "ncbi_accession": "SAMN33246272",
+      "ncbi_title": "TPR0F3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7dcf03c3": {
+      "ncbi_accession": "SAMN33246271",
+      "ncbi_title": "TPR0F2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cf47baa0": {
+      "ncbi_accession": "SAMN33246270",
+      "ncbi_title": "TPR0F1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-41beed0c": {
+      "ncbi_accession": "SAMN33246269",
+      "ncbi_title": "TPR0E3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5c0f3cbc": {
+      "ncbi_accession": "SAMN33246268",
+      "ncbi_title": "TPR0E2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b02a3a60": {
+      "ncbi_accession": "SAMN33246267",
+      "ncbi_title": "TPR0E1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-66c0d9ae": {
+      "ncbi_accession": "SAMN33246266",
+      "ncbi_title": "TPR0D3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4ef92a44": {
+      "ncbi_accession": "SAMN33246265",
+      "ncbi_title": "TPR0D2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b2f8d118": {
+      "ncbi_accession": "SAMN33246264",
+      "ncbi_title": "TPR0D1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-512c6a79": {
+      "ncbi_accession": "SAMN33246263",
+      "ncbi_title": "TPR0C3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a51b37d1": {
+      "ncbi_accession": "SAMN33246262",
+      "ncbi_title": "TPR0C2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2c640c2a": {
+      "ncbi_accession": "SAMN33246261",
+      "ncbi_title": "TPR0C1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-01941521": {
+      "ncbi_accession": "SAMN33246260",
+      "ncbi_title": "TPR0B3",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-14814aec": {
+      "ncbi_accession": "SAMN33246259",
+      "ncbi_title": "TPR0B2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b426aff6": {
+      "ncbi_accession": "SAMN33246258",
+      "ncbi_title": "TPR0B1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3b27555d": {
+      "ncbi_accession": "SAMN33245017",
+      "ncbi_title": "TPFRI1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b98d447d": {
+      "ncbi_accession": "SAMN33245016",
+      "ncbi_title": "TPFRI1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6a910ebd": {
+      "ncbi_accession": "SAMN33245015",
+      "ncbi_title": "TPFRI1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-93be4254": {
+      "ncbi_accession": "SAMN33245014",
+      "ncbi_title": "TPFRI1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9b5f910e": {
+      "ncbi_accession": "SAMN33245013",
+      "ncbi_title": "TPFRI1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0b987841": {
+      "ncbi_accession": "SAMN33245012",
+      "ncbi_title": "TPFRI1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d97b0f8b": {
+      "ncbi_accession": "SAMN33245011",
+      "ncbi_title": "TPFRI1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0b020395": {
+      "ncbi_accession": "SAMN33245010",
+      "ncbi_title": "TPFRI1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-147d8fd3": {
+      "ncbi_accession": "SAMN33245009",
+      "ncbi_title": "TPFRI1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d8419f24": {
+      "ncbi_accession": "SAMN33245008",
+      "ncbi_title": "TPFRI1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6aa87f36": {
+      "ncbi_accession": "SAMN33245007",
+      "ncbi_title": "TPFRI1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e69cc91c": {
+      "ncbi_accession": "SAMN33245006",
+      "ncbi_title": "TPFRI1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f68ba97c": {
+      "ncbi_accession": "SAMN33245005",
+      "ncbi_title": "TPFRI1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8232786b": {
+      "ncbi_accession": "SAMN33245004",
+      "ncbi_title": "TPFRI1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cf9d0291": {
+      "ncbi_accession": "SAMN33245003",
+      "ncbi_title": "TPFRI1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a0041dcf": {
+      "ncbi_accession": "SAMN33245002",
+      "ncbi_title": "TPFRI1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8d086351": {
+      "ncbi_accession": "SAMN33245001",
+      "ncbi_title": "TPFRI1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-dab9783e": {
+      "ncbi_accession": "SAMN33245000",
+      "ncbi_title": "TPFRI1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "FakeRhizoTime1Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-918fd499": {
+      "ncbi_accession": "SAMN33244999",
+      "ncbi_title": "TPRI1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9d85f406": {
+      "ncbi_accession": "SAMN33244998",
+      "ncbi_title": "TPRI1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f391b868": {
+      "ncbi_accession": "SAMN33244997",
+      "ncbi_title": "TPRI1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7b57af54": {
+      "ncbi_accession": "SAMN33244996",
+      "ncbi_title": "TPRI1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-725145ed": {
+      "ncbi_accession": "SAMN33244995",
+      "ncbi_title": "TPRI1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bff62035": {
+      "ncbi_accession": "SAMN33244994",
+      "ncbi_title": "TPRI1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4c53c556": {
+      "ncbi_accession": "SAMN33244993",
+      "ncbi_title": "TPRI1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e8f0903c": {
+      "ncbi_accession": "SAMN33244992",
+      "ncbi_title": "TPRI1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-13d641e7": {
+      "ncbi_accession": "SAMN33244991",
+      "ncbi_title": "TPRI1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-946548d8": {
+      "ncbi_accession": "SAMN33244990",
+      "ncbi_title": "TPRI1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-56c178cb": {
+      "ncbi_accession": "SAMN33244989",
+      "ncbi_title": "TPRI1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-37523840": {
+      "ncbi_accession": "SAMN33244988",
+      "ncbi_title": "TPRI1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c30fb971": {
+      "ncbi_accession": "SAMN33244987",
+      "ncbi_title": "TPRI1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9341b8a1": {
+      "ncbi_accession": "SAMN33244986",
+      "ncbi_title": "TPRI1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fc993a7d": {
+      "ncbi_accession": "SAMN33244985",
+      "ncbi_title": "TPRI1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-19a6191b": {
+      "ncbi_accession": "SAMN33244984",
+      "ncbi_title": "TPRI0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cf3cc656": {
+      "ncbi_accession": "SAMN33244983",
+      "ncbi_title": "TPRI0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7702ae74": {
+      "ncbi_accession": "SAMN33244982",
+      "ncbi_title": "TPRI0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-725048d5": {
+      "ncbi_accession": "SAMN33244981",
+      "ncbi_title": "TPRI0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a862c5cb": {
+      "ncbi_accession": "SAMN33244980",
+      "ncbi_title": "TPRI0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-80a37d3e": {
+      "ncbi_accession": "SAMN33244979",
+      "ncbi_title": "TPRI0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d9c3881d": {
+      "ncbi_accession": "SAMN33244978",
+      "ncbi_title": "TPRI0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-eca9b00b": {
+      "ncbi_accession": "SAMN33244977",
+      "ncbi_title": "TPRI0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5beff209": {
+      "ncbi_accession": "SAMN33244976",
+      "ncbi_title": "TPRI0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a4272cce": {
+      "ncbi_accession": "SAMN33244975",
+      "ncbi_title": "TPRI0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f77a529e": {
+      "ncbi_accession": "SAMN33244974",
+      "ncbi_title": "TPRI0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-16b48b2d": {
+      "ncbi_accession": "SAMN33244973",
+      "ncbi_title": "TPRI0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ef180355": {
+      "ncbi_accession": "SAMN33244972",
+      "ncbi_title": "TPRI0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9b6dcd8a": {
+      "ncbi_accession": "SAMN33244971",
+      "ncbi_title": "TPRI0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5f4a5b31": {
+      "ncbi_accession": "SAMN33244970",
+      "ncbi_title": "TPRI0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RhizoTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-14f2d11e": {
+      "ncbi_accession": "SAMN33244969",
+      "ncbi_title": "TPB1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9a1ac564": {
+      "ncbi_accession": "SAMN33244968",
+      "ncbi_title": "TPB1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4e49dcae": {
+      "ncbi_accession": "SAMN33244967",
+      "ncbi_title": "TPB1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-837e76e8": {
+      "ncbi_accession": "SAMN33244966",
+      "ncbi_title": "TPB1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-353345bb": {
+      "ncbi_accession": "SAMN33244965",
+      "ncbi_title": "TPB1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bb2d269b": {
+      "ncbi_accession": "SAMN33244964",
+      "ncbi_title": "TPB1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f82a7ee9": {
+      "ncbi_accession": "SAMN33244963",
+      "ncbi_title": "TPB1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-54af0261": {
+      "ncbi_accession": "SAMN33244962",
+      "ncbi_title": "TPB1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-879338f4": {
+      "ncbi_accession": "SAMN33244961",
+      "ncbi_title": "TPB1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-71737f36": {
+      "ncbi_accession": "SAMN33244960",
+      "ncbi_title": "TPB1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-10e6d60f": {
+      "ncbi_accession": "SAMN33244959",
+      "ncbi_title": "TPB1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-55aec802": {
+      "ncbi_accession": "SAMN33244958",
+      "ncbi_title": "TPB1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ad209446": {
+      "ncbi_accession": "SAMN33244957",
+      "ncbi_title": "TPB1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7f6624cd": {
+      "ncbi_accession": "SAMN33244956",
+      "ncbi_title": "TPB1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cc51564f": {
+      "ncbi_accession": "SAMN33244955",
+      "ncbi_title": "TPB1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bc59d0ec": {
+      "ncbi_accession": "SAMN33244954",
+      "ncbi_title": "TPB1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d6892a51": {
+      "ncbi_accession": "SAMN33244953",
+      "ncbi_title": "TPB1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-017136f9": {
+      "ncbi_accession": "SAMN33244952",
+      "ncbi_title": "TPB1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime1Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-05bb6b68": {
+      "ncbi_accession": "SAMN33244951",
+      "ncbi_title": "TPB0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1f6457ad": {
+      "ncbi_accession": "SAMN33244950",
+      "ncbi_title": "TPB0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d3a2cae7": {
+      "ncbi_accession": "SAMN33244949",
+      "ncbi_title": "TPB0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8891b10e": {
+      "ncbi_accession": "SAMN33244948",
+      "ncbi_title": "TPB0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4e56731a": {
+      "ncbi_accession": "SAMN33244947",
+      "ncbi_title": "TPB0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d47dacf9": {
+      "ncbi_accession": "SAMN33244946",
+      "ncbi_title": "TPB0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bb78bc55": {
+      "ncbi_accession": "SAMN33244945",
+      "ncbi_title": "TPB0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1163cb1c": {
+      "ncbi_accession": "SAMN33244944",
+      "ncbi_title": "TPB0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f6df5f3e": {
+      "ncbi_accession": "SAMN33244943",
+      "ncbi_title": "TPB0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-03d5337b": {
+      "ncbi_accession": "SAMN33244942",
+      "ncbi_title": "TPB0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-284a2ab7": {
+      "ncbi_accession": "SAMN33244941",
+      "ncbi_title": "TPB0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-969de364": {
+      "ncbi_accession": "SAMN33244940",
+      "ncbi_title": "TPB0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-43816ec2": {
+      "ncbi_accession": "SAMN33244939",
+      "ncbi_title": "TPB0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c58fd4a3": {
+      "ncbi_accession": "SAMN33244938",
+      "ncbi_title": "TPB0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f36c7c12": {
+      "ncbi_accession": "SAMN33244937",
+      "ncbi_title": "TPB0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9765ef89": {
+      "ncbi_accession": "SAMN33244936",
+      "ncbi_title": "TPB0A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep3",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6841a65e": {
+      "ncbi_accession": "SAMN33244935",
+      "ncbi_title": "TPB0A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep2",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0b9eaed3": {
+      "ncbi_accession": "SAMN33244934",
+      "ncbi_title": "TPB0A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoilTime0Rep1",
+        "treatment": "Control",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-95965d78": {
+      "ncbi_accession": "SAMN33244933",
+      "ncbi_title": "TPR1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3ce88286": {
+      "ncbi_accession": "SAMN33244932",
+      "ncbi_title": "TPR1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-af63dc18": {
+      "ncbi_accession": "SAMN33244931",
+      "ncbi_title": "TPR1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-75b9d66a": {
+      "ncbi_accession": "SAMN33244930",
+      "ncbi_title": "TPR1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-db6a5f22": {
+      "ncbi_accession": "SAMN33244929",
+      "ncbi_title": "TPR1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e6fe33e5": {
+      "ncbi_accession": "SAMN33244928",
+      "ncbi_title": "TPR1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ad621f36": {
+      "ncbi_accession": "SAMN33244927",
+      "ncbi_title": "TPR1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-792952e8": {
+      "ncbi_accession": "SAMN33244926",
+      "ncbi_title": "TPR1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f7d7e43b": {
+      "ncbi_accession": "SAMN33244925",
+      "ncbi_title": "TPR1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bbc46afa": {
+      "ncbi_accession": "SAMN33244924",
+      "ncbi_title": "TPR1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b5587cfc": {
+      "ncbi_accession": "SAMN33244923",
+      "ncbi_title": "TPR1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4c370bc2": {
+      "ncbi_accession": "SAMN33244922",
+      "ncbi_title": "TPR1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9ce4a11b": {
+      "ncbi_accession": "SAMN33244921",
+      "ncbi_title": "TPR1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-432dce52": {
+      "ncbi_accession": "SAMN33244920",
+      "ncbi_title": "TPR1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d8442a2d": {
+      "ncbi_accession": "SAMN33244919",
+      "ncbi_title": "TPR1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime1Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4660be93": {
+      "ncbi_accession": "SAMN33244918",
+      "ncbi_title": "TPR0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0047fcfe": {
+      "ncbi_accession": "SAMN33244917",
+      "ncbi_title": "TPR0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f075d449": {
+      "ncbi_accession": "SAMN33244916",
+      "ncbi_title": "TPR0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Linalool200",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ca53df86": {
+      "ncbi_accession": "SAMN33244915",
+      "ncbi_title": "TPR0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2843910e": {
+      "ncbi_accession": "SAMN33244914",
+      "ncbi_title": "TPR0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a9aa0eae": {
+      "ncbi_accession": "SAMN33244913",
+      "ncbi_title": "TPR0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Linalool100",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5b020e36": {
+      "ncbi_accession": "SAMN33244912",
+      "ncbi_title": "TPR0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ddf5a3a5": {
+      "ncbi_accession": "SAMN33244911",
+      "ncbi_title": "TPR0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-096dd3fc": {
+      "ncbi_accession": "SAMN33244910",
+      "ncbi_title": "TPR0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Water",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e1e0b236": {
+      "ncbi_accession": "SAMN33244909",
+      "ncbi_title": "TPR0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-27cb7211": {
+      "ncbi_accession": "SAMN33244908",
+      "ncbi_title": "TPR0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-034a21d9": {
+      "ncbi_accession": "SAMN33244907",
+      "ncbi_title": "TPR0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Nerolidol",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4bc1a697": {
+      "ncbi_accession": "SAMN33244906",
+      "ncbi_title": "TPR0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep3",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4d7627c5": {
+      "ncbi_accession": "SAMN33244905",
+      "ncbi_title": "TPR0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep2",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-62df5d7a": {
+      "ncbi_accession": "SAMN33244904",
+      "ncbi_title": "TPR0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "RootTime0Rep1",
+        "treatment": "Cineole",
+        "collection_date": "2021-07",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    }
+  }
+}

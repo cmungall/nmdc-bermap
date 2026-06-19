@@ -1,0 +1,3211 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-b3f195de",
+    "name": "",
+    "title": "CABBI-oilcane 16S rRNA and ITS (greenhouse)",
+    "description": "This project aims to study the microbial structure and potential functions of bacterial and fungal microbiomes in leaves, stems, roots, rhizospheres, and bulk soils of energy crops (oilcane) grown in greenhouses.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-d7f00249": {
+      "ncbi_accession": "SAMN31370018",
+      "ncbi_title": "L4_GHS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-295a1d12": {
+      "ncbi_accession": "SAMN31370017",
+      "ncbi_title": "L4_GHS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-d4fb4baa": {
+      "ncbi_accession": "SAMN31370016",
+      "ncbi_title": "L4_GHS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-5a084197": {
+      "ncbi_accession": "SAMN31370015",
+      "ncbi_title": "L4_GHS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-f7aa5389": {
+      "ncbi_accession": "SAMN31370014",
+      "ncbi_title": "L3_GHS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-9129e33a": {
+      "ncbi_accession": "SAMN31370013",
+      "ncbi_title": "L3_GHS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-e1959350": {
+      "ncbi_accession": "SAMN31370012",
+      "ncbi_title": "L3_GHS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-800efc5d": {
+      "ncbi_accession": "SAMN31370011",
+      "ncbi_title": "L3_GHS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-ffad4147": {
+      "ncbi_accession": "SAMN31370010",
+      "ncbi_title": "L2_GHS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-2c6c43a9": {
+      "ncbi_accession": "SAMN31370009",
+      "ncbi_title": "L2_GHS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-a8533475": {
+      "ncbi_accession": "SAMN31370008",
+      "ncbi_title": "L2_GHS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-c4f36c83": {
+      "ncbi_accession": "SAMN31370007",
+      "ncbi_title": "L2_GHS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-3cb38e5a": {
+      "ncbi_accession": "SAMN31370006",
+      "ncbi_title": "L1_GHS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-f5de3450": {
+      "ncbi_accession": "SAMN31370005",
+      "ncbi_title": "L1_GHS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-d4613508": {
+      "ncbi_accession": "SAMN31370004",
+      "ncbi_title": "L1_GHS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-8afbbc1f": {
+      "ncbi_accession": "SAMN31370003",
+      "ncbi_title": "L1_GHS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-1d735947": {
+      "ncbi_accession": "SAMN31370002",
+      "ncbi_title": "WT_GHS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-05c51344": {
+      "ncbi_accession": "SAMN31370001",
+      "ncbi_title": "WT_GHS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-985090d3": {
+      "ncbi_accession": "SAMN31370000",
+      "ncbi_title": "WT_GHS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-82742515": {
+      "ncbi_accession": "SAMN31369999",
+      "ncbi_title": "WT_GHS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_ITS",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-986bdf4e": {
+      "ncbi_accession": "SAMN31369998",
+      "ncbi_title": "L4_GHRAS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-13664fd8": {
+      "ncbi_accession": "SAMN31369997",
+      "ncbi_title": "L4_GHRAS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-cd4c7a15": {
+      "ncbi_accession": "SAMN31369996",
+      "ncbi_title": "L4_GHRAS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-9f99a4f9": {
+      "ncbi_accession": "SAMN31369995",
+      "ncbi_title": "L4_GHRAS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-b49528ed": {
+      "ncbi_accession": "SAMN31369994",
+      "ncbi_title": "L3_GHRAS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-550faffd": {
+      "ncbi_accession": "SAMN31369993",
+      "ncbi_title": "L3_GHRAS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-531b9167": {
+      "ncbi_accession": "SAMN31369992",
+      "ncbi_title": "L3_GHRAS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-a8fafd0c": {
+      "ncbi_accession": "SAMN31369991",
+      "ncbi_title": "L3_GHRAS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-94456379": {
+      "ncbi_accession": "SAMN31369990",
+      "ncbi_title": "L2_GHRAS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-872e8018": {
+      "ncbi_accession": "SAMN31369989",
+      "ncbi_title": "L2_GHRAS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-d689ab7b": {
+      "ncbi_accession": "SAMN31369988",
+      "ncbi_title": "L2_GHRAS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-f1a1a47e": {
+      "ncbi_accession": "SAMN31369987",
+      "ncbi_title": "L2_GHRAS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-90675528": {
+      "ncbi_accession": "SAMN31369986",
+      "ncbi_title": "L1_GHRAS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-1c8292c2": {
+      "ncbi_accession": "SAMN31369985",
+      "ncbi_title": "L1_GHRAS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-e3a11cac": {
+      "ncbi_accession": "SAMN31369984",
+      "ncbi_title": "L1_GHRAS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-86de353f": {
+      "ncbi_accession": "SAMN31369983",
+      "ncbi_title": "L1_GHRAS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-592edea4": {
+      "ncbi_accession": "SAMN31369982",
+      "ncbi_title": "WT_GHRAS_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-5c6ac726": {
+      "ncbi_accession": "SAMN31369981",
+      "ncbi_title": "WT_GHRAS_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-73035dc7": {
+      "ncbi_accession": "SAMN31369980",
+      "ncbi_title": "WT_GHRAS_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-8065a310": {
+      "ncbi_accession": "SAMN31369979",
+      "ncbi_title": "WT_GHRAS_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_ITS",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-84731e5a": {
+      "ncbi_accession": "SAMN31369978",
+      "ncbi_title": "L4_GHR_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-bd0e00e8": {
+      "ncbi_accession": "SAMN31369977",
+      "ncbi_title": "L4_GHR_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-24b646a5": {
+      "ncbi_accession": "SAMN31369976",
+      "ncbi_title": "L4_GHR_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-9dec7f85": {
+      "ncbi_accession": "SAMN31369975",
+      "ncbi_title": "L4_GHR_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-cfecbf81": {
+      "ncbi_accession": "SAMN31369974",
+      "ncbi_title": "L3_GHR_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-730e0830": {
+      "ncbi_accession": "SAMN31369973",
+      "ncbi_title": "L3_GHR_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-6fc67f69": {
+      "ncbi_accession": "SAMN31369972",
+      "ncbi_title": "L3_GHR_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-1861e117": {
+      "ncbi_accession": "SAMN31369971",
+      "ncbi_title": "L3_GHR_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-3a01a7b3": {
+      "ncbi_accession": "SAMN31369970",
+      "ncbi_title": "L2_GHR_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-97041c48": {
+      "ncbi_accession": "SAMN31369969",
+      "ncbi_title": "L2_GHR_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-68e45665": {
+      "ncbi_accession": "SAMN31369968",
+      "ncbi_title": "L2_GHR_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-adb05845": {
+      "ncbi_accession": "SAMN31369967",
+      "ncbi_title": "L2_GHR_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-2f4a09ac": {
+      "ncbi_accession": "SAMN31369966",
+      "ncbi_title": "L1_GHR_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-1645bc87": {
+      "ncbi_accession": "SAMN31369965",
+      "ncbi_title": "L1_GHR_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-7b9177ba": {
+      "ncbi_accession": "SAMN31369964",
+      "ncbi_title": "L1_GHR_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-aeac789e": {
+      "ncbi_accession": "SAMN31369963",
+      "ncbi_title": "L1_GHR_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-2a89fe6f": {
+      "ncbi_accession": "SAMN31369962",
+      "ncbi_title": "WT_GHR_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-3753ff50": {
+      "ncbi_accession": "SAMN31369961",
+      "ncbi_title": "WT_GHR_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-48dd9b2f": {
+      "ncbi_accession": "SAMN31369960",
+      "ncbi_title": "WT_GHR_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-b3c65ed0": {
+      "ncbi_accession": "SAMN31369959",
+      "ncbi_title": "WT_GHR_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-d4742174": {
+      "ncbi_accession": "SAMN31369958",
+      "ncbi_title": "L4_GHST_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-2e2c9198": {
+      "ncbi_accession": "SAMN31369957",
+      "ncbi_title": "L4_GHST_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-ea0bf0d8": {
+      "ncbi_accession": "SAMN31369956",
+      "ncbi_title": "L4_GHST_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-5c1f5f37": {
+      "ncbi_accession": "SAMN31369955",
+      "ncbi_title": "L4_GHST_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-8428398b": {
+      "ncbi_accession": "SAMN31369954",
+      "ncbi_title": "L3_GHST_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-442e59a6": {
+      "ncbi_accession": "SAMN31369953",
+      "ncbi_title": "L3_GHST_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-6e205d8c": {
+      "ncbi_accession": "SAMN31369952",
+      "ncbi_title": "L3_GHST_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-738d93e4": {
+      "ncbi_accession": "SAMN31369951",
+      "ncbi_title": "L3_GHST_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-6a25d3e2": {
+      "ncbi_accession": "SAMN31369950",
+      "ncbi_title": "L2_GHST_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-93d7b122": {
+      "ncbi_accession": "SAMN31369949",
+      "ncbi_title": "L2_GHST_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-47cbe43a": {
+      "ncbi_accession": "SAMN31369948",
+      "ncbi_title": "L2_GHST_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-18515a54": {
+      "ncbi_accession": "SAMN31369947",
+      "ncbi_title": "L2_GHST_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-e4024304": {
+      "ncbi_accession": "SAMN31369946",
+      "ncbi_title": "L1_GHST_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-86bd232c": {
+      "ncbi_accession": "SAMN31369945",
+      "ncbi_title": "L1_GHST_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-8b692a4c": {
+      "ncbi_accession": "SAMN31369944",
+      "ncbi_title": "L1_GHST_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-326f78d8": {
+      "ncbi_accession": "SAMN31369943",
+      "ncbi_title": "L1_GHST_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-3c835190": {
+      "ncbi_accession": "SAMN31369942",
+      "ncbi_title": "WT_GHST_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-1b837de5": {
+      "ncbi_accession": "SAMN31369941",
+      "ncbi_title": "WT_GHST_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-7ecb5329": {
+      "ncbi_accession": "SAMN31369940",
+      "ncbi_title": "WT_GHST_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-34628b7a": {
+      "ncbi_accession": "SAMN31369939",
+      "ncbi_title": "WT_GHST_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-e30e291f": {
+      "ncbi_accession": "SAMN31369938",
+      "ncbi_title": "L4_GHL_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-3272f106": {
+      "ncbi_accession": "SAMN31369937",
+      "ncbi_title": "L4_GHL_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-61a247dd": {
+      "ncbi_accession": "SAMN31369936",
+      "ncbi_title": "L4_GHL_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-4a4de0b3": {
+      "ncbi_accession": "SAMN31369935",
+      "ncbi_title": "L4_GHL_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-829d2a9e": {
+      "ncbi_accession": "SAMN31369934",
+      "ncbi_title": "L3_GHL_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-a0bf1859": {
+      "ncbi_accession": "SAMN31369933",
+      "ncbi_title": "L3_GHL_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-50271478": {
+      "ncbi_accession": "SAMN31369932",
+      "ncbi_title": "L3_GHL_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-f2637908": {
+      "ncbi_accession": "SAMN31369931",
+      "ncbi_title": "L3_GHL_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-b5d81292": {
+      "ncbi_accession": "SAMN31369930",
+      "ncbi_title": "L2_GHL_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-4abf0bfb": {
+      "ncbi_accession": "SAMN31369929",
+      "ncbi_title": "L2_GHL_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-491fcae1": {
+      "ncbi_accession": "SAMN31369928",
+      "ncbi_title": "L2_GHL_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-31baeb7f": {
+      "ncbi_accession": "SAMN31369927",
+      "ncbi_title": "L2_GHL_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-d098600c": {
+      "ncbi_accession": "SAMN31369926",
+      "ncbi_title": "L1_GHL_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-0f7dace4": {
+      "ncbi_accession": "SAMN31369925",
+      "ncbi_title": "L1_GHL_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-1f371320": {
+      "ncbi_accession": "SAMN31369924",
+      "ncbi_title": "L1_GHL_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-ad798ae2": {
+      "ncbi_accession": "SAMN31369923",
+      "ncbi_title": "L1_GHL_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-59ce8093": {
+      "ncbi_accession": "SAMN31369922",
+      "ncbi_title": "WT_GHL_rep4_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-0c60bae8": {
+      "ncbi_accession": "SAMN31369921",
+      "ncbi_title": "WT_GHL_rep3_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-a3ed812f": {
+      "ncbi_accession": "SAMN31369920",
+      "ncbi_title": "WT_GHL_rep2_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-6fd93648": {
+      "ncbi_accession": "SAMN31369919",
+      "ncbi_title": "WT_GHL_rep1_ITS",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_ITS",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-e2b1279d": {
+      "ncbi_accession": "SAMN31369918",
+      "ncbi_title": "L4_GHS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-445182ed": {
+      "ncbi_accession": "SAMN31369917",
+      "ncbi_title": "L4_GHS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-9549cd70": {
+      "ncbi_accession": "SAMN31369916",
+      "ncbi_title": "L4_GHS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-b9b8b5c0": {
+      "ncbi_accession": "SAMN31369915",
+      "ncbi_title": "L4_GHS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-3d1534f5": {
+      "ncbi_accession": "SAMN31369914",
+      "ncbi_title": "L3_GHS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-bea3919c": {
+      "ncbi_accession": "SAMN31369913",
+      "ncbi_title": "L3_GHS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-915a2433": {
+      "ncbi_accession": "SAMN31369912",
+      "ncbi_title": "L3_GHS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-1655fabc": {
+      "ncbi_accession": "SAMN31369911",
+      "ncbi_title": "L3_GHS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-c6ef2c04": {
+      "ncbi_accession": "SAMN31369910",
+      "ncbi_title": "L2_GHS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-bcd852d0": {
+      "ncbi_accession": "SAMN31369909",
+      "ncbi_title": "L2_GHS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-4f77d1ab": {
+      "ncbi_accession": "SAMN31369908",
+      "ncbi_title": "L2_GHS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-fb9fca7e": {
+      "ncbi_accession": "SAMN31369907",
+      "ncbi_title": "L2_GHS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-ba5b04ef": {
+      "ncbi_accession": "SAMN31369906",
+      "ncbi_title": "L1_GHS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-f4479537": {
+      "ncbi_accession": "SAMN31369905",
+      "ncbi_title": "L1_GHS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-7db21a3e": {
+      "ncbi_accession": "SAMN31369904",
+      "ncbi_title": "L1_GHS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-70b51090": {
+      "ncbi_accession": "SAMN31369903",
+      "ncbi_title": "L1_GHS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-b92e7859": {
+      "ncbi_accession": "SAMN31369902",
+      "ncbi_title": "WT_GHS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-cb22cace": {
+      "ncbi_accession": "SAMN31369901",
+      "ncbi_title": "WT_GHS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-37a9ef3b": {
+      "ncbi_accession": "SAMN31369900",
+      "ncbi_title": "WT_GHS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-86fdc00c": {
+      "ncbi_accession": "SAMN31369899",
+      "ncbi_title": "WT_GHS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_SSU",
+        "isolation_source": "Environment_bulksoil",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-01fe315c": {
+      "ncbi_accession": "SAMN31369898",
+      "ncbi_title": "L4_GHRAS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-9efd8ceb": {
+      "ncbi_accession": "SAMN31369897",
+      "ncbi_title": "L4_GHRAS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-ab68ee09": {
+      "ncbi_accession": "SAMN31369896",
+      "ncbi_title": "L4_GHRAS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-53abeb86": {
+      "ncbi_accession": "SAMN31369895",
+      "ncbi_title": "L4_GHRAS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-fc73fa42": {
+      "ncbi_accession": "SAMN31369894",
+      "ncbi_title": "L3_GHRAS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-cc55ad9d": {
+      "ncbi_accession": "SAMN31369893",
+      "ncbi_title": "L3_GHRAS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-2b3f3589": {
+      "ncbi_accession": "SAMN31369892",
+      "ncbi_title": "L3_GHRAS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-d345092f": {
+      "ncbi_accession": "SAMN31369891",
+      "ncbi_title": "L3_GHRAS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-a047021b": {
+      "ncbi_accession": "SAMN31369890",
+      "ncbi_title": "L2_GHRAS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-2ba3d467": {
+      "ncbi_accession": "SAMN31369889",
+      "ncbi_title": "L2_GHRAS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-786ad21d": {
+      "ncbi_accession": "SAMN31369888",
+      "ncbi_title": "L2_GHRAS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-66a3fed1": {
+      "ncbi_accession": "SAMN31369887",
+      "ncbi_title": "L2_GHRAS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-5a0d85cf": {
+      "ncbi_accession": "SAMN31369886",
+      "ncbi_title": "L1_GHRAS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-0bfd3f99": {
+      "ncbi_accession": "SAMN31369885",
+      "ncbi_title": "L1_GHRAS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-869f1c68": {
+      "ncbi_accession": "SAMN31369884",
+      "ncbi_title": "L1_GHRAS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-fbaea3f3": {
+      "ncbi_accession": "SAMN31369883",
+      "ncbi_title": "L1_GHRAS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-49562cb8": {
+      "ncbi_accession": "SAMN31369882",
+      "ncbi_title": "WT_GHRAS_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-d80693ae": {
+      "ncbi_accession": "SAMN31369881",
+      "ncbi_title": "WT_GHRAS_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-f6c2edad": {
+      "ncbi_accession": "SAMN31369880",
+      "ncbi_title": "WT_GHRAS_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-1ef63086": {
+      "ncbi_accession": "SAMN31369879",
+      "ncbi_title": "WT_GHRAS_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_SSU",
+        "isolation_source": "Environment_rhizosphere",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-de28f199": {
+      "ncbi_accession": "SAMN31369878",
+      "ncbi_title": "L4_GHR_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-78f7f397": {
+      "ncbi_accession": "SAMN31369877",
+      "ncbi_title": "L4_GHR_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-dc0f110b": {
+      "ncbi_accession": "SAMN31369876",
+      "ncbi_title": "L4_GHR_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-13c701dd": {
+      "ncbi_accession": "SAMN31369875",
+      "ncbi_title": "L4_GHR_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-66ebd533": {
+      "ncbi_accession": "SAMN31369874",
+      "ncbi_title": "L3_GHR_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-34b3f876": {
+      "ncbi_accession": "SAMN31369873",
+      "ncbi_title": "L3_GHR_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-079e281b": {
+      "ncbi_accession": "SAMN31369872",
+      "ncbi_title": "L3_GHR_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-c4181abd": {
+      "ncbi_accession": "SAMN31369871",
+      "ncbi_title": "L3_GHR_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-36a06932": {
+      "ncbi_accession": "SAMN31369870",
+      "ncbi_title": "L2_GHR_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-ba655cf2": {
+      "ncbi_accession": "SAMN31369869",
+      "ncbi_title": "L2_GHR_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-35a2f730": {
+      "ncbi_accession": "SAMN31369868",
+      "ncbi_title": "L2_GHR_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-c6063d4a": {
+      "ncbi_accession": "SAMN31369867",
+      "ncbi_title": "L2_GHR_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-51c505a0": {
+      "ncbi_accession": "SAMN31369866",
+      "ncbi_title": "L1_GHR_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-c0479f6e": {
+      "ncbi_accession": "SAMN31369865",
+      "ncbi_title": "L1_GHR_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-53649784": {
+      "ncbi_accession": "SAMN31369864",
+      "ncbi_title": "L1_GHR_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-e0c396af": {
+      "ncbi_accession": "SAMN31369863",
+      "ncbi_title": "L1_GHR_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-c1e34ae1": {
+      "ncbi_accession": "SAMN31369862",
+      "ncbi_title": "WT_GHR_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-27a54aa8": {
+      "ncbi_accession": "SAMN31369861",
+      "ncbi_title": "WT_GHR_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-abe23aa9": {
+      "ncbi_accession": "SAMN31369860",
+      "ncbi_title": "WT_GHR_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-4e6d0986": {
+      "ncbi_accession": "SAMN31369859",
+      "ncbi_title": "WT_GHR_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_root",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-2fe4cc0d": {
+      "ncbi_accession": "SAMN31369858",
+      "ncbi_title": "L4_GHST_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-ed07a397": {
+      "ncbi_accession": "SAMN31369857",
+      "ncbi_title": "L4_GHST_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-e847cd5a": {
+      "ncbi_accession": "SAMN31369856",
+      "ncbi_title": "L4_GHST_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-e9645fea": {
+      "ncbi_accession": "SAMN31369855",
+      "ncbi_title": "L4_GHST_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-f325f261": {
+      "ncbi_accession": "SAMN31369854",
+      "ncbi_title": "L3_GHST_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-99bae57f": {
+      "ncbi_accession": "SAMN31369853",
+      "ncbi_title": "L3_GHST_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-698191be": {
+      "ncbi_accession": "SAMN31369852",
+      "ncbi_title": "L3_GHST_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-a364df37": {
+      "ncbi_accession": "SAMN31369851",
+      "ncbi_title": "L3_GHST_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-81b0cc99": {
+      "ncbi_accession": "SAMN31369850",
+      "ncbi_title": "L2_GHST_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-8253f8f0": {
+      "ncbi_accession": "SAMN31369849",
+      "ncbi_title": "L2_GHST_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-28e52650": {
+      "ncbi_accession": "SAMN31369848",
+      "ncbi_title": "L2_GHST_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-19a7e13e": {
+      "ncbi_accession": "SAMN31369847",
+      "ncbi_title": "L2_GHST_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-f6741162": {
+      "ncbi_accession": "SAMN31369846",
+      "ncbi_title": "L1_GHST_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-ac979ed5": {
+      "ncbi_accession": "SAMN31369845",
+      "ncbi_title": "L1_GHST_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-9ff441ca": {
+      "ncbi_accession": "SAMN31369844",
+      "ncbi_title": "L1_GHST_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-da4575dd": {
+      "ncbi_accession": "SAMN31369843",
+      "ncbi_title": "L1_GHST_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-1d4a328a": {
+      "ncbi_accession": "SAMN31369842",
+      "ncbi_title": "WT_GHST_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-5be81120": {
+      "ncbi_accession": "SAMN31369841",
+      "ncbi_title": "WT_GHST_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-c7b1cad2": {
+      "ncbi_accession": "SAMN31369840",
+      "ncbi_title": "WT_GHST_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-9a7a3a56": {
+      "ncbi_accession": "SAMN31369839",
+      "ncbi_title": "WT_GHST_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_stem",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-34bc4bff": {
+      "ncbi_accession": "SAMN31369838",
+      "ncbi_title": "L4_GHL_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-40d02300": {
+      "ncbi_accession": "SAMN31369837",
+      "ncbi_title": "L4_GHL_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-b105f030": {
+      "ncbi_accession": "SAMN31369836",
+      "ncbi_title": "L4_GHL_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-8d8109a3": {
+      "ncbi_accession": "SAMN31369835",
+      "ncbi_title": "L4_GHL_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1569_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-8e82baf0": {
+      "ncbi_accession": "SAMN31369834",
+      "ncbi_title": "L3_GHL_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-b6fa7134": {
+      "ncbi_accession": "SAMN31369833",
+      "ncbi_title": "L3_GHL_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-7aa318d4": {
+      "ncbi_accession": "SAMN31369832",
+      "ncbi_title": "L3_GHL_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-da2252d1": {
+      "ncbi_accession": "SAMN31369831",
+      "ncbi_title": "L3_GHL_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1566_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-f199c264": {
+      "ncbi_accession": "SAMN31369830",
+      "ncbi_title": "L2_GHL_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-fb2e9f45": {
+      "ncbi_accession": "SAMN31369829",
+      "ncbi_title": "L2_GHL_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-3c152a94": {
+      "ncbi_accession": "SAMN31369828",
+      "ncbi_title": "L2_GHL_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-b13b46f2": {
+      "ncbi_accession": "SAMN31369827",
+      "ncbi_title": "L2_GHL_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "1565_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-d741cd0d": {
+      "ncbi_accession": "SAMN31369826",
+      "ncbi_title": "L1_GHL_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-9a047b13": {
+      "ncbi_accession": "SAMN31369825",
+      "ncbi_title": "L1_GHL_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-1afce708": {
+      "ncbi_accession": "SAMN31369824",
+      "ncbi_title": "L1_GHL_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-5c7b0ef9": {
+      "ncbi_accession": "SAMN31369823",
+      "ncbi_title": "L1_GHL_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "17T_replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    },
+    "nmdc:bsm-99-c6b8c1ea": {
+      "ncbi_accession": "SAMN31369822",
+      "ncbi_title": "WT_GHL_rep4_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate4_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate4"
+      }
+    },
+    "nmdc:bsm-99-f5a4cc63": {
+      "ncbi_accession": "SAMN31369821",
+      "ncbi_title": "WT_GHL_rep3_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate3_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate3"
+      }
+    },
+    "nmdc:bsm-99-15aaaecd": {
+      "ncbi_accession": "SAMN31369820",
+      "ncbi_title": "WT_GHL_rep2_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate2_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate2"
+      }
+    },
+    "nmdc:bsm-99-20d92e09": {
+      "ncbi_accession": "SAMN31369819",
+      "ncbi_title": "WT_GHL_rep1_SSU",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolate": "CP88-1762 _replicate1_SSU",
+        "isolation_source": "Saccharum spp. Hybrid_leaf",
+        "collection_date": "2020-04-16",
+        "geo_loc_name": "USA:Florida",
+        "lat_lon": "26.6845 N 80.6676 W",
+        "replicate": "replicate1"
+      }
+    }
+  }
+}

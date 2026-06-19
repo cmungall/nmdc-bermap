@@ -1,0 +1,724 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_medium",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

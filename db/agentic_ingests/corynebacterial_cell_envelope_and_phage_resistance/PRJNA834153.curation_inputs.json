@@ -1,0 +1,317 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-4183921b",
+    "name": "",
+    "title": "Phage resistance profiling identifies new genes required for biogenesis and modification of the corynebacterial cell envelope",
+    "description": "Bacteria of the order Corynebacteriales including pathogens such as Mycobacterium tuberculosis and Corynebacterium diphtheriae are characterized by their complex, multi-layered envelope. In addition to a peptidoglycan layer, these organisms possess an additional polysaccharide layer made of arabinogalactan and an outer membrane layer composed predominantly of long-chain fatty acids called mycolic acids. This so-called mycolata envelope structure is both a potent barrier against antibiotic entry into cells and a target of several antibacterial therapeutics. A better understanding of the mechanisms underlying mycolata envelope assembly therefore promises to reveal new ways of disrupting this unique structure for the development of antibiotics and antibiotic potentiators. Because they engage with receptors on the cell surface during infection, bacteriophages have long been used as tools to uncover important aspects of host envelope assembly. However, surprisingly little is known about the interactions between Corynebacteriales phages and their hosts. We therefore made use of the phages Cog and CL31 that infect Corynebacterium glutamicum (Cglu), a model member of the Corynebacteriales, to discover host factors important for phage infection. A high-density transposon library of Cglu was challenged with these phages followed by transposon sequencing to identify resistance loci. The analysis identified an important role for mycomembrane porins in phage infection as well as components of the arabinogalactan and mycolic acid synthesis pathways. Importantly, the approach also implicated a new gene (cgp_0396) in the process of arabinogalactan modification and identified a conserved new factor (AhfA, Cpg_0475) required for mycolic acid synthesis in Cglu.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-6badc877": {
+      "ncbi_accession": "SAMN31096628",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "CP-CL31_tn_2",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-d8a71fc8": {
+      "ncbi_accession": "SAMN31096627",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "CP-CL31_tn_1",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-df5e9895": {
+      "ncbi_accession": "SAMN31096626",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "WT-CL31_tn_2",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-525bf54c": {
+      "ncbi_accession": "SAMN31096625",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "WT-CL31_tn_1",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-767f3cff": {
+      "ncbi_accession": "SAMN31096624",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "Cog_tn_2",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-4bb2feb8": {
+      "ncbi_accession": "SAMN31096623",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "Cog_tn_1",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-676188a2": {
+      "ncbi_accession": "SAMN31096622",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "No_phage_tn_2",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-614ed782": {
+      "ncbi_accession": "SAMN31096621",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "No_phage_tn_1",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2022-09-12",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-4268461c": {
+      "ncbi_accession": "SAMN28042149",
+      "ncbi_title": "Microbe sample from Corynebacterium phage Cog",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "Lab",
+        "isolate": "WT-Cog",
+        "host": "Corynebacterium glutamicum",
+        "isolation_source": "N/A",
+        "collection_date": "2021-05-20",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "Whole organism"
+      }
+    },
+    "nmdc:bsm-99-066dc84d": {
+      "ncbi_accession": "SAMN28042148",
+      "ncbi_title": "Microbe sample from Corynebacterium phage CL31",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "CP",
+        "isolate": "CP-CL31_wgs",
+        "host": "Corynebacterium glutamicum",
+        "isolation_source": "N/A",
+        "collection_date": "2021-05-20",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "Whole organism"
+      }
+    },
+    "nmdc:bsm-99-d860c0e3": {
+      "ncbi_accession": "SAMN28042147",
+      "ncbi_title": "Microbe sample from Corynebacterium phage CL31",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "WT",
+        "isolate": "WT-CL31_wgs",
+        "host": "Corynebacterium glutamicum",
+        "isolation_source": "N/A",
+        "collection_date": "2021-05-20",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "Whole organism"
+      }
+    },
+    "nmdc:bsm-99-3bf894be": {
+      "ncbi_accession": "SAMN28042146",
+      "ncbi_title": "Microbe sample from Corynebacterium phage CL31",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "env",
+        "isolate": "env-CL31_wgs",
+        "host": "Corynebacterium glutamicum",
+        "isolation_source": "N/A",
+        "collection_date": "2021-05-20",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "Whole organism"
+      }
+    },
+    "nmdc:bsm-99-770982fb": {
+      "ncbi_accession": "SAMN28042145",
+      "ncbi_title": "Microbe sample from Corynebacterium phage Cog",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "env",
+        "isolate": "env-Cog_wgs",
+        "host": "Corynebacterium glutamicum",
+        "isolation_source": "N/A",
+        "collection_date": "2021-05-20",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "Whole organism"
+      }
+    },
+    "nmdc:bsm-99-306fcf1a": {
+      "ncbi_accession": "SAMN28042144",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "CP-CL31_run2_tnseq",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2021-03-02",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-8f15190b": {
+      "ncbi_accession": "SAMN28042143",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "No_phage_run2_tnseq",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2021-03-02",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-a6e91250": {
+      "ncbi_accession": "SAMN28042142",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "WT-CL31_run1_tnseq",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2019-11-21",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-73da40bb": {
+      "ncbi_accession": "SAMN28042141",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "Cog_run1_tnseq",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2019-11-21",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    },
+    "nmdc:bsm-99-79bf343f": {
+      "ncbi_accession": "SAMN28042140",
+      "ncbi_title": "Microbe sample from Corynebacterium glutamicum",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "MB001",
+        "isolate": "No_phage_run1_tnseq",
+        "host": "N/A",
+        "isolation_source": "N/A",
+        "collection_date": "2019-11-21",
+        "geo_loc_name": "USA: Boston",
+        "sample_type": "TnSeq"
+      }
+    }
+  }
+}

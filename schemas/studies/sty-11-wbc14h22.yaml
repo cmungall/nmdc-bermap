@@ -16,7 +16,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -50,16 +51,26 @@ classes:
 slots:
   nitrogen_treatment:
     title: nitrogen treatment
-    description: Low- versus high-nitrogen cropping system condition for switchgrass plots.
+    description: 'Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal Land
+      Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized control). Initiated
+      2014-2016; balanced 50/50 across all cropping systems and sites. Exact kg N/ha rate at the
+      KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).'
     range: NitrogenTreatmentEnum
     aliases:
     - nitrogen_treatment
     - n_treatment
+    - FertStatus
     - fertilizer_regimen
     annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: switchgrass cropping system
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: GLBRC MLE split-plot
       value_type: CATEGORICAL
+      data_source_notes: 'Not in NMDC. Recoverable from: (1) NCBI description_title for the 864
+        samples in PRJNA733109 (2016) — encoded as
+        "<seq_round>_<MMDDYY>_MMPRNT_<siteID>_<plotType>_rep<n>_<Fert|Unfert>_pseudo<n>";
+        (2) OSF supplementary metadata file https://osf.io/5vw9c/ Publish_data/
+        MMPRNT_2018.metadata_mapp_coverage.csv (FertStatus column) for 2018 samples.
+        Audit 2026-06-18.'
   field_location:
     title: field location
     description: Great Lakes region field site where each switchgrass sample was collected.
@@ -167,6 +178,13 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: ONTOLOGY_TERM
+      data_source_notes: 'NMDC asserts a uniform env triad across all 2676 biosamples
+        — env_broad_scale=ENVO:01000221 (temperate woodland biome — wrong for cropland/grassland),
+        env_local_scale=ENVO:00000114 (agricultural field — correct for switchgrass G5 plots only),
+        env_medium=ENVO:00005749 (farm soil — correct for G5 only). For the 792 G10 (Restored Prairie)
+        and G11 (Undisturbed Control) plots, the broad_scale/local_scale/medium should be
+        grassland-related ENVO terms. Recover plot type via cur_vegetation_has_raw_value or
+        experimental_factor_other. Audit 2026-06-18.'
   environmental_package:
     title: environmental package
     description: MIxS environmental package used for the NMDC biosample metadata.
@@ -257,15 +275,30 @@ slots:
       value_type: CATEGORICAL
   current_vegetation:
     title: current vegetation
-    description: Current vegetation descriptor recorded for the NMDC biosample.
+    description: Current vegetation descriptor recorded for the NMDC biosample. Three categories
+      — Switchgrass (1884), Restored Prairie (396), Undisturbed Control (396).
     range: string
     aliases:
     - cur_vegetation
     annotations:
       role: COVARIATE; GROUPING
       value_type: TEXT
+      data_source_notes: 'Stored redundantly with other_experimental_factor — both NMDC columns
+        carry the same three values across all 2676 samples. Either is sufficient; prefer
+        cur_vegetation as the MIxS-aligned field. Audit 2026-06-18.'
 enums:
   NitrogenTreatmentEnum:
     permissible_values:
-      low nitrogen: null
-      high nitrogen: null
+      Unfert:
+        description: Unfertilized control (0N) — no nitrogen amendment applied to the plot.
+        aliases:
+        - 0N
+        - control
+        - unfertilized
+        - low nitrogen
+      Fert:
+        description: Fertilized (+N) — nitrogen-amended at the GLBRC MLE split-plot rate.
+        aliases:
+        - +N
+        - fertilized
+        - high nitrogen

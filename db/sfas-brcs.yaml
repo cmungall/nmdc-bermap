@@ -100,6 +100,14 @@ bioenergy_research_centers:
       sampling_strategy: Seasonal field sampling over two growing seasons from perennial crop phyllospheres.
       replication: Samples collected across switchgrass and miscanthus field plots.
       notes: Initial variable catalog entry; source field names should be refined against the raw submission.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-e4yb9z58.qc.md):
+      (1) No INSDC BioProject recorded on NMDC study (only GOLD: Gs0128851 + JGI proposal 503249),
+      so nmdc-ingest-agent re-ingest not possible;
+      (2) env_triad has a MIxS category mismatch — env_local_scale and env_medium both carry
+      *_biome terms (phyllosphere biome, plant-associated biome) instead of feature/material;
+      (3) Same MMPRNT cohort as sty-11-wbc14h22 — samp_name uses GLBRC plot codes (G5R1_MAIN_…);
+      seasonal sampling design and N fertilization invisible to NMDC structured fields.
   - nmdc_study_id: nmdc:sty-11-wbc14h22
     name: Switchgrass cropping systems on marginal lands
     pi: Maren Friesen
@@ -730,6 +738,16 @@ bioenergy_research_centers:
       - sorghum rhizosphere samples
       sampling_strategy: Rhizosphere sampling from sorghum under well-watered and drought-stressed conditions.
       notes: Initial variable catalog entry based on study description.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-n7mtj961.qc.md):
+      (1) Massive ~43x sample-count divergence — NMDC has 16 biosamples; PRJNA1205755 carries 683.
+      Worth investigating the filter criterion;
+      (2) env_triad for the 16 NMDC samples is clean (cropland biome / rhizosphere / soil);
+      (3) Sorghum genotype ('Wheatland'), drought treatment, and timepoints not surfaced in
+      structured NMDC fields — only in samp_name ("RHZAXXX" pattern);
+      (4) Full 683-sample agentic ingest available at db/agentic_ingests/sty-11-n7mtj961/.
+      Required a patch to nmdc-ingest-agent: _infer_analyte_category returned the invalid value
+      "metabarcode" for amplicon strategies; corrected locally to "amplicon_sequencing_assay".
   - name: Sorghum Synthetic Rhizosphere Community (SRC1)
     pi: Devin Coleman-Derr
     description: Defined synthetic microbial community (SRC1) of 16-20 bacterial strains assembled
@@ -1219,6 +1237,17 @@ bioenergy_research_centers:
       sampling_strategy: Boardman field sampling across Populus genotypes, belowground compartments, and drought
         conditions.
       notes: Catalog of 15 variables (4 design factors, 2 measured outcomes, 5 covariates, 3 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 64 samples.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-kfvmk798.qc.md):
+      (1) 6x sample-count divergence — NMDC has 64; PRJNA784967 carries 384 (= 192 physical
+      samples x 2 amplicon assays, 16S + ITS);
+      (2) NMDC env_medium uniformly rhizosphere [ENVO:00005801] across all 64 — flattens the
+      three compartments named in the title (root endosphere, rhizosphere, bulk soil);
+      (3) Drought tolerance class + irrigation regime stored as semicolon-delimited string in
+      other_treatment ("host common name: poplar; irrigation: full_irrigation") — not lifted
+      into structured fields;
+      (4) Full 384-sample agentic ingest available at db/agentic_ingests/sty-11-kfvmk798/ with
+      correct compartment split via isolation_source decoding.
   - name: Poplar Rhizosphere Microbiota Assembly Dynamics
     pi: Aurelie Deveau
     description: Characterization of fungal and bacterial community assembly from root to shoot axis in
@@ -1796,6 +1825,13 @@ genomic_science_sfas:
         at the Angelo Coast Range Reserve.
       replication: 60 soil samples.
       notes: Catalog of 20 variables (1 design factor, 3 measured outcomes, 9 covariates, 6 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 60 samples.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-zs2syx06.qc.md):
+      (1) No INSDC BioProject recorded — only GOLD: Gs0110119;
+      (2) env_triad is well-curated (grassland biome / meadow / grassland soil) — better than most studies in the audit;
+      (3) Climate-change treatment (water-amended vs control) not visible in NMDC structured fields;
+      (4) Depth encoded in samp_name (e.g. "20cm") could be backfilled into NMDC depth_* fields.
+
   - nmdc_study_id: nmdc:sty-11-ev70y104
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     pi: Trent R. Northen
@@ -1821,6 +1857,19 @@ genomic_science_sfas:
         and a defined synthetic bacterial community.
       replication: Replicated across participating laboratories.
       notes: Catalog of 27 variables (3 design factors, 4 measured outcomes, 14 covariates, 1 grouping variable, 2 spatial indices, 1 temporal index, 2 identifiers) derived from NMDC biosample attributes across 140 samples.
+    bioproject_ids:
+    - PRJNA1151037
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-ev70y104.qc.md):
+      (1) 23-sample gap between NMDC (140) and NCBI PRJNA1151037 (175) — likely controls /
+      mock samples;
+      (2) NMDC env_triad is compartment-aware (rhizosphere/root vs sterile water control) —
+      good curation;
+      (3) Participating lab identifier (LabA/LabB/...) is the primary independent variable for
+      a multi-lab reproducibility study, but lives only in samp_name — needs reification;
+      (4) Full agentic ingest at db/agentic_ingests/sty-11-ev70y104/. Only study in cohort with
+      validator_rejected outcomes: ENVO has no good biome for indoor EcoFAB microcosm setup;
+      175 env_broad_scale rows left as principled sentinels.
   - name: Brachypodium Core Root Microbiome Metabarcoding
     pi: Trent R. Northen
     description: 16S rRNA amplicon sequencing defining core root microbiome of Brachypodium distachyon
@@ -3312,6 +3361,13 @@ genomic_science_sfas:
       sampling_strategy: Characterization of poplar root microbiome membership and functional diversity
         in the context of favorable plant-microbe interactions.
       notes: Catalog of 21 variables (1 design factor, 2 measured outcomes, 11 covariates, 5 spatial indices, 1 temporal index, 1 identifier) derived from NMDC biosample attributes across 30 samples.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-1t150432.qc.md):
+      (1) No INSDC BioProject recorded — only GOLD: Gs0103573;
+      (2) Study description says generic Populus root/rhizosphere; data is specifically Populus deltoides (not P. trichocarpa) — bermap description should be tightened;
+      (3) env_triad correctly distinguishes endosphere/rhizoplane/rhizosphere (uses PO terms for endosphere) — good NMDC curation;
+      (4) Host genotype encoded in samp_name (DD176 etc.) not surfaced as structured field.
+
   - nmdc_study_id: nmdc:sty-11-r2h77870
     name: Bio-Scales - Integrated Metagenomic, Metabolomic and Transcriptomic Survey of Populus
     pi: Mitchel J. Doktycz
@@ -3344,6 +3400,13 @@ genomic_science_sfas:
       sampling_strategy: Integrated sampling across Populus genotypes, plant compartments, and Oregon field sites.
       replication: 318 metagenomes, 98 transcriptomes, and 314 metabolomic profiles from 27 genotypes.
       notes: Initial high-level design summary for variable catalog display.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-r2h77870.qc.md):
+      (1) NMDC study record carries no INSDC BioProject (only GOLD: Gs0154044 + JGI proposal 507130), but the bermap entry lists PRJNA1034652 — these are out of sync;
+      (2) env_triad correctly distinguishes bulk soil / rhizosphere / root compartments — good NMDC curation;
+      (3) 27 Populus genotype codes (BESC-, GW-) live only in samp_name; bermap profile's PopulusGenotypeEnum has a "27 P. trichocarpa genotypes" placeholder that should be reified;
+      (4) PRJNA1034652 deterministic ingest produces 0 biosamples — BioProject has no BioSamples linked.
+
   - name: Seasonality and Temporal Dynamics in Populus Microbiome
     pi: Melissa Cregger
     description: Amplicon sequencing characterizing bacterial/archaeal and fungal communities in leaf
@@ -4129,6 +4192,14 @@ environmental_system_science_sfas:
       sampling_strategy: Riverbed sediment sampling in groundwater-surface water mixing zones across locations
         with different vegetation density and repeated temporal observations.
       notes: Catalog of 19 variables (2 design factors, 2 measured outcomes, 10 covariates, 5 spatial indices) derived from NMDC biosample attributes across 84 samples.
+    ncbi_data_quality_notes: >-
+      Cross-source discrepancies (audit 2026-06-19, see schemas/studies/sty-11-aygzgv51.qc.md):
+      (1) No INSDC BioProject recorded — only GOLD: Gs0114663;
+      (2) env_broad_scale = hot desert biome [ENVO:00000873] for 34 samples is WRONG — Columbia River Washington is temperate riverine, not desert;
+      (3) Lab-incubation microcosm subset (17 samples) mixed into field-sample ingest without a structured field/lab flag;
+      (4) env_*_term_name columns are NULL — label backfill needed (same gap as sty-11-076c9980);
+      (5) Transect position (T3/T4) and groundwater-vs-river-water role only in samp_name.
+
   - name: Functional Microbiome Catalogue from North American Rivers
     pi: Kelly Wrighton
     description: Catalog of 2,000+ microbial genomes from ~100 rivers across North America. Over 1,000

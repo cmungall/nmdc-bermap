@@ -83,8 +83,31 @@ Legend: ✅ aligned · ⚠️ derived or partial · ❌ disagreement or missing
 
 **Key takeaway:** NMDC did *not* ingest from NCBI; the two ingests are parallel from the submitter.
 
+## Agent curation pass (2026-06-19)
+
+Full `/ncbi-to-nmdc` workflow run against PRJNA601860. Outcomes:
+
+| Slot | predicted | resolved_from_raw | resolved_at_pipeline | left_sentinel | validator_rejected |
+|---|---:|---:|---:|---:|---:|
+| `env_broad_scale` | **648** | 0 | 0 | 0 | 0 |
+| `env_local_scale` | **648** | 0 | 0 | 0 | 0 |
+| `env_medium` | **648** | 0 | 0 | 0 | 0 |
+
+**Zero sentinels, zero rejections.** The agent decoded the `samp_name` CABBI plot code (`<num>_<crop>_<yr>_P<plot>_N<n>_[<rep>_]<date>_CABBI`) to classify each sample. Result:
+
+- All 648 → `env_broad_scale = ENVO:01000245` cropland biome (correctly overturning NMDC's bulk-soil flat-fielding implication)
+- All 648 → `env_local_scale = ENVO:00005749` farm soil
+- env_medium split by samp_name rep marker:
+  - **486 rhizosphere** (`ENVO:00005801`) — names with A/B/C rep marker
+  - **162 bulk soil** (`ENVO:00005802`) — 7-part names without rep letter (the pre-planting timepoint)
+
+The agent's split recovers the rhizosphere-vs-bulk distinction NMDC flattens. See `db/agentic_ingests/sty-11-vh2hty57/` for the curated artifacts and README.
+
+Note: the 648 NCBI-deposited samples are a subset of NMDC's 696 (the 48 extra are CABBI bulk-soil deposits that bypass NCBI).
+
 ## Known limitations of this audit
 
 - `samp_taxon_id`, `Days`, `Type`, `Comparing` NCBI custom attributes not yet mirrored into the bermap profile.
 - The NMDC env_medium mislabel is flagged here but no upstream curation issue has been filed against NMDC (yet).
 - Stand age formula (`collection_year − planting_year`) assumes single-season sampling; revisit if multi-year resampling is added.
+- Host taxon assignment (Miscanthus × giganteus / Zea mays) was flagged but not committed by the agent — see snapshot README.

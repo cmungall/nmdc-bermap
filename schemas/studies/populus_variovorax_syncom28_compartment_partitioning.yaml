@@ -17,7 +17,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -91,4 +92,5 @@ enums:
     permissible_values:
       rhizosphere:
         meaning: ENVO:00005801
-      endosphere: null
+      endosphere:
+        meaning: GOLD:Endosphere

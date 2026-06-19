@@ -1,11 +1,11 @@
 summary:
-  variable_count: 547
-  study_variable_count: 540
+  variable_count: 552
+  study_variable_count: 545
   dataset_variable_count: 7
   bervo_mapped_variable_count: 21
   bervo_term_count: 12
   mixs_term_count: 18
-  without_bervo_count: 526
+  without_bervo_count: 531
 records:
 - id: nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-16s-community-profile
   name: 16S community profile
@@ -1428,7 +1428,7 @@ records:
   - bulk soil
   level_terms:
   - value: root endosphere
-    id: null
+    id: GOLDPATH:5304
   - value: rhizosphere
     id: ENVO:00005801
   - value: bulk soil
@@ -1436,8 +1436,9 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
-    ENVO:00005802: 4
+    ENVO:00005801: 13
+    ENVO:00005802: 5
+    GOLDPATH:5304: 2
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -1689,6 +1690,58 @@ records:
     name: Joint BioEnergy Institute
     acronym: JBEI
     anchor_id: nmdc_sfas_brcs:jbei
+- id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-biological-replicate
+  name: biological replicate
+  description: Biological replicate identifier within a (plot × date) cell — three
+    sub-samples per cell on the early April timepoints, two on the later timepoints.
+    Encoded in `samp_name` as `_A_` / `_B_` / `_C_` markers, or (for the 2018-04-25
+    amplicon batch) by sequential sample IDs. Captured on NCBI BioSample as the `replicate`
+    custom attribute.
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - DERIVED
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: biological replicate sub-sample
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  level_terms: []
+  enum_kind: null
+  enum_source: null
+  shared:
+    MIXS:0000008: 73
+  source_field_names:
+  - replicate
+  - rep
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+      mapping_relation: exactMatch
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+      × giganteus
+    anchor_id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus
+    nmdc_study_id: nmdc:sty-11-vh2hty57
+    bioproject_ids:
+    - PRJNA601860
+    doi: null
+    url: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
+  program:
+    collection: bioenergy_research_centers
+    id: nmdc_sfas_brcs:cabbi
+    name: Center for Advanced Bioenergy and Bioproducts Innovation
+    acronym: CABBI
+    anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-deconstruction-performance
   name: biomass deconstruction performance
   description: Pretreatment effectiveness measured as biomass disruption, fractionation,
@@ -4278,7 +4331,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
     MIXS:0000365: 7
   source_field_names:
   - accession_type
@@ -4599,7 +4652,8 @@ records:
     anchor_id: nmdc_sfas_brcs:mcafes
 - id: nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-current-vegetation
   name: current vegetation
-  description: Current vegetation descriptor recorded for the NMDC biosample.
+  description: Current vegetation descriptor recorded for the NMDC biosample. Three
+    categories — Switchgrass (1884), Restored Prairie (396), Undisturbed Control (396).
   roles:
   - COVARIATE
   - GROUPING
@@ -10878,7 +10932,7 @@ records:
   enum_kind: dynamic
   enum_source: HostCommonNameEnum
   shared:
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - host_common_name
   mappings:
@@ -10923,7 +10977,7 @@ records:
   enum_kind: dynamic
   enum_source: HostCommonNameEnum
   shared:
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - host_common_name
   mappings:
@@ -10964,18 +11018,19 @@ records:
   temporal_resolution: null
   spatial_resolution: null
   levels:
-  - switchgrass
   - miscanthus
+  - panicum virgatum
   level_terms:
-  - value: switchgrass
-    id: null
   - value: miscanthus
     id: NCBITaxon:62336
+  - value: panicum virgatum
+    id: NCBITaxon:38727
   enum_kind: static
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
+    NCBITaxon:62336: 1
   source_field_names:
   - host_species
   - crop
@@ -11026,7 +11081,7 @@ records:
   enum_source: HostCommonNameEnum
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - host_common_name
   - crop
@@ -11059,6 +11114,68 @@ records:
     name: Great Lakes Bioenergy Research Center
     acronym: GLBRC
     anchor_id: nmdc_sfas_brcs:glbrc
+- id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop
+  name: host crop
+  description: Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop)
+    or Corn (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string
+    field `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - GROUPING
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: bioenergy crop host
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - miscanthus
+  - zea mays
+  level_terms:
+  - value: miscanthus
+    id: NCBITaxon:62336
+  - value: zea mays
+    id: NCBITaxon:4577
+  enum_kind: static
+  enum_source: null
+  shared:
+    MIXS:0000008: 73
+    MIXS:0000248: 12
+    NCBITaxon:62336: 1
+  source_field_names:
+  - other_treatment
+  - host_species
+  - crop
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000248
+      label: host common name
+      mapping_relation: exactMatch
+    - id: MIXS:0000008
+      label: experimental factor
+      mapping_relation: exactMatch
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+      × giganteus
+    anchor_id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus
+    nmdc_study_id: nmdc:sty-11-vh2hty57
+    bioproject_ids:
+    - PRJNA601860
+    doi: null
+    url: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
+  program:
+    collection: bioenergy_research_centers
+    id: nmdc_sfas_brcs:cabbi
+    name: Center for Advanced Bioenergy and Bioproducts Innovation
+    acronym: CABBI
+    anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-host-dry-mass
   name: host dry mass
   description: Host dry mass recorded for the NMDC biosample.
@@ -11268,12 +11385,12 @@ records:
   - Populus x jackii
   level_terms:
   - value: Populus x jackii
-    id: null
+    id: NCBITaxon:640484
   enum_kind: static
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - host
   - isolation_source
@@ -11843,7 +11960,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - organism
   - partner
@@ -12640,7 +12757,7 @@ records:
   enum_source: HostCommonNameEnum
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - plant_species
   - litter_species
@@ -14907,12 +15024,12 @@ records:
   - value: Miscanthus sinensis
     id: NCBITaxon:62337
   - value: Miscanthus floridulus
-    id: null
+    id: NCBITaxon:154761
   enum_kind: static
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - species
   - host_species
@@ -15586,13 +15703,18 @@ records:
     anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-nitrogen-fertilizer-rate
   name: nitrogen fertilizer rate
-  description: Nitrogen fertilizer application rate assigned to Miscanthus field plots.
+  description: 'Nitrogen fertilizer application rate assigned to Miscanthus or Corn
+    field plots. Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha
+    for the Corn comparator. Not stored as a numeric in NMDC; parse from the string
+    field experimental_factor_other (e.g. "N_fertilization_rate: 200 kg/ha") or from
+    NCBI BioSample Nitrogen custom attribute.'
   roles:
   - EXPERIMENTAL_FACTOR
   - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - DERIVED
   value_type: NUMERIC
   units: kilogram per hectare
-  measured_entity: Miscanthus field plot
+  measured_entity: Miscanthus or Corn field plot
   material_or_matrix: null
   method: null
   time_series: null
@@ -15643,26 +15765,29 @@ records:
     anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-nitrogen-treatment
   name: nitrogen treatment
-  description: Low- versus high-nitrogen cropping system condition for switchgrass
-    plots.
+  description: 'Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal
+    Land Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized
+    control). Initiated 2014-2016; balanced 50/50 across all cropping systems and
+    sites. Exact kg N/ha rate at the KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).'
   roles:
   - EXPERIMENTAL_FACTOR
   - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - DERIVED
   value_type: CATEGORICAL
   units: null
-  measured_entity: switchgrass cropping system
+  measured_entity: GLBRC MLE split-plot
   material_or_matrix: null
   method: null
   time_series: null
   temporal_resolution: null
   spatial_resolution: null
   levels:
-  - low nitrogen
-  - high nitrogen
+  - Unfert
+  - Fert
   level_terms:
-  - value: low nitrogen
+  - value: Unfert
     id: null
-  - value: high nitrogen
+  - value: Fert
     id: null
   enum_kind: static
   enum_source: null
@@ -15673,6 +15798,7 @@ records:
   source_field_names:
   - nitrogen_treatment
   - n_treatment
+  - FertStatus
   - fertilizer_regimen
   mappings:
     bervo:
@@ -15951,6 +16077,8 @@ records:
 - id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-other-treatment
   name: other treatment
   description: Additional treatment descriptor recorded in NMDC biosample metadata.
+    For this study, `other_treatment` is overloaded to carry the host crop (Miscanthus
+    vs Corn comparator); see the `host_crop` slot for the structured form.
   roles:
   - EXPERIMENTAL_FACTOR
   - STUDY_DESIGN_INDEPENDENT_VARIABLE
@@ -16839,18 +16967,18 @@ records:
   levels:
   - rhizosphere
   - root
-  - shoot
+  - shoot system
   level_terms:
   - value: rhizosphere
     id: ENVO:00005801
   - value: root
     id: PO:0009005
-  - value: shoot
-    id: null
+  - value: shoot system
+    id: PO:0009006
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -16996,8 +17124,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
-    ENVO:00005802: 4
+    ENVO:00005801: 13
+    ENVO:00005802: 5
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -17062,7 +17190,7 @@ records:
   - soil
   level_terms:
   - value: root endosphere
-    id: null
+    id: GOLDPATH:5304
   - value: rhizosphere
     id: ENVO:00005801
   - value: soil
@@ -17071,7 +17199,8 @@ records:
   enum_source: null
   shared:
     ENVO:00001998: 2
-    ENVO:00005801: 12
+    ENVO:00005801: 13
+    GOLDPATH:5304: 2
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -17361,7 +17490,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
   source_field_names:
   - species
   - host_common_name
@@ -17454,7 +17583,7 @@ records:
   - rhizosphere
   level_terms:
   - value: phyllosphere
-    id: null
+    id: GOLD:Phyllosphere
   - value: aerial root mucilage
     id: null
   - value: rhizosphere
@@ -17462,7 +17591,7 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -17524,13 +17653,14 @@ records:
   - value: leaf endosphere
     id: null
   - value: root endosphere
-    id: null
+    id: GOLDPATH:5304
   - value: rhizosphere
     id: ENVO:00005801
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
+    GOLDPATH:5304: 2
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -17654,6 +17784,57 @@ records:
     doi: null
     url: null
     primary_reference: doi:10.1016/j.soilbio.2024.109370
+  program:
+    collection: bioenergy_research_centers
+    id: nmdc_sfas_brcs:cabbi
+    name: Center for Advanced Bioenergy and Bioproducts Innovation
+    acronym: CABBI
+    anchor_id: nmdc_sfas_brcs:cabbi
+- id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-plot-id
+  name: plot id
+  description: Field plot identifier within the CABBI EnergyFarm chronosequence trial.
+    Not surfaced as a structured NMDC field; parse from the `P<n>` token in `samp_name`
+    (e.g., `P50`) or from NCBI BioSample `Plot` custom attribute.
+  roles:
+  - IDENTIFIER
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - DERIVED
+  value_type: IDENTIFIER
+  units: null
+  measured_entity: field plot
+  material_or_matrix: null
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels: []
+  level_terms: []
+  enum_kind: null
+  enum_source: null
+  shared:
+    MIXS:0000008: 73
+  source_field_names:
+  - plot
+  - plot_number
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000008
+      label: experimental factor
+      mapping_relation: exactMatch
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+      × giganteus
+    anchor_id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus
+    nmdc_study_id: nmdc:sty-11-vh2hty57
+    bioproject_ids:
+    - PRJNA601860
+    doi: null
+    url: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
   program:
     collection: bioenergy_research_centers
     id: nmdc_sfas_brcs:cabbi
@@ -17899,7 +18080,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
     NCBITaxon:3694: 2
     NCBITaxon:3696: 1
   source_field_names:
@@ -18009,7 +18190,7 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -18076,7 +18257,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
     NCBITaxon:3694: 2
     NCBITaxon:3696: 1
   source_field_names:
@@ -19016,7 +19197,7 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -19089,8 +19270,8 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
-    ENVO:00005802: 4
+    ENVO:00005801: 13
+    ENVO:00005802: 5
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -19150,7 +19331,7 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
   source_field_names:
   - asv_table
   - community_profile
@@ -19247,7 +19428,7 @@ records:
   enum_kind: null
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
   source_field_names:
   - metagenome_profile
   - metatranscriptome_profile
@@ -19529,7 +19710,7 @@ records:
   - bulk soil
   level_terms:
   - value: root tip
-    id: null
+    id: PO:0000025
   - value: root base
     id: null
   - value: bulk soil
@@ -19537,7 +19718,7 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005802: 4
+    ENVO:00005802: 5
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -19641,11 +19822,11 @@ records:
   - value: rhizosphere
     id: ENVO:00005801
   - value: endosphere
-    id: null
+    id: GOLD:Endosphere
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -19712,7 +19893,7 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005801: 12
+    ENVO:00005801: 13
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -20126,7 +20307,7 @@ records:
   enum_kind: static
   enum_source: null
   shared:
-    ENVO:00005802: 4
+    ENVO:00005802: 5
     MIXS:0000008: 73
     MIXS:0000013: 36
     MIXS:0000014: 42
@@ -20719,6 +20900,60 @@ records:
     name: River Corridor Hydrobiogeochemistry Science Focus Area
     acronym: RC-SFA
     anchor_id: nmdc_sfas_brcs:river_corridor
+- id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint
+  name: sampling timepoint
+  description: Growing-season sampling timepoint within the 2018 collection window.
+    Five timepoints were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this
+    slot for the time-series axis independent of the `collection_date` covariate.
+  roles:
+  - DATE_TIME_VARIABLE
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  value_type: DATETIME
+  units: null
+  measured_entity: null
+  material_or_matrix: null
+  method: null
+  time_series: true
+  temporal_resolution: five timepoints across one growing season
+  spatial_resolution: null
+  levels: []
+  level_terms: []
+  enum_kind: null
+  enum_source: null
+  shared:
+    MIXS:0000008: 73
+    MIXS:0000011: 24
+  source_field_names:
+  - timepoint
+  - collection_date
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000011
+      label: collection date
+      mapping_relation: exactMatch
+    - id: MIXS:0000008
+      label: experimental factor
+      mapping_relation: exactMatch
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+      × giganteus
+    anchor_id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus
+    nmdc_study_id: nmdc:sty-11-vh2hty57
+    bioproject_ids:
+    - PRJNA601860
+    doi: null
+    url: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
+  program:
+    collection: bioenergy_research_centers
+    id: nmdc_sfas_brcs:cabbi
+    name: Center for Advanced Bioenergy and Bioproducts Innovation
+    acronym: CABBI
+    anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year
   name: sampling year
   description: Field season used to evaluate inter-annual variability in rhizosphere
@@ -21445,6 +21680,77 @@ records:
     name: Molecular Observation Network
     acronym: MONet
     anchor_id: nmdc_sfas_brcs:monet
+- id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment
+  name: soil compartment
+  description: Soil compartment sampled — rhizosphere vs bulk soil. Not captured in
+    any NMDC structured field for this study (`env_medium` is uniformly `bulk soil`
+    for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable
+    from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_`
+    / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute
+    (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited
+    to NCBI).
+  roles:
+  - STUDY_DESIGN_INDEPENDENT_VARIABLE
+  - GROUPING
+  - DERIVED
+  value_type: CATEGORICAL
+  units: null
+  measured_entity: soil microbial habitat
+  material_or_matrix: soil
+  method: null
+  time_series: null
+  temporal_resolution: null
+  spatial_resolution: null
+  levels:
+  - rhizosphere
+  - bulk soil
+  level_terms:
+  - value: rhizosphere
+    id: ENVO:00005801
+  - value: bulk soil
+    id: ENVO:00005802
+  enum_kind: static
+  enum_source: null
+  shared:
+    ENVO:00005801: 13
+    ENVO:00005802: 5
+    MIXS:0000008: 73
+    MIXS:0000013: 36
+    MIXS:0000014: 42
+  source_field_names:
+  - compartment
+  - sample_type
+  mappings:
+    bervo: null
+    mixs:
+    - id: MIXS:0000013
+      label: local environmental context
+      mapping_relation: closeMatch
+    - id: MIXS:0000014
+      label: environmental medium
+      mapping_relation: closeMatch
+    - id: MIXS:0000008
+      label: experimental factor
+      mapping_relation: exactMatch
+    other: []
+    unit: null
+  owner:
+    type: study
+    name: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+      × giganteus
+    anchor_id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus
+    nmdc_study_id: nmdc:sty-11-vh2hty57
+    bioproject_ids:
+    - PRJNA601860
+    doi: null
+    url: null
+    primary_reference: doi:10.1094/PBIOMES-01-20-0014-FI
+  program:
+    collection: bioenergy_research_centers
+    id: nmdc_sfas_brcs:cabbi
+    name: Center for Advanced Bioenergy and Bioproducts Innovation
+    acronym: CABBI
+    anchor_id: nmdc_sfas_brcs:cabbi
 - id: nmdc_sfas_brcs-monet-study-1000-soils-pilot-soil-core-depth
   name: soil core depth
   description: Depth interval represented by a standardized soil core or subsample.
@@ -22707,7 +23013,9 @@ records:
 - id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-sampling-depth
   name: soil sampling depth
   description: Depth interval for Miscanthus soil samples recorded in NMDC biosample
-    metadata.
+    metadata. NMDC stores depth as a min/max range (e.g., 0.0–0.1 m via `depth_has_minimum_numeric_value`
+    and `depth_has_maximum_numeric_value`); this scalar slot captures the maximum
+    (lower-boundary) value.
   roles:
   - SPATIAL_INDEX
   - COVARIATE
@@ -22727,6 +23035,7 @@ records:
     MIXS:0000018: 10
   source_field_names:
   - depth
+  - depth_has_maximum_numeric_value
   - soil_depth
   mappings:
     bervo: null
@@ -23864,10 +24173,15 @@ records:
     anchor_id: nmdc_sfas_brcs:microbes_persist
 - id: nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-stand-age
   name: stand age
-  description: Age of the Miscanthus stand in the replicated chronosequence trial.
+  description: Age of the Miscanthus stand at sampling, computed as collection year
+    minus planting year. Not surfaced as a structured field in NMDC biosample metadata;
+    derive from the planting-year token in samp_name (e.g., `_2017_` → 2017) or from
+    the NCBI BioSample `Year` custom attribute. Corn comparator plots are stand age
+    0.
   roles:
   - STUDY_DESIGN_INDEPENDENT_VARIABLE
   - GROUPING
+  - DERIVED
   value_type: INTEGER
   units: years
   measured_entity: Miscanthus field plot
@@ -24354,7 +24668,7 @@ records:
   enum_source: null
   shared:
     MIXS:0000008: 73
-    MIXS:0000248: 11
+    MIXS:0000248: 12
     NCBITaxon:3694: 2
   source_field_names:
   - organism
@@ -24664,17 +24978,17 @@ records:
   temporal_resolution: null
   spatial_resolution: null
   levels:
-  - open water
-  - wetland
+  - area of open water
+  - wetland ecosystem
   - shoreline
   - upland forest
   level_terms:
-  - value: open water
-    id: null
-  - value: wetland
-    id: null
+  - value: area of open water
+    id: ENVO:01000666
+  - value: wetland ecosystem
+    id: ENVO:01001209
   - value: shoreline
-    id: null
+    id: ENVO:00000486
   - value: upland forest
     id: null
   enum_kind: static
@@ -26094,6 +26408,7 @@ by_mixs:
   - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-sampling-season
   - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-sampling-time-point
   - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-sampling-time-point
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint
   - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year
   - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-sampling-year
   - nmdc_sfas_brcs-watershed_function-study-east-river-virome-and-microbial-dynamics-snowmelt-phase
@@ -26160,6 +26475,7 @@ by_mixs:
   - nmdc_sfas_brcs-cabbi-study-native-miscanthus-rhizosphere-and-endophytic-microbiome-root-associated-compartment
   - nmdc_sfas_brcs-glbrc-study-switchgrass-root-and-soil-microbiome-sample-compartment
   - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-bacterial-community-composition
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment
   - nmdc_sfas_brcs-glbrc-study-kbs-mcse-long-term-cropping-experiment-metagenomes-soil-metagenome-profile
   - nmdc_sfas_brcs-monet-study-1000-soils-pilot-soil-metagenome-profile
   - nmdc_sfas_brcs-pnnl_soil_microbiome-study-soil-microbiome-response-to-depth-irrigation-and-plant-genotype-soil-microbiome-composition
@@ -26186,6 +26502,7 @@ by_mixs:
   - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-belowground-compartment
   - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-biocontainment-design
   - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-bioenergy-trait-modulation
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-biological-replicate
   - nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-or-biomembrane-substrate
   - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-biotic-regimen
   - nmdc_sfas_brcs-brave_pathogenesis_model-study-s-elongatus-pcc-7942-carbon-metabolism-proteomics-carbon-metabolism-condition
@@ -26227,6 +26544,7 @@ by_mixs:
   - nmdc_sfas_brcs-seed-study-crispri-high-throughput-screens-in-non-model-bacteria-guide-rna-target
   - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-host-crop
   - nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-host-crop
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop
   - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-host-gene-perturbation
   - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-host-genotype-or-perturbation
   - nmdc_sfas_brcs-seed-study-bacillus-velezensis-eb14-biocontrol-agent-genome-host-isolation-source
@@ -26267,6 +26585,7 @@ by_mixs:
   - nmdc_sfas_brcs-mcafes-study-core-metabolome-and-root-exudation-dynamics-plant-species
   - nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-plant-associated-compartment
   - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-plant-associated-habitat
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-plot-id
   - nmdc_sfas_brcs-pmi-study-climate-driven-divergence-in-plant-microbiome-interactions-populus-angustifolia-genotype
   - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-populus-genotype
   - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-populus-genotype
@@ -26294,11 +26613,13 @@ by_mixs:
   - nmdc_sfas_brcs-glbrc-study-switchgrass-root-and-soil-microbiome-sampling-site
   - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-sampling-time-point
   - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-sampling-time-point
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint
   - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year
   - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-sampling-year
   - nmdc_sfas_brcs-monet-study-monet-winter-soil-sampling-2024-selected-project
   - nmdc_sfas_brcs-brave_pathogenesis_model-study-4d-whole-cell-model-of-prochlorococcus-marinus-med4-simulation-time-point
   - nmdc_sfas_brcs-watershed_function-study-east-river-virome-and-microbial-dynamics-snowmelt-phase
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment
   - nmdc_sfas_brcs-monet-study-1000-soils-pilot-soil-core-depth
   - nmdc_sfas_brcs-cabbi-study-plant-nitrifier-interactions-in-topsoil-and-subsoil-soil-depth
   - nmdc_sfas_brcs-pnnl_soil_microbiome-study-soil-microbiome-response-to-depth-irrigation-and-plant-genotype-soil-depth
@@ -26349,6 +26670,7 @@ by_mixs:
   - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-host-common-name
   - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-host-crop
   - nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-host-crop
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop
   - nmdc_sfas_brcs-seed-study-bacillus-velezensis-eb14-biocontrol-agent-genome-host-isolation-source
   - nmdc_sfas_brcs-brave_plant_pathogen-study-sorghum-colletotrichum-dual-rna-seq-interaction-partner
   - nmdc_sfas_brcs-glbrc-study-soil-pore-space-decomposition-microbiome-leaf-litter-plant-species
@@ -26422,6 +26744,7 @@ by_mixs:
   - nmdc_sfas_brcs-monet-study-1000-soils-pilot-sampling-ecoregion
   - nmdc_sfas_brcs-glbrc-study-switchgrass-root-and-soil-microbiome-sampling-site
   - nmdc_sfas_brcs-mercury_sfa-study-east-fork-poplar-creek-sediment-metagenomes-sediment-sampling-location
+  - nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment
   - nmdc_sfas_brcs-mcafes-study-brachypodium-core-root-microbiome-metabarcoding-soil-origin
   - nmdc_sfas_brcs-pnnl_soil_microbiome-study-viral-contributions-to-soil-carbon-dynamics-soil-sample-context
   - nmdc_sfas_brcs-enigma-study-oak-ridge-sediment-and-groundwater-metagenomes-subsurface-spatial-scale
@@ -26536,6 +26859,7 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-belowground-microbiome-composition
 - nmdc_sfas_brcs-llnl_secure_biosystems-study-multilayered-biocontainment-for-rhizosphere-deployment-biocontainment-design
 - nmdc_sfas_brcs-jbei-study-impact-of-modulating-bioenergy-traits-on-the-sorghum-microbiome-under-drought-conditions-bioenergy-trait-modulation
+- nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-biological-replicate
 - nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-deconstruction-performance
 - nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomass-or-biomembrane-substrate
 - nmdc_sfas_brcs-biomass_deconstruction-study-solvent-disruption-of-biomass-and-biomembrane-structures-biomolecular-assembly-structure
@@ -26740,6 +27064,7 @@ without_bervo:
 - nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial-host-common-name
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-host-crop
 - nmdc_sfas_brcs-glbrc-study-sorghum-phyllosphere-microbiome-host-crop
+- nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop
 - nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-host-dry-mass
 - nmdc_sfas_brcs-brave_phage_foundry-study-e-coli-phage-resistance-landscape-host-gene-perturbation
 - nmdc_sfas_brcs-brave_phage_foundry-study-corynebacterial-cell-envelope-and-phage-resistance-host-genotype-or-perturbation
@@ -26867,6 +27192,7 @@ without_bervo:
 - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-plant-associated-habitat
 - nmdc_sfas_brcs-pmi-study-defining-the-functional-diversity-of-the-populus-root-microbiome-plant-microbe-interaction-phenotype
 - nmdc_sfas_brcs-cabbi-study-plant-nitrifier-interactions-in-topsoil-and-subsoil-plant-nitrifier-interaction-mechanism
+- nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-plot-id
 - nmdc_sfas_brcs-pmi-study-climate-driven-divergence-in-plant-microbiome-interactions-populus-angustifolia-genotype
 - nmdc_sfas_brcs-cbi-study-chronic-drought-differentially-alters-the-belowground-microbiome-of-populus-trichocarpa-populus-genotype
 - nmdc_sfas_brcs-pmi-study-bio-scales---integrated-metagenomic-metabolomic-and-transcriptomic-survey-of-populus-populus-genotype
@@ -26928,6 +27254,7 @@ without_bervo:
 - nmdc_sfas_brcs-glbrc-study-switchgrass-root-and-soil-microbiome-sampling-site
 - nmdc_sfas_brcs-glbrc-study-terpene-effects-on-sorghum-microbiome-sampling-time-point
 - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-sampling-time-point
+- nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint
 - nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year
 - nmdc_sfas_brcs-pmi-study-seasonality-and-temporal-dynamics-in-populus-microbiome-sampling-year
 - nmdc_sfas_brcs-river_corridor-study-riverbed-sediment-microbial-communities-from-the-columbia-river-sediment-sampling-depth
@@ -26943,6 +27270,7 @@ without_bervo:
 - nmdc_sfas_brcs-monet-study-monet-winter-soil-sampling-2024-soil-carbon-and-nutrient-profile
 - nmdc_sfas_brcs-pnnl_soil_microbiome-study-viral-contributions-to-soil-carbon-dynamics-soil-carbon-dynamics-estimate
 - nmdc_sfas_brcs-monet-study-monet-neon-first-collection-soil-chemical-composition-profile
+- nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment
 - nmdc_sfas_brcs-monet-study-1000-soils-pilot-soil-core-depth
 - nmdc_sfas_brcs-cabbi-study-plant-nitrifier-interactions-in-topsoil-and-subsoil-soil-depth
 - nmdc_sfas_brcs-pnnl_soil_microbiome-study-soil-microbiome-response-to-depth-irrigation-and-plant-genotype-soil-depth

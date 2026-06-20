@@ -28,3 +28,23 @@ uv run nmdc-ingest-ncbi PRJNA1159295 --out PRJNA1159295.json
 uv run nmdc-ingest-ncbi PRJNA1040840 --out PRJNA1040840.json
 uv run nmdc-ingest-ncbi PRJNA768492 --out PRJNA768492.json
 ```
+
+## Curation pass (2026-06-20)
+
+Full `/ncbi-to-nmdc` skill workflow run; env_triad slots committed where evidence supported, `left_sentinel` / `validator_rejected` otherwise. Per-(biosample, slot) outcomes in the `.curation_report.json` sidecar.
+
+Outcome counts per BioProject:
+
+| BioProject | Slot | predicted | resolved_from_raw | resolved_at_pipeline | left_sentinel | validator_rejected |
+|---|---|---:|---:|---:|---:|---:|
+| `PRJNA1040840` | `env_broad_scale` | – | – | – | – | – |
+| `PRJNA1040840` | `env_local_scale` | – | – | – | – | – |
+| `PRJNA1040840` | `env_medium` | – | – | – | – | – |
+| `PRJNA1159295` | `env_broad_scale` | – | – | – | – | – |
+| `PRJNA1159295` | `env_local_scale` | – | – | – | – | – |
+| `PRJNA1159295` | `env_medium` | – | – | – | – | – |
+| `PRJNA768492` | `env_broad_scale` | – | – | – | – | – |
+| `PRJNA768492` | `env_local_scale` | – | – | – | – | – |
+| `PRJNA768492` | `env_medium` | – | – | – | – | – |
+
+See [../CURATION_REPORT.md](../CURATION_REPORT.md) for the consolidated cross-batch analysis (cross-cutting issues, anchor failures, ontology gaps).

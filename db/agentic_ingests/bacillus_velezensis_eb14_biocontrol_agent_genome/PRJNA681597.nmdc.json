@@ -29,9 +29,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "endophytes",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "endophytes"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {

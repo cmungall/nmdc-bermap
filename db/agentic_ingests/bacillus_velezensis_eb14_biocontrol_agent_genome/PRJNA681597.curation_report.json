@@ -13,7 +13,8 @@
         "info_ok": null,
         "anchor_ok": null,
         "valueset_ok": null
-      }
+      },
+      "notes": "Submitter wrote 'Populus microbiome' — not a biome. Strain is a cultured isolate from Populus jackii leaf in Montreal, Canada; biome of original collection (urban park vs forest vs plantation) is unknown."
     },
     {
       "biosample_id": "nmdc:bsm-99-bcc483a0",
@@ -28,20 +29,24 @@
         "info_ok": null,
         "anchor_ok": null,
         "valueset_ok": null
-      }
+      },
+      "notes": "'Leaf microbiome' describes the community, not an env feature. ENVO has no leaf-as-environmental-feature anchor descendant; phyllosphere is not in ENVO."
     },
     {
       "biosample_id": "nmdc:bsm-99-bcc483a0",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "resolved_from_raw",
       "raw_input": "endophytes",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {"source": "biosample.env_medium.has_raw_value", "quote_or_paraphrase": "endophytes — endophyte-source material is plant tissue"},
+        {"source": "BioProject.description", "quote_or_paraphrase": "Endophytic bacteria isolated from a leaf of Poplar trees"}
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     }

@@ -3,45 +3,59 @@
     {
       "biosample_id": "nmdc:bsm-99-adf9f04f",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
-      "candidates_considered": [],
+      "committed_curie": "ENVO:03605008",
+      "committed_label": "freshwater stream biome",
+      "evidence": [
+        {"source": "biosample.attributes.isolation_source", "quote_or_paraphrase": "sediment from a natural stream"},
+        {"source": "BioProject.description", "quote_or_paraphrase": "metagenomes of sediments from EFPC, a natural stream"}
+      ],
+      "candidates_considered": [
+        {"curie": "ENVO:00000890", "label": "small river biome", "reason_rejected": "stream more specific than river for EFPC"}
+      ],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-adf9f04f",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
-      "candidates_considered": [],
+      "committed_curie": "ENVO:00000023",
+      "committed_label": "stream",
+      "evidence": [
+        {"source": "biosample.attributes.isolation_source", "quote_or_paraphrase": "natural stream sediment"},
+        {"source": "biosample.attributes.geo_loc_name", "quote_or_paraphrase": "East Fork Poplar Creek study site"}
+      ],
+      "candidates_considered": [
+        {"curie": "ENVO:00000383", "label": "stream bed", "reason_rejected": "sample is from sediment within stream; 'stream' captures the feature"}
+      ],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-adf9f04f",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
-      "candidates_considered": [],
+      "committed_curie": "ENVO:00002127",
+      "committed_label": "stream sediment",
+      "evidence": [
+        {"source": "biosample.attributes.isolation_source", "quote_or_paraphrase": "sediment from a natural stream"}
+      ],
+      "candidates_considered": [
+        {"curie": "ENVO:00002007", "label": "sediment", "reason_rejected": "stream sediment is more specific and matches isolation_source"}
+      ],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     }

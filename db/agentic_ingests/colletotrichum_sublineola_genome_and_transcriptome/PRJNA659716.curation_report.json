@@ -3,47 +3,56 @@
     {
       "biosample_id": "nmdc:bsm-99-5ec2236c",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "not applicable",
       "committed_curie": null,
       "committed_label": null,
-      "evidence": [],
+      "evidence": [
+        {"source": "biosample.attributes.isol_growth_condt", "quote_or_paraphrase": "fungus grown in lab on PDA media"}
+      ],
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
         "anchor_ok": null,
         "valueset_ok": null
-      }
+      },
+      "notes": "Lab-cultured fungus (CsGL1) on PDA; no ENVO biome term fits indoor culture context. Submitter wrote 'not applicable' for all triad slots."
     },
     {
       "biosample_id": "nmdc:bsm-99-5ec2236c",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "not applicable",
       "committed_curie": null,
       "committed_label": null,
-      "evidence": [],
+      "evidence": [
+        {"source": "biosample.attributes.isol_growth_condt", "quote_or_paraphrase": "fungus grown in lab on PDA media"}
+      ],
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
         "anchor_ok": null,
         "valueset_ok": null
-      }
+      },
+      "notes": "Lab culture context — no astronomical-body-part descendant fits a Petri-dish growth environment."
     },
     {
       "biosample_id": "nmdc:bsm-99-5ec2236c",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "not applicable",
       "committed_curie": null,
       "committed_label": null,
-      "evidence": [],
+      "evidence": [
+        {"source": "biosample.attributes.isol_growth_condt", "quote_or_paraphrase": "Potato Dextrose Agar media"}
+      ],
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
         "anchor_ok": null,
         "valueset_ok": null
-      }
+      },
+      "notes": "PDA growth medium — no ENVO environmental-material descendant for laboratory growth medium."
     }
   ]
 }

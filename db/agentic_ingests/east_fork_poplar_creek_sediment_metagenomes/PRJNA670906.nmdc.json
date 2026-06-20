@@ -11,27 +11,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:03605008",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater stream biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000023",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "stream"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002127",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "stream sediment"
         }
       },
       "provenance_metadata": {

@@ -13,7 +13,7 @@
         "term": {
           "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "in vitro culture on potato dextrose agar"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
@@ -81,7 +81,7 @@
         "term": {
           "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "in vitro culture on potato dextrose agar"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
@@ -149,7 +149,7 @@
         "term": {
           "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "in vitro culture on potato dextrose agar"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
@@ -217,7 +217,7 @@
         "term": {
           "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "in vitro culture on potato dextrose agar"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {

@@ -9,26 +9,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -74,26 +77,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -139,26 +145,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -209,26 +218,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -279,26 +291,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -349,26 +364,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -419,26 +437,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -489,26 +510,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -559,26 +583,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -629,26 +656,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -699,26 +729,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -769,26 +802,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -839,26 +875,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -909,26 +948,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -979,26 +1021,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1049,26 +1094,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1119,26 +1167,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1189,26 +1240,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1259,26 +1313,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1329,26 +1386,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1399,26 +1459,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1469,26 +1532,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1539,26 +1605,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1609,26 +1678,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1679,26 +1751,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1749,26 +1824,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1819,26 +1897,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1889,26 +1970,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -1959,26 +2043,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2029,26 +2116,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2099,26 +2189,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2169,26 +2262,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2239,26 +2335,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2309,26 +2408,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2379,26 +2481,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2449,26 +2554,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2519,26 +2627,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2589,26 +2700,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2659,26 +2773,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2729,26 +2846,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2799,26 +2919,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2869,26 +2992,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -2939,26 +3065,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3009,26 +3138,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3079,26 +3211,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3149,26 +3284,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3219,26 +3357,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3289,26 +3430,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3359,26 +3503,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3429,26 +3576,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3499,26 +3649,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3569,26 +3722,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3639,26 +3795,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3709,26 +3868,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3779,26 +3941,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3849,26 +4014,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3919,26 +4087,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -3989,26 +4160,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4059,26 +4233,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4129,26 +4306,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4199,26 +4379,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4269,26 +4452,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4339,26 +4525,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4409,26 +4598,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4479,26 +4671,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4549,26 +4744,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4619,26 +4817,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4689,26 +4890,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4759,26 +4963,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4829,26 +5036,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4899,26 +5109,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -4969,26 +5182,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5039,26 +5255,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5109,26 +5328,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5179,26 +5401,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5249,26 +5474,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5319,26 +5547,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5389,26 +5620,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5459,26 +5693,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5529,26 +5766,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5599,26 +5839,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5669,26 +5912,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5739,26 +5985,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5809,26 +6058,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5879,26 +6131,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -5949,26 +6204,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6019,26 +6277,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6089,26 +6350,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6159,26 +6423,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6229,26 +6496,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6299,26 +6569,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6369,26 +6642,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6439,26 +6715,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6509,26 +6788,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6579,26 +6861,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6649,26 +6934,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6719,26 +7007,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6789,26 +7080,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6859,26 +7153,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6929,26 +7226,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -6999,26 +7299,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -7069,26 +7372,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -7139,26 +7445,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -7209,26 +7518,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -7279,26 +7591,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {
@@ -7349,26 +7664,29 @@
       ],
       "env_broad_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
-          "id": "ENVO:01000352",
+          "id": "ENVO:00000000",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:01000352"
+          "name": "(not provided)"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00000114",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00000114"
+          "name": "agricultural field"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
         "term": {
           "id": "ENVO:00005755",
           "type": "nmdc:OntologyClass",
-          "name": "ENVO:00005755"
+          "name": "field soil"
         }
       },
       "provenance_metadata": {

@@ -26,3 +26,20 @@ cd ~/nmdc-ingest-agent && uv sync
 uv run nmdc-ingest-ncbi PRJNA961726 --out PRJNA961726.json
 uv run nmdc-ingest-ncbi PRJNA1114779 --out PRJNA1114779.json
 ```
+
+## Curation pass (2026-06-20)
+
+Full `/ncbi-to-nmdc` skill workflow run; env_triad slots committed where evidence supported, `left_sentinel` / `validator_rejected` otherwise. Per-(biosample, slot) outcomes in the `.curation_report.json` sidecar.
+
+Outcome counts per BioProject:
+
+| BioProject | Slot | predicted | resolved_from_raw | resolved_at_pipeline | left_sentinel | validator_rejected |
+|---|---|---:|---:|---:|---:|---:|
+| `PRJNA1114779` | `env_broad_scale` | – | – | – | – | 4 |
+| `PRJNA1114779` | `env_local_scale` | – | – | – | – | 4 |
+| `PRJNA1114779` | `env_medium` | – | – | – | – | 4 |
+| `PRJNA961726` | `env_broad_scale` | – | – | – | – | 95 |
+| `PRJNA961726` | `env_local_scale` | – | – | – | – | 95 |
+| `PRJNA961726` | `env_medium` | 95 | – | – | – | – |
+
+See [../CURATION_REPORT.md](../CURATION_REPORT.md) for the consolidated cross-batch analysis (cross-cutting issues, anchor failures, ontology gaps).

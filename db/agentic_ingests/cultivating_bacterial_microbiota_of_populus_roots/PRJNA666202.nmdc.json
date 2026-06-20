@@ -11,27 +11,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -84,27 +84,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -157,27 +157,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -230,27 +230,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -303,27 +303,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -376,27 +376,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -449,27 +449,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -522,27 +522,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -595,27 +595,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -668,27 +668,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -741,27 +741,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -814,27 +814,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -887,27 +887,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -960,27 +960,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1033,27 +1033,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1106,27 +1106,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1179,27 +1179,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1252,27 +1252,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1325,27 +1325,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1398,27 +1398,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1471,27 +1471,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1544,27 +1544,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1617,27 +1617,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1690,27 +1690,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1763,27 +1763,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1836,27 +1836,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1909,27 +1909,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -1982,27 +1982,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2055,27 +2055,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2128,27 +2128,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2201,27 +2201,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2274,27 +2274,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2347,27 +2347,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2420,27 +2420,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2493,27 +2493,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2566,27 +2566,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2639,27 +2639,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2712,27 +2712,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2785,27 +2785,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2858,27 +2858,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -2931,27 +2931,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3004,27 +3004,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3077,27 +3077,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3150,27 +3150,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3223,27 +3223,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3296,27 +3296,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3369,27 +3369,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3442,27 +3442,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3515,27 +3515,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3588,27 +3588,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3661,27 +3661,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3734,27 +3734,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3807,27 +3807,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3880,27 +3880,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -3953,27 +3953,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4026,27 +4026,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4099,27 +4099,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4172,27 +4172,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4245,27 +4245,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4318,27 +4318,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4391,27 +4391,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4464,27 +4464,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4537,27 +4537,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4610,27 +4610,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4683,27 +4683,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4756,27 +4756,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -4829,9 +4829,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -4847,9 +4847,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -4902,9 +4902,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -4920,9 +4920,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -4975,9 +4975,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -4993,9 +4993,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5048,9 +5048,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5066,9 +5066,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5121,9 +5121,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5139,9 +5139,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5194,9 +5194,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5212,9 +5212,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5267,9 +5267,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5285,9 +5285,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5340,9 +5340,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5358,9 +5358,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5413,9 +5413,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5431,9 +5431,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5486,9 +5486,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5504,9 +5504,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5559,9 +5559,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5577,9 +5577,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5632,9 +5632,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5650,9 +5650,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5705,9 +5705,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5723,9 +5723,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5778,9 +5778,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5796,9 +5796,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5851,9 +5851,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5869,9 +5869,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5924,9 +5924,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -5942,9 +5942,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -5997,9 +5997,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6015,9 +6015,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6070,9 +6070,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6088,9 +6088,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6143,9 +6143,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6161,9 +6161,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6216,9 +6216,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6234,9 +6234,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6289,9 +6289,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6307,9 +6307,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6362,9 +6362,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6380,9 +6380,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6435,9 +6435,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6453,9 +6453,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6508,9 +6508,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6526,9 +6526,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6581,9 +6581,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6599,9 +6599,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6654,9 +6654,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6672,9 +6672,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6727,9 +6727,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6745,9 +6745,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6800,9 +6800,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6818,9 +6818,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6873,9 +6873,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6891,9 +6891,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -6946,9 +6946,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -6964,9 +6964,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -7019,9 +7019,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -7037,9 +7037,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -7092,9 +7092,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -7110,9 +7110,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -7165,9 +7165,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -7183,9 +7183,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -7238,27 +7238,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7311,27 +7311,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7384,27 +7384,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7457,27 +7457,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7530,27 +7530,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7603,27 +7603,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7676,27 +7676,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7749,27 +7749,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7822,27 +7822,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7895,27 +7895,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -7968,27 +7968,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8041,27 +8041,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8114,27 +8114,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8187,27 +8187,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8260,27 +8260,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8333,27 +8333,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8406,27 +8406,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8479,27 +8479,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8552,27 +8552,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8625,27 +8625,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8698,27 +8698,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8771,27 +8771,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8844,27 +8844,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8917,27 +8917,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -8990,27 +8990,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9063,27 +9063,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9136,27 +9136,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9209,27 +9209,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9282,27 +9282,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9355,27 +9355,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9428,27 +9428,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9501,27 +9501,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9574,27 +9574,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000011",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "garden"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9647,27 +9647,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9720,27 +9720,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9793,27 +9793,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9866,27 +9866,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -9939,27 +9939,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10012,27 +10012,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10085,27 +10085,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10158,27 +10158,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10231,27 +10231,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10304,27 +10304,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10377,27 +10377,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10450,27 +10450,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10523,27 +10523,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10596,27 +10596,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10669,27 +10669,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10742,27 +10742,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10815,27 +10815,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10888,27 +10888,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -10961,27 +10961,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11034,27 +11034,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11107,27 +11107,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11180,27 +11180,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11253,27 +11253,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11326,27 +11326,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11399,27 +11399,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11472,27 +11472,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11545,27 +11545,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11618,27 +11618,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11691,27 +11691,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11764,27 +11764,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11837,27 +11837,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11910,27 +11910,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -11983,27 +11983,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00005801",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "rhizosphere"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00001998",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "soil"
         }
       },
       "provenance_metadata": {
@@ -12056,9 +12056,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12074,9 +12074,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12129,9 +12129,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12147,9 +12147,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12202,9 +12202,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12220,9 +12220,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12275,9 +12275,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12293,9 +12293,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12348,9 +12348,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12366,9 +12366,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12421,9 +12421,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12439,9 +12439,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12494,9 +12494,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12512,9 +12512,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12567,9 +12567,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12585,9 +12585,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12640,9 +12640,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12658,9 +12658,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12713,9 +12713,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12731,9 +12731,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12786,9 +12786,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12804,9 +12804,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12859,9 +12859,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12877,9 +12877,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -12932,9 +12932,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -12950,9 +12950,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13005,9 +13005,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13023,9 +13023,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13078,9 +13078,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13096,9 +13096,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13151,9 +13151,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13169,9 +13169,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13224,9 +13224,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13242,9 +13242,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13297,9 +13297,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13315,9 +13315,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13370,9 +13370,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13388,9 +13388,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13443,9 +13443,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13461,9 +13461,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13516,9 +13516,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13534,9 +13534,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13589,9 +13589,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13607,9 +13607,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13662,9 +13662,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13680,9 +13680,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13735,9 +13735,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13753,9 +13753,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13808,9 +13808,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13826,9 +13826,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13881,9 +13881,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13899,9 +13899,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -13954,9 +13954,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -13972,9 +13972,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14027,9 +14027,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14045,9 +14045,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14100,9 +14100,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14118,9 +14118,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14173,9 +14173,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14191,9 +14191,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14246,9 +14246,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14264,9 +14264,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14319,9 +14319,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14337,9 +14337,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {
@@ -14392,9 +14392,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000219",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "anthropogenic terrestrial biome"
         }
       },
       "env_local_scale": {
@@ -14410,9 +14410,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001121",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "plant matter"
         }
       },
       "provenance_metadata": {

@@ -3,7 +3,7 @@
     {
       "biosample_id": "nmdc:bsm-99-7762ece3",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "in vitro culture on potato dextrose agar",
       "committed_curie": null,
       "committed_label": null,
@@ -11,14 +11,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7762ece3",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -26,14 +27,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7762ece3",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -41,14 +43,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7d71cf61",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "in vitro culture on potato dextrose agar",
       "committed_curie": null,
       "committed_label": null,
@@ -56,14 +59,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7d71cf61",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -71,14 +75,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7d71cf61",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -86,14 +91,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-202b6561",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "in vitro culture on potato dextrose agar",
       "committed_curie": null,
       "committed_label": null,
@@ -101,14 +107,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-202b6561",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -116,14 +123,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-202b6561",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -131,14 +139,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9f206b4b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "in vitro culture on potato dextrose agar",
       "committed_curie": null,
       "committed_label": null,
@@ -146,14 +155,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9f206b4b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -161,14 +171,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9f206b4b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -176,8 +187,9 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "in vitro fungal culture on PDA; no env biome/material applies"
       }
     }
   ]

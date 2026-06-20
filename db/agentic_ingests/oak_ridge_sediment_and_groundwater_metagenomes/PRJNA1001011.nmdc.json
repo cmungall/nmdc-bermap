@@ -11,27 +11,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -83,27 +83,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -155,27 +155,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -227,27 +227,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -299,27 +299,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -371,27 +371,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -443,27 +443,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -515,27 +515,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -587,27 +587,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -659,27 +659,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -731,27 +731,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -803,27 +803,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -875,27 +875,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -947,27 +947,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -1019,27 +1019,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -1091,27 +1091,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -1163,27 +1163,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -1235,27 +1235,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -1307,27 +1307,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1379,27 +1379,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1451,27 +1451,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1523,27 +1523,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1595,27 +1595,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1667,27 +1667,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1739,27 +1739,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1811,27 +1811,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2017,27 +2017,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2089,27 +2089,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2161,27 +2161,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2233,27 +2233,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2305,27 +2305,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2377,27 +2377,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2449,27 +2449,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2521,27 +2521,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2593,27 +2593,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2665,27 +2665,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2737,27 +2737,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2809,27 +2809,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2881,27 +2881,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -2953,27 +2953,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3025,27 +3025,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3097,27 +3097,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3169,27 +3169,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3241,27 +3241,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3313,27 +3313,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3385,27 +3385,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3457,27 +3457,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3529,27 +3529,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3601,27 +3601,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3673,27 +3673,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3745,27 +3745,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3817,27 +3817,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3889,27 +3889,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -3961,27 +3961,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4033,27 +4033,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4105,27 +4105,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4177,27 +4177,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4249,27 +4249,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4321,27 +4321,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000002",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "water well"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -4527,27 +4527,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4599,27 +4599,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4671,27 +4671,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4743,27 +4743,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4815,27 +4815,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4887,27 +4887,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -4959,27 +4959,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5031,27 +5031,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5103,27 +5103,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5175,27 +5175,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5247,27 +5247,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5319,27 +5319,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5391,27 +5391,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5463,27 +5463,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5535,27 +5535,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5607,27 +5607,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5679,27 +5679,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5751,27 +5751,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5823,27 +5823,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5895,27 +5895,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -5967,27 +5967,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6039,27 +6039,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6111,27 +6111,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6183,27 +6183,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6255,27 +6255,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6327,27 +6327,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6399,27 +6399,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6471,27 +6471,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6543,27 +6543,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6615,27 +6615,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6687,27 +6687,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6759,27 +6759,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6831,27 +6831,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6903,27 +6903,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -6975,27 +6975,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7047,27 +7047,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7119,27 +7119,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7191,27 +7191,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7263,27 +7263,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7335,27 +7335,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7407,27 +7407,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7479,27 +7479,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7551,27 +7551,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7623,27 +7623,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7695,27 +7695,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7767,27 +7767,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7839,27 +7839,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7911,27 +7911,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -7983,27 +7983,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8055,27 +8055,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8127,27 +8127,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8199,27 +8199,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8271,27 +8271,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8343,27 +8343,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8415,27 +8415,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8487,27 +8487,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8559,27 +8559,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8631,27 +8631,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8703,27 +8703,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8775,27 +8775,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8847,27 +8847,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8919,27 +8919,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -8991,27 +8991,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9063,27 +9063,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9135,27 +9135,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9207,27 +9207,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9279,27 +9279,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9351,27 +9351,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9423,27 +9423,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9495,27 +9495,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9567,27 +9567,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9639,27 +9639,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9711,27 +9711,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9783,27 +9783,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9855,27 +9855,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9927,27 +9927,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -9999,27 +9999,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01000942",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "continental subsurface zone"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {

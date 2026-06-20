@@ -3,7 +3,7 @@
     {
       "biosample_id": "nmdc:bsm-99-0c82adf6",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -11,14 +11,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0c82adf6",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -26,29 +27,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0c82adf6",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2f5f1b90",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -56,14 +67,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2f5f1b90",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -71,29 +83,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2f5f1b90",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-48e8e360",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -101,14 +123,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-48e8e360",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -116,29 +139,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-48e8e360",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b8e8cd7d",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -146,14 +179,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b8e8cd7d",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -161,29 +195,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b8e8cd7d",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5cdea56a",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -191,14 +235,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5cdea56a",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -206,29 +251,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5cdea56a",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0952f932",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -236,14 +291,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0952f932",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -251,29 +307,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0952f932",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9557f033",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -281,14 +347,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9557f033",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -296,29 +363,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9557f033",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b358822b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -326,14 +403,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b358822b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -341,29 +419,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b358822b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff7e978f",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -371,14 +459,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff7e978f",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -386,29 +475,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff7e978f",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-14c0df45",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -416,14 +515,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-14c0df45",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -431,29 +531,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-14c0df45",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-425a9203",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -461,14 +571,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-425a9203",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -476,29 +587,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-425a9203",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3503af9b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -506,14 +627,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3503af9b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -521,29 +643,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3503af9b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-afc7b2ba",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -551,14 +683,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-afc7b2ba",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -566,29 +699,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-afc7b2ba",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b7a7a675",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -596,14 +739,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b7a7a675",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -611,29 +755,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b7a7a675",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b95a536f",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -641,14 +795,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b95a536f",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -656,29 +811,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b95a536f",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-27553ca1",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -686,14 +851,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-27553ca1",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -701,29 +867,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-27553ca1",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-86824de9",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -731,14 +907,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-86824de9",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -746,29 +923,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-86824de9",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-99f3898b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -776,14 +963,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-99f3898b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -791,29 +979,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-99f3898b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4c09793c",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -821,14 +1019,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4c09793c",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -836,29 +1035,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4c09793c",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b91f87ed",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -866,14 +1075,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b91f87ed",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -881,29 +1091,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b91f87ed",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7a10c12b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -911,14 +1131,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7a10c12b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -926,29 +1147,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7a10c12b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8630a0a3",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -956,14 +1187,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8630a0a3",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -971,29 +1203,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8630a0a3",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-61a1c26b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1001,14 +1243,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-61a1c26b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1016,29 +1259,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-61a1c26b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-09ce5faf",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1046,14 +1299,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-09ce5faf",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1061,29 +1315,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-09ce5faf",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f424975c",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1091,14 +1355,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f424975c",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1106,29 +1371,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f424975c",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7788df91",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1136,14 +1411,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7788df91",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1151,29 +1427,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7788df91",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-059e865d",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1181,14 +1467,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-059e865d",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1196,29 +1483,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-059e865d",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff5491a8",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1226,14 +1523,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff5491a8",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1241,29 +1539,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ff5491a8",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-85fe0bae",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1271,14 +1579,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-85fe0bae",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1286,29 +1595,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-85fe0bae",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e0a09bf8",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1316,14 +1635,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e0a09bf8",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1331,29 +1651,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e0a09bf8",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-be94dcbe",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1361,14 +1691,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-be94dcbe",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1376,29 +1707,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-be94dcbe",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-186b253e",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1406,14 +1747,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-186b253e",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1421,29 +1763,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-186b253e",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-75fcc4ec",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1451,14 +1803,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-75fcc4ec",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1466,29 +1819,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-75fcc4ec",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d36a05f6",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1496,14 +1859,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d36a05f6",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1511,29 +1875,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d36a05f6",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f004c65f",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1541,14 +1915,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f004c65f",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1556,29 +1931,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f004c65f",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5430d192",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1586,14 +1971,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5430d192",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1601,29 +1987,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5430d192",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0222f44b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1631,14 +2027,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0222f44b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1646,29 +2043,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-0222f44b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c900d1e6",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1676,14 +2083,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c900d1e6",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1691,29 +2099,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c900d1e6",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-981550eb",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1721,14 +2139,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-981550eb",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1736,29 +2155,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-981550eb",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-683d3926",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1766,14 +2195,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-683d3926",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1781,29 +2211,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-683d3926",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aa9d3618",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1811,14 +2251,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aa9d3618",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1826,29 +2267,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aa9d3618",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d8b4c598",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1856,14 +2307,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d8b4c598",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1871,29 +2323,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d8b4c598",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1edd5bc6",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1901,14 +2363,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1edd5bc6",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1916,29 +2379,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1edd5bc6",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca03a04",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1946,14 +2419,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca03a04",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1961,29 +2435,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca03a04",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a272e1f3",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -1991,14 +2475,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a272e1f3",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2006,29 +2491,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a272e1f3",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-516fc27b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2036,14 +2531,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-516fc27b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2051,29 +2547,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-516fc27b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6319ba02",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2081,14 +2587,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6319ba02",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2096,29 +2603,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6319ba02",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d062756a",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2126,14 +2643,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d062756a",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2141,29 +2659,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d062756a",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-91a84336",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2171,14 +2699,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-91a84336",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2186,29 +2715,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-91a84336",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-92135346",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2216,14 +2755,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-92135346",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2231,29 +2771,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-92135346",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1b963bd7",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2261,14 +2811,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1b963bd7",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2276,29 +2827,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-1b963bd7",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fbd882c",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2306,14 +2867,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fbd882c",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2321,29 +2883,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fbd882c",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-55fc6d80",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2351,14 +2923,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-55fc6d80",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2366,29 +2939,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-55fc6d80",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-34f51ab3",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2396,14 +2979,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-34f51ab3",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2411,29 +2995,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-34f51ab3",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-df9edccb",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2441,14 +3035,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-df9edccb",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2456,29 +3051,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-df9edccb",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cc45ed07",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2486,14 +3091,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cc45ed07",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2501,29 +3107,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cc45ed07",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ec40c7d9",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2531,14 +3147,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ec40c7d9",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2546,29 +3163,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ec40c7d9",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-720488c3",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2576,14 +3203,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-720488c3",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2591,29 +3219,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-720488c3",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f94cafbd",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2621,14 +3259,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f94cafbd",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2636,29 +3275,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-f94cafbd",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2d39f231",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2666,14 +3315,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2d39f231",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2681,29 +3331,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-2d39f231",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e769639b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2711,14 +3371,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e769639b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2726,29 +3387,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e769639b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cecb9ec0",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2756,14 +3427,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cecb9ec0",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2771,29 +3443,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-cecb9ec0",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ca14a626",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2801,14 +3483,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ca14a626",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2816,29 +3499,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ca14a626",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-66b29662",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2846,14 +3539,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-66b29662",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2861,29 +3555,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-66b29662",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b0bad970",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2891,14 +3595,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b0bad970",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2906,29 +3611,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b0bad970",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a866d16e",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2936,14 +3651,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a866d16e",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2951,29 +3667,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-a866d16e",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ce86b194",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2981,14 +3707,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ce86b194",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -2996,29 +3723,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ce86b194",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca4673e",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3026,14 +3763,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca4673e",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3041,29 +3779,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-7ca4673e",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-358c73d8",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3071,14 +3819,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-358c73d8",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3086,29 +3835,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-358c73d8",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b430ef18",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3116,14 +3875,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b430ef18",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3131,29 +3891,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-b430ef18",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6ca78910",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3161,14 +3931,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6ca78910",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3176,29 +3947,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6ca78910",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5316a7a7",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3206,14 +3987,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5316a7a7",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3221,29 +4003,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5316a7a7",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-382136b1",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3251,14 +4043,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-382136b1",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3266,29 +4059,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-382136b1",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-fed77294",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3296,14 +4099,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-fed77294",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3311,29 +4115,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-fed77294",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4b20b20f",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3341,14 +4155,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4b20b20f",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3356,29 +4171,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-4b20b20f",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c559679b",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3386,14 +4211,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c559679b",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3401,29 +4227,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-c559679b",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-83603f65",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3431,14 +4267,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-83603f65",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3446,29 +4283,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-83603f65",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6d989af7",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3476,14 +4323,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6d989af7",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3491,29 +4339,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6d989af7",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9e83581a",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3521,14 +4379,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9e83581a",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3536,29 +4395,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-9e83581a",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fb8f22a",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3566,14 +4435,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fb8f22a",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3581,29 +4451,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-6fb8f22a",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8bc1304d",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3611,14 +4491,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8bc1304d",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3626,29 +4507,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-8bc1304d",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aacf0940",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3656,14 +4547,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aacf0940",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3671,29 +4563,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-aacf0940",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d21092a8",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3701,14 +4603,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d21092a8",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3716,29 +4619,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d21092a8",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3321d6d1",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3746,14 +4659,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3321d6d1",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3761,29 +4675,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3321d6d1",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-306767c8",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3791,14 +4715,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-306767c8",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3806,29 +4731,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-306767c8",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ac8c7960",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3836,14 +4771,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ac8c7960",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3851,29 +4787,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ac8c7960",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e103d7ed",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3881,14 +4827,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e103d7ed",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3896,29 +4843,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-e103d7ed",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-476e9158",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3926,14 +4883,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-476e9158",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3941,29 +4899,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-476e9158",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d137d995",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3971,14 +4939,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d137d995",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -3986,29 +4955,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-d137d995",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-00e643de",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4016,14 +4995,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-00e643de",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4031,29 +5011,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-00e643de",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-50db322e",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4061,14 +5051,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-50db322e",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4076,29 +5067,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-50db322e",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5aa4c6a4",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4106,14 +5107,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5aa4c6a4",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4121,29 +5123,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-5aa4c6a4",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-19a5ba6a",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4151,14 +5163,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-19a5ba6a",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4166,29 +5179,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-19a5ba6a",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ddff6c2c",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4196,14 +5219,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ddff6c2c",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4211,29 +5235,39 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-ddff6c2c",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3cb543ab",
       "slot": "env_broad_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4241,14 +5275,15 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "greenhouse plant experiment; no natural biome"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3cb543ab",
       "slot": "env_local_scale",
-      "outcome": "left_sentinel",
+      "outcome": "validator_rejected",
       "raw_input": "",
       "committed_curie": null,
       "committed_label": null,
@@ -4256,22 +5291,32 @@
       "candidates_considered": [],
       "validator": {
         "info_ok": null,
-        "anchor_ok": null,
-        "valueset_ok": null
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "no ENVO phyllosphere/leaf-surface term under astronomical body part"
       }
     },
     {
       "biosample_id": "nmdc:bsm-99-3cb543ab",
       "slot": "env_medium",
-      "outcome": "left_sentinel",
+      "outcome": "predicted",
       "raw_input": "",
-      "committed_curie": null,
-      "committed_label": null,
-      "evidence": [],
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.tissue",
+          "quote_or_paraphrase": "leaf"
+        },
+        {
+          "source": "biosample.env_package",
+          "quote_or_paraphrase": "Plant.1.0 (sorghum leaf RNA-seq)"
+        }
+      ],
       "candidates_considered": [],
       "validator": {
-        "info_ok": null,
-        "anchor_ok": null,
+        "info_ok": true,
+        "anchor_ok": true,
         "valueset_ok": null
       }
     }

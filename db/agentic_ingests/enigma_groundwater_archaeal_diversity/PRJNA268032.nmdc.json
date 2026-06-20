@@ -11,27 +11,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -83,27 +83,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -155,27 +155,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -227,27 +227,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -299,27 +299,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -371,27 +371,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -443,27 +443,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -515,27 +515,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -587,27 +587,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -659,27 +659,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -731,27 +731,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -803,27 +803,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -875,27 +875,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -947,27 +947,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1019,27 +1019,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1091,27 +1091,27 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000873",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "freshwater biome"
         }
       },
       "env_local_scale": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00000061",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "underground water body"
         }
       },
       "env_medium": {
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:01001004",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "groundwater"
         }
       },
       "provenance_metadata": {
@@ -1158,7 +1158,7 @@
       "id": "nmdc:sty-99-7affccee",
       "type": "nmdc:Study",
       "name": "Reconstruction of novel archaeal genomes from metagenomic groundwater sample",
-      "description": "We used genome-resolved metagenomic analyses to investigate the diversity, genomes sizes, metabolic capacities and potential roles of Archaea in terrestrial subsurface biogeochemical cycles. We sequenced DNA from complex sediment and planktonic consortia from an aquifer adjacent to the Colorado River, USA, and reconstructed the first complete genomes for Archaea using cultivation-independent methods. We resolved two new phyla within a major, apparently deep-branching group of phyla (a superphylum). The organisms have small genomes and metabolic predictions indicate that their primary contributions to Earth’s biogeochemical cycles involve carbon and hydrogen metabolism, probably associated with symbiotic and/or fermentation-based lifestyles.",
+      "description": "We used genome-resolved metagenomic analyses to investigate the diversity, genomes sizes, metabolic capacities and potential roles of Archaea in terrestrial subsurface biogeochemical cycles. We sequenced DNA from complex sediment and planktonic consortia from an aquifer adjacent to the Colorado River, USA, and reconstructed the first complete genomes for Archaea using cultivation-independent methods. We resolved two new phyla within a major, apparently deep-branching group of phyla (a superphylum). The organisms have small genomes and metabolic predictions indicate that their primary contributions to Earth\u2019s biogeochemical cycles involve carbon and hydrogen metabolism, probably associated with symbiotic and/or fermentation-based lifestyles.",
       "study_category": "research_study",
       "insdc_bioproject_identifiers": [
         "insdc.sra:PRJNA268032"

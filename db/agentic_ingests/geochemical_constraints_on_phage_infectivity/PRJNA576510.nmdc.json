@@ -29,9 +29,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -101,9 +101,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -168,9 +168,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -235,9 +235,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -302,9 +302,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {
@@ -369,9 +369,9 @@
         "type": "nmdc:ControlledIdentifiedTermValue",
         "has_raw_value": "",
         "term": {
-          "id": "ENVO:00000000",
+          "id": "ENVO:00002007",
           "type": "nmdc:OntologyClass",
-          "name": "(not provided)"
+          "name": "sediment"
         }
       },
       "provenance_metadata": {

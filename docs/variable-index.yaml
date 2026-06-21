@@ -380,7 +380,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -1973,7 +1974,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -2297,7 +2299,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -3619,7 +3622,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -4595,7 +4599,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -5233,7 +5238,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -5536,7 +5542,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -5955,7 +5962,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -6374,7 +6382,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -6793,7 +6802,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -7312,7 +7322,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -7872,7 +7883,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -8309,7 +8321,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -8539,7 +8552,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -9761,7 +9775,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -10856,7 +10871,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -10993,7 +11009,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -11453,7 +11470,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -11582,7 +11600,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -12560,7 +12579,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -13253,7 +13273,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -16203,7 +16224,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -16519,7 +16541,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -17552,7 +17575,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -18978,7 +19002,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -23884,7 +23909,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null
@@ -24789,7 +24815,8 @@ records:
     name: EcoFAB 2.0 Root Microbiome Ring Trial
     anchor_id: nmdc_sfas_brcs-mcafes-study-ecofab-2-0-root-microbiome-ring-trial
     nmdc_study_id: nmdc:sty-11-ev70y104
-    bioproject_ids: []
+    bioproject_ids:
+    - PRJNA1151037
     doi: null
     url: null
     primary_reference: null

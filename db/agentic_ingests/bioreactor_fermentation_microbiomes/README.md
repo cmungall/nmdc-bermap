@@ -8,17 +8,34 @@ Frozen output from running [`nmdc-ingest-agent`](https://github.com/microbiomeda
 
 ## Files
 
-| File | Biosamples | What |
-|---|---:|---|
-| `PRJNA1159295.nmdc.json` | 0 | NMDC `Database` JSON |
-| `PRJNA1040840.nmdc.json` | 0 | NMDC `Database` JSON |
-| `PRJNA768492.nmdc.json` | 0 | NMDC `Database` JSON |
+| File | NMDC biosamples | NCBI biosamples | What |
+|---|---:|---:|---|
+| `PRJNA1159295.nmdc.json` | 0 | 42 (all MIMAG) | NMDC `Database` JSON — MAG biosamples excluded by agent |
+| `PRJNA1040840.nmdc.json` | 0 | 122 (all MIMAG; ~366 linked total) | NMDC `Database` JSON — MAG biosamples excluded by agent |
+| `PRJNA768492.nmdc.json` | 0 | 0 in NCBI BioSample registry | NMDC `Database` JSON — truly empty BioProject |
 
 Plus matching `.curation_inputs.json` and `.curation_report.json` sidecars per BioProject.
 
+## Why 0 NMDC biosamples
+
+This study is about **microbial communities fermenting agroindustrial residues**, and the BioProjects PRJNA1040840 and PRJNA1159295 collectively contain **164+ Metagenome-Assembled Genome (MAG) deposits** under the MIxS `MIMAG.miscellaneous.6.0` package. The nmdc-ingest-agent's deterministic pipeline deliberately excludes MAG-only biosamples:
+
+```
+Excluded N BioSample(s) using MAG-only MIxS packages (MIMAG.miscellaneous.6.0=N);
+NMDC Biosample is for environmental samples.
+```
+
+The NMDC `Biosample` class represents **environmental / physical** samples, not computational genome assemblies. MAGs are downstream products derived from environmental samples (the parent BioSamples carry `derived-from SAMN...` pointers); in NMDC's data model they belong to `MetagenomeAssembly` or `MagBin` collections instead.
+
+The third BioProject PRJNA768492 has no BioSample records at all in the NCBI BioSample registry — just SRA/Assembly deposits without registered biological samples.
+
+Concrete result: no NMDC ingest is possible for this bermap study via `nmdc-ingest-agent` 0.1.0. The MAG metadata is rich (each carries pH, temperature, dissolved oxygen, geo_loc_name, isolation_source for the parent bioreactor, etc.) and would be valuable in NMDC if a future ingestion path for MAGs / MetagenomeAssemblies is added — see, e.g., SAMN38266644's parent environmental sample SAMN38199233.
+
+The included `*.nmdc.json` files contain only the study record (no biosamples / data_generations / data_objects).
+
 ## Curation status
 
-**Deterministic pass only.** ENVO env-triad sentinels (`ENVO:00000000`) remain. The `/ncbi-to-nmdc` skill workflow has not been run on these BioProjects. See [`docs/data_quality_pattern.md`](../../../docs/data_quality_pattern.md) for how to complete curation.
+**N/A** — no biosamples to curate. Curation reports are empty by construction.
 
 ## Regen
 

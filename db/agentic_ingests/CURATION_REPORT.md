@@ -76,6 +76,12 @@ Recommended upstream fix: pre-commit anchor check in `mfd.py` / generic ENVO par
 ### 7. Duplicate dir: oak_ridge_groundwater + oak_ridge_sediment_and_groundwater
 Both `oak_ridge_groundwater_100_well_survey_metagenomes/` and `oak_ridge_sediment_and_groundwater_metagenomes/` curate the same NCBI BioProject `PRJNA1001011` with the same 140 BioSamples. Confirm one should be retired in `db/sfas-brcs.yaml` before any real ingest.
 
+### 7b. MAG-only BioProjects are deliberately empty in this ingest
+
+`bioreactor_fermentation_microbiomes` contains 3 BioProjects (PRJNA1040840, PRJNA1159295, PRJNA768492) that produced 0 NMDC biosamples each. The first two have 164+ MIMAG (Metagenome-Assembled Genome) biosamples at NCBI; nmdc-ingest-agent deliberately excludes MAG-only biosamples because NMDC's `Biosample` class represents environmental samples, not computational assemblies. The third has no BioSample records at all. See [`bioreactor_fermentation_microbiomes/README.md`](bioreactor_fermentation_microbiomes/README.md) for the full explanation.
+
+If MAG support is wanted in bermap, it would require a different ingestion path (MetagenomeAssembly / MagBin classes in NMDC) — not a bug in the current pipeline.
+
 ### 8. Host taxon resolution deferred
 Per the curation skill scope, no edits attempted to `samp_taxon_id` or host fields. Pipeline-supplied values kept. The following unambiguous hosts could be lifted on a follow-up pass:
 - NCBITaxon:183674 Miscanthus × giganteus (PRJNA601860)

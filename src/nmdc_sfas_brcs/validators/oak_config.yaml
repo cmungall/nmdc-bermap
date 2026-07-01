@@ -31,3 +31,9 @@ ontology_adapters:
   pmid:
   obo:
   IAO:
+  # GOLD ecosystem vocabulary — fallback when no OBO term exists. Vocab terms
+  # (e.g., GOLD:Endosphere) and path terms (e.g., GOLDPATH:5304) are not validated
+  # for label match because path labels are hierarchy strings like
+  # "Host-associated > Plants > Roots > Endosphere".
+  GOLD:
+  GOLDPATH:

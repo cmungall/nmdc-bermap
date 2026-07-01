@@ -17,7 +17,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -172,7 +173,14 @@ enums:
       Western Lake Erie Basin: null
   TerrestrialAquaticInterfacePositionEnum:
     permissible_values:
-      open water: null
-      wetland: null
-      shoreline: null
+      area of open water:
+        meaning: ENVO:01000666
+        aliases:
+        - open water
+      wetland ecosystem:
+        meaning: ENVO:01001209
+        aliases:
+        - wetland
+      shoreline:
+        meaning: ENVO:00000486
       upland forest: null

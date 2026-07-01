@@ -1,0 +1,868 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-6badc877",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6badc877",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6badc877",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d8a71fc8",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d8a71fc8",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d8a71fc8",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df5e9895",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df5e9895",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df5e9895",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-525bf54c",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-525bf54c",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-525bf54c",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-767f3cff",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-767f3cff",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-767f3cff",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4bb2feb8",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4bb2feb8",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4bb2feb8",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-676188a2",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-676188a2",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-676188a2",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-614ed782",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-614ed782",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-614ed782",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4268461c",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4268461c",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4268461c",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-066dc84d",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-066dc84d",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-066dc84d",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d860c0e3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d860c0e3",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d860c0e3",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3bf894be",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3bf894be",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3bf894be",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-770982fb",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-770982fb",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-770982fb",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-306fcf1a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-306fcf1a",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-306fcf1a",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f15190b",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f15190b",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f15190b",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6e91250",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6e91250",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6e91250",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73da40bb",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73da40bb",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73da40bb",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-79bf343f",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-79bf343f",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-79bf343f",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "lab culture; no env biome/material applies"
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-ff503b03",
+    "name": "",
+    "title": "Metagenomic sequencing of root-associated Variovorax synthetic communities in Populus",
+    "description": "This dataset contains metagenomic Illumina reads generated from synthetic communities of 28 Variovorax strains inoculated into axenic Populus deltoides and Populus trichocarpa roots. Sequencing was performed to capture community composition and functional potential across rhizosphere and endosphere compartments.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-deb03ea2": {
+      "ncbi_accession": "SAMN51248011",
+      "ncbi_title": "Populus trichocarpa root rhizosphere, replicate 4",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "4"
+      }
+    },
+    "nmdc:bsm-99-e7efd9db": {
+      "ncbi_accession": "SAMN51248010",
+      "ncbi_title": "Populus trichocarpa root rhizosphere, replicate 3",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "3"
+      }
+    },
+    "nmdc:bsm-99-78934228": {
+      "ncbi_accession": "SAMN51248009",
+      "ncbi_title": "Populus trichocarpa root rhizosphere, replicate 2",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "2"
+      }
+    },
+    "nmdc:bsm-99-9ed8e199": {
+      "ncbi_accession": "SAMN51248008",
+      "ncbi_title": "Populus trichocarpa root rhizosphere, replicate 1",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "1"
+      }
+    },
+    "nmdc:bsm-99-c1f0aa84": {
+      "ncbi_accession": "SAMN51248007",
+      "ncbi_title": "Populus trichocarpa root endosphere, replicate 3",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "3"
+      }
+    },
+    "nmdc:bsm-99-f4236d44": {
+      "ncbi_accession": "SAMN51248006",
+      "ncbi_title": "Populus trichocarpa root endosphere, replicate 2",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "2"
+      }
+    },
+    "nmdc:bsm-99-ab951bd7": {
+      "ncbi_accession": "SAMN51248005",
+      "ncbi_title": "Populus trichocarpa root endosphere, replicate 1",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus trichocarpa BESC-819",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "1"
+      }
+    },
+    "nmdc:bsm-99-2b172772": {
+      "ncbi_accession": "SAMN51248004",
+      "ncbi_title": "Populus deltoides root rhizosphere, replicate 4",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "4"
+      }
+    },
+    "nmdc:bsm-99-0c9e99c1": {
+      "ncbi_accession": "SAMN51248003",
+      "ncbi_title": "Populus deltoides root rhizosphere, replicate 3",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "3"
+      }
+    },
+    "nmdc:bsm-99-c0f8c772": {
+      "ncbi_accession": "SAMN51248002",
+      "ncbi_title": "Populus deltoides root rhizosphere, replicate 2",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "2"
+      }
+    },
+    "nmdc:bsm-99-cda13c1a": {
+      "ncbi_accession": "SAMN51248001",
+      "ncbi_title": "Populus deltoides root rhizosphere, replicate 1",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root rhizosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "1"
+      }
+    },
+    "nmdc:bsm-99-45ab3c4a": {
+      "ncbi_accession": "SAMN51248000",
+      "ncbi_title": "Populus deltoides root endosphere, replicate 4",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "4"
+      }
+    },
+    "nmdc:bsm-99-ee7dbb1e": {
+      "ncbi_accession": "SAMN51247999",
+      "ncbi_title": "Populus deltoides root endosphere, replicate 3",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "3"
+      }
+    },
+    "nmdc:bsm-99-bc7a1bc0": {
+      "ncbi_accession": "SAMN51247998",
+      "ncbi_title": "Populus deltoides root endosphere, replicate 2",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "2"
+      }
+    },
+    "nmdc:bsm-99-3ad5abc5": {
+      "ncbi_accession": "SAMN51247997",
+      "ncbi_title": "Populus deltoides root endosphere, replicate 1",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Populus deltoides WV94",
+        "isolation_source": "root endosphere",
+        "collection_date": "2024",
+        "geo_loc_name": "USA: Tennessee",
+        "lat_lon": "35.9315 N 84.309 W",
+        "replicate": "1"
+      }
+    }
+  }
+}

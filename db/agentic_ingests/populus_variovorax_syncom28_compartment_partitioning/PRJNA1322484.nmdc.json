@@ -1,0 +1,1695 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-deb03ea2",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root rhizosphere, replicate 4",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248011"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_rhizo_4",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-e7efd9db",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root rhizosphere, replicate 3",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248010"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_rhizo_3",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-78934228",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root rhizosphere, replicate 2",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248009"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_rhizo_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-9ed8e199",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root rhizosphere, replicate 1",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248008"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_rhizo_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-c1f0aa84",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root endosphere, replicate 3",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248007"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_endo_3",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-f4236d44",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root endosphere, replicate 2",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248006"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_endo_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-ab951bd7",
+      "type": "nmdc:Biosample",
+      "name": "Populus trichocarpa root endosphere, replicate 1",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248005"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pt_endo_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus trichocarpa BESC-819"
+    },
+    {
+      "id": "nmdc:bsm-99-2b172772",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root rhizosphere, replicate 4",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248004"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_rhizo_4",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-0c9e99c1",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root rhizosphere, replicate 3",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248003"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_rhizo_3",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-c0f8c772",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root rhizosphere, replicate 2",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248002"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_rhizo_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-cda13c1a",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root rhizosphere, replicate 1",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00005801",
+          "type": "nmdc:OntologyClass",
+          "name": "rhizosphere"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248001"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_rhizo_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-45ab3c4a",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root endosphere, replicate 4",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51248000"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_endo_4",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-ee7dbb1e",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root endosphere, replicate 3",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51247999"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_endo_3",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-bc7a1bc0",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root endosphere, replicate 2",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51247998"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_endo_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    },
+    {
+      "id": "nmdc:bsm-99-3ad5abc5",
+      "type": "nmdc:Biosample",
+      "name": "Populus deltoides root endosphere, replicate 1",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001121",
+          "type": "nmdc:OntologyClass",
+          "name": "plant matter"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN51247997"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2024"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Tennessee"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 35.9315,
+        "longitude": -84.309
+      },
+      "samp_name": "Pd_endo_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1235509",
+          "type": "nmdc:OntologyClass",
+          "name": "synthetic metagenome"
+        }
+      },
+      "host_name": "Populus deltoides WV94"
+    }
+  ],
+  "data_generation_set": [
+    {
+      "id": "nmdc:dgns-99-07a7747c",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root rhizosphere, replicate 3",
+      "has_input": [
+        "nmdc:bsm-99-e7efd9db"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-607ecda2"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428891"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-21c5c5d9",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root rhizosphere, replicate 4",
+      "has_input": [
+        "nmdc:bsm-99-deb03ea2"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-29b9b136"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428890"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-7c0dbafe",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root endosphere, replicate 3",
+      "has_input": [
+        "nmdc:bsm-99-ee7dbb1e"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-3c465878"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428889"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-0bed241d",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root endosphere, replicate 4",
+      "has_input": [
+        "nmdc:bsm-99-45ab3c4a"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-3f331a96"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428888"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-3003bed5",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root rhizosphere, replicate 1",
+      "has_input": [
+        "nmdc:bsm-99-cda13c1a"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-fb96ebd6"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428887"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-3fa075eb",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root rhizosphere, replicate 2",
+      "has_input": [
+        "nmdc:bsm-99-c0f8c772"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-641c8d5a"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428886"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-364b87d1",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root rhizosphere, replicate 3",
+      "has_input": [
+        "nmdc:bsm-99-0c9e99c1"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-7d5ffb69"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428885"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-6f11971d",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root rhizosphere, replicate 4",
+      "has_input": [
+        "nmdc:bsm-99-2b172772"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-3679a560"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428884"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-632a56fa",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root endosphere, replicate 1",
+      "has_input": [
+        "nmdc:bsm-99-ab951bd7"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-1cd47287"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428883"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-d01d2f07",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root endosphere, replicate 2",
+      "has_input": [
+        "nmdc:bsm-99-f4236d44"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f47b0692"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428882"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-424414f6",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root rhizosphere, replicate 2",
+      "has_input": [
+        "nmdc:bsm-99-78934228"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-8103c0d1"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428881"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-1bc8ab14",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root rhizosphere, replicate 1",
+      "has_input": [
+        "nmdc:bsm-99-9ed8e199"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-a6210b98"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428880"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-d06b02f9",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus trichocarpa root endosphere, replicate 3",
+      "has_input": [
+        "nmdc:bsm-99-c1f0aa84"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-833d63e5"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428879"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-55323ed5",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root endosphere, replicate 2",
+      "has_input": [
+        "nmdc:bsm-99-bc7a1bc0"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-9f0c51ef"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428878"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-9b236cfc",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Populus deltoides root endosphere, replicate 1",
+      "has_input": [
+        "nmdc:bsm-99-3ad5abc5"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-754d3fc2"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-ff503b03"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX30428877"
+      ]
+    }
+  ],
+  "data_object_set": [
+    {
+      "id": "nmdc:dobj-99-607ecda2",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327939",
+      "description": "SRA run SRR35327939 for experiment SRX30428891",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327939"
+    },
+    {
+      "id": "nmdc:dobj-99-29b9b136",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327940",
+      "description": "SRA run SRR35327940 for experiment SRX30428890",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327940"
+    },
+    {
+      "id": "nmdc:dobj-99-3c465878",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327941",
+      "description": "SRA run SRR35327941 for experiment SRX30428889",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327941"
+    },
+    {
+      "id": "nmdc:dobj-99-3f331a96",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327942",
+      "description": "SRA run SRR35327942 for experiment SRX30428888",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327942"
+    },
+    {
+      "id": "nmdc:dobj-99-fb96ebd6",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327943",
+      "description": "SRA run SRR35327943 for experiment SRX30428887",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327943"
+    },
+    {
+      "id": "nmdc:dobj-99-641c8d5a",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327944",
+      "description": "SRA run SRR35327944 for experiment SRX30428886",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327944"
+    },
+    {
+      "id": "nmdc:dobj-99-7d5ffb69",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327945",
+      "description": "SRA run SRR35327945 for experiment SRX30428885",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327945"
+    },
+    {
+      "id": "nmdc:dobj-99-3679a560",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327946",
+      "description": "SRA run SRR35327946 for experiment SRX30428884",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327946"
+    },
+    {
+      "id": "nmdc:dobj-99-1cd47287",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327947",
+      "description": "SRA run SRR35327947 for experiment SRX30428883",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327947"
+    },
+    {
+      "id": "nmdc:dobj-99-f47b0692",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327948",
+      "description": "SRA run SRR35327948 for experiment SRX30428882",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327948"
+    },
+    {
+      "id": "nmdc:dobj-99-8103c0d1",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327949",
+      "description": "SRA run SRR35327949 for experiment SRX30428881",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327949"
+    },
+    {
+      "id": "nmdc:dobj-99-a6210b98",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327950",
+      "description": "SRA run SRR35327950 for experiment SRX30428880",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327950"
+    },
+    {
+      "id": "nmdc:dobj-99-833d63e5",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327951",
+      "description": "SRA run SRR35327951 for experiment SRX30428879",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327951"
+    },
+    {
+      "id": "nmdc:dobj-99-9f0c51ef",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327952",
+      "description": "SRA run SRR35327952 for experiment SRX30428878",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327952"
+    },
+    {
+      "id": "nmdc:dobj-99-754d3fc2",
+      "type": "nmdc:DataObject",
+      "name": "SRR35327953",
+      "description": "SRA run SRR35327953 for experiment SRX30428877",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR35327953"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-ff503b03",
+      "type": "nmdc:Study",
+      "name": "Metagenomic sequencing of root-associated Variovorax synthetic communities in Populus",
+      "description": "This dataset contains metagenomic Illumina reads generated from synthetic communities of 28 Variovorax strains inoculated into axenic Populus deltoides and Populus trichocarpa roots. Sequencing was performed to capture community composition and functional potential across rhizosphere and endosphere compartments.",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA1322484"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:57.386085+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:57.386085+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Metagenomic sequencing of root-associated Variovorax synthetic communities in Populus"
+    }
+  ],
+  "@type": "Database"
+}

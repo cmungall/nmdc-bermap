@@ -1,0 +1,1219 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-6d2da886",
+    "name": "",
+    "title": "The core Brachypodium distachyon root-associated microbiome",
+    "description": "The goal of this project was to define the core root-associated microbiome of the model grass Brachypodium distachyon and use this information to target novel biofertiliser candidates.",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-7fd072b8": {
+      "ncbi_accession": "SAMN41721716",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 6"
+      }
+    },
+    "nmdc:bsm-99-25fa1fe7": {
+      "ncbi_accession": "SAMN41721715",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 5"
+      }
+    },
+    "nmdc:bsm-99-8c6a6898": {
+      "ncbi_accession": "SAMN41721714",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 4"
+      }
+    },
+    "nmdc:bsm-99-d27f1609": {
+      "ncbi_accession": "SAMN41721713",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 3"
+      }
+    },
+    "nmdc:bsm-99-0fa0a45a": {
+      "ncbi_accession": "SAMN41721712",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 2"
+      }
+    },
+    "nmdc:bsm-99-ca5f1b0a": {
+      "ncbi_accession": "SAMN41721711",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline rhizosphere replicate 1"
+      }
+    },
+    "nmdc:bsm-99-85e866b5": {
+      "ncbi_accession": "SAMN41721710",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 6"
+      }
+    },
+    "nmdc:bsm-99-686314e3": {
+      "ncbi_accession": "SAMN41721709",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 5"
+      }
+    },
+    "nmdc:bsm-99-6e03c19b": {
+      "ncbi_accession": "SAMN41721708",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 4"
+      }
+    },
+    "nmdc:bsm-99-82421494": {
+      "ncbi_accession": "SAMN41721707",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 3"
+      }
+    },
+    "nmdc:bsm-99-e3f20b2a": {
+      "ncbi_accession": "SAMN41721706",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 2"
+      }
+    },
+    "nmdc:bsm-99-60489f3c": {
+      "ncbi_accession": "SAMN41721705",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline root replicate 1"
+      }
+    },
+    "nmdc:bsm-99-4aff3f16": {
+      "ncbi_accession": "SAMN41721704",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 6"
+      }
+    },
+    "nmdc:bsm-99-5b0532df": {
+      "ncbi_accession": "SAMN41721703",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 5"
+      }
+    },
+    "nmdc:bsm-99-cd9fcd00": {
+      "ncbi_accession": "SAMN41721702",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 4"
+      }
+    },
+    "nmdc:bsm-99-3dd3b6af": {
+      "ncbi_accession": "SAMN41721701",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 3"
+      }
+    },
+    "nmdc:bsm-99-9ac0cf0d": {
+      "ncbi_accession": "SAMN41721700",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 2"
+      }
+    },
+    "nmdc:bsm-99-1fc1e9f9": {
+      "ncbi_accession": "SAMN41721699",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Trainline bulk soil replicate 1"
+      }
+    },
+    "nmdc:bsm-99-13cedf5b": {
+      "ncbi_accession": "SAMN41721698",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 6"
+      }
+    },
+    "nmdc:bsm-99-6f2671b9": {
+      "ncbi_accession": "SAMN41721697",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 5"
+      }
+    },
+    "nmdc:bsm-99-65c9d21e": {
+      "ncbi_accession": "SAMN41721696",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 4"
+      }
+    },
+    "nmdc:bsm-99-7e79d5a8": {
+      "ncbi_accession": "SAMN41721695",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 3"
+      }
+    },
+    "nmdc:bsm-99-69a7bd7b": {
+      "ncbi_accession": "SAMN41721694",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 2"
+      }
+    },
+    "nmdc:bsm-99-df690f7a": {
+      "ncbi_accession": "SAMN41721693",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park rhizosphere replicate 1"
+      }
+    },
+    "nmdc:bsm-99-067b6d37": {
+      "ncbi_accession": "SAMN41721692",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park root replicate 6"
+      }
+    },
+    "nmdc:bsm-99-6f81437a": {
+      "ncbi_accession": "SAMN41721691",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park root replicate 5"
+      }
+    },
+    "nmdc:bsm-99-4a4a35a8": {
+      "ncbi_accession": "SAMN41721690",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park root replicate 3"
+      }
+    },
+    "nmdc:bsm-99-aecb3442": {
+      "ncbi_accession": "SAMN41721689",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park root replicate 2"
+      }
+    },
+    "nmdc:bsm-99-5cd3dc8e": {
+      "ncbi_accession": "SAMN41721688",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal Park root replicate 1"
+      }
+    },
+    "nmdc:bsm-99-e74af9a5": {
+      "ncbi_accession": "SAMN41721687",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 6"
+      }
+    },
+    "nmdc:bsm-99-206968be": {
+      "ncbi_accession": "SAMN41721686",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 5"
+      }
+    },
+    "nmdc:bsm-99-bec178fd": {
+      "ncbi_accession": "SAMN41721685",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 4"
+      }
+    },
+    "nmdc:bsm-99-6c272994": {
+      "ncbi_accession": "SAMN41721684",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 3"
+      }
+    },
+    "nmdc:bsm-99-1b3af614": {
+      "ncbi_accession": "SAMN41721683",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 2"
+      }
+    },
+    "nmdc:bsm-99-e358db3d": {
+      "ncbi_accession": "SAMN41721682",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Royal park bulk soil replicate 1"
+      }
+    },
+    "nmdc:bsm-99-20a8ce3a": {
+      "ncbi_accession": "SAMN41721681",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 6"
+      }
+    },
+    "nmdc:bsm-99-1eb1bf3a": {
+      "ncbi_accession": "SAMN41721680",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 5"
+      }
+    },
+    "nmdc:bsm-99-47932f9a": {
+      "ncbi_accession": "SAMN41721679",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 4"
+      }
+    },
+    "nmdc:bsm-99-22df3289": {
+      "ncbi_accession": "SAMN41721678",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 3"
+      }
+    },
+    "nmdc:bsm-99-e72f496f": {
+      "ncbi_accession": "SAMN41721677",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 2"
+      }
+    },
+    "nmdc:bsm-99-4949f738": {
+      "ncbi_accession": "SAMN41721676",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant rhizosphere replicate 1"
+      }
+    },
+    "nmdc:bsm-99-ab41369c": {
+      "ncbi_accession": "SAMN41721675",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 6"
+      }
+    },
+    "nmdc:bsm-99-8279eac6": {
+      "ncbi_accession": "SAMN41721674",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 5"
+      }
+    },
+    "nmdc:bsm-99-09dd2370": {
+      "ncbi_accession": "SAMN41721673",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 4"
+      }
+    },
+    "nmdc:bsm-99-86a5eef3": {
+      "ncbi_accession": "SAMN41721672",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 3"
+      }
+    },
+    "nmdc:bsm-99-4c62d017": {
+      "ncbi_accession": "SAMN41721671",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 2"
+      }
+    },
+    "nmdc:bsm-99-ae6529c4": {
+      "ncbi_accession": "SAMN41721670",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant root replicate 1"
+      }
+    },
+    "nmdc:bsm-99-0148bc88": {
+      "ncbi_accession": "SAMN41721669",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 6"
+      }
+    },
+    "nmdc:bsm-99-1ea43cdf": {
+      "ncbi_accession": "SAMN41721668",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 5"
+      }
+    },
+    "nmdc:bsm-99-062df3c3": {
+      "ncbi_accession": "SAMN41721667",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 4"
+      }
+    },
+    "nmdc:bsm-99-7a40ffd4": {
+      "ncbi_accession": "SAMN41721666",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 3"
+      }
+    },
+    "nmdc:bsm-99-9d7c3df3": {
+      "ncbi_accession": "SAMN41721665",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 2"
+      }
+    },
+    "nmdc:bsm-99-26688026": {
+      "ncbi_accession": "SAMN41721664",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie remnant bulk soil replicate 1"
+      }
+    },
+    "nmdc:bsm-99-f8404932": {
+      "ncbi_accession": "SAMN41721663",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 6"
+      }
+    },
+    "nmdc:bsm-99-73b440ee": {
+      "ncbi_accession": "SAMN41721662",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 5"
+      }
+    },
+    "nmdc:bsm-99-638603cb": {
+      "ncbi_accession": "SAMN41721661",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 4"
+      }
+    },
+    "nmdc:bsm-99-a4fa1e83": {
+      "ncbi_accession": "SAMN41721660",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 3"
+      }
+    },
+    "nmdc:bsm-99-1bd631fa": {
+      "ncbi_accession": "SAMN41721659",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 2"
+      }
+    },
+    "nmdc:bsm-99-a6ac14b3": {
+      "ncbi_accession": "SAMN41721658",
+      "ncbi_title": "rhizosphere soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed rhizosphere replicate 1"
+      }
+    },
+    "nmdc:bsm-99-46cbf301": {
+      "ncbi_accession": "SAMN41721657",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 6"
+      }
+    },
+    "nmdc:bsm-99-6b30486b": {
+      "ncbi_accession": "SAMN41721656",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 5"
+      }
+    },
+    "nmdc:bsm-99-2fff0ad2": {
+      "ncbi_accession": "SAMN41721655",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 4"
+      }
+    },
+    "nmdc:bsm-99-54d11407": {
+      "ncbi_accession": "SAMN41721654",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 3"
+      }
+    },
+    "nmdc:bsm-99-6a2bade2": {
+      "ncbi_accession": "SAMN41721653",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 2"
+      }
+    },
+    "nmdc:bsm-99-169a5d32": {
+      "ncbi_accession": "SAMN41721652",
+      "ncbi_title": "root",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "Brachypodium distachyon",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed root replicate 1"
+      }
+    },
+    "nmdc:bsm-99-53bac185": {
+      "ncbi_accession": "SAMN41721651",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 6"
+      }
+    },
+    "nmdc:bsm-99-5e540a48": {
+      "ncbi_accession": "SAMN41721650",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 5"
+      }
+    },
+    "nmdc:bsm-99-2a0a9d2d": {
+      "ncbi_accession": "SAMN41721649",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 4"
+      }
+    },
+    "nmdc:bsm-99-abc312dc": {
+      "ncbi_accession": "SAMN41721648",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 3"
+      }
+    },
+    "nmdc:bsm-99-a573d348": {
+      "ncbi_accession": "SAMN41721647",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 2"
+      }
+    },
+    "nmdc:bsm-99-3b650a66": {
+      "ncbi_accession": "SAMN41721646",
+      "ncbi_title": "bulk soil",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "host": "not applicable",
+        "isolation_source": "Conviron grown pot",
+        "collection_date": "2022-11",
+        "geo_loc_name": "Australia: Melbourne",
+        "lat_lon": "37.7988 S 144.958 E",
+        "rel_to_oxygen": "aerobe",
+        "samp_collect_device": "Illumina MiSeq",
+        "source_material_id": "Dookie managed bulk soil replicate 1"
+      }
+    }
+  }
+}

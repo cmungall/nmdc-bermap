@@ -16,7 +16,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -45,10 +46,18 @@ classes:
     - growth_facility
     - other_experimental_factor
     - other_treatment
+    - host_crop
+    - soil_compartment
+    - plot_id
+    - biological_replicate
+    - sampling_timepoint
 slots:
   stand_age:
     title: stand age
-    description: Age of the Miscanthus stand in the replicated chronosequence trial.
+    description: Age of the Miscanthus stand at sampling, computed as collection year minus planting year.
+      Not surfaced as a structured field in NMDC biosample metadata; derive from the planting-year token
+      in samp_name (e.g., `_2017_` → 2017) or from the NCBI BioSample `Year` custom attribute. Corn
+      comparator plots are stand age 0.
     range: integer
     unit:
       descriptive_name: years
@@ -58,33 +67,46 @@ slots:
     - stand_age_years
     - plot_age
     annotations:
-      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING; DERIVED
       measured_entity: Miscanthus field plot
       value_type: INTEGER
+      data_source_notes: 'No source column in NMDC biosample_set. Derive from the planting-year
+        token in samp_name (e.g., 4095_M_2017_… → 2017) or from NCBI BioSample Year custom attribute.
+        Audit 2026-06-17.'
   nitrogen_fertilizer_rate:
     title: nitrogen fertilizer rate
-    description: Nitrogen fertilizer application rate assigned to Miscanthus field plots.
+    description: 'Nitrogen fertilizer application rate assigned to Miscanthus or Corn field plots.
+      Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha for the Corn comparator.
+      Not stored as a numeric in NMDC; parse from the string field experimental_factor_other (e.g.
+      "N_fertilization_rate: 200 kg/ha") or from NCBI BioSample Nitrogen custom attribute.'
     range: float
     unit:
       descriptive_name: kilogram per hectare
-      ucum_code: kg/Har
+      ucum_code: kg/har
     aliases:
     - nitrogen_rate
     - n_rate
     - fertilizer_regimen
     annotations:
-      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
-      measured_entity: Miscanthus field plot
+      role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: Miscanthus or Corn field plot
       value_type: NUMERIC
+      data_source_notes: 'NMDC stores as string in experimental_factor_other, e.g.
+        "N_fertilization_rate: 200 kg/ha"; parse to extract numeric. NCBI BioSample carries the
+        same value as a clean numeric in the Nitrogen custom attribute. The MIxS-standard
+        biosample_set_fertilizer_regm satellite table has 0 rows for this study. Audit 2026-06-17.'
   soil_sampling_depth:
     title: soil sampling depth
-    description: Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.
+    description: Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata. NMDC
+      stores depth as a min/max range (e.g., 0.0–0.1 m via `depth_has_minimum_numeric_value` and
+      `depth_has_maximum_numeric_value`); this scalar slot captures the maximum (lower-boundary) value.
     range: float
     unit:
       descriptive_name: meter
       ucum_code: m
     aliases:
     - depth
+    - depth_has_maximum_numeric_value
     - soil_depth
     annotations:
       role: SPATIAL_INDEX; COVARIATE
@@ -171,6 +193,10 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: ONTOLOGY_TERM
+      data_source_notes: 'NMDC asserts ENVO:00005802 (bulk soil) uniformly across all 696 biosamples
+        — wrong for 648 of them per NCBI custom Soil=Rizosphere attribute and per the _A/B/C_ vs
+        _Bulk_/_BULK_DNA_ samp_name markers. Profile slot is correct; ingest is mislabeled. Use the
+        sibling soil_compartment slot to recover the rhizo/bulk distinction. Audit 2026-06-17.'
   environmental_package:
     title: environmental package
     description: MIxS environmental package used for the NMDC biosample metadata.
@@ -244,10 +270,102 @@ slots:
       value_type: CATEGORICAL
   other_treatment:
     title: other treatment
-    description: Additional treatment descriptor recorded in NMDC biosample metadata.
+    description: Additional treatment descriptor recorded in NMDC biosample metadata. For this study,
+      `other_treatment` is overloaded to carry the host crop (Miscanthus vs Corn comparator); see the
+      `host_crop` slot for the structured form.
     range: string
     aliases:
     - other_treatment
     annotations:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       value_type: CATEGORICAL
+  host_crop:
+    title: host crop
+    description: Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop) or Corn
+      (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string field
+      `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.
+    range: HostCropEnum
+    aliases:
+    - other_treatment
+    - host_species
+    - crop
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING
+      measured_entity: bioenergy crop host
+      value_type: CATEGORICAL
+  soil_compartment:
+    title: soil compartment
+    description: Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC
+      structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples,
+      which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token
+      (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or
+      from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited
+      samples; 48 bulk samples were not deposited to NCBI).
+    range: SoilCompartmentEnum
+    aliases:
+    - compartment
+    - sample_type
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; GROUPING; DERIVED
+      measured_entity: soil microbial habitat
+      material_or_matrix: soil
+      value_type: CATEGORICAL
+  plot_id:
+    title: plot id
+    description: Field plot identifier within the CABBI EnergyFarm chronosequence trial. Not surfaced
+      as a structured NMDC field; parse from the `P<n>` token in `samp_name` (e.g., `P50`) or from
+      NCBI BioSample `Plot` custom attribute.
+    range: string
+    aliases:
+    - plot
+    - plot_number
+    annotations:
+      role: IDENTIFIER; STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: field plot
+      value_type: IDENTIFIER
+  biological_replicate:
+    title: biological replicate
+    description: Biological replicate identifier within a (plot × date) cell — three sub-samples per
+      cell on the early April timepoints, two on the later timepoints. Encoded in `samp_name` as
+      `_A_` / `_B_` / `_C_` markers, or (for the 2018-04-25 amplicon batch) by sequential sample IDs.
+      Captured on NCBI BioSample as the `replicate` custom attribute.
+    range: string
+    aliases:
+    - replicate
+    - rep
+    annotations:
+      role: STUDY_DESIGN_INDEPENDENT_VARIABLE; DERIVED
+      measured_entity: biological replicate sub-sample
+      value_type: CATEGORICAL
+  sampling_timepoint:
+    title: sampling timepoint
+    description: Growing-season sampling timepoint within the 2018 collection window. Five timepoints
+      were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this slot for the time-series axis
+      independent of the `collection_date` covariate.
+    range: datetime
+    aliases:
+    - timepoint
+    - collection_date
+    annotations:
+      role: DATE_TIME_VARIABLE; STUDY_DESIGN_INDEPENDENT_VARIABLE
+      temporal_resolution: five timepoints across one growing season
+      time_series: 'true'
+      value_type: DATETIME
+enums:
+  HostCropEnum:
+    permissible_values:
+      miscanthus:
+        meaning: NCBITaxon:62336
+        aliases:
+        - Miscanthus × giganteus
+      zea mays:
+        meaning: NCBITaxon:4577
+        aliases:
+        - corn
+        - maize
+  SoilCompartmentEnum:
+    permissible_values:
+      rhizosphere:
+        meaning: ENVO:00005801
+      bulk soil:
+        meaning: ENVO:00005802

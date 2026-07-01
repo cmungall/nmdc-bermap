@@ -766,11 +766,11 @@ a:hover {
 
 <section class="variable-summary-grid">
     <div class="summary-card">
-        <span class="summary-number">547</span>
+        <span class="summary-number">552</span>
         <span class="summary-label">Variables</span>
     </div>
     <div class="summary-card">
-        <span class="summary-number">540</span>
+        <span class="summary-number">545</span>
         <span class="summary-label">Study variables</span>
     </div>
     <div class="summary-card">
@@ -782,7 +782,7 @@ a:hover {
         <span class="summary-label">BERVO terms</span>
     </div>
     <div class="summary-card">
-        <span class="summary-number">526</span>
+        <span class="summary-number">531</span>
         <span class="summary-label">Need BERVO review</span>
     </div>
 </section>
@@ -1297,16 +1297,17 @@ a:hover {
         <span class="chip value-type">Numeric</span>
     </header>
 
-    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus field plots.</p>
+    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus or Corn field plots. Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha for the Corn comparator. Not stored as a numeric in NMDC; parse from the string field experimental_factor_other (e.g. &#34;N_fertilization_rate: 200 kg/ha&#34;) or from NCBI BioSample Nitrogen custom attribute.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>Miscanthus field plot</dd></div>
+        <div><dt>Entity</dt><dd>Miscanthus or Corn field plot</dd></div>
         <div><dt>Units</dt><dd>kilogram per hectare</dd></div>
         <div><dt>Fields</dt><dd>nitrogen_rate, n_rate, fertilizer_regimen</dd></div>
     </dl>
@@ -1340,19 +1341,20 @@ a:hover {
         <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
     </header>
 
-    <p class="compact-description">Low- versus high-nitrogen cropping system condition for switchgrass plots.</p>
+    <p class="compact-description">Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal Land Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized control). Initiated 2014-2016; balanced 50/50 across all cropping systems and sites. Exact kg N/ha rate at the KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>switchgrass cropping system</dd></div>
+        <div><dt>Entity</dt><dd>GLBRC MLE split-plot</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">low nitrogen</span><span class="level-plain">high nitrogen</span>        </dd></div>
-        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, fertilizer_regimen</dd></div>
+<span class="level-plain">Unfert</span><span class="level-plain">Fert</span>        </dd></div>
+        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, FertStatus, fertilizer_regimen</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -1727,7 +1729,7 @@ a:hover {
 </details>
 
 <details class="category variable-browser">
-    <summary>Variables Without BERVO Mapping (526)</summary>
+    <summary>Variables Without BERVO Mapping (531)</summary>
     <div class="category-content variable-index-list">
         <article class="variable-index-item" id="nmdc_sfas_brcs-pmi-study-cultivating-bacterial-microbiota-of-populus-roots-16s-community-profile">
     <header class="variable-index-header">
@@ -2658,7 +2660,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
@@ -2676,7 +2679,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -2814,6 +2817,41 @@ a:hover {
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-biological-replicate">
+    <header class="variable-index-header">
+        <div>
+            <h3>biological replicate</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Biological replicate identifier within a (plot × date) cell — three sub-samples per cell on the early April timepoints, two on the later timepoints. Encoded in `samp_name` as `_A_` / `_B_` / `_C_` markers, or (for the 2018-04-25 amplicon batch) by sequential sample IDs. Captured on NCBI BioSample as the `replicate` custom attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>biological replicate sub-sample</dd></div>
+        <div><dt>Fields</dt><dd>replicate, rep</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -4680,7 +4718,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
@@ -4901,7 +4939,7 @@ a:hover {
         <span class="chip value-type">Text</span>
     </header>
 
-    <p class="compact-description">Current vegetation descriptor recorded for the NMDC biosample.</p>
+    <p class="compact-description">Current vegetation descriptor recorded for the NMDC biosample. Three categories — Switchgrass (1884), Restored Prairie (396), Undisturbed Control (396).</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Covariate</span>
@@ -9443,7 +9481,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
     </div>
 </article>
 
@@ -9478,7 +9516,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
     </div>
 </article>
 
@@ -9510,7 +9548,8 @@ a:hover {
         <div><dt>Entity</dt><dd>perennial bioenergy crop</dd></div>
         <div><dt>Matrix</dt><dd>leaf phyllosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">switchgrass</span><a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_38727" target="_blank" class="ontology-term">panicum virgatum <span>NCBITaxon:38727</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>host_species, crop</dd></div>
     </dl>
@@ -9518,7 +9557,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -9555,7 +9594,50 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop">
+    <header class="variable-index-header">
+        <div>
+            <h3>host crop</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop) or Corn (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string field `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>bioenergy crop host</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_4577" target="_blank" class="ontology-term">zea mays <span>NCBITaxon:4577</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>other_treatment, host_species, crop</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -9724,14 +9806,15 @@ a:hover {
         <div><dt>Entity</dt><dd>bacterial isolation context</dd></div>
         <div><dt>Matrix</dt><dd>Populus endosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">Populus x jackii</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_640484" target="_blank" class="ontology-term">Populus x jackii <span>NCBITaxon:640484</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>host, isolation_source, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -10140,7 +10223,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -10717,7 +10800,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -12281,14 +12364,15 @@ a:hover {
         <div><dt>Entity</dt><dd>Miscanthus host plant</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/NCBITaxon_62337" target="_blank" class="ontology-term">Miscanthus sinensis <span>NCBITaxon:62337</span></a>
-<span class="level-plain">Miscanthus floridulus</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_154761" target="_blank" class="ontology-term">Miscanthus floridulus <span>NCBITaxon:154761</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>species, host_species, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -12715,7 +12799,7 @@ a:hover {
         <span class="chip value-type">Categorical</span>
     </header>
 
-    <p class="compact-description">Additional treatment descriptor recorded in NMDC biosample metadata.</p>
+    <p class="compact-description">Additional treatment descriptor recorded in NMDC biosample metadata. For this study, `other_treatment` is overloaded to carry the host crop (Miscanthus vs Corn comparator); see the `host_crop` slot for the structured form.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
@@ -13346,7 +13430,8 @@ a:hover {
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/PO_0009005" target="_blank" class="ontology-term">root <span>PO:0009005</span></a>
-<span class="level-plain">shoot</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/PO_0009006" target="_blank" class="ontology-term">shoot system <span>PO:0009006</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, tissue, sample_type</dd></div>
     </dl>
 
@@ -13362,7 +13447,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -13457,7 +13542,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -13488,7 +13573,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00001998" target="_blank" class="ontology-term">soil <span>ENVO:00001998</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
@@ -13506,7 +13592,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -13694,7 +13780,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -13757,7 +13843,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>sorghum-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">phyllosphere</span><span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">phyllosphere <span>GOLD:Phyllosphere</span></span>
+<span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
@@ -13800,7 +13887,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">leaf endosphere</span><span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="level-plain">leaf endosphere</span><span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>habitat, compartment, sample_type</dd></div>
     </dl>
@@ -13817,7 +13905,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -13881,6 +13969,42 @@ a:hover {
     </dl>
 
     <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-plot-id">
+    <header class="variable-index-header">
+        <div>
+            <h3>plot id</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Identifier</span>
+    </header>
+
+    <p class="compact-description">Field plot identifier within the CABBI EnergyFarm chronosequence trial. Not surfaced as a structured NMDC field; parse from the `P&lt;n&gt;` token in `samp_name` (e.g., `P50`) or from NCBI BioSample `Plot` custom attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Identifier</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>field plot</dd></div>
+        <div><dt>Fields</dt><dd>plot, plot_number</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
     </div>
 </article>
 
@@ -14069,7 +14193,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -14157,7 +14281,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -14195,7 +14319,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -14872,7 +14996,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -14919,7 +15043,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -14954,7 +15078,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -15024,7 +15148,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -15221,7 +15345,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Brachypodium root-zone habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root tip</span><span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+<a href="http://purl.obolibrary.org/obo/PO_0000025" target="_blank" class="ontology-term">root tip <span>PO:0000025</span></a>
+<span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>root_zone, spatial_zone, sample_position</dd></div>
     </dl>
@@ -15297,7 +15422,8 @@ a:hover {
         <div><dt>Entity</dt><dd>Populus root-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
-<span class="level-plain">endosphere</span>        </dd></div>
+<span class="ontology-term">endosphere <span>GOLD:Endosphere</span></span>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
 
@@ -15313,7 +15439,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -15359,7 +15485,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -16061,6 +16187,44 @@ a:hover {
     </div>
 </article>
 
+        <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint">
+    <header class="variable-index-header">
+        <div>
+            <h3>sampling timepoint</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Datetime</span>
+    </header>
+
+    <p class="compact-description">Growing-season sampling timepoint within the 2018 collection window. Five timepoints were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this slot for the time-series axis independent of the `collection_date` covariate.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Date Time Variable</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Time series</dt><dd>yes; five timepoints across one growing season</dd></div>
+        <div><dt>Fields</dt><dd>timepoint, collection_date</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+24 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
         <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year">
     <header class="variable-index-header">
         <div>
@@ -16571,6 +16735,54 @@ a:hover {
     </dl>
 
     <div class="ontology-list variable-index-mappings">
+    </div>
+</article>
+
+        <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment">
+    <header class="variable-index-header">
+        <div>
+            <h3>soil compartment</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited to NCBI).</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>soil microbial habitat</dd></div>
+        <div><dt>Matrix</dt><dd>soil</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+36 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+42 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
     </div>
 </article>
 
@@ -17350,7 +17562,7 @@ a:hover {
         <span class="chip value-type">Numeric</span>
     </header>
 
-    <p class="compact-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.</p>
+    <p class="compact-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata. NMDC stores depth as a min/max range (e.g., 0.0–0.1 m via `depth_has_minimum_numeric_value` and `depth_has_maximum_numeric_value`); this scalar slot captures the maximum (lower-boundary) value.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Spatial Index</span>
@@ -17362,7 +17574,7 @@ a:hover {
         <div><dt>Entity</dt><dd>soil sampling interval</dd></div>
         <div><dt>Matrix</dt><dd>soil</dd></div>
         <div><dt>Units</dt><dd>meter</dd></div>
-        <div><dt>Fields</dt><dd>depth, soil_depth</dd></div>
+        <div><dt>Fields</dt><dd>depth, depth_has_maximum_numeric_value, soil_depth</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -18101,11 +18313,12 @@ a:hover {
         <span class="chip value-type">Integer</span>
     </header>
 
-    <p class="compact-description">Age of the Miscanthus stand in the replicated chronosequence trial.</p>
+    <p class="compact-description">Age of the Miscanthus stand at sampling, computed as collection year minus planting year. Not surfaced as a structured field in NMDC biosample metadata; derive from the planting-year token in samp_name (e.g., `_2017_` → 2017) or from the NCBI BioSample `Year` custom attribute. Corn comparator plots are stand age 0.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Study Design Independent Variable</span>
     <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
@@ -18448,7 +18661,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -18663,7 +18876,10 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>coastal gradient position</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">open water</span><span class="level-plain">wetland</span><span class="level-plain">shoreline</span><span class="level-plain">upland forest</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/ENVO_01000666" target="_blank" class="ontology-term">area of open water <span>ENVO:01000666</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_01001209" target="_blank" class="ontology-term">wetland ecosystem <span>ENVO:01001209</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00000486" target="_blank" class="ontology-term">shoreline <span>ENVO:00000486</span></a>
+<span class="level-plain">upland forest</span>        </dd></div>
         <div><dt>Fields</dt><dd>transect_position, gradient_position, env_local_scale</dd></div>
     </dl>
 
@@ -20227,7 +20443,7 @@ a:hover {
                 <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
 <span class="mapping-relation">exactmatch</span>
 
-                <span class="section-count">27</span>
+                <span class="section-count">28</span>
             </summary>
             <div class="variable-index-list">
                 <article class="variable-index-item" id="nmdc_sfas_brcs-glbrc-study-seasonal-activities-of-the-phyllosphere-microbiome-of-perennial-crops-collection-date">
@@ -21096,6 +21312,44 @@ a:hover {
     </div>
 </article>
 
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint">
+    <header class="variable-index-header">
+        <div>
+            <h3>sampling timepoint</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Datetime</span>
+    </header>
+
+    <p class="compact-description">Growing-season sampling timepoint within the 2018 collection window. Five timepoints were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this slot for the time-series axis independent of the `collection_date` covariate.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Date Time Variable</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Time series</dt><dd>yes; five timepoints across one growing season</dd></div>
+        <div><dt>Fields</dt><dd>timepoint, collection_date</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+24 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
                 <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year">
     <header class="variable-index-header">
         <div>
@@ -21427,7 +21681,7 @@ a:hover {
         <span class="chip value-type">Numeric</span>
     </header>
 
-    <p class="compact-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.</p>
+    <p class="compact-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata. NMDC stores depth as a min/max range (e.g., 0.0–0.1 m via `depth_has_minimum_numeric_value` and `depth_has_maximum_numeric_value`); this scalar slot captures the maximum (lower-boundary) value.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Spatial Index</span>
@@ -21439,7 +21693,7 @@ a:hover {
         <div><dt>Entity</dt><dd>soil sampling interval</dd></div>
         <div><dt>Matrix</dt><dd>soil</dd></div>
         <div><dt>Units</dt><dd>meter</dd></div>
-        <div><dt>Fields</dt><dd>depth, soil_depth</dd></div>
+        <div><dt>Fields</dt><dd>depth, depth_has_maximum_numeric_value, soil_depth</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -21641,7 +21895,7 @@ a:hover {
                 <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
 <span class="mapping-relation">exactmatch</span>
 
-                <span class="section-count">53</span>
+                <span class="section-count">54</span>
             </summary>
             <div class="variable-index-list">
                 <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-soil-microbiome-of-miscanthus-giganteus-at-lamps-study-site-active-soil-microbiome-composition">
@@ -21743,7 +21997,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
@@ -21761,7 +22016,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22490,7 +22745,8 @@ a:hover {
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/PO_0009005" target="_blank" class="ontology-term">root <span>PO:0009005</span></a>
-<span class="level-plain">shoot</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/PO_0009006" target="_blank" class="ontology-term">shoot system <span>PO:0009006</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, tissue, sample_type</dd></div>
     </dl>
 
@@ -22506,7 +22762,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22601,7 +22857,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22632,7 +22888,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00001998" target="_blank" class="ontology-term">soil <span>ENVO:00001998</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
@@ -22650,7 +22907,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22725,7 +22982,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>sorghum-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">phyllosphere</span><span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">phyllosphere <span>GOLD:Phyllosphere</span></span>
+<span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
@@ -22768,7 +23026,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">leaf endosphere</span><span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="level-plain">leaf endosphere</span><span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>habitat, compartment, sample_type</dd></div>
     </dl>
@@ -22785,7 +23044,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22870,7 +23129,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -22987,7 +23246,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -23034,7 +23293,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -23099,7 +23358,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Brachypodium root-zone habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root tip</span><span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+<a href="http://purl.obolibrary.org/obo/PO_0000025" target="_blank" class="ontology-term">root tip <span>PO:0000025</span></a>
+<span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>root_zone, spatial_zone, sample_position</dd></div>
     </dl>
@@ -23143,7 +23403,8 @@ a:hover {
         <div><dt>Entity</dt><dd>Populus root-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
-<span class="level-plain">endosphere</span>        </dd></div>
+<span class="ontology-term">endosphere <span>GOLD:Endosphere</span></span>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
 
@@ -23159,7 +23420,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -23205,7 +23466,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -23288,6 +23549,54 @@ a:hover {
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+42 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment">
+    <header class="variable-index-header">
+        <div>
+            <h3>soil compartment</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited to NCBI).</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>soil microbial habitat</dd></div>
+        <div><dt>Matrix</dt><dd>soil</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+36 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+42 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
     </div>
 </article>
 
@@ -23708,7 +24017,7 @@ a:hover {
                 <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 
-                <span class="section-count">152</span>
+                <span class="section-count">157</span>
             </summary>
             <div class="variable-index-list">
                 <article class="variable-index-item" id="nmdc_sfas_brcs-glbrc-study-switchgrass-cropping-systems-on-marginal-lands-agrochemical-addition">
@@ -23975,7 +24284,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
@@ -23993,7 +24303,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -24065,6 +24375,41 @@ a:hover {
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-biological-replicate">
+    <header class="variable-index-header">
+        <div>
+            <h3>biological replicate</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+    </header>
+
+    <p class="compact-description">Biological replicate identifier within a (plot × date) cell — three sub-samples per cell on the early April timepoints, two on the later timepoints. Encoded in `samp_name` as `_A_` / `_B_` / `_C_` markers, or (for the 2018-04-25 amplicon batch) by sequential sample IDs. Captured on NCBI BioSample as the `replicate` custom attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>biological replicate sub-sample</dd></div>
+        <div><dt>Fields</dt><dd>replicate, rep</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -24465,7 +24810,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
@@ -25503,7 +25848,8 @@ a:hover {
         <div><dt>Entity</dt><dd>perennial bioenergy crop</dd></div>
         <div><dt>Matrix</dt><dd>leaf phyllosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">switchgrass</span><a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_38727" target="_blank" class="ontology-term">panicum virgatum <span>NCBITaxon:38727</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>host_species, crop</dd></div>
     </dl>
@@ -25511,7 +25857,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -25548,7 +25894,50 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop">
+    <header class="variable-index-header">
+        <div>
+            <h3>host crop</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop) or Corn (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string field `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>bioenergy crop host</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_4577" target="_blank" class="ontology-term">zea mays <span>NCBITaxon:4577</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>other_treatment, host_species, crop</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -25653,14 +26042,15 @@ a:hover {
         <div><dt>Entity</dt><dd>bacterial isolation context</dd></div>
         <div><dt>Matrix</dt><dd>Populus endosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">Populus x jackii</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_640484" target="_blank" class="ontology-term">Populus x jackii <span>NCBITaxon:640484</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>host, isolation_source, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -25814,7 +26204,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -25923,7 +26313,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -26067,14 +26457,15 @@ a:hover {
         <div><dt>Entity</dt><dd>Miscanthus host plant</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/NCBITaxon_62337" target="_blank" class="ontology-term">Miscanthus sinensis <span>NCBITaxon:62337</span></a>
-<span class="level-plain">Miscanthus floridulus</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_154761" target="_blank" class="ontology-term">Miscanthus floridulus <span>NCBITaxon:154761</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>species, host_species, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -26217,16 +26608,17 @@ a:hover {
         <span class="chip value-type">Numeric</span>
     </header>
 
-    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus field plots.</p>
+    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus or Corn field plots. Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha for the Corn comparator. Not stored as a numeric in NMDC; parse from the string field experimental_factor_other (e.g. &#34;N_fertilization_rate: 200 kg/ha&#34;) or from NCBI BioSample Nitrogen custom attribute.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>Miscanthus field plot</dd></div>
+        <div><dt>Entity</dt><dd>Miscanthus or Corn field plot</dd></div>
         <div><dt>Units</dt><dd>kilogram per hectare</dd></div>
         <div><dt>Fields</dt><dd>nitrogen_rate, n_rate, fertilizer_regimen</dd></div>
     </dl>
@@ -26260,19 +26652,20 @@ a:hover {
         <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
     </header>
 
-    <p class="compact-description">Low- versus high-nitrogen cropping system condition for switchgrass plots.</p>
+    <p class="compact-description">Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal Land Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized control). Initiated 2014-2016; balanced 50/50 across all cropping systems and sites. Exact kg N/ha rate at the KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>switchgrass cropping system</dd></div>
+        <div><dt>Entity</dt><dd>GLBRC MLE split-plot</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">low nitrogen</span><span class="level-plain">high nitrogen</span>        </dd></div>
-        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, fertilizer_regimen</dd></div>
+<span class="level-plain">Unfert</span><span class="level-plain">Fert</span>        </dd></div>
+        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, FertStatus, fertilizer_regimen</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -26439,7 +26832,7 @@ a:hover {
         <span class="chip value-type">Categorical</span>
     </header>
 
-    <p class="compact-description">Additional treatment descriptor recorded in NMDC biosample metadata.</p>
+    <p class="compact-description">Additional treatment descriptor recorded in NMDC biosample metadata. For this study, `other_treatment` is overloaded to carry the host crop (Miscanthus vs Corn comparator); see the `host_crop` slot for the structured form.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
@@ -26693,7 +27086,8 @@ a:hover {
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/PO_0009005" target="_blank" class="ontology-term">root <span>PO:0009005</span></a>
-<span class="level-plain">shoot</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/PO_0009006" target="_blank" class="ontology-term">shoot system <span>PO:0009006</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, tissue, sample_type</dd></div>
     </dl>
 
@@ -26709,7 +27103,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -26804,7 +27198,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -26835,7 +27229,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00001998" target="_blank" class="ontology-term">soil <span>ENVO:00001998</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
@@ -26853,7 +27248,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -27010,7 +27405,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -27042,7 +27437,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>sorghum-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">phyllosphere</span><span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">phyllosphere <span>GOLD:Phyllosphere</span></span>
+<span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
@@ -27085,7 +27481,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">leaf endosphere</span><span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="level-plain">leaf endosphere</span><span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>habitat, compartment, sample_type</dd></div>
     </dl>
@@ -27102,7 +27499,43 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-plot-id">
+    <header class="variable-index-header">
+        <div>
+            <h3>plot id</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Identifier</span>
+    </header>
+
+    <p class="compact-description">Field plot identifier within the CABBI EnergyFarm chronosequence trial. Not surfaced as a structured NMDC field; parse from the `P&lt;n&gt;` token in `samp_name` (e.g., `P50`) or from NCBI BioSample `Plot` custom attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Identifier</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>field plot</dd></div>
+        <div><dt>Fields</dt><dd>plot, plot_number</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
     </div>
 </article>
 
@@ -27291,7 +27724,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -27379,7 +27812,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -27417,7 +27850,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -27677,7 +28110,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -27724,7 +28157,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -27791,7 +28224,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Brachypodium root-zone habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root tip</span><span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+<a href="http://purl.obolibrary.org/obo/PO_0000025" target="_blank" class="ontology-term">root tip <span>PO:0000025</span></a>
+<span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>root_zone, spatial_zone, sample_position</dd></div>
     </dl>
@@ -27835,7 +28269,8 @@ a:hover {
         <div><dt>Entity</dt><dd>Populus root-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
-<span class="level-plain">endosphere</span>        </dd></div>
+<span class="ontology-term">endosphere <span>GOLD:Endosphere</span></span>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
 
@@ -27851,7 +28286,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -27897,7 +28332,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -28181,6 +28616,44 @@ a:hover {
     </div>
 </article>
 
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-sampling-timepoint">
+    <header class="variable-index-header">
+        <div>
+            <h3>sampling timepoint</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Datetime</span>
+    </header>
+
+    <p class="compact-description">Growing-season sampling timepoint within the 2018 collection window. Five timepoints were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this slot for the time-series axis independent of the `collection_date` covariate.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Date Time Variable</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Time series</dt><dd>yes; five timepoints across one growing season</dd></div>
+        <div><dt>Fields</dt><dd>timepoint, collection_date</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+24 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
                 <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-sorghum-rhizosphere-nitrification-study-sampling-year">
     <header class="variable-index-header">
         <div>
@@ -28362,6 +28835,54 @@ a:hover {
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+24 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment">
+    <header class="variable-index-header">
+        <div>
+            <h3>soil compartment</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited to NCBI).</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>soil microbial habitat</dd></div>
+        <div><dt>Matrix</dt><dd>soil</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+36 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+42 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -28874,11 +29395,12 @@ a:hover {
         <span class="chip value-type">Integer</span>
     </header>
 
-    <p class="compact-description">Age of the Miscanthus stand in the replicated chronosequence trial.</p>
+    <p class="compact-description">Age of the Miscanthus stand at sampling, computed as collection year minus planting year. Not surfaced as a structured field in NMDC biosample metadata; derive from the planting-year token in samp_name (e.g., `_2017_` → 2017) or from the NCBI BioSample `Year` custom attribute. Corn comparator plots are stand age 0.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Study Design Independent Variable</span>
     <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
@@ -28971,7 +29493,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -29117,7 +29639,10 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>coastal gradient position</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">open water</span><span class="level-plain">wetland</span><span class="level-plain">shoreline</span><span class="level-plain">upland forest</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/ENVO_01000666" target="_blank" class="ontology-term">area of open water <span>ENVO:01000666</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_01001209" target="_blank" class="ontology-term">wetland ecosystem <span>ENVO:01001209</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00000486" target="_blank" class="ontology-term">shoreline <span>ENVO:00000486</span></a>
+<span class="level-plain">upland forest</span>        </dd></div>
         <div><dt>Fields</dt><dd>transect_position, gradient_position, env_local_scale</dd></div>
     </dl>
 
@@ -29637,16 +30162,17 @@ a:hover {
         <span class="chip value-type">Numeric</span>
     </header>
 
-    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus field plots.</p>
+    <p class="compact-description">Nitrogen fertilizer application rate assigned to Miscanthus or Corn field plots. Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha for the Corn comparator. Not stored as a numeric in NMDC; parse from the string field experimental_factor_other (e.g. &#34;N_fertilization_rate: 200 kg/ha&#34;) or from NCBI BioSample Nitrogen custom attribute.</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>Miscanthus field plot</dd></div>
+        <div><dt>Entity</dt><dd>Miscanthus or Corn field plot</dd></div>
         <div><dt>Units</dt><dd>kilogram per hectare</dd></div>
         <div><dt>Fields</dt><dd>nitrogen_rate, n_rate, fertilizer_regimen</dd></div>
     </dl>
@@ -29680,19 +30206,20 @@ a:hover {
         <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
     </header>
 
-    <p class="compact-description">Low- versus high-nitrogen cropping system condition for switchgrass plots.</p>
+    <p class="compact-description">Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal Land Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized control). Initiated 2014-2016; balanced 50/50 across all cropping systems and sites. Exact kg N/ha rate at the KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).</p>
 
     <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
 
     <dl class="variable-index-facts">
-        <div><dt>Entity</dt><dd>switchgrass cropping system</dd></div>
+        <div><dt>Entity</dt><dd>GLBRC MLE split-plot</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">low nitrogen</span><span class="level-plain">high nitrogen</span>        </dd></div>
-        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, fertilizer_regimen</dd></div>
+<span class="level-plain">Unfert</span><span class="level-plain">Fert</span>        </dd></div>
+        <div><dt>Fields</dt><dd>nitrogen_treatment, n_treatment, FertStatus, fertilizer_regimen</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
@@ -29715,7 +30242,7 @@ a:hover {
                 <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
 
-                <span class="section-count">13</span>
+                <span class="section-count">14</span>
             </summary>
             <div class="variable-index-list">
                 <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-sugarcane-and-oilcane-microbiome-differences-crop-accession-type">
@@ -29751,7 +30278,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
@@ -29792,7 +30319,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
     </div>
 </article>
 
@@ -29827,7 +30354,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
     </div>
 </article>
 
@@ -29859,7 +30386,8 @@ a:hover {
         <div><dt>Entity</dt><dd>perennial bioenergy crop</dd></div>
         <div><dt>Matrix</dt><dd>leaf phyllosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">switchgrass</span><a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_38727" target="_blank" class="ontology-term">panicum virgatum <span>NCBITaxon:38727</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>host_species, crop</dd></div>
     </dl>
@@ -29867,7 +30395,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -29904,7 +30432,50 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-host-crop">
+    <header class="variable-index-header">
+        <div>
+            <h3>host crop</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop) or Corn (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string field `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>bioenergy crop host</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_62336" target="_blank" class="ontology-term">miscanthus <span>NCBITaxon:62336</span></a>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_4577" target="_blank" class="ontology-term">zea mays <span>NCBITaxon:4577</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>other_treatment, host_species, crop</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -29937,14 +30508,15 @@ a:hover {
         <div><dt>Entity</dt><dd>bacterial isolation context</dd></div>
         <div><dt>Matrix</dt><dd>Populus endosphere</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">Populus x jackii</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_640484" target="_blank" class="ontology-term">Populus x jackii <span>NCBITaxon:640484</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>host, isolation_source, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -29985,7 +30557,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30022,7 +30594,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30055,14 +30627,15 @@ a:hover {
         <div><dt>Entity</dt><dd>Miscanthus host plant</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/NCBITaxon_62337" target="_blank" class="ontology-term">Miscanthus sinensis <span>NCBITaxon:62337</span></a>
-<span class="level-plain">Miscanthus floridulus</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/NCBITaxon_154761" target="_blank" class="ontology-term">Miscanthus floridulus <span>NCBITaxon:154761</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>species, host_species, host_common_name</dd></div>
     </dl>
 
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30103,7 +30676,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30144,7 +30717,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30185,7 +30758,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30226,7 +30799,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
@@ -30314,7 +30887,7 @@ a:hover {
     <div class="ontology-list variable-index-mappings">
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
 <span class="mapping-relation">exactmatch</span>
-<span class="shared-count" title="other studies mapping this term">+11 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
         <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000365" target="_blank" class="ontology-term">host genotype <span>MIXS:0000365</span></a>
 <span class="mapping-relation">exactmatch</span>
 <span class="shared-count" title="other studies mapping this term">+7 studies</span></div>
@@ -30635,7 +31208,7 @@ a:hover {
                 <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
 <span class="mapping-relation">exactmatch</span>
 
-                <span class="section-count">47</span>
+                <span class="section-count">48</span>
             </summary>
             <div class="variable-index-list">
                 <article class="variable-index-item" id="nmdc_sfas_brcs-enigma-study-enigma-groundwater-archaeal-diversity-aquifer-sampling-context">
@@ -30702,7 +31275,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
@@ -30720,7 +31294,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31427,7 +32001,8 @@ a:hover {
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/PO_0009005" target="_blank" class="ontology-term">root <span>PO:0009005</span></a>
-<span class="level-plain">shoot</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/PO_0009006" target="_blank" class="ontology-term">shoot system <span>PO:0009006</span></a>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, tissue, sample_type</dd></div>
     </dl>
 
@@ -31443,7 +32018,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31538,7 +32113,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31569,7 +32144,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <a href="http://purl.obolibrary.org/obo/ENVO_00001998" target="_blank" class="ontology-term">soil <span>ENVO:00001998</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
@@ -31587,7 +32163,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31662,7 +32238,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>sorghum-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">phyllosphere</span><span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="ontology-term">phyllosphere <span>GOLD:Phyllosphere</span></span>
+<span class="level-plain">aerial root mucilage</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
@@ -31705,7 +32282,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Populus-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">leaf endosphere</span><span class="level-plain">root endosphere</span><a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<span class="level-plain">leaf endosphere</span><span class="ontology-term">root endosphere <span>GOLDPATH:5304</span></span>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>habitat, compartment, sample_type</dd></div>
     </dl>
@@ -31722,7 +32300,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31807,7 +32385,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31850,7 +32428,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31897,7 +32475,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -31960,7 +32538,8 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>Brachypodium root-zone habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">root tip</span><span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+<a href="http://purl.obolibrary.org/obo/PO_0000025" target="_blank" class="ontology-term">root tip <span>PO:0000025</span></a>
+<span class="level-plain">root base</span><a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
         </dd></div>
         <div><dt>Fields</dt><dd>root_zone, spatial_zone, sample_position</dd></div>
     </dl>
@@ -32004,7 +32583,8 @@ a:hover {
         <div><dt>Entity</dt><dd>Populus root-associated microbial habitat</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
 <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
-<span class="level-plain">endosphere</span>        </dd></div>
+<span class="ontology-term">endosphere <span>GOLD:Endosphere</span></span>
+        </dd></div>
         <div><dt>Fields</dt><dd>compartment, sample_type, niche</dd></div>
     </dl>
 
@@ -32020,7 +32600,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -32066,7 +32646,7 @@ a:hover {
 <span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
         <div><span class="mini-label">Map</span> <a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
 <span class="mapping-relation">relatedmatch</span>
-<span class="shared-count" title="other studies mapping this term">+12 studies</span></div>
+<span class="shared-count" title="other studies mapping this term">+13 studies</span></div>
     </div>
 </article>
 
@@ -32225,6 +32805,54 @@ a:hover {
     </div>
 </article>
 
+                <article class="variable-index-item" id="nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus-soil-compartment">
+    <header class="variable-index-header">
+        <div>
+            <h3>soil compartment</h3>
+            <div class="variable-index-context">
+                Study: <a href="browser.html#nmdc_sfas_brcs-cabbi-study-the-impact-of-stand-age-and-fertilization-on-the-soil-microbiome-of-miscanthus-giganteus">The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus × giganteus</a>
+    <span class="context-id"><a href="https://api.microbiomedata.org/objects/sty-11-vh2hty57" target="_blank" class="link-nmdc">nmdc:sty-11-vh2hty57</a>
+</span>
+
+                <span>Program: <a href="browser.html#nmdc_sfas_brcs:cabbi">CABBI</a></span>
+            </div>
+        </div>
+        <span class="chip value-type">Categorical</span>
+        <span class="chip enum-kind enum-static" title="study-specific enumeration">static enum</span>
+    </header>
+
+    <p class="compact-description">Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited to NCBI).</p>
+
+    <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+
+    <dl class="variable-index-facts">
+        <div><dt>Entity</dt><dd>soil microbial habitat</dd></div>
+        <div><dt>Matrix</dt><dd>soil</dd></div>
+        <div><dt>Levels</dt><dd class="level-badges">
+<a href="http://purl.obolibrary.org/obo/ENVO_00005801" target="_blank" class="ontology-term">rhizosphere <span>ENVO:00005801</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00005802" target="_blank" class="ontology-term">bulk soil <span>ENVO:00005802</span></a>
+        </dd></div>
+        <div><dt>Fields</dt><dd>compartment, sample_type</dd></div>
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+36 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">closematch</span>
+<span class="shared-count" title="other studies mapping this term">+42 studies</span></div>
+        <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+<span class="shared-count" title="other studies mapping this term">+73 studies</span></div>
+    </div>
+</article>
+
                 <article class="variable-index-item" id="nmdc_sfas_brcs-mcafes-study-brachypodium-core-root-microbiome-metabarcoding-soil-origin">
     <header class="variable-index-header">
         <div>
@@ -32359,7 +32987,10 @@ a:hover {
     <dl class="variable-index-facts">
         <div><dt>Entity</dt><dd>coastal gradient position</dd></div>
         <div><dt>Levels</dt><dd class="level-badges">
-<span class="level-plain">open water</span><span class="level-plain">wetland</span><span class="level-plain">shoreline</span><span class="level-plain">upland forest</span>        </dd></div>
+<a href="http://purl.obolibrary.org/obo/ENVO_01000666" target="_blank" class="ontology-term">area of open water <span>ENVO:01000666</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_01001209" target="_blank" class="ontology-term">wetland ecosystem <span>ENVO:01001209</span></a>
+<a href="http://purl.obolibrary.org/obo/ENVO_00000486" target="_blank" class="ontology-term">shoreline <span>ENVO:00000486</span></a>
+<span class="level-plain">upland forest</span>        </dd></div>
         <div><dt>Fields</dt><dd>transect_position, gradient_position, env_local_scale</dd></div>
     </dl>
 

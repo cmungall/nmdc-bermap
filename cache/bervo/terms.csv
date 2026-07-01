@@ -2,9 +2,12 @@ curie,label,retrieved_at
 BERVO:0000301,total soil water content,2026-06-15T14:01:29.892206
 BERVO:0000306,total soil NH4 content,2026-06-15T14:01:30.001148
 BERVO:0000307,total soil NO3 content,2026-06-15T14:01:30.001558
+BERVO:0000315,total evaporation,2026-06-18T15:52:36.324149
+BERVO:0000326,total canopy net CO2 exchange,2026-06-18T15:52:36.323276
 BERVO:0000871,current nitrification inhibition activity,2026-06-15T14:01:29.975733
 BERVO:0000882,soil pH,2026-06-15T14:01:29.893308
 BERVO:0000895,total fertilizer N amendment,2026-06-15T14:01:29.975171
 BERVO:0000995,microbial biomass chemical element,2026-06-15T14:01:29.893958
 BERVO:0001370,air temperature,2026-06-14T19:38:57.357144
+BERVO:0001477,soil temperature,2026-06-18T15:52:36.325024
 BERVO:0001674,total soil NO3 + NO2 content,2026-06-15T14:01:30.002454

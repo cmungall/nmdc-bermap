@@ -1,0 +1,896 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-deb03ea2",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-deb03ea2",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-deb03ea2",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e7efd9db",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e7efd9db",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e7efd9db",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-78934228",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-78934228",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-78934228",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ed8e199",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ed8e199",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ed8e199",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c1f0aa84",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c1f0aa84",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c1f0aa84",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f4236d44",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f4236d44",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f4236d44",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab951bd7",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab951bd7",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab951bd7",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2b172772",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2b172772",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2b172772",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0c9e99c1",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0c9e99c1",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0c9e99c1",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c0f8c772",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c0f8c772",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c0f8c772",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cda13c1a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cda13c1a",
+      "slot": "env_local_scale",
+      "outcome": "resolved_from_raw",
+      "raw_input": "",
+      "committed_curie": "ENVO:00005801",
+      "committed_label": "rhizosphere",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cda13c1a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root rhizosphere (axenic)"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "axenic Populus roots inoculated"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00005802",
+          "label": "bulk soil",
+          "reason_rejected": "axenic system; no natural soil"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-45ab3c4a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-45ab3c4a",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-45ab3c4a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ee7dbb1e",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ee7dbb1e",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ee7dbb1e",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bc7a1bc0",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bc7a1bc0",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bc7a1bc0",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3ad5abc5",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "axenic root microcosm; greenhouse synthetic community; no natural biome"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3ad5abc5",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": false,
+        "valueset_ok": null,
+        "note": "ENVO has no perfect term for root endosphere feature"
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3ad5abc5",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "root endosphere"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

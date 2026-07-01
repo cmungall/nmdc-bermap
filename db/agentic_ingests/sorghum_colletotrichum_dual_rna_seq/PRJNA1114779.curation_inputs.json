@@ -1,0 +1,91 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-3bf0f80a",
+    "name": "",
+    "title": "The transcriptome of Colletotrichum sublineola during in vitro culture",
+    "description": "This data set serves as a reference that can be used to identify Colletotrichum sublineola transcripts that are specific to the interaction with the plant host sorghum (Sorghum bicolor. (L.) Moench)",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-7762ece3": {
+      "ncbi_accession": "SAMN41496121",
+      "ncbi_title": "C. sublineola on PDA rep_04",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "isolate": "Florida",
+        "host": "Sorghum bicolor",
+        "isolation_source": "Sorghum bicolor from Live Oak, FL",
+        "collection_date": "2015",
+        "geo_loc_name": "USA: Florida",
+        "sample_type": "cell culture rep_04",
+        "biomaterial_provider": "W. Vermerris, University of Florida, PO Box 103610, Gainesville, FL 32611",
+        "collected_by": "University of Florida",
+        "env_broad_scale": "in vitro culture on potato dextrose agar",
+        "temp": "room temperature"
+      }
+    },
+    "nmdc:bsm-99-7d71cf61": {
+      "ncbi_accession": "SAMN41496120",
+      "ncbi_title": "C. sublineola on PDA rep_03",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "isolate": "Florida",
+        "host": "Sorghum bicolor",
+        "isolation_source": "Sorghum bicolor from Live Oak, FL",
+        "collection_date": "2015",
+        "geo_loc_name": "USA: Florida",
+        "sample_type": "cell culture rep_03",
+        "biomaterial_provider": "W. Vermerris, University of Florida, PO Box 103610, Gainesville, FL 32611",
+        "collected_by": "University of Florida",
+        "env_broad_scale": "in vitro culture on potato dextrose agar",
+        "temp": "room temperature"
+      }
+    },
+    "nmdc:bsm-99-202b6561": {
+      "ncbi_accession": "SAMN41496119",
+      "ncbi_title": "C. sublineola on PDA rep_02",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "isolate": "Florida",
+        "host": "Sorghum bicolor",
+        "isolation_source": "Sorghum bicolor from Live Oak, FL",
+        "collection_date": "2015",
+        "geo_loc_name": "USA: Florida",
+        "sample_type": "cell culture rep_02",
+        "biomaterial_provider": "W. Vermerris, University of Florida, PO Box 103610, Gainesville, FL 32611",
+        "collected_by": "University of Florida",
+        "env_broad_scale": "in vitro culture on potato dextrose agar",
+        "temp": "room temperature"
+      }
+    },
+    "nmdc:bsm-99-9f206b4b": {
+      "ncbi_accession": "SAMN41496118",
+      "ncbi_title": "C. sublineola on PDA rep_01",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "isolate": "Florida",
+        "host": "Sorghum bicolor",
+        "isolation_source": "Sorghum bicolor from Live Oak, FL",
+        "collection_date": "2015",
+        "geo_loc_name": "USA: Florida",
+        "sample_type": "cell culture rep_01",
+        "biomaterial_provider": "W. Vermerris, University of Florida, PO Box 103610, Gainesville, FL 32611",
+        "collected_by": "University of Florida",
+        "env_broad_scale": "in vitro culture on potato dextrose agar",
+        "temp": "room temperature"
+      }
+    }
+  }
+}

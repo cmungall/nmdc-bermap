@@ -17,7 +17,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -88,7 +89,8 @@ enums:
     permissible_values:
       Miscanthus sinensis:
         meaning: NCBITaxon:62337
-      Miscanthus floridulus: null
+      Miscanthus floridulus:
+        meaning: NCBITaxon:154761
   RootAssociatedCompartmentEnum:
     permissible_values:
       rhizosphere:

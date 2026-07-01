@@ -1,0 +1,2174 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-14a81701",
+    "name": "",
+    "title": "Plant-nitrifier interactions in topsoil and subsoil",
+    "description": "Soil microorganisms along 1 meter soil profiles",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-6ed852d4": {
+      "ncbi_accession": "SAMN40142646",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID24"
+      }
+    },
+    "nmdc:bsm-99-dcabc445": {
+      "ncbi_accession": "SAMN40142645",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID23"
+      }
+    },
+    "nmdc:bsm-99-0b053650": {
+      "ncbi_accession": "SAMN40142644",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID22"
+      }
+    },
+    "nmdc:bsm-99-33f758d0": {
+      "ncbi_accession": "SAMN40142643",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID21"
+      }
+    },
+    "nmdc:bsm-99-4f70c179": {
+      "ncbi_accession": "SAMN40142642",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID20"
+      }
+    },
+    "nmdc:bsm-99-bd91aa12": {
+      "ncbi_accession": "SAMN40142641",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID19"
+      }
+    },
+    "nmdc:bsm-99-ee817baa": {
+      "ncbi_accession": "SAMN40142640",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID18"
+      }
+    },
+    "nmdc:bsm-99-4d15ba93": {
+      "ncbi_accession": "SAMN40142639",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID17"
+      }
+    },
+    "nmdc:bsm-99-b6aec1d5": {
+      "ncbi_accession": "SAMN40142638",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID16"
+      }
+    },
+    "nmdc:bsm-99-2c904a6c": {
+      "ncbi_accession": "SAMN40142637",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID15"
+      }
+    },
+    "nmdc:bsm-99-49d8e7ff": {
+      "ncbi_accession": "SAMN40142636",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID14"
+      }
+    },
+    "nmdc:bsm-99-e1b5e562": {
+      "ncbi_accession": "SAMN40142635",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID13"
+      }
+    },
+    "nmdc:bsm-99-01470917": {
+      "ncbi_accession": "SAMN40142634",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID12"
+      }
+    },
+    "nmdc:bsm-99-e70a71f0": {
+      "ncbi_accession": "SAMN40142633",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID11"
+      }
+    },
+    "nmdc:bsm-99-466be90f": {
+      "ncbi_accession": "SAMN40142632",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOB_ID10"
+      }
+    },
+    "nmdc:bsm-99-a90fd8e4": {
+      "ncbi_accession": "SAMN40142631",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID9"
+      }
+    },
+    "nmdc:bsm-99-26be6428": {
+      "ncbi_accession": "SAMN40142630",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID8"
+      }
+    },
+    "nmdc:bsm-99-1d0622cb": {
+      "ncbi_accession": "SAMN40142629",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOB_ID7"
+      }
+    },
+    "nmdc:bsm-99-7d9cce42": {
+      "ncbi_accession": "SAMN40142628",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID6"
+      }
+    },
+    "nmdc:bsm-99-65f97230": {
+      "ncbi_accession": "SAMN40142627",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID5"
+      }
+    },
+    "nmdc:bsm-99-ff20240b": {
+      "ncbi_accession": "SAMN40142626",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOB_ID4"
+      }
+    },
+    "nmdc:bsm-99-9765edf6": {
+      "ncbi_accession": "SAMN40142625",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID3"
+      }
+    },
+    "nmdc:bsm-99-d1e47183": {
+      "ncbi_accession": "SAMN40142624",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID2"
+      }
+    },
+    "nmdc:bsm-99-c918e845": {
+      "ncbi_accession": "SAMN40142623",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOB_ID1"
+      }
+    },
+    "nmdc:bsm-99-bfe86dbd": {
+      "ncbi_accession": "SAMN40142622",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID40"
+      }
+    },
+    "nmdc:bsm-99-3dff1509": {
+      "ncbi_accession": "SAMN40142621",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID39"
+      }
+    },
+    "nmdc:bsm-99-40de20d4": {
+      "ncbi_accession": "SAMN40142620",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID38"
+      }
+    },
+    "nmdc:bsm-99-45fe9508": {
+      "ncbi_accession": "SAMN40142619",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID37"
+      }
+    },
+    "nmdc:bsm-99-72065c06": {
+      "ncbi_accession": "SAMN40142618",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID36"
+      }
+    },
+    "nmdc:bsm-99-9fb29168": {
+      "ncbi_accession": "SAMN40142617",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID35"
+      }
+    },
+    "nmdc:bsm-99-0cb7d182": {
+      "ncbi_accession": "SAMN40142616",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID34"
+      }
+    },
+    "nmdc:bsm-99-a13f21ab": {
+      "ncbi_accession": "SAMN40142615",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID33"
+      }
+    },
+    "nmdc:bsm-99-eb72699a": {
+      "ncbi_accession": "SAMN40142614",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID32"
+      }
+    },
+    "nmdc:bsm-99-bb051c43": {
+      "ncbi_accession": "SAMN40142613",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID31"
+      }
+    },
+    "nmdc:bsm-99-a84dc4a1": {
+      "ncbi_accession": "SAMN40142612",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID30"
+      }
+    },
+    "nmdc:bsm-99-3a002a16": {
+      "ncbi_accession": "SAMN40142611",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID29"
+      }
+    },
+    "nmdc:bsm-99-80f1cea4": {
+      "ncbi_accession": "SAMN40142610",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID28"
+      }
+    },
+    "nmdc:bsm-99-751efede": {
+      "ncbi_accession": "SAMN40142609",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID27"
+      }
+    },
+    "nmdc:bsm-99-873a7f36": {
+      "ncbi_accession": "SAMN40142608",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID26"
+      }
+    },
+    "nmdc:bsm-99-f431951d": {
+      "ncbi_accession": "SAMN40142607",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID25"
+      }
+    },
+    "nmdc:bsm-99-045f26cb": {
+      "ncbi_accession": "SAMN40142606",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID24"
+      }
+    },
+    "nmdc:bsm-99-465b9546": {
+      "ncbi_accession": "SAMN40142605",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID23"
+      }
+    },
+    "nmdc:bsm-99-15d4c11e": {
+      "ncbi_accession": "SAMN40142604",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID22"
+      }
+    },
+    "nmdc:bsm-99-eeb6ecc4": {
+      "ncbi_accession": "SAMN40142603",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID21"
+      }
+    },
+    "nmdc:bsm-99-8b56e69f": {
+      "ncbi_accession": "SAMN40142602",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID19"
+      }
+    },
+    "nmdc:bsm-99-6251b48c": {
+      "ncbi_accession": "SAMN40142601",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID18"
+      }
+    },
+    "nmdc:bsm-99-c04b3aee": {
+      "ncbi_accession": "SAMN40142600",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID17"
+      }
+    },
+    "nmdc:bsm-99-85dc311f": {
+      "ncbi_accession": "SAMN40142599",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_AOA_ID16"
+      }
+    },
+    "nmdc:bsm-99-fdc172f1": {
+      "ncbi_accession": "SAMN40142598",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID15"
+      }
+    },
+    "nmdc:bsm-99-d62bc778": {
+      "ncbi_accession": "SAMN40142597",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID14"
+      }
+    },
+    "nmdc:bsm-99-a58cd3e8": {
+      "ncbi_accession": "SAMN40142596",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID13"
+      }
+    },
+    "nmdc:bsm-99-e357c42e": {
+      "ncbi_accession": "SAMN40142595",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID12"
+      }
+    },
+    "nmdc:bsm-99-731d04cc": {
+      "ncbi_accession": "SAMN40142594",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_AOA_ID11"
+      }
+    },
+    "nmdc:bsm-99-b42d29b7": {
+      "ncbi_accession": "SAMN40142593",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID10"
+      }
+    },
+    "nmdc:bsm-99-c2fc59a9": {
+      "ncbi_accession": "SAMN40142592",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID9"
+      }
+    },
+    "nmdc:bsm-99-123587a1": {
+      "ncbi_accession": "SAMN40142591",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID8"
+      }
+    },
+    "nmdc:bsm-99-e18eb9f5": {
+      "ncbi_accession": "SAMN40142590",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID7"
+      }
+    },
+    "nmdc:bsm-99-a0e26c93": {
+      "ncbi_accession": "SAMN40142589",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_AOA_ID6"
+      }
+    },
+    "nmdc:bsm-99-df02b8cd": {
+      "ncbi_accession": "SAMN40142588",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID5"
+      }
+    },
+    "nmdc:bsm-99-6f1b78ec": {
+      "ncbi_accession": "SAMN40142587",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID4"
+      }
+    },
+    "nmdc:bsm-99-7a9b7612": {
+      "ncbi_accession": "SAMN40142586",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID3"
+      }
+    },
+    "nmdc:bsm-99-55f90886": {
+      "ncbi_accession": "SAMN40142585",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID2"
+      }
+    },
+    "nmdc:bsm-99-85ecdc0c": {
+      "ncbi_accession": "SAMN40142584",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_AOA_ID1"
+      }
+    },
+    "nmdc:bsm-99-5c0ade36": {
+      "ncbi_accession": "SAMN40142583",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID40"
+      }
+    },
+    "nmdc:bsm-99-3624a571": {
+      "ncbi_accession": "SAMN40142582",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID39"
+      }
+    },
+    "nmdc:bsm-99-a7fefade": {
+      "ncbi_accession": "SAMN40142581",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID38"
+      }
+    },
+    "nmdc:bsm-99-8a8971d2": {
+      "ncbi_accession": "SAMN40142580",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID37"
+      }
+    },
+    "nmdc:bsm-99-14572a35": {
+      "ncbi_accession": "SAMN40142579",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID36"
+      }
+    },
+    "nmdc:bsm-99-99589e78": {
+      "ncbi_accession": "SAMN40142578",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID35"
+      }
+    },
+    "nmdc:bsm-99-b1d49081": {
+      "ncbi_accession": "SAMN40142577",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID34"
+      }
+    },
+    "nmdc:bsm-99-56214f09": {
+      "ncbi_accession": "SAMN40142576",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID33"
+      }
+    },
+    "nmdc:bsm-99-f65c7b7b": {
+      "ncbi_accession": "SAMN40142575",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID32"
+      }
+    },
+    "nmdc:bsm-99-f77525c5": {
+      "ncbi_accession": "SAMN40142574",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID31"
+      }
+    },
+    "nmdc:bsm-99-73eafb0d": {
+      "ncbi_accession": "SAMN40142573",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID30"
+      }
+    },
+    "nmdc:bsm-99-dca6ef70": {
+      "ncbi_accession": "SAMN40142572",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID29"
+      }
+    },
+    "nmdc:bsm-99-51245a4c": {
+      "ncbi_accession": "SAMN40142571",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID28"
+      }
+    },
+    "nmdc:bsm-99-08d793ce": {
+      "ncbi_accession": "SAMN40142570",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID27"
+      }
+    },
+    "nmdc:bsm-99-d55d7e24": {
+      "ncbi_accession": "SAMN40142569",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID26"
+      }
+    },
+    "nmdc:bsm-99-95ebdf8a": {
+      "ncbi_accession": "SAMN40142568",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID25"
+      }
+    },
+    "nmdc:bsm-99-ee15fbe6": {
+      "ncbi_accession": "SAMN40142567",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID24"
+      }
+    },
+    "nmdc:bsm-99-8ca593c4": {
+      "ncbi_accession": "SAMN40142566",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID23"
+      }
+    },
+    "nmdc:bsm-99-a3a8dd51": {
+      "ncbi_accession": "SAMN40142565",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID22"
+      }
+    },
+    "nmdc:bsm-99-f3adc430": {
+      "ncbi_accession": "SAMN40142564",
+      "ncbi_title": "reference soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID21"
+      }
+    },
+    "nmdc:bsm-99-2e9b576d": {
+      "ncbi_accession": "SAMN40142563",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID20"
+      }
+    },
+    "nmdc:bsm-99-66118d1b": {
+      "ncbi_accession": "SAMN40142562",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID19"
+      }
+    },
+    "nmdc:bsm-99-f7dc4f34": {
+      "ncbi_accession": "SAMN40142561",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID18"
+      }
+    },
+    "nmdc:bsm-99-0183cb19": {
+      "ncbi_accession": "SAMN40142560",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID17"
+      }
+    },
+    "nmdc:bsm-99-90c53962": {
+      "ncbi_accession": "SAMN40142559",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep4_ID16"
+      }
+    },
+    "nmdc:bsm-99-a4f0382d": {
+      "ncbi_accession": "SAMN40142558",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID15"
+      }
+    },
+    "nmdc:bsm-99-62cef7ab": {
+      "ncbi_accession": "SAMN40142557",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID14"
+      }
+    },
+    "nmdc:bsm-99-9008f7d1": {
+      "ncbi_accession": "SAMN40142556",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID13"
+      }
+    },
+    "nmdc:bsm-99-ae4fd5c9": {
+      "ncbi_accession": "SAMN40142555",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID12"
+      }
+    },
+    "nmdc:bsm-99-7e4927a4": {
+      "ncbi_accession": "SAMN40142554",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep3_ID11"
+      }
+    },
+    "nmdc:bsm-99-ba71cc22": {
+      "ncbi_accession": "SAMN40142553",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID10"
+      }
+    },
+    "nmdc:bsm-99-9e0fd984": {
+      "ncbi_accession": "SAMN40142552",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID9"
+      }
+    },
+    "nmdc:bsm-99-ed929c15": {
+      "ncbi_accession": "SAMN40142551",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID8"
+      }
+    },
+    "nmdc:bsm-99-d1f8fb85": {
+      "ncbi_accession": "SAMN40142550",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID7"
+      }
+    },
+    "nmdc:bsm-99-5ab274d6": {
+      "ncbi_accession": "SAMN40142549",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep2_ID6"
+      }
+    },
+    "nmdc:bsm-99-2c92ba62": {
+      "ncbi_accession": "SAMN40142548",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "50-100 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID5"
+      }
+    },
+    "nmdc:bsm-99-6ffdc69e": {
+      "ncbi_accession": "SAMN40142547",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "30-50 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID4"
+      }
+    },
+    "nmdc:bsm-99-ac5352e8": {
+      "ncbi_accession": "SAMN40142546",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "20-30 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID3"
+      }
+    },
+    "nmdc:bsm-99-71f8051f": {
+      "ncbi_accession": "SAMN40142545",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "10-20 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID2"
+      }
+    },
+    "nmdc:bsm-99-1fa3f843": {
+      "ncbi_accession": "SAMN40142544",
+      "ncbi_title": "miscanthu soil sample",
+      "package": "MIMARKS.survey.soil.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.soil"
+      ],
+      "attributes": {
+        "collection_date": "2021-05-25",
+        "depth": "0-10 cm",
+        "elev": "213 m",
+        "env_broad_scale": "ENVO:00002259",
+        "env_local_scale": "ENVO:00000114",
+        "env_medium": "ENVO:00001998",
+        "geo_loc_name": "USA: Illinois, Urbana",
+        "lat_lon": "40.07202 N 88.22289 W",
+        "collection_method": "Giddings hydraulic probe",
+        "misc_param": "rep1_ID1"
+      }
+    }
+  }
+}

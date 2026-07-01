@@ -1,0 +1,2339 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-bb728c7b",
+    "name": "",
+    "title": "Sediment and Groundwater Metagenomes from Subsurface Microbial Communities from the Oak Ridge National Laboratory Field Research Center, Oak Ridge, TN, USA",
+    "description": "Sediment and Groundwater Metagenomes from Subsurface Microbial Communities from the Oak Ridge National Laboratory Field Research Center, Oak Ridge, TN, USA",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-523255b5": {
+      "ncbi_accession": "SAMN36877183",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786325, SAMN36786326, SAMN36786327, SAMN36786328"
+      }
+    },
+    "nmdc:bsm-99-468770b6": {
+      "ncbi_accession": "SAMN36877182",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 2 individual BioSamples: SAMN36786323, SAMN36786324"
+      }
+    },
+    "nmdc:bsm-99-a9e6e244": {
+      "ncbi_accession": "SAMN36877181",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 2 individual BioSamples: SAMN36786321, SAMN36786322"
+      }
+    },
+    "nmdc:bsm-99-8f536ad9": {
+      "ncbi_accession": "SAMN36877180",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786317, SAMN36786318, SAMN36786319, SAMN36786320"
+      }
+    },
+    "nmdc:bsm-99-69d902c4": {
+      "ncbi_accession": "SAMN36877179",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786313, SAMN36786314, SAMN36786315, SAMN36786316"
+      }
+    },
+    "nmdc:bsm-99-9165d788": {
+      "ncbi_accession": "SAMN36877178",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786309, SAMN36786310, SAMN36786311, SAMN36786312"
+      }
+    },
+    "nmdc:bsm-99-c736fed7": {
+      "ncbi_accession": "SAMN36877177",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786305, SAMN36786306, SAMN36786307, SAMN36786308"
+      }
+    },
+    "nmdc:bsm-99-dd014482": {
+      "ncbi_accession": "SAMN36877176",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786301, SAMN36786302, SAMN36786303, SAMN36786304"
+      }
+    },
+    "nmdc:bsm-99-7987230f": {
+      "ncbi_accession": "SAMN36877175",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786297, SAMN36786298, SAMN36786299, SAMN36786300"
+      }
+    },
+    "nmdc:bsm-99-d9fb7d8f": {
+      "ncbi_accession": "SAMN36877174",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786293, SAMN36786294, SAMN36786295, SAMN36786296"
+      }
+    },
+    "nmdc:bsm-99-490bab08": {
+      "ncbi_accession": "SAMN36877173",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786289, SAMN36786290, SAMN36786291, SAMN36786292"
+      }
+    },
+    "nmdc:bsm-99-07e14b80": {
+      "ncbi_accession": "SAMN36877172",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786285, SAMN36786286, SAMN36786287, SAMN36786288"
+      }
+    },
+    "nmdc:bsm-99-2068e83c": {
+      "ncbi_accession": "SAMN36877171",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786281, SAMN36786282, SAMN36786283, SAMN36786284"
+      }
+    },
+    "nmdc:bsm-99-f6d02089": {
+      "ncbi_accession": "SAMN36877170",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786347, SAMN36786348, SAMN36786349, SAMN36786350"
+      }
+    },
+    "nmdc:bsm-99-6a263150": {
+      "ncbi_accession": "SAMN36877169",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786343, SAMN36786344, SAMN36786345, SAMN36786346"
+      }
+    },
+    "nmdc:bsm-99-c8945ab4": {
+      "ncbi_accession": "SAMN36877168",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786339, SAMN36786340, SAMN36786341, SAMN36786342"
+      }
+    },
+    "nmdc:bsm-99-3e514d02": {
+      "ncbi_accession": "SAMN36877167",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "derived_from": "This sample group is the combination of the 5 individual BioSamples: SAMN36786334, SAMN36786335, SAMN36786336, SAMN36786337, SAMN36786338"
+      }
+    },
+    "nmdc:bsm-99-9790a65c": {
+      "ncbi_accession": "SAMN36877166",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786330, SAMN36786331, SAMN36786332, SAMN36786333"
+      }
+    },
+    "nmdc:bsm-99-817b4f11": {
+      "ncbi_accession": "SAMN36877165",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.1um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786360, SAMN36786361, SAMN36786362, SAMN36786363"
+      }
+    },
+    "nmdc:bsm-99-b7d91581": {
+      "ncbi_accession": "SAMN36877164",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "derived_from": "This sample group is the combination of the 5 individual BioSamples: SAMN36786368, SAMN36786369, SAMN36786370, SAMN36786371, SAMN36786372"
+      }
+    },
+    "nmdc:bsm-99-0508aab2": {
+      "ncbi_accession": "SAMN36877163",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786364, SAMN36786365, SAMN36786366, SAMN36786367"
+      }
+    },
+    "nmdc:bsm-99-35f092b2": {
+      "ncbi_accession": "SAMN36877162",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "derived_from": "This sample group is the combination of the 3 individual BioSamples: SAMN36786387, SAMN36786388, SAMN36786389"
+      }
+    },
+    "nmdc:bsm-99-76671028": {
+      "ncbi_accession": "SAMN36877161",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "derived_from": "This sample group is the combination of the 3 individual BioSamples: SAMN36786390, SAMN36786391, SAMN36786392"
+      }
+    },
+    "nmdc:bsm-99-3c6d57ad": {
+      "ncbi_accession": "SAMN36877160",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "derived_from": "This sample group is the combination of the 4 individual BioSamples: SAMN36786376, SAMN36786377, SAMN36786378, SAMN36786379"
+      }
+    },
+    "nmdc:bsm-99-ba92080c": {
+      "ncbi_accession": "SAMN36877159",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.1um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "derived_from": "This sample group is the combination of the 3 individual BioSamples: SAMN36786373, SAMN36786374, SAMN36786375"
+      }
+    },
+    "nmdc:bsm-99-ba41bde0": {
+      "ncbi_accession": "SAMN36877158",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "derived_from": "This sample group is the combination of the 6 individual BioSamples: SAMN36786380, SAMN36786381, SAMN36786382, SAMN36786383, SAMN36786384, SAMN36786385"
+      }
+    },
+    "nmdc:bsm-99-d11db92d": {
+      "ncbi_accession": "SAMN36786394",
+      "ncbi_title": "Metagenome or environmental sample from metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Water Negative Control",
+        "collection_date": "not applicable",
+        "geo_loc_name": "not applicable",
+        "lat_lon": "not applicable",
+        "samp_size": "not applicable",
+        "source_material_id": "N/A",
+        "replicate": "Extraction Water Control"
+      }
+    },
+    "nmdc:bsm-99-495abda1": {
+      "ncbi_accession": "SAMN36786393",
+      "ncbi_title": "Metagenome or environmental sample from metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Extraction Negative Control",
+        "collection_date": "not applicable",
+        "geo_loc_name": "not applicable",
+        "lat_lon": "not applicable",
+        "samp_size": "not applicable",
+        "source_material_id": "N/A",
+        "replicate": "Extraction Negative Control Mo Bio Kit"
+      }
+    },
+    "nmdc:bsm-99-32789220": {
+      "ncbi_accession": "SAMN36786392",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G126,\"replicate\", B126)"
+      }
+    },
+    "nmdc:bsm-99-e2ee19b1": {
+      "ncbi_accession": "SAMN36786391",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G125,\"replicate\", B125)"
+      }
+    },
+    "nmdc:bsm-99-691c4fe8": {
+      "ncbi_accession": "SAMN36786390",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G124,\"replicate\", B124)"
+      }
+    },
+    "nmdc:bsm-99-522ba8d6": {
+      "ncbi_accession": "SAMN36786389",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "1 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G123,\"replicate\", B123)"
+      }
+    },
+    "nmdc:bsm-99-34f0381c": {
+      "ncbi_accession": "SAMN36786388",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "0.5 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G122,\"replicate\", B122)"
+      }
+    },
+    "nmdc:bsm-99-23ee61a0": {
+      "ncbi_accession": "SAMN36786387",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.2um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "1.5 L",
+        "source_material_id": "FW115-24 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G121,\"replicate\", B121)"
+      }
+    },
+    "nmdc:bsm-99-9d8802b1": {
+      "ncbi_accession": "SAMN36786386",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW115-24 0.1um filter",
+        "collection_date": "2017-04-10",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97730333 N 84.27347358 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW115-24 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G120,\"replicate\", B120)"
+      }
+    },
+    "nmdc:bsm-99-2bc66910": {
+      "ncbi_accession": "SAMN36786385",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G119,\"replicate\", B119)"
+      }
+    },
+    "nmdc:bsm-99-7459a5bb": {
+      "ncbi_accession": "SAMN36786384",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G118,\"replicate\", B118)"
+      }
+    },
+    "nmdc:bsm-99-17fa6930": {
+      "ncbi_accession": "SAMN36786383",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G117,\"replicate\", B117)"
+      }
+    },
+    "nmdc:bsm-99-acde2874": {
+      "ncbi_accession": "SAMN36786382",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G116,\"replicate\", B116)"
+      }
+    },
+    "nmdc:bsm-99-2e5f499c": {
+      "ncbi_accession": "SAMN36786381",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G115,\"replicate\", B115)"
+      }
+    },
+    "nmdc:bsm-99-885b8fcd": {
+      "ncbi_accession": "SAMN36786380",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G114,\"replicate\", B114)"
+      }
+    },
+    "nmdc:bsm-99-8036ee73": {
+      "ncbi_accession": "SAMN36786379",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "2 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G113,\"replicate\", B113)"
+      }
+    },
+    "nmdc:bsm-99-ea684211": {
+      "ncbi_accession": "SAMN36786378",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "2 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G112,\"replicate\", B112)"
+      }
+    },
+    "nmdc:bsm-99-47cc3165": {
+      "ncbi_accession": "SAMN36786377",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "2 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G111,\"replicate\", B111)"
+      }
+    },
+    "nmdc:bsm-99-d2aed6af": {
+      "ncbi_accession": "SAMN36786376",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.2um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "2 L",
+        "source_material_id": "FW106 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G110,\"replicate\", B110)"
+      }
+    },
+    "nmdc:bsm-99-f3f81ae9": {
+      "ncbi_accession": "SAMN36786375",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.1um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G109,\"replicate\", B109)"
+      }
+    },
+    "nmdc:bsm-99-41324ead": {
+      "ncbi_accession": "SAMN36786374",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.1um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G108,\"replicate\", B108)"
+      }
+    },
+    "nmdc:bsm-99-fe350689": {
+      "ncbi_accession": "SAMN36786373",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample FW106 0.1um filter",
+        "collection_date": "2017-04-05",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97729757 N 84.2734838 W",
+        "samp_size": "5 L",
+        "source_material_id": "FW106 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G107,\"replicate\", B107)"
+      }
+    },
+    "nmdc:bsm-99-7d569746": {
+      "ncbi_accession": "SAMN36786372",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G106,\"replicate\", B106)"
+      }
+    },
+    "nmdc:bsm-99-66585ad1": {
+      "ncbi_accession": "SAMN36786371",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G105,\"replicate\", B105)"
+      }
+    },
+    "nmdc:bsm-99-96244cb1": {
+      "ncbi_accession": "SAMN36786370",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G104,\"replicate\", B104)"
+      }
+    },
+    "nmdc:bsm-99-60ed75ea": {
+      "ncbi_accession": "SAMN36786369",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G103,\"replicate\", B103)"
+      }
+    },
+    "nmdc:bsm-99-e5c5bd1c": {
+      "ncbi_accession": "SAMN36786368",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G102,\"replicate\", B102)"
+      }
+    },
+    "nmdc:bsm-99-65c3f3f5": {
+      "ncbi_accession": "SAMN36786367",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "2 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G101,\"replicate\", B101)"
+      }
+    },
+    "nmdc:bsm-99-df0961c1": {
+      "ncbi_accession": "SAMN36786366",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "2 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G100,\"replicate\", B100)"
+      }
+    },
+    "nmdc:bsm-99-7e526e6f": {
+      "ncbi_accession": "SAMN36786365",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "2 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G99,\"replicate\", B99)"
+      }
+    },
+    "nmdc:bsm-99-72154738": {
+      "ncbi_accession": "SAMN36786364",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.2um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "2 L",
+        "source_material_id": "GW271 0.2um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G98,\"replicate\", B98)"
+      }
+    },
+    "nmdc:bsm-99-609532fc": {
+      "ncbi_accession": "SAMN36786363",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.1um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G97,\"replicate\", B97)"
+      }
+    },
+    "nmdc:bsm-99-db18fc4f": {
+      "ncbi_accession": "SAMN36786362",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.1um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G96,\"replicate\", B96)"
+      }
+    },
+    "nmdc:bsm-99-713aba03": {
+      "ncbi_accession": "SAMN36786361",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.1um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G95,\"replicate\", B95)"
+      }
+    },
+    "nmdc:bsm-99-954ba84f": {
+      "ncbi_accession": "SAMN36786360",
+      "ncbi_title": "Metagenome or environmental sample from groundwater metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Groundwater sample GW271 0.1um filter",
+        "collection_date": "2017-03-29",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97989558 N 84.27058705 W",
+        "samp_size": "5 L",
+        "source_material_id": "GW271 0.1um filter",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G94,\"replicate\", B94)"
+      }
+    },
+    "nmdc:bsm-99-2cb13332": {
+      "ncbi_accession": "SAMN36786359",
+      "ncbi_title": "Metagenome or environmental sample from metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Extraction Negative Control Mo Bio Kit",
+        "collection_date": "not applicable",
+        "geo_loc_name": "not applicable",
+        "lat_lon": "not applicable",
+        "samp_size": "not applicable",
+        "source_material_id": "N/A",
+        "replicate": "Extraction Negative Control Mo Bio Kit replicate AA_S_9_K"
+      }
+    },
+    "nmdc:bsm-99-fe7683f3": {
+      "ncbi_accession": "SAMN36786358",
+      "ncbi_title": "Metagenome or environmental sample from metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "Extraction Negative Control Mo Bio Kit",
+        "collection_date": "not applicable",
+        "geo_loc_name": "not applicable",
+        "lat_lon": "not applicable",
+        "samp_size": "not applicable",
+        "source_material_id": "N/A",
+        "replicate": "Extraction Negative Control Mo Bio Kit replicate AA_S_9_J"
+      }
+    },
+    "nmdc:bsm-99-9db08157": {
+      "ncbi_accession": "SAMN36786357",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-05-06",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-05-06",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G90,\"replicate\", B90)"
+      }
+    },
+    "nmdc:bsm-99-2182216e": {
+      "ncbi_accession": "SAMN36786356",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-05-04",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-05-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G89,\"replicate\", B89)"
+      }
+    },
+    "nmdc:bsm-99-b74b3d54": {
+      "ncbi_accession": "SAMN36786355",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-04-04",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-04-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G88,\"replicate\", B88)"
+      }
+    },
+    "nmdc:bsm-99-3a21a40c": {
+      "ncbi_accession": "SAMN36786354",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-04-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "19.66g",
+        "source_material_id": "EB106-04-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G87,\"replicate\", B87)"
+      }
+    },
+    "nmdc:bsm-99-e06ea1ea": {
+      "ncbi_accession": "SAMN36786353",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-05",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-05",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G86,\"replicate\", B86)"
+      }
+    },
+    "nmdc:bsm-99-176c155a": {
+      "ncbi_accession": "SAMN36786352",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-04",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "17.15g",
+        "source_material_id": "EB106-03-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G85,\"replicate\", B85)"
+      }
+    },
+    "nmdc:bsm-99-7e6c995b": {
+      "ncbi_accession": "SAMN36786351",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G84,\"replicate\", B84)"
+      }
+    },
+    "nmdc:bsm-99-8482019f": {
+      "ncbi_accession": "SAMN36786350",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G83,\"replicate\", B83)"
+      }
+    },
+    "nmdc:bsm-99-fcb73d23": {
+      "ncbi_accession": "SAMN36786349",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G82,\"replicate\", B82)"
+      }
+    },
+    "nmdc:bsm-99-8aed90e8": {
+      "ncbi_accession": "SAMN36786348",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G81,\"replicate\", B81)"
+      }
+    },
+    "nmdc:bsm-99-b4a9c463": {
+      "ncbi_accession": "SAMN36786347",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G80,\"replicate\", B80)"
+      }
+    },
+    "nmdc:bsm-99-ec1b3a32": {
+      "ncbi_accession": "SAMN36786346",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G79,\"replicate\", B79)"
+      }
+    },
+    "nmdc:bsm-99-348eca93": {
+      "ncbi_accession": "SAMN36786345",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G78,\"replicate\", B78)"
+      }
+    },
+    "nmdc:bsm-99-d8288ac1": {
+      "ncbi_accession": "SAMN36786344",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G77,\"replicate\", B77)"
+      }
+    },
+    "nmdc:bsm-99-d1b8cbd8": {
+      "ncbi_accession": "SAMN36786343",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-03-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G76,\"replicate\", B76)"
+      }
+    },
+    "nmdc:bsm-99-5fe4589a": {
+      "ncbi_accession": "SAMN36786342",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G75,\"replicate\", B75)"
+      }
+    },
+    "nmdc:bsm-99-c45f3724": {
+      "ncbi_accession": "SAMN36786341",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G74,\"replicate\", B74)"
+      }
+    },
+    "nmdc:bsm-99-d0098481": {
+      "ncbi_accession": "SAMN36786340",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G73,\"replicate\", B73)"
+      }
+    },
+    "nmdc:bsm-99-820dce4c": {
+      "ncbi_accession": "SAMN36786339",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-03",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G72,\"replicate\", B72)"
+      }
+    },
+    "nmdc:bsm-99-757236bf": {
+      "ncbi_accession": "SAMN36786338",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G71,\"replicate\", B71)"
+      }
+    },
+    "nmdc:bsm-99-656dccf7": {
+      "ncbi_accession": "SAMN36786337",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G70,\"replicate\", B70)"
+      }
+    },
+    "nmdc:bsm-99-e79eed6e": {
+      "ncbi_accession": "SAMN36786336",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G69,\"replicate\", B69)"
+      }
+    },
+    "nmdc:bsm-99-d64d49bf": {
+      "ncbi_accession": "SAMN36786335",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G68,\"replicate\", B68)"
+      }
+    },
+    "nmdc:bsm-99-8ff65655": {
+      "ncbi_accession": "SAMN36786334",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-02",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G67,\"replicate\", B67)"
+      }
+    },
+    "nmdc:bsm-99-40c3441e": {
+      "ncbi_accession": "SAMN36786333",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G66,\"replicate\", B66)"
+      }
+    },
+    "nmdc:bsm-99-cd080258": {
+      "ncbi_accession": "SAMN36786332",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G65,\"replicate\", B65)"
+      }
+    },
+    "nmdc:bsm-99-fb421076": {
+      "ncbi_accession": "SAMN36786331",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G64,\"replicate\", B64)"
+      }
+    },
+    "nmdc:bsm-99-0aa098ff": {
+      "ncbi_accession": "SAMN36786330",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB106-02-01",
+        "collection_date": "2017-03-27",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.8772 N 84.2735 W",
+        "samp_size": "5g",
+        "source_material_id": "EB106-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G63,\"replicate\", B63)"
+      }
+    },
+    "nmdc:bsm-99-ef2d33a6": {
+      "ncbi_accession": "SAMN36786329",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G62,\"replicate\", B62)"
+      }
+    },
+    "nmdc:bsm-99-53fe68bd": {
+      "ncbi_accession": "SAMN36786328",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G61,\"replicate\", B61)"
+      }
+    },
+    "nmdc:bsm-99-eb739d96": {
+      "ncbi_accession": "SAMN36786327",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G60,\"replicate\", B60)"
+      }
+    },
+    "nmdc:bsm-99-7af27b41": {
+      "ncbi_accession": "SAMN36786326",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G59,\"replicate\", B59)"
+      }
+    },
+    "nmdc:bsm-99-ac45460f": {
+      "ncbi_accession": "SAMN36786325",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G58,\"replicate\", B58)"
+      }
+    },
+    "nmdc:bsm-99-7caa54eb": {
+      "ncbi_accession": "SAMN36786324",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G57,\"replicate\", B57)"
+      }
+    },
+    "nmdc:bsm-99-3c0d39db": {
+      "ncbi_accession": "SAMN36786323",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G56,\"replicate\", B56)"
+      }
+    },
+    "nmdc:bsm-99-bb300d8d": {
+      "ncbi_accession": "SAMN36786322",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G55,\"replicate\", B55)"
+      }
+    },
+    "nmdc:bsm-99-107e4da1": {
+      "ncbi_accession": "SAMN36786321",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-05-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-05-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G54,\"replicate\", B54)"
+      }
+    },
+    "nmdc:bsm-99-2816d2a8": {
+      "ncbi_accession": "SAMN36786320",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G53,\"replicate\", B53)"
+      }
+    },
+    "nmdc:bsm-99-6fe812fd": {
+      "ncbi_accession": "SAMN36786319",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G52,\"replicate\", B52)"
+      }
+    },
+    "nmdc:bsm-99-58245c1d": {
+      "ncbi_accession": "SAMN36786318",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G51,\"replicate\", B51)"
+      }
+    },
+    "nmdc:bsm-99-8d57304c": {
+      "ncbi_accession": "SAMN36786317",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-04",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-04",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G50,\"replicate\", B50)"
+      }
+    },
+    "nmdc:bsm-99-21c39b14": {
+      "ncbi_accession": "SAMN36786316",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G49,\"replicate\", B49)"
+      }
+    },
+    "nmdc:bsm-99-3ad606a5": {
+      "ncbi_accession": "SAMN36786315",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G48,\"replicate\", B48)"
+      }
+    },
+    "nmdc:bsm-99-d55059be": {
+      "ncbi_accession": "SAMN36786314",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G47,\"replicate\", B47)"
+      }
+    },
+    "nmdc:bsm-99-4e68adbe": {
+      "ncbi_accession": "SAMN36786313",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G46,\"replicate\", B46)"
+      }
+    },
+    "nmdc:bsm-99-3b36b098": {
+      "ncbi_accession": "SAMN36786312",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G45,\"replicate\", B45)"
+      }
+    },
+    "nmdc:bsm-99-ec069ddf": {
+      "ncbi_accession": "SAMN36786311",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G44,\"replicate\", B44)"
+      }
+    },
+    "nmdc:bsm-99-d93c1113": {
+      "ncbi_accession": "SAMN36786310",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G43,\"replicate\", B43)"
+      }
+    },
+    "nmdc:bsm-99-a63bfaa3": {
+      "ncbi_accession": "SAMN36786309",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G42,\"replicate\", B42)"
+      }
+    },
+    "nmdc:bsm-99-aa34b6ce": {
+      "ncbi_accession": "SAMN36786308",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G41,\"replicate\", B41)"
+      }
+    },
+    "nmdc:bsm-99-946402a9": {
+      "ncbi_accession": "SAMN36786307",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G40,\"replicate\", B40)"
+      }
+    },
+    "nmdc:bsm-99-ff5fe09c": {
+      "ncbi_accession": "SAMN36786306",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G39,\"replicate\", B39)"
+      }
+    },
+    "nmdc:bsm-99-f5d459ca": {
+      "ncbi_accession": "SAMN36786305",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-04-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-04-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G38,\"replicate\", B38)"
+      }
+    },
+    "nmdc:bsm-99-fbbf5ea1": {
+      "ncbi_accession": "SAMN36786304",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G37,\"replicate\", B37)"
+      }
+    },
+    "nmdc:bsm-99-125962e6": {
+      "ncbi_accession": "SAMN36786303",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G36,\"replicate\", B36)"
+      }
+    },
+    "nmdc:bsm-99-00077959": {
+      "ncbi_accession": "SAMN36786302",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G35,\"replicate\", B35)"
+      }
+    },
+    "nmdc:bsm-99-d887eb19": {
+      "ncbi_accession": "SAMN36786301",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G34,\"replicate\", B34)"
+      }
+    },
+    "nmdc:bsm-99-5cf14bf9": {
+      "ncbi_accession": "SAMN36786300",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G33,\"replicate\", B33)"
+      }
+    },
+    "nmdc:bsm-99-3d62948c": {
+      "ncbi_accession": "SAMN36786299",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G32,\"replicate\", B32)"
+      }
+    },
+    "nmdc:bsm-99-701057f4": {
+      "ncbi_accession": "SAMN36786298",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G31,\"replicate\", B31)"
+      }
+    },
+    "nmdc:bsm-99-45eedd87": {
+      "ncbi_accession": "SAMN36786297",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G30,\"replicate\", B30)"
+      }
+    },
+    "nmdc:bsm-99-df02c959": {
+      "ncbi_accession": "SAMN36786296",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G29,\"replicate\", B29)"
+      }
+    },
+    "nmdc:bsm-99-9987f1a5": {
+      "ncbi_accession": "SAMN36786295",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G28,\"replicate\", B28)"
+      }
+    },
+    "nmdc:bsm-99-ada92e4a": {
+      "ncbi_accession": "SAMN36786294",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G27,\"replicate\", B27)"
+      }
+    },
+    "nmdc:bsm-99-2958bf9b": {
+      "ncbi_accession": "SAMN36786293",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-03-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-03-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G26,\"replicate\", B26)"
+      }
+    },
+    "nmdc:bsm-99-df3da922": {
+      "ncbi_accession": "SAMN36786292",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G25,\"replicate\", B25)"
+      }
+    },
+    "nmdc:bsm-99-7be19295": {
+      "ncbi_accession": "SAMN36786291",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G24,\"replicate\", B24)"
+      }
+    },
+    "nmdc:bsm-99-aaeced23": {
+      "ncbi_accession": "SAMN36786290",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G23,\"replicate\", B23)"
+      }
+    },
+    "nmdc:bsm-99-7987856b": {
+      "ncbi_accession": "SAMN36786289",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-03",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-03",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G22,\"replicate\", B22)"
+      }
+    },
+    "nmdc:bsm-99-3bee6178": {
+      "ncbi_accession": "SAMN36786288",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G21,\"replicate\", B21)"
+      }
+    },
+    "nmdc:bsm-99-17697433": {
+      "ncbi_accession": "SAMN36786287",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G20,\"replicate\", B20)"
+      }
+    },
+    "nmdc:bsm-99-17a50af4": {
+      "ncbi_accession": "SAMN36786286",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G19,\"replicate\", B19)"
+      }
+    },
+    "nmdc:bsm-99-6d0bd14c": {
+      "ncbi_accession": "SAMN36786285",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-02",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-02",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G18,\"replicate\", B18)"
+      }
+    },
+    "nmdc:bsm-99-19d3acac": {
+      "ncbi_accession": "SAMN36786284",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G17,\"replicate\", B17)"
+      }
+    },
+    "nmdc:bsm-99-19311441": {
+      "ncbi_accession": "SAMN36786283",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G16,\"replicate\", B16)"
+      }
+    },
+    "nmdc:bsm-99-b6a9026b": {
+      "ncbi_accession": "SAMN36786282",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G15,\"replicate\", B15)"
+      }
+    },
+    "nmdc:bsm-99-2d102ce3": {
+      "ncbi_accession": "SAMN36786281",
+      "ncbi_title": "Metagenome or environmental sample from sediment metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "sediment sample EB271-02-01",
+        "collection_date": "2017-03-20",
+        "geo_loc_name": "USA: Tennessee, Oak Ridge, Oak Ridge Reservation Field Research Center",
+        "lat_lon": "35.97986 N 84.27059 W",
+        "samp_size": "5g",
+        "source_material_id": "EB271-02-01",
+        "replicate": "=_xlfn.TEXTJOIN(\" \",TRUE(),G14,\"replicate\", B14)"
+      }
+    }
+  }
+}

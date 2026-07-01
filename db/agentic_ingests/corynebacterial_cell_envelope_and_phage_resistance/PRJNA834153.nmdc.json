@@ -1,0 +1,1735 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-6badc877",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096628"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CP-CL31_tn_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-d8a71fc8",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096627"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CP-CL31_tn_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-df5e9895",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096626"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "WT-CL31_tn_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-525bf54c",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096625"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "WT-CL31_tn_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-767f3cff",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096624"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "Cog_tn_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-4bb2feb8",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096623"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "Cog_tn_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-676188a2",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096622"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "No_phage_tn_2",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-614ed782",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN31096621"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2022-09-12"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "No_phage_tn_1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-4268461c",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium phage Cog",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042149"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-05-20"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "Cog-WT_wgs",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2940090",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium phage Cog"
+        }
+      },
+      "host_name": "Corynebacterium glutamicum"
+    },
+    {
+      "id": "nmdc:bsm-99-066dc84d",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium phage CL31",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042148"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-05-20"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CL31-CP_wgs",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2811249",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium phage CL31"
+        }
+      },
+      "host_name": "Corynebacterium glutamicum"
+    },
+    {
+      "id": "nmdc:bsm-99-d860c0e3",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium phage CL31",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042147"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-05-20"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CL31-WT_wgs",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2811249",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium phage CL31"
+        }
+      },
+      "host_name": "Corynebacterium glutamicum"
+    },
+    {
+      "id": "nmdc:bsm-99-3bf894be",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium phage CL31",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042146"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-05-20"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CL31-environemntal_wgs",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2811249",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium phage CL31"
+        }
+      },
+      "host_name": "Corynebacterium glutamicum"
+    },
+    {
+      "id": "nmdc:bsm-99-770982fb",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium phage Cog",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042145"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-05-20"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "Cog-environmental_wgs",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:2940090",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium phage Cog"
+        }
+      },
+      "host_name": "Corynebacterium glutamicum"
+    },
+    {
+      "id": "nmdc:bsm-99-306fcf1a",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042144"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-03-02"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "CP-CL31_run2_tnseq",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-8f15190b",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042143"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2021-03-02"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "No_phage_run2_tnseq",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-a6e91250",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042142"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2019-11-21"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "WT-CL31_run1_tnseq",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-73da40bb",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042141"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2019-11-21"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "Cog_run1_tnseq",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-79bf343f",
+      "type": "nmdc:Biosample",
+      "name": "Microbe sample from Corynebacterium glutamicum",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN28042140"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2019-11-21"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Boston"
+      },
+      "samp_name": "No_phage_run1_tnseq",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1718",
+          "type": "nmdc:OntologyClass",
+          "name": "Corynebacterium glutamicum"
+        }
+      }
+    }
+  ],
+  "data_generation_set": [
+    {
+      "id": "nmdc:dgns-99-ac9d87a0",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753867",
+      "has_input": [
+        "nmdc:bsm-99-6badc877"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-83ccea63"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753867"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c9030c8b",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753866",
+      "has_input": [
+        "nmdc:bsm-99-d8a71fc8"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-6041fe75"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753866"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-82f7d16d",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753865",
+      "has_input": [
+        "nmdc:bsm-99-df5e9895"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-fcd11427"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753865"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-66d5a126",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753864",
+      "has_input": [
+        "nmdc:bsm-99-525bf54c"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f9afd962"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753864"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-63931698",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753863",
+      "has_input": [
+        "nmdc:bsm-99-767f3cff"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-ada6f123"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753863"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-1e66c6a4",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753862",
+      "has_input": [
+        "nmdc:bsm-99-4bb2feb8"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-45f02963"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753862"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-45d8e376",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753861",
+      "has_input": [
+        "nmdc:bsm-99-676188a2"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-fc8a4df2"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753861"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-702f1ba9",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX17753860",
+      "has_input": [
+        "nmdc:bsm-99-614ed782"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-0dc7a093"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX17753860"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-58a74fe3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX15139685",
+      "has_input": [
+        "nmdc:bsm-99-066dc84d"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-e2da6142"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX15139685"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-1613a91b",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX15139684",
+      "has_input": [
+        "nmdc:bsm-99-d860c0e3"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-eadb1a24"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX15139684"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-0777be5c",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX15139683",
+      "has_input": [
+        "nmdc:bsm-99-3bf894be"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-6b35ff51"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX15139683"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-3b2958ce",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX15139682",
+      "has_input": [
+        "nmdc:bsm-99-770982fb"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f3efc524"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX15139682"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-0c80153e",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "SRX15139677",
+      "has_input": [
+        "nmdc:bsm-99-79bf343f"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-7e50a3c8"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-4183921b"
+      ],
+      "instrument_used": [
+        "nmdc:inst-12-yqr7e137"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX15139677"
+      ]
+    }
+  ],
+  "data_object_set": [
+    {
+      "id": "nmdc:dobj-99-83ccea63",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758685",
+      "description": "SRA run SRR21758685 for experiment SRX17753867",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758685"
+    },
+    {
+      "id": "nmdc:dobj-99-6041fe75",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758686",
+      "description": "SRA run SRR21758686 for experiment SRX17753866",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758686"
+    },
+    {
+      "id": "nmdc:dobj-99-fcd11427",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758687",
+      "description": "SRA run SRR21758687 for experiment SRX17753865",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758687"
+    },
+    {
+      "id": "nmdc:dobj-99-f9afd962",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758688",
+      "description": "SRA run SRR21758688 for experiment SRX17753864",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758688"
+    },
+    {
+      "id": "nmdc:dobj-99-ada6f123",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758689",
+      "description": "SRA run SRR21758689 for experiment SRX17753863",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758689"
+    },
+    {
+      "id": "nmdc:dobj-99-45f02963",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758690",
+      "description": "SRA run SRR21758690 for experiment SRX17753862",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758690"
+    },
+    {
+      "id": "nmdc:dobj-99-fc8a4df2",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758691",
+      "description": "SRA run SRR21758691 for experiment SRX17753861",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758691"
+    },
+    {
+      "id": "nmdc:dobj-99-0dc7a093",
+      "type": "nmdc:DataObject",
+      "name": "SRR21758692",
+      "description": "SRA run SRR21758692 for experiment SRX17753860",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR21758692"
+    },
+    {
+      "id": "nmdc:dobj-99-e2da6142",
+      "type": "nmdc:DataObject",
+      "name": "SRR19068885",
+      "description": "SRA run SRR19068885 for experiment SRX15139685",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR19068885"
+    },
+    {
+      "id": "nmdc:dobj-99-eadb1a24",
+      "type": "nmdc:DataObject",
+      "name": "SRR19068886",
+      "description": "SRA run SRR19068886 for experiment SRX15139684",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR19068886"
+    },
+    {
+      "id": "nmdc:dobj-99-6b35ff51",
+      "type": "nmdc:DataObject",
+      "name": "SRR19068887",
+      "description": "SRA run SRR19068887 for experiment SRX15139683",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR19068887"
+    },
+    {
+      "id": "nmdc:dobj-99-f3efc524",
+      "type": "nmdc:DataObject",
+      "name": "SRR19068888",
+      "description": "SRA run SRR19068888 for experiment SRX15139682",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR19068888"
+    },
+    {
+      "id": "nmdc:dobj-99-7e50a3c8",
+      "type": "nmdc:DataObject",
+      "name": "SRR19068893",
+      "description": "SRA run SRR19068893 for experiment SRX15139677",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR19068893"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-4183921b",
+      "type": "nmdc:Study",
+      "name": "Phage resistance profiling identifies new genes required for biogenesis and modification of the corynebacterial cell envelope",
+      "description": "Bacteria of the order Corynebacteriales including pathogens such as Mycobacterium tuberculosis and Corynebacterium diphtheriae are characterized by their complex, multi-layered envelope. In addition to a peptidoglycan layer, these organisms possess an additional polysaccharide layer made of arabinogalactan and an outer membrane layer composed predominantly of long-chain fatty acids called mycolic acids. This so-called mycolata envelope structure is both a potent barrier against antibiotic entry into cells and a target of several antibacterial therapeutics. A better understanding of the mechanisms underlying mycolata envelope assembly therefore promises to reveal new ways of disrupting this unique structure for the development of antibiotics and antibiotic potentiators. Because they engage with receptors on the cell surface during infection, bacteriophages have long been used as tools to uncover important aspects of host envelope assembly. However, surprisingly little is known about the interactions between Corynebacteriales phages and their hosts. We therefore made use of the phages Cog and CL31 that infect Corynebacterium glutamicum (Cglu), a model member of the Corynebacteriales, to discover host factors important for phage infection. A high-density transposon library of Cglu was challenged with these phages followed by transposon sequencing to identify resistance loci. The analysis identified an important role for mycomembrane porins in phage infection as well as components of the arabinogalactan and mycolic acid synthesis pathways. Importantly, the approach also implicated a new gene (cgp_0396) in the process of arabinogalactan modification and identified a conserved new factor (AhfA, Cpg_0475) required for mycolic acid synthesis in Cglu.",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA834153"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:59.536744+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:59.536744+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Phage resistance profiling identifies new genes required for biogenesis and modification of the corynebacterial cell envelope"
+    }
+  ],
+  "@type": "Database"
+}

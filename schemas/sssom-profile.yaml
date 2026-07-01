@@ -17,6 +17,8 @@ prefixes:
   PO: http://purl.obolibrary.org/obo/PO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
   obo: http://purl.obolibrary.org/obo/
 default_range: string
 default_prefix: profiles

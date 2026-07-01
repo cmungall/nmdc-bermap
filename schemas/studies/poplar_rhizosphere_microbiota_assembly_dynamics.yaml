@@ -17,7 +17,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -97,4 +98,7 @@ enums:
         meaning: ENVO:00005801
       root:
         meaning: PO:0009005
-      shoot: null
+      shoot system:
+        meaning: PO:0009006
+        aliases:
+        - shoot

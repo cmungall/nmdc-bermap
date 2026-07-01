@@ -1,0 +1,24 @@
+{
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-bcc23f68",
+      "type": "nmdc:Study",
+      "name": "Anaerobic fermentation bioreactor microbial communities from Madison, Wisconsin, United States",
+      "description": "The goal of this study is to characterize a central set of genes relevant to medium chain fatty acid (MCFA) production to guide screens of putative MCFA-producing microorganisms from additional environments or grown on different substrates",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA768492"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:40:18.768822+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:40:18.768822+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Anaerobic fermentation bioreactor microbial communities from Madison, Wisconsin, United States"
+    }
+  ],
+  "@type": "Database"
+}

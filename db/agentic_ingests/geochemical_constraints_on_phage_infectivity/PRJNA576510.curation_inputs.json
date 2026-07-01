@@ -1,0 +1,100 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-571422a4",
+    "name": "Bioreactor metagenome",
+    "title": "Selective carbon sources influence the end-products of microbial nitrate respiration",
+    "description": "Microbial nitrate respiring enrichment cultures",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-96e8acb6": {
+      "ncbi_accession": "SAMN12995560",
+      "ncbi_title": "Metagenome or environmental sample from bioreactor metagenome",
+      "package": "Metagenome.environmental.1.0",
+      "models": [
+        "Metagenome or environmental"
+      ],
+      "attributes": {
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "lat_lon": "37.912566 N 122.269194 W"
+      }
+    },
+    "nmdc:bsm-99-3fa3e9ff": {
+      "ncbi_accession": "SAMN12911130",
+      "ncbi_title": "Microbe sample from Citrobacter sp. JL978",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "JL978",
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "sample_type": "pure culture"
+      }
+    },
+    "nmdc:bsm-99-76293b31": {
+      "ncbi_accession": "SAMN12911129",
+      "ncbi_title": "Microbe sample from Citrobacter sp. JL976",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "JL976",
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "sample_type": "pure culture"
+      }
+    },
+    "nmdc:bsm-99-bdf958c0": {
+      "ncbi_accession": "SAMN12911128",
+      "ncbi_title": "Microbe sample from Stutzerimonas degradans",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "JL972",
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "sample_type": "pure culture"
+      }
+    },
+    "nmdc:bsm-99-2136532e": {
+      "ncbi_accession": "SAMN12911127",
+      "ncbi_title": "Microbe sample from Klebsiella sp. JL973",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "JL973",
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "sample_type": "pure culture"
+      }
+    },
+    "nmdc:bsm-99-89a227b4": {
+      "ncbi_accession": "SAMN12911126",
+      "ncbi_title": "Microbe sample from Escherichia sp. JL983",
+      "package": "Microbe.1.0",
+      "models": [
+        "Microbe, viral or environmental"
+      ],
+      "attributes": {
+        "strain": "JL983",
+        "isolation_source": "aquatic sediment",
+        "collection_date": "2016-08-01",
+        "geo_loc_name": "USA: California, Berkeley",
+        "sample_type": "pure culture"
+      }
+    }
+  }
+}

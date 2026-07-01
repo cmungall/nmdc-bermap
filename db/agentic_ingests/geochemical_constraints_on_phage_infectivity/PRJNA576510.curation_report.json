@@ -1,0 +1,317 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-96e8acb6",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-96e8acb6",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-96e8acb6",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      },
+      "notes": "Bioreactor inoculated with aquatic sediment; isolation_source = 'aquatic sediment' indicates source material."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3fa3e9ff",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3fa3e9ff",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3fa3e9ff",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-76293b31",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-76293b31",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-76293b31",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bdf958c0",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bdf958c0",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bdf958c0",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2136532e",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2136532e",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2136532e",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89a227b4",
+      "slot": "env_broad_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Berkeley CA location (37.91 N, 122.27 W) is near Aquatic Park / SF Bay shoreline; ambiguous between freshwater lagoon and estuarine/marine biome \u2014 no per-sample anchor."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89a227b4",
+      "slot": "env_local_scale",
+      "outcome": "left_sentinel",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "No per-sample evidence of the env feature beyond 'aquatic sediment'."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89a227b4",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00002007",
+      "committed_label": "sediment",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "aquatic sediment"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

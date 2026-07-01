@@ -1,0 +1,5269 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-68fd5554",
+    "name": "Sorghum epicuticular wax and aerial root mucilage microbiomes",
+    "title": "Phyllosphere exudates select for distinct microbiome members in sorghum epicuticular wax and aerial root mucilage",
+    "description": "We investigated the microbial communities associated with field-grown energy sorghum epicuticular wax and aerial root mucilage. Sequence data includes 16S rRNA amplicons and ITS amplicons. Online early publication: https://apsjournals.apsnet.org/doi/10.1094/PBIOMES-08-22-0046-FI Code are available on GitHub: https://github.com/ShadeLab/Sorghum_phyllosphere_microbiome_MechanLlontop_2022",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-b91c19ca": {
+      "ncbi_accession": "SAMN29602300",
+      "ncbi_title": "WR5P6.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum239",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-3cf18c5f": {
+      "ncbi_accession": "SAMN29602299",
+      "ncbi_title": "WR5P4.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum238",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-05b668cf": {
+      "ncbi_accession": "SAMN29602298",
+      "ncbi_title": "WR5P3.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum237",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-902dd23d": {
+      "ncbi_accession": "SAMN29602297",
+      "ncbi_title": "WR5P3.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum236",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-c49e5c1c": {
+      "ncbi_accession": "SAMN29602296",
+      "ncbi_title": "WR5P2.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum235",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-4a9830e5": {
+      "ncbi_accession": "SAMN29602295",
+      "ncbi_title": "WR5P2.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum234",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-726f53a4": {
+      "ncbi_accession": "SAMN29602294",
+      "ncbi_title": "WR5P1.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum233",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-855618fa": {
+      "ncbi_accession": "SAMN29602293",
+      "ncbi_title": "WR5P1.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum232",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-5cf84fc6": {
+      "ncbi_accession": "SAMN29602292",
+      "ncbi_title": "WR4P6.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum231",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-69028ac4": {
+      "ncbi_accession": "SAMN29602291",
+      "ncbi_title": "WR4P5.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum230",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-998b9821": {
+      "ncbi_accession": "SAMN29602290",
+      "ncbi_title": "WR4P5.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum229",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-e51fbe6a": {
+      "ncbi_accession": "SAMN29602289",
+      "ncbi_title": "WR4P4.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum228",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-92ec3a2f": {
+      "ncbi_accession": "SAMN29602288",
+      "ncbi_title": "WR4P4.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum227",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-2a265033": {
+      "ncbi_accession": "SAMN29602287",
+      "ncbi_title": "WR4P3.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum226",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-217b86f5": {
+      "ncbi_accession": "SAMN29602286",
+      "ncbi_title": "WR4P3.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum225",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-fcb8e579": {
+      "ncbi_accession": "SAMN29602285",
+      "ncbi_title": "WR4P2.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum224",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-32767b69": {
+      "ncbi_accession": "SAMN29602284",
+      "ncbi_title": "WR4P2.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum223",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-60beea06": {
+      "ncbi_accession": "SAMN29602283",
+      "ncbi_title": "WR4P1.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum222",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-50eb3392": {
+      "ncbi_accession": "SAMN29602282",
+      "ncbi_title": "WR3P6.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum221",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-62108f82": {
+      "ncbi_accession": "SAMN29602281",
+      "ncbi_title": "WR3P5.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum220",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-454e38c9": {
+      "ncbi_accession": "SAMN29602280",
+      "ncbi_title": "WR3P5.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum219",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-e495dbaf": {
+      "ncbi_accession": "SAMN29602279",
+      "ncbi_title": "WR3P4.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum218",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-3b2d745e": {
+      "ncbi_accession": "SAMN29602278",
+      "ncbi_title": "WR3P4.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum217",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-76f0419e": {
+      "ncbi_accession": "SAMN29602277",
+      "ncbi_title": "WR3P3.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum216",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-97474a44": {
+      "ncbi_accession": "SAMN29602276",
+      "ncbi_title": "WR3P3.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum215",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-2ca13fce": {
+      "ncbi_accession": "SAMN29602275",
+      "ncbi_title": "WR3P2.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum214",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-4ce3cb32": {
+      "ncbi_accession": "SAMN29602274",
+      "ncbi_title": "WR3P2.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum213",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-2d4d2f60": {
+      "ncbi_accession": "SAMN29602273",
+      "ncbi_title": "WR3P1.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum212",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-451a87c7": {
+      "ncbi_accession": "SAMN29602272",
+      "ncbi_title": "WR3P1.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum211",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-c8462f37": {
+      "ncbi_accession": "SAMN29602271",
+      "ncbi_title": "WR2P5.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum210",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-713fbdb7": {
+      "ncbi_accession": "SAMN29602270",
+      "ncbi_title": "WR2P5.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum209",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-6ac20ec4": {
+      "ncbi_accession": "SAMN29602269",
+      "ncbi_title": "WR2P4.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum208",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-490b7096": {
+      "ncbi_accession": "SAMN29602268",
+      "ncbi_title": "WR2P4.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum207",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-f53b479d": {
+      "ncbi_accession": "SAMN29602267",
+      "ncbi_title": "WR2P3.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum206",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-1888bfc5": {
+      "ncbi_accession": "SAMN29602266",
+      "ncbi_title": "WR2P3.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum205",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-20716b8c": {
+      "ncbi_accession": "SAMN29602265",
+      "ncbi_title": "WR2P2.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum204",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-4a02f7ec": {
+      "ncbi_accession": "SAMN29602264",
+      "ncbi_title": "WR2P2.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum203",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-c02db38b": {
+      "ncbi_accession": "SAMN29602263",
+      "ncbi_title": "WR2P1.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum202",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-0cfaf45a": {
+      "ncbi_accession": "SAMN29602262",
+      "ncbi_title": "WR1P5.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum201",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-d53b350c": {
+      "ncbi_accession": "SAMN29602261",
+      "ncbi_title": "WR1P5.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum200",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-67b8923c": {
+      "ncbi_accession": "SAMN29602260",
+      "ncbi_title": "WR1P4.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum199",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-71bfd219": {
+      "ncbi_accession": "SAMN29602259",
+      "ncbi_title": "WR1P4.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum198",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-fc2ab288": {
+      "ncbi_accession": "SAMN29602258",
+      "ncbi_title": "WR1P3.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum197",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-af46b30f": {
+      "ncbi_accession": "SAMN29602257",
+      "ncbi_title": "WR1P3.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum196",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-f1a35d85": {
+      "ncbi_accession": "SAMN29602256",
+      "ncbi_title": "WR1P2.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum195",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-8aa719cf": {
+      "ncbi_accession": "SAMN29602255",
+      "ncbi_title": "WR1P2.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum194",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-35799674": {
+      "ncbi_accession": "SAMN29602254",
+      "ncbi_title": "WR1P1.90DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum193",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-32ea65c7": {
+      "ncbi_accession": "SAMN29602253",
+      "ncbi_title": "WR1P1.60DAE",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-03",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Epicuticular wax",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum192",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TX08001",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-10a98bab": {
+      "ncbi_accession": "SAMN29602252",
+      "ncbi_title": "Neg.Control.Q2",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum191",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-029222cf": {
+      "ncbi_accession": "SAMN29602251",
+      "ncbi_title": "Neg.Control.Q1",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-02",
+        "env_broad_scale": "Texas College Station",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA:Texas",
+        "host": "Sorghum190",
+        "lat_lon": "30.55555 N 96.43646 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "epicuticular wax from stems"
+      }
+    },
+    "nmdc:bsm-99-87c1a42c": {
+      "ncbi_accession": "SAMN29602250",
+      "ncbi_title": "RTSF.Zymo.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Positive control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum189",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-b2715b1a": {
+      "ncbi_accession": "SAMN29602249",
+      "ncbi_title": "RTSF.NC2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum188",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-fe8a0496": {
+      "ncbi_accession": "SAMN29602248",
+      "ncbi_title": "RTSF.NC1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum187",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-da88c550": {
+      "ncbi_accession": "SAMN29602247",
+      "ncbi_title": "Pos.Control.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Positive control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum186",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-be82f0f0": {
+      "ncbi_accession": "SAMN29602246",
+      "ncbi_title": "Neg.Control2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum185",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-17bb9b88": {
+      "ncbi_accession": "SAMN29602245",
+      "ncbi_title": "Neg.Control1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum184",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-dcd0e8ac": {
+      "ncbi_accession": "SAMN29602244",
+      "ncbi_title": "G2R4.M4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum183",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a9f07528": {
+      "ncbi_accession": "SAMN29602243",
+      "ncbi_title": "G2R4.NF8.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum182",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9f9c2026": {
+      "ncbi_accession": "SAMN29602242",
+      "ncbi_title": "G2R4.NF7.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum181",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4e62ade8": {
+      "ncbi_accession": "SAMN29602241",
+      "ncbi_title": "G2R4.NF7.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum180",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a04b86e0": {
+      "ncbi_accession": "SAMN29602240",
+      "ncbi_title": "G2R4.NF6.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum179",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5f58ee74": {
+      "ncbi_accession": "SAMN29602239",
+      "ncbi_title": "G2R4.NF5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum178",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-738b3a3b": {
+      "ncbi_accession": "SAMN29602238",
+      "ncbi_title": "G2R4.NF5.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum177",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0cf28f07": {
+      "ncbi_accession": "SAMN29602237",
+      "ncbi_title": "G2R4.NF4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum176",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5a563ce0": {
+      "ncbi_accession": "SAMN29602236",
+      "ncbi_title": "G2R4.NF3.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum175",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-132387ec": {
+      "ncbi_accession": "SAMN29602235",
+      "ncbi_title": "G2R4.NF3.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum174",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1622f224": {
+      "ncbi_accession": "SAMN29602234",
+      "ncbi_title": "G2R4.NF1.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum173",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-73cbfd41": {
+      "ncbi_accession": "SAMN29602233",
+      "ncbi_title": "G2R4.M8.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum172",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e3353f5b": {
+      "ncbi_accession": "SAMN29602232",
+      "ncbi_title": "G2R4.M7.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum171",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e954e074": {
+      "ncbi_accession": "SAMN29602231",
+      "ncbi_title": "G2R4.M6.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum170",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c79bd1c4": {
+      "ncbi_accession": "SAMN29602230",
+      "ncbi_title": "G2R4.M5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum169",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-339bdeb7": {
+      "ncbi_accession": "SAMN29602229",
+      "ncbi_title": "G2R4.M4.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum168",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-31a41906": {
+      "ncbi_accession": "SAMN29602228",
+      "ncbi_title": "G2R4.M3.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum167",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-67943f73": {
+      "ncbi_accession": "SAMN29602227",
+      "ncbi_title": "G2R4.M2.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum166",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0b9b6b49": {
+      "ncbi_accession": "SAMN29602226",
+      "ncbi_title": "G2R4.M1.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum165",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-d45570f2": {
+      "ncbi_accession": "SAMN29602225",
+      "ncbi_title": "G2R4.M11.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum164",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-cd0009f5": {
+      "ncbi_accession": "SAMN29602224",
+      "ncbi_title": "G2R4.M10.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum163",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a5a241a9": {
+      "ncbi_accession": "SAMN29602223",
+      "ncbi_title": "G2R3.NF9.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum162",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ba08f0e2": {
+      "ncbi_accession": "SAMN29602222",
+      "ncbi_title": "G2R3.NF7.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum161",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-eda8757b": {
+      "ncbi_accession": "SAMN29602221",
+      "ncbi_title": "G2R3.NF7.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum160",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e7c3ab93": {
+      "ncbi_accession": "SAMN29602220",
+      "ncbi_title": "G2R3.NF6.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum159",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c3dd27f0": {
+      "ncbi_accession": "SAMN29602219",
+      "ncbi_title": "G2R3.NF5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum158",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9669e4c5": {
+      "ncbi_accession": "SAMN29602218",
+      "ncbi_title": "G2R3.NF3.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum157",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1dc53e61": {
+      "ncbi_accession": "SAMN29602217",
+      "ncbi_title": "G2R3.NF2.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum156",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2e589b44": {
+      "ncbi_accession": "SAMN29602216",
+      "ncbi_title": "G2R3.NF2.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum155",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3ec2073e": {
+      "ncbi_accession": "SAMN29602215",
+      "ncbi_title": "G2R3.NF1.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum154",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-74daacd8": {
+      "ncbi_accession": "SAMN29602214",
+      "ncbi_title": "G2R3.M9.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum153",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-14f329eb": {
+      "ncbi_accession": "SAMN29602213",
+      "ncbi_title": "G2R3.M9.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum152",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-b8ce8164": {
+      "ncbi_accession": "SAMN29602212",
+      "ncbi_title": "G2R3.M8.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum151",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-57466c5e": {
+      "ncbi_accession": "SAMN29602211",
+      "ncbi_title": "G2R3.M8.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum150",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ff13b773": {
+      "ncbi_accession": "SAMN29602210",
+      "ncbi_title": "G2R3.M7.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum149",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c7130584": {
+      "ncbi_accession": "SAMN29602209",
+      "ncbi_title": "G2R3.M5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum148",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-64a94955": {
+      "ncbi_accession": "SAMN29602208",
+      "ncbi_title": "G2R3.M4.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum147",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-141374c3": {
+      "ncbi_accession": "SAMN29602207",
+      "ncbi_title": "G2R3.M4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum146",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-26dfb045": {
+      "ncbi_accession": "SAMN29602206",
+      "ncbi_title": "G2R3.M2.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum145",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3bb98fe6": {
+      "ncbi_accession": "SAMN29602205",
+      "ncbi_title": "G2R3.M1.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum144",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-781319e0": {
+      "ncbi_accession": "SAMN29602204",
+      "ncbi_title": "G2R3.M10.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum143",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4743c1f5": {
+      "ncbi_accession": "SAMN29602203",
+      "ncbi_title": "G2R2.NF9.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum142",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3a7780bb": {
+      "ncbi_accession": "SAMN29602202",
+      "ncbi_title": "G2R2.NF8.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum141",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1e599ca9": {
+      "ncbi_accession": "SAMN29602201",
+      "ncbi_title": "G2R2.NF6.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum140",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0de83644": {
+      "ncbi_accession": "SAMN29602200",
+      "ncbi_title": "G2R2.NF5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum139",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-82cf5a5f": {
+      "ncbi_accession": "SAMN29602199",
+      "ncbi_title": "G2R2.NF5.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum138",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-81b8526c": {
+      "ncbi_accession": "SAMN29602198",
+      "ncbi_title": "G2R2.NF4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum137",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-18b07403": {
+      "ncbi_accession": "SAMN29602197",
+      "ncbi_title": "G2R2.NF3.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum136",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f07b2756": {
+      "ncbi_accession": "SAMN29602196",
+      "ncbi_title": "G2R2.NF2.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum135",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5e8b9de0": {
+      "ncbi_accession": "SAMN29602195",
+      "ncbi_title": "G2R2.NF1.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum134",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-7cd7a94c": {
+      "ncbi_accession": "SAMN29602194",
+      "ncbi_title": "G2R2.NF10.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum133",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-cbe812e0": {
+      "ncbi_accession": "SAMN29602193",
+      "ncbi_title": "G2R2.M9.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum132",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-dc07814b": {
+      "ncbi_accession": "SAMN29602192",
+      "ncbi_title": "G2R2.M9.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum131",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-7a5c0dcb": {
+      "ncbi_accession": "SAMN29602191",
+      "ncbi_title": "G2R2.M8.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum130",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5f7df5f9": {
+      "ncbi_accession": "SAMN29602190",
+      "ncbi_title": "G2R2.M8.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum129",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-cb5abb72": {
+      "ncbi_accession": "SAMN29602189",
+      "ncbi_title": "G2R2.M6.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum128",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-04f75fdc": {
+      "ncbi_accession": "SAMN29602188",
+      "ncbi_title": "G2R2.M5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum127",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-38c093cc": {
+      "ncbi_accession": "SAMN29602187",
+      "ncbi_title": "G2R2.M4.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum126",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-397c10d9": {
+      "ncbi_accession": "SAMN29602186",
+      "ncbi_title": "G2R2.M3.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum125",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2dbeac70": {
+      "ncbi_accession": "SAMN29602185",
+      "ncbi_title": "G2R2.M2.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum124",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-8dc6e440": {
+      "ncbi_accession": "SAMN29602184",
+      "ncbi_title": "G2R2.M1.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum123",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f9e99632": {
+      "ncbi_accession": "SAMN29602183",
+      "ncbi_title": "G2R1.NF9.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum122",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-384f2746": {
+      "ncbi_accession": "SAMN29602182",
+      "ncbi_title": "G2R1.NF7.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum121",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2a3b97ed": {
+      "ncbi_accession": "SAMN29602181",
+      "ncbi_title": "G2R1.NF6.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum120",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2a226dd9": {
+      "ncbi_accession": "SAMN29602180",
+      "ncbi_title": "G2R1.NF5.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum119",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3aa31c32": {
+      "ncbi_accession": "SAMN29602179",
+      "ncbi_title": "G2R1.NF4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum118",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-756bcf67": {
+      "ncbi_accession": "SAMN29602178",
+      "ncbi_title": "G2R1.NF3.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum117",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-db7b703e": {
+      "ncbi_accession": "SAMN29602177",
+      "ncbi_title": "G2R1.NF2.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum116",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3bd8330c": {
+      "ncbi_accession": "SAMN29602176",
+      "ncbi_title": "G2R1.NF1.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum115",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c2347b8e": {
+      "ncbi_accession": "SAMN29602175",
+      "ncbi_title": "G2R1.NF1.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum114",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-dba49dc1": {
+      "ncbi_accession": "SAMN29602174",
+      "ncbi_title": "G2R1.NF10.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum113",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-dbc6cee4": {
+      "ncbi_accession": "SAMN29602173",
+      "ncbi_title": "G2R1.M9.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum112",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f2644510": {
+      "ncbi_accession": "SAMN29602172",
+      "ncbi_title": "G2R1.M9.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum111",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0d44cdb0": {
+      "ncbi_accession": "SAMN29602171",
+      "ncbi_title": "G2R1.M8.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum110",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-96f61a69": {
+      "ncbi_accession": "SAMN29602170",
+      "ncbi_title": "G2R1.M8.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum109",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5862ea0d": {
+      "ncbi_accession": "SAMN29602169",
+      "ncbi_title": "G2R1.M7.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum108",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c7ff1445": {
+      "ncbi_accession": "SAMN29602168",
+      "ncbi_title": "G2R1.M7.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum107",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0e1bdbc2": {
+      "ncbi_accession": "SAMN29602167",
+      "ncbi_title": "G2R1.M5.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum106",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3e11c856": {
+      "ncbi_accession": "SAMN29602166",
+      "ncbi_title": "G2R1.M4.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum105",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-338c9bbc": {
+      "ncbi_accession": "SAMN29602165",
+      "ncbi_title": "G2R1.M4.1.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-08-06",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum104",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-33111d88": {
+      "ncbi_accession": "SAMN29602164",
+      "ncbi_title": "G2R1.M10.2.21",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2021-09-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum103",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c26df30d": {
+      "ncbi_accession": "SAMN29602163",
+      "ncbi_title": "RTSF.NTC.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum102",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-0405a210": {
+      "ncbi_accession": "SAMN29602162",
+      "ncbi_title": "NTC.PS.G12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum101",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-41e7fd45": {
+      "ncbi_accession": "SAMN29602161",
+      "ncbi_title": "NTC.PS.F12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "Negative control",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum100",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Controls",
+        "host_age": "Controls",
+        "host_genotype": "Controls",
+        "isolation_source": "Controls"
+      }
+    },
+    "nmdc:bsm-99-20db2bcc": {
+      "ncbi_accession": "SAMN29602160",
+      "ncbi_title": "G2R4.1.M3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum99",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4f098b10": {
+      "ncbi_accession": "SAMN29602159",
+      "ncbi_title": "G2R5.1.M5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum98",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-291cb5db": {
+      "ncbi_accession": "SAMN29602158",
+      "ncbi_title": "G2R5.1.M1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum97",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-8babbe3b": {
+      "ncbi_accession": "SAMN29602157",
+      "ncbi_title": "G2R5.1.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum96",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9d5e29bf": {
+      "ncbi_accession": "SAMN29602156",
+      "ncbi_title": "G2R5.1.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum95",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5b1402e6": {
+      "ncbi_accession": "SAMN29602155",
+      "ncbi_title": "G2R5.1.M3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum94",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-191dce95": {
+      "ncbi_accession": "SAMN29602154",
+      "ncbi_title": "G2R2.2.M10.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum93",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-522a0ea3": {
+      "ncbi_accession": "SAMN29602153",
+      "ncbi_title": "G2R2.2.M7.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum92",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2c6357cb": {
+      "ncbi_accession": "SAMN29602152",
+      "ncbi_title": "G2R2.2.M5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum91",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1be37750": {
+      "ncbi_accession": "SAMN29602151",
+      "ncbi_title": "G2R2.2.M3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum90",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2e75e56e": {
+      "ncbi_accession": "SAMN29602150",
+      "ncbi_title": "G2R2.2.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum89",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4767db29": {
+      "ncbi_accession": "SAMN29602149",
+      "ncbi_title": "G2R2.2.NF8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum88",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ad3efb2d": {
+      "ncbi_accession": "SAMN29602148",
+      "ncbi_title": "G2R2.2.NF6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum87",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a1e5ae8c": {
+      "ncbi_accession": "SAMN29602147",
+      "ncbi_title": "G2R2.2.NF4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum86",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-58228f6f": {
+      "ncbi_accession": "SAMN29602146",
+      "ncbi_title": "G2R2.2.NF3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum85",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-8c9fc8a2": {
+      "ncbi_accession": "SAMN29602145",
+      "ncbi_title": "G2R2.2.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum84",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1154fbeb": {
+      "ncbi_accession": "SAMN29602144",
+      "ncbi_title": "G2R3.2.NF10.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum83",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c6fde91e": {
+      "ncbi_accession": "SAMN29602143",
+      "ncbi_title": "G2R3.2.NF8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum82",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-66e8ac0b": {
+      "ncbi_accession": "SAMN29602142",
+      "ncbi_title": "G2R3.2.NF5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum81",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-18157c04": {
+      "ncbi_accession": "SAMN29602141",
+      "ncbi_title": "G2R3.2.NF3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum80",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-66decf6b": {
+      "ncbi_accession": "SAMN29602140",
+      "ncbi_title": "G2R3.2.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum79",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3839ae2c": {
+      "ncbi_accession": "SAMN29602139",
+      "ncbi_title": "G2R3.2.M10.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum78",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e86fc89a": {
+      "ncbi_accession": "SAMN29602138",
+      "ncbi_title": "G2R3.2.M8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum77",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-cc3c479b": {
+      "ncbi_accession": "SAMN29602137",
+      "ncbi_title": "G2R3.2.M5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum76",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ba88effe": {
+      "ncbi_accession": "SAMN29602136",
+      "ncbi_title": "G2R3.2.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum75",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-6a741ee0": {
+      "ncbi_accession": "SAMN29602135",
+      "ncbi_title": "G2R3.2.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum74",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-6a56d84b": {
+      "ncbi_accession": "SAMN29602134",
+      "ncbi_title": "G2R1.2.NF9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum73",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-7cacc3b0": {
+      "ncbi_accession": "SAMN29602133",
+      "ncbi_title": "G2R1.2.NF8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum72",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-91849282": {
+      "ncbi_accession": "SAMN29602132",
+      "ncbi_title": "G2R1.2.NF5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum71",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-6703c393": {
+      "ncbi_accession": "SAMN29602131",
+      "ncbi_title": "G2R1.2.NF3.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum70",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c5ebaf92": {
+      "ncbi_accession": "SAMN29602130",
+      "ncbi_title": "G2R1.2.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum69",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2d04b81c": {
+      "ncbi_accession": "SAMN29602129",
+      "ncbi_title": "G2R1.2.NF1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum68",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-afcf2cc5": {
+      "ncbi_accession": "SAMN29602128",
+      "ncbi_title": "G2R1.2.M11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum67",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-16089dcf": {
+      "ncbi_accession": "SAMN29602127",
+      "ncbi_title": "G2R1.2.M9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum66",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9566be94": {
+      "ncbi_accession": "SAMN29602126",
+      "ncbi_title": "G2R1.2.M5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum65",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c344c46d": {
+      "ncbi_accession": "SAMN29602125",
+      "ncbi_title": "G2R1.2.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum64",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-7030db6b": {
+      "ncbi_accession": "SAMN29602124",
+      "ncbi_title": "G2R1.2.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum63",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-d90a68d8": {
+      "ncbi_accession": "SAMN29602123",
+      "ncbi_title": "G2R4.2.M6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum62",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f9230a9a": {
+      "ncbi_accession": "SAMN29602122",
+      "ncbi_title": "G2R4.2.M5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum61",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-67b38a6d": {
+      "ncbi_accession": "SAMN29602121",
+      "ncbi_title": "G2R4.2.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum60",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5b50545a": {
+      "ncbi_accession": "SAMN29602120",
+      "ncbi_title": "G2R4.2.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum59",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-d28bdc41": {
+      "ncbi_accession": "SAMN29602119",
+      "ncbi_title": "G2R4.2.M1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum58",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-80a8cf31": {
+      "ncbi_accession": "SAMN29602118",
+      "ncbi_title": "G2R4.2.NF9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum57",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-425f0920": {
+      "ncbi_accession": "SAMN29602117",
+      "ncbi_title": "G2R4.2.NF8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum56",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9172e168": {
+      "ncbi_accession": "SAMN29602116",
+      "ncbi_title": "G2R4.2.NF7.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum55",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0d4722be": {
+      "ncbi_accession": "SAMN29602115",
+      "ncbi_title": "G2R4.2.NF6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum54",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-93195e13": {
+      "ncbi_accession": "SAMN29602114",
+      "ncbi_title": "G2R4.2.NF5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-09-25",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum53",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "90 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-7b9b66d0": {
+      "ncbi_accession": "SAMN29602113",
+      "ncbi_title": "G2R4.1.NF9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum52",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-32cd3e80": {
+      "ncbi_accession": "SAMN29602112",
+      "ncbi_title": "G2R4.1.NF6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum51",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-01141e02": {
+      "ncbi_accession": "SAMN29602111",
+      "ncbi_title": "G2R4.1.NF5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum50",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-90c8adf1": {
+      "ncbi_accession": "SAMN29602110",
+      "ncbi_title": "G2R4.1.NF4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum49",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-65eff3d7": {
+      "ncbi_accession": "SAMN29602109",
+      "ncbi_title": "G2R4.1.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum48",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1921d6a6": {
+      "ncbi_accession": "SAMN29602108",
+      "ncbi_title": "G2R4.1.NF1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum47",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ed15d321": {
+      "ncbi_accession": "SAMN29602107",
+      "ncbi_title": "G2R4.1.M11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum46",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0b270c6e": {
+      "ncbi_accession": "SAMN29602106",
+      "ncbi_title": "G2R4.1.M10.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum45",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-bde59ad7": {
+      "ncbi_accession": "SAMN29602105",
+      "ncbi_title": "G2R4.1.M6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum44",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e4296861": {
+      "ncbi_accession": "SAMN29602104",
+      "ncbi_title": "G2R4.1.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum43",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e12bfd90": {
+      "ncbi_accession": "SAMN29602103",
+      "ncbi_title": "G2R4.1.M1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum42",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-b8b8e17e": {
+      "ncbi_accession": "SAMN29602102",
+      "ncbi_title": "G2R3.1.NF4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum41",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-dcd59527": {
+      "ncbi_accession": "SAMN29602101",
+      "ncbi_title": "G2R3.1.NF7.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum40",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-59927255": {
+      "ncbi_accession": "SAMN29602100",
+      "ncbi_title": "G2R3.1.NF12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum39",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-01681a08": {
+      "ncbi_accession": "SAMN29602099",
+      "ncbi_title": "G2R3.1.NF11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum38",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-6a817c53": {
+      "ncbi_accession": "SAMN29602098",
+      "ncbi_title": "G2R3.1.NF8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum37",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-21a05924": {
+      "ncbi_accession": "SAMN29602097",
+      "ncbi_title": "G2R3.1.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum36",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-1a238d1c": {
+      "ncbi_accession": "SAMN29602096",
+      "ncbi_title": "G2R3.1.M12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum35",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-32c0dad0": {
+      "ncbi_accession": "SAMN29602095",
+      "ncbi_title": "G2R3.1.M9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum34",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-c94a50cb": {
+      "ncbi_accession": "SAMN29602094",
+      "ncbi_title": "G2R3.1.M7.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum33",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3bdba212": {
+      "ncbi_accession": "SAMN29602093",
+      "ncbi_title": "G2R3.1.M6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum32",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0fd88aeb": {
+      "ncbi_accession": "SAMN29602092",
+      "ncbi_title": "G2R3.1.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum31",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9ff08e1f": {
+      "ncbi_accession": "SAMN29602091",
+      "ncbi_title": "G2R2.1.NF12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum30",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-84d79625": {
+      "ncbi_accession": "SAMN29602090",
+      "ncbi_title": "G2R2.1.NF11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum29",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-6752d5af": {
+      "ncbi_accession": "SAMN29602089",
+      "ncbi_title": "G2R2.1.NF6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum28",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a0bb68c5": {
+      "ncbi_accession": "SAMN29602088",
+      "ncbi_title": "G2R2.1.NF5.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum27",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0be306f0": {
+      "ncbi_accession": "SAMN29602087",
+      "ncbi_title": "G2R2.1.NF4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum26",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4babc204": {
+      "ncbi_accession": "SAMN29602086",
+      "ncbi_title": "G2R2.1.M12.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum25",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-ffed3060": {
+      "ncbi_accession": "SAMN29602085",
+      "ncbi_title": "G2R2.1.M11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum24",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-449a6715": {
+      "ncbi_accession": "SAMN29602084",
+      "ncbi_title": "G2R2.1.M10.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum23",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f5bb1bfe": {
+      "ncbi_accession": "SAMN29602083",
+      "ncbi_title": "G2R2.1.M6.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum22",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0914ef97": {
+      "ncbi_accession": "SAMN29602082",
+      "ncbi_title": "G2R2.1.M4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum21",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f9255a74": {
+      "ncbi_accession": "SAMN29602081",
+      "ncbi_title": "G2R1.1.NF11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum20",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9ab5aed0": {
+      "ncbi_accession": "SAMN29602080",
+      "ncbi_title": "G2R1.1.NF4.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum19",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-b5290742": {
+      "ncbi_accession": "SAMN29602079",
+      "ncbi_title": "G2R1.1.NF2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum18",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-9c2d22f3": {
+      "ncbi_accession": "SAMN29602078",
+      "ncbi_title": "G2R1.1.NF1.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum17",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4e527ab9": {
+      "ncbi_accession": "SAMN29602077",
+      "ncbi_title": "G2R5.1.M8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum16",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-f5bfe5e9": {
+      "ncbi_accession": "SAMN29602076",
+      "ncbi_title": "G2R1.1.M9.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum15",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-0a910fe3": {
+      "ncbi_accession": "SAMN29602075",
+      "ncbi_title": "G2R1.1.M7.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum14",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3cd02fad": {
+      "ncbi_accession": "SAMN29602074",
+      "ncbi_title": "G2R1.1.M11.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum13",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-4a1e6239": {
+      "ncbi_accession": "SAMN29602073",
+      "ncbi_title": "G2R1.1.M8.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum12",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-5fb59568": {
+      "ncbi_accession": "SAMN29602072",
+      "ncbi_title": "G2R1.1.M2.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-20",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum11",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-d7307715": {
+      "ncbi_accession": "SAMN29602071",
+      "ncbi_title": "G2R5.NF.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum10",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-2d08faf7": {
+      "ncbi_accession": "SAMN29602070",
+      "ncbi_title": "G2R4.NF.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum9",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-a5f53840": {
+      "ncbi_accession": "SAMN29602069",
+      "ncbi_title": "G2R3.NF.b.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum8",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-e481b093": {
+      "ncbi_accession": "SAMN29602068",
+      "ncbi_title": "G2R2.NF.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum7",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-55ee066d": {
+      "ncbi_accession": "SAMN29602067",
+      "ncbi_title": "G2R1.NF.b.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum6",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Unfertilized (N-)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-de002686": {
+      "ncbi_accession": "SAMN29602066",
+      "ncbi_title": "G2R5.M.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum5",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-41e12f07": {
+      "ncbi_accession": "SAMN29602065",
+      "ncbi_title": "G2R4.M.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum4",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-004be126": {
+      "ncbi_accession": "SAMN29602064",
+      "ncbi_title": "G2R3.M.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum3",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-3fc6a426": {
+      "ncbi_accession": "SAMN29602063",
+      "ncbi_title": "G2R2.M.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum2",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    },
+    "nmdc:bsm-99-bcc91bf7": {
+      "ncbi_accession": "SAMN29602062",
+      "ncbi_title": "G2R1.M.a.p.20",
+      "package": "MIMARKS.survey.plant-associated.6.0",
+      "models": [
+        "MIMARKS.survey",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "collection_date": "2020-08-10",
+        "env_broad_scale": "Kellogg Biological Station LTER site",
+        "env_local_scale": "phyllosphere exudate",
+        "env_medium": "sorghum aerial root mucilage",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Sorghum1",
+        "lat_lon": "42.2341 N 85.2223 W",
+        "fertilizer_regm": "Nitrogen fertilized (N+)",
+        "host_age": "60 days after emergence",
+        "host_genotype": "TAM17651",
+        "isolation_source": "mucilage from aerial roots"
+      }
+    }
+  }
+}

@@ -1,0 +1,4828 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-7fd072b8",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7fd072b8",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7fd072b8",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-25fa1fe7",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-25fa1fe7",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-25fa1fe7",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8c6a6898",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8c6a6898",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8c6a6898",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d27f1609",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d27f1609",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-d27f1609",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0fa0a45a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0fa0a45a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0fa0a45a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ca5f1b0a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ca5f1b0a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ca5f1b0a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-85e866b5",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-85e866b5",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-85e866b5",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-686314e3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-686314e3",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-686314e3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6e03c19b",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6e03c19b",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6e03c19b",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82421494",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82421494",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82421494",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e3f20b2a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e3f20b2a",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e3f20b2a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-60489f3c",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-60489f3c",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-60489f3c",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4aff3f16",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4aff3f16",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4aff3f16",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5b0532df",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5b0532df",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5b0532df",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cd9fcd00",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cd9fcd00",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-cd9fcd00",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3dd3b6af",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3dd3b6af",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3dd3b6af",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ac0cf0d",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ac0cf0d",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ac0cf0d",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1fc1e9f9",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1fc1e9f9",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1fc1e9f9",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-13cedf5b",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-13cedf5b",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-13cedf5b",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f2671b9",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f2671b9",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f2671b9",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-65c9d21e",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-65c9d21e",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-65c9d21e",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7e79d5a8",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7e79d5a8",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7e79d5a8",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-69a7bd7b",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-69a7bd7b",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-69a7bd7b",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df690f7a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df690f7a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-df690f7a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-067b6d37",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-067b6d37",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-067b6d37",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f81437a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f81437a",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6f81437a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a4a35a8",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a4a35a8",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a4a35a8",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-aecb3442",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-aecb3442",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-aecb3442",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5cd3dc8e",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5cd3dc8e",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5cd3dc8e",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e74af9a5",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e74af9a5",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e74af9a5",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-206968be",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-206968be",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-206968be",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bec178fd",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bec178fd",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-bec178fd",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6c272994",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6c272994",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6c272994",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1b3af614",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1b3af614",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1b3af614",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e358db3d",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e358db3d",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e358db3d",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-20a8ce3a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-20a8ce3a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-20a8ce3a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1eb1bf3a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1eb1bf3a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1eb1bf3a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-47932f9a",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-47932f9a",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-47932f9a",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22df3289",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22df3289",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22df3289",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e72f496f",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e72f496f",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-e72f496f",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4949f738",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4949f738",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4949f738",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab41369c",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab41369c",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ab41369c",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8279eac6",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8279eac6",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8279eac6",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-09dd2370",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-09dd2370",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-09dd2370",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-86a5eef3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-86a5eef3",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-86a5eef3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4c62d017",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4c62d017",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4c62d017",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ae6529c4",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ae6529c4",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-ae6529c4",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0148bc88",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0148bc88",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-0148bc88",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1ea43cdf",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1ea43cdf",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1ea43cdf",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-062df3c3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-062df3c3",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-062df3c3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7a40ffd4",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7a40ffd4",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-7a40ffd4",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9d7c3df3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9d7c3df3",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9d7c3df3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-26688026",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-26688026",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-26688026",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f8404932",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f8404932",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-f8404932",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73b440ee",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73b440ee",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73b440ee",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-638603cb",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-638603cb",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-638603cb",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a4fa1e83",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a4fa1e83",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a4fa1e83",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1bd631fa",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1bd631fa",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-1bd631fa",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6ac14b3",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6ac14b3",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a6ac14b3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01000999",
+      "committed_label": "rhizosphere environment",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "rhizosphere soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-46cbf301",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-46cbf301",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-46cbf301",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6b30486b",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6b30486b",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6b30486b",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2fff0ad2",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2fff0ad2",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2fff0ad2",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-54d11407",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-54d11407",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-54d11407",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6a2bade2",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6a2bade2",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6a2bade2",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-169a5d32",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-169a5d32",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "root",
+          "reason_rejected": "no ENVO feature term for plant compartment"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-169a5d32",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001121",
+      "committed_label": "plant matter",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "root"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-53bac185",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-53bac185",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-53bac185",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5e540a48",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5e540a48",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-5e540a48",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2a0a9d2d",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2a0a9d2d",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-2a0a9d2d",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-abc312dc",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-abc312dc",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-abc312dc",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a573d348",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a573d348",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-a573d348",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3b650a66",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Conviron grown pot (controlled growth chamber)"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "no match",
+          "label": "Conviron growth chamber",
+          "reason_rejected": "no ENVO biome term for indoor microcosm"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": false,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3b650a66",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-3b650a66",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00001998",
+      "committed_label": "soil",
+      "evidence": [
+        {
+          "source": "biosample.ncbi_title",
+          "quote_or_paraphrase": "bulk soil"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,3971 @@
+{
+  "study": {
+    "id": "nmdc:sty-99-dc473c1c",
+    "name": "",
+    "title": "Transgenic switchgrass QsuB",
+    "description": "QsuB transgenic switchgrass associated 16S microbiome of different compartments",
+    "publications": []
+  },
+  "biosamples": {
+    "nmdc:bsm-99-6ac55bc6": {
+      "ncbi_accession": "SAMN36849353",
+      "ncbi_title": "TRSRI1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e5059d77": {
+      "ncbi_accession": "SAMN36849352",
+      "ncbi_title": "TRSRI1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5327e091": {
+      "ncbi_accession": "SAMN36849351",
+      "ncbi_title": "TRSRI1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-97c1fa02": {
+      "ncbi_accession": "SAMN36849350",
+      "ncbi_title": "TRSRI1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3fb17c93": {
+      "ncbi_accession": "SAMN36849349",
+      "ncbi_title": "TRSRI1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-25919f18": {
+      "ncbi_accession": "SAMN36849348",
+      "ncbi_title": "TRSRI1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-658c34d8": {
+      "ncbi_accession": "SAMN36849347",
+      "ncbi_title": "TRSRI1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-dd072b71": {
+      "ncbi_accession": "SAMN36849346",
+      "ncbi_title": "TRSRI1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-69c16220": {
+      "ncbi_accession": "SAMN36849345",
+      "ncbi_title": "TRSRI1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-dd76d397": {
+      "ncbi_accession": "SAMN36849344",
+      "ncbi_title": "TRSRI1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f58b1569": {
+      "ncbi_accession": "SAMN36849343",
+      "ncbi_title": "TRSRI1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d0aba7d5": {
+      "ncbi_accession": "SAMN36849342",
+      "ncbi_title": "TRSRI1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2f6db916": {
+      "ncbi_accession": "SAMN36849341",
+      "ncbi_title": "TRSRI1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-91f0e055": {
+      "ncbi_accession": "SAMN36849340",
+      "ncbi_title": "TRSRI1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6a8b1967": {
+      "ncbi_accession": "SAMN36849339",
+      "ncbi_title": "TRSRI1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b21915d0": {
+      "ncbi_accession": "SAMN36849338",
+      "ncbi_title": "TRSRI1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8cefc35a": {
+      "ncbi_accession": "SAMN36849337",
+      "ncbi_title": "TRSRI1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0d025967": {
+      "ncbi_accession": "SAMN36849336",
+      "ncbi_title": "TRSRI1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ecd05fe7": {
+      "ncbi_accession": "SAMN36849335",
+      "ncbi_title": "TRSRI0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1a372fcf": {
+      "ncbi_accession": "SAMN36849334",
+      "ncbi_title": "TRSRI0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-25c5e267": {
+      "ncbi_accession": "SAMN36849333",
+      "ncbi_title": "TRSRI0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3376e7f8": {
+      "ncbi_accession": "SAMN36849332",
+      "ncbi_title": "TRSRI0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b31d90a7": {
+      "ncbi_accession": "SAMN36849331",
+      "ncbi_title": "TRSRI0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ee976184": {
+      "ncbi_accession": "SAMN36849330",
+      "ncbi_title": "TRSRI0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-410e3ae8": {
+      "ncbi_accession": "SAMN36849329",
+      "ncbi_title": "TRSRI0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b06e26f6": {
+      "ncbi_accession": "SAMN36849328",
+      "ncbi_title": "TRSRI0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e4b22a17": {
+      "ncbi_accession": "SAMN36849327",
+      "ncbi_title": "TRSRI0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9e2b80fd": {
+      "ncbi_accession": "SAMN36849326",
+      "ncbi_title": "TRSRI0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f1d37623": {
+      "ncbi_accession": "SAMN36849325",
+      "ncbi_title": "TRSRI0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-15a0fb6b": {
+      "ncbi_accession": "SAMN36849324",
+      "ncbi_title": "TRSRI0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f1a6dab3": {
+      "ncbi_accession": "SAMN36849323",
+      "ncbi_title": "TRSRI0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-62de1c53": {
+      "ncbi_accession": "SAMN36849322",
+      "ncbi_title": "TRSRI0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0bbb7202": {
+      "ncbi_accession": "SAMN36849321",
+      "ncbi_title": "TRSRI0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a59c5e32": {
+      "ncbi_accession": "SAMN36849320",
+      "ncbi_title": "TRSRI0A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-aac2d7b4": {
+      "ncbi_accession": "SAMN36849319",
+      "ncbi_title": "TRSRI0A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-966d6aa4": {
+      "ncbi_accession": "SAMN36849318",
+      "ncbi_title": "TRSRI0A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Rhizosphere_PreTransplant_PreTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1f7e5e5f": {
+      "ncbi_accession": "SAMN36849317",
+      "ncbi_title": "TRSR0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bf0983cc": {
+      "ncbi_accession": "SAMN36849316",
+      "ncbi_title": "TRSR0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3d28b55f": {
+      "ncbi_accession": "SAMN36849315",
+      "ncbi_title": "TRSR0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8d728b4f": {
+      "ncbi_accession": "SAMN36849314",
+      "ncbi_title": "TRSR0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2946ba58": {
+      "ncbi_accession": "SAMN36849313",
+      "ncbi_title": "TRSR0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2eaf980f": {
+      "ncbi_accession": "SAMN36849312",
+      "ncbi_title": "TRSR0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e62595c3": {
+      "ncbi_accession": "SAMN36849311",
+      "ncbi_title": "TRSR0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-61501e3f": {
+      "ncbi_accession": "SAMN36849310",
+      "ncbi_title": "TRSR0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f49220f2": {
+      "ncbi_accession": "SAMN36849309",
+      "ncbi_title": "TRSR0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ebfb5538": {
+      "ncbi_accession": "SAMN36849308",
+      "ncbi_title": "TRSR0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-061b3562": {
+      "ncbi_accession": "SAMN36849307",
+      "ncbi_title": "TRSR0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-05374fc6": {
+      "ncbi_accession": "SAMN36849306",
+      "ncbi_title": "TRSR0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-28c5fbbc": {
+      "ncbi_accession": "SAMN36849305",
+      "ncbi_title": "TRSR0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-850bba85": {
+      "ncbi_accession": "SAMN36849304",
+      "ncbi_title": "TRSR0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8b73e503": {
+      "ncbi_accession": "SAMN36849303",
+      "ncbi_title": "TRSR0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-98f1e837": {
+      "ncbi_accession": "SAMN36849302",
+      "ncbi_title": "TRSR0A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0fcfe578": {
+      "ncbi_accession": "SAMN36849301",
+      "ncbi_title": "TRSR0A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-763429fd": {
+      "ncbi_accession": "SAMN36849300",
+      "ncbi_title": "TRSR0A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PreTransplant_PreTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4a322407": {
+      "ncbi_accession": "SAMN36849299",
+      "ncbi_title": "TRSL0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-62b0d48f": {
+      "ncbi_accession": "SAMN36849298",
+      "ncbi_title": "TRSL0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-74dbfa35": {
+      "ncbi_accession": "SAMN36849297",
+      "ncbi_title": "TRSL0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9e729c35": {
+      "ncbi_accession": "SAMN36849296",
+      "ncbi_title": "TRSL0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-17c9d842": {
+      "ncbi_accession": "SAMN36849295",
+      "ncbi_title": "TRSL0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f3b8f1f0": {
+      "ncbi_accession": "SAMN36849294",
+      "ncbi_title": "TRSL0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-615eb2f5": {
+      "ncbi_accession": "SAMN36849293",
+      "ncbi_title": "TRSL0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e01e2346": {
+      "ncbi_accession": "SAMN36849292",
+      "ncbi_title": "TRSL0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c52b7059": {
+      "ncbi_accession": "SAMN36849291",
+      "ncbi_title": "TRSL0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-eb3237f7": {
+      "ncbi_accession": "SAMN36849290",
+      "ncbi_title": "TRSL0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fd30f4a4": {
+      "ncbi_accession": "SAMN36849289",
+      "ncbi_title": "TRSL0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-678e2de8": {
+      "ncbi_accession": "SAMN36849288",
+      "ncbi_title": "TRSL0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7c760680": {
+      "ncbi_accession": "SAMN36849287",
+      "ncbi_title": "TRSL0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-15cc715f": {
+      "ncbi_accession": "SAMN36849286",
+      "ncbi_title": "TRSL0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7d69e3ea": {
+      "ncbi_accession": "SAMN36849285",
+      "ncbi_title": "TRSL0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-828659dd": {
+      "ncbi_accession": "SAMN36849284",
+      "ncbi_title": "TRSL0A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cd0a53a8": {
+      "ncbi_accession": "SAMN36849283",
+      "ncbi_title": "TRSL0A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-73075d00": {
+      "ncbi_accession": "SAMN36849282",
+      "ncbi_title": "TRSL0A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PreTransplant_PreTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-4e513c13": {
+      "ncbi_accession": "SAMN36849281",
+      "ncbi_title": "TRSB2F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-634d55c7": {
+      "ncbi_accession": "SAMN36849280",
+      "ncbi_title": "TRSB2F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0fde255f": {
+      "ncbi_accession": "SAMN36849279",
+      "ncbi_title": "TRSB2F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-23a6ca6e": {
+      "ncbi_accession": "SAMN36849278",
+      "ncbi_title": "TRSB2E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-79bc7d3d": {
+      "ncbi_accession": "SAMN36849277",
+      "ncbi_title": "TRSB2E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ac1e1583": {
+      "ncbi_accession": "SAMN36849276",
+      "ncbi_title": "TRSB2E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0e0149f1": {
+      "ncbi_accession": "SAMN36849275",
+      "ncbi_title": "TRSB2D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b5cb911e": {
+      "ncbi_accession": "SAMN36849274",
+      "ncbi_title": "TRSB2D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f8052089": {
+      "ncbi_accession": "SAMN36849273",
+      "ncbi_title": "TRSB2D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-eda5fba3": {
+      "ncbi_accession": "SAMN36849272",
+      "ncbi_title": "TRSB2C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0667f511": {
+      "ncbi_accession": "SAMN36849271",
+      "ncbi_title": "TRSB2C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1fd8250b": {
+      "ncbi_accession": "SAMN36849270",
+      "ncbi_title": "TRSB2C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ea5a626e": {
+      "ncbi_accession": "SAMN36849269",
+      "ncbi_title": "TRSB2B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e8a6b448": {
+      "ncbi_accession": "SAMN36849268",
+      "ncbi_title": "TRSB2B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-94909039": {
+      "ncbi_accession": "SAMN36849267",
+      "ncbi_title": "TRSB2B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-07b36879": {
+      "ncbi_accession": "SAMN36849266",
+      "ncbi_title": "TRSB2A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5af2f745": {
+      "ncbi_accession": "SAMN36849265",
+      "ncbi_title": "TRSB2A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-13fbbd92": {
+      "ncbi_accession": "SAMN36849264",
+      "ncbi_title": "TRSB2A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-60f80703": {
+      "ncbi_accession": "SAMN36849263",
+      "ncbi_title": "TRSB1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e87744d1": {
+      "ncbi_accession": "SAMN36849262",
+      "ncbi_title": "TRSB1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1038beed": {
+      "ncbi_accession": "SAMN36849261",
+      "ncbi_title": "TRSB1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b7ac6b88": {
+      "ncbi_accession": "SAMN36849260",
+      "ncbi_title": "TRSB1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-93f563bf": {
+      "ncbi_accession": "SAMN36849259",
+      "ncbi_title": "TRSB1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-311e567c": {
+      "ncbi_accession": "SAMN36849258",
+      "ncbi_title": "TRSB1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c0ee6026": {
+      "ncbi_accession": "SAMN36849257",
+      "ncbi_title": "TRSB1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c96287a4": {
+      "ncbi_accession": "SAMN36849256",
+      "ncbi_title": "TRSB1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-56d696db": {
+      "ncbi_accession": "SAMN36849255",
+      "ncbi_title": "TRSB1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b1f68253": {
+      "ncbi_accession": "SAMN36849254",
+      "ncbi_title": "TRSB1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c63004ef": {
+      "ncbi_accession": "SAMN36849253",
+      "ncbi_title": "TRSB1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9d70df11": {
+      "ncbi_accession": "SAMN36849252",
+      "ncbi_title": "TRSB1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-67ce9630": {
+      "ncbi_accession": "SAMN36849251",
+      "ncbi_title": "TRSB1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c1f73e21": {
+      "ncbi_accession": "SAMN36849250",
+      "ncbi_title": "TRSB1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e48c1e61": {
+      "ncbi_accession": "SAMN36849249",
+      "ncbi_title": "TRSB1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1322e9eb": {
+      "ncbi_accession": "SAMN36849248",
+      "ncbi_title": "TRSB1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-376e066a": {
+      "ncbi_accession": "SAMN36849247",
+      "ncbi_title": "TRSB1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ed8cf52f": {
+      "ncbi_accession": "SAMN36849246",
+      "ncbi_title": "TRSB1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_AtTransplant_AtTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5ebb1582": {
+      "ncbi_accession": "SAMN36849245",
+      "ncbi_title": "TRSB0F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e4dc4ba6": {
+      "ncbi_accession": "SAMN36849244",
+      "ncbi_title": "TRSB0F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-da67be3d": {
+      "ncbi_accession": "SAMN36849243",
+      "ncbi_title": "TRSB0F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b0c1db29": {
+      "ncbi_accession": "SAMN36849242",
+      "ncbi_title": "TRSB0E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9b230a8d": {
+      "ncbi_accession": "SAMN36849241",
+      "ncbi_title": "TRSB0E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ad19934d": {
+      "ncbi_accession": "SAMN36849240",
+      "ncbi_title": "TRSB0E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-03a09899": {
+      "ncbi_accession": "SAMN36849239",
+      "ncbi_title": "TRSB0D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b04b02c5": {
+      "ncbi_accession": "SAMN36849238",
+      "ncbi_title": "TRSB0D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fcf4415b": {
+      "ncbi_accession": "SAMN36849237",
+      "ncbi_title": "TRSB0D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-55e38bd3": {
+      "ncbi_accession": "SAMN36849236",
+      "ncbi_title": "TRSB0C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8fc78e27": {
+      "ncbi_accession": "SAMN36849235",
+      "ncbi_title": "TRSB0C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ef508fa0": {
+      "ncbi_accession": "SAMN36849234",
+      "ncbi_title": "TRSB0C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c0032474": {
+      "ncbi_accession": "SAMN36849233",
+      "ncbi_title": "TRSB0B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f81b5d16": {
+      "ncbi_accession": "SAMN36849232",
+      "ncbi_title": "TRSB0B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e522f03f": {
+      "ncbi_accession": "SAMN36849231",
+      "ncbi_title": "TRSB0B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7bdff65a": {
+      "ncbi_accession": "SAMN36849230",
+      "ncbi_title": "TRSB0A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-47fb2cbe": {
+      "ncbi_accession": "SAMN36849229",
+      "ncbi_title": "TRSB0A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7a44b68b": {
+      "ncbi_accession": "SAMN36849228",
+      "ncbi_title": "TRSB0A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "BulkSoil_PreTransplant_PreTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-65d897e0": {
+      "ncbi_accession": "SAMN36849227",
+      "ncbi_title": "TRSR1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f14e86b1": {
+      "ncbi_accession": "SAMN36849226",
+      "ncbi_title": "TRSR1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-33d460d1": {
+      "ncbi_accession": "SAMN36849225",
+      "ncbi_title": "TRSR1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1fb766b8": {
+      "ncbi_accession": "SAMN36849224",
+      "ncbi_title": "TRSR1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-b4afed1d": {
+      "ncbi_accession": "SAMN36849223",
+      "ncbi_title": "TRSR1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7fa90085": {
+      "ncbi_accession": "SAMN36849222",
+      "ncbi_title": "TRSR1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e671621f": {
+      "ncbi_accession": "SAMN36849221",
+      "ncbi_title": "TRSR1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fa8fc119": {
+      "ncbi_accession": "SAMN36849220",
+      "ncbi_title": "TRSR1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1a76b107": {
+      "ncbi_accession": "SAMN36849219",
+      "ncbi_title": "TRSR1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5e1141ae": {
+      "ncbi_accession": "SAMN36849218",
+      "ncbi_title": "TRSR1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9647e22d": {
+      "ncbi_accession": "SAMN36849217",
+      "ncbi_title": "TRSR1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f4a14efe": {
+      "ncbi_accession": "SAMN36849216",
+      "ncbi_title": "TRSR1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c1cf61b1": {
+      "ncbi_accession": "SAMN36849215",
+      "ncbi_title": "TRSR1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cb0c2a7c": {
+      "ncbi_accession": "SAMN36849214",
+      "ncbi_title": "TRSR1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7c0b2640": {
+      "ncbi_accession": "SAMN36849213",
+      "ncbi_title": "TRSR1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f0be6bcb": {
+      "ncbi_accession": "SAMN36849212",
+      "ncbi_title": "TRSR1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7bef1be1": {
+      "ncbi_accession": "SAMN36849211",
+      "ncbi_title": "TRSR1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f87a269d": {
+      "ncbi_accession": "SAMN36849210",
+      "ncbi_title": "TRSR1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Root_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-d5b12192": {
+      "ncbi_accession": "SAMN36849209",
+      "ncbi_title": "TRSL1SF3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fe0a069f": {
+      "ncbi_accession": "SAMN36849208",
+      "ncbi_title": "TRSL1SF2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7fa81532": {
+      "ncbi_accession": "SAMN36849207",
+      "ncbi_title": "TRSL1SF1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-bbe40279": {
+      "ncbi_accession": "SAMN36849206",
+      "ncbi_title": "TRSL1SE3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ce543418": {
+      "ncbi_accession": "SAMN36849205",
+      "ncbi_title": "TRSL1SE2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-963a610f": {
+      "ncbi_accession": "SAMN36849204",
+      "ncbi_title": "TRSL1SE1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9299643b": {
+      "ncbi_accession": "SAMN36849203",
+      "ncbi_title": "TRSL1SD3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a93ffee0": {
+      "ncbi_accession": "SAMN36849202",
+      "ncbi_title": "TRSL1SD2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a17056c5": {
+      "ncbi_accession": "SAMN36849201",
+      "ncbi_title": "TRSL1SD1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5ba07b78": {
+      "ncbi_accession": "SAMN36849200",
+      "ncbi_title": "TRSL1SC3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a3b22ac4": {
+      "ncbi_accession": "SAMN36849199",
+      "ncbi_title": "TRSL1SC2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-67d8c10a": {
+      "ncbi_accession": "SAMN36849198",
+      "ncbi_title": "TRSL1SC1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e30a76e2": {
+      "ncbi_accession": "SAMN36849197",
+      "ncbi_title": "TRSL1SB3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-71e47ac7": {
+      "ncbi_accession": "SAMN36849196",
+      "ncbi_title": "TRSL1SB2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e950d736": {
+      "ncbi_accession": "SAMN36849195",
+      "ncbi_title": "TRSL1SB1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-889c2c99": {
+      "ncbi_accession": "SAMN36849194",
+      "ncbi_title": "TRSL1SA3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-6bd0a9d8": {
+      "ncbi_accession": "SAMN36849193",
+      "ncbi_title": "TRSL1SA2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5fe9ea20": {
+      "ncbi_accession": "SAMN36849192",
+      "ncbi_title": "TRSL1SA1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "SenescenceLeaf_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-0a0919e5": {
+      "ncbi_accession": "SAMN36849191",
+      "ncbi_title": "TRSL1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-82fde40d": {
+      "ncbi_accession": "SAMN36849190",
+      "ncbi_title": "TRSL1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3f61f994": {
+      "ncbi_accession": "SAMN36849189",
+      "ncbi_title": "TRSL1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ad491725": {
+      "ncbi_accession": "SAMN36849188",
+      "ncbi_title": "TRSL1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-02e1af39": {
+      "ncbi_accession": "SAMN36849187",
+      "ncbi_title": "TRSL1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-5d31cdc6": {
+      "ncbi_accession": "SAMN36849186",
+      "ncbi_title": "TRSL1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001044",
+        "env_local_scale": "ENVO:01001044",
+        "env_medium": "ENVO:01001044",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-babd8234": {
+      "ncbi_accession": "SAMN36849185",
+      "ncbi_title": "TRSL1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ceed3727": {
+      "ncbi_accession": "SAMN36849184",
+      "ncbi_title": "TRSL1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-df225263": {
+      "ncbi_accession": "SAMN36849183",
+      "ncbi_title": "TRSL1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-fe68baee": {
+      "ncbi_accession": "SAMN36849182",
+      "ncbi_title": "TRSL1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-74fe5ba9": {
+      "ncbi_accession": "SAMN36849181",
+      "ncbi_title": "TRSL1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-9d6df676": {
+      "ncbi_accession": "SAMN36849180",
+      "ncbi_title": "TRSL1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1cd958df": {
+      "ncbi_accession": "SAMN36849179",
+      "ncbi_title": "TRSL1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a0c1ad9a": {
+      "ncbi_accession": "SAMN36849178",
+      "ncbi_title": "TRSL1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8227feb7": {
+      "ncbi_accession": "SAMN36849177",
+      "ncbi_title": "TRSL1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-f9026cae": {
+      "ncbi_accession": "SAMN36849176",
+      "ncbi_title": "TRSL1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e6530a1e": {
+      "ncbi_accession": "SAMN36849175",
+      "ncbi_title": "TRSL1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-76b3e9a9": {
+      "ncbi_accession": "SAMN36849174",
+      "ncbi_title": "TRSL1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Leaf_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-85b2521d": {
+      "ncbi_accession": "SAMN36849173",
+      "ncbi_title": "TRSFL1F3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans3F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e7435e49": {
+      "ncbi_accession": "SAMN36849172",
+      "ncbi_title": "TRSFL1F2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans2F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3370cb4a": {
+      "ncbi_accession": "SAMN36849171",
+      "ncbi_title": "TRSFL1F1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans1F",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-8853b40b": {
+      "ncbi_accession": "SAMN36849170",
+      "ncbi_title": "TRSFL1E3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None3E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2754e05d": {
+      "ncbi_accession": "SAMN36849169",
+      "ncbi_title": "TRSFL1E2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None2E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-a19540d2": {
+      "ncbi_accession": "SAMN36849168",
+      "ncbi_title": "TRSFL1E1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None1E",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-e76aba7b": {
+      "ncbi_accession": "SAMN36849167",
+      "ncbi_title": "TRSFL1D3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans3D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-c6ce0dad": {
+      "ncbi_accession": "SAMN36849166",
+      "ncbi_title": "TRSFL1D2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans2D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-2b69bf36": {
+      "ncbi_accession": "SAMN36849165",
+      "ncbi_title": "TRSFL1D1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans1D",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-33edf1e7": {
+      "ncbi_accession": "SAMN36849164",
+      "ncbi_title": "TRSFL1C3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None3C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-1eab0aad": {
+      "ncbi_accession": "SAMN36849163",
+      "ncbi_title": "TRSFL1C2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None2C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ee71e195": {
+      "ncbi_accession": "SAMN36849162",
+      "ncbi_title": "TRSFL1C1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None1C",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-ed39e264": {
+      "ncbi_accession": "SAMN36849161",
+      "ncbi_title": "TRSFL1B3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None3B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-cbcfe72b": {
+      "ncbi_accession": "SAMN36849160",
+      "ncbi_title": "TRSFL1B2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None2B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-834f1746": {
+      "ncbi_accession": "SAMN36849159",
+      "ncbi_title": "TRSFL1B1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_None1B",
+        "treatment": "None",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-7caf3c6b": {
+      "ncbi_accession": "SAMN36849158",
+      "ncbi_title": "TRSFL1A3",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans3A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-714ac3c3": {
+      "ncbi_accession": "SAMN36849157",
+      "ncbi_title": "TRSFL1A2",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans2A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    },
+    "nmdc:bsm-99-3d5d3300": {
+      "ncbi_accession": "SAMN36849156",
+      "ncbi_title": "TRSFL1A1",
+      "package": "MIMS.me.plant-associated.6.0",
+      "models": [
+        "MIMS.me",
+        "MIGS/MIMS/MIMARKS.plant-associated"
+      ],
+      "attributes": {
+        "replication": "Inflorescence_PostTransplant_PostTransplant_Trans1A",
+        "treatment": "Trans",
+        "collection_date": "2021-09",
+        "env_broad_scale": "ENVO:01001001",
+        "env_local_scale": "ENVO:01001001",
+        "env_medium": "ENVO:01001001",
+        "geo_loc_name": "USA: Michigan",
+        "host": "Switchgrass",
+        "lat_lon": "42.41450039 N 85.38306340 W"
+      }
+    }
+  }
+}

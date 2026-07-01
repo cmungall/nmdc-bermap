@@ -18,7 +18,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -380,6 +381,11 @@ enums:
       late season: null
   HostCropEnum:
     permissible_values:
-      switchgrass: null
       miscanthus:
         meaning: NCBITaxon:62336
+        aliases:
+        - Miscanthus × giganteus
+      panicum virgatum:
+        meaning: NCBITaxon:38727
+        aliases:
+        - switchgrass

@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-02191a34",
+      "slot": "env_broad_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {"source": "BioProject.description", "quote_or_paraphrase": "DAP-seq on cultured Novosphingobium strain"}
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "DAP-seq is performed on cultured DSM 12444 in vitro. No per-sample anchor for original isolation biome; geo_loc_name alone is insufficient per env-triad inference rules."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-02191a34",
+      "slot": "env_local_scale",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {"source": "BioProject.description", "quote_or_paraphrase": "DAP-seq on cultured Novosphingobium strain"}
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Lab DAP-seq context, no env feature for in-vitro extracted DNA."
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-02191a34",
+      "slot": "env_medium",
+      "outcome": "validator_rejected",
+      "raw_input": "",
+      "committed_curie": null,
+      "committed_label": null,
+      "evidence": [
+        {"source": "biosample.attributes.sample_type", "quote_or_paraphrase": "whole organism (cultured DSM 12444)"}
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": null,
+        "anchor_ok": null,
+        "valueset_ok": null
+      },
+      "notes": "Cultured strain DNA used in DAP-seq; no ENVO environmental-material descendant for lab culture medium."
+    }
+  ]
+}

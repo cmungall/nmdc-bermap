@@ -1,0 +1,1178 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-89819cab",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR21",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217315"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR21",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579379",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR21"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-546d5310",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR20",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217314"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR20_complete",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579378",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR20"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-82cd634c",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR19",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217313"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR19",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579377",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR19"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-db3fdaf0",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR18",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217312"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR18",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579376",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR18"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-42152915",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR17",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217311"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR17",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579375",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR17"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-810f55bb",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR16",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217310"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR16",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579374",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR16"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-375002e1",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR15",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217309"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR15",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579373",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR15"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-4a10850d",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR13",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217308"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR13",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579372",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR13"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-6340e039",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR11",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217307"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR11",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579371",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR11"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-73a48bee",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR10",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217306"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR10_complete",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579370",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR10"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-c9b1e74f",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR9",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217305"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR9",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579369",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR9"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-17c34993",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR6",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217304"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR6",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579368",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR6"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-22db0738",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR5",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217303"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "AR5_curated_draft",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579367",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR5"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-8f9c77d3",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR4",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217302"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR4",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579366",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR4"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-50c178b4",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR3",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217301"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR3",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579365",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR3"
+        }
+      }
+    },
+    {
+      "id": "nmdc:bsm-99-9ebc6195",
+      "type": "nmdc:Biosample",
+      "name": "Metagenome or environmental sample from archaeon GW2011_AR1",
+      "associated_studies": [
+        "nmdc:sty-99-7affccee"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000873",
+          "type": "nmdc:OntologyClass",
+          "name": "freshwater biome"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000061",
+          "type": "nmdc:OntologyClass",
+          "name": "underground water body"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:01001004",
+          "type": "nmdc:OntologyClass",
+          "name": "groundwater"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN03217300"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2011-06"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Metagenome.environmental.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Rifle, CO"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 39.5369,
+        "longitude": -107.7828
+      },
+      "samp_name": "GW2011_AR1",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1579364",
+          "type": "nmdc:OntologyClass",
+          "name": "archaeon GW2011_AR1"
+        }
+      }
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-7affccee",
+      "type": "nmdc:Study",
+      "name": "Reconstruction of novel archaeal genomes from metagenomic groundwater sample",
+      "description": "We used genome-resolved metagenomic analyses to investigate the diversity, genomes sizes, metabolic capacities and potential roles of Archaea in terrestrial subsurface biogeochemical cycles. We sequenced DNA from complex sediment and planktonic consortia from an aquifer adjacent to the Colorado River, USA, and reconstructed the first complete genomes for Archaea using cultivation-independent methods. We resolved two new phyla within a major, apparently deep-branching group of phyla (a superphylum). The organisms have small genomes and metabolic predictions indicate that their primary contributions to Earth\u2019s biogeochemical cycles involve carbon and hydrogen metabolism, probably associated with symbiotic and/or fermentation-based lifestyles.",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA268032"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:33:01.731583+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:33:01.731583+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Reconstruction of novel archaeal genomes from metagenomic groundwater sample"
+    }
+  ],
+  "@type": "Database"
+}

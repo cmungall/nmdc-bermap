@@ -1,0 +1,1925 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-02191a34",
+      "type": "nmdc:Biosample",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN47109753"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "missing"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA:Savannah River Site in South Carolina"
+      },
+      "lat_lon": {
+        "type": "nmdc:GeolocationValue",
+        "latitude": 33.2842,
+        "longitude": -81.7263
+      },
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:48935",
+          "type": "nmdc:OntologyClass",
+          "name": "Novosphingobium aromaticivorans"
+        }
+      }
+    }
+  ],
+  "data_generation_set": [
+    {
+      "id": "nmdc:dgns-99-6a763ad0",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f5590772"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869544"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c7bd02bc",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-09787ea2"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869543"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-690c1889",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-a6b6b153"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869542"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-43716032",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-4a043f41"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869541"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-120f17f3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-e85048e9"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869540"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-357b5948",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-4bfc2d53"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869539"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-f61c3c7a",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-fb7f9b65"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869538"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c1ffa1ee",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-4ba37180"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869537"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-b5b6f0ff",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-7e1c5779"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869536"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c5681045",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-1def7869"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869535"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-65252e2c",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-6e38afc0"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869534"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-e58e121a",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-cabf8400"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869533"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-ef4f4f72",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-7327632a"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869532"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-d8bdc7bb",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-aaf36861"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869531"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-244eb30b",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-78d35706"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869530"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-7f3fcff3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-4e2c6204"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869529"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-8499a6b7",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-12c056fe"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869528"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-6de28da6",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-74289bf1"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869527"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-b7bf70c3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-0a3b595d"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869526"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-84d7a69d",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-eebc4112"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869525"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-f7e4a875",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-30ff6fc1"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869524"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-f34f7c62",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-2c8b8a0e"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869523"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-f980c63a",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-55436a59"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869522"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-403eabe3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-b26c121e"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869521"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-9e9d2456",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-6a41b08a"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869520"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-b5d98bd0",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-16c36558"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869519"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c2bd8e3a",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-32917681"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869518"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-1e1aa94b",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f15f7b6a"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869517"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-ff005530",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-b72a72b2"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869516"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-0ff22c05",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-0ac6e5e8"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869515"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-88a0dfdb",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-b998a173"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869514"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-1bf5cb81",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f4a59511"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869513"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-20a3ce80",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-1253f679"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869512"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-31a3495b",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-3a9e53d0"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869511"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-e6735c9e",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-9466e479"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869510"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-be2906c3",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-20a8bfe9"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869509"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-33799e54",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-4f465c5c"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869508"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-289260cc",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-514b1108"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869507"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-f918b015",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-a591f75b"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869506"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-7ab48982",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-885f7a61"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869505"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-20413124",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-ce7bf0fc"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869504"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-224fad04",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-bf32dd72"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869503"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-5c1aa1ea",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-1f37a023"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869502"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-b1f22c4e",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-72acb0a4"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869501"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-bed19db5",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-bbe71f7c"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869500"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-6129032a",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-adeab070"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869499"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-31e92f20",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f7064494"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869498"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-16948187",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq",
+      "has_input": [
+        "nmdc:bsm-99-02191a34"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-6d7befe1"
+      ],
+      "analyte_category": "metagenome",
+      "associated_studies": [
+        "nmdc:sty-99-3e5ac559"
+      ],
+      "instrument_used": [
+        "nmdc:inst-15-d81ckn38"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX27869497"
+      ]
+    }
+  ],
+  "data_object_set": [
+    {
+      "id": "nmdc:dobj-99-f5590772",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559704",
+      "description": "SRA run SRR32559704 for experiment SRX27869544",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559704"
+    },
+    {
+      "id": "nmdc:dobj-99-09787ea2",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559705",
+      "description": "SRA run SRR32559705 for experiment SRX27869543",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559705"
+    },
+    {
+      "id": "nmdc:dobj-99-a6b6b153",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559706",
+      "description": "SRA run SRR32559706 for experiment SRX27869542",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559706"
+    },
+    {
+      "id": "nmdc:dobj-99-4a043f41",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559707",
+      "description": "SRA run SRR32559707 for experiment SRX27869541",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559707"
+    },
+    {
+      "id": "nmdc:dobj-99-e85048e9",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559708",
+      "description": "SRA run SRR32559708 for experiment SRX27869540",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559708"
+    },
+    {
+      "id": "nmdc:dobj-99-4bfc2d53",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559709",
+      "description": "SRA run SRR32559709 for experiment SRX27869539",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559709"
+    },
+    {
+      "id": "nmdc:dobj-99-fb7f9b65",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559710",
+      "description": "SRA run SRR32559710 for experiment SRX27869538",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559710"
+    },
+    {
+      "id": "nmdc:dobj-99-4ba37180",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559711",
+      "description": "SRA run SRR32559711 for experiment SRX27869537",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559711"
+    },
+    {
+      "id": "nmdc:dobj-99-7e1c5779",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559712",
+      "description": "SRA run SRR32559712 for experiment SRX27869536",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559712"
+    },
+    {
+      "id": "nmdc:dobj-99-1def7869",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559713",
+      "description": "SRA run SRR32559713 for experiment SRX27869535",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559713"
+    },
+    {
+      "id": "nmdc:dobj-99-6e38afc0",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559714",
+      "description": "SRA run SRR32559714 for experiment SRX27869534",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559714"
+    },
+    {
+      "id": "nmdc:dobj-99-cabf8400",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559715",
+      "description": "SRA run SRR32559715 for experiment SRX27869533",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559715"
+    },
+    {
+      "id": "nmdc:dobj-99-7327632a",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559716",
+      "description": "SRA run SRR32559716 for experiment SRX27869532",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559716"
+    },
+    {
+      "id": "nmdc:dobj-99-aaf36861",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559717",
+      "description": "SRA run SRR32559717 for experiment SRX27869531",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559717"
+    },
+    {
+      "id": "nmdc:dobj-99-78d35706",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559718",
+      "description": "SRA run SRR32559718 for experiment SRX27869530",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559718"
+    },
+    {
+      "id": "nmdc:dobj-99-4e2c6204",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559719",
+      "description": "SRA run SRR32559719 for experiment SRX27869529",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559719"
+    },
+    {
+      "id": "nmdc:dobj-99-12c056fe",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559720",
+      "description": "SRA run SRR32559720 for experiment SRX27869528",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559720"
+    },
+    {
+      "id": "nmdc:dobj-99-74289bf1",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559721",
+      "description": "SRA run SRR32559721 for experiment SRX27869527",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559721"
+    },
+    {
+      "id": "nmdc:dobj-99-0a3b595d",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559722",
+      "description": "SRA run SRR32559722 for experiment SRX27869526",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559722"
+    },
+    {
+      "id": "nmdc:dobj-99-eebc4112",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559723",
+      "description": "SRA run SRR32559723 for experiment SRX27869525",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559723"
+    },
+    {
+      "id": "nmdc:dobj-99-30ff6fc1",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559724",
+      "description": "SRA run SRR32559724 for experiment SRX27869524",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559724"
+    },
+    {
+      "id": "nmdc:dobj-99-2c8b8a0e",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559725",
+      "description": "SRA run SRR32559725 for experiment SRX27869523",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559725"
+    },
+    {
+      "id": "nmdc:dobj-99-55436a59",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559726",
+      "description": "SRA run SRR32559726 for experiment SRX27869522",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559726"
+    },
+    {
+      "id": "nmdc:dobj-99-b26c121e",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559727",
+      "description": "SRA run SRR32559727 for experiment SRX27869521",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559727"
+    },
+    {
+      "id": "nmdc:dobj-99-6a41b08a",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559728",
+      "description": "SRA run SRR32559728 for experiment SRX27869520",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559728"
+    },
+    {
+      "id": "nmdc:dobj-99-16c36558",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559729",
+      "description": "SRA run SRR32559729 for experiment SRX27869519",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559729"
+    },
+    {
+      "id": "nmdc:dobj-99-32917681",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559730",
+      "description": "SRA run SRR32559730 for experiment SRX27869518",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559730"
+    },
+    {
+      "id": "nmdc:dobj-99-f15f7b6a",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559731",
+      "description": "SRA run SRR32559731 for experiment SRX27869517",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559731"
+    },
+    {
+      "id": "nmdc:dobj-99-b72a72b2",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559732",
+      "description": "SRA run SRR32559732 for experiment SRX27869516",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559732"
+    },
+    {
+      "id": "nmdc:dobj-99-0ac6e5e8",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559733",
+      "description": "SRA run SRR32559733 for experiment SRX27869515",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559733"
+    },
+    {
+      "id": "nmdc:dobj-99-b998a173",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559734",
+      "description": "SRA run SRR32559734 for experiment SRX27869514",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559734"
+    },
+    {
+      "id": "nmdc:dobj-99-f4a59511",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559735",
+      "description": "SRA run SRR32559735 for experiment SRX27869513",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559735"
+    },
+    {
+      "id": "nmdc:dobj-99-1253f679",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559736",
+      "description": "SRA run SRR32559736 for experiment SRX27869512",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559736"
+    },
+    {
+      "id": "nmdc:dobj-99-3a9e53d0",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559737",
+      "description": "SRA run SRR32559737 for experiment SRX27869511",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559737"
+    },
+    {
+      "id": "nmdc:dobj-99-9466e479",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559738",
+      "description": "SRA run SRR32559738 for experiment SRX27869510",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559738"
+    },
+    {
+      "id": "nmdc:dobj-99-20a8bfe9",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559739",
+      "description": "SRA run SRR32559739 for experiment SRX27869509",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559739"
+    },
+    {
+      "id": "nmdc:dobj-99-4f465c5c",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559740",
+      "description": "SRA run SRR32559740 for experiment SRX27869508",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559740"
+    },
+    {
+      "id": "nmdc:dobj-99-514b1108",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559741",
+      "description": "SRA run SRR32559741 for experiment SRX27869507",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559741"
+    },
+    {
+      "id": "nmdc:dobj-99-a591f75b",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559742",
+      "description": "SRA run SRR32559742 for experiment SRX27869506",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559742"
+    },
+    {
+      "id": "nmdc:dobj-99-885f7a61",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559743",
+      "description": "SRA run SRR32559743 for experiment SRX27869505",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559743"
+    },
+    {
+      "id": "nmdc:dobj-99-ce7bf0fc",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559744",
+      "description": "SRA run SRR32559744 for experiment SRX27869504",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559744"
+    },
+    {
+      "id": "nmdc:dobj-99-bf32dd72",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559745",
+      "description": "SRA run SRR32559745 for experiment SRX27869503",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559745"
+    },
+    {
+      "id": "nmdc:dobj-99-1f37a023",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559746",
+      "description": "SRA run SRR32559746 for experiment SRX27869502",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559746"
+    },
+    {
+      "id": "nmdc:dobj-99-72acb0a4",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559747",
+      "description": "SRA run SRR32559747 for experiment SRX27869501",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559747"
+    },
+    {
+      "id": "nmdc:dobj-99-bbe71f7c",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559748",
+      "description": "SRA run SRR32559748 for experiment SRX27869500",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559748"
+    },
+    {
+      "id": "nmdc:dobj-99-adeab070",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559749",
+      "description": "SRA run SRR32559749 for experiment SRX27869499",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559749"
+    },
+    {
+      "id": "nmdc:dobj-99-f7064494",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559750",
+      "description": "SRA run SRR32559750 for experiment SRX27869498",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559750"
+    },
+    {
+      "id": "nmdc:dobj-99-6d7befe1",
+      "type": "nmdc:DataObject",
+      "name": "SRR32559751",
+      "description": "SRA run SRR32559751 for experiment SRX27869497",
+      "data_category": "instrument_data",
+      "data_object_type": "Metagenome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR32559751"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-3e5ac559",
+      "type": "nmdc:Study",
+      "name": "Novosphingobium aromaticivorans DSM 12444 DAP Seq epigenomics",
+      "description": "DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional regulators of aromatic metabolism in Novosphingobium aromaticivorans",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA1228656"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:30:47.514326+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:30:47.514326+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "Novosphingobium aromaticivorans DSM 12444 DAP Seq epigenomics"
+    }
+  ],
+  "@type": "Database"
+}

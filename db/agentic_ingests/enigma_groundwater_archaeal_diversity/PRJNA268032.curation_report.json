@@ -1,0 +1,1364 @@
+{
+  "rows": [
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-89819cab",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-546d5310",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-82cd634c",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-db3fdaf0",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-42152915",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-810f55bb",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-375002e1",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-4a10850d",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-6340e039",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-73a48bee",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-c9b1e74f",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-17c34993",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-22db0738",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-8f9c77d3",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 1 / A; 0.2 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-50c178b4",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_broad_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000873",
+      "committed_label": "freshwater biome",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer adjacent to Colorado River"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00002030",
+          "label": "aquatic biome",
+          "reason_rejected": "freshwater biome more specific"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_local_scale",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:00000061",
+      "committed_label": "underground water body",
+      "evidence": [
+        {
+          "source": "biosample.attributes.isolation_source",
+          "quote_or_paraphrase": "Rifle groundwater metagenome at time 5 / E; 0.1 micron filte"
+        },
+        {
+          "source": "BioProject.description",
+          "quote_or_paraphrase": "aquifer subsurface consortia"
+        }
+      ],
+      "candidates_considered": [
+        {
+          "curie": "ENVO:00012408",
+          "label": "aquifer",
+          "reason_rejected": "aquifer is layer, not under astronomical body part"
+        },
+        {
+          "curie": "ENVO:01000002",
+          "label": "water well",
+          "reason_rejected": "no explicit well evidence per sample"
+        }
+      ],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    },
+    {
+      "biosample_id": "nmdc:bsm-99-9ebc6195",
+      "slot": "env_medium",
+      "outcome": "predicted",
+      "raw_input": "",
+      "committed_curie": "ENVO:01001004",
+      "committed_label": "groundwater",
+      "evidence": [
+        {
+          "source": "biosample.attributes.metagenome_source",
+          "quote_or_paraphrase": "groundwater metagenome"
+        }
+      ],
+      "candidates_considered": [],
+      "validator": {
+        "info_ok": true,
+        "anchor_ok": true,
+        "valueset_ok": null
+      }
+    }
+  ]
+}

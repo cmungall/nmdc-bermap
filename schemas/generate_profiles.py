@@ -42,7 +42,8 @@ PREFIXES = {
     "UO": "http://purl.obolibrary.org/obo/UO_",
     "obo": "http://purl.obolibrary.org/obo/",
     "nmdc": "https://w3id.org/nmdc/",
-    "GOLD": "https://gold.jgi.doe.gov/",
+    "GOLD": "https://w3id.org/gold.vocab/",
+    "GOLDPATH": "https://w3id.org/gold.path/",
 }
 
 # LinkML range per Variable.value_type (CATEGORICAL and ARRAY handled specially).

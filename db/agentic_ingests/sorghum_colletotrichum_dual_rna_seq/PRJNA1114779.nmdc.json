@@ -1,0 +1,454 @@
+{
+  "biosample_set": [
+    {
+      "id": "nmdc:bsm-99-7762ece3",
+      "type": "nmdc:Biosample",
+      "name": "C. sublineola on PDA rep_04",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "in vitro culture on potato dextrose agar",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN41496121"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2015"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Florida"
+      },
+      "samp_name": "C_sub_04",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1173701",
+          "type": "nmdc:OntologyClass",
+          "name": "Colletotrichum sublineola"
+        }
+      },
+      "host_name": "Sorghum bicolor"
+    },
+    {
+      "id": "nmdc:bsm-99-7d71cf61",
+      "type": "nmdc:Biosample",
+      "name": "C. sublineola on PDA rep_03",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "in vitro culture on potato dextrose agar",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN41496120"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2015"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Florida"
+      },
+      "samp_name": "C_sub_03",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1173701",
+          "type": "nmdc:OntologyClass",
+          "name": "Colletotrichum sublineola"
+        }
+      },
+      "host_name": "Sorghum bicolor"
+    },
+    {
+      "id": "nmdc:bsm-99-202b6561",
+      "type": "nmdc:Biosample",
+      "name": "C. sublineola on PDA rep_02",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "in vitro culture on potato dextrose agar",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN41496119"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2015"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Florida"
+      },
+      "samp_name": "C_sub_02",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1173701",
+          "type": "nmdc:OntologyClass",
+          "name": "Colletotrichum sublineola"
+        }
+      },
+      "host_name": "Sorghum bicolor"
+    },
+    {
+      "id": "nmdc:bsm-99-9f206b4b",
+      "type": "nmdc:Biosample",
+      "name": "C. sublineola on PDA rep_01",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "env_broad_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "in vitro culture on potato dextrose agar",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_local_scale": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "env_medium": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "has_raw_value": "",
+        "term": {
+          "id": "ENVO:00000000",
+          "type": "nmdc:OntologyClass",
+          "name": "(not provided)"
+        }
+      },
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_biosample_identifiers": [
+        "biosample:SAMN41496118"
+      ],
+      "collection_date": {
+        "type": "nmdc:TimestampValue",
+        "has_raw_value": "2015"
+      },
+      "env_package": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "Microbe.1.0"
+      },
+      "geo_loc_name": {
+        "type": "nmdc:TextValue",
+        "has_raw_value": "USA: Florida"
+      },
+      "samp_name": "C_sub_01",
+      "samp_taxon_id": {
+        "type": "nmdc:ControlledIdentifiedTermValue",
+        "term": {
+          "id": "NCBITaxon:1173701",
+          "type": "nmdc:OntologyClass",
+          "name": "Colletotrichum sublineola"
+        }
+      },
+      "host_name": "Sorghum bicolor"
+    }
+  ],
+  "data_generation_set": [
+    {
+      "id": "nmdc:dgns-99-29cb5ee6",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "C. sublineola on PDA rep_04",
+      "has_input": [
+        "nmdc:bsm-99-7762ece3"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-88998afe"
+      ],
+      "analyte_category": "metatranscriptome",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-mr4r2w09"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX24656636"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-c87382a2",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "C. sublineola on PDA rep_03",
+      "has_input": [
+        "nmdc:bsm-99-7d71cf61"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-903948df"
+      ],
+      "analyte_category": "metatranscriptome",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-mr4r2w09"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX24656635"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-7d144d5c",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "C. sublineola on PDA rep_02",
+      "has_input": [
+        "nmdc:bsm-99-202b6561"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-f82ee43d"
+      ],
+      "analyte_category": "metatranscriptome",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-mr4r2w09"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX24656634"
+      ]
+    },
+    {
+      "id": "nmdc:dgns-99-e6821402",
+      "type": "nmdc:NucleotideSequencing",
+      "name": "C. sublineola on PDA rep_01",
+      "has_input": [
+        "nmdc:bsm-99-9f206b4b"
+      ],
+      "has_output": [
+        "nmdc:dobj-99-5f90c323"
+      ],
+      "analyte_category": "metatranscriptome",
+      "associated_studies": [
+        "nmdc:sty-99-3bf0f80a"
+      ],
+      "instrument_used": [
+        "nmdc:inst-14-mr4r2w09"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "insdc_experiment_identifiers": [
+        "insdc.sra:SRX24656633"
+      ]
+    }
+  ],
+  "data_object_set": [
+    {
+      "id": "nmdc:dobj-99-88998afe",
+      "type": "nmdc:DataObject",
+      "name": "SRR29134799",
+      "description": "SRA run SRR29134799 for experiment SRX24656636",
+      "data_category": "instrument_data",
+      "data_object_type": "Metatranscriptome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR29134799"
+    },
+    {
+      "id": "nmdc:dobj-99-903948df",
+      "type": "nmdc:DataObject",
+      "name": "SRR29134800",
+      "description": "SRA run SRR29134800 for experiment SRX24656635",
+      "data_category": "instrument_data",
+      "data_object_type": "Metatranscriptome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR29134800"
+    },
+    {
+      "id": "nmdc:dobj-99-f82ee43d",
+      "type": "nmdc:DataObject",
+      "name": "SRR29134801",
+      "description": "SRA run SRR29134801 for experiment SRX24656634",
+      "data_category": "instrument_data",
+      "data_object_type": "Metatranscriptome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR29134801"
+    },
+    {
+      "id": "nmdc:dobj-99-5f90c323",
+      "type": "nmdc:DataObject",
+      "name": "SRR29134802",
+      "description": "SRA run SRR29134802 for experiment SRX24656633",
+      "data_category": "instrument_data",
+      "data_object_type": "Metatranscriptome Raw Reads",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/SRR29134802"
+    }
+  ],
+  "study_set": [
+    {
+      "id": "nmdc:sty-99-3bf0f80a",
+      "type": "nmdc:Study",
+      "name": "The transcriptome of Colletotrichum sublineola during in vitro culture",
+      "description": "This data set serves as a reference that can be used to identify Colletotrichum sublineola transcripts that are specific to the interaction with the plant host sorghum (Sorghum bicolor. (L.) Moench)",
+      "study_category": "research_study",
+      "insdc_bioproject_identifiers": [
+        "insdc.sra:PRJNA1114779"
+      ],
+      "provenance_metadata": {
+        "type": "nmdc:ProvenanceMetadata",
+        "add_date": "2026-06-19T23:36:25.757706+00:00",
+        "git_url": "https://github.com/microbiomedata/nmdc-ingest-agent",
+        "mod_date": "2026-06-19T23:36:25.757706+00:00",
+        "version": "0.1.0",
+        "source_system_of_record": "NCBI"
+      },
+      "title": "The transcriptome of Colletotrichum sublineola during in vitro culture"
+    }
+  ],
+  "@type": "Database"
+}

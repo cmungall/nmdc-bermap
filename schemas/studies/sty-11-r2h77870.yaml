@@ -19,7 +19,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -453,7 +454,8 @@ enums:
       27 P. trichocarpa genotypes: null
   PlantCompartmentEnum:
     permissible_values:
-      root endosphere: null
+      root endosphere:
+        meaning: GOLDPATH:5304
       rhizosphere:
         meaning: ENVO:00005801
       soil:

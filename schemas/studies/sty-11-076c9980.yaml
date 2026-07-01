@@ -16,7 +16,8 @@ prefixes:
   UO: http://purl.obolibrary.org/obo/UO_
   obo: http://purl.obolibrary.org/obo/
   nmdc: https://w3id.org/nmdc/
-  GOLD: https://gold.jgi.doe.gov/
+  GOLD: https://w3id.org/gold.vocab/
+  GOLDPATH: https://w3id.org/gold.path/
 default_prefix: profiles
 default_range: string
 imports:
@@ -57,6 +58,11 @@ slots:
       role: EXPERIMENTAL_FACTOR; STUDY_DESIGN_INDEPENDENT_VARIABLE
       measured_entity: tropical soil enrichment
       value_type: CATEGORICAL
+      data_source_notes: 'No structured NMDC source field. Experimental design (control vs incubation
+        duration, C amendment identity and dose, anoxic/oxic cycling) lives only in the unstructured
+        `description` free-text column, e.g. "44 days of incubation with ryegrass amendment (10% of
+        native soil C), fluctuating 4 days anoxic (N2 gas) and 4 days oxic (21% O2) regime". Parse
+        from description to recover. Audit 2026-06-18.'
   tropical_soil_source:
     title: tropical soil source
     description: Luquillo Experimental Forest soil source represented in the enrichment experiment.
@@ -167,6 +173,11 @@ slots:
     annotations:
       role: COVARIATE; GROUPING
       value_type: ONTOLOGY_TERM
+      data_source_notes: 'NMDC asserts ENVO:00005778 (tropical soil) across all 105 biosamples;
+        env_broad_scale = ENVO:01000174 (forest biome); env_local_scale = ENVO:01001803 (tropical
+        forest). All three CURIEs are semantically appropriate for Luquillo. However NMDC stores
+        only the CURIE in *_has_raw_value and leaves *_term_name NULL — labels were never
+        populated at ingest. Backfill from ENVO. Audit 2026-06-18.'
   ecosystem:
     description: GOLD ecosystem classification recorded for the NMDC biosample.
     range: GoldEcosystemPathEnum

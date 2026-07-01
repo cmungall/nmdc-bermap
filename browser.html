@@ -1137,7 +1137,7 @@ DOE BER
                     </td>
                     <td>
                         <span class="chip value-type">Categorical</span>
-                        <div class="variable-meta"><span class="mini-label">Levels</span> switchgrass, miscanthus</div>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> miscanthus, panicum virgatum</div>
                     </td>
                     <td>
                         <div class="variable-meta"><span class="mini-label">Entity</span> perennial bioenergy crop</div>
@@ -1841,7 +1841,7 @@ DOE BER
         <div class="field">
     <span class="field-label">Replication:</span>
     <span class="field-value">
-            Samples span five Great Lakes region field locations.
+            Samples span five Great Lakes region field locations (per study description; NMDC data shows six geo_loc_name values).
     </span>
 </div>
 
@@ -1878,22 +1878,23 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">nitrogen treatment</div>
-                        <div class="variable-description">Low- versus high-nitrogen cropping system condition for switchgrass plots.</div>
+                        <div class="variable-description">Binary split-plot nitrogen fertilization treatment per the GLBRC Marginal Land Experiment design: Fert (+N, nitrogen-amended) vs Unfert (0N, unfertilized control). Initiated 2014-2016; balanced 50/50 across all cropping systems and sites. Exact kg N/ha rate at the KBS GLBRC sustainability data portal (https://data.sustainability.glbrc.org/datasets/132).</div>
                     </td>
                     <td>
                         <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
                     </td>
                     <td>
                         <span class="chip value-type">Categorical</span>
-                        <div class="variable-meta"><span class="mini-label">Levels</span> low nitrogen, high nitrogen</div>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> Unfert, Fert</div>
                     </td>
                     <td>
-                        <div class="variable-meta"><span class="mini-label">Entity</span> switchgrass cropping system</div>
-                        <div class="variable-meta"><span class="mini-label">Fields</span> nitrogen_treatment, n_treatment, fertilizer_regimen</div>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> GLBRC MLE split-plot</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> nitrogen_treatment, n_treatment, FertStatus, fertilizer_regimen</div>
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">BERVO</span> <a href="https://w3id.org/bervo/BERVO_0000895" target="_blank" class="ontology-term">total fertilizer N amendment <span>BERVO:0000895</span></a>
@@ -2365,7 +2366,7 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">current vegetation</div>
-                        <div class="variable-description">Current vegetation descriptor recorded for the NMDC biosample.</div>
+                        <div class="variable-description">Current vegetation descriptor recorded for the NMDC biosample. Three categories — Switchgrass (1884), Restored Prairie (396), Undisturbed Control (396).</div>
                     </td>
                     <td>
                         <div class="chip-list">
@@ -6405,7 +6406,7 @@ DOE BER
         <div class="field">
     <span class="field-label">Notes:</span>
     <span class="field-value">
-            Catalog of 20 variables (4 design factors, 2 measured outcomes, 10 covariates, 3 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 696 samples.
+            Catalog of 25 variables (8 design factors, 2 measured outcomes, 10 covariates, 4 spatial indices, 1 temporal index) derived from NMDC biosample attributes across 696 samples. Five design variables (host_crop, soil_compartment, plot_id, biological_replicate, sampling_timepoint) are derived — not surfaced as structured NMDC fields, recoverable from samp_name parsing or NCBI BioSample custom attributes.
     </span>
 </div>
 
@@ -6415,7 +6416,7 @@ DOE BER
         <details class="subsection variables-section" open>
     <summary>
         Study Variables
-        <span class="section-count">20</span>
+        <span class="section-count">25</span>
     </summary>
     <div class="variable-table-wrap">
         <table class="variables-table">
@@ -6432,12 +6433,13 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">stand age</div>
-                        <div class="variable-description">Age of the Miscanthus stand in the replicated chronosequence trial.</div>
+                        <div class="variable-description">Age of the Miscanthus stand at sampling, computed as collection year minus planting year. Not surfaced as a structured field in NMDC biosample metadata; derive from the planting-year token in samp_name (e.g., `_2017_` → 2017) or from the NCBI BioSample `Year` custom attribute. Corn comparator plots are stand age 0.</div>
                     </td>
                     <td>
                         <div class="chip-list">
     <span class="chip variable-role">Study Design Independent Variable</span>
     <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
                     </td>
@@ -6459,12 +6461,13 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">nitrogen fertilizer rate</div>
-                        <div class="variable-description">Nitrogen fertilizer application rate assigned to Miscanthus field plots.</div>
+                        <div class="variable-description">Nitrogen fertilizer application rate assigned to Miscanthus or Corn field plots. Levels are 0/200/400 kg N/ha for Miscanthus and 0/200/300 kg N/ha for the Corn comparator. Not stored as a numeric in NMDC; parse from the string field experimental_factor_other (e.g. &#34;N_fertilization_rate: 200 kg/ha&#34;) or from NCBI BioSample Nitrogen custom attribute.</div>
                     </td>
                     <td>
                         <div class="chip-list">
     <span class="chip variable-role">Experimental Factor</span>
     <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
 </div>
 
                     </td>
@@ -6473,7 +6476,7 @@ DOE BER
                         <div class="variable-meta"><span class="mini-label">Units</span> kilogram per hectare</div>
                     </td>
                     <td>
-                        <div class="variable-meta"><span class="mini-label">Entity</span> Miscanthus field plot</div>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> Miscanthus or Corn field plot</div>
                         <div class="variable-meta"><span class="mini-label">Fields</span> nitrogen_rate, n_rate, fertilizer_regimen</div>
                     </td>
                     <td><div class="ontology-list">
@@ -6492,7 +6495,7 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">soil sampling depth</div>
-                        <div class="variable-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata.</div>
+                        <div class="variable-description">Depth interval for Miscanthus soil samples recorded in NMDC biosample metadata. NMDC stores depth as a min/max range (e.g., 0.0–0.1 m via `depth_has_minimum_numeric_value` and `depth_has_maximum_numeric_value`); this scalar slot captures the maximum (lower-boundary) value.</div>
                     </td>
                     <td>
                         <div class="chip-list">
@@ -6508,7 +6511,7 @@ DOE BER
                     <td>
                         <div class="variable-meta"><span class="mini-label">Entity</span> soil sampling interval</div>
                         <div class="variable-meta"><span class="mini-label">Matrix</span> soil</div>
-                        <div class="variable-meta"><span class="mini-label">Fields</span> depth, soil_depth</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> depth, depth_has_maximum_numeric_value, soil_depth</div>
                     </td>
                     <td><div class="ontology-list">
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000018" target="_blank" class="ontology-term">depth <span>MIXS:0000018</span></a>
@@ -6875,7 +6878,7 @@ DOE BER
                 <tr>
                     <td>
                         <div class="variable-name">other treatment</div>
-                        <div class="variable-description">Additional treatment descriptor recorded in NMDC biosample metadata.</div>
+                        <div class="variable-description">Additional treatment descriptor recorded in NMDC biosample metadata. For this study, `other_treatment` is overloaded to carry the host crop (Miscanthus vs Corn comparator); see the `host_crop` slot for the structured form.</div>
                     </td>
                     <td>
                         <div class="chip-list">
@@ -6891,6 +6894,153 @@ DOE BER
                         <div class="variable-meta"><span class="mini-label">Fields</span> other_treatment</div>
                     </td>
                     <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+</div>
+</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="variable-name">host crop</div>
+                        <div class="variable-description">Host crop sampled — Miscanthus × giganteus (perennial bioenergy crop) or Corn (Zea mays, annual-crop comparator). Source-of-record on NMDC is the string field `other_treatment`; on NCBI BioSample it is the custom `Plant` attribute.</div>
+                    </td>
+                    <td>
+                        <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+</div>
+
+                    </td>
+                    <td>
+                        <span class="chip value-type">Categorical</span>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> miscanthus, zea mays</div>
+                    </td>
+                    <td>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> bioenergy crop host</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> other_treatment, host_species, crop</div>
+                    </td>
+                    <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000248" target="_blank" class="ontology-term">host common name <span>MIXS:0000248</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+</div>
+</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="variable-name">soil compartment</div>
+                        <div class="variable-description">Soil compartment sampled — rhizosphere vs bulk soil. Not captured in any NMDC structured field for this study (`env_medium` is uniformly `bulk soil` for all 696 biosamples, which is incorrect for the 648 rhizosphere samples). Recoverable from the `samp_name` token (`_A_` / `_B_` / `_C_` markers → rhizosphere; `_Bulk_` / `_BULK_DNA_` markers → bulk soil) or from the NCBI BioSample `Soil` custom attribute (`Rizosphere` for the 648 INSDC-deposited samples; 48 bulk samples were not deposited to NCBI).</div>
+                    </td>
+                    <td>
+                        <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Grouping</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+                    </td>
+                    <td>
+                        <span class="chip value-type">Categorical</span>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> rhizosphere, bulk soil</div>
+                    </td>
+                    <td>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> soil microbial habitat</div>
+                        <div class="variable-meta"><span class="mini-label">Matrix</span> soil</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> compartment, sample_type</div>
+                    </td>
+                    <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000013" target="_blank" class="ontology-term">local environmental context <span>MIXS:0000013</span></a>
+<span class="mapping-relation">closematch</span>
+</div>
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000014" target="_blank" class="ontology-term">environmental medium <span>MIXS:0000014</span></a>
+<span class="mapping-relation">closematch</span>
+</div>
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+</div>
+</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="variable-name">plot id</div>
+                        <div class="variable-description">Field plot identifier within the CABBI EnergyFarm chronosequence trial. Not surfaced as a structured NMDC field; parse from the `P&lt;n&gt;` token in `samp_name` (e.g., `P50`) or from NCBI BioSample `Plot` custom attribute.</div>
+                    </td>
+                    <td>
+                        <div class="chip-list">
+    <span class="chip variable-role">Identifier</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+                    </td>
+                    <td>
+                        <span class="chip value-type">Identifier</span>
+                    </td>
+                    <td>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> field plot</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> plot, plot_number</div>
+                    </td>
+                    <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+</div>
+</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="variable-name">biological replicate</div>
+                        <div class="variable-description">Biological replicate identifier within a (plot × date) cell — three sub-samples per cell on the early April timepoints, two on the later timepoints. Encoded in `samp_name` as `_A_` / `_B_` / `_C_` markers, or (for the 2018-04-25 amplicon batch) by sequential sample IDs. Captured on NCBI BioSample as the `replicate` custom attribute.</div>
+                    </td>
+                    <td>
+                        <div class="chip-list">
+    <span class="chip variable-role">Study Design Independent Variable</span>
+    <span class="chip variable-role">Derived</span>
+</div>
+
+                    </td>
+                    <td>
+                        <span class="chip value-type">Categorical</span>
+                    </td>
+                    <td>
+                        <div class="variable-meta"><span class="mini-label">Entity</span> biological replicate sub-sample</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> replicate, rep</div>
+                    </td>
+                    <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
+</div>
+</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="variable-name">sampling timepoint</div>
+                        <div class="variable-description">Growing-season sampling timepoint within the 2018 collection window. Five timepoints were sampled (2018-04-25, 04-29, 05-14, 05-30, 07-03); use this slot for the time-series axis independent of the `collection_date` covariate.</div>
+                    </td>
+                    <td>
+                        <div class="chip-list">
+    <span class="chip variable-role">Date Time Variable</span>
+    <span class="chip variable-role">Study Design Independent Variable</span>
+</div>
+
+                    </td>
+                    <td>
+                        <span class="chip value-type">Datetime</span>
+                    </td>
+                    <td>
+                        <div class="variable-meta"><span class="mini-label">Time series</span> yes; five timepoints across one growing season</div>
+                        <div class="variable-meta"><span class="mini-label">Fields</span> timepoint, collection_date</div>
+                    </td>
+                    <td><div class="ontology-list">
+    <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000011" target="_blank" class="ontology-term">collection date <span>MIXS:0000011</span></a>
+<span class="mapping-relation">exactmatch</span>
+</div>
     <div><span class="mini-label">MIxS</span> <a href="https://w3id.org/mixs/0000008" target="_blank" class="ontology-term">experimental factor <span>MIXS:0000008</span></a>
 <span class="mapping-relation">exactmatch</span>
 </div>
@@ -8835,7 +8985,7 @@ DOE BER
                     </td>
                     <td>
                         <span class="chip value-type">Categorical</span>
-                        <div class="variable-meta"><span class="mini-label">Levels</span> rhizosphere, root, shoot</div>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> rhizosphere, root, shoot system</div>
                     </td>
                     <td>
                         <div class="variable-meta"><span class="mini-label">Entity</span> poplar-associated microbial habitat</div>
@@ -11560,6 +11710,11 @@ DOE BER
 <span class="pi-info">(Trent R. Northen)</span>    </summary>
     <div class="item-content">
         <p class="description">Multi-laboratory ring trial using EcoFAB 2.0 devices with synthetic bacterial communities and Brachypodium distachyon to test reproducibility and standardization.</p>
+        <div class="field">
+            <span class="field-label">BioProjects:</span>
+            <span class="field-value">
+                <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1151037" target="_blank">PRJNA1151037</a>            </span>
+        </div>
         <div class="field">
             <span class="field-label">Source:</span>
             <span class="field-value">
@@ -30266,7 +30421,7 @@ DOE BER
                     </td>
                     <td>
                         <span class="chip value-type">Categorical</span>
-                        <div class="variable-meta"><span class="mini-label">Levels</span> open water, wetland, shoreline, upland forest</div>
+                        <div class="variable-meta"><span class="mini-label">Levels</span> area of open water, wetland ecosystem, shoreline, upland forest</div>
                     </td>
                     <td>
                         <div class="variable-meta"><span class="mini-label">Entity</span> coastal gradient position</div>
